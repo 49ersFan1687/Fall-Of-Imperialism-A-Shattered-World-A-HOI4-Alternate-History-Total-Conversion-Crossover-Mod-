@@ -6,9 +6,14 @@
  CSD: "Cascadia"
  CSD_DEF: "Cascadia"
  CSD_ADJ: "Cascadian"
+ OPM: "Oregon Military District"
+ OPM_DEF: "Oregon Provisional Military District"
+ OPM_ADJ: "Oregonian"
 #PARTIES
  CAL_democratic_party: "Progressive Party"
  CAL_democratic_party_long: "§YProgressive Party§!\n§gDid You Know You Can Add Descriptions to these?§!"
  CSD_neutrality_party: "CNM"
  CSD_neutrality_party_long: "Cascadian National Movement"
+ OPM_paternal_autocrat_party: "Military Socialists"
+ OPM_paternal_autocrat_party_long: "§YMilitary Socialists of Oregon§!"
 
