@@ -1851,7 +1851,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_restoring_civilian_government
+	id = CAL_restoring_civilian_governance
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -1861,7 +1861,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_the_new_bastion_of_freedom
 	}
-	x = 3
+	x = 2
 	y = 2
 	relative_position_id = CAL_hans_dont_surf
 	completion_reward = {
