@@ -331,6 +331,7 @@ characters = {
 			desc = 
 			expire = "1994.4.20"
 			traits = {  }
+			skill = 
 			attack_skill = 
 			defense_skill = 
 			maneuvering_skill = 
