@@ -1,3 +1,4 @@
 CAL = "countries/California.txt"
 CSD = "countries/Cascadia.txt"
+GER = "countries/Greater German Reich.txt"
 NCA = "countries/Northern Second Continental Army Command.txt"
