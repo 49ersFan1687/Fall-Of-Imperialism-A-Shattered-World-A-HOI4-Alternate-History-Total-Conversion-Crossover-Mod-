@@ -1,6 +1,6 @@
 characters = {
 
-    # AKB Clique #
+    # AKB Clique - Field Marshals #
     CSD_Atsuko_Maeda = {
         name = CAS_atsuko_maeda
 		portraits = {
@@ -46,11 +46,56 @@ characters = {
 			logistics_skill =
 		}
 	}
+	CSD_Minami_Takahashi = {
+		name = CAS_Minami_Takahashi
+		portraits = {
+			civilian = {
+				large =
+			}
+			army = {
+				large =
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	# AKB Clique - Generals #
 	
     # Crystal Prep Clique - The Progressives #
-	CAS_twilight_sparkle = {
+	CSD_twilight_sparkle = {
 		
 	}
+	CSD_fluttershy = {
+		
+	}
+	CSD_rainbow_dash = {
+		
+	}
+	CSD_pinkie_pie = {
+		
+	}
+	CSD_applejack = {
+		
+	}
+	CSD_rarity = {
+		
+	}
+	CSD_sunset_shimmer = {
+		
+	}
+	CSD_starlight_glimmer = {
+		
+	}
+	CSD_trixie_lulamoon = {
+		
+	}
+
 
 	# Vytal Clique - The Militarists #
 	CSD_Ruby_Rose = {
@@ -67,7 +112,30 @@ characters = {
 	}
 
 	# Kuoh Clique - The Conservatives #
+	CSD_issei_hyoudou = {
+		name = CAS_issei_hyoudou
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
 
+	}
+	CSD_rossweisse = {
+		name = CAS_rossweisse
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+
+	}
 	# Sensha-Do Clique - The Moderates #
 
 	# Hope Peak Clique - The Corporatists #
