@@ -1119,6 +1119,10 @@ CSD = {
 	color = rgb { 35 92 37 }
 	color_ui = rgb { 35 92 37 }	
 }
+OPM = {
+	color = rgb { 77 77 77 }
+	color_ui = rgb { 77 77 77 }	
+}
 
 
 
