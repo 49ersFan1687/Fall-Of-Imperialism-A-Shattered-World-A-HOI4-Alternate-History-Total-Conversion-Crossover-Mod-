@@ -1,7 +1,7 @@
 characters = {
 
     # AKB Clique #
-    CAS_Atsuko_Maeda = {
+    CSD_Atsuko_Maeda = {
         name = CAS_atsuko_maeda
 		portraits = {
 			civilian = {
@@ -27,7 +27,7 @@ characters = {
 			logistics_skill =
 		}
     }
-	CAS_Yuko_Oshima = {
+	CSD_Yuko_Oshima = {
 		name = CAS_Yuko_Oshima
 		portraits = {
 			civilian = {
@@ -37,6 +37,14 @@ characters = {
 				large = 
 			}
 		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill = 
+			defense_skill =
+			planning_skill = 
+			logistics_skill =
+		}
 	}
 	
     # Crystal Prep Clique - The Progressives #
@@ -45,6 +53,18 @@ characters = {
 	}
 
 	# Vytal Clique - The Militarists #
+	CSD_Ruby_Rose = {
+		name = CAS_ruby_rose
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+
+	}
 
 	# Kuoh Clique - The Conservatives #
 
