@@ -44,6 +44,7 @@ ideologies = {
     }
     paternal_autocrat = {
         types = {
+	red_junta_ideology = { can_be_randomly_selected = no }
 
         }
 	color = { 54 54 54 }
