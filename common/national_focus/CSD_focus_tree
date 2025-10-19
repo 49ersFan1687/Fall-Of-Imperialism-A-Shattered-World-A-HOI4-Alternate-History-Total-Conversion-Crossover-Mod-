@@ -1,27 +1,27 @@
 ## Intro ##
 
 focus_tree = {
-    id = CAS_starting_focus_tree
+    id = CSD_starting_focus_tree
     country = {
 		factor = 0
 		modifier = { 
             add = 10 
-            tag = CAS 
+            tag = CSD 
         }
 	}
     default = no
-	shared_focus = CAS_sunrise_on_the_shattered_pacific_northwest
+	shared_focus = CSD_start_to_recover
 
     continuous_focus_position = { x = 2500 y = 50 }
 }
 
 focus_tree = {
-    id = CAS_economy_tree
+    id = CSD_economy_tree
     country = {
         factor = 0
         modifier = {
             add = 10
-            tag = CAS
+            tag = CSD
         }
     }
     default = no
