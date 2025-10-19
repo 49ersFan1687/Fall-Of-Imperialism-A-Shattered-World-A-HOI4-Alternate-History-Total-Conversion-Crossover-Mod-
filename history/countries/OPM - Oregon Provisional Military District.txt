@@ -1,5 +1,5 @@
 capital = 385
-
+recruit_character = OPM_kat_mikaelsen
 
 set_war_support = 0.6
 set_stability = 0.4
