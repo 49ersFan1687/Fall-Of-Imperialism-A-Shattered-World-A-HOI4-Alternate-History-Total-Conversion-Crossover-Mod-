@@ -1,5 +1,5 @@
 characters = {
-
+	# Second Continental Army - Oregon Rangers #
     OPM_kat_mikaelsen = {
         name = OPM_kat_mikaelsen
 		portraits = {
@@ -24,5 +24,72 @@ characters = {
 
     }
 
+	OPM_Autumn_Lockhart = {
+		name = OPM_Autumn_Lockhart
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/OPM/autumnlockhart.png"
+	
+				small = "gfx/leaders/OPM/autumnlockhartportrait.png"
+			}
+			army = {
+				large = "gfx/leaders/OPM/autumnlockhart.png"
 
+				small = "gfx/leaders/OPM/autumnlockhartportrait.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_AUTUMN_LOCKHART_DESC"
+			expire = "1995.8.20"
+			ideology = red_junta_ideology
+			traits = {
+			}
+		}
+	}
+
+	OPM_Nora_Malakian = {
+		name = OPM_Nora_Malakian
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/OPM/noramalakian.png"
+	
+				small = "gfx/leaders/OPM/noramalakianportrait.png"
+			}
+			army = {
+				large = "gfx/leaders/OPM/noramalakian.png"
+
+				small = "gfx/leaders/OPM/noramalakianportrait.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_NORA_MALAKIAN_DESC"
+			expire = "1995.8.20"
+			ideology = red_junta_ideology
+			traits = {
+			}
+		}
+	}
+
+	OPM_Swann_Holloway = {
+		name = OPM_Swann_Holloway
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/OPM/swannholloway.png"
+	
+				small = "gfx/leaders/OPM/swannhollowayportrait.png"
+			}
+			army = {
+				large = "gfx/leaders/OPM/swannholloway.png"
+
+				small = "gfx/leaders/OPM/swannhollowayportrait.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SWANN_HOLLOWAY_DESC"
+			expire = "1995.8.20"
+			ideology = red_junta_ideology
+			traits = {
+			}
+		}
+	}
 }
