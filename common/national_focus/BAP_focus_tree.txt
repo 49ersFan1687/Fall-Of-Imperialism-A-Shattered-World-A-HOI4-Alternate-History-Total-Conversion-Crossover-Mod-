@@ -1,0 +1,14 @@
+focus_tree = {
+    id = BAP_starting_focus_tree
+    country = {
+		factor = 0
+		modifier = { 
+            add = 10 
+            tag = CAL 
+        }
+	}
+    default = no
+	shared_focus = BAP_the_collapse
+
+    continuous_focus_position = { x = 2500 y = 50 }
+}
