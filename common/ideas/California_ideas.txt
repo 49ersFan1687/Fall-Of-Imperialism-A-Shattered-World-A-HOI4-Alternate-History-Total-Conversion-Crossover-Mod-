@@ -101,7 +101,7 @@ ideas = {
 
             }
         }
-        ### Army Reform Ideas -  ###
+        ### Army Reform Ideas - Shared Ideas ###
 
         ### Canadian Military Mission ####
         CAL_Alexanders_Advice = { #General Alexander has been chosen to help Improve the Second Continental Army
