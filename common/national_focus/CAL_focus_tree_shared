@@ -1868,3 +1868,260 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_first_of_many_steps_to_victory"
 	}
 }
+
+shared_focus = {
+	id = CAL_restore_the_us_constitution
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_restoring_civilian_governance
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_restoring_civilian_governance
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_first_of_many_steps_to_victory"
+	}
+}
+
+shared_focus = {
+	id = CAL_reinstate_congress
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_restore_the_us_constitution
+	}
+	x = -2
+	y = 1
+	relative_position_id = CAL_restore_the_us_constitution
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reinstate_the_senate"
+	}
+}
+
+shared_focus = {
+	id = CAL_reinstate_the_supreme_court
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_restore_the_us_constitution
+	}
+	x = 2
+	y = 1
+	relative_position_id = CAL_restore_the_us_constitution
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reinstate_the_supreme_court"
+	}
+}
+
+shared_focus = {
+	id = CAL_reinstate_the_executive_branch
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_restore_the_us_constitution
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_restore_the_us_constitution
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_eighty_fourth_congress"
+	}
+}
+
+shared_focus = {
+	id = CAL_the_state_of_the_union
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_reinstate_congress
+	}
+	prerequisite = {
+		focus = CAL_reinstate_the_executive_branch
+	}
+	prerequisite = {
+		focus = CAL_reinstate_the_supreme_court
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_reinstate_the_executive_branch
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_state_of_the_union"
+	}
+}
+
+shared_focus = {
+	id = CAL_the_job_of_congress
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_state_of_the_union
+	}
+	x = -3.5
+	y = 1
+	relative_position_id = CAL_the_state_of_the_union
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_job_of_congress"
+	}
+}
+
+shared_focus = {
+	id = CAL_the_role_of_the_executive
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_state_of_the_union
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_the_state_of_the_union
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_role_of_the_executive"
+	}
+}
+
+shared_focus = {
+	id = CAL_the_role_of_the_supreme_court
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_state_of_the_union
+	}
+	x = 3.5
+	y = 1
+	relative_position_id = CAL_the_state_of_the_union
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_role_of_the_supreme_court"
+	}
+}
+
+shared_focus = {
+	id = CAL_convene_the_eighty_second_congress
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_job_of_congress
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_the_job_of_congress
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_convene_the_eighty_second_congress"
+	}
+}
+
+shared_focus = {
+	id = CAL_pass_new_executive_orders
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_role_of_the_executive
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_the_role_of_the_executive
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_pass_new_executive_order_number_nine_two_hundred"
+	}
+}
+
+shared_focus = {
+	id = CAL_hear_case_of_community_service_vs_california
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_role_of_the_supreme_court
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_the_role_of_the_supreme_court
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_hear_case_of_community_service_vs_california"
+	}
+}
+
+shared_focus = {
+	id = CAL_discuss_the_federal_budget
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_convene_the_eighty_second_congress
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_convene_the_eighty_second_congress
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_discuss_the_federal_budget"
+	}
+}
+
+shared_focus = {
+	id = CAL_reestablish_oversight_committee
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_convene_the_eighty_second_congress
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_convene_the_eighty_second_congress
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reestablish_house_oversight_committee"
+	}
+}
+
+shared_focus = {
+
+}
