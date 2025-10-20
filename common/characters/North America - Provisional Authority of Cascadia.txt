@@ -336,7 +336,6 @@ characters = {
 			defense_skill = 
 			maneuvering_skill = 
 			coordination_skill =
-
 		}
 		advisior = { 
 			slot = 
@@ -346,8 +345,99 @@ characters = {
 			traits = {
 
 			}
-		 }
+		}
+	}
+	CSD_Tomomi_Itano = {
+		name = CSD_Tomomi_Itano
+		portraits = {
+			army = {
+				large = 
+				small =
+			}
+			civilian = {
+				large =
+			}
+		}
+		naval_leader = {
+			desc =
+			expire = "1994.4.20"
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			maneuvering_skill =
+			coordination_skill =
+		}
+		advisior = { 
+			slot = 
+			idea_token = 
+			ledger = navy
+			allowed = { original_tag = CAL }
+			traits = {
 
+			}
+		}
+	}
+	CSD_Haruna_Kojima = {
+		name = CSD_Haruna_Kojima
+		portraits = {
+			army = {
+				large = 
+				small =
+			}
+			civilian = {
+				large =
+			}
+		}
+		naval_leader = {
+			desc =
+			expire = "1994.4.20"
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			maneuvering_skill =
+			coordination_skill =
+		}
+		advisior = { 
+			slot = 
+			idea_token = 
+			ledger = navy
+			allowed = { original_tag = CAL }
+			traits = {
+
+			}
+		}
+	}
+	CSD_Rena_Matsui = {
+		name = CSD_Rena_Matsui
+		portraits = {
+			army = {
+				large =
+				small =
+			}
+			civilian = {
+				large =
+			}
+		}
+		naval_leader = {
+			desc =
+			expire = "1994.4.20"
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			maneuvering_skill =
+			coordination_skill =
+		}
+		advisior = {
+			slot =
+			idea_token =
+			ledger = navy
+			allowed = { original_tag = CAL }
+			traits = { }
+		}
+	}
     # Crystal Prep Clique - The Progressives #
 	CSD_twilight_sparkle = {
 		
