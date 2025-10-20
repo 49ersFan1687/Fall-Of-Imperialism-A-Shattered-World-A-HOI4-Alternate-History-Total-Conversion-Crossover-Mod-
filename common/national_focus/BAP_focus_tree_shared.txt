@@ -1,0 +1,248 @@
+shared_focus = {
+    id = BAP_the_collapse
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    x = 15
+    y = 0
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus BAP_the_collapse"
+    }
+}
+
+shared_focus = {
+    id = BAP_reds_rising
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = BAP_the_collapse
+    }
+    x = 0
+    y = 1
+    relative_position_id = BAP_the_collapse
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus BAP_reds_rising"
+    }
+}
+
+shared_focus = {
+    id = BAP_the_spirit_of_san_francisco
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = BAP_reds_rising
+    }
+    x = 0
+    y = 1
+    relative_position_id = BAP_reds_rising
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus BAP_the_spirit_of_san_francisco"
+    }
+}
+
+shared_focus = {
+    id = BAP_enduring
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = BAP_the_spirit_of_san_francisco
+    }
+    x = -2
+    y = 1
+    relative_position_id = BAP_the_spirit_of_san_francisco
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus BAP_enduring"
+    }
+}
+
+shared_focus = {
+    id = BAP_surviving
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = BAP_the_spirit_of_san_francisco
+    }
+    x = 0
+    y = 1
+    relative_position_id = BAP_the_spirit_of_san_francisco
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus BAP_surviving"
+    }
+}
+
+shared_focus = {
+    id = BAP_rebuilding
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = BAP_the_spirit_of_san_francisco
+    }
+    x = 2
+    y = 1
+    relative_position_id = BAP_the_spirit_of_san_francisco
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus BAP_rebuilding"
+    }
+}
+
+shared_focus = {
+    id = BAP_tick_tock
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = BAP_enduring
+    }
+    x = 0
+    y = 1
+    relative_position_id = BAP_enduring
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus BAP_tick_tock"
+    }
+}
+
+shared_focus = {
+    id = BAP_repurpose_uscg_alameda
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = BAP_surviving
+    }
+    x = 0
+    y = 1
+    relative_position_id = BAP_surviving
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus BAP_repurpose_uscg_alameda"
+    }
+}
+
+shared_focus = {
+    id = BAP_the_maritime_union
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = BAP_rebuilding
+    }
+    x = 0
+    y = 1
+    relative_position_id = BAP_rebuilding
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus BAP_the_maritime_union"
+    }
+}
+
+shared_focus = {
+    id = BAP_trawling_the_pacific
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = BAP_tick_tock
+    }
+    x = 0
+    y = 1
+    relative_position_id = BAP_tick_tock
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus BAP_trawling_the_pacific"
+    }
+}
+
+shared_focus = {
+    id = BAP_the_art_of_compromise
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = BAP_the_maritime_union
+    }
+    x = 0
+    y = 1
+    relative_position_id = BAP_the_maritime_union
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus BAP_the_art_of_compromise"
+    }
+}
+
+shared_focus = {
+    id = BAP_stop_the_clock
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = BAP_trawling_the_pacific
+    }
+    x = 0
+    y = 1
+    relative_position_id = BAP_trawling_the_pacific
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus BAP_stop_the_clock"
+    }
+}
+
+shared_focus = {
+    id = BAP_begin_the_american_socialist_experiment
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = BAP_stop_the_clock
+    }
+    prerequisite = {
+        focus = BAP_repurpose_uscg_alameda
+    }
+    prerequisite = {
+        focus = BAP_the_art_of_compromise
+    }
+    x = 2
+    y = 1
+    relative_position_id = BAP_stop_the_clock
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus BAP_begin_the_american_socialist_experiment"
+    }
+}
