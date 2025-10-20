@@ -511,7 +511,94 @@ characters = {
 			}
 		}
 	}
-	CSD_
+	CSD_Jaune_Arc = {
+		name = CAS_jaune_arc
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+	}
+	CSD_Nora_Valkyrie = {
+		name = CAS_nora_valkyrie
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+	}
+	CSD_Pyrrha_Nikos = {
+		name = CAS_pyrrha_nikos
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+	}
+	CSD_Lie_Ren = {
+		name = CAS_lie_ren
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+	}
+	CSD_Coco_Adel = {
+		name = CAS_coco_adel
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+	}
+	CSD_Velvet_Scarlatina = {
+		name = CAS_velvet_scarlatina
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+	}
+	CSD_Fox_Alistair = {
+		name = CAS_fox_alistair
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+	}
+	CSD_Yatsuhashi_Daichi = {
+		name = CAS_yatsuhashi_daichi
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+	}
 
 	# Kuoh Clique - The Conservatives #
 	CSD_issei_hyoudou = {
