@@ -27,6 +27,7 @@ characters = {
 			expire = "1994.4.20"
 			ideology = 
 			traits = {
+
 			}
 		}
         advisor = {
@@ -79,12 +80,12 @@ characters = {
 			slot = 
 		}
 		field_marshal = {
-			traits = {  }
-			skill
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill = 
+			traits = { career_officer politically_connected organizer offensive_doctrine logistics_wizard }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
 		}
 	}
 	CAL_Omar_Nelson_Bradley = {
@@ -101,12 +102,12 @@ characters = {
 			slot = 
 		}
 		field_marshal = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill = 
+			traits = { trait_engineer cautious organizer brilliant_strategist career_officer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 	# Generals #
@@ -130,12 +131,12 @@ characters = {
 				}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = { offensive_doctrine trait_reckless panzer_leader armor_officer trickster cavalry_leader }
+			skill = 4 
+			attack_skill = 6
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3 
 		}
 	}
 	CAL_Walton_Harris_Walker = {
