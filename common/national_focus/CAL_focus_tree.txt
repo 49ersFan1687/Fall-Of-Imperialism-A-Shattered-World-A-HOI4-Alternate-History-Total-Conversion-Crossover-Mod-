@@ -56,5 +56,14 @@ focus_tree = {
 
 
 focus_tree = {
-    id = 
+    id = CAL_air_force_tree
+    country = {
+        factor = 0 
+        modifier = {
+            add = 10
+            tag = CAL
+        }
+    }
+    default = no
+    shared_focus =
 }
