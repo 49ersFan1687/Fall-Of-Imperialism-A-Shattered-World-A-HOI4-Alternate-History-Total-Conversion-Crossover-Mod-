@@ -21,6 +21,12 @@
  WPG: "Washington Government"
  WPG_DEF: "Washington Provisional Government"
  WPG_ADJ: "Washingtonian"
+ FBH: "Free Beasts"
+ FBH_DEF: "Free Beasts of Idaho"
+ FBH_ADJ: "Beastian"
+ IHO: "Idaho Government"
+ IHO_DEF: "Idaho Provisional Government"
+ IHO_ADJ: "Idahoan"
 #PARTIES
  CAL_democratic_party: "Progressive Party"
  CAL_democratic_party_long: "§YProgressive Party§!\n§gDid You Know You Can Add Descriptions to these?§!"

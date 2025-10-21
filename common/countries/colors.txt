@@ -1127,6 +1127,10 @@ OSG = {
 	color = rgb { 46 43 33 }
 	color_ui = rgb { 46 43 33 }
 }
+USO = {
+	color = rgb { 75 55 77 }
+	color_ui = rgb { 75 55 77 }
+}
 PCD = {
 	color = rgb { 122 47 47 }
 	color_ui = rgb { 122 47 47 }
@@ -1135,6 +1139,15 @@ WPG = {
 	color = rgb { 70 114 117 }
 	color_ui = rgb { 70 114 117 }
 }
+IHO = {
+	color = rgb { 73 75 110 }
+	color_ui = rgb { 73 75 110 }
+}
+FBH = {
+	color = rgb { 110 97 73 }
+	color_ui = rgb { 110 97 73 }
+}
+
 
 
 

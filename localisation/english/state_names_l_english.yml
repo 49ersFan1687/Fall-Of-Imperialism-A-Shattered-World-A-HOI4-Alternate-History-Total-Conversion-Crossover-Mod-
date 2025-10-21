@@ -524,7 +524,7 @@
  STATE_384:0 "Nebraska"
  STATE_385:0 "Portland"
  STATE_386:0 "West Washington"
- STATE_387:0 "Idaho"
+ STATE_387:0 "Greater Boise"
  STATE_388:0 "Montana"
  STATE_389:0 "North Dakota"
  STATE_390:0 "South Dakota"
@@ -1214,6 +1214,8 @@
  STATE_1019: "Steen's Mountain"
  STATE_1020: "North East Oregon"
  STATE_1021: "East Washington"
+ STATE_1022: "Idaho Panhandle"
+ STATE_1023: "South Idaho"
 
 
 
