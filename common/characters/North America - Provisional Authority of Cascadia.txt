@@ -539,13 +539,139 @@ characters = {
 			logistics_skill =
 		}
 	}
-	CSD_trini_kwan = {}
-	CSD_rocky_de_santos = {}
-	CSD_adam_park = {}
-	CSD_aisha_campbell = {}
-	CSD_katherine_hillard = {}
-	CSD_tanya_sloan = {}
-	CSD_trey_of_triforia = {}
+	CSD_trini_kwan = {
+		name = CAS_trini_kwan
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	CSD_rocky_de_santos = {
+		name = CAS_rocky_de_santos
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	CSD_adam_park = {
+		name = CAS_adam_park
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	CSD_aisha_campbell = {
+		name = CAS_aisha_campbell
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	CSD_katherine_hillard = {
+		name = CAS_katherine_hillard
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	CSD_tanya_sloan = {
+		name = CAS_tanya_sloan
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	CSD_trey_of_triforia = {
+		name = CAS_trey_of_triforia
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
 
     # Crystal Prep Clique - The Progressives #
 	CSD_twilight_sparkle = {
