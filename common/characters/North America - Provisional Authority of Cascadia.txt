@@ -439,7 +439,7 @@ characters = {
 			traits = { }
 		}
 	}
-	# Cascadian Army Rangers - The Power Rangers #
+	# Cascadian Army Rangers - The Power Rangers (Field Marshals) #
 
 	CSD_jason_lee_scott = {
 		name = CAS_jason_lee_scott
@@ -453,6 +453,85 @@ characters = {
 		}
 		field_marshal = {
 			traits = {  }
+			skill = 
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	CSD_zack_taylor = {
+		name = CAS_zack_taylor
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	CSD_billy_cranston = {
+		name = CAS_billy_cranston
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	CSD_tommy_oliver = {
+		name = CAS_tommy_oliver
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+
+	# Cascadian Army Rangers - The Power Rangers (Generals) #
+
+	CSD_kimberly_ann_hart = {
+		name = CAS_kimberly_ann_hart
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
 			skill =
 			attack_skill =
 			defense_skill =
@@ -460,10 +539,6 @@ characters = {
 			logistics_skill =
 		}
 	}
-	CSD_zack_taylor = {}
-	CSD_billy_cranston = {}
-	CSD_tommy_oliver = {}
-	CSD_kimberly_hart = {}
 	CSD_trini_kwan = {}
 	CSD_rocky_de_santos = {}
 	CSD_adam_park = {}
