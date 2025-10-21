@@ -442,7 +442,7 @@ characters = {
 	# Cascadian Army Rangers - The Power Rangers (Field Marshals) #
 
 	CSD_jason_lee_scott = {
-		name = CAS_jason_lee_scott
+		name = CSD_jason_lee_scott
 		portraits = {
 			civilian = {
 				large = 
@@ -461,7 +461,7 @@ characters = {
 		}
 	}
 	CSD_zack_taylor = {
-		name = CAS_zack_taylor
+		name = CSD_zack_taylor
 		portraits = {
 			civilian = {
 				large = 
@@ -480,7 +480,7 @@ characters = {
 		}
 	}
 	CSD_billy_cranston = {
-		name = CAS_billy_cranston
+		name = CSD_billy_cranston
 		portraits = {
 			civilian = {
 				large = 
@@ -499,7 +499,7 @@ characters = {
 		}
 	}
 	CSD_tommy_oliver = {
-		name = CAS_tommy_oliver
+		name = CSD_tommy_oliver
 		portraits = {
 			civilian = {
 				large = 
@@ -521,7 +521,7 @@ characters = {
 	# Cascadian Army Rangers - The Power Rangers (Generals) #
 
 	CSD_kimberly_ann_hart = {
-		name = CAS_kimberly_ann_hart
+		name = CSD_kimberly_ann_hart
 		portraits = {
 			civilian = {
 				large = 
@@ -540,7 +540,7 @@ characters = {
 		}
 	}
 	CSD_trini_kwan = {
-		name = CAS_trini_kwan
+		name = CSD_trini_kwan
 		portraits = {
 			civilian = {
 				large = 
@@ -559,7 +559,7 @@ characters = {
 		}
 	}
 	CSD_rocky_de_santos = {
-		name = CAS_rocky_de_santos
+		name = CSD_rocky_de_santos
 		portraits = {
 			civilian = {
 				large = 
@@ -578,7 +578,7 @@ characters = {
 		}
 	}
 	CSD_adam_park = {
-		name = CAS_adam_park
+		name = CSD_adam_park
 		portraits = {
 			civilian = {
 				large = 
@@ -597,7 +597,7 @@ characters = {
 		}
 	}
 	CSD_aisha_campbell = {
-		name = CAS_aisha_campbell
+		name = CSD_aisha_campbell
 		portraits = {
 			civilian = {
 				large = 
@@ -616,7 +616,7 @@ characters = {
 		}
 	}
 	CSD_katherine_hillard = {
-		name = CAS_katherine_hillard
+		name = CSD_katherine_hillard
 		portraits = {
 			civilian = {
 				large = 
@@ -635,7 +635,7 @@ characters = {
 		}
 	}
 	CSD_tanya_sloan = {
-		name = CAS_tanya_sloan
+		name = CSD_tanya_sloan
 		portraits = {
 			civilian = {
 				large = 
@@ -654,7 +654,7 @@ characters = {
 		}
 	}
 	CSD_trey_of_triforia = {
-		name = CAS_trey_of_triforia
+		name = CSD_trey_of_triforia
 		portraits = {
 			civilian = {
 				large = 
@@ -675,7 +675,7 @@ characters = {
 
     # Crystal Prep Clique - The Progressives #
 	CSD_twilight_sparkle = {
-		name = CAS_twilight_sparkle
+		name = CSD_twilight_sparkle
 		portraits = {
 			civilian = {
 				large = 
@@ -694,7 +694,7 @@ characters = {
 		}
 	}
 	CSD_pinkie_pie = {
-		name = CAS_pinkie_pie
+		name = CSD_pinkie_pie
 		portraits = {
 			civilian = {
 				large = 
@@ -713,7 +713,7 @@ characters = {
 		}
 	}
 	CSD_starlight_glimmer = {
-		name = CAS_starlight_glimmer
+		name = CSD_starlight_glimmer
 		portraits = {
 			civilian = {
 				large = 
@@ -732,7 +732,7 @@ characters = {
 		}
 	}
 	CSD_rainbow_dash = {
-		name = CAS_rainbow_dash
+		name = CSD_rainbow_dash
 		portraits = {
 			civilian = {
 				large = 
@@ -751,7 +751,7 @@ characters = {
 		}
 	}
 	CSD_mi_amore_cadenza = {
-		name = CAS_mi_amore_cadenza
+		name = CSD_mi_amore_cadenza
 		portraits = {
 			civilian = {
 				large = 
@@ -770,7 +770,7 @@ characters = {
 		}
 	}
 	CSD_fluttershy = {
-
+		name = CSD
 	}
 	CSD_applejack = {
 		
