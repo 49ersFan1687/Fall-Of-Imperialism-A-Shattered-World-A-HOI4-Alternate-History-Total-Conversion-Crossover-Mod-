@@ -441,12 +441,30 @@ characters = {
 	}
 	# Cascadian Army Rangers - The Power Rangers #
 
-	CSD_jason_lee_scott = {}
+	CSD_jason_lee_scott = {
+		name = CAS_jason_lee_scott
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
 	CSD_zack_taylor = {}
 	CSD_billy_cranston = {}
+	CSD_tommy_oliver = {}
 	CSD_kimberly_hart = {}
 	CSD_trini_kwan = {}
-	CSD_tommy_oliver = {}
 	CSD_rocky_de_santos = {}
 	CSD_adam_park = {}
 	CSD_aisha_campbell = {}
@@ -629,6 +647,53 @@ characters = {
 	}
 
 	# Kuoh Clique - The Conservatives #
+	CSD_sona_sitri = {
+		name = CAS_sona_sitri
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+
+	}
+	CSD_rias_gremory = {
+		name = CAS_rias_gremory
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+
+	}
+	CSD_akeno_himejima = {
+		name = CAS_akeno_himejima
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+
+	}
+	CSD_tsubaki_shinra = {
+		name = CAS_tsubaki_shinra
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+	}
 	CSD_issei_hyoudou = {
 		name = CAS_issei_hyoudou
 		portraits = {
@@ -657,6 +722,7 @@ characters = {
 	CSD_miho_nishizumi = {
 		
 	}
+
 
 
 	# Hope Peak Clique - The Corporatists #
