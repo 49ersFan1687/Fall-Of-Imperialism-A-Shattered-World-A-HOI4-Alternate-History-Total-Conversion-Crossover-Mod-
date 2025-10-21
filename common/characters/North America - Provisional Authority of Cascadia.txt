@@ -770,28 +770,92 @@ characters = {
 		}
 	}
 	CSD_fluttershy = {
-		name = CSD
+		name = CSD_fluttershy
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
 	}
 	CSD_applejack = {
-		
+		name = CSD_applejack
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
 	}
 	CSD_rarity = {
-		
+		name = CSD_rarity
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
 	}
 	CSD_sunset_shimmer = {
-		
+		name = CSD_sunset_shimmer
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
 	}
 	CSD_trixie_lulamoon = {
-		
+		name = CSD_trixie_lulamoon
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
 	}
 	CSD_sweetie_belle = {
-		
+		name = CSD_sweetie_belle
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
 	}
 	CSD_scootaloo = {
-		
+		name = CSD_scootaloo
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
 	}
 	CSD_apple_bloom = {
-		
+		name = CSD_apple_bloom
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
 	}
 	# Vytal Clique - The Militarists #
 	CSD_Ruby_Rose = {
