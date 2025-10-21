@@ -516,7 +516,7 @@
  STATE_376:0 "New Mexico"
  STATE_377:0 "Arizona"
  STATE_378:0 "Coastal California"
- STATE_379:0 "Nevada"
+ STATE_379:0 "Central Nevada"
  STATE_380:0 "Utah"
  STATE_381:0 "Wyoming"
  STATE_382:0 "Colorado"
@@ -1224,6 +1224,10 @@
  STATE_1029: "Death Valley"
  STATE_1030: "Mojave"
  STATE_1031: "Central California"
+ STATE_1032: "Las Vegas"
+ STATE_1033: "Dry Valley"
+ STATE_1034: "Northern Nevada"
+
 
 
 

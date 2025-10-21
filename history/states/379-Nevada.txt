@@ -1,0 +1,36 @@
+state = {
+	id = 379
+	name = "STATE_379"
+	manpower = 43019
+	
+	state_category = rural
+	
+	resources = {
+		steel = 70 # was: 136
+		tungsten = 32 # was: 62
+		aluminium = 25 # was: 44
+	}
+
+	history = {
+
+		owner = NVM
+		add_core_of = NVM
+
+		buildings = {
+			infrastructure = 2
+
+
+		}
+		victory_points = {
+			10422 2 # Reno
+		}
+
+		
+	}
+
+	provinces = {
+		4521 4607 4736 4816 10422 12399
+	}
+
+	local_supplies = 0.0 
+}

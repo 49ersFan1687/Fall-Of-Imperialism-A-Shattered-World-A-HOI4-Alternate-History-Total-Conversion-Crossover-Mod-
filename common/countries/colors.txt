@@ -1167,6 +1167,19 @@ CRR = {
 	color = rgb { 49 112 69 }
 	color_ui = rgb { 49 112 69 }
 }
+ELS = {
+	color = rgb { 19 84 38 }
+	color_ui = rgb { 19 84 38 }
+}
+NVM = {
+	color = rgb { 117 111 102 }
+	color_ui = rgb { 117 111 102 }
+}
+NVR = {
+	color = rgb { 138 145 73 }
+	color_ui = rgb { 138 145 73 }
+}
+
 
 
 

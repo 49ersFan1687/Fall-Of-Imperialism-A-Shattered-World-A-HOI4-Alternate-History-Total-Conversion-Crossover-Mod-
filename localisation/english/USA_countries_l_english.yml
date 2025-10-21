@@ -41,6 +41,16 @@
  CRR_ADJ: "Coloradon"
  BAP: "Bay Area"
  BAP_DEF: "Bay Area People's Republic"
+ BAP_ADJ: "Bay Areonan"
+ ELS: "E.L.S."
+ ELS_DEF: "Earth Liberation Society"
+ ELS_ADJ: "Liberators"
+ NVM: "Nevada Military District"
+ NVM_DEF: "Nevada Military District"
+ NVM_ADJ: "Nevadan"
+ NVR: "Nevada Free Republic"
+ NVR_DEF: "Nevada Free Republic"
+ NVR_ADJ: "Nevadan"
 #PARTIES
 #California Republic
  CAL_democratic_party: "Progressive Party"
