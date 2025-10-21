@@ -1,0 +1,34 @@
+state = {
+	id = 1027
+	name = "STATE_1027"
+	manpower = 1213626
+	
+	state_category = large_town
+
+	history = {
+
+		owner = BAP
+		add_core_of = BAP
+
+		buildings = {
+			infrastructure = 4 #was: 6
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 1
+			
+
+		}
+		victory_points = {
+			9713 1 
+		}
+		
+		
+
+	}
+
+	provinces = {
+		6757 6681 6745 677 11658 9713
+	}
+
+	local_supplies = 0.0 
+}
