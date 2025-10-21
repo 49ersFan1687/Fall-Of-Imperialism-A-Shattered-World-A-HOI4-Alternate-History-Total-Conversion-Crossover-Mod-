@@ -187,3 +187,177 @@ shared_focus = {
         log = "[GetDateText]: [Root.GetName]: completed focus ANR_the_election_season"
     }
 }
+
+shared_focus = {
+	id = NAR_american_threat_commission_assessments
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		has_completed_focus = NAR_election_season
+	}
+	x = -8
+	y = 0
+	relative_position_id = ANR_the_bastard_of_the_american_collapse
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NAR_american_threat_commission_assessments completed"
+
+	}
+}
+
+shared_focus = {
+    id = NAR_reds_in_new_york
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = NAR_american_threat_commission_assessments
+    }
+    x = -1.5
+    y = 1
+    relative_position_id = NAR_american_threat_commission_assessments
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus NAR_reds_in_new_york"
+    }
+}
+
+shared_focus = {
+    id = NAR_pennsylvanian_traitors
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = NAR_american_threat_commission_assessments
+    }
+    x = 1.5
+    y = 1
+    relative_position_id = NAR_american_threat_commission_assessments
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus NAR_pennsylvanian_traitors"
+    }
+}
+
+shared_focus = {
+    id = NAR_kentuckys_commision
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = NAR_american_threat_commission_assessments
+    }
+    x = 0
+    y = 2
+    relative_position_id = NAR_american_threat_commission_assessments
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus NAR_kentuckys_commision"
+    }
+}
+
+shared_focus = {
+    id = NAR_the_new_england_cesspit
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = NAR_reds_in_new_york
+    }
+    x = 0
+    y = 2.5
+    relative_position_id = NAR_reds_in_new_york
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus NAR_the_new_england_cesspit"
+    }
+}
+
+shared_focus = {
+    id = NAR_georgia_blues_and_florida_reds
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = NAR_kentuckys_commision
+    }
+    x = 0
+    y = 2.5
+    relative_position_id = NAR_kentuckys_commision
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus NAR_georgia_blues_and_florida_reds"
+    }
+}
+
+shared_focus = {
+    id = ANR_a_loyal_silent_new_jersey
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = NAR_pennsylvanian_traitors
+    }
+    x = 0
+    y = 2.5
+    relative_position_id = NAR_pennsylvanian_traitors
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_a_loyal_silent_new_jersey"
+    }
+}
+
+shared_focus = {
+    id = NAR_george_wallaces_fiefdom
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = NAR_the_new_england_cesspit
+        focus = NAR_georgia_blues_and_florida_reds
+        focus = ANR_a_loyal_silent_new_jersey
+    }
+    x = 0
+    y = 1
+    relative_position_id = NAR_georgia_blues_and_florida_reds
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus NAR_george_wallaces_fiefdom"
+    }
+}
+
+shared_focus = {
+    id = NAR_the_other_hoover
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = NAR_george_wallaces_fiefdom
+    }
+    x = 0
+    y = 1
+    relative_position_id = NAR_george_wallaces_fiefdom
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus NAR_the_other_hoover"
+    }
+}
