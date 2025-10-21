@@ -1,6 +1,6 @@
 ﻿l_english:
 #COUNTRY NAMES#
- CAL: "California Republic"
+ CAL: "California"
  CAL_DEF: "California Republic"
  CAL_ADJ: "Californian"
  CSD: "Cascadia"
@@ -27,6 +27,20 @@
  IHO: "Idaho Government"
  IHO_DEF: "Idaho Provisional Government"
  IHO_ADJ: "Idahoan"
+ CLG: "California State Guard"
+ CLG_DEF: "California State Guard"
+ CLG_ADJ: "Californian"
+ CLN: "California National Republic"
+ CLN_DEF: "California National Republic"
+ CLN_ADJ: "California"
+ NCA: "Second Continental Army"
+ NCA_DEF: "Northern Second Continental Army Command"
+ NCA_ADJ: "Continental"
+ CRR: "Colorado River"
+ CRR_DEF: "Colorado River Repbulic"
+ CRR_ADJ: "Coloradon"
+ BAP: "Bay Area"
+ BAP_DEF: "Bay Area People's Republic"
 #PARTIES
 #California Republic
  CAL_democratic_party: "Progressive Party"
@@ -48,7 +62,7 @@
  FBH_eostericism_party_long: "§YThe Free Beasts§!"
  #Washington
  WPG_conservatism_party: "Tory Party"
- WPG_conservatism_party: "§YThe Tory Party§!"
+ WPG_conservatism_party_long: "§YThe Tory Party§!"
  #Unit 731
  USO_national_socialism_party: "IDFK"
  USO_national_socialism_party_long: "§YI Dont Fucking Know§!"

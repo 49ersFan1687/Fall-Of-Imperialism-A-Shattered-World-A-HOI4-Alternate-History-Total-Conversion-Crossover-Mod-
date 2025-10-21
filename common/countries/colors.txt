@@ -1147,6 +1147,28 @@ FBH = {
 	color = rgb { 110 97 73 }
 	color_ui = rgb { 110 97 73 }
 }
+NCA = {
+	color = rgb { 101 115 90 }
+	color_ui = rgb { 101 115 90 }
+}
+BAP = {
+	color = rgb { 148 77 130 }
+	color_ui = rgb { 148 77 130 }
+}
+CLG = {
+	color = rgb { 35 64 55 }
+	color_ui = rgb { 35 64 55 }
+}
+CLN = {
+	color = rgb { 74 82 51 }
+	color_ui = rgb { 74 82 51 }
+}
+CRR = {
+	color = rgb { 49 112 69 }
+	color_ui = rgb { 49 112 69 }
+}
+
+
 
 
 

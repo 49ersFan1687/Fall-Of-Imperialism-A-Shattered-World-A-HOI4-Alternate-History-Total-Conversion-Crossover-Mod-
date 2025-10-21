@@ -1,0 +1,36 @@
+state = {
+	id = 1028
+	name = "STATE_1028"
+	manpower = 934890
+	
+	state_category = metropolis
+
+	history = {
+
+		owner = BAP
+		add_core_of = BAP
+
+		buildings = {
+			infrastructure = 4 #was: 6
+			arms_factory = 3
+			industrial_complex = 1
+			dockyard = 1
+			9671 = {
+				naval_base = 4
+			}
+
+		}
+		victory_points = {
+			9671 25
+		}
+		
+		
+
+	}
+
+	provinces = {
+		3678 9671
+	}
+
+	local_supplies = 0.0 
+}

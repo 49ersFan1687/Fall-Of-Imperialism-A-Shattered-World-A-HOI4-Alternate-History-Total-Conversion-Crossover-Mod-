@@ -515,7 +515,7 @@
  STATE_375:0 "Texas"
  STATE_376:0 "New Mexico"
  STATE_377:0 "Arizona"
- STATE_378:0 "California"
+ STATE_378:0 "Coastal California"
  STATE_379:0 "Nevada"
  STATE_380:0 "Utah"
  STATE_381:0 "Wyoming"
@@ -1216,6 +1216,14 @@
  STATE_1021: "East Washington"
  STATE_1022: "Idaho Panhandle"
  STATE_1023: "South Idaho"
+ STATE_1024: "Northern Redwoods"
+ STATE_1025: "Northern California"
+ STATE_1026: "Tahoe"
+ STATE_1027: "Sacramento"
+ STATE_1028: "San Francisco"
+ STATE_1029: "Death Valley"
+ STATE_1030: "Mojave"
+ STATE_1031: "Central California"
 
 
 
