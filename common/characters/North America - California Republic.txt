@@ -147,12 +147,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = { politically_connected career_officer panzer_leader offensive_doctrine }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 	CAL_Smedley_Darlington_Butler = {
@@ -163,12 +163,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = { offensive_doctrine inspirational_leader commando naval_invader career_officer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
 		}
 	}
 	CAL_Glynda_Goodwitch = {
@@ -211,12 +211,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = { paratrooper offensive_doctrine career_officer commando }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 	CAL_Mark_Wayne_Clark = {
@@ -239,7 +239,7 @@ characters = {
 		name = CAL_Henry_Harley_Arnold
 		portraits = {
 			army = {
-
+				large =
 			}
 		}
 		corps_commander = {
