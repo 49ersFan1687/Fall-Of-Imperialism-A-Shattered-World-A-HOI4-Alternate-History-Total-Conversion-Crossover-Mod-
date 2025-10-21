@@ -1,0 +1,34 @@
+state = {
+	id = 1021
+	name = "STATE_1021"
+	manpower = 520191
+	
+	state_category = rural
+
+	history = {
+
+		owner = WPG
+		add_core_of = WPG
+
+		buildings = {
+			infrastructure = 2 #was: 6
+			arms_factory = 1
+			industrial_complex = 3
+			
+			# Grand Coulee Dam
+			#10327 = { dam = 1 }
+
+		}
+		
+		victory_points = {
+			1690 1 # Spokane
+		}
+
+	}
+
+	provinces = {
+		10693 1690 10327 12673 4747 10690 10687
+	}
+
+	local_supplies = 0.0 
+}

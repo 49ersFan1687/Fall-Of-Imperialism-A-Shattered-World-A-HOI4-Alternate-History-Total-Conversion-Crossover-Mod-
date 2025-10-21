@@ -1123,6 +1123,19 @@ OPM = {
 	color = rgb { 77 77 77 }
 	color_ui = rgb { 77 77 77 }	
 }
+OSG = {
+	color = rgb { 46 43 33 }
+	color_ui = rgb { 46 43 33 }
+}
+PCD = {
+	color = rgb { 122 47 47 }
+	color_ui = rgb { 122 47 47 }
+}
+WPG = {
+	color = rgb { 70 114 117 }
+	color_ui = rgb { 70 114 117 }
+}
+
 
 
 
