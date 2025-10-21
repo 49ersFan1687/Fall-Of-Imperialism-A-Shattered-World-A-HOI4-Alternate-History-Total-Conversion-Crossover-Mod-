@@ -53,3 +53,8 @@ focus_tree = {
     default = no
     shared_focus = 
 }
+
+
+focus_tree = {
+    id = 
+}
