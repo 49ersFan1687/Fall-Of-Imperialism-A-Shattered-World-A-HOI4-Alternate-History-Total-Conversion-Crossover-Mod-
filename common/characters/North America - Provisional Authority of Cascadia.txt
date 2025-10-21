@@ -795,7 +795,7 @@ characters = {
 	}
 	# Vytal Clique - The Militarists #
 	CSD_Ruby_Rose = {
-		name = CAS_ruby_rose
+		name = CSD_ruby_rose
 		portraits = {
 			civilian = {
 				large = 
@@ -806,7 +806,7 @@ characters = {
 		}
 	}
 	CSD_Weiss_Schnee = {
-		name = CAS_weiss_schnee
+		name = CSD_weiss_schnee
 		portraits = {
 			civilian = {
 				large = 
@@ -817,7 +817,7 @@ characters = {
 		}
 	}
 	CSD_Blake_Belladonna = {
-		name = CAS_blake_belladonna
+		name = CSD_blake_belladonna
 		portraits = {
 			civilian = {
 				large = 
@@ -828,7 +828,7 @@ characters = {
 		}
 	}
 	CSD_Yang_Xiao_Long = {
-		name = CAS_yang_xiao_long
+		name = CSD_yang_xiao_long
 		portraits = {
 			civilian = {
 				large = 
@@ -839,7 +839,7 @@ characters = {
 		}
 	}
 	CSD_Jaune_Arc = {
-		name = CAS_jaune_arc
+		name = CSD_jaune_arc
 		portraits = {
 			civilian = {
 				large = 
@@ -850,7 +850,7 @@ characters = {
 		}
 	}
 	CSD_Nora_Valkyrie = {
-		name = CAS_nora_valkyrie
+		name = CSD_nora_valkyrie
 		portraits = {
 			civilian = {
 				large = 
@@ -861,7 +861,7 @@ characters = {
 		}
 	}
 	CSD_Pyrrha_Nikos = {
-		name = CAS_pyrrha_nikos
+		name = CSD_pyrrha_nikos
 		portraits = {
 			civilian = {
 				large = 
@@ -872,7 +872,7 @@ characters = {
 		}
 	}
 	CSD_Lie_Ren = {
-		name = CAS_lie_ren
+		name = CSD_lie_ren
 		portraits = {
 			civilian = {
 				large = 
@@ -883,7 +883,7 @@ characters = {
 		}
 	}
 	CSD_Coco_Adel = {
-		name = CAS_coco_adel
+		name = CSD_coco_adel
 		portraits = {
 			civilian = {
 				large = 
@@ -894,7 +894,7 @@ characters = {
 		}
 	}
 	CSD_Velvet_Scarlatina = {
-		name = CAS_velvet_scarlatina
+		name = CSD_velvet_scarlatina
 		portraits = {
 			civilian = {
 				large = 
@@ -905,7 +905,7 @@ characters = {
 		}
 	}
 	CSD_Fox_Alistair = {
-		name = CAS_fox_alistair
+		name = CSD_fox_alistair
 		portraits = {
 			civilian = {
 				large = 
@@ -916,7 +916,7 @@ characters = {
 		}
 	}
 	CSD_Yatsuhashi_Daichi = {
-		name = CAS_yatsuhashi_daichi
+		name = CSD_yatsuhashi_daichi
 		portraits = {
 			civilian = {
 				large = 
@@ -929,7 +929,7 @@ characters = {
 
 	# Kuoh Clique - The Conservatives #
 	CSD_sona_sitri = {
-		name = CAS_sona_sitri
+		name = CSD_sona_sitri
 		portraits = {
 			civilian = {
 				large = 
@@ -941,7 +941,7 @@ characters = {
 
 	}
 	CSD_rias_gremory = {
-		name = CAS_rias_gremory
+		name = CSD_rias_gremory
 		portraits = {
 			civilian = {
 				large = 
@@ -953,7 +953,7 @@ characters = {
 
 	}
 	CSD_akeno_himejima = {
-		name = CAS_akeno_himejima
+		name = CSD_akeno_himejima
 		portraits = {
 			civilian = {
 				large = 
@@ -965,7 +965,7 @@ characters = {
 
 	}
 	CSD_tsubaki_shinra = {
-		name = CAS_tsubaki_shinra
+		name = CSD_tsubaki_shinra
 		portraits = {
 			civilian = {
 				large = 
@@ -976,7 +976,7 @@ characters = {
 		}
 	}
 	CSD_issei_hyoudou = {
-		name = CAS_issei_hyoudou
+		name = CSD_issei_hyoudou
 		portraits = {
 			civilian = {
 				large = 
@@ -988,7 +988,7 @@ characters = {
 
 	}
 	CSD_rossweisse = {
-		name = CAS_rossweisse
+		name = CSD_rossweisse
 		portraits = {
 			civilian = {
 				large = 
