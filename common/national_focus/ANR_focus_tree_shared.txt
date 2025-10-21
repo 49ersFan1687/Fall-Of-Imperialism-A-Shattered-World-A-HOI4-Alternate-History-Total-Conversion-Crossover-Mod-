@@ -156,17 +156,9 @@ shared_focus = {
     }
     prerequisite = {
         focus = ANR_the_afp_remnants
-    }
-    prerequisite = {
         focus = ANR_the_german_dogs
-    }
-    prerequisite = {
         focus = ANR_tafts_republicans
-    }
-    prerequisite = {
         focus = ANR_the_dark_horse
-    }
-    prerequisite = {
         focus = ANR_stroms_democrats
     }
     x = 0
