@@ -675,16 +675,102 @@ characters = {
 
     # Crystal Prep Clique - The Progressives #
 	CSD_twilight_sparkle = {
-		
-	}
-	CSD_fluttershy = {
-		
-	}
-	CSD_rainbow_dash = {
-		
+		name = CAS_twilight_sparkle
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
 	}
 	CSD_pinkie_pie = {
-		
+		name = CAS_pinkie_pie
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	CSD_starlight_glimmer = {
+		name = CAS_starlight_glimmer
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	CSD_rainbow_dash = {
+		name = CAS_rainbow_dash
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	CSD_mi_amore_cadenza = {
+		name = CAS_mi_amore_cadenza
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	CSD_fluttershy = {
+
 	}
 	CSD_applejack = {
 		
@@ -695,13 +781,7 @@ characters = {
 	CSD_sunset_shimmer = {
 		
 	}
-	CSD_starlight_glimmer = {
-		
-	}
 	CSD_trixie_lulamoon = {
-		
-	}
-	CSD_mi_amore_cadenza = {
 		
 	}
 	CSD_sweetie_belle = {
