@@ -1,6 +1,7 @@
 characters = {
 
     # AKB Clique - Field Marshals #
+
     CSD_Atsuko_Maeda = {
         name = CSD_atsuko_maeda
 		portraits = {
@@ -438,6 +439,21 @@ characters = {
 			traits = { }
 		}
 	}
+	# Cascadian Army Rangers - The Power Rangers #
+
+	CSD_jason_lee_scott = {}
+	CSD_zack_taylor = {}
+	CSD_billy_cranston = {}
+	CSD_kimberly_hart = {}
+	CSD_trini_kwan = {}
+	CSD_tommy_oliver = {}
+	CSD_rocky_de_santos = {}
+	CSD_adam_park = {}
+	CSD_aisha_campbell = {}
+	CSD_katherine_hillard = {}
+	CSD_tanya_sloan = {}
+	CSD_trey_of_triforia = {}
+
     # Crystal Prep Clique - The Progressives #
 	CSD_twilight_sparkle = {
 		
@@ -464,6 +480,18 @@ characters = {
 		
 	}
 	CSD_trixie_lulamoon = {
+		
+	}
+	CSD_mi_amore_cadenza = {
+		
+	}
+	CSD_sweetie_belle = {
+		
+	}
+	CSD_scootaloo = {
+		
+	}
+	CSD_apple_bloom = {
 		
 	}
 	# Vytal Clique - The Militarists #
@@ -626,7 +654,12 @@ characters = {
 
 	}
 	# Sensha-Do Clique - The Moderates #
+	CSD_miho_nishizumi = {
+		
+	}
+
 
 	# Hope Peak Clique - The Corporatists #
+
 
 }
