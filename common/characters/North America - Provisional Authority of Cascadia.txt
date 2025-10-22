@@ -502,10 +502,10 @@ characters = {
 		name = CSD_tommy_oliver
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Tommy_Oliver.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Tommy_Oliver.dds"
 			}
 		}
 		field_marshal = {
