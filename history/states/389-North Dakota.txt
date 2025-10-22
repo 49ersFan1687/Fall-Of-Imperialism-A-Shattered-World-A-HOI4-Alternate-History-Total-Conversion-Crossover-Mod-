@@ -1,0 +1,28 @@
+
+state={
+	id=389
+	name="STATE_389"
+	manpower = 219145
+	state_category = rural
+	resources={
+		steel=17 # was: 24
+		oil=7 # was: 10
+	}
+
+	history={
+		owner = AVD
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = AVD
+		
+
+	}
+
+	provinces={
+		4759 6722 7877 10709 12566 12685 
+	}
+
+	local_supplies=9.0 
+}

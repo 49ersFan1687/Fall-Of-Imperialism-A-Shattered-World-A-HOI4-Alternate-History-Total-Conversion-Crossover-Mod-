@@ -1,0 +1,29 @@
+state = {
+	id = 1057
+	name = "STATE_1057"
+	manpower = 998712
+	
+	state_category = city
+
+	history = {
+
+		owner = OKS
+		add_core_of = OKS
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 1
+		}
+		victory_points = {
+			1806 1 
+		}
+		
+
+	}
+
+	provinces = {
+		1806 7904 11802 10798
+	}
+
+	local_supplies = 0.0 
+}

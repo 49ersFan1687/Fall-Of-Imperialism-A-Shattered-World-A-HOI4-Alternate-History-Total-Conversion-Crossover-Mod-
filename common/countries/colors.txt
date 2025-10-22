@@ -1207,6 +1207,66 @@ CRD = {
 	color = rgb { 72 120 89 }
 	color_ui = rgb { 72 120 89 }
 }
+GPS = {
+	color = rgb { 120 49 35 }
+	color_ui = rgb { 120 49 35 }
+}
+FSW = {
+	color = rgb { 110 120 35 }
+	color_ui = rgb { 110 120 35 }
+}
+KKS = {
+	color = rgb { 86 113 143 }
+	color_ui = rgb { 86 113 143 }
+}
+WNG = {
+	color = rgb { 67 64 69 }
+	color_ui = rgb { 67 64 69 }
+}
+AVD = {
+	color = rgb { 150 118 156 }
+	color_ui = rgb { 150 118 156 }
+}
+FTD = {
+	color = rgb { 145 67 120 }
+	color_ui = rgb { 145 67 120 }
+}
+SRD = {
+	color = rgb { 59 41 35 }
+	color_ui = rgb { 59 41 35 }
+}
+TXM = {
+	color = rgb { 61 60 59 }
+	color_ui = rgb { 61 60 59 }
+}
+TXS = {
+	color = rgb { 92 92 79 }
+	color_ui = rgb { 92 92 79 }
+}
+OKS = {
+	color = rgb { 24 32 61 }
+	color_ui = rgb { 24 32 61 }
+}
+SQY = {
+	color = rgb { 69 110 84 }
+	color_ui = rgb { 69 110 84 }
+}
+TXR = {
+	color = rgb { 57 101 135 }
+	color_ui = rgb { 57 101 135 }
+}
+RGR = {
+	color = rgb { 41 14 22 }
+	color_ui = rgb { 41 14 22 }
+}
+OKC = {
+	color = rgb { 102 99 26 }
+	color_ui = rgb { 102 99 26 }
+}
+FTG = {
+	color = rgb { 71 29 59 }
+	color_ui = rgb { 71 29 59 }
+}
 
 
 

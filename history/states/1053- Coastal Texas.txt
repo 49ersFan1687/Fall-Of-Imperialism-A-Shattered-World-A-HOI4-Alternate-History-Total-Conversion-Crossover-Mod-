@@ -1,0 +1,30 @@
+state = {
+	id = 1053
+	name = "STATE_1053"
+	manpower = 852430
+	
+	state_category = town
+
+	history = {
+
+		owner = FTG
+		add_core_of = FTG
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			dockyard = 1
+			industrial_complex = 1
+			4884 = {
+				naval_base = 1
+			}
+		}
+		
+
+	}
+
+	provinces = {
+		2042 4884 12410
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=375
+	name="STATE_375"
+	manpower = 1067282
+	
+	
+	state_category = town
+	
+	resources={
+		oil=320 # was: 580
+		aluminium=50 # was: 96
+	}
+
+
+	history={
+		owner = OKS
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 9
+			air_base = 3
+			
+		}
+		add_core_of = OKS
+
+	}
+
+	provinces={
+		805 1927 4577 5022 10504 10861 12341 
+	}
+
+	local_supplies=9.0 
+}

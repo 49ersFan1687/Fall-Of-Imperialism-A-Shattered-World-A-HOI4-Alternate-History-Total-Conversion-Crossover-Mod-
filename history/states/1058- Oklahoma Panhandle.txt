@@ -1,0 +1,24 @@
+state = {
+	id = 1058
+	name = "STATE_1058"
+	manpower = 111340
+	
+	state_category = rural
+
+	history = {
+
+		owner = OKC
+		add_core_of = OKC
+
+		buildings = {
+			infrastructure = 2 #was: 6
+		}
+		
+	}
+
+	provinces = {
+		7762 12624
+	}
+
+	local_supplies = 0.0 
+}

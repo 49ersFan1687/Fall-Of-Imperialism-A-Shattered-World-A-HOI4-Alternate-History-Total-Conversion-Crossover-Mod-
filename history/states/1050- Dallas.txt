@@ -1,0 +1,32 @@
+state = {
+	id = 1050
+	name = "STATE_1050"
+	manpower = 839455
+	
+	state_category = large_town
+
+	history = {
+
+		owner = TXR
+		add_core_of = TXR
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 4
+			
+
+		}
+		victory_points = {
+			3960 10 
+		}
+		
+		
+
+	}
+
+	provinces = {
+		2082 3960 9829 10778 6968 5001
+	}
+
+	local_supplies = 0.0 
+}

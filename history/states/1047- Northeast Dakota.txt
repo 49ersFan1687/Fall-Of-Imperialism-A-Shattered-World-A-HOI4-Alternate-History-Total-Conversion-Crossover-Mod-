@@ -1,0 +1,31 @@
+state = {
+	id = 1047
+	name = "STATE_1047"
+	manpower = 234981
+	
+	state_category = rural
+
+	history = {
+
+		owner = FTD
+		add_core_of = FTD
+
+		buildings = {
+			infrastructure = 1 #was: 6
+			arms_factory = 1
+			
+
+		}
+		victory_points = {
+			1836 1 
+		}
+		
+
+	}
+
+	provinces = {
+		1870 3719 10685 1752 4772 1836
+	}
+
+	local_supplies = 0.0 
+}

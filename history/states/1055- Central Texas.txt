@@ -1,0 +1,30 @@
+state = {
+	id = 1055
+	name = "STATE_1055"
+	manpower = 950123
+	
+	state_category = large_town
+
+	history = {
+
+		owner = TXS
+		add_core_of = TXS
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 1
+			arms_factory = 2
+		}
+		victory_points = {
+			12782 1 
+		}
+		
+
+	}
+
+	provinces = {
+		8064 7836 6798 12782
+	}
+
+	local_supplies = 0.0 
+}

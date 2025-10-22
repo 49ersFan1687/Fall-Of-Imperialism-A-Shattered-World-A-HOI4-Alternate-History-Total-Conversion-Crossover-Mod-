@@ -1,0 +1,27 @@
+state = {
+	id = 1052
+	name = "STATE_1052"
+	manpower = 78912
+	
+	state_category = rural
+
+	history = {
+
+		owner = TXM
+		add_core_of = TXM
+
+		buildings = {
+			infrastructure = 2 #was: 6
+			arms_factory = 1
+
+		}
+		
+
+	}
+
+	provinces = {
+		10740 10894 4955
+	}
+
+	local_supplies = 0.0 
+}

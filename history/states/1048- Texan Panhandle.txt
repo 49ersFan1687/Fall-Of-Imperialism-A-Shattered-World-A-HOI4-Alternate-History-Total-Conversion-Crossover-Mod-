@@ -1,0 +1,30 @@
+state = {
+	id = 1048
+	name = "STATE_1048"
+	manpower = 321923
+	
+	state_category = town
+
+	history = {
+
+		owner = TXR
+		add_core_of = TXR
+
+		buildings = {
+			infrastructure = 2 #was: 6
+			arms_factory = 1
+			industrial_complex = 1
+			
+
+		}
+		
+		
+
+	}
+
+	provinces = {
+		9908 2055 3972 12893 12848
+	}
+
+	local_supplies = 0.0 
+}

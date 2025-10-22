@@ -1,0 +1,29 @@
+state = {
+	id = 1049
+	name = "STATE_1049"
+	manpower = 567891
+	
+	state_category = rural
+
+	history = {
+
+		owner = TXR
+		add_core_of = TXR
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 1
+			
+
+		}
+		
+		
+
+	}
+
+	provinces = {
+		5085 9920 7981 3875 1915 12875 12301 1998 9773
+	}
+
+	local_supplies = 0.0 
+}

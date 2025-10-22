@@ -1,0 +1,27 @@
+state = {
+	id = 1056
+	name = "STATE_1056"
+	manpower = 567910
+	
+	state_category = town
+
+	history = {
+
+		owner = SQY
+		add_core_of = SQY
+
+		buildings = {
+			infrastructure = 2 #was: 6
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		
+
+	}
+
+	provinces = {
+		7945 6803 8025 5103 1618 2043
+	}
+
+	local_supplies = 0.0 
+}

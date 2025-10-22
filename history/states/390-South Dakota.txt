@@ -1,0 +1,26 @@
+
+state={
+	id=390
+	name="STATE_390"
+	manpower = 373114
+	state_category = rural
+
+	history={
+		owner = AVD
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = AVD
+		victory_points = {
+			1747 1 
+		}
+
+	}
+
+	provinces={
+		3750 4839
+	}
+
+	local_supplies=0.0 
+}

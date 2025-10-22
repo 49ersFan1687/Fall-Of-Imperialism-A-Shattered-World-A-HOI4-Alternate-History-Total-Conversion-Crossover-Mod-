@@ -1,0 +1,22 @@
+
+state={
+	id=381
+	name="STATE_381"
+	manpower = 158111
+	state_category = rural
+	
+	history={
+		owner = WNG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = WNG
+	}
+
+	provinces={
+		1815 4610 7814 10711 
+	}
+	
+
+	local_supplies=0.0 
+}

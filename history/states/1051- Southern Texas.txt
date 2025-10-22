@@ -1,0 +1,31 @@
+state = {
+	id = 1051
+	name = "STATE_1051"
+	manpower = 1345766
+	
+	state_category = town
+
+	history = {
+
+		owner = RGR
+		add_core_of = RGR
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 2
+			arms_factory = 2
+			6785 = {
+				naval_base = 1
+			}
+
+		}
+		
+
+	}
+
+	provinces = {
+		12369 6785 5061 6987 2019 12728 5038 1954
+	}
+
+	local_supplies = 0.0 
+}
