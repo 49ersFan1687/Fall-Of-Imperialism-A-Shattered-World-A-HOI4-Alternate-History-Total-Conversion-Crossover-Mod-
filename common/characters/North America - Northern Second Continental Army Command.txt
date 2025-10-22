@@ -52,7 +52,6 @@ characters = {
         }
     }
 
-    
     NCA_Matthew_Bunker_Ridgeway = {
         name = NCA_Alexander_McCarell_Patch
         portraits = {
