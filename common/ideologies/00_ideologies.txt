@@ -2,73 +2,144 @@ ideologies = {
 
     communism = {
         types = {
+	council_communism_ideology = {
+	}
+	marxism_ideology = {
+	}
+	leninism_ideology = {
+	}
+	posadism_ideology = {
+	}
+	stalinism_ideology = {
+	}
+	trotskyism_ideology = {
+	}
+	bukharinism_ideology = {
+	}
 
         }
 	color = { 117 20 13 }
     }
     socialism = {
         types = {
+	eco_socialism_ideology = {
+	}
+	anarchism_ideology = {
+	}
+	anarcho_communism_ideology = {
+	}
+	anarcho_syndicalism_ideology = {
+	}
+	anarcho_mutualism_ideology = {
+	}
+	socialist_narodnikism_ideology = {
+	}
 
         }
 	color = { 209 0 0 }
     }
     social_democracy = {
         types = {
-
+	social_democratic_progressive_democracy_ideology = {
         }
+	nordic_model_ideology = {
+	}
+	narodnikism_ideology = {
+	}
+	}
 	color = { 148 80 142 }
+    
     }
     democratic = {
         types = {
+	progressive_democracy_ideology = {
+	}
+	centrism_ideology = {
+	}
+	liberalism_liberal_conservatism_ideology = {
+	}
+	free_market_capitalism_ideology = {
+	}
+	national_liberalism_ideology = {
+	}
 
         }
 	color = { 31 121 181 }
     }
     conservatism = {
         types = {
+	toryism_ideology = {
+	}
+	conservatism_liberal_conservatism_ideology = {
+	}
+	national_conservatism_ideology = {
+	}
 
         }
 	color = { 22 37 138 }
     }
     neutrality = {
         types = {
+	social_nationalism_ideology = { 
+	}
+	provisional_government_ideology = {
+	}
+	tribal_paternalism_ideology = {
+	}
+	auth_national_conservatism_ideology = {
+	}
 
         }
 	color = { 135 135 140 }
     }
     accelerationism = {
         types = {
-
+	accelerationism_ideology = {
+	}
         }
 	color = { 198 192 207 }
     }
     paternal_autocrat = {
         types = {
-	red_junta_ideology = { can_be_randomly_selected = no }
+	red_junta_ideology = { 
+	}
+	military_junta_ideology = {
+	}
+	authoritarian_social_nationalism_ideology = { 
+	}
+	theocracy_ideology = {
+	}
 
         }
 	color = { 54 54 54 }
     }
     fascism = {
         types = {
+	nation_first_nationalism_ideology = {
+	}
 
         }
 	color = { 92 58 20 }
     }
     ultranationalism = {
         types = {
+	stratocratic_nationalism_ideology = {
+	}
 
         }
 	color = { 32 43 39 }
     }
     national_socialism = {
         types = {
-
+	nazism_ideology = {
+	}
         }
 	color = { 41 33 22 }
     }
     esotericism = {
         types = {
+	anarcho_primitivism_ideology = {
+	}
             
         }
 	color = { 49 24 71 }
