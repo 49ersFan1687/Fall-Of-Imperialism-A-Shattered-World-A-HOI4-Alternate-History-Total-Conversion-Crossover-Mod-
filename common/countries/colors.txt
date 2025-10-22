@@ -1179,6 +1179,35 @@ NVR = {
 	color = rgb { 138 145 73 }
 	color_ui = rgb { 138 145 73 }
 }
+HSD = {
+	color = rgb { 73 80 145 }
+	color_ui = rgb { 73 80 145 }
+}
+ARC = {
+	color = rgb { 109 145 73 }
+	color_ui = rgb { 109 145 73 }
+}
+NAJ = {
+	color = rgb { 145 114 73 }
+	color_ui = rgb { 145 114 73 }
+}
+ARZ = {
+	color = rgb { 141 90 143 }
+	color_ui = rgb { 141 90 143 }
+}
+NMX = {
+	color = rgb { 87 114 115 }
+	color_ui = rgb { 87 114 115 }
+}
+SWS = {
+	color = rgb { 99 34 34 }
+	color_ui = rgb { 99 34 34 }
+}
+CRD = {
+	color = rgb { 72 120 89 }
+	color_ui = rgb { 72 120 89 }
+}
+
 
 
 

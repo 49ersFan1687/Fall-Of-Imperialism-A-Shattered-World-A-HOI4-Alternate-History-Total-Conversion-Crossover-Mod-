@@ -1,0 +1,30 @@
+
+state={
+	id=382
+	name="STATE_382"
+	manpower = 792503
+	resources={
+		oil=14 # was: 20
+	}
+	
+	state_category = town
+
+	history={
+		owner = CRD
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = CRD
+		victory_points = {
+			1827 5 
+		}
+
+	}
+
+	provinces={
+		868 1658 1827 3869 6887 7684 7999 9792 10535 10588 12627 
+	}
+
+	local_supplies=8.0 
+}

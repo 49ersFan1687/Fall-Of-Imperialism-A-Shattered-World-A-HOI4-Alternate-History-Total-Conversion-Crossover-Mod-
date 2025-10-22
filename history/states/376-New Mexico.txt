@@ -1,0 +1,33 @@
+
+state={
+	id=376
+	name="STATE_376"
+	manpower = 159211
+	
+	state_category = rural
+	
+	resources={
+		oil=14 # was: 20
+		aluminium=30 # was: 52
+	}
+
+
+	history={
+		owner = NMX
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = NMX
+		victory_points = {
+			4975 1
+		}
+	}
+
+	provinces={
+		2102 3883 4975 10642 12552 12684 
+	}
+	
+
+	local_supplies=0.0 
+}

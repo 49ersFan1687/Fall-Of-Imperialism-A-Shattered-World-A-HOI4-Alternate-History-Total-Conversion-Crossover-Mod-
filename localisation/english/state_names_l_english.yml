@@ -513,8 +513,8 @@
  STATE_373:0 "Missouri"
  STATE_374:0 "Oklahoma"
  STATE_375:0 "Texas"
- STATE_376:0 "New Mexico"
- STATE_377:0 "Arizona"
+ STATE_376:0 "Mountains of New Mexico"
+ STATE_377:0 "Arizonan Desert"
  STATE_378:0 "Coastal California"
  STATE_379:0 "Central Nevada"
  STATE_380:0 "Utah"
@@ -1227,6 +1227,12 @@
  STATE_1032: "Las Vegas"
  STATE_1033: "Dry Valley"
  STATE_1034: "Northern Nevada"
+ STATE_1035: "Northern Utah"
+ STATE_1036: "Northern Arizona"
+ STATE_1037: "Central Desert"
+ STATE_1038: "Navajo"
+ STATE_1039: "South Desert"
+ STATE_1040: "American Mexico"
 
 
 
