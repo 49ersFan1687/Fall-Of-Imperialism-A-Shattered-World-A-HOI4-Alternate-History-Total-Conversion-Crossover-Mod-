@@ -113,6 +113,6 @@ characters = {
 			logistics_skill = 
 		}
 	}
-	
+	# Red Army Generals #
 }
 
