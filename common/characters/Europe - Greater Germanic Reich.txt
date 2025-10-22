@@ -4,7 +4,7 @@ characters = {
         name = GER_Adolf_Hitler
         portraits = {
             civilian = {
-                large =
+                large = 
             }
         }
         country_leader = {
@@ -187,4 +187,5 @@ characters = {
             logistics_skill =
         }
     }
+    # Greater Germanic Reich - Generals #
 }
