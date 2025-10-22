@@ -18,7 +18,7 @@ characters = {
 			desc = "POLITICS_KAT_MIKAELSEN_DESC"
 			expire = "1995.8.20"
 			ideology = red_junta_ideology
-			traits = {
+			traits = { OPM_revolutionary_leader
 			}
 		}
 
@@ -43,7 +43,7 @@ characters = {
 			desc = "POLITICS_KAT_MIKAELSEN_DESC"
 			expire = "1995.8.20"
 			ideology = anarchism_ideology
-			traits = {
+			traits = { OPM_revolutionary_leader
 			}
 		}
 
