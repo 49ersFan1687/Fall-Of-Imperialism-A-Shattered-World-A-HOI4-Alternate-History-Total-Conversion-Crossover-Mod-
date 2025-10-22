@@ -1,6 +1,6 @@
 characters = {
 	# Second Continental Army - Oregon Rangers #
-    OPM_kat_mikaelsen = {
+    OPM_kat_mikaelsen_1 = {
         name = OPM_kat_mikaelsen
 		portraits = {
 			civilian = {
@@ -22,10 +22,36 @@ characters = {
 			}
 		}
 
+
     }
 
-	OPM_Autumn_Lockhart = {
-		name = OPM_Autumn_Lockhart
+    OPM_kat_mikaelsen_2 = {
+        name = OPM_kat_mikaelsen
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/OPM/katmikaelsen.png"
+	
+				small = "gfx/leaders/OPM/katmikaelsenportrait.png"
+			}
+			army = {
+				large = "gfx/leaders/OPM/katmikaelsen.png"
+
+				small = "gfx/leaders/OPM/katmikaelsenportrait.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KAT_MIKAELSEN_DESC"
+			expire = "1995.8.20"
+			ideology = anarchism_ideology
+			traits = {
+			}
+		}
+
+    }
+
+
+	OPM_autumn_lockhart = {
+		name = OPM_autumn_lockhart
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/OPM/autumnlockhart.png"
@@ -41,14 +67,14 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_AUTUMN_LOCKHART_DESC"
 			expire = "1995.8.20"
-			ideology = red_junta_ideology
+			ideology = social_nationalism_ideology
 			traits = {
 			}
 		}
 	}
 
-	OPM_Nora_Malakian = {
-		name = OPM_Nora_Malakian
+	OPM_nora_malakian = {
+		name = OPM_nora_malakian
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/OPM/noramalakian.png"
@@ -64,14 +90,14 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_NORA_MALAKIAN_DESC"
 			expire = "1995.8.20"
-			ideology = red_junta_ideology
+			ideology = council_communism_ideology
 			traits = {
 			}
 		}
 	}
 
-	OPM_Swann_Holloway = {
-		name = OPM_Swann_Holloway
+	OPM_swann_holloway = {
+		name = OPM_swann_holloway
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/OPM/swannholloway.png"
@@ -87,7 +113,30 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_SWANN_HOLLOWAY_DESC"
 			expire = "1995.8.20"
-			ideology = red_junta_ideology
+			ideology = narodnikism_ideology
+			traits = {
+			}
+		}
+
+	}
+	OPM_dylan_mikaelsen = {
+		name = OPM_dylan_mikaelsen
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/OPM/dylanmikaelsen.png"
+	
+				small = "gfx/leaders/OPM/dylanmikaelsenportrait.png"
+			}
+			army = {
+				large = "gfx/leaders/OPM/dylanmikaelsen.png"
+
+				small = "gfx/leaders/OPM/dylanmikaelsenportrait.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_DYLAN_MIKAELSEN_DESC"
+			expire = "1995.8.20"
+			ideology = conservatism_liberal_conservatism_ideology
 			traits = {
 			}
 		}

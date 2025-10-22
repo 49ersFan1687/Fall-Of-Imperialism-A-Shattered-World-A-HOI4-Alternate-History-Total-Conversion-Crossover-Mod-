@@ -1,5 +1,10 @@
-capital = 385
-recruit_character = OPM_kat_mikaelsen
+capital = 1018
+recruit_character = OPM_kat_mikaelsen_1
+recruit_character = OPM_kat_mikaelsen_2
+recruit_character = OPM_autumn_lockhart
+recruit_character = OPM_nora_malakian
+recruit_character = OPM_swann_holloway
+recruit_character = OPM_dylan_mikaelsen
 
 set_war_support = 0.6
 set_stability = 0.4
@@ -7,6 +12,7 @@ set_stability = 0.4
 set_technology = {
 	infantry_weapons = 1
 }
+oob = "OPM_1936"
 set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1936.1.1"
@@ -20,3 +26,5 @@ set_popularities = {
 	socialism = 15
 	communism = 5	
 }
+add_ideas = OPM_anti_fascist_army
+add_ideas = OPM_idealistic_leaders

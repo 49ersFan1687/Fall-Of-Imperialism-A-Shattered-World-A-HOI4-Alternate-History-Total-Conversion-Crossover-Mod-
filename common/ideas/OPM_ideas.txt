@@ -1,0 +1,41 @@
+ideas = {
+    ### Country Ideas - Oregon Provisional Military District ###
+    country = {
+        ### Starting Ideas ###
+       OPM_anti_fascist_army = { 
+             allowed = { always = no }
+             picture = OPM_anti_fascist
+             modifier = {
+		national_socialism_drift = -0.02
+		fascism_drift = -0.02
+		ultranationalism_drift = -0.02
+		war_support_factor = 0.1
+                
+            }
+            equipment_bonus = {
+                
+            }
+        }
+	 OPM_idealistic_leaders = { 
+             allowed = { always = no }
+             picture = OPM_anti_fascist
+             modifier = {
+		stability_factor = 0.073
+		war_suppot = 0.025
+		political_power_gain = 0.05
+		socialism_drift = 0.01
+		social_democracy_drift = 0.01
+                
+            }
+            equipment_bonus = {
+                
+            }
+        }
+      
+        
+        ### Air Force Reform Ideas ###
+        ### Navy Reform Ideas ###
+        ### Military Industrial Complex Ideas ###
+        ### Industrial Companies ###
+    }
+}
