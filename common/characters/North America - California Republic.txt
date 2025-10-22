@@ -191,16 +191,16 @@ characters = {
 		name = CAL_William_Childs_Westmoreland
 		portraits = {
 			army = {
-				large = 
+				large = "gfx/leaders/CAL/Portrait_CAL_William_Childs_Westmoreland.dds"
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = { offensive_doctrine organizer fast_planner aggressive_assaulter }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
 		}
 	}
 	CAL_Maxwell_Davenport_Taylor = {
