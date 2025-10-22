@@ -1,0 +1,25 @@
+state = {
+	id = 1060
+	name = "STATE_1060"
+	manpower = 825540
+	
+	state_category = town
+
+	history = {
+
+		owner = DIX
+		add_core_of = DIX
+
+		buildings = {
+			infrastructure = 2 #was: 6
+			industrial_complex = 1	
+		}
+		
+	}
+
+	provinces = {
+		7586 4625 4444 1646 10355 10477
+	}
+
+	local_supplies = 0.0 
+}

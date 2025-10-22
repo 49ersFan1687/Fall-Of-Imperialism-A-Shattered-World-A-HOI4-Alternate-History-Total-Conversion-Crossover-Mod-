@@ -1,0 +1,31 @@
+
+state={
+	id=371
+	name="STATE_371"
+	manpower = 1247322
+	
+	state_category = rural
+	
+	resources={
+		oil=44 # was: 66
+	}
+
+	history={
+		owner = LOU
+		buildings = {
+			infrastructure = 2 #was: 5
+			industrial_complex = 1
+			air_base = 5
+			
+		}
+		add_core_of = LOU
+		
+
+	}
+
+	provinces={
+		1528 1559 1643 4507 4522 7555 7599 12313 12401 
+	}
+
+	local_supplies=0.0 
+}

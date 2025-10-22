@@ -1,0 +1,28 @@
+state = {
+	id = 1062
+	name = "STATE_1062"
+	manpower = 763901
+	
+	state_category = rural
+
+	history = {
+
+		owner = DIX
+		add_core_of = DIX
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 1	
+		}
+		victory_points = {
+			12735 1 
+		}
+		
+	}
+
+	provinces = {
+		12735 1587 5059 10192
+	}
+
+	local_supplies = 0.0 
+}

@@ -1267,6 +1267,14 @@ FTG = {
 	color = rgb { 71 29 59 }
 	color_ui = rgb { 71 29 59 }
 }
+DIX = {
+	color = rgb { 109 125 123 }
+	color_ui = rgb { 109 125 123 }
+}
+LOU = {
+	color = rgb { 65 69 69 }
+	color_ui = rgb { 65 69 69 }
+}
 
 
 
