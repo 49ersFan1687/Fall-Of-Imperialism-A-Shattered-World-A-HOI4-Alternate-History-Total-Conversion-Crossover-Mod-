@@ -179,12 +179,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = { brilliant_strategist ranger infantry_leader inspirational_leader career_officer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
 		}
 	}
 	CAL_William_Childs_Westmoreland = {
@@ -223,16 +223,16 @@ characters = {
 		name = CAL_Mark_Wayne_Clark
 		portraits = {
 			army = {
-				large =
+				large = "gfx/leaders/CAL/Portrait_CAL_Mark_Wayne_Clark.dds"
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = { reckless infantry_officer offensive_doctrine infantry_leader }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 	CAL_Henry_Harley_Arnold = {
@@ -577,5 +577,4 @@ characters = {
 
 		}
 	}
-
 }
