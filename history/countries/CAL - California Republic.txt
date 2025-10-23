@@ -24,3 +24,22 @@ set_popularities = {
 	communism = 2
 	
 }
+
+### Country Leader ###
+
+### Advsiors ###
+
+## Second Continental Army ##
+
+recruit_character = CAL_Dwight_David_Eisenhower
+recruit_character = CAL_Omar_Nelson_Bradley
+recruit_character = CAL_George_Catlett_Marshall
+recruit_character = CAL_George_Smith_Patton_Jr
+recruit_character = CAL_Walton_Harris_Walker
+recruit_character = CAL_Smedley_Darlington_Butler
+recruit_character = CAL_Glynda_Goodwitch
+recruit_character = CAL_William_Childs_Westmoreland
+recruit_character = CAL_Maxwell_Davenport_Taylor
+recruit_character = CAL_Mark_Wayne_Clark
+
+## US Navy ##
