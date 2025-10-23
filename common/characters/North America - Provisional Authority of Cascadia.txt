@@ -509,12 +509,12 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { ranger commando }
-			skill = 
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			traits = { ranger commando offensive_doctrine brilliant_strategist }
+			skill = 4
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
 		}
 	}
 
@@ -1071,6 +1071,7 @@ characters = {
 
 
 	# Hope Peak Clique - The Corporatists #
+
 
 
 }
