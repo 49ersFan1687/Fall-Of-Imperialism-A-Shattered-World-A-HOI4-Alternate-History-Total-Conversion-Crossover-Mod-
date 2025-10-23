@@ -464,10 +464,10 @@ characters = {
 		name = CSD_zack_taylor
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Zack_Taylor.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Zack_Taylor.dds"
 			}
 		}
 		field_marshal = {
