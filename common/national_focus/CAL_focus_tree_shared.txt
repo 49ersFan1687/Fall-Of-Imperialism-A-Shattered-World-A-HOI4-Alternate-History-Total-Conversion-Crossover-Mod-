@@ -2104,7 +2104,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_reestablish_oversight_committee
+	id = CAL_congressional_oversight_committee
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2120,6 +2120,42 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reestablish_house_oversight_committee"
 	}
+}
+
+shared_focus = {
+
+}
+
+shared_focus = {
+
+}
+
+shared_focus = {
+
+}
+
+shared_focus = {
+
+}
+
+shared_focus = {
+
+}
+
+shared_focus = {
+
+}
+
+shared_focus = {
+
+}
+
+shared_focus = {
+
+}
+
+shared_focus = {
+
 }
 
 shared_focus = {
