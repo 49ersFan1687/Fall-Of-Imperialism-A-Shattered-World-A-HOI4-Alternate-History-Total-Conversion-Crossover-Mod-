@@ -1,0 +1,14 @@
+focus_tree = {
+    id = SLO_starting_focus_tree
+    country = {
+		factor = 0
+		modifier = { 
+            add = 10 
+            tag = SLO
+        }
+	}
+    default = no
+	shared_focus = SLO_Our_Humble_Beginnings
+
+    continuous_focus_position = { x = 2500 y = 50 }
+}
