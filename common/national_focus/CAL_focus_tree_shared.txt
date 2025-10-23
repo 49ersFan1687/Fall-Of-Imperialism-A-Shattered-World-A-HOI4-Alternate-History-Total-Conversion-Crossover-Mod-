@@ -2104,7 +2104,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_reestablish_oversight_committee
+	id = CAL_congressional_ethics
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2120,6 +2120,72 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reestablish_house_oversight_committee"
 	}
+}
+
+shared_focus = {
+	id = CAL_executive_ethics
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_pass_new_executive_orders
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_pass_new_executive_orders
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_executive_ethics"
+	}
+}
+
+shared_focus = {
+	id = CAL_swear_in_a_new_cabinet
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_pass_new_executive_orders
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_pass_new_executive_orders
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_swear_in_a_new_cabinet"
+	}
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+
+}
+
+shared_focus = {
+
+}
+
+shared_focus = {
+
+}
+
+shared_focus = {
+
+}
+
+shared_focus = {
+
+}
+
+shared_focus = {
+
 }
 
 shared_focus = {

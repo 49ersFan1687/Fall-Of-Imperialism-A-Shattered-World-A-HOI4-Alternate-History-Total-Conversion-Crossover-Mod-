@@ -452,7 +452,7 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { ranger commando }
+			traits = { ranger commando infantry_officer }
 			skill = 
 			attack_skill = 
 			defense_skill = 
@@ -464,10 +464,10 @@ characters = {
 		name = CSD_zack_taylor
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Zack_Taylor.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Zack_Taylor.dds"
 			}
 		}
 		field_marshal = {
@@ -509,12 +509,12 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { ranger commando }
-			skill = 
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			traits = { ranger commando offensive_doctrine brilliant_strategist career_officer }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 		}
 	}
 
@@ -531,7 +531,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger }
+			traits = { ranger commando }
 			skill =
 			attack_skill =
 			defense_skill =
@@ -550,7 +550,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger }
+			traits = { ranger commando }
 			skill =
 			attack_skill =
 			defense_skill =
@@ -569,7 +569,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger }
+			traits = { ranger commando }
 			skill =
 			attack_skill =
 			defense_skill =
@@ -588,7 +588,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger }
+			traits = { ranger commando }
 			skill =
 			attack_skill =
 			defense_skill =
@@ -607,7 +607,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger }
+			traits = { ranger commando }
 			skill =
 			attack_skill =
 			defense_skill =
@@ -626,7 +626,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger }
+			traits = { ranger commando }
 			skill =
 			attack_skill =
 			defense_skill =
@@ -645,7 +645,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger }
+			traits = { ranger commando }
 			skill =
 			attack_skill =
 			defense_skill =
@@ -664,7 +664,83 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger }
+			traits = { ranger commando }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	CSD_theodore_jarvis_johnson = {
+		name = CSD_theodore_jarvis_johnson
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = { ranger commando }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	CSD_ashley_hammond = {
+		name = CSD_ashley_hammond
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = { ranger commando }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	CSD_cassie_chan = {
+		name = CSD_cassie_chan
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = { ranger commando }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	CSD_carlos_vallerte = {
+		name = CSD_carlos_vallerte
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = { ranger commando }
 			skill =
 			attack_skill =
 			defense_skill =
@@ -1071,6 +1147,7 @@ characters = {
 
 
 	# Hope Peak Clique - The Corporatists #
+
 
 
 }

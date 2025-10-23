@@ -1,7 +1,16 @@
 ideas = {
     ### Country Ideas - California Republic ###
     country = {
-        ### Army Reform Ideas - Dwight David Eisenhower###
+        ### Starting Ideas ###
+        CAL_the_long_march_west1 = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_long_march_west1" }
+            allowed = { always = no }
+            picture = CAL_long_retreat
+            modifier = {
+                
+            }
+        }
+        ### Army Reform Ideas - Dwight David Eisenhower ###
         CAL_Eisenhowers_vision1 = { # Eisenhower's Army Reform Plan - Return to Form - Part One
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Eisenhowers_vision1" }
             allowed = { always = no }

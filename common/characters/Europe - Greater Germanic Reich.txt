@@ -130,8 +130,8 @@ characters = {
         }
     }
     # Greater Germanic Reich - Generalfeldmarschalls #
-    GER_Werner_Eduard_Fritz_ von_Blomberg = {
-        name = GER_Werner_Eduard_Fritz_ von_Blomberg
+    GER_Werner_Eduard_Fritz_von_Blomberg = {
+        name = GER_Werner_Eduard_Fritz_von_Blomberg
         portraits = {
             civilian = {
                 large =
@@ -188,4 +188,8 @@ characters = {
         }
     }
     # Greater Germanic Reich - Generals #
+
+    # Greater Germanic Reich - Waffen-SS Field Marshals #
+
+    # Greater Germanic Reich - Waffen-SS Generals #
 }

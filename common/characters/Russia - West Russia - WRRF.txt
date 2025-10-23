@@ -106,6 +106,25 @@ characters = {
 		}
 		field_marshal = {
 			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+	WRS_Nestor_Lunin = {
+		name = WRS_Nestor_Lunin
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
 			skill = 5
 			attack_skill = 
 			defense_skill = 
