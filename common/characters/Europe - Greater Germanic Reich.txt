@@ -4,13 +4,13 @@ characters = {
         name = GER_Adolf_Hitler
         portraits = {
             civilian = {
-                large = 
+                large = GFX_fish
             }
         }
         country_leader = {
             desc = "POLITICS_ADOLF_HITLER_DESC"
             expire = "1994.4.20"
-            ideology =
+            ideology = nazism_ideology
             traits = { 
                 
             }
@@ -20,13 +20,13 @@ characters = {
         name = GER_Heinrich_Himmler
         portraits = {
             civilian = {
-                large =
+                large = GFX_fish
             }
         }
         country_leader = {
             desc = "POLITICS_HEINRICH_HIMMLER_DESC"
             expire = "1994.4.20"
-            ideology =
+            ideology = nazism_ideology
             traits = { 
                 
             }
@@ -36,13 +36,13 @@ characters = {
         name = GER_Hermann_Goring
         portraits = {
             civilian = {
-                large =
+                large = GFX_fish
             }
         }
         country_leader = {
             desc = "POLITICS_HERMANN_GORING_DESC"
             expire = "1994.4.20"
-            ideology =
+            ideology = nazism_ideology
             traits = { 
                 
             }
@@ -52,38 +52,38 @@ characters = {
         name = GER_Ferdinand_Schorner
         portraits = {
             civilian = {
-                large =
+                large = GFX_fish
             }
             army = {
-                large =
+                large = GFX_fish
             }
         }
         country_leader = {
             desc = "POLITICS_FERDINAND_SCHORNER_DESC"
             expire = "1994.4.20"
-            ideology =
+            ideology = nazism_ideology
             traits = {  }
         }
         field_marshal = {
             traits = {  }
-            skill =
-            attack_skill =
-            defense_skill =
-            planning_skill =
-            logistics_skill =
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
         }
     }
     GER_martin_bormann = {
         name = GER_martin_bormann
         portraits = {
             civilian = {
-                large =
+                large = GFX_fish
             }
         }
         country_leader = {
             desc = "POLITICS_MARTIN_BORMANN_DESC"
             expire = "1994.4.20"
-            ideology =
+            ideology = nazism_ideology
             traits = {  }
         }
     }
@@ -91,13 +91,13 @@ characters = {
         name = GER_joseph_goebbels
         portraits = {
             civilian = {
-                large =
+                large = GFX_fish
             }
         }
         country_leader = {
             desc = "POLITICS_JOSEPH_GOEBBELS_DESC"
             expire = "1994.4.20"
-            ideology =
+            ideology = nazism_ideology
             traits = {  }
         }
     }
@@ -105,13 +105,13 @@ characters = {
         name = GER_albert_speer
         portraits = {
             civilian = {
-                large =
+                large = GFX_fish
             }
         }
         country_leader = {
             desc = "POLITICS_ALBERT_SPEER_DESC"
             expire = "1994.4.20"
-            ideology =
+            ideology = nazism_ideology
             traits = {  }
         }
     }
@@ -119,13 +119,13 @@ characters = {
         name = GER_karl_otto_saur
         portraits = {
             civilian = {
-                large =
+                large = GFX_fish
             }
         }
         country_leader = {
             desc = "POLITICS_KARL_OTTO_SAUR_DESC"
             expire = "1994.4.20"
-            ideology =
+            ideology = nazism_ideology
             traits = {  }
         }
     }
@@ -134,57 +134,57 @@ characters = {
         name = GER_Werner_Eduard_Fritz_von_Blomberg
         portraits = {
             civilian = {
-                large =
+                large = GFX_fish
             }
             army = {
-                large =
+                large = GFX_fish
             }
         }
         field_marshal = {
             traits = {  }
-            skill =
-            attack_skill =
-            defense_skill =
-            planning_skill =
-            logistics_skill =
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
         }
     }
     GER_Johannes_Erwin_Eugen_Rommel = {
         name = GER_Johannes_Erwin_Eugen_Rommel
         portraits = {
             civilian = {
-                large =
+                large = GFX_fish
             }
             army = {
-                large =
+                large = GFX_fish
             }
         }
         field_marshal = {
             traits = {  }
-            skill =
-            attack_skill =
-            defense_skill =
-            planning_skill =
-            logistics_skill =
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
         }
     }
     GER_Fritz_Erich_Georg_Eduard_von_mannstein = {
         name = GER_Fritz_Erich_Georg_Eduard_von_mannstein
         portraits = {
             civilian = {
-                large =
+                large = GFX_fish
             }
             army = {
-                large =
+                large = GFX_fish
             }
         }
         field_marshal = {
             traits = {  }
-            skill =
-            attack_skill =
-            defense_skill =
-            planning_skill =
-            logistics_skill =
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
         }
     }
     # Greater Germanic Reich - Generals #
