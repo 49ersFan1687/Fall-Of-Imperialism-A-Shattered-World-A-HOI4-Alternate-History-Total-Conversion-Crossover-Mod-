@@ -4,27 +4,27 @@ characters = {
         name = NCA_Curtis_Emerson_Lemay
         portraits = {
             civilian = {
-                large =
+                large = GFX_fish
             }
             army = {
-                large =
+                large = GFX_fish
             }
         }
         country_leader = {
             desc = "POLITICS_CURTIS_EMERSON_LEMAY_DESC"
             expire = "1995.8.20"
-            ideology = 
+            ideology = social_nationalism_ideology
             traits = {
                 
             }
         }
         field_marshal = {
             traits = {}
-            skill =
-            attack_skill = 
-            defense_skill =
-            planning_skill =
-            logistics_skill =
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
 
         }
     }
@@ -35,19 +35,19 @@ characters = {
         name = NCA_Alexander_McCarell_Patch
         portraits = {
             civilian = {
-                large =
+                large = GFX_fish
             }
             army = {
-                large =
+                large = GFX_fish
             }
         } 
         field_marshal = {
             traits = {}
-            skill =
-            attack_skill = 
-            defense_skill =
-            planning_skill =
-            logistics_skill =
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
 
         }
     }
@@ -56,19 +56,19 @@ characters = {
         name = NCA_Alexander_McCarell_Patch
         portraits = {
             civilian = {
-                large =
+                large = GFX_fish
             }
             army = {
-                large =
+                large = GFX_fish
             }
         } 
         field_marshal = {
             traits = {}
-            skill =
-            attack_skill = 
-            defense_skill =
-            planning_skill =
-            logistics_skill =
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
 
         }
     }
