@@ -1975,7 +1975,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_the_job_of_congress
+	id = CAL_the_role_of_congress
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2040,11 +2040,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_the_job_of_congress
+		focus = CAL_the_role_of_congress
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_the_job_of_congress
+	relative_position_id = CAL_the_role_of_congress
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_convene_the_eighty_second_congress"
 	}
@@ -2108,7 +2108,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_congressional_ethics
+	id = CAL_congressional_ethics_and_oversight
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2127,7 +2127,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_executive_ethics
+	id = CAL_executive_ethics_and_oversight
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2183,7 +2183,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_judicial_ethics
+	id = CAL_judicial_ethics_and_oversight
 	icon = GFX
 	available_if_capitualted = no
 	ai_will_do = {
@@ -2201,85 +2201,250 @@ shared_focus = {
 }
 
 shared_focus = {
-
+	id = CAL_conduct_governmental_reform
+	icon = GFX
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_discuss_the_federal_budget
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_discuss_the_federal_budget
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_conduct_governmental_reform"
+	}
 }
 
 shared_focus = {
-
+	id = CAL_create_an_anticoruption_committee
+	icon = GFX
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_congressional_ethics_and_oversight
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_congressional_ethics_and_oversight
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_create_an_anticoruption_committee"
+	}
 }
 
 shared_focus = {
-
+	id = CAL_rebuilding_trust
+	icon = GFX
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_swear_in_a_new_cabinet
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_swear_in_a_new_cabinet
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_3"
+	}
 }
 
 shared_focus = {
-
+	id = CAL_implement_presidential_term_limits
+	icon = GFX
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_executive_ethics_and_oversight
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_executive_ethics_and_oversight
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_implement_presidential_term_limits"
+	}
 }
 
 shared_focus = {
-
+	id = CAL_appoint_new_justices
+	icon = GFX
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_term_limits_for_judges
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_term_limits_for_judges
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_appoint_new_justices"
+	}
 }
 
 shared_focus = {
-
+	id = CAL_the_question_of_court_packing
+	icon = GFX
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_judicial_ethics_and_oversight
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_judicial_ethics_and_oversight
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_question_of_court_packing"
+	}
 }
 
 shared_focus = {
-
+	id = CAL_form_the_house_unamerican_activities_committee
+	icon = GFX
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_conduct_governmental_reform
+	}
+	prerequisite = {
+		focus = CAL_create_an_anticoruption_committee
+	}
+	x = 0
+	y = 3
+	relative_position_id = CAL_convene_the_eighty_second_congress
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_hold_local_elections"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_the_new_fireside_chats
+	icon = GFX
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuilding_trust
+	}
+	prerequisite = {
+		focus = CAL_implement_presidential_term_limits
+	}
+	x = 0
+	y = 3
+	relative_position_id = CAL_pass_new_executive_orders
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_new_fireside_chats"
+	}
 }
 
 shared_focus = {
-
+	id = CAL_rule_of_law_by_and_for_the_people
+	icon = GFX
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_appoint_new_justices
+	}
+	prerequisite = {
+		focus = CAL_the_question_of_court_packing
+	}
+	x = 0
+	y = 3
+	relative_position_id = CAL_hear_case_of_community_service_vs_california
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rule_of_law_by_and_for_the_people"
+	}
 }
 
 shared_focus = {
-
+	id = CAL_hold_local_elections
+	icon = GFX
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_form_the_house_unamerican_activities_committee
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_form_the_house_unamerican_activities_committee
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_hold_local_elections"
+	}
 }
 
 shared_focus = {
-
+	id = CAL_reassure_the_citizenry
+	icon = GFX
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_new_fireside_chats
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_the_new_fireside_chats
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reassure_the_citizenry"
+	}
 }
 
 shared_focus = {
-
+	id = CAL_the_reformed_supreme_court
+	icon = GFX
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rule_of_law_by_and_for_the_people
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rule_of_law_by_and_for_the_people
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_reformed_supreme_court"
+	}
 }
 
 shared_focus = {
-
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-
-}
-
-shared_focus = {
-
-}
-
-shared_focus = {
-
-}
-
-shared_focus = {
-
-}
-
-shared_focus = {
-
-}
-
-shared_focus = {
-
-}
-
-shared_focus = {
-
+	id = CAL_land_of_the_free_and_home_of_the_brave_once_more
+	icon = GFX
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_hold_local_elections
+	}
+	prerequisite = {
+		focus = CAL_reassure_the_citizenry
+	}
+	prerequisite = {
+		focus = CAL_the_reformed_supreme_court
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_reassure_the_citizenry
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_land_of_the_free_and_home_of_the_brave_once_more"
+	}
 }
