@@ -1,0 +1,32 @@
+
+state={
+	id=372
+	name="STATE_372"
+	manpower = 1854481
+	
+	state_category = town
+	
+	resources={
+		aluminium=14 # was: 20
+	}
+
+
+	history={
+		owner = DIX
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		add_core_of = DIX
+		victory_points = {
+			12489 1 
+		}
+
+	}
+
+	provinces={
+		1503 4567 4597 7485 7543 12458 12489 12778 
+	}
+
+	local_supplies=9.0 
+}

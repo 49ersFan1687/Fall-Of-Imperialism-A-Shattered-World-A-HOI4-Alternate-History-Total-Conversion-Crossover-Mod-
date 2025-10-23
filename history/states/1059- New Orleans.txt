@@ -1,0 +1,33 @@
+state = {
+	id = 1059
+	name = "STATE_1059"
+	manpower = 1349871
+	
+	state_category = city
+
+	history = {
+
+		owner = LOU
+		add_core_of = LOU
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 1	
+			dockyard = 1
+			7552 = {
+				naval_base = 5
+
+			}
+		}
+		victory_points = {
+			7552 10 
+		}
+		
+	}
+
+	provinces = {
+		1453 7524 7552 4535 12398
+	}
+
+	local_supplies = 0.0 
+}
