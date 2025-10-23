@@ -672,6 +672,82 @@ characters = {
 			logistics_skill =
 		}
 	}
+	CSD_theodore_jarvis_johnson = {
+		name = CSD_theodore_jarvis_johnson
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = { ranger commando }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	CSD_ashley_hammond = {
+		name = CSD_ashley_hammond
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = { ranger commando }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	CSD_cassie_chan = {
+		name = CSD_cassie_chan
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = { ranger commando }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	CSD_carlos_vallerte = {
+		name = CSD_carlos_vallerte
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = { ranger commando }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
 
     # Crystal Prep Clique - The Progressives #
 	CSD_twilight_sparkle = {
