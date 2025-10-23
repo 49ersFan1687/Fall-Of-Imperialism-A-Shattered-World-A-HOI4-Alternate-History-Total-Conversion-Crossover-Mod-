@@ -510,9 +510,9 @@ characters = {
 		}
 		field_marshal = {
 			traits = { ranger commando offensive_doctrine brilliant_strategist }
-			skill = 4
-			attack_skill = 6
-			defense_skill = 5
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
 		}
