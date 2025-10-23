@@ -1263,6 +1263,10 @@ shared_focus = {
 	relative_position_id = CAL_initial_military_reforms
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_california_national_guard"
+		division_template = {
+			name = "California National Guard Division"
+			division_names_group = USA_INF_01
+		}
 	}
 }
 shared_focus = {
@@ -2161,11 +2165,39 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_term_limits_for_judges
+	icon = GFX
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_hear_case_of_community_service_vs_california
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_hear_case_of_community_service_vs_california
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_term_limits_for_judges"
+	}
 }
 
 shared_focus = {
-
+	id = CAL_judicial_ethics
+	icon = GFX
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_hear_case_of_community_service_vs_california
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_hear_case_of_community_service_vs_california
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_judicial_ethics"
+	}
 }
 
 shared_focus = {
