@@ -452,7 +452,7 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { ranger commando }
+			traits = { ranger commando infantry_officer }
 			skill = 
 			attack_skill = 
 			defense_skill = 
@@ -531,7 +531,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger }
+			traits = { ranger commando }
 			skill =
 			attack_skill =
 			defense_skill =
@@ -550,7 +550,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger }
+			traits = { ranger commando }
 			skill =
 			attack_skill =
 			defense_skill =
@@ -569,7 +569,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger }
+			traits = { ranger commando }
 			skill =
 			attack_skill =
 			defense_skill =
@@ -588,7 +588,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger }
+			traits = { ranger commando }
 			skill =
 			attack_skill =
 			defense_skill =
@@ -607,7 +607,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger }
+			traits = { ranger commando }
 			skill =
 			attack_skill =
 			defense_skill =
@@ -626,7 +626,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger }
+			traits = { ranger commando }
 			skill =
 			attack_skill =
 			defense_skill =
@@ -645,7 +645,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger }
+			traits = { ranger commando }
 			skill =
 			attack_skill =
 			defense_skill =
@@ -664,7 +664,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger }
+			traits = { ranger commando }
 			skill =
 			attack_skill =
 			defense_skill =
