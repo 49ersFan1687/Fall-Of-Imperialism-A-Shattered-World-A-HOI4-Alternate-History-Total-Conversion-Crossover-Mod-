@@ -1,8 +1,6 @@
 ﻿l_english:
- # Slovakian Localisation File #
- 
+ # Slovakian Localisation #
  ## Cosmetic Tags ##
-
  SLO: "Slovakia"
  SLO_DEF: "The Slovak State"
  SLO_ADJ: "Slovak"
@@ -55,3 +53,5 @@
 
  SLO_communism_party: "CPS"
  SLO_communism_party_long: "§YCommunist Party of Slovakia§!"
+
+ # #
