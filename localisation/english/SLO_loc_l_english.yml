@@ -1,0 +1,57 @@
+l_english:
+ # Slovakian Localisation File #
+ 
+ ## Cosmetic Tags ##
+ 
+ SLO: "Slovakia"
+ SLO_DEF: "The Slovak State"
+ SLO_ADJ: "Slovak"
+
+ SLO_Democracy: "Slovak Republic"
+ SLO_Democracy_DEF: "The Slovak Republic"
+ SLO_Democracy_ADJ: "Slovak"
+
+ SLO_Socialist: "People's Republic of Slovakia"
+ SLO_Socialist_DEF: "The People's Republic of Slovakia"
+ SLO_Socialist_ADJ: "Slovak"
+
+ ## Characters ##
+ 
+ ## Ideas ##
+
+ ## Decisions ##
+
+ ## Focus Tree Names ##
+
+ SLO_starting_focus_tree: "Slovak Starting Focus Tree"
+
+ ## Focus Trees ##
+
+ ## Political Parties ##
+
+ SLO_national_socialism_party: "HSLS-R"
+ SLO_national_socilaism_party_long: "§YHlinka's Slovak People's Party - Radicals§!"
+ 
+ SLO_fascism_party: "HSLS-M"
+ SLO_fascism_party_long: "§YHlinka's Slovak People's Party - Moderates§!"
+
+ SLO_paternal_autocrat_party: "SNS"
+ SLO_paternal_autocrat_party_long: "§YSlovak National Party§!"
+
+ SLO_neutrality_party: "SNR"
+ SLO_neutrality_party_long: "§YSlovak National Council§!"
+
+ SLO_conservatism_party: "KDH"
+ SLO_conservatism_party_long: "§YChristian Democratic Movement Party§!"
+ 
+ SLO_democratic_party: "DS"
+ SLO_democratic_party_long: "§YDemocratic Party§!"
+
+ SLO_social_democracy_party: "SDĽ-SD"
+ SLO_social_democracy_party_long: "§YParty of the Democratic Left - Social Democrats§!"
+ 
+ SLO_socialism_party: "SDĽ-S"
+ SLO_socialism_party_long: "§YParty of the Democratic Left - Socialists§!"
+
+ SLO_communism_party: "CPS"
+ SLO_communism_party_long: "§YCommunist Party of Slovakia§!"
