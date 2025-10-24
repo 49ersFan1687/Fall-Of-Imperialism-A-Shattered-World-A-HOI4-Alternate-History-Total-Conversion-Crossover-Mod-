@@ -1,0 +1,33 @@
+state = {
+	id = 1066
+	name = "STATE_1066"
+	manpower = 543871
+	
+	state_category = city
+
+	history = {
+
+		owner = GAC
+		add_core_of = GAC
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 1
+			1843 = {
+				naval_base = 5
+			}
+		}
+		victory_points = {
+			1843 5 
+		}
+		
+		
+		
+	}
+
+	provinces = {
+		1843 1913 9834 10489
+	}
+
+	local_supplies = 0.0 
+}

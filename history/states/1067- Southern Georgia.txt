@@ -1,0 +1,30 @@
+state = {
+	id = 1067
+	name = "STATE_1067"
+	manpower = 1345981
+	
+	state_category = city
+
+	history = {
+
+		owner = SGR
+		add_core_of = SGR
+
+		buildings = {
+			infrastructure = 2 #was: 6
+			industrial_complex = 1
+			arms_factory = 1
+			11975 = {
+				naval_base = 1
+			}
+		}
+			
+		
+	}
+
+	provinces = {
+		12325 1433 1480 12470 12498 11975 10465 10437 7612 10492 
+	}
+
+	local_supplies = 0.0 
+}

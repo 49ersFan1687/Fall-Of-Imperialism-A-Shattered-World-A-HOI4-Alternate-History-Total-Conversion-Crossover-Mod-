@@ -1,19 +1,22 @@
-capital = 1059
-recruit_character = LOU_elmo_zumwalt
+capital = 1066
+
 set_war_support = 0.3
-set_stability = 0.4
+set_stability = 0.3
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 }
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	paternal_autocrat = 100
+	fascism = 60
+	national_socialism = 20
+	ultranationalism = 10
+	paternal_autocrat = 10
 	
 }

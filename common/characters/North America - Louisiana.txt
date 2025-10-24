@@ -1,0 +1,24 @@
+characters = {
+    # Country Leaders #
+    LOU_elmo_zumwalt = {
+        name = LOU_elmo_zumwalt
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_ELMO_ZUMWALT_DESC"
+            expire = "1995.8.20"
+            ideology = military_junta_ideology
+            traits = {
+                
+            }
+        }
+	}
+ 
+
+}

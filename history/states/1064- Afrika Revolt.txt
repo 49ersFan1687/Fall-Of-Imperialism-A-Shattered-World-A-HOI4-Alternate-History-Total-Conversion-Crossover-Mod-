@@ -1,0 +1,26 @@
+state = {
+	id = 1064
+	name = "STATE_1064"
+	manpower = 189345
+	
+	state_category = large_town
+
+	history = {
+
+		owner = BBR
+		add_core_of = BBR
+
+		buildings = {
+			infrastructure = 2 #was: 6
+			industrial_complex = 1
+		}
+		
+		
+	}
+
+	provinces = {
+		10449 4650 4565 10410 12328 8110 11717
+	}
+
+	local_supplies = 0.0 
+}

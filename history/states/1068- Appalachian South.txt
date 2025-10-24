@@ -1,0 +1,25 @@
+state = {
+	id = 1068
+	name = "STATE_1068"
+	manpower = 53981
+	
+	state_category = town
+
+	history = {
+
+		owner = APP
+		add_core_of = APP
+
+		buildings = {
+			infrastructure = 2 #was: 6
+		}
+			
+		
+	}
+
+	provinces = {
+		968 5090 12803
+	}
+
+	local_supplies = 0.0 
+}

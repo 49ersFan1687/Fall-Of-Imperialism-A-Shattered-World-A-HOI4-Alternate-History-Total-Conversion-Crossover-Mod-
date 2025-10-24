@@ -1275,6 +1275,34 @@ LOU = {
 	color = rgb { 65 69 69 }
 	color_ui = rgb { 65 69 69 }
 }
+BBR = {
+	color = rgb { 97 40 65 }
+	color_ui = rgb { 97 40 65 }
+}
+APP = {
+	color = rgb { 150 114 72 }
+	color_ui = rgb { 150 114 72 }
+}
+SGR = {
+	color = rgb { 69 99 102 }
+	color_ui = rgb { 69 99 102 }
+}
+SFL = {
+	color = rgb { 64 56 50 }
+	color_ui = rgb { 64 56 50 }
+}
+GAC = {
+	color = rgb { 112 109 107 }
+	color_ui = rgb { 112 109 107 }
+}
+GMD = {
+	color = rgb { 54 69 105 }
+	color_ui = rgb { 54 69 105 }
+}
+SRA = {
+	color = rgb { 102 24 37 }
+	color_ui = rgb { 102 24 37 }
+}
 
 
 

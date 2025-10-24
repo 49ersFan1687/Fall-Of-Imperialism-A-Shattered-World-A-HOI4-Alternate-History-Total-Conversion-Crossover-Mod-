@@ -1,0 +1,34 @@
+
+state={
+	id=365
+	name="STATE_365"
+	manpower = 1634091
+	
+	state_category = city
+
+	history={
+		owner = SRA
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 1
+			air_base = 2
+		}
+		add_core_of = SRA
+		victory_points = {
+			12384 10 
+		}
+
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+			}
+		}
+
+	}
+
+	provinces={
+		638 7118 7583 9949 9996 10394 12384 
+	}
+
+	local_supplies=0.0 
+}

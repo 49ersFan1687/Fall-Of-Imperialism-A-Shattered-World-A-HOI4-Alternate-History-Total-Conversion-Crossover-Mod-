@@ -1,0 +1,31 @@
+state = {
+	id = 1065
+	name = "STATE_1065"
+	manpower = 432890
+	
+	state_category = town
+
+	history = {
+
+		owner = GMD
+		add_core_of = GMD
+
+		buildings = {
+			infrastructure = 2 #was: 6
+			arms_factory = 1
+			dockyard = 1
+			10352 = {
+				naval_base = 1
+			}
+		}
+		
+		
+		
+	}
+
+	provinces = {
+		10352 10380 10407 12353
+	}
+
+	local_supplies = 0.0 
+}
