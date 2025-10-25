@@ -1307,7 +1307,6 @@ shared_focus = {
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
-    mark_focus_tree_layout_dirty = yes
 	ai_will_do = {
 		factor = 1
 	}
@@ -1325,6 +1324,7 @@ shared_focus = {
 	relative_position_id = CAL_california_war_industry
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_bear_roars_again"
+      mark_focus_tree_layout_dirty = yes
 	}
 }
 
