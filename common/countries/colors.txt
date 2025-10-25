@@ -1303,6 +1303,10 @@ SRA = {
 	color = rgb { 102 24 37 }
 	color_ui = rgb { 102 24 37 }
 }
+KKK = {
+	color = rgb { 47 40 61 }
+	color_ui = rgb { 47 40 61 }
+}
 
 
 
