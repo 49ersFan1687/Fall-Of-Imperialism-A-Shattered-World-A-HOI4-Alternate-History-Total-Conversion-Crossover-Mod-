@@ -25,7 +25,7 @@ focus_tree = {
         }
     }
     default = no
-    shared_focus = 
+    shared_focus = CAL_
 }
 
 focus_tree = {
