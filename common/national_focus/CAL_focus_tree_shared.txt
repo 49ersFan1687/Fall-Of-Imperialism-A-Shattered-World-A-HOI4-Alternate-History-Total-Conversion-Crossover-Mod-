@@ -343,9 +343,11 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-	
 	available = {
 		has_completed_focus = CAL_restablish_radio_contact_with_canada
+	}
+	allow_branch = {
+		has_country_flag = CAL_
 	}
 	x = -6
 	y = -1
@@ -639,6 +641,9 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_contact_the_remnants
 	}
+	allow_branch = {
+		has_country_flag = CAL_
+	}
 	x = 6
 	y = -1
 	relative_position_id = CAL_alone_and_isolated
@@ -931,7 +936,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_solve_the_resource_issue
+	id = CAL_begin_planning_for_war
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -941,9 +946,28 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_beat_the_inertia
 	}
-	x = -4
+	x = 0
 	y = 1
 	relative_position_id = CAL_beat_the_inertia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_planning_for_war"
+	}
+}
+
+shared_focus = {
+	id = CAL_solve_the_resource_issue
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_begin_planning_for_war
+	}
+	x = -4
+	y = 1
+	relative_position_id = CAL_begin_planning_for_war
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_solve_the_resource_issue"
 	}
@@ -958,11 +982,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_beat_the_inertia
+		focus = CAL_begin_planning_for_war
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_beat_the_inertia
+	relative_position_id = CAL_begin_planning_for_war
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_southern_california_industry"
 	}
@@ -977,11 +1001,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_beat_the_inertia
+		focus = CAL_begin_planning_for_war
 	}
 	x = 4
 	y = 1
-	relative_position_id = CAL_beat_the_inertia
+	relative_position_id = CAL_begin_planning_for_war
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_solve_the_resource_issue"
 	}
