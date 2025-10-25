@@ -347,7 +347,7 @@ shared_focus = {
 		has_completed_focus = CAL_restablish_radio_contact_with_canada
 	}
 	allow_branch = {
-		has_country_flag = CAL_
+		has_country_flag = CAL_has_contacted_canada
 	}
 	x = -6
 	y = -1
@@ -642,7 +642,7 @@ shared_focus = {
 		has_completed_focus = CAL_contact_the_remnants
 	}
 	allow_branch = {
-		has_country_flag = CAL_
+		has_country_flag = CAL_has_contacted_allies
 	}
 	x = 6
 	y = -1
@@ -945,6 +945,9 @@ shared_focus = {
 	}
 	prerequisite = {
 		focus = CAL_beat_the_inertia
+	}
+	allow_branch = {
+		has_country_flag = CAL_has_begun_war_plans
 	}
 	x = 0
 	y = 1
@@ -1333,6 +1336,9 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_the_bear_roars_again
 	}
+	allow_branch = {
+		has_country_flag = CAL_begun_expansion
+	}
 	x = 0
 	y = 1
 	relative_position_id = CAL_the_bear_roars_again
@@ -1465,6 +1471,9 @@ shared_focus = {
 	}
 	prerequisite = {
 		focus = CAL_send_an_ultimatum_to_the_california_state_guard
+	}
+	allow_branch = {
+		has_country_flag = CAL_controls_all_of_california
 	}
 	x = 0
 	y = 3
