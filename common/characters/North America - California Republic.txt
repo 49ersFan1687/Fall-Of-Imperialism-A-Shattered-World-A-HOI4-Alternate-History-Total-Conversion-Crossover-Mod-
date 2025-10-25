@@ -4,13 +4,13 @@ characters = {
         name = CAL_henry_agard_wallace
 		portraits = {
 			civilian = {
-				large = GFX_fish
+				large = 
 			}
 		}
 		country_leader = {
 			desc = "POLITICS_HENRY_WALLACE_DESC"
 			expire = "1994.4.20"
-			ideology = progressive_democracy_ideology
+			ideology = 
 			traits = {
 			}
 		}
@@ -19,19 +19,19 @@ characters = {
         name = CAL_huey_pierce_long_jr
         portraits = {
 			civilian = {
-				large = GFX_fish
+				large = 
 			}
 		}
 		country_leader = {
 			desc = "POLITICS_HUEY_LONG_DESC"
 			expire = "1994.4.20"
-			ideology = auth_national_conservatism_ideology
+			ideology = 
 			traits = {
 
 			}
 		}
         advisor = {
-			slot = theorist
+			slot = 
 			idea_token = CAL_huey_pierce_long_jr_hog
 			allowed = { original_tag = CAL }
 			traits = {
@@ -55,7 +55,7 @@ characters = {
 			}
 		}
 		advisior = {
-			slot = theorist
+			slot = 
 		}
 		field_marshal = {
 			traits = { logistics_wizard offensive_doctrine panzer_leader cautious organizer politically_connected }
@@ -77,7 +77,7 @@ characters = {
 			}
 		}
 		advisior = {
-			slot = theorist
+			slot = 
 		}
 		field_marshal = {
 			traits = { career_officer politically_connected organizer offensive_doctrine logistics_wizard }
@@ -99,7 +99,7 @@ characters = {
 			}
 		}
 		advisior = {
-			slot = theorist
+			slot = 
 		}
 		field_marshal = {
 			traits = { trait_engineer cautious organizer brilliant_strategist career_officer }
@@ -207,7 +207,7 @@ characters = {
 		name = CAL_Maxwell_Davenport_Taylor
 		portraits = {
 			army = {
-				large = GFX_fish
+				large = "gfx/leaders/CAL/Portrait_CAL_Maxewell_Davenport_Taylor.dds"
 			}
 		}
 		corps_commander = {
@@ -239,161 +239,160 @@ characters = {
 		name = CAL_Henry_Harley_Arnold
 		portraits = {
 			army = {
-				large = GFX_fish
+				large =
 			}
 		}
 		corps_commander = {
 			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
 		}
 	}
 	CAL_Jacob_Loucks_Devers = {
 		name = CAL_Jacob_Loucks_Devers
 		portraits = {
 			army = {
-				large = GFX_fish
 
 			}
 		}
 		corps_commander = {
 			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
 		}
 	}
 	CAL_Lucian_King_Truscott = {
 		name = CAL_Lucian_King_Truscott
 		portraits = {
 			army = {
-				large = GFX_fish
+
 			}
 		}
 		corps_commander = {
 			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
 		}
 	}
 	CAL_Leonard_Townsend_Gerow = {
 		name = CAL_Leonard_Townsend_Gerow
 		portraits = {
 			army = {
-				large = GFX_fish
+
 			}
 		}
 		corps_commander = {
 			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
 		}
 	}
 	CAL_Benjamin_Oliver_Davis_Sr = {
 		name = CAL_Benjamin_Oliver_Davis_Sr
 		portraits = {
 			army = {
-				large = GFX_fish
+
 			}
 		}
 		corps_commander = {
 			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
 		}
 	}
 	CAL_Ulysses_Simpson_Grant_III = {
 		name = CAL_Ulysses_Simpson_Grant_III
 		portraits = {
 			army = {
-				large = GFX_fish
+
 			}
 		}
 		corps_commander = {
 			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
 		}
 	}
 	CAL_Claire_Lee_Chennault = {
 		name = CAL_Claire_Lee_Chennault
 		portraits = {
 			army = {
-				large = GFX_fish
+
 			}
 		}
 		corps_commander = {
 			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
 		}
 	}
 	CAL_John_Daniel_Lavelle = {
 		name = CAL_John_Daniel_Lavelle
 		portraits = {
 			army = {
-				large = GFX_fish
+
 			}
 		}
 		corps_commander = {
 			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
 		}
 	}
 	CAL_Elizabeth_Coleman = {
 		name = CAL_Elizabeth_Coleman
 		portraits = {
 			army = {
-				large = GFX_fish
+
 			}
 		}
 		corps_commander = {
 			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 
+			attack_skill =
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
 		}
 	}
 	CAL_Charity_Edna_Adams_Earley = {
 		name = CAL_Charity_Edna_Adams_Earley
 		portraits = {
 			army = { 
-				large = GFX_fish
+
 			}
 		}
 		corps_commander = {
 			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 
+			attack_skill =
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
 		}
 	}
 	# Admirals #
@@ -401,26 +400,26 @@ characters = {
 		name = CAL_Ernest_Joseph_King
 		portraits = {
 			army = {
-				large = GFX_fish
-				small = GFX_fish
+				large = 
+				small =
 			}
 			civilian = {
-				small = GFX_fish 
+				small = 
 			}
 		}
 		navy_leader = {
-			desc = FISH
+			desc = 
 			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			maneuvering_skill = 
+			coordination_skill =
 
 		}
 		advisior = { 
-			slot = theorist
-			idea_token = fish
+			slot = 
+			idea_token = 
 			ledger = navy
 			allowed = { original_tag = CAL }
 			traits = {
@@ -432,26 +431,26 @@ characters = {
 		name = CAL_Chester_William_Nimitz
 		portraits = {
 			army = {
-				large = GFX_fish
-				small = GFX_fish
+				large = 
+				small =
 			}
 			civilian = {
-				small = GFX_fish 
+				small = 
 			}
 		}
 		navy_leader = {
-			desc = FISH
+			desc = 
 			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			maneuvering_skill = 
+			coordination_skill =
 
 		}
 		advisior = { 
-			slot = theorist
-			idea_token = fish
+			slot = 
+			idea_token = 
 			ledger = navy
 			allowed = { original_tag = CAL }
 			traits = {
@@ -463,26 +462,26 @@ characters = {
 		name = CAL_William_Daniel_Leahy
 		portraits = {
 			army = {
-				large = GFX_fish
-				small = GFX_fish
+				large = 
+				small =
 			}
 			civilian = {
-				small = GFX_fish 
+				small = 
 			}
 		}
 		navy_leader = {
-			desc = FISH
+			desc = 
 			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			maneuvering_skill = 
+			coordination_skill =
 
 		}
 		advisior = { 
-			slot = theorist
-			idea_token = fish
+			slot = 
+			idea_token = 
 			ledger = navy
 			allowed = { original_tag = CAL }
 			traits = {
@@ -494,26 +493,26 @@ characters = {
 		name = CAL = CAL_William_Fredrick_Halsey_Jr
 		portraits = {
 			army = {
-				large = GFX_fish
-				small = GFX_fish
+				large = 
+				small =
 			}
 			civilian = {
-				small = GFX_fish 
+				small = 
 			}
 		}
 		navy_leader = {
-			desc = FISH
+			desc = 
 			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			maneuvering_skill = 
+			coordination_skill =
 
 		}
 		advisior = { 
-			slot = theorist
-			idea_token = fish
+			slot = 
+			idea_token = 
 			ledger = navy
 			allowed = { original_tag = CAL }
 			traits = {
@@ -525,18 +524,18 @@ characters = {
 		name = CAL = CAL_Samuel_Lee_Gravely_Jr
 		portraits = {
 			army = {
-				large = GFX_fish
-				small = GFX_fish
+				large = 
+				small =
 			}
 		}
 		navy_leader = {
-			desc = fish
+			desc = 
 			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			maneuvering_skill = 
+			coordination_skill =
 
 		}
 	}
@@ -544,18 +543,18 @@ characters = {
 		name = CAL = CAL_Arleigh_Albert_Burke
 		portraits = {
 			army = {
-				large = GFX_fish
-				small = GFX_fish
+				large = 
+				small =
 			}
 		}
 		navy_leader = {
-			desc = fish
+			desc = 
 			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			maneuvering_skill = 
+			coordination_skill =
 
 		}
 	}
@@ -563,18 +562,18 @@ characters = {
 		name = CAL_Issac_Campbell_Kidd_Sr
 		portraits = {
 			army = {
-				large = GFX_fish
-				small = GFX_fish
+				large = 
+				small =
 			}
 		}
 		navy_leader = {
-			desc = fish
+			desc = 
 			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			maneuvering_skill = 
+			coordination_skill =
 
 		}
 	}
