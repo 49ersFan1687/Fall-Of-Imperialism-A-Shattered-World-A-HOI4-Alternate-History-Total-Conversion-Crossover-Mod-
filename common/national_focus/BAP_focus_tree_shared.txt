@@ -342,5 +342,6 @@ shared_focus = {
     relative_position_id = BAP_socialist_rifle_administration_militias
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: completed focus BAP_begin_the_american_socialist_experiment"
+        mark_focus_tree_layout_dirty = yes
     }
 }
