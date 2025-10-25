@@ -346,9 +346,6 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_restablish_radio_contact_with_canada
 	}
-	allow_branch = {
-		has_country_flag = CAL_has_contacted_canada
-	}
 	x = -6
 	y = -1
 	relative_position_id = CAL_barely_no_industry
@@ -640,9 +637,6 @@ shared_focus = {
 	}
 	available = {
 		has_completed_focus = CAL_contact_the_remnants
-	}
-	allow_branch = {
-		has_country_flag = CAL_has_contacted_allies
 	}
 	x = 6
 	y = -1
@@ -945,9 +939,6 @@ shared_focus = {
 	}
 	prerequisite = {
 		focus = CAL_beat_the_inertia
-	}
-	allow_branch = {
-		has_country_flag = CAL_has_begun_war_plans
 	}
 	x = 0
 	y = 1
@@ -1336,9 +1327,6 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_the_bear_roars_again
 	}
-	allow_branch = {
-		has_country_flag = CAL_begun_expansion
-	}
 	x = 0
 	y = 1
 	relative_position_id = CAL_the_bear_roars_again
@@ -1472,14 +1460,30 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_send_an_ultimatum_to_the_california_state_guard
 	}
-	allow_branch = {
-		has_country_flag = CAL_controls_all_of_california
-	}
 	x = 0
 	y = 3
 	relative_position_id = CAL_the_first_of_many_steps_to_victory
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_consolidate_control_over_california"
+	}
+}
+
+shared_focus = {
+	id = CAL_begin_rebuilding_california
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_consolidate_control_over_california
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_consolidate_control_over_california
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_rebuilding_california"
 	}
 }
 
@@ -1492,11 +1496,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_consolidate_control_over_california
+		focus = CAL_begin_rebuilding_california
 	}
 	x = -2.5
 	y = 1
-	relative_position_id = CAL_consolidate_control_over_california
+	relative_position_id = CAL_begin_rebuilding_california
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_california_civillian_industry"
 	}
@@ -1511,11 +1515,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_consolidate_control_over_california
+		focus = CAL_begin_rebuilding_california
 	}
 	x = 2.5
 	y = 1
-	relative_position_id = CAL_consolidate_control_over_california
+	relative_position_id = CAL_begin_rebuilding_california
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_california_military_industry"
 	}
@@ -1885,7 +1889,7 @@ shared_focus = {
 	}
 	x = 0
 	y = 7
-	relative_position_id = CAL_consolidate_control_over_california
+	relative_position_id = CAL_begin_rebuilding_california
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_new_bastion_of_freedom"
 	}
