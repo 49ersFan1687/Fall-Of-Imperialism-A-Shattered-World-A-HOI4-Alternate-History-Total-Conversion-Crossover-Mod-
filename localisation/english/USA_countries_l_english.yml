@@ -143,6 +143,9 @@
  SFL_ADJ: "Floridian"
  GAC: "Gray Army"
  GAC_DEF: "Gray Army of the Confederacy"
+ KKK: "Klu Klux Klan"
+ KKK_DEF: "Imperial Wizardom of The Klu Klux Klan"
+ KKK_ADJ: "Wizards"
 #PARTIES
 #California Republic
  CAL_democratic_party: "Progressive Party"
