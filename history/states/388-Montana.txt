@@ -1,0 +1,32 @@
+state = {
+	id = 388
+	name = "STATE_388"
+	manpower = 237653
+	state_category = rural
+
+	resources = {
+		tungsten = 11 # was: 16
+	}
+
+	history = {
+
+		owner = MCR
+		add_core_of = MCR
+
+		buildings = {
+			infrastructure = 2
+		}
+		
+		
+
+		# Hungry Horse Dam
+		#1854 = { dam = 1 }
+
+	}
+
+	provinces = {
+		1767 4857 7760 7880 7883 10587 10706 
+	}
+
+	local_supplies = 0.0 
+}
