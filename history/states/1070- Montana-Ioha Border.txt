@@ -1,0 +1,26 @@
+state = {
+	id = 1070
+	name = "STATE_1070"
+	manpower = 73432
+	
+	state_category = rural
+
+	history = {
+
+		owner = FTM
+		add_core_of = FTM
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 1
+		}
+			
+		
+	}
+
+	provinces = {
+		1736 6742
+	}
+
+	local_supplies = 0.0 
+}

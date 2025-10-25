@@ -1307,6 +1307,31 @@ KKK = {
 	color = rgb { 47 40 61 }
 	color_ui = rgb { 47 40 61 }
 }
+MAR = {
+	color = rgb { 60 68 143 }
+	color_ui = rgb { 60 68 143 }
+}
+ANR = {
+	color = rgb { 105 85 59 }
+	color_ui = rgb { 105 85 59 }
+}
+SMO = {
+	color = rgb { 59 105 100 }
+	color_ui = rgb { 59 105 100 }
+}
+FTM = {
+	color = rgb { 102 42 62 }
+	color_ui = rgb { 102 42 62 }
+}
+BLF = {
+	color = rgb { 150 150 110 }
+	color_ui = rgb { 150 150 110 }
+}
+MCR = {
+	color = rgb { 66 51 40 }
+	color_ui = rgb { 66 51 40 }
+}
+
 
 
 

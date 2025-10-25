@@ -1,0 +1,30 @@
+state = {
+	id = 1075
+	name = "STATE_1075"
+	manpower = 3234890
+	
+	state_category = megalopolis
+
+	history = {
+
+		owner = MAR
+		add_core_of = MAR
+
+		buildings = {
+			infrastructure = 4 #was: 6
+			arms_factory = 3
+			industrial_complex = 4
+		}
+		victory_points = {
+			9450 30
+		}
+			
+		
+	}
+
+	provinces = {
+		9450 12312 11589
+	}
+
+	local_supplies = 0.0 
+}

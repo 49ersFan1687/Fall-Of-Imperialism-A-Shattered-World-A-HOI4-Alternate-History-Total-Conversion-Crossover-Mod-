@@ -1,0 +1,26 @@
+state = {
+	id = 1076
+	name = "STATE_1076"
+	manpower = 116345
+	
+	state_category = town
+
+	history = {
+
+		owner = MAR
+		add_core_of = MAR
+
+		buildings = {
+			infrastructure = 2 #was: 6
+			arms_factory = 1
+		}
+			
+		
+	}
+
+	provinces = {
+		4691 11971 1831 9910
+	}
+
+	local_supplies = 0.0 
+}

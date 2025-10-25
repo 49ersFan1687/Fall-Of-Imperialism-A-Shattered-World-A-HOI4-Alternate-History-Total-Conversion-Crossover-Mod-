@@ -1,0 +1,26 @@
+state = {
+	id = 1073
+	name = "STATE_1073"
+	manpower = 754981
+	
+	state_category = town
+
+	history = {
+
+		owner = USA
+		add_core_of = USA
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 1
+		}
+			
+		
+	}
+
+	provinces = {
+		11667 12597 10618 10719 1867 12577 
+	}
+
+	local_supplies = 0.0 
+}

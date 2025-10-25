@@ -1,21 +1,19 @@
-capital = 361
-
-set_war_support = 0.5
-set_stability = 0.3
+capital = 1072
+set_war_support = 0.1
+set_stability = 0.6
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 }
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 40
-	national_socialism = 20
-	paternal_autocrat = 20
-	esotericism = 20
+	neutrality = 90
+	socialism = 10
+	
 }
