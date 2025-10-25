@@ -926,6 +926,7 @@ shared_focus = {
 	relative_position_id = CAL_begin_turning_southern_california_into_a_bastion
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_the_construction_of_fortifications"
+mark_focus_tree_layout_dirty = yes
 	}
 }
 
@@ -940,6 +941,10 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_beat_the_inertia
 	}
+allow_branch = {
+		has_completed_focus = CAL_beat_the_inertia
+	}
+
 	x = 0
 	y = 1
 	relative_position_id = CAL_beat_the_inertia
@@ -964,6 +969,9 @@ shared_focus = {
 	relative_position_id = CAL_begin_planning_for_war
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_solve_the_resource_issue"
+allow_branch = {
+		has_completed_focus = CAL_beat_the_inertia
+	}
 	}
 }
 
@@ -983,6 +991,9 @@ shared_focus = {
 	relative_position_id = CAL_begin_planning_for_war
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_southern_california_industry"
+allow_branch = {
+		has_completed_focus = CAL_beat_the_inertia
+	}
 	}
 }
 
@@ -1002,6 +1013,9 @@ shared_focus = {
 	relative_position_id = CAL_begin_planning_for_war
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_solve_the_resource_issue"
+allow_branch = {
+		has_completed_focus = CAL_beat_the_inertia
+	}
 	}
 }
 
@@ -1310,6 +1324,7 @@ shared_focus = {
 	relative_position_id = CAL_california_war_industry
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_bear_roars_again"
+      mark_focus_tree_layout_dirty = yes
 	}
 }
 
@@ -1332,6 +1347,9 @@ shared_focus = {
 	relative_position_id = CAL_the_bear_roars_again
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_first_of_many_steps_to_victory"
+allow_branch = {
+		has_completed_focus = CAL_the_bear_roars_again
+	}
 	}
 }
 
