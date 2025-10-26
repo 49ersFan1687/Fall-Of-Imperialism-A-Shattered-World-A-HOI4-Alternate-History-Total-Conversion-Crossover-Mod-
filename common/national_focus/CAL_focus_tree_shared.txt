@@ -351,7 +351,7 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_restablish_radio_contact_with_canada
 	}
-	x = -6
+	x = -7
 	y = -1
 	relative_position_id = CAL_barely_no_industry
 	completion_reward = {
@@ -630,7 +630,6 @@ shared_focus = {
 }
 
 ### Create Anti-Nazi Front Focus Tree ###
-
 shared_focus = {
 	id = CAL_dreams_of_a_united_american_anti_nazi_front
 	icon = GFX
@@ -646,7 +645,7 @@ shared_focus = {
 		has_completed_focus = CAL_contact_the_remnants
 	}
 	x = 0
-	y = 3
+	y = 2
 	relative_position_id = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_dreams_of_a_united_american_anti_nazi_front"
@@ -789,7 +788,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_against_authoritarians_no_matter_left_or_right
+	id = CAL_against_authoritarianism
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -857,7 +856,7 @@ shared_focus = {
 		focus = CAL_fuck_off_nazi_punks
 	}
 	prerequisite = {
-		focus = CAL_against_authoritarians_no_matter_left_or_right
+		focus = CAL_against_authoritarianism
 	}
 	x = 0
 	y = 3
@@ -908,6 +907,103 @@ shared_focus = {
 	relative_position_id = CAL_dreams_of_a_united_american_anti_nazi_front
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_hans_dont_surf"
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+
+shared_focus = {
+	id = CAL_turn_to_the_remaining_allied_powers
+	icon = GFX
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		has_completed_focus = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
+	}
+	allow_branch = {
+		has_completed_focus = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_hans_dont_surf
+	completion reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_turn_to_the_remaining_allied_powers"
+	}
+}
+
+shared_focus = {
+	id = CAL_open_up_talks_with_the_other_commonwealths
+	icon = GFX
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_turn_to_the_remaining_allied_powers
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_turn_to_the_remaining_allied_powers
+	completion reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_open_up_talks_with_the_other_commonwealths"
+	}
+}
+
+shared_focus = {
+	id = CAL_messages_with_australia
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_open_up_talks_with_the_other_commonwealths
+	}
+	x = -3
+	y = 1
+	relative_position_id = CAL_open_up_talks_with_the_other_commonwealths
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_messages_with_australia"
+	}
+}
+
+shared_focus = {
+	id = CAL_messages_with_new_zealand
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_open_up_talks_with_the_other_commonwealths
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_open_up_talks_with_the_other_commonwealths
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_messages_with_new_zealand"
+	}
+}
+
+shared_focus = {
+	id = CAL_open_up_talks_with_south_africa
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_open_up_talks_with_the_other_commonwealths
+	}
+	x = 3
+	y = 1
+	relative_position_id = CAL_open_up_talks_with_the_other_commonwealths
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_solve_the_resource_issue"
 	}
 }
 
@@ -975,9 +1071,9 @@ shared_focus = {
 	relative_position_id = CAL_begin_planning_for_war
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_solve_the_resource_issue"
-allow_branch = {
-		has_completed_focus = CAL_beat_the_inertia
-	}
+		allow_branch = {
+			has_completed_focus = CAL_beat_the_inertia
+		}
 	}
 }
 
@@ -997,9 +1093,9 @@ shared_focus = {
 	relative_position_id = CAL_begin_planning_for_war
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_southern_california_industry"
-allow_branch = {
-		has_completed_focus = CAL_beat_the_inertia
-	}
+		allow_branch = {
+			has_completed_focus = CAL_beat_the_inertia
+		}
 	}
 }
 
