@@ -46,6 +46,7 @@ characters = {
     # Field Marshals #
 	CAL_Dwight_David_Eisenhower = {
 		name = CAL_Dwight_David_Eisenhower
+		desc = 
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Dwight_David_Eisenhower.dds"
@@ -68,6 +69,7 @@ characters = {
 	}
 	CAL_George_Catlett_Marshall = {
 		name = CAL_George_Catlett_Marshall
+		desc = 
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/CAL/Portrait_CAL_George_Catlett_Marshall.dds"
@@ -90,6 +92,7 @@ characters = {
 	}
 	CAL_Omar_Nelson_Bradley = {
 		name = CAL_Omar_Nelson_Bradley
+		desc = 
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Omar_Nelson_Bradley.dds"
@@ -113,6 +116,7 @@ characters = {
 	# Generals #
 	CAL_George_Smith_Patton_Jr = {
 		name = CAL_George_Smith_Patton_Jr
+		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_George_Smith_Patton_Jr.dds"
@@ -141,6 +145,7 @@ characters = {
 	}
 	CAL_Walton_Harris_Walker = {
 		name = CAL_Walton_Harris_Walker
+		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Walton_Harris_Walker.dds"
@@ -157,6 +162,7 @@ characters = {
 	}
 	CAL_Smedley_Darlington_Butler = {
 		name = CAL_Smedley_Darlington_Butler
+		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Smedley_Darlington_Butler.dds"
@@ -173,6 +179,7 @@ characters = {
 	}
 	CAL_Glynda_Goodwitch = {
 		name = CAL_Glynda_Goodwitch
+		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Glynda_Goodwitch.dds"
@@ -189,6 +196,7 @@ characters = {
 	}
 	CAL_William_Childs_Westmoreland = {
 		name = CAL_William_Childs_Westmoreland
+		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_William_Childs_Westmoreland.dds"
@@ -205,6 +213,7 @@ characters = {
 	}
 	CAL_Maxwell_Davenport_Taylor = {
 		name = CAL_Maxwell_Davenport_Taylor
+		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Maxewell_Davenport_Taylor.dds"
@@ -221,6 +230,7 @@ characters = {
 	}
 	CAL_Mark_Wayne_Clark = {
 		name = CAL_Mark_Wayne_Clark
+		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Mark_Wayne_Clark.dds"
@@ -237,6 +247,7 @@ characters = {
 	}
 	CAL_Henry_Harley_Arnold = {
 		name = CAL_Henry_Harley_Arnold
+		desc = 
 		portraits = {
 			army = {
 				large =
@@ -244,15 +255,16 @@ characters = {
 		}
 		corps_commander = {
 			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 	CAL_Jacob_Loucks_Devers = {
 		name = CAL_Jacob_Loucks_Devers
+		desc = 
 		portraits = {
 			army = {
 
@@ -269,6 +281,7 @@ characters = {
 	}
 	CAL_Lucian_King_Truscott = {
 		name = CAL_Lucian_King_Truscott
+		desc = 
 		portraits = {
 			army = {
 
@@ -285,6 +298,7 @@ characters = {
 	}
 	CAL_Leonard_Townsend_Gerow = {
 		name = CAL_Leonard_Townsend_Gerow
+		desc = 
 		portraits = {
 			army = {
 
@@ -301,6 +315,7 @@ characters = {
 	}
 	CAL_Benjamin_Oliver_Davis_Sr = {
 		name = CAL_Benjamin_Oliver_Davis_Sr
+		desc = 
 		portraits = {
 			army = {
 
@@ -317,6 +332,7 @@ characters = {
 	}
 	CAL_Ulysses_Simpson_Grant_III = {
 		name = CAL_Ulysses_Simpson_Grant_III
+		desc = 
 		portraits = {
 			army = {
 
@@ -333,6 +349,7 @@ characters = {
 	}
 	CAL_Claire_Lee_Chennault = {
 		name = CAL_Claire_Lee_Chennault
+		desc = 
 		portraits = {
 			army = {
 
@@ -349,6 +366,7 @@ characters = {
 	}
 	CAL_John_Daniel_Lavelle = {
 		name = CAL_John_Daniel_Lavelle
+		desc = 
 		portraits = {
 			army = {
 
@@ -365,6 +383,7 @@ characters = {
 	}
 	CAL_Elizabeth_Coleman = {
 		name = CAL_Elizabeth_Coleman
+		desc = 
 		portraits = {
 			army = {
 
@@ -381,6 +400,7 @@ characters = {
 	}
 	CAL_Charity_Edna_Adams_Earley = {
 		name = CAL_Charity_Edna_Adams_Earley
+		desc = 
 		portraits = {
 			army = { 
 
@@ -398,6 +418,7 @@ characters = {
 	# Admirals #
 	CAL_Ernest_Joseph_King = {
 		name = CAL_Ernest_Joseph_King
+		desc = 
 		portraits = {
 			army = {
 				large = 
@@ -429,6 +450,7 @@ characters = {
 	}
 	CAL_Chester_William_Nimitz = {
 		name = CAL_Chester_William_Nimitz
+		desc = 
 		portraits = {
 			army = {
 				large = 
@@ -460,6 +482,7 @@ characters = {
 	}
 	CAL_William_Daniel_Leahy = {
 		name = CAL_William_Daniel_Leahy
+		desc = 
 		portraits = {
 			army = {
 				large = 
@@ -491,6 +514,7 @@ characters = {
 	}
 	CAL_William_Fredrick_Halsey_Jr = {
 		name = CAL = CAL_William_Fredrick_Halsey_Jr
+		desc = 
 		portraits = {
 			army = {
 				large = 
@@ -522,6 +546,7 @@ characters = {
 	}
 	CAL_Samuel_Lee_Gravely_Jr = {
 		name = CAL = CAL_Samuel_Lee_Gravely_Jr
+		desc = 
 		portraits = {
 			army = {
 				large = 
@@ -541,6 +566,7 @@ characters = {
 	}
 	CAL_Arleigh_Albert_Burke = {
 		name = CAL = CAL_Arleigh_Albert_Burke
+		desc = 
 		portraits = {
 			army = {
 				large = 
@@ -560,6 +586,7 @@ characters = {
 	}
 	CAL_Issac_Campbell_Kidd_Sr = {
 		name = CAL_Issac_Campbell_Kidd_Sr
+		desc = 
 		portraits = {
 			army = {
 				large = 
@@ -574,7 +601,6 @@ characters = {
 			defense_skill = 
 			maneuvering_skill = 
 			coordination_skill =
-
 		}
 	}
 }
