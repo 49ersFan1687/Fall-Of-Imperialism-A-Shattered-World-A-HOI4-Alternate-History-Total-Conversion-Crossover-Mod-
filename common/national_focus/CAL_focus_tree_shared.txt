@@ -931,7 +931,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_turn_to_the_remaining_allied_powers"
 	}
 }
-
+# Contact Commonwealths #
 shared_focus = {
 	id = CAL_open_up_talks_with_the_other_commonwealths
 	icon = GFX
@@ -989,7 +989,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_negotiatw_with_south_africa
+	id = CAL_negotiate_with_south_africa
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -1006,7 +1006,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_solve_the_resource_issue"
 	}
 }
-
+# Buildup to War Focus Tree #
 shared_focus = {
 	id = CAL_beat_the_inertia
 	icon = GFX
@@ -1032,7 +1032,7 @@ shared_focus = {
 		mark_focus_tree_layout_dirty = yes
 	}
 }
-# Buildup to War Focus Tree #
+
 shared_focus = {
 	id = CAL_begin_planning_for_war
 	icon = GFX
