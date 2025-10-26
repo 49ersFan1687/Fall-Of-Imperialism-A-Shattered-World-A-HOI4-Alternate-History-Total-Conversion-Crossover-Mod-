@@ -1,6 +1,6 @@
 characters = {
 
-    # AKB Clique - Field Marshals #
+    # Second Continental Army/AKB Clique - Field Marshals #
 
     CSD_Atsuko_Maeda = {
         name = CSD_atsuko_maeda
