@@ -253,4 +253,6 @@ characters = {
             logistics_skill = 
         }
     }
+
+    # Admirals #
 }
