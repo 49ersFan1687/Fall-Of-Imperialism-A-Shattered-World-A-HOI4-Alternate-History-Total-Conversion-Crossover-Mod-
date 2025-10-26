@@ -645,9 +645,9 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_contact_the_remnants
 	}
-	x = 6
-	y = -1
-	relative_position_id = CAL_alone_and_isolated
+	x = 0
+	y = 3
+	relative_position_id = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_dreams_of_a_united_american_anti_nazi_front"
 
@@ -936,7 +936,7 @@ shared_focus = {
 		mark_focus_tree_layout_dirty = yes
 	}
 }
-
+# Buildup to War Focus Tree #
 shared_focus = {
 	id = CAL_begin_planning_for_war
 	icon = GFX
@@ -1305,6 +1305,9 @@ shared_focus = {
 		division_template = {
 			name = "California National Guard Division"
 			division_names_group = USA_INF_01
+			regiments = {
+
+			}
 		}
 	}
 }
@@ -1333,7 +1336,7 @@ shared_focus = {
 		mark_focus_tree_layout_dirty = yes
 	}
 }
-
+# California Civil War Focus Tree #
 shared_focus = {
 	id = CAL_the_first_of_many_steps_to_victory
 	icon = GFX
@@ -1492,7 +1495,7 @@ shared_focus = {
 		mark_focus_tree_layout_dirty = yes
 	}
 }
-
+# California Rebuilding Focus Tree #
 shared_focus = {
 	id = CAL_begin_rebuilding_california
 	icon = GFX
