@@ -11,6 +11,14 @@ ideas = {
             }
         }
         ### Starting Ideas - The Greater Depression ###
+        CAL_the_greater_depression1 = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_greater_depression1" }
+            allowed = { always = no }
+            picture = CAL_greater_depression
+            modifier = {
+                
+            }
+        }
 
         ### Army Reform Ideas - Dwight David Eisenhower ###
         CAL_Eisenhowers_vision1 = { # Eisenhower's Army Reform Plan - Return to Form - Part One
