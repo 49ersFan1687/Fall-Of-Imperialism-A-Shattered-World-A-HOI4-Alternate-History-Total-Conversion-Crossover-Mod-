@@ -147,11 +147,112 @@ characters = {
             logistics_skill = 
         }
     }
-Creighton Williams Abrams Jr.
-Joseph Lawton Collins
-Walter Kreuger
-Albert Coady Wedemeyer
-Edmund Bristol Gregory
-Simon Bolivar Buckner Jr.
-
+    NCA_Creighton_Williams_Abrams_Jr = {
+        name = NCA_Creighton_Williams_Abrams_Jr
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
+    NCA_Joseph_Lawton_Collins = {
+        name = NCA_Joseph_Lawton_Collins
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
+    NCA_Walter_Kreuger = {
+        name = NCA_Walter_Kreuger
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
+    NCA_Albert_Coady_Wedemeyer = {
+        name = NCA_Albert_Coady_Wedemeyer
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
+    NCA_Edmund_Bristol_Gregory = {
+        name = NCA_Edmund_Bristol_Gregory
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
+    NCA_Simon_Bolivar_Buckner_Jr = {
+        name = NCA_Simon_Bolivar_Buckner_Jr
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
 }
