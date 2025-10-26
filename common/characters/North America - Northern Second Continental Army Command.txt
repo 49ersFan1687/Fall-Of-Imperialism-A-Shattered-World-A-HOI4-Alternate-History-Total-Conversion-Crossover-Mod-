@@ -63,13 +63,95 @@ characters = {
             }
         } 
         field_marshal = {
-            traits = {}
-            skill = 1
-            attack_skill = 1
-            defense_skill = 1
-            planning_skill = 1
-            logistics_skill = 1
+            traits = { logistics_wizard paratrooper commando offensive_doctrine }
+            skill = 4
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 3
 
         }
     }
+
+    # Generals #
+
+    NCA_Joseph_Warren_Stillwell = {
+        name = NCA_Joseph_Warren_Stillwell
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
+    NCA_Andrew_Pick_OMeara = {
+        name = NCA_Andrew_Pick_OMeara
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
+    NCA_John_Knight_Waters = {
+        name = NCA_John_Knight_Waters
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
+    NCA_Barksdale_Hamlett_Jr = {
+        name = NCA_Barksdale_Hamlett_Jr
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
+Creighton Williams Abrams Jr.
+Joseph Lawton Collins
+Walter Kreuger
+Albert Coady Wedemeyer
+Edmund Bristol Gregory
+Simon Bolivar Buckner Jr.
+
 }
