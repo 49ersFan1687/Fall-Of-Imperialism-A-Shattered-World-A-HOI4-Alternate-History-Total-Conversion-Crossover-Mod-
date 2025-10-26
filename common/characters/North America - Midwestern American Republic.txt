@@ -3,5 +3,4 @@ characters = {
     # Field Marshals #
     # Generals #
     # Admirals #
-    
 }
