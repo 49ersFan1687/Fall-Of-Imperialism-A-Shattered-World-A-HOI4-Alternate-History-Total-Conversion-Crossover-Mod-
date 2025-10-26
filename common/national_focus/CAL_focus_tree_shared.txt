@@ -970,7 +970,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_messages_with_new_zealand
+	id = CAL_contact_the_kiwis
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -989,7 +989,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_open_up_talks_with_south_africa
+	id = CAL_negotiatw_with_south_africa
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
