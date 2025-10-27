@@ -1,0 +1,21 @@
+capital = 392
+set_war_support = 0.4
+set_stability = 0.4
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	communism = 80
+	socialism = 20
+	
+	
+	
+}

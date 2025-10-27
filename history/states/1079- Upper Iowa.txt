@@ -1,0 +1,25 @@
+state = {
+	id = 1079
+	name = "STATE_1079"
+	manpower = 17981
+	
+	state_category = rural
+
+	history = {
+
+		owner = IOS
+		add_core_of = IOS
+
+		buildings = {
+			infrastructure = 1 #was: 6
+		}
+			
+		
+	}
+
+	provinces = {
+		12577 1867
+	}
+
+	local_supplies = 0.0 
+}

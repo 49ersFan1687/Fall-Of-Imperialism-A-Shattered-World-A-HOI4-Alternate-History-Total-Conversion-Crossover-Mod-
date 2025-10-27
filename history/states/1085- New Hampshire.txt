@@ -1,0 +1,28 @@
+state = {
+	id = 1085
+	name = "STATE_1085"
+	manpower = 1678325
+	
+	state_category = metropolis
+
+	history = {
+
+		owner = VRM
+		add_core_of = VRM
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 1
+			
+		}
+
+			
+		
+	}
+
+	provinces = {
+		10481 733 3715 3712
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 1091
+	name = "STATE_1091"
+	manpower = 345101
+	
+	state_category = town
+
+	history = {
+
+		owner = NBK
+		add_core_of = NBK
+
+		buildings = {
+			infrastructure = 2 #was: 6
+			
+		}
+
+
+			
+		
+	}
+
+	provinces = {
+		4760 4830 10606 3708 10676
+	}
+
+	local_supplies = 0.0 
+}

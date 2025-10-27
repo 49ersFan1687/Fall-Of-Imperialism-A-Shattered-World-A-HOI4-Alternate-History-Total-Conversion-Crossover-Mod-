@@ -1,0 +1,40 @@
+state = {
+	id = 1080
+	name = "STATE_1080"
+	manpower = 9737554
+	
+	state_category = metropolis
+
+	history = {
+
+		owner = NYC
+		add_core_of = NYC
+
+		buildings = {
+			infrastructure = 5 #was: 6
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 3
+			3878 = {
+				naval_base = 6
+                landmark_statue_of_liberty = {
+                    level = 1
+                    allowed = {
+                        has_dlc = "Gotterdammerung"
+                    }
+                }
+			}
+		}
+		victory_points = {
+			3878 30.0 
+		}
+			
+		
+	}
+
+	provinces = {
+		3878 859
+	}
+
+	local_supplies = 0.0 
+}

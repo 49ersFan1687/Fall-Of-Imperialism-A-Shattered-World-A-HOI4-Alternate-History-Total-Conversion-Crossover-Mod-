@@ -1,0 +1,25 @@
+state = {
+	id = 1077
+	name = "STATE_1077"
+	manpower = 345981
+	
+	state_category = city
+
+	history = {
+
+		owner = IPG
+		add_core_of = IPG
+
+		buildings = {
+			infrastructure = 2 #was: 6
+		}
+			
+		
+	}
+
+	provinces = {
+		10478 7539 7306 7458 12418
+	}
+
+	local_supplies = 0.0 
+}

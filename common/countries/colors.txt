@@ -138,7 +138,7 @@ BRA = {
 	color_ui = rgb { 99 189 82 }
 }
 CAN = {
-	color = rgb { 233  59  59 }
+	color = rgb { 119 48 39 }
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
@@ -1331,8 +1331,86 @@ MCR = {
 	color = rgb { 66 51 40 }
 	color_ui = rgb { 66 51 40 }
 }
-
-
+MCH = {
+	color = rgb { 119 48 39 }
+	color_ui = rgb { 155 62 51 }
+}
+MAI = {
+	color = rgb { 119 48 39 }
+	color_ui = rgb { 155 62 51 }
+}
+VRM = {
+	color = rgb { 71 52 99 }
+	color_ui = rgb { 71 52 99 }
+}
+RHI = {
+	color = rgb { 46 64 47 }
+	color_ui = rgb { 46 64 47 }
+}
+CNT = {
+	color = rgb { 55 96 99 }
+	color_ui = rgb { 55 96 99 }
+}
+MSC = {
+	color = rgb { 55 62 99 }
+	color_ui = rgb { 55 62 99 }
+}
+IOS = {
+	color = rgb { 105 19 47 }
+	color_ui = rgb { 105 19 47 }
+}
+ANN = {
+	color = rgb { 92 51 58 }
+	color_ui = rgb { 92 51 58 }
+}
+NYC = {
+	color = rgb { 140 80 11 }
+	color_ui = rgb { 140 80 11 }
+}
+PEN = {
+	color = rgb { 57 92 125 }
+	color_ui = rgb { 57 92 125 }
+}
+IPG = {
+	color = rgb { 128 142 156 }
+	color_ui = rgb { 128 142 156 }
+}
+NJP = {
+	color = rgb { 87 71 49 }
+	color_ui = rgb { 87 71 49 }
+}
+MMG = {
+	color = rgb { 87 84 81 }
+	color_ui = rgb { 87 84 81 }
+}
+NBK = {
+	color = rgb { 81 89 68 }
+	color_ui = rgb { 81 89 68 }
+}
+KAN = {
+	color = rgb { 68 89 84 }
+	color_ui = rgb { 68 89 84 }
+}
+KFS = {
+	color = rgb { 138 60 39 }
+	color_ui = rgb { 138 60 39 }
+}
+OHI = {
+	color = rgb { 102 55 97 }
+	color_ui = rgb { 102 55 97 }
+}
+ICS = {
+	color = rgb { 82 59 40 }
+	color_ui = rgb { 82 59 40 }
+}
+ILL = {
+	color = rgb { 40 82 64 }
+	color_ui = rgb { 40 82 64 }
+}
+MSI = {
+	color = rgb { 40 67 82 }
+	color_ui = rgb { 40 67 82 }
+}
 
 
 

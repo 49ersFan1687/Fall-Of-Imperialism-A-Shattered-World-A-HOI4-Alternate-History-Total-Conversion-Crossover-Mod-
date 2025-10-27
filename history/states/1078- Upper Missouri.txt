@@ -1,0 +1,26 @@
+state = {
+	id = 1078
+	name = "STATE_1078"
+	manpower = 1579345
+	
+	state_category = city
+
+	history = {
+
+		owner = IOS
+		add_core_of = IOS
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 2
+		}
+			
+		
+	}
+
+	provinces = {
+		10333 10391 10516 7449 7607 1523 
+	}
+
+	local_supplies = 0.0 
+}

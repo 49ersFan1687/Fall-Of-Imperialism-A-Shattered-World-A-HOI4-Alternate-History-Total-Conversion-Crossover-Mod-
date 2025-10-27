@@ -1,0 +1,30 @@
+state = {
+	id = 1083
+	name = "STATE_1083"
+	manpower = 345981
+	
+	state_category = city
+
+	history = {
+
+		owner = MAI
+		add_core_of = MAI
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			
+		}
+		victory_points = {
+			12459 1 
+		}
+
+			
+		
+	}
+
+	provinces = {
+		10318 12459 7462 12202 6719 3732 
+	}
+
+	local_supplies = 0.0 
+}

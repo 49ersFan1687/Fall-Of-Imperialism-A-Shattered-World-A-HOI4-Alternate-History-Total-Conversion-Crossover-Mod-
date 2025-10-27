@@ -1,0 +1,36 @@
+state = {
+	id = 1086
+	name = "STATE_1086"
+	manpower = 512871
+	
+	state_category = large_town
+
+	history = {
+
+		owner = RHI
+		add_core_of = RHI
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			dockyard = 1
+			arms_factory = 1
+			
+		}
+		victory_points = {
+			9832 1 
+		}
+		9832 = {
+			naval_base = 3
+
+		}
+
+			
+		
+	}
+
+	provinces = {
+		11830 9832
+	}
+
+	local_supplies = 0.0 
+}

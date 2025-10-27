@@ -1,0 +1,31 @@
+state = {
+	id = 1081
+	name = "STATE_1081"
+	manpower = 2345981
+	
+	state_category = large_city
+
+	history = {
+
+		owner = OHI
+		add_core_of = OHI
+
+		buildings = {
+			infrastructure = 4 #was: 6
+			arms_factory = 1
+			industrial_complex = 2
+			
+		}
+		victory_points = {
+			11800 15
+		}
+			
+		
+	}
+
+	provinces = {
+		3687 6705 11800 3802
+	}
+
+	local_supplies = 0.0 
+}

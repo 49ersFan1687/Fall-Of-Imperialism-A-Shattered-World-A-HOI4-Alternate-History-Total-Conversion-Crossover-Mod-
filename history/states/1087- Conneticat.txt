@@ -1,0 +1,29 @@
+state = {
+	id = 1087
+	name = "STATE_1087"
+	manpower = 2133581
+	
+	state_category = city
+
+	history = {
+
+		owner = CNT
+		add_core_of = CNT
+
+		buildings = {
+			infrastructure = 4 #was: 6
+			arms_factory = 1
+			
+		}
+
+
+			
+		
+	}
+
+	provinces = {
+		9850 9847 6909
+	}
+
+	local_supplies = 0.0 
+}

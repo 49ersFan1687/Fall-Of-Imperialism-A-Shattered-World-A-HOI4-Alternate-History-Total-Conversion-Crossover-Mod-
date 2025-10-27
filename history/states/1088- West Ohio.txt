@@ -1,0 +1,29 @@
+state = {
+	id = 1088
+	name = "STATE_1088"
+	manpower = 1234567
+	
+	state_category = city
+
+	history = {
+
+		owner = ICS
+		add_core_of = ICS
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 1
+			
+		}
+
+
+			
+		
+	}
+
+	provinces = {
+		689 3685 3872 11791 831 
+	}
+
+	local_supplies = 0.0 
+}

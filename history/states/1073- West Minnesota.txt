@@ -7,8 +7,8 @@ state = {
 
 	history = {
 
-		owner = USA
-		add_core_of = USA
+		owner = MAR
+		add_core_of = MAR
 
 		buildings = {
 			infrastructure = 3 #was: 6
@@ -19,7 +19,7 @@ state = {
 	}
 
 	provinces = {
-		11667 12597 10618 10719 1867 12577 
+		11667 12597 10618 10719
 	}
 
 	local_supplies = 0.0 

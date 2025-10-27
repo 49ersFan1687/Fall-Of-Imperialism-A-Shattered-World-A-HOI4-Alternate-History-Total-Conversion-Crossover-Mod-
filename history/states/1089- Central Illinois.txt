@@ -1,0 +1,29 @@
+state = {
+	id = 1089
+	name = "STATE_1089"
+	manpower = 2341734
+	
+	state_category = city
+
+	history = {
+
+		owner = ILL
+		add_core_of = ILL
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 2
+			
+		}
+
+
+			
+		
+	}
+
+	provinces = {
+		7611 12497 720 10457 12697 12305 7626 7831
+	}
+
+	local_supplies = 0.0 
+}

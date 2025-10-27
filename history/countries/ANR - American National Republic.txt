@@ -19,3 +19,8 @@ set_popularities = {
 	paternal_autocrat = 20
 	esotericism = 20
 }
+set_autonomy = {
+	target = NJP
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
