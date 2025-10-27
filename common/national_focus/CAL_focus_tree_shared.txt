@@ -962,7 +962,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_open_up_talks_with_the_other_commonwealths
 	}
-	x = -3
+	x = -3.5
 	y = 1
 	relative_position_id = CAL_open_up_talks_with_the_other_commonwealths
 	completion_reward = {
@@ -1000,12 +1000,180 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_open_up_talks_with_the_other_commonwealths
 	}
-	x = 3
+	x = 3.5
 	y = 1
 	relative_position_id = CAL_open_up_talks_with_the_other_commonwealths
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_solve_the_resource_issue"
 	}
+}
+
+shared_focus = {
+	id = CAL_australian_financial_aid
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_messages_with_australia
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_messages_with_australia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_australian_financial_aid"
+	}
+}
+
+shared_focus = {
+	id = CAL_australian_military_aid
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_messages_with_australia
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_messages_with_australia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: CAL_australian_military_aid"
+	}
+}
+
+shared_focus = {
+	id = CAL_new_zealand_financial_aid
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_contact_the_kiwis
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_contact_the_kiwis
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: CAL_new_zealand_financial_aid"
+	}
+}
+
+shared_focus = {
+	id = CAL_new_zealand_military_aid
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_contact_the_kiwis
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_contact_the_kiwis
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: CAL_new_zealand_military_aid"
+	}
+}
+
+shared_focus = {
+	id = CAL_south_african_financial_aid
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_negotiate_with_south_africa
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_negotiate_with_south_africa
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: CAL_south_african_financial_aid"
+	}
+}
+
+shared_focus = {
+	id = CAL_south_african_military_aid
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_negotiate_with_south_africa
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_negotiate_with_south_africa
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: CAL_south_african_military_aid"
+	}
+}
+
+shared_focus = {
+	id = CAL_investements_from_down_under
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_australian_financial_aid
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_australian_financial_aid
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: CAL_CAL_investements_from_down_under"
+	}
+}
+
+shared_focus = {
+	id = CAL_surplus_australian_equipment
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_australian_military_aid
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_australian_military_aid
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: CAL_surplus_australian_equipment"
+	}
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
 }
 
 
