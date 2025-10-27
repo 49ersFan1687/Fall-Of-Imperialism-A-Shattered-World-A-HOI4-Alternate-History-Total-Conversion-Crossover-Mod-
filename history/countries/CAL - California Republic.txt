@@ -44,10 +44,10 @@ recruit_character = CAL_Mark_Wayne_Clark
 
 ## US Navy ##
 
-recruit_character = 
-recruit_character = 
-recruit_character = 
-recruit_character = 
-recruit_character = 
-recruit_character = 
-recruit_character = 
+recruit_character = CAL_Ernest_Joseph_King
+recruit_character = CAL_Chester_William_Nimitz
+recruit_character = CAL_Samuel_Lee_Gravely_Jr
+recruit_character = CAL_William_Fredrick_Halsey_Jr
+recruit_character = CAL_William_Daniel_Leahy
+recruit_character = CAL_Issac_Campbell_Kidd_Sr
+recruit_character = CAL_Arleigh_Albert_Burke
