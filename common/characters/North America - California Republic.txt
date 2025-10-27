@@ -271,7 +271,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { panzer_leader cavalry_leader career_officer brilliant_strategist organizer }
+			traits = { panzer_leader cavalry_leader artillery_specialist brilliant_strategist organizer }
 			skill = 3
 			attack_skill = 4
 			defense_skill = 3
@@ -301,7 +301,7 @@ characters = {
 		desc = 
 		portraits = {
 			army = {
-				large =
+				large = "gfx/leaders/CAL/Portrait_CAL_Leonard_Townsend_Gerow.dds"
 			}
 		}
 		corps_commander = {
@@ -339,12 +339,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = { infantry_leader media_personality skilled_staffer inflexible_strategist }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 4
 		}
 	}
 	CAL_Claire_Lee_Chennault = {
