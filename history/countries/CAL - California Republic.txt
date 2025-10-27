@@ -26,8 +26,10 @@ set_popularities = {
 }
 
 ### Country Leader ###
+recruit_character = CAL_henry_agard_wallace
 
 ### Advsiors ###
+recruit_character = CAL_huey_pierce_long_jr
 
 ## Second Continental Army ##
 
