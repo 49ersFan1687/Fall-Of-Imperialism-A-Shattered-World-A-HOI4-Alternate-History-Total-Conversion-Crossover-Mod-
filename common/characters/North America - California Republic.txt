@@ -305,12 +305,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = { armor_officer career_officer organizer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
 		}
 	}
 	CAL_Benjamin_Oliver_Davis_Sr = {
@@ -322,12 +322,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = { career_officer organizer infantry_leader }
+			skill = 4 
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
 		}
 	}
 	CAL_Ulysses_Simpson_Grant_III = {
@@ -356,12 +356,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = { cautious career_officer }
+			skill = 3 
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 	CAL_John_Daniel_Lavelle = {
