@@ -351,7 +351,7 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_restablish_radio_contact_with_canada
 	}
-	x = -7
+	x = -8
 	y = -1
 	relative_position_id = CAL_barely_no_industry
 	completion_reward = {
@@ -962,7 +962,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_open_up_talks_with_the_other_commonwealths
 	}
-	x = -3.5
+	x = -4
 	y = 1
 	relative_position_id = CAL_open_up_talks_with_the_other_commonwealths
 	completion_reward = {
@@ -1000,7 +1000,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_open_up_talks_with_the_other_commonwealths
 	}
-	x = 3.5
+	x = 4
 	y = 1
 	relative_position_id = CAL_open_up_talks_with_the_other_commonwealths
 	completion_reward = {
@@ -1161,19 +1161,142 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_kiwi_investments
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_new_zealand_financial_aid
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_new_zealand_financial_aid
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: CAL_kiwi_investments"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_request_bob_semple_tanks
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_new_zealand_military_aid
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_new_zealand_military_aid
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: CAL_request_bob_semple_tanks"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_building_a_south_african_embassy
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_south_african_financial_aid
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_south_african_financial_aid
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: CAL_building_the_south_african_embassy"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_old_south_african_weapons
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_south_african_military_aid
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_south_african_military_aid
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: CAL_old_south_african_weapons"
+	}
+}
+
+shared_focus = {
+	id = CAL_production_help_from_australia
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_investements_from_down_under
+	}
+	prerequisite = {
+		focus = CAL_surplus_australian_equipment
+	}
+	x = 0
+	y = 3
+	relative_position_id = CAL_messages_with_australia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: CAL_production_help_from_australia"
+	}
+}
+
+shared_focus = {
+	id = CAL_a_kiwi_owned_arms_factory
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_kiwi_investments
+	}
+	prerequisite = {
+		focus = CAL_request_bob_semple_tanks
+	}
+	x = 0
+	y = 3
+	relative_position_id = CAL_contact_the_kiwis
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: CAL_a_kiwi_owned_arms_factory"
+	}
+}
+
+shared_focus = {
+	id = CAL_south_african_arms_investments
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_building_a_south_african_embassy
+	}
+	prerequisite = {
+		focus = CAL_old_south_african_weapons
+	}
+	x = 0
+	y = 3
+	relative_position_id = CAL_negotiate_with_south_africa
 }
 
 
