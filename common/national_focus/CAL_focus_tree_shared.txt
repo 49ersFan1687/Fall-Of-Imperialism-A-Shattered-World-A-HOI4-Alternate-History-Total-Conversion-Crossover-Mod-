@@ -911,6 +911,7 @@ shared_focus = {
 	}
 }
 
+# Contact Commonwealths #
 shared_focus = {
 	id = CAL_turn_to_the_remaining_allied_powers
 	icon = GFX
@@ -931,7 +932,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_turn_to_the_remaining_allied_powers"
 	}
 }
-# Contact Commonwealths #
+
 shared_focus = {
 	id = CAL_open_up_talks_with_the_other_commonwealths
 	icon = GFX
@@ -1006,6 +1007,8 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_solve_the_resource_issue"
 	}
 }
+
+
 # Buildup to War Focus Tree #
 shared_focus = {
 	id = CAL_beat_the_inertia
@@ -1997,6 +2000,7 @@ shared_focus = {
 	relative_position_id = CAL_rebuild_california_military_industry
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_new_arsenal_of_democracy"
+		mark_focus_tree_layout_dirty = yes
 	}
 }
 
@@ -2019,5 +2023,6 @@ shared_focus = {
 	relative_position_id = CAL_begin_rebuilding_california
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_new_bastion_of_freedom"
+		mark_focus_tree_layout_dirty = yes
 	}
 }
