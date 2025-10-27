@@ -1,5 +1,15 @@
 ﻿l_english:
- # Slovakian Localisation #
+ # Localisation for Belarus #
+
+ # Localisation for Ukraine #
+
+ # Localisation for Baltics #
+
+ # Localisation for Poland #
+
+ # Localisation for Czechia #
+
+ # Localisation for Slovakia #
  ## Cosmetic Tags ##
  SLO: "Slovakia"
  SLO_DEF: "The Slovak State"
@@ -25,6 +35,8 @@
 
  ## Focus Trees ##
 
+ ## Events ##
+ 
  ## Political Parties ##
 
  SLO_national_socialism_party: "HSLS-R"
@@ -54,4 +66,4 @@
  SLO_communism_party: "CPS"
  SLO_communism_party_long: "§YCommunist Party of Slovakia§!"
 
- # #
+ # Localisation for Hungary #

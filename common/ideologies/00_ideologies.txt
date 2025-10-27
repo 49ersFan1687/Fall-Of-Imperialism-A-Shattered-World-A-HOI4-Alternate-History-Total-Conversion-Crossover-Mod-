@@ -34,7 +34,8 @@ ideologies = {
 	}
 	socialist_narodnikism_ideology = {
 	}
-
+	democratic_socialism_ideology = {
+	}
         }
 	color = { 209 0 0 }
     }
