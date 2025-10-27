@@ -7,8 +7,8 @@ state = {
 
 	history = {
 
-		owner = ELS
-		add_core_of = ELS
+		owner = ELI
+		add_core_of = ELI
 
 		buildings = {
 			infrastructure = 1 #was: 6
