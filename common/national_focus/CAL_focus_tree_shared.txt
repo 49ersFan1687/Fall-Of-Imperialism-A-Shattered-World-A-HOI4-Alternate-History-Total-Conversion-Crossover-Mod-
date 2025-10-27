@@ -1777,11 +1777,29 @@ shared_focus = {
 	relative_position_id = CAL_initial_military_reforms
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_california_national_guard"
+		custom_effect_tooltip = tooltip_white_line
 		division_template = {
-			name = "California National Guard Division"
+			name = "California National Guard Motorized Infantry Division"
 			division_names_group = USA_INF_01
 			regiments = {
-
+				motorised_infantry = { x = 0 y = 0 }
+				motorised_infantry = { x = 0 y = 1 }
+				motorised_infantry = { x = 0 y = 2 }
+				motorised_infantry = { x = 1 y = 0 }
+				motorised_infantry = { x = 1 y = 1 }
+				motorised_infantry = { x = 1 y = 2 }
+				motorised_infantry = { x = 2 y = 0 }
+				motorised_infantry = { x = 2 y = 1 }
+				motorised_infantry = { x = 2 y = 2 }
+				artillery_brigade  = { x = 3 y = 0 }
+				artillery_brigade  = { x = 3 y = 1 }
+				artillery_brigade  = { x = 3 y = 2 }
+				artillery_brigade  = { x = 3 y = 3 }
+				medium_armor = { x = 4 y = 0 }
+			}
+			support = {
+				artillery = { x = 0 y = 0 }
+				engineer = { x = 0 y = 1 }
 			}
 		}
 	}
@@ -2401,4 +2419,77 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_new_bastion_of_freedom"
 		mark_focus_tree_layout_dirty = yes
 	}
+}
+
+# Plans for Future Expansion # 
+
+shared_focus = {
+	id = CAL_
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
 }
