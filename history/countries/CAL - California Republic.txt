@@ -43,3 +43,11 @@ recruit_character = CAL_Maxwell_Davenport_Taylor
 recruit_character = CAL_Mark_Wayne_Clark
 
 ## US Navy ##
+
+recruit_character = 
+recruit_character = 
+recruit_character = 
+recruit_character = 
+recruit_character = 
+recruit_character = 
+recruit_character = 
