@@ -1,7 +1,7 @@
 ideas = {
     ### Country Ideas - Provisional Authority of Cascadia ###
     country = {
-        ### Army Reform Ideas ###
+        ### Army Reform Ideas - Second Continental Army ###
         CSD_Second_Continental_Army_plan1 = { ### If Cascadia goes with the reforms of the Second Continental Army Clique - Part One ###
              on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAS_Second_Continental_Army_plan1" }
              allowed = { always = no }
@@ -29,7 +29,7 @@ ideas = {
                 
             }
         }
-        
+        ### Army Reform Ideas -  ###
         ### Air Force Reform Ideas ###
         ### Navy Reform Ideas ###
         ### Military Industrial Complex Ideas ###
