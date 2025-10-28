@@ -1167,7 +1167,7 @@ CRR = {
 	color = rgb { 49 112 69 }
 	color_ui = rgb { 49 112 69 }
 }
-ELS = {
+ELI = {
 	color = rgb { 19 84 38 }
 	color_ui = rgb { 19 84 38 }
 }
