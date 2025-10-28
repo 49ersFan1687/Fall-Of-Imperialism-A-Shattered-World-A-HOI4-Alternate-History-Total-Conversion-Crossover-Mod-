@@ -351,7 +351,7 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_restablish_radio_contact_with_canada
 	}
-	x = -9
+	x = -8
 	y = -1
 	relative_position_id = CAL_barely_no_industry
 	completion_reward = {
@@ -2437,7 +2437,7 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_the_new_bastion_of_freedom
 	}
-	x = 9
+	x = 8
 	y = -1
 	relative_position_id = CAL_alone_and_isolated
 	completion_reward = {
@@ -2905,7 +2905,10 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_14
 	}
-	x = 0
+	prerequisite = {
+		focus = CAL_15
+	}
+	x = 2
 	y = 1
 	relative_position_id = CAL_14
 	completion_reward = {
@@ -2944,9 +2947,12 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
+		focus = CAL_16
+	}
+	prerequisite = {
 		focus = CAL_17
 	}
-	x = 0
+	x = -2
 	y = 1
 	relative_position_id = CAL_17
 	completion_reward = {
