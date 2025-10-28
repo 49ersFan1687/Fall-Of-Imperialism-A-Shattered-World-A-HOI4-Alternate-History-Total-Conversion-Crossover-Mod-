@@ -2,7 +2,7 @@ ideas = {
     ### Country Ideas - Provisional Authority of Cascadia ###
     country = {
         ### Army Reform Ideas - Second Continental Army ###
-        CSD_Second_Continental_Army_plan1 = { ### If Cascadia goes with the reforms of the Second Continental Army Clique - Part One ###
+        CSD_Second_Continental_Army_plan1 = { ### If Cascadia goes with the reforms of the Second Continental Army's Cliques - Part One ###
              on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAS_Second_Continental_Army_plan1" }
              allowed = { always = no }
              picture = CAS_Second_Continental_Army_plan
@@ -13,7 +13,7 @@ ideas = {
                 
             }
         }
-        CSD_Second_Continental_Army_plan2 = { ### If Cascadia goes with the reforms of the Second Continental Army Clique - Part Two ###
+        CSD_Second_Continental_Army_plan2 = { ### If Cascadia goes with the reforms of the Second Continental Army's Cliques - Part Two ###
              on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAS_Second_Continental_Army_plan2" }
              allowed = { always = no }
              picture = CAS_Second_Continental_Army_plan
@@ -21,7 +21,7 @@ ideas = {
                 
             }
         }
-        CSD_Second_Continental_Army_plan3 = { ### If Cascadia goes with the reforms of the Second Continental Army Clique - Part Three ###
+        CSD_Second_Continental_Army_plan3 = { ### If Cascadia goes with the reforms of the Second Continental Army's Cliques - Part Three ###
              on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAS_Second_Continental_Army_plan3" }
              allowed = { always = no }
              picture = CAS_Second_Continental_Army_plan
@@ -29,6 +29,7 @@ ideas = {
                 
             }
         }
+        ### Army Reform Ideas -  ###
         ### Army Reform Ideas -  ###
         ### Air Force Reform Ideas ###
         ### Navy Reform Ideas ###
