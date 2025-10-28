@@ -2421,7 +2421,7 @@ shared_focus = {
 	}
 }
 
-# Plans and Preparations for Future Expansion # 
+# Regional Unification Focus Tree # 
 
 shared_focus = {
 	id = CAL_looking_outwards_from_the_golden_state
@@ -2775,7 +2775,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_12
+	id = CAL_two_sides_of_authoritarianism
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2789,12 +2789,12 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_6
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_two_sides_of_authoritarianism"
 	}	
 }
 
 shared_focus = {
-	id = CAL_13
+	id = CAL_them_tankies_stink
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2808,7 +2808,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_7
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_them_tankies_stink"
 	}	
 }
 
@@ -2873,7 +2873,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_17
+	id = CAL_a_quarantine_policy
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2881,16 +2881,16 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_12
+		focus = CAL_two_sides_of_authoritarianism
 	}
 	prerequisite = {
-		focus = CAL_13
+		focus = CAL_them_tankies_stink
 	}
 	x = 0
 	y = 3
 	relative_position_id = CAL_the_issue_of_the_socialists_in_the_bay_area
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_quarantine_policy"
 	}	
 }
 
@@ -2939,7 +2939,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_20
+	id = CAL_charlie_dont_surf
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2950,13 +2950,13 @@ shared_focus = {
 		focus = CAL_16
 	}
 	prerequisite = {
-		focus = CAL_17
+		focus = CAL_a_quarantine_policy
 	}
 	x = -2
 	y = 1
-	relative_position_id = CAL_17
+	relative_position_id = CAL_a_quarantine_policy
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_charlie_dont_surf"
 	}	
 }
 
@@ -2975,7 +2975,7 @@ shared_focus = {
 		focus = CAL_19
 	}
 	prerequisite = {
-		focus = CAL_20
+		focus = CAL_charlie_dont_surf
 	}
 	x = 0
 	y = 1
