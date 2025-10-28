@@ -2445,14 +2445,544 @@ shared_focus = {
 	}
 }
 
+shared_focus = {
+	id = CAL_but_preparations_have_to_be_made_first
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_looking_outwards_from_the_golden_state
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_looking_outwards_from_the_golden_state
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_but_preparations_have_to_be_made_first"
+	}
+}
+
+shared_focus = {
+	id = CAL_dealing_with_the_despots_in_california
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_but_preparations_have_to_be_made_first
+	}
+	x = -3.8
+	y = 1
+	relative_position_id = CAL_but_preparations_have_to_be_made_first
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_dealing_with_the_despots_in_california"
+	}
+}
+
+shared_focus = {
+	id = CAL_integrating_the_state_guard_and_colorado_river_republic
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_but_preparations_have_to_be_made_first
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_but_preparations_have_to_be_made_first
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrating_the_breakaway_democracies_in_our_state"
+	}
+}
+
+shared_focus = {
+	id = CAL_the_issue_of_the_socialists_in_the_bay_area
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_but_preparations_have_to_be_made_first
+	}
+	x = 3.8
+	y = 1
+	relative_position_id = CAL_but_preparations_have_to_be_made_first
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_issue_of_the_socialists_in_the_bay_area"
+	}
+}
+
+shared_focus = {
+	id = CAL_1
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_dealing_with_the_despots_in_california
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_dealing_with_the_despots_in_california
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = CAL_2
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_dealing_with_the_despots_in_california
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_dealing_with_the_despots_in_california
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = CAL_3
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrating_the_state_guard_and_colorado_river_republic
+	}
+	x = -1.5
+	y = 1
+	relative_position_id = CAL_integrating_the_state_guard_and_colorado_river_republic
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = CAL_4
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrating_the_state_guard_and_colorado_river_republic
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_integrating_the_state_guard_and_colorado_river_republic
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = CAL_5
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrating_the_state_guard_and_colorado_river_republic
+	}
+	x = 1.5
+	y = 1
+	relative_position_id = CAL_integrating_the_state_guard_and_colorado_river_republic
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = CAL_5
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrating_the_state_guard_and_colorado_river_republic
+	}
+	x = 1.5
+	y = 1
+	relative_position_id = CAL_integrating_the_state_guard_and_colorado_river_republic
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = CAL_5
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrating_the_state_guard_and_colorado_river_republic
+	}
+	x = 1.5
+	y = 1
+	relative_position_id = CAL_integrating_the_state_guard_and_colorado_river_republic
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = CAL_6
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_issue_of_the_socialists_in_the_bay_area
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_the_issue_of_the_socialists_in_the_bay_area
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = CAL_7
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_issue_of_the_socialists_in_the_bay_area
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_the_issue_of_the_socialists_in_the_bay_area
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = CAL_8
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_1
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_1
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = CAL_9
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_2
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_2
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = CAL_10
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_3
+	}
+	prerequisite = {
+		focus = CAL_4
+	}
+	x = 0.7
+	y = 1
+	relative_position_id = CAL_3
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = CAL_11
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_4
+	}
+	prerequisite = {
+		focus = CAL_5
+	}
+	x = 0.7
+	y = 1
+	relative_position_id = CAL_4
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = CAL_12
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_6
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_6
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = CAL_13
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_7
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_7
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = CAL_14
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_8
+	}
+	prerequisite = {
+		focus = CAL_9
+	}
+	x = 0
+	y = 3
+	relative_position_id = CAL_dealing_with_the_despots_in_california
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = CAL_15
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_10
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_10
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = CAL_16
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_11
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_11
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = CAL_17
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_12
+	}
+	prerequisite = {
+		focus = CAL_13
+	}
+	x = 0
+	y = 3
+	relative_position_id = CAL_the_issue_of_the_socialists_in_the_bay_area
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = CAL_18
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_14
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_14
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = CAL_19
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_15
+	}
+	prerequisite = {
+		focus = CAL_16
+	}
+	x = 0
+	y = 3
+	relative_position_id = CAL_4
+	completion_reward = {
+
+	}		
+}
+
+shared_focus = {
+	id = CAL_20
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_17
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_17
+	completion_reward = {
+
+	}	
+}
+
+shared_focus = {
+	id = CAL_21
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_18
+	}
+	prerequisite = {
+		focus = CAL_19
+	}
+	prerequisite = {
+		focus = CAL_20
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_19
+	completion_reward = {
+
+	}	
+}
+
 # Economic Reform # 
 
 shared_focus = {
 	id = CAL_rebuilding_our_economy
-}
-
-shared_focus = {
-	
 }
 
 shared_focus = {
