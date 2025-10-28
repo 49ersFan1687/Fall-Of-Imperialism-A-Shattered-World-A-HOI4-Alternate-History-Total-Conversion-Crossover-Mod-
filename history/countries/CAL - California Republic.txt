@@ -48,6 +48,13 @@ recruit_character = CAL_Mark_Wayne_Clark
 recruit_character = CAL_Henry_Harley_Arnold
 recruit_character = CAL_Jacob_Loucks_Devers
 recruit_character = CAL_Leonard_Townsend_Gerow
+recruit_character = CAL_Claire_Lee_Chennault
+recruit_character = CAL_Lucian_King_Truscott
+recruit_character = CAL_Benjamin_Oliver_Davis_Sr
+recruit_character = CAL_Ulysses_Simpson_Grant_III
+recruit_character = CAL_John_Daniel_Lavelle
+recruit_character = CAL_Elizabeth_Coleman
+recruit_character = CAL_Charity_Edna_Adams_Earley
 
 ## US Navy ##
 
