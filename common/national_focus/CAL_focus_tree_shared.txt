@@ -351,7 +351,7 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_restablish_radio_contact_with_canada
 	}
-	x = -7.5
+	x = -9
 	y = -1
 	relative_position_id = CAL_barely_no_industry
 	completion_reward = {
@@ -2431,8 +2431,17 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-	prerequisite = {
-
+	available = {
+		has_completed_focus = CAL_the_new_bastion_of_freedom
+	}
+	allow_branch = {
+		has_completed_focus = CAL_the_new_bastion_of_freedom
+	}
+	x = 9
+	y = -1
+	relative_position_id = CAL_alone_and_isolated
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_looking_outwards_from_the_golden_state"
 	}
 }
 
