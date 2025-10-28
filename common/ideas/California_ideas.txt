@@ -96,7 +96,7 @@ ideas = {
             }
         }
         ### Army Reform Ideas - George Catlett Marshall ###
-        CAL_Marshsalls_vision1 = { # Marshall's Army Reform Plan - Modern Minutemen - Part One
+        CAL_Marshalls_vision1 = { # Marshall's Army Reform Plan - Modern Minutemen - Part One
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Marshalls_vision1" }
             allowed = { always = no }
             picture = marshall_plan
@@ -104,7 +104,7 @@ ideas = {
 
             }
         }
-        CAL_Marshsalls_vision2 = { # Marshall's Army Reform Plan - Modern Minutemen - Part Two
+        CAL_Marshalls_vision2 = { # Marshall's Army Reform Plan - Modern Minutemen - Part Two
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Marshalls_vision2" }
             allowed = { always = no }
             picture = marshall_plan
@@ -112,10 +112,36 @@ ideas = {
 
             }
         }
-        CAL_Marshsalls_vision3 = { # Marshall's Army Reform Plan - Modern Minutemen - Part Three
+        CAL_Marshalls_vision3 = { # Marshall's Army Reform Plan - Modern Minutemen - Part Three
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Marshalls_vision3" }
             allowed = { always = no }
             picture = marshall_plan
+            modifier = {
+
+            }
+        }
+        ### Army Reform Ideas - William Childs Westmoreland ###
+        CAL_Westmorelands_Vision1 = { # Westmoreland's Army Reform Plan - Brute Force - Part One
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Westmorelands_Vision1" }
+             allowed = { always = no }
+            picture = westmoreland_plan
+            modifier = {
+
+            }
+        }
+        CAL_Westmorelands_Vision2 = { # Westmoreland's Army Reform Plan - Brute Force - Part Two
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Westmorelands_Vision1" }
+             allowed = { always = no }
+            picture = westmoreland_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_Westmorelands_Vision3 = { # Westmoreland's Army Reform Plan - Brute Force - Part Three
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Westmorelands_Vision1" }
+             allowed = { always = no }
+            picture = westmoreland_plan
             modifier = {
 
             }
