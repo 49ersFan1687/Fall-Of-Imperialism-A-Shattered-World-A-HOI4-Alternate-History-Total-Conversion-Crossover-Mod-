@@ -45,6 +45,9 @@ recruit_character = CAL_Glynda_Goodwitch
 recruit_character = CAL_William_Childs_Westmoreland
 recruit_character = CAL_Maxwell_Davenport_Taylor
 recruit_character = CAL_Mark_Wayne_Clark
+recruit_character = CAL_Henry_Harley_Arnold
+recruit_character = CAL_Jacob_Loucks_Devers
+recruit_character = CAL_Leonard_Townsend_Gerow
 
 ## US Navy ##
 
