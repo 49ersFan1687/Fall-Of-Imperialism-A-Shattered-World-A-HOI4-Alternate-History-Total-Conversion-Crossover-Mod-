@@ -2,7 +2,7 @@ ANR = "cpuntries/AmericanNationalRepublic.txt"
 BAP = "countries/BayArea.txt"
 CAL = "countries/California.txt"
 CSD = "countries/Cascadia.txt"
-GER = "countries/Greater German Reich.txt"
+
 NCA = "countries/CaliforniaContinental.txt"
 OPM = "countries/OregonMilitary.txt"
 OSG = "countries/OregonGuard.txt"

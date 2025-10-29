@@ -1,0 +1,37 @@
+capital = 70
+
+
+
+
+set_technology = {
+	tech_trucks = 1
+	gw_artillery = 1
+	interwar_artillery = 1
+	interwar_antiair = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	support_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	tech_engineers = 1
+}
+
+
+set_politics = {
+	ruling_party = national_socialism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	national_socialism = 50
+	fascism = 10
+	paternal_autocrat = 10
+	conservatism = 5
+	democratic = 5
+	social_democracy = 10
+	socialism = 5
+	communism = 5
+}
