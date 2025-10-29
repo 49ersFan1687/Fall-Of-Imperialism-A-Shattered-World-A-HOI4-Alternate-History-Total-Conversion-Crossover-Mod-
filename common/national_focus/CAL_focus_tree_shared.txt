@@ -2981,7 +2981,8 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_19
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_eastward_and_northern_expansion"
+		mark_focus_tree_layout_dirty = yes
 	}	
 }
 
@@ -2992,7 +2993,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_
 }
 
 shared_focus = {
