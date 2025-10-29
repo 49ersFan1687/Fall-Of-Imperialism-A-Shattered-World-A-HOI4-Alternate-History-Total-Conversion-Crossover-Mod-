@@ -8,6 +8,12 @@
  CRI: "Reichsprotektorat Krim"
  CRI_DEF: "Reichsprotektorat Krim"
  CRI_ADK: "Crimean"
+ RKN: "Diestland"
+ RKN_DEF: "Diestland"
+ RKN_ADJ: "Dutch"
+ RKG: "Norge"
+ RKG_DEF: "Norge"
+ RKG_ADJ: "Norwegian"
 
  # Localisation for Britain #
 

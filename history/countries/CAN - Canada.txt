@@ -31,7 +31,7 @@ set_politics = {
 set_popularities = {
 	conservatism = 35
 	democratic = 30
-	social_democratic = 25
+	social_democracy = 25
 	socialism = 5
 	neutrality = 5
 }
@@ -42,6 +42,11 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = MAI
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+set_autonomy = {
+	target = GRN
 	autonomous_state = autonomy_integrated_puppet
 	freedom_level = 0.5
 }

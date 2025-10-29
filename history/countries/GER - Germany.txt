@@ -58,3 +58,22 @@ set_autonomy = {
 	autonomous_state = autonomy_integrated_puppet
 	freedom_level = 0.5
 }
+set_autonomy = {
+	target = SLO
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+set_autonomy = {
+	target = RKK
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+
+
+
+create_faction = "Reichsordung Pakt"
+add_to_faction = ROM
+add_to_faction = HUN
+add_to_faction = FRA
+add_to_faction = ENG
+add_to_faction = ANR
