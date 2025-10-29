@@ -1494,9 +1494,9 @@ shared_focus = {
 	relative_position_id = CAL_begin_planning_for_war
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_solve_the_resource_issue"
-allow_branch = {
-		has_completed_focus = CAL_beat_the_inertia
-	}
+		allow_branch = {
+			has_completed_focus = CAL_beat_the_inertia
+		}
 	}
 }
 
@@ -1779,7 +1779,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_california_national_guard"
 		custom_effect_tooltip = tooltip_white_line
 		division_template = {
-			name = "California National Guard Motorized Infantry Division"
+			name = "California National Guard Infantry Division"
 			division_names_group = USA_INF_01
 			regiments = {
 				motorised_infantry = { x = 0 y = 0 }
@@ -2961,7 +2961,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_21
+	id = CAL_eastward_and_northern_expansion
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
