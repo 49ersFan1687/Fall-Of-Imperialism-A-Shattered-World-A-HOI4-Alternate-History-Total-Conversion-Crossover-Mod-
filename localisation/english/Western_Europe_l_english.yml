@@ -1,0 +1,59 @@
+﻿l_english:
+ # Localisation for Germany + Puppets #
+
+ #Country Names#
+ GER: "Greater Germanic Reich"
+ GER_DEF: "Greater Germanic Reich"
+ GER_ADJ: "German"
+ CRI: "Reichsprotektorat Krim"
+ CRI_DEF: "Reichsprotektorat Krim"
+ CRI_ADK: "Crimean"
+
+ # Localisation for Britain #
+
+ #Country Names#
+ ENG: "British Union State"
+ ENG_DEF: "British Union State"
+ ENG_ADJ: "British"
+
+ # Localisation for France #
+
+ #Country Names#
+ FRA: "French State"
+ FRA_DEF: "French State"
+ FRA_ADJ: "French"
+
+ # Localisation for Italy + Puppets #
+
+ #Country Names#
+ ITA: "Regno D'Italia"
+ ITA_DEF: "Regno D'Italia"
+ ITA_ADJ: "Italian"
+ CRO: "Duchy of Croatia"
+ CRO_DEF: "Duchy of Croatia"
+ CRO_ADJ: "Croatian"
+ SER: "State of Serbia"
+ SER_DEF: "State of Serbia"
+ SER_ADJ: "Serbian"
+ GRE: "Greek State"
+ GRE_DEF: "Greek State"
+ GRE_ADJ: "Greek"
+
+ # Localisation for Nordic #
+
+ #Country Names#
+ SWE: "Kingdom of Sweden"
+ SWE_DEF: "Kingdom of Sweden"
+ SWE_ADJ: "Swedish"
+ DEN: "Dänemark"
+ DEN_DEF: "Dänemark"
+ DEN_ADJ: "Danish"
+
+ # Localisation for Iberia #
+
+ SPR: "Spanish State"
+ SPR_DEF: "Spanish State"
+ SPR_ADJ: "Spanish"
+ POR: "Portugese State"
+ POR_DEF: "Portugese State"
+ POR_ADJ: "Portugese"

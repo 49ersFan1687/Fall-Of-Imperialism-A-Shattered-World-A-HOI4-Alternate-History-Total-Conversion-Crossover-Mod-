@@ -1,0 +1,71 @@
+bookmarks = {
+	bookmark = {
+		name = "ASHES_OF_THE_OLD_ORDER_NAME"
+		desc = "ASHES_OF_THE_OLD_ORDER_DESC"
+		date = 1950.1.1.12
+		picture = "GFX_select_date_1939"
+		default_country = "CAL"
+	
+		CAL = {
+			history = CAL_HISTORY_DESC
+			ideology = neutrality
+			ideas={
+				
+			}
+			focuses = {
+			
+			}
+		}
+		ANR = {
+			history = ANR_HISTORY_DESC
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		GER = {
+			history = GER_HISTORY_DESC
+			ideology = national_socialism
+			ideas = {
+			}
+			focuses = {
+			}
+			
+		}
+		CAN = {
+			history = CAN_HISTORY_DESC
+			ideology = conservatism
+			ideas = { 
+			}
+			focuses = {
+			}
+		}
+		ITA = {
+			history = ITA_HISTORY_DESC
+			ideology = fascism
+			ideas={
+			}
+			focuses = {
+			}			
+		}
+		JAP = {
+			history = JAP_HISTORY_DESC
+			ideology = fascism
+			ideas={
+			}	
+			focuses = {
+			}		
+		}
+		SOV = {
+			history = SOV_HISTORY_DESC
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+	}
+
+
+}
