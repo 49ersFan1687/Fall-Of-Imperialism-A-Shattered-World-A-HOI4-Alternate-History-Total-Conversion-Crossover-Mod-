@@ -1,0 +1,24 @@
+capital = 16
+
+set_war_support = 0.1
+set_stability = 0.4
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 45
+	neutrality = 20
+	conservatism = 15
+	democratic = 10
+	social_democracy = 2
+	paternal_autocrat = 7
+	national_socialism = 1
+}

@@ -39,3 +39,4 @@ set_autonomy = {
 	autonomous_state = autonomy_integrated_puppet
 	freedom_level = 0.5
 }
+create_faction = "Impero Italiano"

@@ -1,0 +1,39 @@
+capital = 46
+
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.6
+
+
+# Starting tech
+set_technology = {
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	basic_train = 1
+}
+
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1933.12.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	conservatism = 45
+	democratic = 25
+	neutrality = 10
+	social_democracy = 5
+	fascism = 7
+	esotericism = 3
+	national_socialism = 5
+}
+

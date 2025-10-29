@@ -1,0 +1,43 @@
+state = {
+	id = 695
+	name = "STATE_695"
+	manpower = 2500000
+	
+	state_category = metropolis
+
+	resources = {
+		steel = 4
+	}
+
+	history = {
+		
+		owner = GER
+		add_core_of = GER
+
+	
+		victory_points = { 
+			516 30 
+		}
+
+		victory_points = { 
+			6560 5 
+		}
+
+		victory_points = { 
+			3576 1 
+		}
+		buildings = {
+			fuel_silo = 1
+			infrastructure = 2
+			
+		}
+
+		
+	}
+
+	provinces = {
+		516 3576 6446 6560 
+	}
+
+	local_supplies = 0.0 
+}
