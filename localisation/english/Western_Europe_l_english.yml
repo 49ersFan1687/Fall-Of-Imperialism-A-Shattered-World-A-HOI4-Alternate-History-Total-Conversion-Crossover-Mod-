@@ -29,6 +29,15 @@
  ITA: "Regno D'Italia"
  ITA_DEF: "Regno D'Italia"
  ITA_ADJ: "Italian"
+ CRO: "Duchy of Croatia"
+ CRO_DEF: "Duchy of Croatia"
+ CRO_ADJ: "Croatian"
+ SER: "State of Serbia"
+ SER_DEF: "State of Serbia"
+ SER_ADJ: "Serbian"
+ GRE: "Greek State"
+ GRE_DEF: "Greek State"
+ GRE_ADJ: "Greek"
 
  # Localisation for Nordic #
 
