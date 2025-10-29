@@ -2555,7 +2555,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_dealing_with_the_despots_in_california
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_shut_the_ultranationalists_up"
 	}	
 }
 
@@ -2574,7 +2574,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_integrating_the_state_guard_and_colorado_river_republic
 	completion_reward = {
-
+		log = "[GetDateText]"
 	}	
 }
 
@@ -2992,59 +2992,73 @@ shared_focus = {
 	}
 }
 
+shared_focus = {
+	id = CAL_monetary_assistance_to_the_free_republic
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_our_focus_on_nevada
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_our_focus_on_nevada
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
 # Economic Reform # 
 
 shared_focus = {
 	id = CAL_rebuilding_our_economy
-}
-
-
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
 }
 
 shared_focus = {
