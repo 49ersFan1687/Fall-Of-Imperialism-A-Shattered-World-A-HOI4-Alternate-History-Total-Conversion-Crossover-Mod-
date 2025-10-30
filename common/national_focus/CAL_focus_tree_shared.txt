@@ -536,7 +536,6 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_permanent_liason_to_america"
 		add_idea = CAL_the_permanant_canadian_liason
-		
 	}
 }
 
@@ -1678,6 +1677,7 @@ shared_focus = {
 	relative_position_id = CAL_rebuild_the_city_of_angels
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reopen_arms_factories"
+
 	}
 }
 shared_focus = {
@@ -1779,7 +1779,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_california_national_guard"
 		custom_effect_tooltip = tooltip_white_line
 		division_template = {
-			name = "California National Guard Infantry Division"
+			name = "California National Guard Motorized Infantry Division"
 			division_names_group = USA_INF_01
 			regiments = {
 				motorised_infantry = { x = 0 y = 0 }
@@ -1791,15 +1791,24 @@ shared_focus = {
 				motorised_infantry = { x = 2 y = 0 }
 				motorised_infantry = { x = 2 y = 1 }
 				motorised_infantry = { x = 2 y = 2 }
-				artillery_brigade  = { x = 3 y = 0 }
-				artillery_brigade  = { x = 3 y = 1 }
-				artillery_brigade  = { x = 3 y = 2 }
-				artillery_brigade  = { x = 3 y = 3 }
+				mot_artillery_brigade = { x = 3 y = 0 }
+				mot_artillery_brigade = { x = 3 y = 1 }
+				mot_artillery_brigade = { x = 3 y = 2 }
+				mot_artillery_brigade  = { x = 3 y = 3 }
 				medium_armor = { x = 4 y = 0 }
 			}
 			support = {
 				artillery = { x = 0 y = 0 }
 				engineer = { x = 0 y = 1 }
+				
+			}
+		}
+		1031 = {
+			create_unit = {
+				division = "name = \"40th 'Sunshine' Division\" division_template = \"California National Guard Motorized Infantry Division\ start_experience_factor = 0.75 start_equipment_factor = 1.0"
+			}
+			create_unit = {
+				division = "name = \"49th '49ers' Division\" division_template = \"California National Guard Motorized Infantry Division\ start_experience_factor = 0.75 start_equipment_factor = 1.0"
 			}
 		}
 	}
@@ -2522,7 +2531,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_1
+	id = CAL_liberation
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2536,12 +2545,12 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_dealing_with_the_despots_in_california
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_liberation"
 	}
 }
 
 shared_focus = {
-	id = CAL_2
+	id = CAL_silence_the_ultranationalists
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2555,12 +2564,12 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_dealing_with_the_despots_in_california
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_shut_the_ultranationalists_up"
 	}	
 }
 
 shared_focus = {
-	id = CAL_3
+	id = CAL_rebuild_the_cali_arz_border
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2574,12 +2583,12 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_integrating_the_state_guard_and_colorado_river_republic
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_the_cali_arz_border"
 	}	
 }
 
 shared_focus = {
-	id = CAL_4
+	id = CAL_reinstate_civilian_rule
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2593,12 +2602,12 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_integrating_the_state_guard_and_colorado_river_republic
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reinstate_civilian_rule"
 	}	
 }
 
 shared_focus = {
-	id = CAL_5
+	id = CAL_integrate_the_state_guard
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2612,50 +2621,12 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_integrating_the_state_guard_and_colorado_river_republic
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: CAL_integrate_the_state_guard"
 	}	
 }
 
 shared_focus = {
-	id = CAL_5
-	icon = GFX
-	cost = 5
-	available_if_capitualted = no
-	ai_will_do = {
-		factor = 1
-	}
-	prerequisite = {
-		focus = CAL_integrating_the_state_guard_and_colorado_river_republic
-	}
-	x = 1.5
-	y = 1
-	relative_position_id = CAL_integrating_the_state_guard_and_colorado_river_republic
-	completion_reward = {
-
-	}	
-}
-
-shared_focus = {
-	id = CAL_5
-	icon = GFX
-	cost = 5
-	available_if_capitualted = no
-	ai_will_do = {
-		factor = 1
-	}
-	prerequisite = {
-		focus = CAL_integrating_the_state_guard_and_colorado_river_republic
-	}
-	x = 1.5
-	y = 1
-	relative_position_id = CAL_integrating_the_state_guard_and_colorado_river_republic
-	completion_reward = {
-
-	}	
-}
-
-shared_focus = {
-	id = CAL_6
+	id = CAL_no_negotiations
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2669,12 +2640,12 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_the_issue_of_the_socialists_in_the_bay_area
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_no_negotiations"
 	}
 }
 
 shared_focus = {
-	id = CAL_7
+	id = CAL_know_the_communist_enemy
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2688,12 +2659,12 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_the_issue_of_the_socialists_in_the_bay_area
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_know_the_communist_enemy"
 	}	
 }
 
 shared_focus = {
-	id = CAL_8
+	id = CAL_free_the_opressed
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2701,18 +2672,18 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_1
+		focus = CAL_liberation
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_1
+	relative_position_id = CAL_liberation
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_free_the_opressed"
 	}
 }
 
 shared_focus = {
-	id = CAL_9
+	id = CAL_hang_the_nazis_and_fascists
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2720,18 +2691,18 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_2
+		focus = CAL_silence_the_ultranationalists
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_2
+	relative_position_id = CAL_silence_the_ultranationalists
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_hang_the_nazis_and_fascists"
 	}	
 }
 
 shared_focus = {
-	id = CAL_10
+	id = CAL_rebuild_se_california
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2739,21 +2710,21 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_3
+		focus = CAL_rebuild_the_cali_arz_border
 	}
 	prerequisite = {
-		focus = CAL_4
+		focus = CAL_reinstate_civilian_rule
 	}
 	x = 0.7
 	y = 1
-	relative_position_id = CAL_3
+	relative_position_id = CAL_rebuild_the_cali_arz_border
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_se_california"
 	}	
 }
 
 shared_focus = {
-	id = CAL_11
+	id = CAL_open_the_arsenals
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2761,16 +2732,21 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_4
+		focus = CAL_reinstate_civilian_rule
 	}
 	prerequisite = {
-		focus = CAL_5
+		focus = CAL_integrate_the_state_guard
 	}
 	x = 0.7
 	y = 1
-	relative_position_id = CAL_4
+	relative_position_id = CAL_reinstate_civilian_rule
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus AL_open_the_arsenals"
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 3000
+			producer = CAL
+		}
 	}	
 }
 
@@ -2783,11 +2759,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_6
+		focus = CAL_no_negotiations
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_6
+	relative_position_id = CAL_no_negotiations
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_two_sides_of_authoritarianism"
 	}	
@@ -2802,18 +2778,18 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_7
+		focus = CAL_know_the_communist_enemy
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_7
+	relative_position_id = CAL_know_the_communist_enemy
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_them_tankies_stink"
 	}	
 }
 
 shared_focus = {
-	id = CAL_14
+	id = CAL_we_the_people
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2821,21 +2797,21 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_8
+		focus = CAL_free_the_opressed
 	}
 	prerequisite = {
-		focus = CAL_9
+		focus = CAL_hang_the_nazis_and_fascists
 	}
 	x = 0
 	y = 3
 	relative_position_id = CAL_dealing_with_the_despots_in_california
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_we_the_people"
 	}	
 }
 
 shared_focus = {
-	id = CAL_15
+	id = CAL_towards_a_united_nation
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2843,18 +2819,18 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_10
+		focus = CAL_rebuild_se_california
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_10
+	relative_position_id = CAL_rebuild_se_california
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_towards_a_united_nation"
 	}	
 }
 
 shared_focus = {
-	id = CAL_16
+	id = CAL_subsidize_small_arms_companies
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2862,13 +2838,13 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_11
+		focus = CAL_open_the_arsenals
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_11
+	relative_position_id = CAL_open_the_arsenals
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_subsidize_small_arms_companies"
 	}	
 }
 
@@ -2895,7 +2871,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_18
+	id = CAL_no_to_fascism
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2903,21 +2879,21 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_14
+		focus = CAL_we_the_people
 	}
 	prerequisite = {
-		focus = CAL_15
+		focus = CAL_towards_a_united_nation
 	}
 	x = 2
 	y = 1
-	relative_position_id = CAL_14
+	relative_position_id = CAL_we_the_people
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_no_to_fascism"
 	}	
 }
 
 shared_focus = {
-	id = CAL_19
+	id = CAL_the_situation_is_under_control
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2925,16 +2901,16 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_15
+		focus = CAL_towards_a_united_nation
 	}
 	prerequisite = {
-		focus = CAL_16
+		focus = CAL_subsidize_small_arms_companies
 	}
 	x = 0
 	y = 3
-	relative_position_id = CAL_4
+	relative_position_id = CAL_reinstate_civilian_rule
 	completion_reward = {
-
+		log: "[GetDateText]: [Root.GetName]: Focus CAL_the_situation_is_under_control"
 	}		
 }
 
@@ -2947,7 +2923,7 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_16
+		focus = CAL_subsidize_small_arms_companies
 	}
 	prerequisite = {
 		focus = CAL_a_quarantine_policy
@@ -2969,78 +2945,149 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_18
+		focus = CAL_no_to_fascism
 	}
 	prerequisite = {
-		focus = CAL_19
+		focus = CAL_the_situation_is_under_control
 	}
 	prerequisite = {
 		focus = CAL_charlie_dont_surf
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_19
+	relative_position_id = CAL_the_situation_is_under_control
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_eastward_and_northern_expansion"
 		mark_focus_tree_layout_dirty = yes
 	}	
 }
 
+shared_focus = {
+	id = CAL_our_focus_on_nevada
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	allow_branch = {
+		has_completed_focus = CAL_eastward_and_northern_expansion
+	}
+	prerequisite = {
+		focus = CAL_eastward_and_northern_expansion
+	}
+	x = -2.5
+	y = 1
+	relative_position_id = CAL_eastward_and_northern_expansion
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_our_focus_on_nevada"
+	}
+}
+
+shared_focus = {
+	id = CAL_tend_to_the_pacific_northwest
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	allow_branch = {
+		has_completed_focus = CAL_eastward_and_northern_expansion
+	}
+	prerequisite = {
+		focus = CAL_eastward_and_northern_expansion
+	}
+	x = 2.5
+	y = 1
+	relative_position_id = CAL_eastward_and_northern_expansion
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_tend_to_the_pacific_northwest"
+	}
+}
+
+shared_focus = {
+	id = CAL_integrate_the_military_district
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_our_focus_on_nevada
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_our_focus_on_nevada
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrate_the_military_district"
+	}
+}
+
+shared_focus = {
+	id = CAL_integrate_the_free_republic
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_our_focus_on_nevada
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_our_focus_on_nevada
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrate_the_free_republic"
+	}
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
 # Economic Reform # 
 
 shared_focus = {
 	id = CAL_rebuilding_our_economy
-}
-
-shared_focus = {
-	id = CAL_
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
 }
 
 shared_focus = {
