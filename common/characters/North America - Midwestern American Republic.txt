@@ -3,4 +3,34 @@ characters = {
     # Field Marshals #
     # Generals #
     # Admirals #
+    MAR_Elmo_Russell_Zumwalt_Jr. = {
+        name = MAR_Elmo_Russell_Zumwalt_Jr
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        navy_leader = {
+			desc = 
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			maneuvering_skill = 
+			coordination_skill =
+
+		}
+		advisior = { 
+			slot = 
+			idea_token = 
+			ledger = navy
+			allowed = { original_tag = CAL }
+			traits = {
+
+			}
+		}
+	}
 }
