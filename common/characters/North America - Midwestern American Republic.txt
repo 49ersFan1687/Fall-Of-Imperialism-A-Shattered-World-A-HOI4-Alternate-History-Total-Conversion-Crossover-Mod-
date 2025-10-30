@@ -1,9 +1,21 @@
 characters = {
     # Country Leaders #
     # Field Marshals #
+    MAR_Douglas_Macarthur = {
+        name = MAR_Douglas_Macarthur
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+
+    }
     # Generals #
     # Admirals #
-    MAR_Elmo_Russell_Zumwalt_Jr. = {
+    MAR_Elmo_Russell_Zumwalt_Jr = {
         name = MAR_Elmo_Russell_Zumwalt_Jr
         portraits = {
             civilian = {
