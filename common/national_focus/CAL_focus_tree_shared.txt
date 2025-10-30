@@ -536,7 +536,6 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_permanent_liason_to_america"
 		add_idea = CAL_the_permanant_canadian_liason
-		
 	}
 }
 
@@ -1678,6 +1677,7 @@ shared_focus = {
 	relative_position_id = CAL_rebuild_the_city_of_angels
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reopen_arms_factories"
+
 	}
 }
 shared_focus = {
@@ -1779,7 +1779,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_california_national_guard"
 		custom_effect_tooltip = tooltip_white_line
 		division_template = {
-			name = "California National Guard Infantry Division"
+			name = "California National Guard Motorized Infantry Division"
 			division_names_group = USA_INF_01
 			regiments = {
 				motorised_infantry = { x = 0 y = 0 }
@@ -1800,6 +1800,14 @@ shared_focus = {
 			support = {
 				artillery = { x = 0 y = 0 }
 				engineer = { x = 0 y = 1 }
+			}
+		}
+		1031 = {
+			create_unit = {
+				division = "name = \"40th 'Sunshine' Division\" division_template = \"California National Guard Motorized Infantry Division\ start_experience_factor = 0.75 start_equipment_factor = 1.0"
+			}
+			create_unit = {
+				division = "name = \"49th '49ers' Division\" division_template = \"California National Guard Motorized Infantry Division\ start_experience_factor = 0.75 start_equipment_factor = 1.0"
 			}
 		}
 	}
@@ -2541,7 +2549,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_shut_the_ultranationalists_up
+	id = CAL_silence_the_ultranationalists
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2574,7 +2582,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_integrating_the_state_guard_and_colorado_river_republic
 	completion_reward = {
-		log = "[GetDateText]"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_the_cali_arz_border"
 	}	
 }
 
@@ -2593,7 +2601,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_integrating_the_state_guard_and_colorado_river_republic
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reinstate_civilian_rule"
 	}	
 }
 
@@ -2612,7 +2620,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_integrating_the_state_guard_and_colorado_river_republic
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: CAL_integrate_the_state_guard"
 	}	
 }
 
@@ -2669,7 +2677,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_liberation
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_free_the_opressed"
 	}
 }
 
@@ -2682,13 +2690,13 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_shut_the_ultranationalists_up
+		focus = CAL_silence_the_ultranationalists
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_shut_the_ultranationalists_up
+	relative_position_id = CAL_silence_the_ultranationalists
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_hang_the_nazis_and_fascists"
 	}	
 }
 
@@ -2710,7 +2718,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_rebuild_the_cali_arz_border
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_se_california"
 	}	
 }
 
@@ -2732,7 +2740,12 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_reinstate_civilian_rule
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus AL_open_the_arsenals"
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 3000
+			producer = CAL
+		}
 	}	
 }
 
@@ -2811,7 +2824,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_rebuild_se_california
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_towards_a_united_nation"
 	}	
 }
 
@@ -2830,7 +2843,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_open_the_arsenals
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_subsidize_small_arms_companies"
 	}	
 }
 
@@ -2966,7 +2979,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_eastward_and_northern_expansion
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_our_focus_on_nevada"
 	}
 }
 
@@ -2988,12 +3001,12 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_eastward_and_northern_expansion
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_tend_to_the_pacific_northwest"
 	}
 }
 
 shared_focus = {
-	id = CAL_monetary_assistance_to_the_free_republic
+	id = CAL_integrate_the_military_district
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -3003,16 +3016,31 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_our_focus_on_nevada
 	}
-	x = 0
+	x = -1
 	y = 1
 	relative_position_id = CAL_our_focus_on_nevada
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrate_the_military_district"
 	}
 }
 
 shared_focus = {
-	
+	id = CAL_integrate_the_free_republic
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_our_focus_on_nevada
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_our_focus_on_nevada
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrate_the_free_republic"
+	}
 }
 
 shared_focus = {
