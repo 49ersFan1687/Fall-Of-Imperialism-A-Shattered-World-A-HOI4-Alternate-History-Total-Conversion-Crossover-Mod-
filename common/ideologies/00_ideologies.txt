@@ -40,7 +40,6 @@ ideologies = {
 			social_democratic_progressive_democracy_ideology = { }
 			nordic_model_ideology = { }
 			narodnikism_ideology = { }
-			longism_ideology = { }
 		}
 		dynamic_faction_names = { }
 		color = { 148 80 142 }
