@@ -41,7 +41,7 @@ characters = {
 			}
 			ledger = civilian
 			cost = -1
-			can_be_fired = no
+			can_be_fired = yes
 			ai_will_do = { factor = 0 }
 		}
     }
