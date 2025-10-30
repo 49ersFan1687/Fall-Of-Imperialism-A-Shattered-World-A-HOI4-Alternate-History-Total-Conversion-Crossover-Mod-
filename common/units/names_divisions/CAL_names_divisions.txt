@@ -1,0 +1,23 @@
+CAL_INF_01 = {
+    name = "Infantry Divisions"
+    for_countries = { CAL }
+    can_use = { always = yes }
+	division_types = { "infantry" }
+	fallback_name = "%d Infantry Division"
+	ordered = {
+        1 = { "%dst 'Big Red One' Division" }
+		2 = { "%dnd 'Indianhead' Division" }
+		3 = { "%drd 'Sioux' Division" }
+		5 = { "%dth 'Red Devils' Division" }
+		6 = { "%dth 'Sightseeing Sixth' Division" }
+		4 = { "%dth 'Ivy' Division" }
+		7 = { "%dth 'Bayonet' Division" }
+		8 = { "%dth 'Pathfinder' Division" }
+		9 = { "%dth 'Old Reliables' Division" }
+		11 = { "%dth 'Lafayette Division' Division"}
+        
+    }
+}
+CAL_CAV_01 = {
+
+}
