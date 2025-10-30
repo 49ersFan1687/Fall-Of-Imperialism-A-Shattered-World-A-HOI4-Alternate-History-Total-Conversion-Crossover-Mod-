@@ -720,7 +720,7 @@ CRI = {
 	color_ui = rgb { 204 0 0 }
 }
 TAT = {
-	color = rgb { 255 51 0 }
+	color = rgb { 120 76 50 }
 	color_ui = rgb { 179 36 0 }
 }
 CIN = {
@@ -772,7 +772,7 @@ NEN = {
 	color_ui = rgb { 102 255 102 }
 }
 KOM = {
-	color = rgb { 0 230 184 }
+	color = rgb { 17 48 82 }
 	color_ui = rgb { 0 128 102 }
 }
 ABK = {
@@ -1411,7 +1411,46 @@ MSI = {
 	color = rgb { 40 67 82 }
 	color_ui = rgb { 40 67 82 }
 }
-
+RRF = {
+	color = rgb { 133 29 48 }
+	color_ui = rgb { 40 67 82 }
+}
+VYA = {
+	color = rgb { 39 84 29 }
+	color_ui = rgb { 40 67 82 }
+}
+URL = {
+	color = rgb { 125 128 68 }
+	color_ui = rgb { 125 128 68 }
+}
+VGD = {
+	color = rgb { 144 145 115 }
+	color_ui = rgb { 125 128 68 }
+}
+SRR = {
+	color = rgb { 115 45 58 }
+	color_ui = rgb { 125 128 68 }
+}
+PSF = {
+	color = rgb { 60 77 67 }
+	color_ui = rgb { 125 128 68 }
+}
+RLA = {
+	color = rgb { 64 95 135 }
+	color_ui = rgb { 125 128 68 }
+}
+GAY = {
+	color = rgb { 93 40 120 }
+	color_ui = rgb { 125 128 68 }
+}
+PRM = {
+	color = rgb { 110 143 121 }
+	color_ui = rgb { 125 128 68 }
+}
+KAZ = {
+	color = rgb { 110 140 143 }
+	color_ui = rgb { 222 247 198 }
+}
 
 
 

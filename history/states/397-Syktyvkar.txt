@@ -1,0 +1,27 @@
+
+state = {
+	id = 397
+	name = "STATE_397"
+	manpower = 78918
+	state_category = pastoral
+
+	history = {
+		victory_points = {
+			108 1 
+		}
+		owner = RRF
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		#add_core_of = KOM
+		add_core_of = RRF
+	}
+
+	provinces = {
+		6 99 108 186 1307 3000 6121 6202 7318 9145 11179 11203 
+	}
+
+	local_supplies = 0.0 
+}

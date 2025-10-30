@@ -1,0 +1,31 @@
+state = {
+	id = 1102
+	name = "STATE_1102"
+	manpower = 32111
+	
+	state_category = town
+
+	history = {
+
+		owner = RRF
+		#add_core_of = PRM
+		add_core_of = RRF
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 3
+		}
+			victory_points = {
+			7375 1 
+		
+		}
+		
+			
+	}
+
+	provinces = {
+		7403 206 1380 10286 10314 12626 4372 12216 7375 11228 1754
+	}
+
+	local_supplies = 0.0 
+}

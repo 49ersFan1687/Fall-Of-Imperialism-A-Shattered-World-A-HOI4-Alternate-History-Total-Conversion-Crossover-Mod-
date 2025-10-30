@@ -1,0 +1,24 @@
+capital = 582
+
+
+set_research_slots = 3
+set_stability = 0.4
+set_war_support = 0.4
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	conservatism = 50
+	democratic = 30
+	social_democracy = 20
+}
+
+
+
+
+

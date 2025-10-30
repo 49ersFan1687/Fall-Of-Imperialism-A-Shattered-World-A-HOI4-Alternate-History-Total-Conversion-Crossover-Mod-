@@ -1,0 +1,29 @@
+state = {
+	id = 1099
+	name = "STATE_1099"
+	manpower = 1234901
+	
+	state_category = rural
+
+	history = {
+
+		owner = RRF
+		#add_core_of = VYA
+		add_core_of = RRF
+
+		buildings = {
+			infrastructure = 2 #was: 6
+			
+		}
+		victory_points = {
+			6124 1
+		}
+			
+	}
+
+	provinces = {
+		6274 6162 11124 6288 31 3363 146 11087 359 3027 6124 272 3139 9370 3264 3270 6297 11365
+	}
+
+	local_supplies = 0.0 
+}

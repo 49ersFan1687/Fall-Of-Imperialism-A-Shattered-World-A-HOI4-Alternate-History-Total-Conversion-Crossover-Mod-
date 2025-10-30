@@ -1,0 +1,24 @@
+capital = 582
+
+
+set_research_slots = 3
+set_stability = 0.4
+set_war_support = 0.4
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 70
+	paternal_autocrat = 15
+	conservatism = 15
+}
+
+
+
+
+

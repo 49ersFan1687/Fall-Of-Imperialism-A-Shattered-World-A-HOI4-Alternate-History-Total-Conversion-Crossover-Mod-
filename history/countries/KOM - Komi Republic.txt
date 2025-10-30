@@ -1,0 +1,28 @@
+capital = 397 #Syktyvkar
+
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.4
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 25
+	social_democracy = 20
+	conservatism = 20
+	communism = 10
+	socialism = 10
+	fascism = 10
+	paternal_autocrat = 5
+}
+
+
+
+
+

@@ -1,0 +1,28 @@
+
+state = {
+	id = 398
+	name = "STATE_398"
+	manpower = 1433019
+	state_category = rural
+	resources = {
+		aluminium = 6 # was: 10
+	}
+
+	history = {
+		owner = RRF
+		buildings = {
+			infrastructure = 3 #was: 6
+			
+
+		}
+		add_core_of = RRF
+		#add_core_of = GAY
+		
+	}
+
+	provinces = {
+		4314 4802 4874 7824 10216 11195 12175 12187 12527 12587 12659
+	}
+
+	local_supplies = 0.0 
+}
