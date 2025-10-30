@@ -16,8 +16,6 @@ characters = {
 		}
     }
 
-	CAL
-
 	# Advisors #
     CAL_huey_pierce_long_jr = {
         name = CAL_huey_pierce_long_jr
@@ -29,7 +27,7 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_HUEY_LONG_DESC"
 			expire = "1994.4.20"
-			ideology = 
+			ideology = longism_ideology
 			traits = {
 
 			}
