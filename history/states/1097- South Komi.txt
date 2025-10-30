@@ -1,0 +1,26 @@
+state = {
+	id = 1097
+	name = "STATE_1097"
+	manpower = 112345
+	
+	state_category = rural
+
+	history = {
+
+		owner = RRF
+		#add_core_of = KOM
+		add_core_of = RRF
+
+		buildings = {
+			infrastructure = 1 #was: 6
+			
+		}
+			
+	}
+
+	provinces = {
+		11110 3177 3102 9232 11025 9155 9114 45 3041 9192 11133 11193 10200 88 11170
+	}
+
+	local_supplies = 0.0 
+}

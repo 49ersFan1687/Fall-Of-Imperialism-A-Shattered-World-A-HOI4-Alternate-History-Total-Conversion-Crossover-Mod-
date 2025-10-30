@@ -1,0 +1,30 @@
+state = {
+	id = 1094
+	name = "STATE_1094"
+	manpower = 1569213
+	
+	state_category = town
+
+	history = {
+
+		owner = RRF
+		#add_core_of = TAT
+		add_core_of = RRF
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 1
+			
+		}
+		victory_points = {
+			6338 10
+		}
+			
+	}
+
+	provinces = {
+		9354 11292 11243 6338 372 260 3365 404 9336 228 3251 6323
+	}
+
+	local_supplies = 0.0 
+}

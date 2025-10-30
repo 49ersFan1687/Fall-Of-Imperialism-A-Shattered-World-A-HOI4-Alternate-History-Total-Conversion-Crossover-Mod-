@@ -1,0 +1,25 @@
+state = {
+	id = 1095
+	name = "STATE_1095"
+	manpower = 67543
+	
+	state_category = pastoral
+
+	history = {
+
+		owner = RRF
+		add_core_of = RRF
+
+		buildings = {
+			infrastructure = 1 #was: 6
+			
+		}
+			
+	}
+
+	provinces = {
+		7330 11200 3155 1295 9225 4298 
+	}
+
+	local_supplies = 0.0 
+}

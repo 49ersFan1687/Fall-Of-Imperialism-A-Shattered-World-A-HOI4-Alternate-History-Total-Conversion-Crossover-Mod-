@@ -1,8 +1,8 @@
+#AMERICA#
 ANR = "cpuntries/AmericanNationalRepublic.txt"
 BAP = "countries/BayArea.txt"
 CAL = "countries/California.txt"
 CSD = "countries/Cascadia.txt"
-
 NCA = "countries/CaliforniaContinental.txt"
 OPM = "countries/OregonMilitary.txt"
 OSG = "countries/OregonGuard.txt"
@@ -74,5 +74,16 @@ OHI = "countries/OhianRustRepublic.txt"
 ICS = "countries/IndianaCorporate.txt"
 ILL = "countries/IllinoisState.txt"
 MSI = "countries/IllinoisMilitia.txt"
+#RUSSIA#
+RRF = "countries/RussiaRevolutionFront.txt"
+VYA = "countries/Vyatka.txt"
+URL = "countries/SouthUral.txt"
+VGD = "countries/Vologda.txt"
+SRR = "countries/SouthRevolution.txt"
+PSF = "countries/PanSlavic.txt"
+RLA = "countries/RussiaLiberaton.txt"
+GAY = "countries/Gayny.txt"
+PRM = "countries/Perm.txt"
+
 
 
