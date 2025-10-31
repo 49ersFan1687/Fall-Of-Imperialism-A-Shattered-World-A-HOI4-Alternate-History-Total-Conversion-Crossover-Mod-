@@ -1,1 +1,13 @@
-CAL_
+### Armored Military-Industrial Organizations ###
+CAL_foi_chrysler = {
+    name = CAL_foi_chrysler
+    icon = GFX_idea_foi_chrysler
+}
+
+### Naval Military-Industrial Organizations ###
+
+
+### Air Military-Industrial Organizations ###
+
+
+### Equipment Military-Industrial Organizations ###
