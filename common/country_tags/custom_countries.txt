@@ -74,6 +74,7 @@ OHI = "countries/OhianRustRepublic.txt"
 ICS = "countries/IndianaCorporate.txt"
 ILL = "countries/IllinoisState.txt"
 MSI = "countries/IllinoisMilitia.txt"
+
 #RUSSIA#
 RRF = "countries/RussiaRevolutionFront.txt"
 VYA = "countries/Vyatka.txt"
