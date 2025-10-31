@@ -10,12 +10,43 @@ ideas = {
 
             }
         }
+
         ### Starting Ideas - The Greater Depression ###
         CAL_the_greater_depression1 = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_greater_depression1" }
             allowed = { always = no }
             picture = CAL_greater_depression
             modifier = {
+                
+            }
+        }
+
+        ### Starting Ideas - A Shattered Army ###
+        CAL_a_shattered_army = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_a_shattered_army" }
+            allowed = { always = no }
+            picture = CAL_a_shattered_army
+             modifier = {
+                
+            }
+        }
+
+        ### Starting Ideas - An Outdated Air Force ###
+        CAL_an_outdated_air_force = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_an_outdated_air_force" }
+            allowed = { always = no }
+            picture = CAL_an_outdated_air_force
+             modifier = {
+                
+            }
+        }
+
+        ### Starting Ideas - An Outdated Air Force ###
+        CAL_the_mothballed_navy = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_mothballed_navy" }
+            allowed = { always = no }
+            picture = CAL_the_mothballed_navy
+             modifier = {
                 
             }
         }
@@ -65,6 +96,7 @@ ideas = {
                 
             }
         }
+
         ### Army Reform Ideas - George Smith Patton Jr. ###
         CAL_Pattons_vision1 = { # Patton's Army Reform Plan - Army of the Future - Part One
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Pattons_vision1" }
@@ -95,6 +127,7 @@ ideas = {
 
             }
         }
+
         ### Army Reform Ideas - George Catlett Marshall ###
         CAL_Marshalls_vision1 = { # Marshall's Army Reform Plan - Modern Minutemen - Part One
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Marshalls_vision1" }
@@ -120,6 +153,7 @@ ideas = {
 
             }
         }
+
         ### Army Reform Ideas - William Childs Westmoreland ###
         CAL_Westmorelands_Vision1 = { # Westmoreland's Army Reform Plan - Brute Force - Part One
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Westmorelands_Vision1" }
@@ -146,6 +180,7 @@ ideas = {
 
             }
         }
+
         ### Army Reform Ideas - Shared Ideas ###
 
         ### Canadian Military Mission ####
