@@ -3,6 +3,7 @@ ideologies = {
 	### Communist Subdeologies ###
     communism = {
         types = {
+			national_communism_ideology = { }
 			council_communism_ideology = { }
 			marxism_ideology = { }
 			leninism_ideology = { }
