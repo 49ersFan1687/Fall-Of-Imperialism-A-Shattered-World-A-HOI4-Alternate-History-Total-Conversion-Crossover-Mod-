@@ -224,36 +224,46 @@
  MSI: "Illinois State Guard"
  MSI_DEF: "Illinois State Guard"
  MSI_ADJ: "Illinoisian"
-#PARTIES
+
+# PARTIES #
+
 #California Republic
  CAL_democratic_party: "Progressive Party"
  CAL_democratic_party_long: "§YProgressive Party§!\n§gDid You Know You Can Add Descriptions to these?§!"
+ 
  #Cascadia
  CSD_neutrality_party: "CNM"
  CSD_neutrality_party_long: "Cascadian National Movement"
+ 
  #Oregon Military
  OPM_paternal_autocrat_party: "Military Socialists"
  OPM_paternal_autocrat_party_long: "§YMilitary Socialists of Oregon§!"
+ 
  #Oregon State Guard
  OSG_paternal_autocrat_party: "State Guard"
  OSG_paternal_autocrat_party_long: "§YState Guard of Oregon§!"
+ 
  #Idaho
  IHO_neutrality_party: "Provisional Government"
  IHO_neutrality_party_long: "§YProvisional Government of Idaho§!"
+ 
  #Free Beasts
  FBH_esotericism_party: "The Free Beasts"
  FBH_eostericism_party_long: "§YThe Free Beasts§!"
+
  #Washington
  WPG_conservatism_party: "Tory Party"
  WPG_conservatism_party_long: "§YThe Tory Party§!"
+ 
  #Unit 731
  USO_national_socialism_party: "IDFK"
  USO_national_socialism_party_long: "§YI Dont Fucking Know§!"
+ 
  #Communist Cascadia
  PCD_socialism_party: "CPP"
  PCD_socialism_party_long: "§YCascadian People's Party§!"
 
-#CHARACTERS
+### Character Localization ###
 
 ###OPM###
 OPM_kat_mikaelsen: "Kat Mikaelsen"
