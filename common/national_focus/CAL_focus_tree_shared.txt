@@ -1780,7 +1780,7 @@ shared_focus = {
 		custom_effect_tooltip = tooltip_white_line
 		division_template = {
 			name = "California National Guard Motorized Infantry Division"
-			division_names_group = USA_INF_01
+			division_names_group = CAL_INF_01
 			regiments = {
 				motorised_infantry = { x = 0 y = 0 }
 				motorised_infantry = { x = 0 y = 1 }
@@ -1800,15 +1800,26 @@ shared_focus = {
 			support = {
 				artillery = { x = 0 y = 0 }
 				engineer = { x = 0 y = 1 }
+				field_hospital = { x = 0 y = 2 }
+				logistics_company = { x = 0 y = 3 }
+			}
+		}
+		division_template = {
+			name = "California National Guard Armored Division"
+			division_names_group = CAL_ARM_01
+			regiments = {
 				
 			}
 		}
 		1031 = {
 			create_unit = {
-				division = "name = \"40th 'Sunshine' Division\" division_template = \"California National Guard Motorized Infantry Division\ start_experience_factor = 0.75 start_equipment_factor = 1.0"
+				division = "name = \"40th 'Sunshine' Division\" division_template = \"California National Guard Motorized Infantry Division\" start_experience_factor = 0.75 start_equipment_factor = 1.0"
 			}
 			create_unit = {
-				division = "name = \"49th '49ers' Division\" division_template = \"California National Guard Motorized Infantry Division\ start_experience_factor = 0.75 start_equipment_factor = 1.0"
+				division = "name = \"49th '49ers' Division\" division_template = \"California National Guard Motorized Infantry Division\" start_experience_factor = 0.75 start_equipment_factor = 1.0"
+			}
+			create_unit = {
+				division = "name = \"40th 'Grizzlies' Division\" division_template = \"California National Guard Armored Division\" start_experience_factor = 0.75 start_equipment_factor = 1.0"
 			}
 		}
 	}
