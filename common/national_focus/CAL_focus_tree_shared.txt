@@ -3056,7 +3056,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_send_assistance_to_the_provisional_authority
+	id = CAL_assistance_to_the_prov_authority
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -3075,11 +3075,44 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_clear_the_japanese_remnants_out
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_tend_to_the_pacific_northwest
+	}
+	x = 1.3
+	y = 1
+	relative_position_id = CAL_tend_to_the_pacific_northwest
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_clear_the_japanese_remnants_out"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_eradicate_the_nevada_anarcho_primitivists
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrate_the_military_district
+	}
+	prerequisite = {
+		focus = CAL_an_ultimatum_to_the_free_republic
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_our_focus_on_nevada
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_eradicate_the_nevada_anarcho_primitivists"
+	}
 }
 
 shared_focus = {
