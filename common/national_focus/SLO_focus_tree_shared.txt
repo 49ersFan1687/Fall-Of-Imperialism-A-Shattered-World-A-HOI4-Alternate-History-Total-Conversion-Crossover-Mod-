@@ -333,7 +333,7 @@ shared_focus = {
 	icon = GFX_
 	cost = 4
 	prerequisite = {
-		focus = SLO_thus_our_secret_work_with_Partisans_continue
+		focus = SLO_Slow_reconciliation_with_SNR
 	}	
     x = 4
 	y = 8

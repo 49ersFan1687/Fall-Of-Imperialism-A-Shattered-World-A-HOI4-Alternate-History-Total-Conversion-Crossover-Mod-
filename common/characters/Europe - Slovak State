@@ -1,0 +1,19 @@
+characters = {
+    # Slovak State - Leaders #
+    SLO_Jozef_Tiso = {
+        name = GER_Jozef_Tiso
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+        }
+        country_leader = {
+            desc = "PLACEHOLDER_DESC"
+            expire = "1994.4.20"
+            ideology = fascism
+            traits = { 
+                
+            }
+        }
+    }
+}
