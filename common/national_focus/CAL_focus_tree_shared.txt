@@ -3094,7 +3094,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_eradicate_the_nevada_anarcho_primitivists
+	id = CAL_civilize_the_nevada_anarcho_primitivists
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -3116,11 +3116,177 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_integrate_the_opm_into_cascadia
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_assistance_to_the_prov_authority
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_assistance_to_the_prov_authority
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrate_the_oregon_military_district"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_suppress_the_commmunists
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_clear_the_japanese_remnants_out
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_clear_the_japanese_remnants_out
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_suppress_the_commmunists"
+	}
+}
+
+shared_focus = {
+	id = CAL_reclaim_our_bases_there
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_civilize_the_nevada_anarcho_primitivists
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_civilize_the_nevada_anarcho_primitivists
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_suppress_the_commmunists"
+	}
+}
+
+shared_focus = {
+	id = CAL_civilize_the_cascadian_anarcho_primitivists
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrate_the_opm_into_cascadia
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_integrate_the_opm_into_cascadia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_civilize_the_cascadian_anarcho_primitivists"
+	}
+}
+
+shared_focus = {
+	id = CAL_send_ultimatum_to_oregon_state_guard
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_suppress_the_commmunists
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_suppress_the_commmunists
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_send_ultimatum_to_oregon_state_guard"
+	}
+}
+
+shared_focus = {
+	id = CAL_expand_the_nevada_national_guard
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_reclaim_our_bases_there
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_reclaim_our_bases_there
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_nevada_national_guard"
+	}
+}
+
+shared_focus = {
+	id = CAL_send_ultimatums_to_the_provisional_governments
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_civilize_the_cascadian_anarcho_primitivists
+	}
+	prerequisite = {
+		focus = CAL_send_ultimatum_to_oregon_state_guard
+	}
+	x = 0
+	y = 4
+	relative_position_id = CAL_tend_to_the_pacific_northwest
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_the_silver_state"
+	}
+}
+
+shared_focus = {
+	id = CAL_rebuilding_the_silver_state
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expand_the_nevada_national_guard
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_expand_the_nevada_national_guard
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_the_silver_state"
+	}
+}
+
+shared_focus = {
+	id = CAL_rebuilding_cascadia
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_send_ultimatums_to_the_provisional_governments
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_send_ultimatums_to_the_provisional_governments
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_the_silver_state"
+	}
 }
 
 shared_focus = {
