@@ -3104,14 +3104,30 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_integrate_the_military_district
 	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_integrate_the_military_district
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_eradicate_the_nevada_anarcho_primitivists"
+	}
+}
+
+shared_focus = {
+	id = CAL_get_rid_of_the_mafia_problem
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
 	prerequisite = {
 		focus = CAL_an_ultimatum_to_the_free_republic
 	}
 	x = 0
-	y = 2
-	relative_position_id = CAL_our_focus_on_nevada
+	y = 1
+	relative_position_id = CAL_an_ultimatum_to_the_free_republic
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_eradicate_the_nevada_anarcho_primitivists"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_get_rid_of_the_mafia_problem"
 	}
 }
 
@@ -3164,9 +3180,12 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_civilize_the_nevada_anarcho_primitivists
 	}
+	prerequisite = {
+		focus = CAL_get_rid_of_the_mafia_problem
+	}
 	x = 0
-	y = 1
-	relative_position_id = CAL_civilize_the_nevada_anarcho_primitivists
+	y = 3
+	relative_position_id = CAL_our_focus_on_nevada
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_suppress_the_commmunists"
 	}
