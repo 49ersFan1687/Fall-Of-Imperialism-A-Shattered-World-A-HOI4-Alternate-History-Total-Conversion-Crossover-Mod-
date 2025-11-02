@@ -2987,7 +2987,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_eastward_and_northern_expansion
 	}
-	x = -2.5
+	x = -2.7
 	y = 1
 	relative_position_id = CAL_eastward_and_northern_expansion
 	completion_reward = {
@@ -3009,7 +3009,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_eastward_and_northern_expansion
 	}
-	x = 2.5
+	x = 2.7
 	y = 1
 	relative_position_id = CAL_eastward_and_northern_expansion
 	completion_reward = {
@@ -3170,7 +3170,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_reclaim_our_bases_there
+	id = CAL_reclaim_our_bases_in_nevada
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -3238,11 +3238,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_reclaim_our_bases_there
+		focus = CAL_reclaim_our_bases_in_nevada
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_reclaim_our_bases_there
+	relative_position_id = CAL_reclaim_our_bases_in_nevada
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_nevada_national_guard"
 	}
@@ -3306,6 +3306,58 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_the_silver_state"
 	}
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
 }
 
 shared_focus = {
