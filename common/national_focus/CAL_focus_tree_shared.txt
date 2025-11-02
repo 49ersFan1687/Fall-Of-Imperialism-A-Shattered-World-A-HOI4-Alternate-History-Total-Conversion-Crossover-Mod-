@@ -3390,33 +3390,19 @@ shared_focus = {
 	}
 }
 
+shared_focus = {
+	id = CAL_the_plan_for_cascadia
+}
+
+shared_focus = {
+	id = CAL_the_plan_for_nevada
+}
+
+shared_focus = {
+	id = CAL_the_plan_for_idaho
+}
+
 # Economic Reform # 
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-# Military Reform # 
 
 shared_focus = {
 	id = CAL_rebuilding_our_economy
@@ -3429,3 +3415,34 @@ shared_focus = {
 shared_focus = {
 	
 }
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+# Military Reform - Army # 
+
+shared_focus = {
+	id = CAL_rebuilding_our_economy
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+# Military Reform - Navy # 
+
+
+# Military Reform - Air Force # 
