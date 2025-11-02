@@ -1,0 +1,27 @@
+
+state = {
+	id = 580
+	name = "STATE_580" # Tobolsk
+	manpower = 54103
+	
+	state_category = pastoral
+
+	history = {
+		victory_points = {
+			1659 1
+		}
+		owner = WSS
+		buildings = {
+			infrastructure = 1
+
+		}
+		#add_core_of = YRA
+		add_core_of = WSS
+	}
+
+	provinces = {
+		1744 4746 4774 4846 7768 7796 7895 1771 1841
+	}
+
+	local_supplies = 3.0 
+}

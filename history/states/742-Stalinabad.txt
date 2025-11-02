@@ -1,0 +1,32 @@
+state = {
+	id = 742
+	name = "STATE_742"
+
+	resources = {
+		steel = 3.000
+	}
+
+	history = {
+
+		owner = TAJ
+		victory_points = {
+			1384 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = TAJ
+
+	}
+
+	provinces = {
+		1216 1384 1919 4542 10187 12250 12430 
+	}
+	
+	manpower = 115901
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 1106
+	name = "STATE_1106"
+	manpower = 7092
+	
+	state_category = pastoral
+
+	history = {
+
+		owner = WSS
+		#add_core_of = KMY
+		add_core_of = WSS
+
+		buildings = {
+			infrastructure = 1 #was: 6
+		}
+		
+		
+		
+			
+	}
+
+	provinces = {
+		12574 4817 10692 7685 1768 12639
+	}
+
+	local_supplies = 0.0 
+}

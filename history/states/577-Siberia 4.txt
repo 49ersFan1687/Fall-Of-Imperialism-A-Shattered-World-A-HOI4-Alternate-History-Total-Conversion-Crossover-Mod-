@@ -1,0 +1,26 @@
+
+state = { 
+	id = 577 # Surgut
+	manpower = 23401
+	name = "STATE_577"
+	resources = {
+		oil=13 # was: 14
+	}
+	
+	state_category = pastoral
+
+	history = {
+		owner = CSR
+		buildings = {
+			infrastructure = 1
+		}
+		#add_core_of = TOK
+		add_core_of = CSR
+	}
+
+	provinces = {
+		1726 1784 1856 4730 4771 7781 7837 7882 10533 10561 10663 12514 12542 12672 
+	}
+
+	local_supplies = 0.0 
+}

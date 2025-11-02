@@ -22,3 +22,8 @@ set_popularities = {
 	paternal_autocrat = 7
 	national_socialism = 1
 }
+set_autonomy = {
+	target = SYR
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
