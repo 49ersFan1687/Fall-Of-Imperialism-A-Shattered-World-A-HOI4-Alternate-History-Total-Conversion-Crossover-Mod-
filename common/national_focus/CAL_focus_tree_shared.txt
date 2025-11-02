@@ -2457,7 +2457,7 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_the_new_bastion_of_freedom
 	}
-	x = 8
+	x = 9
 	y = -1
 	relative_position_id = CAL_alone_and_isolated
 	completion_reward = {
@@ -2987,7 +2987,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_eastward_and_northern_expansion
 	}
-	x = -2.7
+	x = -3
 	y = 1
 	relative_position_id = CAL_eastward_and_northern_expansion
 	completion_reward = {
@@ -3009,7 +3009,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_eastward_and_northern_expansion
 	}
-	x = 2.7
+	x = 3
 	y = 1
 	relative_position_id = CAL_eastward_and_northern_expansion
 	completion_reward = {
@@ -3170,7 +3170,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_reclaim_our_bases_in_nevada
+	id = CAL_place_nevada_under_martial_law
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -3186,6 +3186,25 @@ shared_focus = {
 	x = 0
 	y = 3
 	relative_position_id = CAL_our_focus_on_nevada
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_place_nevada_under_martial_law"
+	}
+}
+
+shared_focus = {
+	id = CAL_reclaim_our_bases_in_nevada
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_place_nevada_under_martial_law
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_place_nevada_under_martial_law
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_suppress_the_commmunists"
 	}
@@ -3249,6 +3268,25 @@ shared_focus = {
 }
 
 shared_focus = {
+	id = CAL_integrating_the_cascadian_legion
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_send_ultimatums_to_the_provisional_governments
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_send_ultimatums_to_the_provisional_governments
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrating_the_cascadian_legion"
+	}
+}
+
+shared_focus = {
 	id = CAL_send_ultimatums_to_the_provisional_governments
 	icon = GFX
 	cost = 5
@@ -3298,26 +3336,71 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_send_ultimatums_to_the_provisional_governments
+		focus = CAL_integrating_the_cascadian_legion
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_send_ultimatums_to_the_provisional_governments
+	relative_position_id = CAL_integrating_the_cascadian_legion
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_the_silver_state"
 	}
 }
 
 shared_focus = {
-	
+	id = CAL_expand_tonopah_airfield
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuilding_the_silver_state
+	}
+	x = -2
+	y = 1
+	relative_position_id = CAL_rebuilding_the_silver_state
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_tonopah_airfield"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_reopen_basic_magnesium
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuilding_the_silver_state
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuilding_the_silver_state
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reopen_basic_magnesium"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_rebuild_las_vegas_army_airfield
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuilding_the_silver_state
+	}
+	x = 2
+	y = 1
+	relative_position_id = CAL_rebuilding_the_silver_state
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_las_vegas_army_airfield"
+	}
 }
 
 shared_focus = {
