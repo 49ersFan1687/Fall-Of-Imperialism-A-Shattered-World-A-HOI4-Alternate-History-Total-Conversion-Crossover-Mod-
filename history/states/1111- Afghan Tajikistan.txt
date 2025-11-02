@@ -1,0 +1,29 @@
+state = {
+	id = 1111
+	name = "STATE_1111"
+	manpower = 110716
+	
+	state_category = wasteland
+
+	history = {
+
+		owner = AFG
+		add_core_of = TAJ
+		add_core_of = AFG
+
+
+		buildings = {
+			infrastructure = 1 #was: 6
+		}
+		
+		
+		
+			
+	}
+
+	provinces = {
+		12218 7224 8027 10417 12805
+	}
+
+	local_supplies = 0.0 
+}

@@ -14,14 +14,14 @@ state={
 
 
 	history={
-		owner = OKS
+		owner = TXS
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 9
 			air_base = 3
 			
 		}
-		add_core_of = OKS
+		add_core_of = TXS
 
 	}
 

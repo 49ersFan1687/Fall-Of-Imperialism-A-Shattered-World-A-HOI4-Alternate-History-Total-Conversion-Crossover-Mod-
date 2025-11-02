@@ -21,6 +21,9 @@
  ENG: "British Union State"
  ENG_DEF: "British Union State"
  ENG_ADJ: "British"
+ IRE: "Ireland"
+ IRE_DEF: "Ireland"
+ IRE_ADJ: "Ireland"
 
  # Localisation for France #
 
@@ -49,8 +52,11 @@
 
  #Country Names#
  SWE: "Kingdom of Sweden"
+ SWE_social_democracy: "Kingdom of Sweden"
  SWE_DEF: "Kingdom of Sweden"
+ SWE_social_democracy_DEF: "Kingdom of Sweden"
  SWE_ADJ: "Swedish"
+ SWE_social_democracy_ADJ: "Swedish"
  DEN: "Dänemark"
  DEN_DEF: "Dänemark"
  DEN_ADJ: "Danish"
