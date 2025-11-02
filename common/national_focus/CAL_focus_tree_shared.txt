@@ -351,7 +351,7 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_restablish_radio_contact_with_canada
 	}
-	x = -8
+	x = -8.5
 	y = -1
 	relative_position_id = CAL_barely_no_industry
 	completion_reward = {
@@ -2457,7 +2457,7 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_the_new_bastion_of_freedom
 	}
-	x = 8
+	x = 8.5
 	y = -1
 	relative_position_id = CAL_alone_and_isolated
 	completion_reward = {
@@ -3404,7 +3404,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_rebuilding_plans_for_nevada_and_cascadia
 	}
-	x = -4
+	x = -5
 	y = 1
 	relative_position_id = CAL_rebuilding_plans_for_nevada_and_cascadia
 	completion_reward = {
@@ -3448,7 +3448,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_rebuilding_plans_for_nevada_and_cascadia
 	}
-	x = 4
+	x = 5
 	y = 1
 	relative_position_id = CAL_rebuilding_plans_for_nevada_and_cascadia
 	completion_reward = {
@@ -3457,35 +3457,300 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_expand_pudget_sound
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_plan_for_cascadia
+	}
+	x = -1.2
+	y = 1
+	relative_position_id = CAL_the_plan_for_cascadia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_pudget_sound_naval_shipyard"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_expand_pacific_car_and_foundary
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_plan_for_cascadia
+	}
+	x = 1.2
+	y = 1
+	relative_position_id = CAL_the_plan_for_cascadia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_secure_pacific_car_and_foundary"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_rebuild_tonopah_airfield
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_plan_for_nevada
+	}
+	x = -1.2
+	y = 1
+	relative_position_id = CAL_the_plan_for_nevada
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_tonopah_air_force_base"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_rebuild_las_vegas_airfield
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_plan_for_nevada
+	}
+	x = 1.2
+	y = 1
+	relative_position_id = CAL_the_plan_for_nevada
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_las_vegas_airfield"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_rebuild_pocatello_naval_ordnance_plant
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_plan_for_idaho
+	}
+	x = -1.2
+	y = 1
+	relative_position_id = CAL_the_plan_for_idaho
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_pocatello_naval_ordnance_plant"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_expand_stibnite_mining_district
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_plan_for_idaho
+	}
+	x = 1.2
+	y = 1
+	relative_position_id = CAL_the_plan_for_idaho
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_stibnite_mining_district"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_rebuild_grand_coulee_dam
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expand_pudget_sound
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_expand_pudget_sound
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_grand_coulee_dam"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_rebuild_the_renton_boeing_plant
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expand_pacific_car_and_foundary
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_expand_pacific_car_and_foundary
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_the_renton_boeing_plant"
+	}
+}
+
+shared_focus = {
+	id = CAL_subsidize_basic_magnesium_inc
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_tonopah_airfield
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuild_tonopah_airfield
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_subsidize_basic_magnesium_inc"
+	}
+}
+
+shared_focus = {
+	id = CAL_rebuild_hawthorne_army_depot
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_las_vegas_airfield
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuild_las_vegas_airfield
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_hawthorne_army_depot"
+	}
+}
+
+shared_focus = {
+	id = CAL_rebuild_farragut_training_station
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_pocatello_naval_ordnance_plant
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuild_pocatello_naval_ordnance_plant
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_farragut_training_station"
+	}
+}
+
+shared_focus = {
+	id = CAL_rebuild_mountain_home_afb
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expand_stibnite_mining_district
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_expand_stibnite_mining_district
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_mountain_home_afb"
+	}
+}
+
+shared_focus = {
+	id = CAL_expand_oregon_shipbuilding_co_yards
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_grand_coulee_dam
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuild_grand_coulee_dam
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_kaiser_shipyards"
+	}
+}
+
+shared_focus = {
+	id = CAL_expand_seattle_tacoma_shipyard
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_the_renton_boeing_plant
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuild_the_renton_boeing_plant
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_seattle_tacoma_shipyard"
+	}
+}
+
+shared_focus = {
+	id = CAL
+}
+
+shared_focus = {
+	id = CAL
+}
+
+shared_focus = {
+	id = CAL
+}
+
+shared_focus = {
+	id = CAL_subsidiaries_for_potato_farmers
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_mountain_home_afb
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuild_mountain_home_afb
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_mountain_home_afb"
+	}
 }
 
 shared_focus = {
@@ -3565,7 +3830,7 @@ shared_focus = {
 # Military Reform - Army # 
 
 shared_focus = {
-	id = CAL_rebuilding_our_economy
+	id = CAL_begin_army_reform
 }
 
 shared_focus = {
