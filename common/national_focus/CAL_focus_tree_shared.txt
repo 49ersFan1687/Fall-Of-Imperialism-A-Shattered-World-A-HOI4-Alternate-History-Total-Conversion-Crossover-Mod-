@@ -2457,7 +2457,7 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_the_new_bastion_of_freedom
 	}
-	x = 9
+	x = 8
 	y = -1
 	relative_position_id = CAL_alone_and_isolated
 	completion_reward = {
@@ -2973,6 +2973,8 @@ shared_focus = {
 	}	
 }
 
+# Eastward and Northward Expansion #
+
 shared_focus = {
 	id = CAL_our_focus_on_nevada
 	icon = GFX
@@ -2987,7 +2989,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_eastward_and_northern_expansion
 	}
-	x = -3.5
+	x = -2.5
 	y = 1
 	relative_position_id = CAL_eastward_and_northern_expansion
 	completion_reward = {
@@ -3009,7 +3011,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_eastward_and_northern_expansion
 	}
-	x = 3.5
+	x = 2.5
 	y = 1
 	relative_position_id = CAL_eastward_and_northern_expansion
 	completion_reward = {
@@ -3018,51 +3020,374 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_integrate_the_nevada_military_district
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_our_focus_on_nevada
+	}
+	x = -1.2
+	y = 1
+	relative_position_id = CAL_our_focus_on_nevada
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reintegrate_the_nevada_military_district"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_civilize_the_anarcho_primitivists
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_our_focus_on_nevada
+	}
+	x = 1.2
+	y = 1
+	relative_position_id = CAL_our_focus_on_nevada
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_civilize_the_nevada_anarcho_primitivists"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_reunite_with_cascadia
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_tend_to_the_pacific_northwest
+	}
+	x = -1.2
+	y = 1
+	relative_position_id = CAL_tend_to_the_pacific_northwest
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reunite_with_cascadia"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_crush_the_japanese_remnants
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_tend_to_the_pacific_northwest
+	}
+	x = 1.2
+	y = 1
+	relative_position_id = CAL_tend_to_the_pacific_northwest
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_crush_the_japanese_remnants"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_expand_nevada_national_guard
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrate_the_nevada_military_district
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_integrate_the_nevada_military_district
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_expansion_of_the_nevada_national_guard"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_ultimatum_to_the_free_republic
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_civilize_the_anarcho_primitivists
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_civilize_the_anarcho_primitivists
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_send_an_ultimatun_to_the_free_republic"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_integrate_the_oregon_district
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_reunite_with_cascadia
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_reunite_with_cascadia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_send_an_ultimatun_to_the_free_republic"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_crush_cascadian_communism
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_crush_the_japanese_remnants
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_crush_the_japanese_remnants
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_crush_cascadian_communism"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_mentor_the_young_nevadan_officers
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expand_nevada_national_guard
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_expand_nevada_national_guard
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_mentor_the_young_nevadan_officers"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_occupy_las_vegas
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_ultimatum_to_the_free_republic
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_ultimatum_to_the_free_republic
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_occupy_las_vegas"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_ultimatum_to_washington_state
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrate_the_oregon_district
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_integrate_the_oregon_district
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_ultimatum_to_washington_state"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_ultimatum_to_idaho_state
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_crush_cascadian_communism
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_crush_cascadian_communism
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_crush_cascadian_communism"
+	}	
+}
+
+shared_focus = {
+	id = CAL_welcome_them_into_the_sca
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_mentor_the_young_nevadan_officers
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_mentor_the_young_nevadan_officers
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_welcome_them_into_the_sca"
+	}
+}
+
+shared_focus = {
+	id = CAL_occupy_carson_city
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_occupy_las_vegas
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_occupy_las_vegas
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_occupy_carson_city"
+	}
+}
+
+shared_focus = {
+	id = CAL_integrate_the_oregon_state_guard
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_ultimatum_to_washington_state
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_ultimatum_to_washington_state
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrate_the_oregon_state_guard"
+	}
+}
+
+shared_focus = {
+	id = CAL_civilize_the_cascadian_anarcho_primitivists
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_ultimatum_to_idaho_state
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_ultimatum_to_idaho_state
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_civilize_the_cascadian_anarcho_primitivists"
+	}
+}
+
+shared_focus = {
+	id = CAL_all_for_our_country
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_welcome_them_into_the_sca
+	}
+	prerequisite = {
+		focus = CAL_occupy_carson_city
+	}
+	x = 0
+	y = 5
+	relative_position_id = CAL_our_focus_on_nevada
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_all_for_our_country"
+	}
+}
+
+shared_focus = {
+	id = CAL_bring_cascadia_back_into_the_union
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrate_the_oregon_state_guard
+	}
+	prerequisite = {
+		focus = CAL_civilize_the_cascadian_anarcho_primitivists
+	}
+	x = 0
+	y = 5
+	relative_position_id = CAL_tend_to_the_pacific_northwest
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_bring_cascadia_back_into_the_union"
+	}	
+}
+
+shared_focus = {
+	id = CAL_rebuilding_plans_for_nevada_and_the_pacfic_northwest
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_all_for_our_country
+	}
+	prerequisite = {
+		focus = CAL_bring_cascadia_back_into_the_union
+	}
+	x = 0
+	y = 7
+	relative_position_id = CAL_eastward_and_northern_expansion
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_plans_for_nevada_and_the_pacfic_northwest"
+		mark_focus_tree_layout_dirty = yes
+	}
 }
 
 # Economic Reform # 
