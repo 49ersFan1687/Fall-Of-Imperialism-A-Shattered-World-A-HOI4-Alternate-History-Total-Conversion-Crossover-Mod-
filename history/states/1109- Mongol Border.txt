@@ -1,0 +1,28 @@
+state = {
+	id = 1109
+	name = "STATE_1109"
+	manpower = 225761
+	
+	state_category = rural
+
+	history = {
+
+		owner = FES
+		#add_core_of = CHT
+		add_core_of = FES
+
+		buildings = {
+			infrastructure = 2 #was: 6
+		}
+		
+		
+		
+			
+	}
+
+	provinces = {
+		4719 4677 7725 12622 10559
+	}
+
+	local_supplies = 0.0 
+}

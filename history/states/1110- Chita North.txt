@@ -1,0 +1,29 @@
+state = {
+	id = 1110
+	name = "STATE_1110"
+	manpower = 61301
+	
+	state_category = pastoral
+
+	history = {
+
+		owner = FES
+		#add_core_of = CHT
+		add_core_of = FES
+
+
+		buildings = {
+			infrastructure = 1 #was: 6
+		}
+		
+		
+		
+			
+	}
+
+	provinces = {
+		4752 10667 12694 10608 1748 7844 10714 4821 4855 7889 12565
+	}
+
+	local_supplies = 0.0 
+}

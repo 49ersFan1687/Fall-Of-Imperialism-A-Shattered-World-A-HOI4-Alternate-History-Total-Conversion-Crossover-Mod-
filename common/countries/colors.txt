@@ -182,7 +182,7 @@ IRQ = {
 	color_ui = rgb { 231 148 129 }
 }
 JAP = {
-	color = hsv { 0.05 0.3 1 }
+	color = rgb { 135 72 131 }
 	color_ui = hsv { 0.05 0.25 1.2 }
 }
 LIB = {
@@ -258,8 +258,8 @@ USA = {
 	color_ui = rgb { 87 160 255 }
 }
 MON = {
-	#color = HSV { 0.1 0.15 0.4 }
-	color = rgb { 108 140 42 }
+	
+	color = rgb { 140 42 73 }
 	color_ui = rgb { 209 247 133 }
 }
 MEN = {
@@ -267,7 +267,7 @@ MEN = {
 	color_ui = rgb { 165  230  132 }
 }
 TAN = {
-	color = rgb { 152 130 191 }
+	color = rgb { 150 42 62 }
 	color_ui = rgb { 198 169 248 }
 }
 PAR = {
@@ -423,7 +423,7 @@ BLR = {
 	color_ui = rgb { 180 220 190 }
 }
 MAN = {
-	color = rgb { 255 120 71 }
+	color = rgb { 163 82 158 }
 	color_ui = rgb { 255 120 71 }
 }
 ANG = {
@@ -744,7 +744,7 @@ CKK = {
 	color_ui = rgb { 128 128 0 }
 }
 YAK = {
-	color = rgb { 0 255 255 }
+	color = rgb { 2 173 173 }
 	color_ui = rgb { 0 179 179 }
 }
 VLA = {
@@ -1449,6 +1449,82 @@ PRM = {
 }
 KAZ = {
 	color = rgb { 110 140 143 }
+	color_ui = rgb { 222 247 198 }
+}
+RAM = {
+	color = rgb { 110 2 20 }
+	color_ui = rgb { 222 247 198 }
+}
+ZLA = {
+	color = rgb { 48 111 156 }
+	color_ui = rgb { 222 247 198 }
+}
+VRK = {
+	color = rgb { 67 143 118 }
+	color_ui = rgb { 222 247 198 }
+}
+NPM = {
+	color = rgb { 116 120 125 }
+	color_ui = rgb { 222 247 198 }
+}
+YRA = {
+	color = rgb { 158 156 131 }
+	color_ui = rgb { 222 247 198 }
+}
+KMY = {
+	color = rgb { 140 91 63 }
+	color_ui = rgb { 222 247 198 }
+}
+TOK = {
+	color = rgb { 78 133 118 }
+	color_ui = rgb { 222 247 198 }
+}
+KMR = {
+	color = rgb { 115 58 28 }
+	color_ui = rgb { 222 247 198 }
+}
+BMO = {
+	color = rgb { 56 55 55 }
+	color_ui = rgb { 222 247 198 }
+}
+NOV = {
+	color = rgb { 86 112 112 }
+	color_ui = rgb { 222 247 198 }
+}
+DUD = {
+	color = rgb { 143 126 74 }
+	color_ui = rgb { 222 247 198 }
+}
+WSS = {
+	color = rgb { 148 27 49 }
+	color_ui = rgb { 222 247 198 }
+}
+CSR = {
+	color = rgb { 25 85 128 }
+	color_ui = rgb { 222 247 198 }
+}
+ERA = {
+	color = rgb { 110 5 38 }
+	color_ui = rgb { 222 247 198 }
+}
+CHT = {
+	color = rgb { 77 78 79 }
+	color_ui = rgb { 222 247 198 }
+}
+KRN = {
+	color = rgb { 171 110 70 }
+	color_ui = rgb { 222 247 198 }
+}
+VYK = {
+	color = rgb { 69 125 46 }
+	color_ui = rgb { 222 247 198 }
+}
+KCH = {
+	color = rgb { 176 184 183 }
+	color_ui = rgb { 222 247 198 }
+}
+FES = {
+	color = rgb { 110 49 62 }
 	color_ui = rgb { 222 247 198 }
 }
 
