@@ -45,6 +45,11 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
     }
+
+	CAL_
+
+	CAL_
+
     # Field Marshals #
 	CAL_Dwight_David_Eisenhower = {
 		name = CAL_Dwight_David_Eisenhower
@@ -269,7 +274,7 @@ characters = {
 		desc = 
 		portraits = {
 			army = {
-				large = 
+				large = "gfx/leaders/CAL/Portrait_CAL_Jacob_Loucks_Devers.dds"
 			}
 		}
 		corps_commander = {
@@ -286,7 +291,7 @@ characters = {
 		desc = 
 		portraits = {
 			army = {
-				large = 
+				large = "gfx/leaders/CAL/Portrait_CAL_Lucian_King_Truscott.dds"
 			}
 		}
 		corps_commander = {
@@ -354,7 +359,7 @@ characters = {
 		desc = 
 		portraits = {
 			army = {
-				large = 
+				large = "gfx/leaders/CAL/Portrait_CAL_Claire_Lee_Chennault.dds"
 			}
 		}
 		corps_commander = {
