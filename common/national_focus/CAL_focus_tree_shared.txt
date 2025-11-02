@@ -2987,7 +2987,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_eastward_and_northern_expansion
 	}
-	x = -3
+	x = -3.5
 	y = 1
 	relative_position_id = CAL_eastward_and_northern_expansion
 	completion_reward = {
@@ -3009,7 +3009,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_eastward_and_northern_expansion
 	}
-	x = 3
+	x = 3.5
 	y = 1
 	relative_position_id = CAL_eastward_and_northern_expansion
 	completion_reward = {
@@ -3276,18 +3276,21 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_send_ultimatums_to_the_provisional_governments
+		focus = CAL_send_ultimatums_to_the_washington_provisional_government
+	}
+	prerequisite = {
+		focus = CAL_send_ultimatum_to_the_idaho_provisional_government
 	}
 	x = 0
-	y = 1
-	relative_position_id = CAL_send_ultimatums_to_the_provisional_governments
+	y = 5
+	relative_position_id = CAL_tend_to_the_pacific_northwest
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrating_the_cascadian_legion"
 	}
 }
 
 shared_focus = {
-	id = CAL_send_ultimatums_to_the_provisional_governments
+	id = CAL_send_ultimatum_to_the_idaho_provisional_government
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -3297,14 +3300,30 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_civilize_the_cascadian_anarcho_primitivists
 	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_civilize_the_cascadian_anarcho_primitivists
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_send_ultimatum_to_the_idaho_provisional_government"
+	}
+}
+
+shared_focus = {
+	id = CAL_send_ultimatums_to_the_washington_provisional_government
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
 	prerequisite = {
 		focus = CAL_send_ultimatum_to_oregon_state_guard
 	}
 	x = 0
-	y = 4
-	relative_position_id = CAL_tend_to_the_pacific_northwest
+	y = 1
+	relative_position_id = CAL_send_ultimatum_to_oregon_state_guard
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_the_silver_state"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_send_ultimatums_to_the_washington_provisional_government"
 	}
 }
 
@@ -3385,7 +3404,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_rebuild_las_vegas_army_airfield
+	id = CAL_rebuild_lv_army_airfield
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -3399,21 +3418,67 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_rebuilding_the_silver_state
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_las_vegas_army_airfield"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_lv_army_airfield"
 	}
 }
 
 shared_focus = {
-	
+	id = CAL_expand_pacific_car_and_foundary
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuilding_cascadia
+	}
+	x = -2
+	y = 1
+	relative_position_id = CAL_rebuilding_cascadia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_pacific_car_and_foundary"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_expand_pudget_sound
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuilding_cascadia
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuilding_cascadia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_pudget_sound"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_expand_the_boeing_facility
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuilding_cascadia
+	}
+	x = 2
+	y = 1
+	relative_position_id = CAL_rebuilding_cascadia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_lv_army_airfield"
+	}
 }
+
 
 shared_focus = {
 	
