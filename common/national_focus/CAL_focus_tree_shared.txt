@@ -3368,7 +3368,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_rebuilding_plans_for_nevada_and_the_pacfic_northwest
+	id = CAL_rebuilding_plans_for_nevada_and_cascadia
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -3392,14 +3392,68 @@ shared_focus = {
 
 shared_focus = {
 	id = CAL_the_plan_for_cascadia
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	allow_branch = {
+		has_completed_focus = CAL_rebuilding_plans_for_nevada_and_cascadia
+	}
+	prerequisite = {
+		focus = CAL_rebuilding_plans_for_nevada_and_cascadia
+	}
+	x = -4
+	y = 1
+	relative_position_id = CAL_rebuilding_plans_for_nevada_and_cascadia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_plan_for_cascadia"
+	}
 }
 
 shared_focus = {
 	id = CAL_the_plan_for_nevada
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	allow_branch = {
+		has_completed_focus = CAL_rebuilding_plans_for_nevada_and_cascadia
+	}
+	prerequisite = {
+		focus = CAL_rebuilding_plans_for_nevada_and_cascadia
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuilding_plans_for_nevada_and_cascadia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_plan_for_nevada"
+	}
 }
 
 shared_focus = {
 	id = CAL_the_plan_for_idaho
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	allow_branch = {
+		has_completed_focus = CAL_rebuilding_plans_for_nevada_and_cascadia
+	}
+	prerequisite = {
+		focus = CAL_rebuilding_plans_for_nevada_and_cascadia
+	}
+	x = 4
+	y = 1
+	relative_position_id = CAL_rebuilding_plans_for_nevada_and_cascadia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_plan_for_idaho"
+	}
 }
 
 # Economic Reform # 
