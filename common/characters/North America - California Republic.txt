@@ -4,7 +4,7 @@ characters = {
         name = CAL_henry_agard_wallace
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CAL/Portrait_CAL_Henry_Agard_Wallace.dds"
 			}
 		}
 		country_leader = {
@@ -21,7 +21,7 @@ characters = {
         name = CAL_huey_pierce_long_jr
         portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CAL/Portrait_CAL_Huey_Pierce_Long_jr.dds"
 			}
 		}
 		country_leader = {
