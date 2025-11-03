@@ -3947,10 +3947,70 @@ shared_focus = {
 	}
 }
 
-# Military Reform - Army # 
+# Economic Reform # 
+
+shared_focus = {
+	id = CAL_rebuilding_and_revitalizing_the_american_economy
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		has_completed_focus = CAL_form_the_western_american_government
+	}
+	allow_branch = {
+		has_completed_focus = CAL_form_the_western_american_government
+	}
+	x = 18
+	y = 0
+	relative_position_id = CAL_looking_outwards_from_the_golden_state
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_and_revitalizing_our_economy"
+	}
+}
+
+shared_focus = {
+	id = CAL_reimplement_the_new_deal
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuilding_and_revitalizing_the_american_economy
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuilding_and_revitalizing_the_american_economy
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reimplement_the_new_deal"
+	}
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+# Military Reform - Second Continental Army # 
 
 shared_focus = {
 	id = CAL_reforming_the_second_continental_army
+	
 }
 
 shared_focus = {
@@ -3974,10 +4034,6 @@ shared_focus = {
 }
 
 # Economic Reform # 
-
-shared_focus = {
-	id = CAL_rebuilding_our_economy
-}
 
 shared_focus = {
 	
