@@ -3963,7 +3963,7 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	x = 18
+	x = 26
 	y = 0
 	relative_position_id = CAL_looking_outwards_from_the_golden_state
 	completion_reward = {
@@ -3991,11 +3991,41 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_what_shall_our_economic_system_be
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_reimplement_the_new_deal
+	}
+	x = -12
+	y = 1
+	relative_position_id = CAL_reimplement_the_new_deal
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_what_shall_our_economic_system_be"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_rebuilding_the_arsenal_of_democracy
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_reimplement_the_new_deal
+	}
+	x = 12
+	y = 1
+	relative_position_id = CAL_reimplement_the_new_deal
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_the_arsenal_of_democracy"
+	}
 }
 
 shared_focus = {
