@@ -3922,7 +3922,35 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_form_the_western_american_government
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_cascadian_infastructure
+	}
+	prerequisite = {
+		focus = CAL_rebuild_nevadan_infastructure
+	}
+	prerequisite = {
+		focus = CAL_rebuild_idaho_infastructure
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuild_nevadan_infastructure
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_form_the_western_american_government"
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+
+# Military Reform - Army # 
+
+shared_focus = {
+	id = CAL_reforming_the_second_continental_army
 }
 
 shared_focus = {
@@ -3969,12 +3997,6 @@ shared_focus = {
 
 shared_focus = {
 	
-}
-
-# Military Reform - Army # 
-
-shared_focus = {
-	id = CAL_begin_army_reform
 }
 
 shared_focus = {
