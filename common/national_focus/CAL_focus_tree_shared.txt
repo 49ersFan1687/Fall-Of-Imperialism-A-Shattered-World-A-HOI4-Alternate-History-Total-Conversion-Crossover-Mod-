@@ -3723,15 +3723,60 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL
+	id = CAL_expand_the_hoover_dam
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_subsidize_basic_magnesium_inc
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_subsidize_basic_magnesium_inc
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_hoover_dam"
+	}
 }
 
 shared_focus = {
-	id = CAL
+	id = CAL_invest_in_mining_operations
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_hawthorne_army_depot
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuild_hawthorne_army_depot
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_invest_in_mining_operations"
+	}
 }
 
 shared_focus = {
-	id = CAL
+	id = CAL_rebuild_gowen_airfield
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_farragut_training_station
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuild_farragut_training_station
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_gowen_airfield"
+	}
 }
 
 shared_focus = {
