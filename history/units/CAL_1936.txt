@@ -43,21 +43,36 @@ division_template = {
 units = {
     division= {
         name = 
+        location = 
+        division_template = 
+        start_equipment_factor = 
     }
 
     division= {
-        name =
+        name = 
+        location = 
+        division_template = 
+        start_equipment_factor =
     }
 
     division= {
-        name =
+        name = 
+        location = 
+        division_template = 
+        start_equipment_factor =
     }
 
     division= {
-        name =
+        name = 
+        location = 
+        division_template = 
+        start_equipment_factor =
     }
 
     division= {
-        name =
+        name = 
+        location = 
+        division_template = 
+        start_equipment_factor =
     }
 }
