@@ -11,6 +11,7 @@ ideologies = {
 			stalinism_ideology = { }
 			trotskyism_ideology = { }
 			bukharinism_ideology = { }
+			red_junta_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 117 20 13 }
@@ -28,6 +29,7 @@ ideologies = {
 			anarcho_mutualism_ideology = { }
 			socialist_narodnikism_ideology = { }
 			democratic_socialism_ideology = { }
+			red_junta_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 209 0 0 }
