@@ -1,5 +1,5 @@
 division_template = {
-    name = "United States Army Infantry Division"
+    name = "Second Continental Army Infantry Division"
 
     division_names_group = CAL_INF_01
 
@@ -25,11 +25,54 @@ division_template = {
         field_hospital = { x = 0 y = 2 }
         logistics_company = { x = 0 y = 3 }
     }
+}
 
+division_template = {
+    name = "Second Continental Army Armored Division"
+
+    division_names_group = CAL_ARM_01
+
+    regiments = {
+        
+    }
+    support = {
+
+    }
 }
 
 units = {
     division= {
+        name = 
+        location = 
+        division_template = 
+        start_equipment_factor = 
+    }
 
+    division= {
+        name = 
+        location = 
+        division_template = 
+        start_equipment_factor =
+    }
+
+    division= {
+        name = 
+        location = 
+        division_template = 
+        start_equipment_factor =
+    }
+
+    division= {
+        name = 
+        location = 
+        division_template = 
+        start_equipment_factor =
+    }
+
+    division= {
+        name = 
+        location = 
+        division_template = 
+        start_equipment_factor =
     }
 }
