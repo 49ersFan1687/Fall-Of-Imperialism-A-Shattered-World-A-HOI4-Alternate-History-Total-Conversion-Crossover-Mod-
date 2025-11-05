@@ -104,6 +104,7 @@ KRN = "countries/Kirensk.txt"
 VYK = "countries/Verkhoyansk.txt"
 KCH = "countries/Kamchatka.txt"
 FES = "countries/FarEast.txt"
-
+#ASIA
+KMT = "countries/NationalistChina.txt"
 
 
