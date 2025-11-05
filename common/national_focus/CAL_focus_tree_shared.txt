@@ -2396,7 +2396,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_the_new_arsenal_of_democracy
+	id = CAL_the_bear_back_in_action
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -2430,7 +2430,7 @@ shared_focus = {
 		focus = CAL_rebuild_state_monuments
 	}
 	prerequisite = {
-		focus = CAL_the_new_arsenal_of_democracy
+		focus = CAL_the_bear_back_in_action
 	}
 	x = 0
 	y = 7
@@ -3950,189 +3950,75 @@ shared_focus = {
 # Economic Reform # 
 
 shared_focus = {
-	id = CAL_rebuilding_and_revitalizing_the_american_economy
-	icon = GFX
-	cost = 5
-	available_if_capitualted = no
-	ai_will_do = {
-		factor = 1
-	}
-	available = {
-		has_completed_focus = CAL_form_the_western_american_government
-	}
-	allow_branch = {
-		has_completed_focus = CAL_form_the_western_american_government
-	}
-	x = 26
-	y = 0
-	relative_position_id = CAL_looking_outwards_from_the_golden_state
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_and_revitalizing_our_economy"
-	}
+	
 }
 
 shared_focus = {
-	id = CAL_begin_dealing_with_the_depression
-	icon = GFX
-	cost = 5
-	available_if_capitualted = no
-	ai_will_do = {
-		factor = 1
-	}
-	prerequisite = {
-		focus = CAL_rebuilding_and_revitalizing_the_american_economy
-	}
-	x = 0
-	y = 1
-	relative_position_id = CAL_rebuilding_and_revitalizing_the_american_economy
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_dealing_with_the_depression"
-	}
+	
 }
 
 shared_focus = {
-	id = CAL_reimplement_the_new_deal
-	icon = GFX
-	cost = 5
-	available_if_capitualted = no
-	ai_will_do = {
-		factor = 1
-	}
-	prerequisite = {
-		focus = CAL_begin_dealing_with_the_depression
-	}
-	x = 0
-	y = 1
-	relative_position_id = CAL_begin_dealing_with_the_depression
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_reimplement_the_new_deal"
-	}
+	
 }
 
 shared_focus = {
-	id = CAL_what_shall_our_economic_system_be
-	icon = GFX
-	cost = 5
-	available_if_capitualted = no
-	ai_will_do = {
-		factor = 1
-	}
-	prerequisite = {
-		focus = CAL_reimplement_the_new_deal
-	}
-	x = -12
-	y = 1
-	relative_position_id = CAL_reimplement_the_new_deal
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_what_shall_our_economic_system_be"
-	}
+	
 }
 
 shared_focus = {
-	id = CAL_prospecting_for_resources
-	icon = GFX
-	cost = 5
-	available_if_capitualted = no
-	ai_will_do = {
-		factor = 1
-	}
-	prerequisite = {
-		focus = CAL_reimplement_the_new_deal
-	}
-	x = 0
-	y = 1
-	relative_position_id = CAL_reimplement_the_new_deal
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_prospecting_for_resources"
-	}
+	
 }
 
 shared_focus = {
-	id = CAL_begin_rebuilding_the_arsenal_of_democracy
-	icon = GFX
-	cost = 5
-	available_if_capitualted = no
-	ai_will_do = {
-		factor = 1
-	}
-	prerequisite = {
-		focus = CAL_reimplement_the_new_deal
-	}
-	x = 12
-	y = 1
-	relative_position_id = CAL_reimplement_the_new_deal
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_the_arsenal_of_democracy"
-	}
+	
 }
 
 shared_focus = {
-	id = CAL_a_planned_economy
-	icon = GFX
-	cost = 5
-	available_if_capitualted = no
-	ai_will_do = {
-		factor = 1
-	}
-	prerequisite = {
-		focus = CAL_what_shall_our_economic_system_be
-	}
-	mutually_exclusive = {
-		focus = CAL_a_mixed_economy
-		focus = CAL_a_market_economy
-	}
-	x = -4.5
-	y = 1
-	relative_position_id = CAL_what_shall_our_economic_system_be
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_mixed_economy"
-	}
+	
 }
 
 shared_focus = {
-	id = CAL_a_mixed_economy
-	icon = GFX
-	cost = 5
-	available_if_capitualted = no
-	ai_will_do = {
-		factor = 1
-	}
-	prerequisite = {
-		focus = CAL_what_shall_our_economic_system_be
-	}
-	mutually_exclusive = {
-		focus = CAL_a_planned_economy
-		focus = CAL_a_market_economy
-	}
-	x = 0
-	y = 1
-	relative_position_id = CAL_what_shall_our_economic_system_be
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_mixed_economy"
-	}
+	
 }
 
 shared_focus = {
-	id = CAL_a_market_economy
-	icon = GFX
-	cost = 5
-	available_if_capitualted = no
-	ai_will_do = {
-		factor = 1
-	}
-	prerequisite = {
-		focus = CAL_what_shall_our_economic_system_be
-	}
-	mutually_exclusive = {
-		focus = CAL_a_planned_economy
-		focus = CAL_a_mixed_economy
-	}
-	x = 4.5
-	y = 1
-	relative_position_id = CAL_what_shall_our_economic_system_be
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_market_economy"
-	}
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
 }
 
 shared_focus = {
@@ -4272,33 +4158,6 @@ shared_focus = {
 }
 
 # Military Reform - Second Continental Army # 
-
-shared_focus = {
-	id = CAL_reforming_the_second_continental_army
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-# Economic Reform # 
 
 shared_focus = {
 	
