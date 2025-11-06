@@ -4693,31 +4693,130 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_building_domestic_civ_factories
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_importing_mexican_heavy_machinery
+	}
+	x = -1.3
+	y = 1
+	relative_position_id = CAL_importing_mexican_heavy_machinery
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_importing_mexican_heavy_machinery"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_building_domestic_mil_factories
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_importing_mexican_heavy_machinery
+	}
+	prerequisite = {
+		focus = CAL_expand_heavy_industrial_complexes
+	}
+	x = 1.3
+	y = 1
+	relative_position_id = CAL_importing_mexican_heavy_machinery
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_importing_mexican_heavy_machinery"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_prospecting_for_iron
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_investing_in_the_lumber_industry
+	}
+	prerequisite = {
+		focus = CAL_expand_heavy_industrial_complexes
+	}
+	x = 1.3
+	y = 1
+	relative_position_id = CAL_expand_heavy_industrial_complexes
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_prospecting_for_iron"
+	}		
 }
 
 shared_focus = {
-	
+	id = CAL_expand_kaiser_steel_corporation
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_investing_in_the_lumber_industry
+	}
+	x = 1.3
+	y = 1
+	relative_position_id = CAL_investing_in_the_lumber_industry
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_kaiser_steel_corporation"
+	}		
 }
 
 shared_focus = {
-	
+	id = CAL_expand_kaiser_steel_corporation
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_investing_in_the_lumber_industry
+	}
+	x = 1.3
+	y = 1
+	relative_position_id = CAL_investing_in_the_lumber_industry
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_kaiser_steel_corporation"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_shipbuilding_in_seattle
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_building_more_hydroelectric_dams
+	}
+	prerequisite = {
+		focus = CAL_foreign_and_domestic_investments_in_our_economy
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_building_more_hydroelectric_dams
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_kaiser_steel_corporation"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL
 }
 
 shared_focus = {
