@@ -2458,7 +2458,7 @@ shared_focus = {
 		has_completed_focus = CAL_the_new_bastion_of_freedom
 	}
 	x = 9
-	y = -1
+	y = 0
 	relative_position_id = CAL_alone_and_isolated
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_looking_outwards_from_the_golden_state"
@@ -3950,71 +3950,343 @@ shared_focus = {
 # Economic Reform # 
 
 shared_focus = {
-	
+	id = CAL_address_the_economy_of_the_western_american_government
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		has_completed_focus = CAL_form_the_western_american_government
+	}
+	allow_branch = {
+		has_completed_focus = CAL_form_the_western_american_government
+	}
+	x = 19
+	y = -1
+	relative_position_id = CAL_looking_outwards_from_the_golden_state
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_economy_of_the_western_american_government"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_listen_to_marshalls_report
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_address_the_economy_of_the_western_american_government
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_address_the_economy_of_the_western_american_government
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_listen_to_marshalls_report"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_restarting_the_new_deal
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_listen_to_marshalls_report
+	}
+	mutually_exclusive = {
+		focus = CAL_implementing_longs_share_our_wealth_program
+	}
+	x = -1.5
+	y = 1
+	relative_position_id = CAL_listen_to_marshalls_report
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_listen_to_marshalls_report"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_implementing_longs_share_our_wealth_program
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_listen_to_marshalls_report
+	}
+	mutually_exclusive = {
+		focus = CAL_restarting_the_new_deal
+	}
+	x = 1.5
+	y = 1
+	relative_position_id = CAL_listen_to_marshalls_report
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_listen_to_marshalls_report"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_open_up_free_trade_with_our_allies
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_restarting_the_new_deal
+	}
+	x = -3.5
+	y = 1
+	relative_position_id = CAL_restarting_the_new_deal
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_open_up_free_trade_with_our_allies"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_study_quentin_roosevelts_ideas
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_restarting_the_new_deal
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_restarting_the_new_deal
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_study_quentin_roosevelts_ideas"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_setting_the_economic_plans_in_motion
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_restarting_the_new_deal
+		focus = CAL_implementing_longs_share_our_wealth_program
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_listen_to_marshalls_report
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_setting_the_plans_in_motion"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_every_man_a_king
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_implementing_longs_share_our_wealth_program
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_implementing_longs_share_our_wealth_program
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_every_man_a_king"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_levy_heavy_importer_trade_protections
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_implementing_longs_share_our_wealth_program
+	}
+	x = 3.5
+	y = 1
+	relative_position_id = CAL_implementing_longs_share_our_wealth_program
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_levy_heavy_importer_trade_protections"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_improve_the_national_power_grid
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_setting_the_economic_plans_in_motion
+	}
+	x = -1.2
+	y = 1
+	relative_position_id = CAL_setting_the_economic_plans_in_motion
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_improve_the_national_power_grid"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_expand_national_telephone_lines
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_setting_the_economic_plans_in_motion
+	}
+	x = 1.2
+	y = 1
+	relative_position_id = CAL_setting_the_economic_plans_in_motion
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_improve_the_national_power_grid"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_begin_the_interstate_highway_project
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_improve_the_national_power_grid
+	}
+	prerequisite = {
+		focus = CAL_expand_national_telephone_lines
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_setting_the_economic_plans_in_motion
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_the_interstate_highway_project"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_urbanize_rural_areas
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_begin_the_interstate_highway_project
+	}
+	x = -3.6
+	y = 1
+	relative_position_id = CAL_begin_the_interstate_highway_project
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_urbanize_rural_areas"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_study_canadian_industrial_methods
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_begin_the_interstate_highway_project
+	}
+	x = -1.5
+	y = 1
+	relative_position_id = CAL_begin_the_interstate_highway_project
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_study_canadian_industrial_methods"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_expand_american_housing_programs
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_begin_the_interstate_highway_project
+	}
+	x = 1.5
+	y = 1
+	relative_position_id = CAL_begin_the_interstate_highway_project
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_american_housing_programs"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_trade_agreements_with_our_allies
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_begin_the_interstate_highway_project
+	}
+	x = 3.6
+	y = 1
+	relative_position_id = CAL_begin_the_interstate_highway_project
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_trade_agreements_with_our_allies"
+	}
+
 }
 
 shared_focus = {
-	
+	id = CAL_what_to_do_with_the_west
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_urbanize_rural_areas
+		focus = CAL_study_canadian_industrial_methods
+		focus = CAL_expand_american_housing_programs
+		focus = CAL_trade_agreements_with_our_allies
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_begin_the_interstate_highway_project
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_what_to_do_with_the_west"
+	}
 }
 
 shared_focus = {
