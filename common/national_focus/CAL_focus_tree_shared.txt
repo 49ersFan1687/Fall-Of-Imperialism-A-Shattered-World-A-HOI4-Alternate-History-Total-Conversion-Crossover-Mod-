@@ -5093,7 +5093,151 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_setting_production_quotas
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_accelerate_heavy_industry_buildup
+	}
+	prerequisite = {
+		focus = CAL_expand_domestic_rubber_production
+	}
+	x = 0 
+	y = 2
+	relative_position_id = CAL_building_domestic_mil_factories
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_setting_production_quotas"
+	}
+}
+
+shared_focus = {
+	id = CAL_negotations_with_the_unions
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_mining_for_black_gold
+	}
+	prerequisite = {
+		focus = CAL_expand_domestic_rubber_production
+	}
+	x = 0 
+	y = 2
+	relative_position_id = CAL_prospecting_for_iron
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_negotations_with_the_unions"
+	}	
+}
+
+shared_focus = {
+	id = CAL_rebuilding_destroyed_towns
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_establish_california_concrete
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_establish_california_concrete
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_destroyed_towns"
+	}	
+}
+
+shared_focus = {
+	id = CAL_civilian_relief_efforts
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_establish_california_concrete
+	}
+	prerequisite = {
+		focus = CAL_invest_in_new_construction_firms
+	}
+	x = 0 
+	y = 2
+	relative_position_id = CAL_bail_out_betchel
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_turning_to_heavy_industry"
+	}
+}
+
+shared_focus = {
+	id = CAL_building_a_new_america_free_from_war
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_invest_in_new_construction_firms
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_invest_in_new_construction_firms
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_building_a_new_america_free_from_war"
+	}
+}
+
+shared_focus = {
+	id = CAL_a_turn_to_heavy_industry
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expanding_the_canned_goods_industry
+	}
+	prerequisite = {
+		focus = CAL_better_payment_for_farmworkers
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_mobilizing_farmers
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_turn_to_heavy_industry"
+	}	
+}
+
+shared_focus = {
+	id = CAL_from_plowshares_to_swords
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_better_payment_for_farmworkers
+	}
+	prerequisite = {
+		focus = CAL_expand_west_coast_fishing_fleets
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_expanding_pistachio_exports
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_destroyed_towns"
+	}
 }
 
 shared_focus = {
@@ -5101,35 +5245,28 @@ shared_focus = {
 }
 
 shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
+	id = CAL_paving_over_the_devastation
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuilding_destroyed_towns
+	}
+	prerequisite = {
+		focus = CAL_civilian_relief_efforts
+	}
+	prerequisite = {
+		focus = CAL_building_a_new_america_free_from_war
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_civilian_relief_efforts
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_paving_over_the_devastation"
+	}
 }
 
 shared_focus = {
