@@ -4302,7 +4302,7 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = CAL_an_agrarian_economy
 	}
-	x = -9
+	x = -8.5
 	y = 1
 	relative_position_id = CAL_what_to_do_with_the_west
 	completion_reward = {
@@ -4343,7 +4343,7 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = CAL_following_marshalls_industrial_plan
 	}
-	x = 9
+	x = 8.5
 	y = 1
 	relative_position_id = CAL_what_to_do_with_the_west
 	completion_reward = {
@@ -4447,7 +4447,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_exporting_oil_from_mexico
+	id = CAL_importing_oil_shipments_from_mexico
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -4504,39 +4504,192 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_importing_mexican_heavy_machinery
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_import_canadian_heavy_machinery
+	}
+	x = -1.3
+	y = 1
+	relative_position_id = CAL_import_canadian_heavy_machinery
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_importing_mexican_heavy_machinery"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_expand_heavy_industrial_complexes
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_import_canadian_heavy_machinery
+	}
+	prerequisite = {
+		focus = CAL_beginning_resource_surverys
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_following_marshalls_industrial_plan
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_conduct_fair_land_reform"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_investing_in_the_lumber_industry
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_beginning_resource_surverys
+	}
+	x = 1.3
+	y = 1
+	relative_position_id = CAL_beginning_resource_surverys
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_investing_in_the_lumber_industry"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_building_more_hydroelectric_dams
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_nationalize_small_railroad_companies
+	}
+	prerequisite = {
+		focus = CAL_begin_public_works_projects
+	}
+	x = 1.2
+	y = 1
+	relative_position_id = CAL_nationalize_small_railroad_companies
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_investing_in_the_lumber_industry"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_foreign_and_domestic_investments_in_our_economy
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_begin_public_works_projects
+	}
+	prerequisite = {
+		focus = CAL_import_coal_from_canada
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_addressing_allied_aid_and_the_civilian_sector
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_foreign_and_domestic_investments_in_our_economy"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_south_african_chromuium_imports
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_import_coal_from_canada
+	}
+	prerequisite = {
+		focus = CAL_importing_oil_shipments_from_mexico
+	}
+	x = -1.2
+	y = 1
+	relative_position_id = CAL_importing_oil_shipments_from_mexico
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_investing_in_the_lumber_industry"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_feed_crop_subsidiaries
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_government_investments_into_agriculture
+	}
+	x = -1.3
+	y = 1
+	relative_position_id = CAL_government_investments_into_agriculture
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_feed_crop_subsidiaries"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_implement_full_agricultural_mechainization
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_government_investments_into_agriculture
+	}
+	prerequisite = {
+		focus = CAL_conduct_fair_land_reform
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_an_agrarian_economy
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_implement_full_agricultural_mechainization"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_expanding_cattle_ranching
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_government_investments_into_agriculture
+	}
+	prerequisite = {
+		focus = CAL_conduct_fair_land_reform
+	}
+	x = 1.3
+	y = 1
+	relative_position_id = CAL_conduct_fair_land_reform
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expanding_cattle_ranching"
+	}	
 }
 
 shared_focus = {
