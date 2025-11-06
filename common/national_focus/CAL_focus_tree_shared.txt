@@ -3963,7 +3963,7 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	x = 21
+	x = 19
 	y = 0
 	relative_position_id = CAL_looking_outwards_from_the_golden_state
 	completion_reward = {
@@ -4302,7 +4302,7 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = CAL_an_agrarian_economy
 	}
-	x = -9
+	x = -8
 	y = 1
 	relative_position_id = CAL_what_to_do_with_the_west
 	completion_reward = {
@@ -4343,7 +4343,7 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = CAL_following_marshalls_industrial_plan
 	}
-	x = 9
+	x = 8
 	y = 1
 	relative_position_id = CAL_what_to_do_with_the_west
 	completion_reward = {
@@ -5369,7 +5369,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_wounds_heal_with_time
 	}
-	x = 0
+	x = -1
 	y = 2
 	relative_position_id = CAL_paving_over_the_devastation
 	completion_reward = {
@@ -5377,10 +5377,73 @@ shared_focus = {
 	}	
 }
 
+shared_focus = {
+	id = CAL_and_back_in_action
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_bandages_on_a_broken_bone
+	}
+	prerequisite = {
+		focus = CAL_wounds_heal_with_time
+	}
+	x = 1
+	y = 2
+	relative_position_id = CAL_paving_over_the_devastation
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_and_back_in_action"
+	}
+}
+
+shared_focus = {
+	id = CAL_establishing_the_war_production_board
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_back_on_track
+	}
+	prerequisite = {
+		focus = CAL_and_back_in_action
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_back_on_track
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_establishing_the_war_production_board"
+	}
+}
+
+shared_focus = {
+	id = CAL_restoring_the_arsenal_of_democracy
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_establishing_the_war_production_board
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_establishing_the_war_production_board
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_restoring_the_arsenal_of_democracy"
+	}
+}
+
 # Military Reform - Second Continental Army # 
 
 shared_focus = {
-	id = CAL
+	id = CAL_
 }
 
 shared_focus = {
