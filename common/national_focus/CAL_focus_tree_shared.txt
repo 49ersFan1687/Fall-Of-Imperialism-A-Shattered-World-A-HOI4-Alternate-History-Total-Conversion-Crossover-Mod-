@@ -5241,7 +5241,25 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_an_industrial_economy
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_setting_production_quotas
+	}
+	prerequisite = {
+		focus = CAL_negotations_with_the_unions
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_expand_domestic_rubber_production
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_an_industrial_academy"
+	}
 }
 
 shared_focus = {
@@ -5270,31 +5288,93 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_agrarianism_secured
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_a_turn_to_heavy_industry
+	}
+	prerequisite = {
+		focus = CAL_from_plowshares_to_swords
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_better_payment_for_farmworkers
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_agrarianism_secured"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_bandages_on_a_broken_bone
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_paving_over_the_devastation
+	}
+	prerequisite = {
+		focus = CAL_an_industrial_economy
+		focus = CAL_agrarianism_secured
+	}
+	x = -2
+	y = 1
+	relative_position_id = CAL_paving_over_the_devastation
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_paving_over_the_devastation"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_wounds_heal_with_time
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_paving_over_the_devastation
+	}
+	prerequisite = {
+		focus = CAL_an_industrial_economy
+		focus = CAL_agrarianism_secured
+	}
+	x = 2
+	y = 1
+	relative_position_id = CAL_paving_over_the_devastation
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_wounds_heal_with_time"
+	}	
 }
 
 shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
+	id = CAL_back_on_track
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_bandages_on_a_broken_bone
+	}
+	prerequisite = {
+		focus = CAL_wounds_heal_with_time
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_paving_over_the_devastation
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_back_on_track"
+	}	
 }
 
 # Military Reform - Second Continental Army # 
