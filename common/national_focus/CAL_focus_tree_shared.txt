@@ -5400,7 +5400,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_restoring_the_arsenal_of_democracy
+	id = CAL_establishing_the_war_production_board
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -5416,6 +5416,25 @@ shared_focus = {
 	x = 1
 	y = 1
 	relative_position_id = CAL_back_on_track
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_establishing_the_war_production_board"
+	}
+}
+
+shared_focus = {
+	id = CAL_restoring_the_arsenal_of_democracy
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_establishing_the_war_production_board
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_establishing_the_war_production_board
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_restoring_the_arsenal_of_democracy"
 	}
