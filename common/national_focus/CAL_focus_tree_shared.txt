@@ -3963,7 +3963,7 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	x = 21
+	x = 19.5
 	y = -1
 	relative_position_id = CAL_looking_outwards_from_the_golden_state
 	completion_reward = {
@@ -4807,7 +4807,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_foreign_and_domestic_investments_in_our_economy
 	}
-	x = 0
+	x = 1
 	y = 1
 	relative_position_id = CAL_building_more_hydroelectric_dams
 	completion_reward = {
@@ -4816,7 +4816,190 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL
+	id = CAL_bail_out_betchel
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_foreign_and_domestic_investments_in_our_economy
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_foreign_and_domestic_investments_in_our_economy
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_bail_out_betchel"
+	}
+}
+
+shared_focus = {
+	id = CAL_rubber_from_brazil
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_foreign_and_domestic_investments_in_our_economy
+	}
+	prerequisite = {
+		focus = CAL_south_african_chromuium_imports
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_south_african_chromuium_imports
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_bail_out_betchel"
+	}	
+}
+
+shared_focus = {
+	id = CAL_building_domestic_civ_factories
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_importing_mexican_heavy_machinery
+	}
+	x = -1.3
+	y = 1
+	relative_position_id = CAL_importing_mexican_heavy_machinery
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_importing_mexican_heavy_machinery"
+	}
+}
+
+shared_focus = {
+	id = CAL_building_domestic_mil_factories
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_importing_mexican_heavy_machinery
+	}
+	prerequisite = {
+		focus = CAL_expand_heavy_industrial_complexes
+	}
+	x = 1.3
+	y = 1
+	relative_position_id = CAL_importing_mexican_heavy_machinery
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_importing_mexican_heavy_machinery"
+	}	
+}
+
+shared_focus = {
+	id = CAL_prospecting_for_iron
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_investing_in_the_lumber_industry
+	}
+	prerequisite = {
+		focus = CAL_expand_heavy_industrial_complexes
+	}
+	x = 1.3
+	y = 1
+	relative_position_id = CAL_expand_heavy_industrial_complexes
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_prospecting_for_iron"
+	}		
+}
+
+shared_focus = {
+	id = CAL_expand_almond_exports
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expanding_cattle_ranching
+	}
+	x = 1.3
+	y = 1
+	relative_position_id = CAL_expanding_cattle_ranching
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_almond_exports"
+	}		
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
 }
 
 shared_focus = {
