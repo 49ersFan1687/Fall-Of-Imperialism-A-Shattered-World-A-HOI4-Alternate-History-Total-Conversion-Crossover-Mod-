@@ -2458,7 +2458,7 @@ shared_focus = {
 		has_completed_focus = CAL_the_new_bastion_of_freedom
 	}
 	x = 9
-	y = 0
+	y = -1
 	relative_position_id = CAL_alone_and_isolated
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_looking_outwards_from_the_golden_state"
@@ -3964,7 +3964,7 @@ shared_focus = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
 	x = 21
-	y = -1
+	y = 0
 	relative_position_id = CAL_looking_outwards_from_the_golden_state
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_economy_of_the_western_american_government"
@@ -5380,7 +5380,7 @@ shared_focus = {
 # Military Reform - Second Continental Army # 
 
 shared_focus = {
-
+	id = CAL
 }
 
 shared_focus = {
