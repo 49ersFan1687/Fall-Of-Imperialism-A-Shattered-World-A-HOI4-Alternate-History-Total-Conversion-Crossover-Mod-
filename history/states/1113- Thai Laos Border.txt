@@ -1,0 +1,29 @@
+state = {
+	id = 1113
+	name = "STATE_1113"
+	manpower = 18102
+	
+	state_category = rural
+
+	history = {
+
+		owner = SIA
+		add_core_of = LAO
+		add_core_of = CAM
+
+
+		buildings = {
+			infrastructure = 1 #was: 6
+		}
+		
+		
+		
+			
+	}
+
+	provinces = {
+		10356 10330 1507 1464
+	}
+
+	local_supplies = 0.0 
+}
