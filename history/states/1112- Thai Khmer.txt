@@ -1,0 +1,29 @@
+state = {
+	id = 1112
+	name = "STATE_1112"
+	manpower = 1540222
+	
+	state_category = town
+
+	history = {
+
+		owner = SIA
+		add_core_of = SIA
+		add_core_of = CAM
+
+
+		buildings = {
+			infrastructure = 1 #was: 6
+		}
+		
+		
+		
+			
+	}
+
+	provinces = {
+		12460 4302 10467 4251 10177 10134 1353 12191 4359 7404
+	}
+
+	local_supplies = 0.0 
+}

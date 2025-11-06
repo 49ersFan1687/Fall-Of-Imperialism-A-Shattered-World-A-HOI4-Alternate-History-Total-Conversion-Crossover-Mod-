@@ -11,8 +11,9 @@ state=
 	}
 
 	history={
+		add_core_of = RAS
 		add_core_of = RAJ
-		owner = RAJ
+		owner = RAS
 		victory_points = {
 			10201 3 
 		}

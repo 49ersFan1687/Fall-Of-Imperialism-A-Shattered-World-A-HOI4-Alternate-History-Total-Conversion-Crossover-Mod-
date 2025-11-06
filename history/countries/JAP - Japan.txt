@@ -22,3 +22,14 @@ set_popularities = {
 	neutrality = 5
 	
 }
+create_faction = "Greater East Asian Co-Prosperity Sphere"
+add_to_faction = CHI
+add_to_faction = MEN
+add_to_faction = MAN
+add_to_faction = VIN
+add_to_faction = CAM
+add_to_faction = SIA
+add_to_faction = LAO
+add_to_faction = PHI
+add_to_faction = INS
+add_to_faction = MAL

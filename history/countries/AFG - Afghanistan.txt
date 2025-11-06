@@ -20,5 +20,9 @@ set_technology = {
 	gw_artillery = 1
 }
 
-
+set_autonomy = {
+	target = PAK
+	autonomous_state = autonomy_puppet
+	freedom_level = 0.5
+}
 
