@@ -5440,6 +5440,25 @@ shared_focus = {
 	}
 }
 
+shared_focus = {
+	id = CAL_the_giant_awakens_once_more
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_restoring_the_arsenal_of_democracy
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_restoring_the_arsenal_of_democracy
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_giant_awakens_once_more"
+	}
+}
+
 # Military Reform - Second Continental Army # 
 
 shared_focus = {
