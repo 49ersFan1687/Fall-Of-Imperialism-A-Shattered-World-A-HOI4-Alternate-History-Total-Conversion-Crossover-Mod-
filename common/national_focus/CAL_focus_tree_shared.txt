@@ -4290,15 +4290,66 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_rebuilding_our_industry
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_what_to_do_with_the_west
+	}
+	mutually_exclusive = {
+		focus = CAL_an_agrarian_economy
+	}
+	x = -7
+	y = 1
+	relative_position_id = CAL_what_to_do_with_the_west
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_our_industry"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_addressing_allied_aid_and_the_civilian_sector
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_what_to_do_with_the_west
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_what_to_do_with_the_west
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_allied_aid_and_the_civilian_sector"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_an_agrarian_economy
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_what_to_do_with_the_west
+	}
+	mutually_exclusive = {
+		focus = CAL_rebuilding_our_industry
+	}
+	x = 7
+	y = 1
+	relative_position_id = CAL_what_to_do_with_the_west
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_an_agrarian_economy"
+	}
 }
 
 shared_focus = {
