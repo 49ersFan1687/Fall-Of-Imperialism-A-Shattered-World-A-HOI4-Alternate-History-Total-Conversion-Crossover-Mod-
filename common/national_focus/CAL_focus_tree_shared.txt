@@ -3074,6 +3074,11 @@ shared_focus = {
 	relative_position_id = CAL_tend_to_the_pacific_northwest
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reunite_with_cascadia"
+		puppet = CSD
+		set_autonomy = {
+			target = CSD
+			autonomy_state = autonomy_puppet
+		}
 	}
 }
 
