@@ -113,6 +113,7 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+
 	CAL_George_Catlett_Marshall = {
 		name = CAL_George_Catlett_Marshall
 		desc = 
@@ -136,6 +137,7 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+	
 	CAL_Omar_Nelson_Bradley = {
 		name = CAL_Omar_Nelson_Bradley
 		desc = 
