@@ -750,6 +750,7 @@ characters = {
 	}
 
     # Crystal Prep Clique - The Progressives #
+	
 	CSD_twilight_sparkle = {
 		name = CSD_twilight_sparkle
 		portraits = {
@@ -769,6 +770,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_pinkie_pie = {
 		name = CSD_pinkie_pie
 		portraits = {
@@ -788,6 +790,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_starlight_glimmer = {
 		name = CSD_starlight_glimmer
 		portraits = {
@@ -807,6 +810,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_rainbow_dash = {
 		name = CSD_rainbow_dash
 		portraits = {
@@ -826,6 +830,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_mi_amore_cadenza = {
 		name = CSD_mi_amore_cadenza
 		portraits = {
@@ -845,6 +850,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_fluttershy = {
 		name = CSD_fluttershy
 		portraits = {
@@ -856,6 +862,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_applejack = {
 		name = CSD_applejack
 		portraits = {
@@ -867,6 +874,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_rarity = {
 		name = CSD_rarity
 		portraits = {
@@ -878,6 +886,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_sunset_shimmer = {
 		name = CSD_sunset_shimmer
 		portraits = {
@@ -889,6 +898,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_trixie_lulamoon = {
 		name = CSD_trixie_lulamoon
 		portraits = {
@@ -900,6 +910,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_sweetie_belle = {
 		name = CSD_sweetie_belle
 		portraits = {
@@ -911,6 +922,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_scootaloo = {
 		name = CSD_scootaloo
 		portraits = {
@@ -922,6 +934,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_apple_bloom = {
 		name = CSD_apple_bloom
 		portraits = {
@@ -933,7 +946,9 @@ characters = {
 			}
 		}
 	}
+
 	# Vytal Clique - The Militarists #
+
 	CSD_Ruby_Rose = {
 		name = CSD_ruby_rose
 		portraits = {
@@ -945,6 +960,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_Weiss_Schnee = {
 		name = CSD_weiss_schnee
 		portraits = {
@@ -956,6 +972,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_Blake_Belladonna = {
 		name = CSD_blake_belladonna
 		portraits = {
@@ -967,6 +984,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_Yang_Xiao_Long = {
 		name = CSD_yang_xiao_long
 		portraits = {
@@ -978,6 +996,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_Jaune_Arc = {
 		name = CSD_jaune_arc
 		portraits = {
@@ -989,6 +1008,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_Nora_Valkyrie = {
 		name = CSD_nora_valkyrie
 		portraits = {
@@ -1000,6 +1020,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_Pyrrha_Nikos = {
 		name = CSD_pyrrha_nikos
 		portraits = {
@@ -1011,6 +1032,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_Lie_Ren = {
 		name = CSD_lie_ren
 		portraits = {
@@ -1022,6 +1044,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_Coco_Adel = {
 		name = CSD_coco_adel
 		portraits = {
@@ -1033,6 +1056,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_Velvet_Scarlatina = {
 		name = CSD_velvet_scarlatina
 		portraits = {
@@ -1044,6 +1068,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_Fox_Alistair = {
 		name = CSD_fox_alistair
 		portraits = {
@@ -1055,6 +1080,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_Yatsuhashi_Daichi = {
 		name = CSD_yatsuhashi_daichi
 		portraits = {
@@ -1068,6 +1094,7 @@ characters = {
 	}
 
 	# Kuoh Clique - The Conservatives #
+
 	CSD_sona_sitri = {
 		name = CSD_sona_sitri
 		portraits = {
@@ -1080,6 +1107,7 @@ characters = {
 		}
 
 	}
+
 	CSD_rias_gremory = {
 		name = CSD_rias_gremory
 		portraits = {
@@ -1092,6 +1120,7 @@ characters = {
 		}
 
 	}
+
 	CSD_akeno_himejima = {
 		name = CSD_akeno_himejima
 		portraits = {
@@ -1104,6 +1133,7 @@ characters = {
 		}
 
 	}
+
 	CSD_tsubaki_shinra = {
 		name = CSD_tsubaki_shinra
 		portraits = {
@@ -1115,6 +1145,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_issei_hyoudou = {
 		name = CSD_issei_hyoudou
 		portraits = {
@@ -1127,6 +1158,7 @@ characters = {
 		}
 
 	}
+
 	CSD_rossweisse = {
 		name = CSD_rossweisse
 		portraits = {
