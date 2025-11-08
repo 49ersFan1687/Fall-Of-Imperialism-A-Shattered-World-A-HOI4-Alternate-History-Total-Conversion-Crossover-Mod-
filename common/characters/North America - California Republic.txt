@@ -68,7 +68,26 @@ characters = {
 		}
 	}
 
-	CAL_
+	CAL_Earl_Warren = {
+		name = CAL_Earl_Warren
+		portraits = {
+			civillian = {
+
+			}
+		}
+		advisor = {
+			slot = 
+			idea_token = CAL_earl_warren_hog
+			allowed = { original_tag = CAL }
+			traits = {
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = yes
+			ai_will_do = { factor = 0 }
+		}
+	}
 
     # Field Marshals #
 	CAL_Dwight_David_Eisenhower = {
