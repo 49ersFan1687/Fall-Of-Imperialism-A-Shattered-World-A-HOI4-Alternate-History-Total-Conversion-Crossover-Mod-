@@ -1909,11 +1909,27 @@ shared_focus = {
 	x = 1.2
 	y = 1
 	relative_position_id = CAL_the_first_of_many_steps_to_victory
+	available = {
+		NCA = { is_puppet_of = CAL }
+		CAL = { exists = yes }
+	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrate_northern_second_continental_army_command"
-		annex_country = {
-			target = NCA
-			transfer_troops = yes
+		CAL = {
+			transfer_units_fraction = {
+				target = NCA
+				size = 1
+				army_ratio = 1
+				air_ratio = 1
+				navy_ratio = 1
+				stockpile_ratio = 1
+			}
+			every_character = { limit = { is_unit_leader = yes is_army_leader = yes } set_nationality = CAL }
+			every_character = { limit = { is_unit_leader = yes is_navy_leader = yes } set_nationality = CAL }
+		}
+		CAL = {
+			annex_country = { target = NCA }
+			every_owned_state = { add_state_core = CAL }
 		}
 	}
 }
