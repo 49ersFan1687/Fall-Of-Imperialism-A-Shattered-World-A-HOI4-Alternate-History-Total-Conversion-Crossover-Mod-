@@ -12,7 +12,7 @@ characters = {
 			expire = "1994.4.20"
 			ideology = social_democratic_progressive_democracy_ideology
 			traits = {
-				
+
 			}
 		}
     }
@@ -140,6 +140,7 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+
 	# Generals #
 	CAL_George_Smith_Patton_Jr = {
 		name = CAL_George_Smith_Patton_Jr
@@ -315,12 +316,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = { trait_engineer commando cavalry_officer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 	CAL_Leonard_Townsend_Gerow = {
@@ -400,12 +401,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = { commando paratrooper trait_reckless }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 	CAL_Elizabeth_Coleman = {
@@ -417,12 +418,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill =
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = { engineer trait_reckless }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	CAL_Charity_Edna_Adams_Earley = {
@@ -434,14 +435,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill =
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = { reckless media_personality }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
+
 	# Admirals #
 	CAL_Ernest_Joseph_King = {
 		name = CAL_Ernest_Joseph_King
@@ -475,6 +477,7 @@ characters = {
 			}
 		 }
 	}
+
 	CAL_Chester_William_Nimitz = {
 		name = CAL_Chester_William_Nimitz
 		desc = 
@@ -507,6 +510,7 @@ characters = {
 			}
 		 }
 	}
+	
 	CAL_William_Daniel_Leahy = {
 		name = CAL_William_Daniel_Leahy
 		desc = 
@@ -539,6 +543,7 @@ characters = {
 			}
 		 }
 	}
+
 	CAL_William_Fredrick_Halsey_Jr = {
 		name = CAL = CAL_William_Fredrick_Halsey_Jr
 		desc = 
@@ -571,6 +576,7 @@ characters = {
 			}
 		 }
 	}
+
 	CAL_Samuel_Lee_Gravely_Jr = {
 		name = CAL = CAL_Samuel_Lee_Gravely_Jr
 		desc = 
@@ -591,6 +597,7 @@ characters = {
 
 		}
 	}
+
 	CAL_Arleigh_Albert_Burke = {
 		name = CAL = CAL_Arleigh_Albert_Burke
 		desc = 
@@ -611,6 +618,7 @@ characters = {
 
 		}
 	}
+
 	CAL_Issac_Campbell_Kidd_Sr = {
 		name = CAL_Issac_Campbell_Kidd_Sr
 		desc = 
