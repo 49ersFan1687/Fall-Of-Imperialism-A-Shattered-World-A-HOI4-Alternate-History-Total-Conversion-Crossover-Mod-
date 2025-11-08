@@ -10,8 +10,9 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_HENRY_WALLACE_DESC"
 			expire = "1994.4.20"
-			ideology = 
+			ideology = social_democratic_progressive_democracy_ideology
 			traits = {
+				
 			}
 		}
     }
