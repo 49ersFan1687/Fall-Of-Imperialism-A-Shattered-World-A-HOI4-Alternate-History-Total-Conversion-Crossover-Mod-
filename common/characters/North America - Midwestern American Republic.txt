@@ -1,5 +1,19 @@
 characters = {
     # Country Leaders #
+
+    # Advisors #
+    MAR_Martin_Luther_King_Jr = {
+        name = MAR_Martin_Luther_King_Jr
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+    }
+
     # Field Marshals #
     MAR_Douglas_Macarthur = {
         name = MAR_Douglas_Macarthur
