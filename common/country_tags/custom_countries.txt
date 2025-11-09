@@ -106,5 +106,8 @@ KCH = "countries/Kamchatka.txt"
 FES = "countries/FarEast.txt"
 #ASIA
 KMT = "countries/NationalistChina.txt"
+#Africa
+FFR = "countries/FreeFrance.txt"
+BUR = "countries/BurkinaFaso.txt"
 
 

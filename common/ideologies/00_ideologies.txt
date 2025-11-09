@@ -11,7 +11,7 @@ ideologies = {
 			stalinism_ideology = { }
 			trotskyism_ideology = { }
 			bukharinism_ideology = { }
-			red_junta_ideology = { }
+			red_junta_communism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 117 20 13 }
@@ -29,7 +29,7 @@ ideologies = {
 			anarcho_mutualism_ideology = { }
 			socialist_narodnikism_ideology = { }
 			democratic_socialism_ideology = { }
-			red_junta_ideology = { }
+			red_junta_socialism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 209 0 0 }
@@ -59,6 +59,7 @@ ideologies = {
 			liberalism_liberal_conservatism_ideology = { }
 			free_market_capitalism_ideology = { }
 			national_liberalism_ideology = { }
+			classical_liberalism_ideology = { }
 		}
 		dynamic_faction_names = { }
 		color = { 31 121 181 }
@@ -72,6 +73,7 @@ ideologies = {
 			toryism_ideology = { }
 			conservatism_liberal_conservatism_ideology = { }
 			national_conservatism_ideology = { }
+			christian_democracy_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 22 37 138 }
@@ -113,6 +115,7 @@ ideologies = {
 			military_junta_ideology = { }
 			authoritarian_social_nationalism_ideology = { }
 			theocracy_ideology = { }
+			moderate_stratocracy_ideology = { }
 			moderate_dixiecrat_ideology = { }
         }
 		dynamic_faction_names = { }
@@ -126,6 +129,7 @@ ideologies = {
         types = {
 			nation_first_nationalism_ideology = { }
 			dixiecrat_ideology = { }
+			fascist_stratocracy_ideology = { }
 
         }
 		dynamic_faction_names = { }
@@ -149,6 +153,11 @@ ideologies = {
     national_socialism = {
         types = {
 			nazism_ideology = { }
+			reformist_nazism_ideology = { }
+			technocratic_nazism_ideology = { }
+			stratocratic_nazism_ideology = { }
+			esoteric_nazism_ideology = { }
+			occultist_nazism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 41 33 22 }
@@ -160,6 +169,8 @@ ideologies = {
     esotericism = {
         types = {
 			anarcho_primitivism_ideology = { }  
+			esoteric_nazism_esoteric_ideology = { }
+			occultist_nazism_esoteric_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 49 24 71 }

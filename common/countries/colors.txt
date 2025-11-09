@@ -186,7 +186,7 @@ JAP = {
 	color_ui = hsv { 0.05 0.25 1.2 }
 }
 LIB = {
-	color = rgb { 152 130 191 }
+	color = rgb { 129 111 161 }
 	color_ui = rgb { 198 169 248 }
 }
 MEX = {
@@ -334,7 +334,7 @@ LBA = {
 }
 
 EGY = {
-	color = rgb { 230 230 70 }
+	color = rgb { 67 127 63 }
 	color_ui = rgb { 230 230 70 }
 }
 
@@ -852,7 +852,7 @@ KHA = {
 	color_ui = rgb { 25 102 25 }
 }
 AOI = {
-	color = rgb { 0 153 51 }
+	color = rgb { 67 127 63 }
 	color_ui = rgb { 0 77 26 }
 }
 LBV = {
@@ -936,7 +936,7 @@ KAT = {
 	color_ui = rgb { 128 26 0 }
 }
 BIA = {
-	color = rgb { 0 153 51 }
+	color = rgb { 0 143 48 }
 	color_ui = rgb { 0 77 26 }
 }
 CBV = {
@@ -952,7 +952,7 @@ EVE = {
 	color_ui = rgb { 0 119 179 }
 }
 SOK = {
-	color = rgb { 0 128 43 }
+	color = rgb { 0 99 33 }
 	color_ui = rgb { 0 77 26 }
 }
 THU = {
@@ -1028,11 +1028,11 @@ RGB = {
 	color_ui = rgb { 122 145 93 }
 }
 RKA = {
-	color = rgb { 115 115 115 }
+	color = rgb { 89 87 84 }
 	color_ui = rgb { 122 145 93 }
 }
 RNA = {
-	color = rgb { 115 115 115 }
+	color = rgb { 89 87 84 }
 	color_ui = rgb { 122 145 93 }
 }
 RKV = {
@@ -1563,7 +1563,30 @@ KMT = {
 	color = rgb { 44 50 110 }
 	color_ui = rgb { 170  125  80 }
 }
-
+FFR = {
+	color = rgb { 89 160 201 }
+	color_ui = rgb { 170  125  80 }
+}
+BUR = {
+	color = rgb { 141 141 235 }
+	color_ui = rgb { 170  125  80 }
+}
+MLI = {
+	color = rgb { 141 235 219 }
+	color_ui = rgb { 170  125  80 }
+}
+ALG = {
+	color = rgb { 94 144 145 }
+	color_ui = rgb { 170  125  80 }
+}
+MOR = {
+	color = rgb { 181 132 63 }
+	color_ui = rgb { 170  125  80 }
+}
+CMR = {
+	color = rgb { 94 144 145 }
+	color_ui = rgb { 170  125  80 }
+}
 
 
 
