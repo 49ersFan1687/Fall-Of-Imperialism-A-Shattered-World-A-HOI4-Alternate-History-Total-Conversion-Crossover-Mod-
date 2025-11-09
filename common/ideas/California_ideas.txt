@@ -2,7 +2,7 @@ ideas = {
     ### Country Ideas - California Republic ###
     country = {
         ### Starting Ideas - The Long March West ###
-        CAL_the_long_march_west1 = {
+        CAL_the_long_march_west = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_long_march_west1" }
             allowed = { always = no }
             picture = CAL_long_retreat
@@ -12,7 +12,7 @@ ideas = {
         }
 
         ### Starting Ideas - The Greater Depression ###
-        CAL_the_greater_depression1 = {
+        CAL_the_greater_depression = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_greater_depression1" }
             allowed = { always = no }
             picture = CAL_greater_depression
@@ -26,7 +26,7 @@ ideas = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_a_shattered_army" }
             allowed = { always = no }
             picture = CAL_a_shattered_army
-             modifier = {
+            modifier = {
                 
             }
         }
@@ -36,17 +36,27 @@ ideas = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_an_outdated_air_force" }
             allowed = { always = no }
             picture = CAL_an_outdated_air_force
-             modifier = {
+            modifier = {
                 
             }
         }
 
-        ### Starting Ideas - An Outdated Air Force ###
+        ### Starting Ideas - The Mothballed American Navy ###
         CAL_the_mothballed_navy = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_mothballed_navy" }
             allowed = { always = no }
             picture = CAL_the_mothballed_navy
-             modifier = {
+            modifier = {
+                
+            }
+        }
+
+        ### Starting Ideas - The Failure of Democracy ###
+        CAL_the_failure_of_democracy = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_failure_of_democracy" }
+            allowed = { always = no }
+            picture = CAL_the_failure_of_democracy
+            modifier = {
                 
             }
         }
