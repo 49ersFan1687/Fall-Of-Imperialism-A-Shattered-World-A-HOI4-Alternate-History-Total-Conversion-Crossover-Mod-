@@ -13,18 +13,19 @@ CAL_communist_party_long:0 ""
 ### Ideas ###
 
 CAL_the_long_march_west:0 "The Long March West"
-
+CAL_the_long_march_west_desc:0
 
 CAL_the_greater_depression:0 "The Greater Depression"
-
+CAL_the_greater_depression_desc:0
 
 CAL_a_shattered_army:0 "A Shattered Army"
-
+CAL_a_shattered_army_desc:0
 
 CAL_an_outdated_air_force:0 "An Outdated Airforce"
-
+CAL_an_outdated_air_force_desc:0
 
 CAL_the_mothballed_navy:0 "The Mothballed Navy"
-
+CAL_the_mothballed_navy_desc:0
 
 CAL_the_failure_of_democracy:0 "The Failure of Democracy"
+CAL_the_failure_of_democracy_desc:0
