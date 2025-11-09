@@ -90,6 +90,7 @@ ideas = {
                 }
             }
         }
+        
         CAL_Eisenhowers_vision2 = { # Eisenhower's Army Reform Plan - Return to Form - Part Two
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Eisenhowers_vision2" }
             allowed = { always = no }
@@ -98,6 +99,7 @@ ideas = {
                 
             }
         }
+
         CAL_Eisenhowers_vision3 = { # Eisenhower's Army Reform Plan - Return to Form - Part Three
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Eisenhowers_vision3" }
             allowed = { always = no }
@@ -121,6 +123,7 @@ ideas = {
                 }
             }
         }
+
         CAL_Pattons_vision2 = { # Patton's Army Reform Plan - Army of the Future - Part Two
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Pattons_vision2" }
             allowed = { always = no }
@@ -129,6 +132,7 @@ ideas = {
 
             }
         }
+
         CAL_Pattons_vision3 = { # Patton's Army Reform Plan - Army of the Future - Part Three
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Pattons_vision3" }
             allowed = { always = no }
@@ -147,6 +151,7 @@ ideas = {
 
             }
         }
+
         CAL_Marshalls_vision2 = { # Marshall's Army Reform Plan - Modern Minutemen - Part Two
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Marshalls_vision2" }
             allowed = { always = no }
@@ -155,6 +160,7 @@ ideas = {
 
             }
         }
+
         CAL_Marshalls_vision3 = { # Marshall's Army Reform Plan - Modern Minutemen - Part Three
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Marshalls_vision3" }
             allowed = { always = no }
@@ -173,6 +179,7 @@ ideas = {
 
             }
         }
+
         CAL_Westmorelands_Vision2 = { # Westmoreland's Army Reform Plan - Brute Force - Part Two
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Westmorelands_Vision1" }
              allowed = { always = no }
