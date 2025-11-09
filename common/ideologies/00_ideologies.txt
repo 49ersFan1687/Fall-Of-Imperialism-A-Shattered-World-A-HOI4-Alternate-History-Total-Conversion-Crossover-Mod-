@@ -87,7 +87,7 @@ ideologies = {
 			tribal_paternalism_ideology = { }
 			auth_national_conservatism_ideology = { }
 			longism_ideology = { }
-			moderate_dixiecrat_ideology = { }
+			
         }
 		dynamic_faction_names = { }
 		color = { 135 135 140 }
@@ -113,7 +113,7 @@ ideologies = {
 			military_junta_ideology = { }
 			authoritarian_social_nationalism_ideology = { }
 			theocracy_ideology = { }
-			dixiecrat_ideology = { }
+			moderate_dixiecrat_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 54 54 54 }
@@ -125,6 +125,7 @@ ideologies = {
     fascism = {
         types = {
 			nation_first_nationalism_ideology = { }
+			dixiecrat_ideology = { }
 
         }
 		dynamic_faction_names = { }
