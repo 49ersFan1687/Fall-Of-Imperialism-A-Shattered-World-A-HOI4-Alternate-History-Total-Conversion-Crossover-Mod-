@@ -68,6 +68,16 @@ set_autonomy = {
 	autonomous_state = autonomy_integrated_puppet
 	freedom_level = 0.5
 }
+set_autonomy = {
+	target = RKA
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+set_autonomy = {
+	target = RNA
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
 
 
 

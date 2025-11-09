@@ -22,4 +22,8 @@ set_popularities = {
 	democratic = 2
 }
 
-
+set_autonomy = {
+	target = MOR
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
