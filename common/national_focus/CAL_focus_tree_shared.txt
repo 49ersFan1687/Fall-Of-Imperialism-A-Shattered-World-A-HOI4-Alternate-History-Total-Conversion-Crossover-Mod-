@@ -3051,7 +3051,23 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_our_focus_on_nevada
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_reintegrate_the_nevada_military_district"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrate_the_nevada_military_district"
+		CAL = {
+			transfer_units_fraction = {
+				target = NVM
+				size = 1
+				army_ratio = 1
+				air_ratio = 1
+				navy_ratio = 1
+				stockpile_ratio = 1
+			}
+			every_character = { limit = { is_unit_leader = yes is_army_leader = yes } set_nationality = CAL }
+			every_character = { limit = { is_unit_leader = yes is_navy_leader = yes } set_nationality = CAL }
+		}
+		CAL = {
+			annex_country = { target = NVM }
+			every_owned_state = { add_state_core = NVM }
+		}
 	}
 }
 
