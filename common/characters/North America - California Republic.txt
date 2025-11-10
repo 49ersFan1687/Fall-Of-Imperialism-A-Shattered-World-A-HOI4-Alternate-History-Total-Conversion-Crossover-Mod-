@@ -192,6 +192,7 @@ characters = {
 			logistics_skill = 3 
 		}
 	}
+
 	CAL_Walton_Harris_Walker = {
 		name = CAL_Walton_Harris_Walker
 		desc = 
@@ -209,6 +210,7 @@ characters = {
 			logistics_skill = 2
 		}
 	}
+
 	CAL_Smedley_Darlington_Butler = {
 		name = CAL_Smedley_Darlington_Butler
 		desc = 
@@ -226,6 +228,7 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+
 	CAL_Glynda_Goodwitch = {
 		name = CAL_Glynda_Goodwitch
 		desc = 
@@ -243,6 +246,7 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+
 	CAL_William_Childs_Westmoreland = {
 		name = CAL_William_Childs_Westmoreland
 		desc = 
@@ -260,6 +264,7 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+
 	CAL_Maxwell_Davenport_Taylor = {
 		name = CAL_Maxwell_Davenport_Taylor
 		desc = 
@@ -277,6 +282,7 @@ characters = {
 			logistics_skill = 2
 		}
 	}
+
 	CAL_Mark_Wayne_Clark = {
 		name = CAL_Mark_Wayne_Clark
 		desc = 
@@ -294,6 +300,7 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+
 	CAL_Henry_Harley_Arnold = {
 		name = CAL_Henry_Harley_Arnold
 		desc = 
@@ -311,6 +318,7 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+
 	CAL_Jacob_Loucks_Devers = {
 		name = CAL_Jacob_Loucks_Devers
 		desc = 
@@ -328,6 +336,7 @@ characters = {
 			logistics_skill = 2
 		}
 	}
+
 	CAL_Lucian_King_Truscott = {
 		name = CAL_Lucian_King_Truscott
 		desc = 
@@ -345,6 +354,7 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+
 	CAL_Leonard_Townsend_Gerow = {
 		name = CAL_Leonard_Townsend_Gerow
 		desc = 
@@ -362,6 +372,7 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+
 	CAL_Benjamin_Oliver_Davis_Sr = {
 		name = CAL_Benjamin_Oliver_Davis_Sr
 		desc = 
@@ -379,6 +390,7 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+
 	CAL_Ulysses_Simpson_Grant_III = {
 		name = CAL_Ulysses_Simpson_Grant_III
 		desc = 
@@ -396,6 +408,7 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+
 	CAL_Claire_Lee_Chennault = {
 		name = CAL_Claire_Lee_Chennault
 		desc = 
@@ -413,6 +426,25 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+
+	CAL_Hobart_Raymond_Gay = {
+		name = CAL_Hobart_Raymond_Gay
+		desc = 
+		portraits = {
+			army = {
+				large =
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
 	CAL_John_Daniel_Lavelle = {
 		name = CAL_John_Daniel_Lavelle
 		desc = 
@@ -430,6 +462,7 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+
 	CAL_Elizabeth_Coleman = {
 		name = CAL_Elizabeth_Coleman
 		desc = 
@@ -447,6 +480,7 @@ characters = {
 			logistics_skill = 2
 		}
 	}
+
 	CAL_Charity_Edna_Adams_Earley = {
 		name = CAL_Charity_Edna_Adams_Earley
 		desc = 
