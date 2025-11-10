@@ -35,6 +35,10 @@ set_popularities = {
 	socialism = 5
 	neutrality = 5
 }
+create_faction = "Bermuda Accords"
+add_to_faction = FFR
+add_to_faction = AST
+add_to_faction = MEX
 set_autonomy = {
 	target = MCH
 	autonomous_state = autonomy_integrated_puppet
@@ -48,6 +52,26 @@ set_autonomy = {
 set_autonomy = {
 	target = GRN
 	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+set_autonomy = {
+	target = BRE
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+set_autonomy = {
+	target = BAT
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+set_autonomy = {
+	target = WIF
+	autonomous_state = autonomy_puppet
+	freedom_level = 0.5
+}
+set_autonomy = {
+	target = BLZ
+	autonomous_state = autonomy_puppet
 	freedom_level = 0.5
 }
 set_convoys = 50

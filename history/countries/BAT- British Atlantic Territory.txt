@@ -1,22 +1,22 @@
-capital = 309
+capital = 299
 
-set_war_support = 0.2
+set_war_support = 0.3
 set_stability = 0.7
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 }
 set_politics = {
-	ruling_party = social_democracy
+	ruling_party = conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	social_democracy = 40
-	democratic = 25
-	conservatism = 25
-	neutrality = 5
+	conservatism = 50
+	democratic = 20
+	neutrality = 20
 	paternal_autocrat = 5
+	social_democracy = 5
 }

@@ -109,5 +109,9 @@ KMT = "countries/NationalistChina.txt"
 #Africa
 FFR = "countries/FreeFrance.txt"
 BUR = "countries/BurkinaFaso.txt"
+BRE = "countries/BritainExile.txt"
+#South America
+WIF = "countries/WestIndies.txt"
+BAT = "countries/BritishAtlantic.txt"
 
 
