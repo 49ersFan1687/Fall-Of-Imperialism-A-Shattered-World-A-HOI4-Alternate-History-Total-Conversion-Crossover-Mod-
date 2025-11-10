@@ -4,10 +4,10 @@ characters = {
 		name = WRS_Semyon_Mikhailovich_Budyonny
 		portraits = {
 			civilian = {
-
+				large = "gfx/leaders/wrs/Portrait_WRS_semyon_mikhailovich_budyonny.dds"
 			}
 			army = {
-
+				large = "gfx/leaders/wrs/Portrait_WRS_semyon_mikhailovich_budyonny.dds"
 			}
 		}
 		country_leader = {
@@ -60,10 +60,10 @@ characters = {
 		name = WRS_Georgy_Konstantinovich_Zhukov
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/wrs/Portrait_WRS_georgy_konstantinovich_zhukov.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/wrs/Portrait_WRS_georgy_konstantinovich_zhukov.dds"
 			}
 		}
 		country_leader = {
