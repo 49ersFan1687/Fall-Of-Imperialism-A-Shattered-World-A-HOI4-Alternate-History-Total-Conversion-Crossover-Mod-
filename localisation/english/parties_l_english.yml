@@ -162,8 +162,8 @@ dixecrat_ideology: "Dixiecrat"
 dixiecrat_ideology_desc: "Dixiecrat"
 fascist_stratocracy_ideology: "Fascist Stratocracy"
 fascist_stratocracy_ideology_desc: "Fascist Stratocracy"
-nation_first_nationalism_ideology: "'Me First' Nationalism"
-nation_first_nationalism_ideology_desc: "§Y'Me First' Nationalism§! is the Idea that the this nation is the §YMost Important of all Nations§!, and should care only about itself, with alliances and trade made only to favour themselves. §YIsolationist and Militarist§!, this ideology usually doesn't last very long."
+nation_first_nationalism_ideology: "'Nation First' Nationalism"
+nation_first_nationalism_ideology_desc: "§Y'Nation First' Nationalism§! is the Idea that the this nation is the §YMost Important of all Nations§!, and should care only about itself, with alliances and trade made only to favour themselves. §YIsolationist and Militarist§!, this ideology usually doesn't last very long."
 
 ### Subideologies -  National Socialism ###
 nazism_ideology: "Nazism"
