@@ -1,2 +1,7 @@
-add_namespace = CAL
-add_namespace = CAL
+add_namespace = CAL_start
+add_namespace = CAL_alexanders_military_mission
+add_namespace = CAL_anti_nazi_front
+add_namespace = CAL_remaining_allied_powers
+add_namespace = CAL_pre_war
+add_namespace = CAL_state_unification_war
+add_namespace = CAL_rebuilding_california
