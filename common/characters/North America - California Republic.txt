@@ -18,6 +18,7 @@ characters = {
     }
 
 	# Advisors #
+
     CAL_huey_pierce_long_jr = {
         name = CAL_huey_pierce_long_jr
         portraits = {
@@ -68,8 +69,8 @@ characters = {
 		}
 	}
 
-	CAL_Earl_Warren = {
-		name = CAL_Earl_Warren
+	CAL_earl_warren = {
+		name = CAL_earl_warren
 		portraits = {
 			civillian = {
 
@@ -78,6 +79,27 @@ characters = {
 		advisor = {
 			slot = 
 			idea_token = CAL_earl_warren_hog
+			allowed = { original_tag = CAL }
+			traits = {
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = yes
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	CAL_Thomas_Edmund_Dewey = {
+		name = CAL_Thomas_Edmund_Dewey
+		portraits = {
+			civillian = {
+
+			}
+		}
+		advisor = {
+			slot = 
+			idea_token = CAL_thomas_edmund_dewey_hog
 			allowed = { original_tag = CAL }
 			traits = {
 				
