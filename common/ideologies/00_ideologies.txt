@@ -3,6 +3,7 @@ ideologies = {
 	### Communist Subdeologies ###
     communism = {
         types = {
+			communism_ideology = { } # Generic #
 			national_communism_ideology = { }
 			council_communism_ideology = { }
 			marxism_ideology = { }
@@ -22,6 +23,7 @@ ideologies = {
 	### Socialist Subideologies ###
     socialism = {
         types = {
+			socialism_ideology = { } # Generic #
 			eco_socialism_ideology = { }
 			anarchism_ideology = { }
 			anarcho_communism_ideology = { }
@@ -40,7 +42,7 @@ ideologies = {
 	### Social Democrat Subideologies ###
     social_democracy = {
         types = {
-			social_democratic_progressive_democracy_ideology = { }
+			social_democratic_progressive_democracy_ideology = { } 
 			nordic_model_ideology = { }
 			narodnikism_ideology = { }
 			longism_ideology = { }
@@ -89,7 +91,6 @@ ideologies = {
 			tribal_paternalism_ideology = { }
 			auth_national_conservatism_ideology = { }
 			longism_ideology = { }
-			
         }
 		dynamic_faction_names = { }
 		color = { 135 135 140 }
@@ -100,7 +101,7 @@ ideologies = {
 	### Accelerationism Subideologies ###
     accelerationism = {
         types = {
-			accelerationism_ideology = { }
+			accelerationism_ideology = { } # Generic #
         }
 		dynamic_faction_names = { }
 		color = { 198 192 207 }
@@ -127,10 +128,10 @@ ideologies = {
 	### Fascist Subideologies ###
     fascism = {
         types = {
+			classical_fascism_ideology = { }
 			nation_first_nationalism_ideology = { }
 			dixiecrat_ideology = { }
 			fascist_stratocracy_ideology = { }
-
         }
 		dynamic_faction_names = { }
 		color = { 92 58 20 }
@@ -152,7 +153,7 @@ ideologies = {
 	### National Socialist Ideologies ###
     national_socialism = {
         types = {
-			nazism_ideology = { }
+			nazism_ideology = { } # Generic #
 			reformist_nazism_ideology = { }
 			technocratic_nazism_ideology = { }
 			stratocratic_nazism_ideology = { }
