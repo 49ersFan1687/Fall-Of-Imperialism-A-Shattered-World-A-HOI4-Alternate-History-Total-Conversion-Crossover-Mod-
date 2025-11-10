@@ -12,8 +12,8 @@ state = {
 
 	history = {
 
-		owner = FFR
-		add_core_of = FFR
+		owner = BRE
+		add_core_of = BRE
 
 		victory_points = {
 			10862 2 # Accra 

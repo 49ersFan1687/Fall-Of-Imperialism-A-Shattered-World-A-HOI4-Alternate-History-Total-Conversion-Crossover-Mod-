@@ -224,6 +224,9 @@
  MSI: "Illinois State Guard"
  MSI_DEF: "Illinois State Guard"
  MSI_ADJ: "Illinoisian"
+ CAN: "Kingdom of Canada"
+ CAN_DEF: "Kingdom of Canada"
+ CAN_ADJ: "Canadian"
 
 # PARTIES #
 
@@ -273,7 +276,6 @@ OPM_autumn_lockhart: "Autumn Lockhart"
 OPM_dylan_mikaelsen: "Dylan Mikaelsen"
 
 ###CSD###
-
 
 ###CAL###
 CAL_henry_agard_wallace: "Henry Agard Wallace"
