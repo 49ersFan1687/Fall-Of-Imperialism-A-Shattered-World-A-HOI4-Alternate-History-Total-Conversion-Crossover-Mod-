@@ -91,6 +91,7 @@ ideologies = {
 			tribal_paternalism_ideology = { }
 			auth_national_conservatism_ideology = { }
 			longism_ideology = { }
+			semi_constitutional_monarchy_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 135 135 140 }
@@ -118,6 +119,7 @@ ideologies = {
 			theocracy_ideology = { }
 			moderate_stratocracy_ideology = { }
 			moderate_dixiecrat_ideology = { }
+			absolute_monarchy_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 54 54 54 }
