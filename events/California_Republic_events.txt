@@ -8,6 +8,8 @@ add_namespace = CAL_pre_war
 add_namespace = CAL_state_unification_war
 add_namespace = CAL_rebuilding_california
 add_namespace = CAL_regional_reunification
+add_namespace = CAL_cascadia
+add_namespace = CAL_nevada
 add_namespace = CAL_regional_economy
 add_namespce = CAL_army_reform
 
