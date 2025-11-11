@@ -4001,7 +4001,7 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	x = -23
+	x = -23.5
 	y = 0
 	relative_position_id = CAL_alexanders_military_mission
 	completion_reward = {
@@ -5665,6 +5665,148 @@ shared_focus = {
 }
 
 # Military Reform - Navy # 
+
+shared_focus = {
+
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+# Military Reform - Air Force # 
 
 shared_focus = {
 
