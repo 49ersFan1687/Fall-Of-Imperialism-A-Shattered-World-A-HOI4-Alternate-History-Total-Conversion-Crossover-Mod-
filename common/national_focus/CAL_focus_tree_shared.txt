@@ -5686,7 +5686,7 @@ shared_focus = {
 		focus = CAL_marshall_modern_minuteman
 		focus = CAL_westmoreland_brute_force
 	}
-	x = -6.5
+	x = -7.5
 	y = 1
 	relative_position_id = CAL_choosing_the_new_doctrine_of_the_sca
 	completion_reward = {
@@ -5761,7 +5761,7 @@ shared_focus = {
 		focus = CAL_marshall_modern_minuteman
 		focus = CAL_eisenhower_return_to_form
 	}
-	x = 6.5
+	x = 7.5
 	y = 1
 	relative_position_id = CAL_choosing_the_new_doctrine_of_the_sca
 	completion_reward = {
@@ -5771,7 +5771,22 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_bombard_the_enemy_to_hell
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_eisenhower_return_to_form
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_eisenhower_return_to_form
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_bombard_the_enemy_to_hell"
+	}
 }
 
 shared_focus = {
@@ -5788,7 +5803,7 @@ shared_focus = {
 		focus = CAL_marshall_modern_minuteman
 		focus = CAL_westmoreland_brute_force
 	}
-	x = -2
+	x = -2.5
 	y = 1
 	relative_position_id = CAL_patton_army_of_the_future
 	completion_reward = {
@@ -5797,7 +5812,22 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_steel_plated_cavalry
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_patton_army_of_the_future
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_patton_army_of_the_future
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_steel_plated_cavalry"
+	}
 }
 
 shared_focus = {
@@ -5823,11 +5853,26 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_modernize_revolutionary_war_tactics
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_marshall_modern_minuteman
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_marshall_modern_minuteman
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_modernize_revolutionary_war_tactics"
+	}
 }
 
 shared_focus = {
-	id = CAL_implement_armored_cavalry_units
+	id = CAL_the_leagacy_of_general_pershing
 	icon = GFX
 	cost = 3
 	available_if_capitualted = no
@@ -5840,16 +5885,31 @@ shared_focus = {
 		focus = CAL_marshall_modern_minuteman
 		focus = CAL_westmoreland_brute_force
 	}
-	x = 2
+	x = 2.5
 	y = 1
 	relative_position_id = CAL_marshall_modern_minuteman
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_implement_armored_cavalry_units"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_leagacy_of_general_pershing"
 	}
 }
 
 shared_focus = {
-	
+	id = CAL_start_mass_army_conscription
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_westmoreland_brute_force
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_westmoreland_brute_force
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_start_mass_army_conscription"
+	}
 }
 
 shared_focus = {
