@@ -28,5 +28,13 @@ set_popularities = {
 }
 
 
-
+create_country_leader = {
+	name = "Taw Phaya Gyi"
+	desc = ""
+	picture = GFX_fish
+	ideology = absolute_monarchy_ideology
+	traits = {
+		#
+	}
+}
 

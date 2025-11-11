@@ -29,3 +29,12 @@ set_technology = { #VANILLA & DLC
 	basic_train = 1
 	tech_mountaineers = 1
 }
+create_country_leader = {
+	name = "Simeon Saxe-Coburg-Gotha"
+	desc = ""
+	picture = GFX_fish
+	ideology = absolute_monarchy_ideology
+	traits = {
+		#
+	}
+}

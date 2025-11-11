@@ -17,3 +17,12 @@ set_popularities = {
 	socialism = 10
 	
 }
+create_country_leader = {
+	name = "Earl Old Person"
+	desc = ""
+	picture = GFX_fish
+	ideology = tribal_paternalism_ideology
+	traits = {
+		#
+	}
+}

@@ -32,6 +32,7 @@ ideologies = {
 			socialist_narodnikism_ideology = { }
 			democratic_socialism_ideology = { }
 			red_junta_socialism_ideology = { }
+			pan_africanism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 209 0 0 }
@@ -46,6 +47,7 @@ ideologies = {
 			nordic_model_ideology = { }
 			narodnikism_ideology = { }
 			longism_ideology = { }
+			peronism_ideology = { }
 		}
 		dynamic_faction_names = { }
 		color = { 148 80 142 }
@@ -103,6 +105,7 @@ ideologies = {
     accelerationism = {
         types = {
 			accelerationism_ideology = { } # Generic #
+			cosmicism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 198 192 207 }
@@ -120,6 +123,7 @@ ideologies = {
 			moderate_stratocracy_ideology = { }
 			moderate_dixiecrat_ideology = { }
 			absolute_monarchy_ideology = { }
+			colonial_government_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 54 54 54 }

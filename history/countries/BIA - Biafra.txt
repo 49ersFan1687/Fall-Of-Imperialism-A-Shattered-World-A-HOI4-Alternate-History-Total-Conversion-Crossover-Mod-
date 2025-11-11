@@ -15,17 +15,25 @@ set_convoys = 0
 
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	paternal_autocrat = 65
-	neutrality = 15
-	conservatism = 20
+	democratic = 50
+	conservatism = 30
+	socialism = 20
 }
 
-
+create_country_leader = {
+	name = "Nnamdi Azikiwe"
+	desc = ""
+	picture = GFX_fish
+	ideology = national_liberalism_ideology
+	traits = {
+		#
+	}
+}
 
 

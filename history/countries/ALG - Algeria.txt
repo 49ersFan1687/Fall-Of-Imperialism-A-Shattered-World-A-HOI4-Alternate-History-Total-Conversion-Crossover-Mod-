@@ -24,5 +24,14 @@ set_popularities = {
 	fascism = 5
 	conservatism = 5
 }
+create_country_leader = {
+	name = "René Bousquet"
+	desc = ""
+	picture = GFX_fish
+	ideology = colonial_government_ideology
+	traits = {
+		#
+	}
+}
 
 

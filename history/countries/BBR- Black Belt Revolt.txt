@@ -21,3 +21,12 @@ set_popularities = {
 	neutrality = 10
 	
 }
+create_country_leader = {
+	name = "Malcolm X"
+	desc = ""
+	picture = GFX_fish
+	ideology = pan_africanism_ideology
+	traits = {
+		#
+	}
+}

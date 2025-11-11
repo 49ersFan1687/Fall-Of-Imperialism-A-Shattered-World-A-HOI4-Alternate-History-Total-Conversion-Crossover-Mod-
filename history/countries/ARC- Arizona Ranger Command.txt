@@ -19,3 +19,12 @@ set_popularities = {
 	democratic = 20
 	neutrality = 10
 }
+create_country_leader = {
+	name = "William MacLeod Raine"
+	desc = ""
+	picture = GFX_fish
+	ideology = military_junta_ideology
+	traits = {
+		#
+	}
+}

@@ -24,3 +24,12 @@ set_popularities = {
 	social_democracy = 15
 }
 
+create_country_leader = {
+	name = "Subhas Chandra Bose"
+	desc = ""
+	picture = GFX_fish
+	ideology = authoritarian_social_nationalism_ideology
+	traits = {
+		#
+	}
+}

@@ -18,3 +18,13 @@ set_popularities = {
 	socialism = 10
 	paternal_autocrat = 10
 }
+
+create_country_leader = {
+	name = "Lilakai Julian Neil"
+	desc = ""
+	picture = GFX_fish
+	ideology = tribal_paternalism_ideology
+	traits = {
+		#
+	}
+}
