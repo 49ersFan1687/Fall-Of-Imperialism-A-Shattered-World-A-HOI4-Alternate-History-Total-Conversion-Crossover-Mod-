@@ -5529,11 +5529,41 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_implementing_army_desegregation
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_begin_the_complete_and_total_overhaul_of_the_sca
+	}
+	x = -1.5
+	y = 1
+	relative_position_id = CAL_begin_the_complete_and_total_overhaul_of_the_sca
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_implement_army_desegregation"
+	}
 }
 
 shared_focus = {
-	id = CAL
+	id = CAL_building_bunkers_along_our_eastern_border
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_begin_the_complete_and_total_overhaul_of_the_sca
+	}
+	x = 1.5
+	y = 1
+	relative_position_id = CAL_begin_the_complete_and_total_overhaul_of_the_sca
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_building_bunkers_along_our_eastern_border"
+	}
 }
 
 shared_focus = {
