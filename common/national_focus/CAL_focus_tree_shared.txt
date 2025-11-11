@@ -15,7 +15,7 @@ shared_focus = {
 		custom_effect_tooltip = CAL_the_long_retreat_west_tooltip
         hidden_effect = {
 			CAL = {
-				country_event = { id = CAL.1 }
+				country_event = { id = CAL_start.1 }
 			}
 		}
 	}
@@ -351,7 +351,7 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_restablish_radio_contact_with_canada
 	}
-	x = -9
+	x = -5
 	y = -1
 	relative_position_id = CAL_barely_no_industry
 	completion_reward = {
@@ -644,7 +644,7 @@ shared_focus = {
 		has_completed_focus = CAL_contact_the_remnants
 	}
 	x = 0
-	y = 2
+	y = 11
 	relative_position_id = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_dreams_of_a_united_american_anti_nazi_front"
@@ -925,9 +925,9 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
 	}
-	x = 0
+	x = -4
 	y = 2
-	relative_position_id = CAL_hans_dont_surf
+	relative_position_id = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
 	completion reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_turn_to_the_remaining_allied_powers"
 	}
@@ -5502,7 +5502,7 @@ shared_focus = {
 shared_focus = {
 	id = CAL_begin_the_complete_and_total_overhaul_of_the_sca
 	icon = GFX
-	cost = 5
+	cost = 3
 	available_if_capitualted = no
 	ai_will_do = {
 		factor = 1
@@ -5513,20 +5513,27 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	x = 0
-	y = 2
-	relative_position_id = CAL_the_giant_awakens_once_more
+	x = 2
+	y = 7
+	relative_position_id = CAL_an_industrial_economy
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_the_complete_and_total_overhaul_of_the_sca"
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.75
+			uses = 2
+			category = land_doctrine
+		}
+		army_experience = 50
 	}
 }
 
 shared_focus = {
-	id = CAL
+	id = CAL_
 }
 
 shared_focus = {
-	
+	id = CAL
 }
 
 shared_focus = {
