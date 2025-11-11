@@ -87,6 +87,7 @@ characters = {
 			
 		}
     }
+
     WRS_Mikhail_Nikolayevich_Tukhachevsky = {
 		name = WRS_Mikhail_Nikolayevich_Tukhachevsky
 		portraits = {
@@ -115,6 +116,7 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+
 	WRS_Nestor_Lunin = {
 		name = WRS_Nestor_Lunin
 		portraits = {
@@ -134,6 +136,7 @@ characters = {
 			logistics_skill = 1
 		}
 	}
+	
 	# Red Army Generals #
 }
 
