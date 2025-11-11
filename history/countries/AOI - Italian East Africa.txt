@@ -43,7 +43,15 @@ set_popularities = {
 	paternal_autocrat = 95
 	fascism = 5
 }
-
+create_country_leader = {
+	name = "Prince Amedeo, Duke of Aosta"
+	desc = ""
+	picture = GFX_fish
+	ideology = colonial_government_ideology
+	traits = {
+		#
+	}
+}
 
 
 

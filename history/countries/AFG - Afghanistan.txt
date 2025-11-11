@@ -25,4 +25,12 @@ set_autonomy = {
 	autonomous_state = autonomy_puppet
 	freedom_level = 0.5
 }
-
+create_country_leader = {
+	name = "Mohammad Zahir Shah"
+	desc = ""
+	picture = GFX_fish
+	ideology = absolute_monarchy_ideology
+	traits = {
+		#
+	}
+}

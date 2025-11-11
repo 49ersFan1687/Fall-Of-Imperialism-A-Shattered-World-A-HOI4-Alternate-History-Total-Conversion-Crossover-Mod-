@@ -19,3 +19,13 @@ set_popularities = {
 	communism = 10
 	democratic = 10
 }
+
+create_country_leader = {
+	name = "Enrique Baldivieso"
+	desc = ""
+	picture = GFX_fish
+	ideology = red_junta_ideology
+	traits = {
+		#
+	}
+}

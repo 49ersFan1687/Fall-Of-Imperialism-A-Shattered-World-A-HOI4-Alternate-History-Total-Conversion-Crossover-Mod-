@@ -20,3 +20,12 @@ set_popularities = {
 	neutrality = 5
 	paternal_autocrat = 5
 }
+create_country_leader = {
+	name = "Victor Van Strydonck De Burkel"
+	desc = ""
+	picture = GFX_fish
+	ideology = national_liberalism_ideology
+	traits = {
+		#
+	}
+}

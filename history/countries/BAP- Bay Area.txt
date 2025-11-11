@@ -17,3 +17,12 @@ set_popularities = {
 	communism = 60
 	socialism = 40
 }
+create_country_leader = {
+	name = "Karl Yoneda"
+	desc = ""
+	picture = GFX_fish
+	ideology = marxism_ideology
+	traits = {
+		#
+	}
+}

@@ -20,3 +20,12 @@ set_popularities = {
 	paternal_autocrat = 5
 	social_democracy = 5
 }
+create_country_leader = {
+	name = "Gerald Charles Dickens"
+	desc = ""
+	picture = GFX_fish
+	ideology = toryism_ideology
+	traits = {
+		#
+	}
+}

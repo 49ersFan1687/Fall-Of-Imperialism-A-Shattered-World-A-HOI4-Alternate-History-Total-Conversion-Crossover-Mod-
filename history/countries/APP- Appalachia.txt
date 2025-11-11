@@ -19,3 +19,12 @@ set_popularities = {
 	neutrality = 10
 	
 }
+create_country_leader = {
+	name = "E. H. Crump"
+	desc = ""
+	picture = GFX_fish
+	ideology = conservatism_liberal_conservatism_ideology
+	traits = {
+		#
+	}
+}

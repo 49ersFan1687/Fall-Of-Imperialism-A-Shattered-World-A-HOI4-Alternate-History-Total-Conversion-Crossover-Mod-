@@ -21,3 +21,12 @@ set_popularities = {
 	socialism = 5
 	fascism = 5
 }
+create_country_leader = {
+	name = "J. Howard Pyle"
+	desc = ""
+	picture = GFX_fish
+	ideology = provisional_government_ideology
+	traits = {
+		#
+	}
+}

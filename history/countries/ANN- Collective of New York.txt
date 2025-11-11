@@ -21,3 +21,12 @@ set_popularities = {
 	
 	
 }
+create_country_leader = {
+	name = "Marie Ganz"
+	desc = ""
+	picture = GFX_fish
+	ideology = anarchism_ideology
+	traits = {
+		#
+	}
+}

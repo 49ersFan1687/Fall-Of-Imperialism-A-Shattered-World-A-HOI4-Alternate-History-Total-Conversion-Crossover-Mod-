@@ -37,4 +37,12 @@ set_popularities = {
 }
 
 set_convoys = 100
-
+create_country_leader = {
+	name = "Robert Menzies"
+	desc = ""
+	picture = GFX_fish
+	ideology = free_market_capitalism_ideology
+	traits = {
+		#
+	}
+}

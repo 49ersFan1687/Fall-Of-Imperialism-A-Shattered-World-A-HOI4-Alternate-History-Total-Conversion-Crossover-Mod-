@@ -19,3 +19,12 @@ set_popularities = {
 	national_socialism = 10
 	
 }
+create_country_leader = {
+	name = "Isaac Asimov"
+	desc = ""
+	picture = GFX_fish
+	ideology = cosmicism_ideology = { }
+	traits = {
+		#
+	}
+}

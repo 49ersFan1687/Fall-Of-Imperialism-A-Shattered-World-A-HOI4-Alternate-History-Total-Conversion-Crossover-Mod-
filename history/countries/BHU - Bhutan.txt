@@ -24,3 +24,12 @@ set_popularities = {
 	democratic = 5
 }
 
+create_country_leader = {
+	name = "Jigme Wangchuck"
+	desc = ""
+	picture = GFX_fish
+	ideology = absolute_monarchy_ideology
+	traits = {
+		#
+	}
+}

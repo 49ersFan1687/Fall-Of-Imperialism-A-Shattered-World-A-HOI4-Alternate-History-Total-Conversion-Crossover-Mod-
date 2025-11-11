@@ -22,3 +22,12 @@ set_popularities = {
 	social_democracy = 10
 	
 }
+create_country_leader = {
+	name = "Alan Burns"
+	desc = ""
+	picture = GFX_fish
+	ideology = colonial_government_ideology
+	traits = {
+		#
+	}
+}
