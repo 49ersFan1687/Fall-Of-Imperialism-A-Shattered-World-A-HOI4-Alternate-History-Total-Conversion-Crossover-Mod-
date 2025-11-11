@@ -136,7 +136,10 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	
+
+	# Advisors #
+
+
 	# Red Army Generals #
 }
 
