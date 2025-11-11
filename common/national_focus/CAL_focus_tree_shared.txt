@@ -5539,7 +5539,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_begin_the_complete_and_total_overhaul_of_the_sca
 	}
-	x = -1.5
+	x = -2.5
 	y = 1
 	relative_position_id = CAL_begin_the_complete_and_total_overhaul_of_the_sca
 	completion_reward = {
@@ -5548,7 +5548,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_building_bunkers_along_our_eastern_border
+	id = CAL_implementing_basic_training_reform
 	icon = GFX
 	cost = 3
 	available_if_capitualted = no
@@ -5558,7 +5558,26 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_begin_the_complete_and_total_overhaul_of_the_sca
 	}
-	x = 1.5
+	x = 0
+	y = 1
+	relative_position_id = CAL_begin_the_complete_and_total_overhaul_of_the_sca
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_implementing_basic_training_reform"
+	}
+}
+
+shared_focus = {
+	id = CAL_building_bunkers_along_our_eastern_borders
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_begin_the_complete_and_total_overhaul_of_the_sca
+	}
+	x = 2.5
 	y = 1
 	relative_position_id = CAL_begin_the_complete_and_total_overhaul_of_the_sca
 	completion_reward = {
@@ -5567,39 +5586,188 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_promote_new_general_officers_in_our_ranks
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_implementing_army_desegregation
+	}
+	prerequisite = {
+		focus = CAL_implementing_basic_training_reform
+	}
+	prerequisite = {
+		focus = CAL_building_bunkers_along_our_eastern_borders
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_implementing_basic_training_reform
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_promote_new_officers_in_our_ranks"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_expand_the_sca_military_police
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_promote_new_general_officers_in_our_ranks
+	}
+	x = -1.5
+	y = 1
+	relative_position_id = CAL_promote_new_general_officers_in_our_ranks
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_sca_military_police"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_promote_new_drill_sergeants
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_promote_new_general_officers_in_our_ranks
+	}
+	x = 1.5
+	y = 1
+	relative_position_id = CAL_promote_new_general_officers_in_our_ranks
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_new_drill_sergeants"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_choosing_the_new_doctrine_of_the_sca
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expand_the_sca_military_police
+	}
+	prerequisite = {
+		focus = CAL_promote_new_drill_sergeants
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_promote_new_general_officers_in_our_ranks
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_choosing_the_new_doctrine_of_the_sca"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_eisenhower_return_to_form
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_choosing_the_new_doctrine_of_the_sca
+	}
+	mutually_exclusive = {
+		focus = CAL_patton_army_of_the_future
+		focus = CAL_marshall_modern_minuteman
+		focus = CAL_westmoreland_brute_force
+	}
+	x = -7
+	y = 1
+	relative_position_id = CAL_choosing_the_new_doctrine_of_the_sca
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_eisenhower_return_to_form"
+		add_idea = CAL_Eisenhowers_vision1
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_patton_army_of_the_future
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_choosing_the_new_doctrine_of_the_sca
+	}
+	mutually_exclusive = {
+		focus = CAL_eisenhower_return_to_form
+		focus = CAL_marshall_modern_minuteman
+		focus = CAL_westmoreland_brute_force
+	}
+	x = -3
+	y = 1
+	relative_position_id = CAL_choosing_the_new_doctrine_of_the_sca
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_patton_army_of_the_future"
+		add_idea = CAL_Eisenhowers_vision1
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_marshall_modern_minuteman
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_choosing_the_new_doctrine_of_the_sca
+	}
+	mutually_exclusive = {
+		focus = CAL_eisenhower_return_to_form
+		focus = CAL_patton_army_of_the_future
+		focus = CAL_westmoreland_brute_force
+	}
+	x = 3
+	y = 1
+	relative_position_id = CAL_choosing_the_new_doctrine_of_the_sca
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_marshall_modern_minuteman"
+		add_idea = CAL_marshalls_vision1
+	}	
 }
 
 shared_focus = {
-	
-}
-
-shared_focus = {
-	
+	id = CAL_westmoreland_brute_force
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_choosing_the_new_doctrine_of_the_sca
+	}
+	mutually_exclusive = {
+		focus = CAL_patton_army_of_the_future
+		focus = CAL_marshall_modern_minuteman
+		focus = CAL_eisenhower_return_to_form
+	}
+	x = 7
+	y = 1
+	relative_position_id = CAL_choosing_the_new_doctrine_of_the_sca
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_eisenhower_return_to_form"
+		add_idea = CAL_westmorelands_vision1
+	}	
 }
 
 shared_focus = {
