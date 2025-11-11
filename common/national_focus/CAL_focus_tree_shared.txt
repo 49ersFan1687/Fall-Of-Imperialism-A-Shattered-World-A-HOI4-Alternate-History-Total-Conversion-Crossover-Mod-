@@ -4001,9 +4001,9 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	x = 19
+	x = -23
 	y = 0
-	relative_position_id = CAL_looking_outwards_from_the_golden_state
+	relative_position_id = CAL_alexanders_military_mission
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_economy_of_the_western_american_government"
 	}
@@ -4340,7 +4340,7 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = CAL_an_agrarian_economy
 	}
-	x = -8
+	x = -7.5
 	y = 1
 	relative_position_id = CAL_what_to_do_with_the_west
 	completion_reward = {
@@ -4381,7 +4381,7 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = CAL_following_marshalls_industrial_plan
 	}
-	x = 8
+	x = 7.5
 	y = 1
 	relative_position_id = CAL_what_to_do_with_the_west
 	completion_reward = {
@@ -4615,7 +4615,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_begin_public_works_projects
 	}
-	x = 1.2
+	x = 1.5
 	y = 1
 	relative_position_id = CAL_nationalize_small_railroad_companies
 	completion_reward = {
@@ -4659,7 +4659,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_importing_oil_shipments_from_mexico
 	}
-	x = -1.2
+	x = -1.5
 	y = 1
 	relative_position_id = CAL_importing_oil_shipments_from_mexico
 	completion_reward = {
@@ -5513,9 +5513,9 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	x = 2
-	y = 7
-	relative_position_id = CAL_an_industrial_economy
+	x = 20
+	y = 0
+	relative_position_id = CAL_looking_outwards_from_the_golden_state
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_the_complete_and_total_overhaul_of_the_sca"
 		add_doctrine_cost_reduction = {
