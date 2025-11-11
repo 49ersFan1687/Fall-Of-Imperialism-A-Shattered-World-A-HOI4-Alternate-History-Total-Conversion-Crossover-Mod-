@@ -89,10 +89,10 @@ characters = {
 		name = WRS_Mikhail_Nikolayevich_Tukhachevsky
 		portraits = {
 			civilian = {
-				large = GFX_fish
+				large = "gfx/leaders/wrs/Portrait_WRS_mikhail_nikolayevich_tukhachevsky"
 			}
 			army = {
-				large = GFX_fish
+				large = "gfx/leaders/wrs/Portrait_WRS_mikhail_nikolayevich_tukhachevsky"
 			}
 		}
 		country_leader = {
