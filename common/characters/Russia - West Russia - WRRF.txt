@@ -20,14 +20,15 @@ characters = {
 			id = -1
 		}
 		field_marshal = {
-			traits = {  }
+			traits = { inspirational_leader media_personality cavalry_officer cavalry_expert skilled_staffer }
 			skill = 3
-			attack_skill = 1
+			attack_skill = 4
 			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
+
     WRS_Mikhail_Vasilievich_Frunze = { 
 		name = WRS_Mikhail_Vasilievich_Frunze
 		portraits = {
@@ -48,14 +49,15 @@ characters = {
 			id = -1
 		}
 		field_marshal = {
-			traits = {  }
+			traits = { inspirational_leader offensive_doctrine war_hero politically_connected infantry_leader }
 			skill = 4
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
 		}
 	}
+
     WRS_Georgy_Konstantinovich_Zhukov = {
 		name = WRS_Georgy_Konstantinovich_Zhukov
 		portraits = {
