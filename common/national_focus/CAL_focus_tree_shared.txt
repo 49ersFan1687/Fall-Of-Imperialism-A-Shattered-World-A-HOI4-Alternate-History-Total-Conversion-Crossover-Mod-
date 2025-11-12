@@ -7012,7 +7012,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_adopt_the_lemay_reform_plan
 	}
-	x = -1.5
+	x = -1
 	y = 1
 	relative_position_id = CAL_adopt_the_lemay_reform_plan
 	completion_reward = {
@@ -7051,7 +7051,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_adopt_the_chennault_reform_plan
 	}
-	x = 1.5
+	x = 1
 	y = 1
 	relative_position_id = CAL_adopt_the_chennault_reform_plan
 	completion_reward = {
@@ -7060,27 +7060,103 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_carrier_based_fighters
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_revitalize_naval_aviation
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_revitalize_naval_aviation
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_carrier_based_fighters"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_new_transport_plane_designs
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_adopt_the_lemay_reform_plan
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_restore_the_united_states_army_airborne
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_new_transport_plane_designs"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_hold_the_first_post_war_fighter_design_competition
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_strategic_destruction_tactics
+		focus = CAL_set_up_jet_fighter_production
+	}
+	x = 0.3
+	y = 2
+	relative_position_id = CAL_adopt_the_lemay_reform_plan
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_hold_the_first_post_war_fighter_design_competition"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_mass_pilot_enlistment
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_adopt_the_chennault_reform_plan
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_adopt_the_chennault_reform_plan
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_mass_pilot_enlistment"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_better_jet_engine_designs
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_research_into_jet_engines
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_research_into_jet_engines
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_mass_pilot_enlistment"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_new_radar_systems
 }
 
 shared_focus = {
