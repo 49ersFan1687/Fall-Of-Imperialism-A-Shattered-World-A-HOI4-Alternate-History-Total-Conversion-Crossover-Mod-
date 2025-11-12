@@ -5989,35 +5989,155 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_improve_communication_between_units
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_supplying_the_army_with_all_the_shells_they_need
+	}
+	x = -1.3
+	y = 1
+	relative_position_id = CAL_supplying_the_army_with_all_the_shells_they_need
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_improve_communication_between_units"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_battalions_of_sluggers
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_supplying_the_army_with_all_the_shells_they_need
+	}
+	x = 1.3
+	y = 1
+	relative_position_id = CAL_supplying_the_army_with_all_the_shells_they_need
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_battalions_of_sluggers"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_an_aerial_and_armored_breakthrough
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_a_drive_towards_a_fully_mechanized_and_motorized_army
+	}
+	x = -1.3
+	y = 1
+	relative_position_id = CAL_a_drive_towards_a_fully_mechanized_and_motorized_army
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_an_aerial_and_armored_breakthrough"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_reinforcing_the_future_army
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_a_drive_towards_a_fully_mechanized_and_motorized_army
+	}
+	x = 1.3
+	y = 1
+	relative_position_id = CAL_a_drive_towards_a_fully_mechanized_and_motorized_army
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_battalions_of_sluggers"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_the_well_relegated_minuteman
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_use_the_knowledge_of_our_land
+	}
+	x = -1.3
+	y = 1
+	relative_position_id = CAL_use_the_knowledge_of_our_land
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_well_relegated_minuteman"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_spirit_of_the_green_mountaineers
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_use_the_knowledge_of_our_land
+	}
+	x = 1.3
+	y = 1
+	relative_position_id = CAL_use_the_knowledge_of_our_land
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_spirit_of_the_green_mountaineers"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_reinforcing_the_meat_grinders
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_train_the_army_in_large_front_battles
+	}
+	x = -1.3
+	y = 1
+	relative_position_id = CAL_train_the_army_in_large_front_battles
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reinforcing_the_meat_grinders"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_look_into_strategic_depth
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_train_the_army_in_large_front_battles
+	}
+	x = 1.3
+	y = 1
+	relative_position_id = CAL_train_the_army_in_large_front_battles
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_look_into_strategic_depth"
+	}	
 }
 
 shared_focus = {
