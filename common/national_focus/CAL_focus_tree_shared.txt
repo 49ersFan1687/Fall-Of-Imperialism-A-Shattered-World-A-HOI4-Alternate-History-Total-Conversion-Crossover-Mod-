@@ -6851,27 +6851,114 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
+	available = {
+		any_owned_state = {
+			is_controlled_by = CAL
+			is_coastal = yes
+		}
+	}
 	allow_branch = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	x = -4
-	y = 2
-	relative_position_id = CAL_the_army_goes_marching_along
+	x = 7
+	y = 0
+	relative_position_id = CAL_subsidiaries_for_potato_farmers
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reforming_the_united_states_navy"
 	}
 }
 
 shared_focus = {
-	
+	id = CAL_focus_the_fleet_on_submarines
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_reforming_the_united_states_navy
+	}
+	prerequisite = {
+		focus = CAL_reforming_the_united_states_navy
+	}
+	mutually_exclusive = {
+		focus = CAL_focus_the_fleet_on_battleships_and_carriers
+		focus = CAL_focus_the_fleet_on_cruisers_and_shore_protection
+	}
+	available = {
+		any_owned_state = {
+			is_controlled_by = CAL
+			is_coastal = yes
+		}
+	}
+	x = -5
+	y = 1
+	relative_position_id = CAL_reforming_the_united_states_navy
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_revive_the_great_white_fleet"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_focus_the_fleet_on_cruisers_and_shore_protection
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_reforming_the_united_states_navy
+	}
+	prerequisite = {
+		focus = CAL_reforming_the_united_states_navy
+	}
+	mutually_exclusive = {
+		focus = CAL_focus_the_fleet_on_battleships_and_carriers
+		focus = CAL_focus_the_fleet_on_submarines
+	}
+	available = {
+		any_owned_state = {
+			is_controlled_by = CAL
+			is_coastal = yes
+		}
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_reforming_the_united_states_navy
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_revive_the_great_white_fleet"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_focus_the_fleet_on_battleships_and_carriers
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_reforming_the_united_states_navy
+	}
+	mutually_exclusive = {
+		focus = CAL_focus_the_fleet_on_cruisers_and_shore_protection
+		focus = CAL_focus_the_fleet_on_submarines
+	}
+	available = {
+		any_owned_state = {
+			is_controlled_by = CAL
+			is_coastal = yes
+		}
+	}
+	x = 5
+	y = 1
+	relative_position_id = CAL_reforming_the_united_states_navy
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_revive_the_great_white_fleet"
+	}
 }
 
 shared_focus = {
@@ -7143,6 +7230,7 @@ shared_focus = {
 # Foreign Policy # 
 
 shared_focus = {
+	id = CAL_looking_beyond_the_borders_of_our_country
 
 }
 
