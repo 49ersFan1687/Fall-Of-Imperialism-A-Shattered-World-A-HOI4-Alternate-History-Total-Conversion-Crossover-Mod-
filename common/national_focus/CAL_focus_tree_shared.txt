@@ -7243,42 +7243,42 @@ shared_focus = {
 	}
 }
 
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
 # Military Reform - Navy # 
 
 shared_focus = {
-
+	id = CAL_reform_the_united_states_navy
+	icon = GFX_goal_USA_navy
+	cost = 5
+	available = {
+		any_owned_state = {
+			is_controlled_by = COR
+			is_coastal = yes
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			has_war = yes
+		}
+		modifier = {
+			factor = 0
+			NOT = { has_country_flag = choice_made }
+		}
+	}
+	x = 1
+	y = 10
+	relative_position_id = CAL_new_heavy_jet_bomber_designs
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reform_the_united_states_navy"
+		navy_experience = 10
+		add_doctrine_cost_reduction = {
+			name = naval_doc_bonus
+			cost_reduction = 0.5
+			uses = 1
+			category = naval_doctrine
+		}
+	}
 }
 
 shared_focus = {
