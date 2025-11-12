@@ -5494,8 +5494,8 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	x = -23
-	y = 3
+	x = -22
+	y = 1
 	relative_position_id = CAL_alexanders_military_mission
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_the_complete_and_total_overhaul_of_the_sca"
@@ -6835,9 +6835,9 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	x = 14
-	y = -3
-	relative_position_id = CAL_begin_the_complete_and_total_overhaul_of_the_sca
+	x = -9
+	y = 0
+	relative_position_id = CAL_alexanders_military_mission
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reforming_the_united_states_army_air_force"
 	}
@@ -7151,24 +7151,96 @@ shared_focus = {
 	y = 2
 	relative_position_id = CAL_research_into_jet_engines
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_mass_pilot_enlistment"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_better_jet_engine_designs"
 	}	
 }
 
 shared_focus = {
-	id = CAL_new_radar_systems
+	id = CAL_new_heavy_jet_bomber_designs
+		icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_hold_the_first_post_war_fighter_design_competition
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_strategic_destruction_tactics
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_mass_pilot_enlistment"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_improved_radar_systems
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_hold_the_first_post_war_fighter_design_competition
+	}
+	prerequisite = {
+		focus = CAL_better_jet_engine_designs
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_set_up_jet_fighter_production
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_improved_radar_systems"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_new_jet_fighter_designs
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_hold_the_first_post_war_fighter_design_competition
+	}
+	prerequisite = {
+		focus = CAL_better_jet_engine_designs
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_introduce_dive_bombing_tactics
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_new_jet_fighter_designs"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_nothing_can_stop_the_us_air_force
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_new_heavy_jet_bomber_designs
+	}
+	prerequisite = {
+		focus = CAL_improved_radar_systems
+	}
+	prerequisite = {
+		focus = CAL_new_jet_fighter_designs
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_improved_radar_systems
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_mass_pilot_enlistment"
+	}
 }
 
 shared_focus = {
