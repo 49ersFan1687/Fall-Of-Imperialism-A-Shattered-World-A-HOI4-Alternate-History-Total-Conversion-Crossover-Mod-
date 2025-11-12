@@ -4001,8 +4001,8 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	x = -23.5
-	y = 0
+	x = -17
+	y = 8
 	relative_position_id = CAL_alexanders_military_mission
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_economy_of_the_western_american_government"
@@ -6854,7 +6854,7 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	x = 0
+	x = -4
 	y = 2
 	relative_position_id = CAL_the_army_goes_marching_along
 	completion_reward = {
