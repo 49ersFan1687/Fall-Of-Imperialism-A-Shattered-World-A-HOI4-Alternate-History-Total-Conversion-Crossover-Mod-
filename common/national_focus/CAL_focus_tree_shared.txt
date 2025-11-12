@@ -2474,7 +2474,7 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_the_new_bastion_of_freedom
 	}
-	x = 9
+	x = 8.5
 	y = -1
 	relative_position_id = CAL_alone_and_isolated
 	completion_reward = {
@@ -6832,18 +6832,18 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
+	allow_branch = {
+		has_completed_focus = CAL_form_the_western_american_government
+	}
 	available = {
 		any_owned_state = {
 			is_controlled_by = CAL
 			is_coastal = yes
 		}
 	}
-	allow_branch = {
-		has_completed_focus = CAL_form_the_western_american_government
-	}
-	x = 19
-	y = 0
-	relative_position_id = CAL_begin_the_complete_and_total_overhaul_of_the_sca
+	x = 0
+	y = 2
+	relative_position_id = CAL_the_army_goes_marching_along
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reforming_the_united_states_navy"
 	}
