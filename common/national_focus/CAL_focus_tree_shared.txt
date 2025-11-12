@@ -6046,7 +6046,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_reinforcing_the_future_army
+	id = CAL_an_efficient_army
 	icon = GFX
 	cost = 3
 	available_if_capitualted = no
@@ -6060,7 +6060,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_drive_towards_a_fully_mechanized_and_motorized_army
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_battalions_of_sluggers"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_an_efficient_army"
 	}	
 }
 
@@ -6141,7 +6141,22 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_easing_tensions_between_soldiers_and_officers
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_improve_communication_between_units
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_improve_communication_between_units
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_easing_tensions_between_soldiers_and_officers"
+	}
 }
 
 shared_focus = {
@@ -6164,27 +6179,87 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_integrate_helicopters_into_the_army
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_an_aerial_and_armored_breakthrough
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_an_aerial_and_armored_breakthrough
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_an_aerial_and_armored_breakthrough"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_an_unceasing_tide_of_steel
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_an_efficient_army
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_an_efficient_army
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_an_aerial_and_armored_breakthrough"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_revive_the_jayhawkers
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_the_well_relegated_minuteman
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_the_well_relegated_minuteman
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_an_aerial_and_armored_breakthrough"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_hunters_of_the_night
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_spirit_of_the_green_mountaineers
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_spirit_of_the_green_mountaineers
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_hunters_of_the_night"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL
 }
 
 shared_focus = {
-	
+	id = CAL	
 }
 
 shared_focus = {
