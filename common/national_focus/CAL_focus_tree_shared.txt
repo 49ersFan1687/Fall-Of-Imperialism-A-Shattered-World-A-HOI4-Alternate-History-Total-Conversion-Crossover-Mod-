@@ -6312,7 +6312,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_integrating_tanks_into_our_army
+	id = CAL_integrating_armored_divisions_into_army
 	icon = GFX
 	cost = 3
 	available_if_capitualted = no
@@ -6369,19 +6369,101 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL	
+	id = CAL_teach_artillery_ambush_tactics
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_revive_the_jayhawkers
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_revive_the_jayhawkers
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_teach_artillery_ambush_tactics"
+	}
 }
 
 shared_focus = {
-	id = CAL	
+	id = CAL_improved_camoflauge_equipment
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_hunters_of_the_night
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_hunters_of_the_night
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_improved_camoflauge_equipment"
+	}	
 }
 
 shared_focus = {
-	id = CAL	
+	id = CAL_an_unbreakable_wall_of_steel
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_unending_flood_of_soldiers
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_unending_flood_of_soldiers
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_an_unbreakable_wall_of_steel"
+	}
 }
 
 shared_focus = {
-	id = CAL	
+	id = CAL_creating_artillery_brigades
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_supplying_a_large_army
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_supplying_a_large_army
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_creating_artillery_brigades"
+	}
+}
+
+shared_focus = {
+	id = CAL_earn_your_stripes
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_improving_infantry_equipment
+	}
+	prerequisite = {
+		focus = CAL_integrating_armored_divisions_into_army
+	}
+	x = 0
+	y = 4
+	relative_position_id = CAL_supplying_the_army_with_all_the_shells_they_need
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_earn_your_stripes"
+	}
 }
 
 shared_focus = {
@@ -6389,7 +6471,25 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_towards_a_better_tank
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_mobile_armored_artillery
+	}
+	prerequisite = {
+		focus = CAL_establish_the_aerial_scouts
+	}
+	x = 0
+	y = 4
+	relative_position_id = CAL_a_drive_towards_a_fully_mechanized_and_motorized_army
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_creating_artillery_brigades"
+	}	
 }
 
 shared_focus = {
@@ -6397,7 +6497,25 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_special_forces_lead_the_way
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_teach_artillery_ambush_tactics
+	}
+	prerequisite = {
+		focus = CAL_improved_camoflauge_equipment
+	}
+	x = 0
+	y = 4
+	relative_position_id = CAL_use_the_knowledge_of_our_land
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_creating_artillery_brigades"
+	}	
 }
 
 shared_focus = {
@@ -6405,11 +6523,25 @@ shared_focus = {
 }
 
 shared_focus = {
-	
-}
-
-shared_focus = {
-	
+	id = CAL_an_american_form_of_deep_battle
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_an_unbreakable_wall_of_steel
+	}
+	prerequisite = {
+		focus = CAL_creating_artillery_brigades
+	}
+	x = 0
+	y = 4
+	relative_position_id = CAL_train_the_army_in_large_front_battles
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_an_american_form_of_deep_battle"
+	}
 }
 
 shared_focus = {
