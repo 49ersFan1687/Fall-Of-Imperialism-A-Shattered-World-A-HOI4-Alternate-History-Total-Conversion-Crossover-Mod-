@@ -8109,34 +8109,6 @@ shared_focus = {
 	}	
 }
 
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
 # Foreign Policy # 
 
 shared_focus = {
