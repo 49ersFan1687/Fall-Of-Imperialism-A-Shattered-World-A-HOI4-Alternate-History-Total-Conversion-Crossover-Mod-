@@ -48,6 +48,7 @@ ideologies = {
 			narodnikism_ideology = { }
 			longism_ideology = { }
 			peronism_ideology = { }
+			internationalist_social_democracy_ideology = { }
 		}
 		dynamic_faction_names = { }
 		color = { 148 80 142 }
@@ -78,6 +79,8 @@ ideologies = {
 			conservatism_liberal_conservatism_ideology = { }
 			national_conservatism_ideology = { }
 			christian_democracy_ideology = { }
+			progressive_conservatism_ideology = { }
+			batistaism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 22 37 138 }
@@ -118,6 +121,7 @@ ideologies = {
         types = {
 			red_junta_ideology = { }
 			military_junta_ideology = { }
+			civilian_dictatorship_ideology = { }
 			authoritarian_social_nationalism_ideology = { }
 			theocracy_ideology = { }
 			moderate_stratocracy_ideology = { }
@@ -138,6 +142,7 @@ ideologies = {
 			nation_first_nationalism_ideology = { }
 			dixiecrat_ideology = { }
 			fascist_stratocracy_ideology = { }
+			esoteric_fascism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 92 58 20 }
@@ -178,6 +183,7 @@ ideologies = {
 			anarcho_primitivism_ideology = { }  
 			esoteric_nazism_esoteric_ideology = { }
 			occultist_nazism_esoteric_ideology = { }
+			esoteric_esoteric_fascism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 49 24 71 }

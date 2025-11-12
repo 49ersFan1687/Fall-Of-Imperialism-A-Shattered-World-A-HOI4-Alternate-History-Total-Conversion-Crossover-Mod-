@@ -17,3 +17,12 @@ set_popularities = {
 	paternal_autocrat = 80
 	neutrality = 20
 }
+create_country_leader = {
+	name = "Ray W. Hays"
+	desc = ""
+	picture = GFX_fish
+	ideology = military_junta_ideology
+	traits = {
+		#
+	}
+}

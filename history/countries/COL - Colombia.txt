@@ -19,3 +19,12 @@ set_popularities = {
 	socialism = 10
 	fascism = 10
 }
+create_country_leader = {
+	name = "Laureano Gómez"
+	desc = ""
+	picture = GFX_fish
+	ideology = national_conservatism_ideology
+	traits = {
+		#
+	}
+}

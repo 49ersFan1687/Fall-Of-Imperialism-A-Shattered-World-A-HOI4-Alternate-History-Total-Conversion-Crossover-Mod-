@@ -34,6 +34,14 @@ set_popularities = {
 	neutrality = 5
 	communism = 3
 }
-
+create_country_leader = {
+	name = "Norodom Sihanouk"
+	desc = ""
+	picture = GFX_fish
+	ideology = absolute_monarchy_ideology
+	traits = {
+		#
+	}
+}
 
 

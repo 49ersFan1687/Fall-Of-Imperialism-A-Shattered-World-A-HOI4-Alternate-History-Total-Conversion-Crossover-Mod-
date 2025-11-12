@@ -21,3 +21,12 @@ set_popularities = {
 	
 	
 }
+create_country_leader = {
+	name = "George H. W. Bush"
+	desc = ""
+	picture = GFX_fish
+	ideology = provisional_government_ideology
+	traits = {
+		#
+	}
+}

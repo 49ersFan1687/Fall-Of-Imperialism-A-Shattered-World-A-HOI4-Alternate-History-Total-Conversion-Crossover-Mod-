@@ -27,6 +27,15 @@ set_popularities = {
 	fascism = 2
 	conservatism = 5
 }
+create_country_leader = {
+	name = "Tomislav II"#Prince Aimone Duke of Aosta
+	desc = ""
+	picture = GFX_fish
+	ideology = absolute_monarchy_ideology
+	traits = {
+		#
+	}
+}
 
 
 

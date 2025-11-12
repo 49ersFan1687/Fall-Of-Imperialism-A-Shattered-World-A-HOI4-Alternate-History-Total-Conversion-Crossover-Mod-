@@ -24,3 +24,12 @@ set_popularities = {
 	neutrality = 10
 	conservatism = 20
 }
+create_country_leader = {
+	name = "Jean-Bédel Bokassa"
+	desc = ""
+	picture = GFX_fish
+	ideology = absolute_monarchy_ideology
+	traits = {
+		#
+	}
+}
