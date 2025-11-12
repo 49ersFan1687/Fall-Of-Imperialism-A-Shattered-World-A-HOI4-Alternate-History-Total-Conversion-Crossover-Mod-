@@ -6838,7 +6838,7 @@ shared_focus = {
 	}
 }
 
-# Military Reform - Air Force # 
+# Military Reform - Navy # 
 
 shared_focus = {
 	id = CAL_reforming_the_united_states_navy
