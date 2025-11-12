@@ -97,6 +97,7 @@ ideologies = {
 			auth_national_conservatism_ideology = { }
 			longism_ideology = { }
 			semi_constitutional_monarchy_ideology = { }
+			democratic_stratocracy_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 135 135 140 }
