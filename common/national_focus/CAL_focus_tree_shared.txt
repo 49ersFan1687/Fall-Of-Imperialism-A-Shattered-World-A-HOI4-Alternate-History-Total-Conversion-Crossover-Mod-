@@ -5913,19 +5913,79 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_supplying_the_army_with_all_the_shells_they_need
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_bombard_the_enemy_to_hell
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_bombard_the_enemy_to_hell
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_supplying_the_army_with_all_the_shells_they_need"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_a_drive_towards_a_fully_mechanized_and_motorized_army
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_steel_plated_cavalry
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_steel_plated_cavalry
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_drive_towards_a_fully_mechanized_and_motorized_army"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_use_the_knowledge_of_our_land
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_modernize_revolutionary_war_tactics
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_modernize_revolutionary_war_tactics
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_use_the_knowledge_of_our_land"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_train_the_army_in_large_front_battles
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_start_mass_army_conscription
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_start_mass_army_conscription
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_train_the_army_in_large_front_battles"
+	}
 }
 
 shared_focus = {
