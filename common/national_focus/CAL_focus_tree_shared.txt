@@ -2711,7 +2711,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_hang_the_nazis_and_fascists
+	id = CAL_hang_the_silver_shirts
 	icon = GFX
 	cost = 3
 	available_if_capitualted = no
@@ -2828,7 +2828,7 @@ shared_focus = {
 		focus = CAL_free_the_opressed
 	}
 	prerequisite = {
-		focus = CAL_hang_the_nazis_and_fascists
+		focus = CAL_hang_the_silver_shirts
 	}
 	x = 0
 	y = 3
