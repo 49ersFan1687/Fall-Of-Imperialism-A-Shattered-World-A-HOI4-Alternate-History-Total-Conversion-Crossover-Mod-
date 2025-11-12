@@ -6293,6 +6293,114 @@ shared_focus = {
 }
 
 shared_focus = {
+	id = CAL_improving_infantry_equipment
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_easing_tensions_between_soldiers_and_officers
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_easing_tensions_between_soldiers_and_officers
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_improving_infantry_equipment"
+	}
+}
+
+shared_focus = {
+	id = CAL_integrating_tanks_into_our_army
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_find_fix_and_fight_them
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_find_fix_and_fight_them
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrating_tanks_into_our_army"
+	}
+}
+
+shared_focus = {
+	id = CAL_mobile_armored_artillery
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_integrate_helicopters_into_the_army
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_integrate_helicopters_into_the_army
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_mobile_armored_artillery"
+	}
+}
+
+shared_focus = {
+	id = CAL_establish_the_aerial_scouts
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_an_unceasing_tide_of_steel
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_an_unceasing_tide_of_steel
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_mobile_armored_artillery"
+	}
+}
+
+shared_focus = {
+	id = CAL	
+}
+
+shared_focus = {
+	id = CAL	
+}
+
+shared_focus = {
+	id = CAL	
+}
+
+shared_focus = {
+	id = CAL	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
 	
 }
 
