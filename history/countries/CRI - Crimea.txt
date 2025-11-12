@@ -33,7 +33,15 @@ set_popularities = {
 	esotericism = 5
 }
 
-
+create_country_leader = {
+	name = "Paul Ludwig Ewald von Kleist"
+	desc = ""
+	picture = GFX_fish
+	ideology = stratocratic_nazism_ideology
+	traits = {
+		#
+	}
+}
 
 
 

@@ -27,6 +27,14 @@ set_popularities = {
 	neutrality = 13
 	fascism = 2
 }
-
+create_country_leader = {
+	name = "Chen Gongbo"
+	desc = ""
+	picture = GFX_fish
+	ideology = civilian_dictatorship_ideology
+	traits = {
+		#
+	}
+}
 
 

@@ -19,3 +19,12 @@ set_popularities = {
 	neutrality = 5
 	conservatism = 5
 }
+create_country_leader = {
+	name = "José Figueres Ferrer"
+	desc = ""
+	picture = GFX_fish
+	ideology = social_democratic_progressive_democracy_ideology
+	traits = {
+		#
+	}
+}

@@ -24,3 +24,12 @@ set_popularities = {
 	neutrality = 10
 	conservatism = 30
 }
+create_country_leader = {
+	name = "Alfred Albert Martineau"
+	desc = ""
+	picture = GFX_fish
+	ideology = colonial_government_ideology
+	traits = {
+		#
+	}
+}

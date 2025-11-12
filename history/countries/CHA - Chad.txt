@@ -25,3 +25,12 @@ set_popularities = {
 	democratic = 10
 	socialism = 10
 }
+create_country_leader = {
+	name = "François Tombalbaye"
+	desc = ""
+	picture = GFX_fish
+	ideology = authoritarian_social_nationalism_ideology
+	traits = {
+		#
+	}
+}
