@@ -6676,7 +6676,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CAL_the_new_american_army
-		icon = GFX
+	icon = GFX
 	cost = 3
 	available_if_capitualted = no
 	ai_will_do = {
@@ -6692,36 +6692,150 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_the_way_of_the_zouave
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_attack_attack_attack"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_new_american_army"
 	}
 }
 
 shared_focus = {
-	
+	id = CAL_mad_dash_to_progress
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_the_new_american_army
+	}
+	x = -1.5
+	y = 1
+	relative_position_id = CAL_the_new_american_army
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_mad_dash_to_progress"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_reestablish_the_war_production_board
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_the_new_american_army
+	}
+	x = 1.5
+	y = 1
+	relative_position_id = CAL_the_new_american_army
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reestablish_the_war_production_board"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_remembering_our_fallen
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_mad_dash_to_progress
+	}
+	x = -2
+	y = 1
+	relative_position_id = CAL_mad_dash_to_progress
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reestablish_the_war_production_board"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_this_is_my_rifle_this_is_my_gun
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_mad_dash_to_progress
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_mad_dash_to_progress
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reestablish_the_war_production_board"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_improving_army_medical_units
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_reestablish_the_war_production_board
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_reestablish_the_war_production_board
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_improving_army_medical_units"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_using_hollywoods_studios
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_reestablish_the_war_production_board
+	}
+	x = 2
+	y = 1
+	relative_position_id = CAL_reestablish_the_war_production_board
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_using_hollywoods_studios"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_the_army_goes_marching_along
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_remembering_our_fallen
+	}
+	prerequisite = {
+		focus = CAL_this_is_my_rifle_this_is_my_gun
+	}
+	prerequisite = {
+		focus = CAL_improving_army_medical_units
+	}
+	prerequisite = {
+		focus = CAL_using_hollywoods_studios
+	}
+	x = 0
+	y = 3
+	relative_position_id = CAL_the_new_american_army
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_army_goes_marching_along"
+	}
 }
 
 shared_focus = {
