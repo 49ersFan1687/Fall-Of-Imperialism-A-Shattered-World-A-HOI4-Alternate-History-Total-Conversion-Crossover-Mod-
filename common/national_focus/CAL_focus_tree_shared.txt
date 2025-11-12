@@ -6467,7 +6467,25 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_integrating_flame_tanks_into_the_army
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_earn_your_stripes
+		focus = CAL_towards_a_better_tank
+		focus = CAL_special_forces_lead_the_way
+		focus = CAL_an_american_form_of_deep_battle
+	}
+	x = 0
+	y = 6
+	relative_position_id = CAL_the_military_industrial_complex
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrating_flame_tanks_into_the_army"
+	}
 }
 
 shared_focus = {
@@ -6493,7 +6511,25 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_the_way_of_the_zouave
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_earn_your_stripes
+		focus = CAL_towards_a_better_tank
+		focus = CAL_special_forces_lead_the_way
+		focus = CAL_an_american_form_of_deep_battle
+	}
+	x = 0
+	y = 6
+	relative_position_id = CAL_rangers_lead_the_way
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_way_of_the_zouave"
+	}	
 }
 
 shared_focus = {
@@ -6519,7 +6555,25 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_integrating_mechanized_cavalry
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_earn_your_stripes
+		focus = CAL_towards_a_better_tank
+		focus = CAL_special_forces_lead_the_way
+		focus = CAL_an_american_form_of_deep_battle
+	}
+	x = 0
+	y = 6
+	relative_position_id = CAL_the_leagacy_of_general_pershing
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrating_mechanized_cavalry"
+	}
 }
 
 shared_focus = {
@@ -6545,6 +6599,124 @@ shared_focus = {
 }
 
 shared_focus = {
+	id = CAL_roughshod_discipline
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_earn_your_stripes
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_earn_your_stripes
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_roughshod_discipline"
+	}
+}
+
+shared_focus = {
+	id = CAL_officers_must_lead_by_example
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_towards_a_better_tank
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_towards_a_better_tank
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_officers_must_lead_by_example"
+	}	
+}
+
+shared_focus = {
+	id = CAL_masters_of_guerilla_warfare
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_special_forces_lead_the_way
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_special_forces_lead_the_way
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_masters_of_guerilla_warfare"
+	}
+}
+
+shared_focus = {
+	id = CAL_attack_attack_attack
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_an_american_form_of_deep_battle
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_an_american_form_of_deep_battle
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_attack_attack_attack"
+	}
+}
+
+shared_focus = {
+	id = CAL_the_new_american_army
+		icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_roughshod_discipline
+		focus = CAL_officers_must_lead_by_example
+		focus = CAL_masters_of_guerilla_warfare
+		focus = CAL_attack_attack_attack
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_the_way_of_the_zouave
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_attack_attack_attack"
+	}
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
 	
 }
 
@@ -6571,6 +6743,7 @@ shared_focus = {
 shared_focus = {
 	
 }
+
 
 # Military Reform - Navy # 
 
