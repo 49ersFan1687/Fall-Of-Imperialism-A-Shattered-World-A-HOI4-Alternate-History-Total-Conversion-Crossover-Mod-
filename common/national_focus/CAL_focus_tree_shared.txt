@@ -5513,7 +5513,7 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	x = 17
+	x = 16
 	y = 0
 	relative_position_id = CAL_looking_outwards_from_the_golden_state
 	completion_reward = {
@@ -6255,11 +6255,41 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL
+	id = CAL_unending_flood_of_soldiers
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_reinforcing_the_meat_grinders
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_reinforcing_the_meat_grinders
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_hunters_of_the_night"
+	}
 }
 
 shared_focus = {
-	id = CAL	
+	id = CAL_supplying_a_large_army
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_look_into_strategic_depth
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_look_into_strategic_depth
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_supplying_a_large_army"
+	}
 }
 
 shared_focus = {
