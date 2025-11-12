@@ -7947,11 +7947,53 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_remembering_order_forty_seven
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	prerequisite = {
+		focus = CAL_reform_the_united_states_marine_corps
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_reform_the_united_states_marine_corps
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_remembering_order_forty_seven"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_refine_and_evolve_biddles_tactics
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	prerequisite = {
+		focus = CAL_reform_the_united_states_marine_corps
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_reform_the_united_states_marine_corps
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_refine_and_evolve_biddles_tactics"
+	}
 }
 
 shared_focus = {
