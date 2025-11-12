@@ -4001,8 +4001,8 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	x = -17
-	y = 8
+	x = -16.5
+	y = 7
 	relative_position_id = CAL_alexanders_military_mission
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_economy_of_the_western_american_government"
@@ -5438,7 +5438,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_establishing_the_war_production_board
+	id = CAL_restoring_the_arsenal_of_democracy
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -5454,25 +5454,6 @@ shared_focus = {
 	x = 1
 	y = 1
 	relative_position_id = CAL_back_on_track
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_establishing_the_war_production_board"
-	}
-}
-
-shared_focus = {
-	id = CAL_restoring_the_arsenal_of_democracy
-	icon = GFX
-	cost = 5
-	available_if_capitualted = no
-	ai_will_do = {
-		factor = 1
-	}
-	prerequisite = {
-		focus = CAL_establishing_the_war_production_board
-	}
-	x = 0
-	y = 1
-	relative_position_id = CAL_establishing_the_war_production_board
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_restoring_the_arsenal_of_democracy"
 	}
@@ -5513,7 +5494,7 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	x = 16
+	x = 15.5
 	y = 0
 	relative_position_id = CAL_looking_outwards_from_the_golden_state
 	completion_reward = {
@@ -6860,121 +6841,12 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	x = 7
+	x = 19
 	y = 0
-	relative_position_id = CAL_subsidiaries_for_potato_farmers
+	relative_position_id = CAL_begin_the_complete_and_total_overhaul_of_the_sca
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reforming_the_united_states_navy"
 	}
-}
-
-shared_focus = {
-	id = CAL_focus_the_fleet_on_submarines
-	icon = GFX
-	cost = 3
-	available_if_capitualted = no
-	ai_will_do = {
-		factor = 1
-	}
-	prerequisite = {
-		focus = CAL_reforming_the_united_states_navy
-	}
-	prerequisite = {
-		focus = CAL_reforming_the_united_states_navy
-	}
-	mutually_exclusive = {
-		focus = CAL_focus_the_fleet_on_battleships_and_carriers
-		focus = CAL_focus_the_fleet_on_cruisers_and_shore_protection
-	}
-	available = {
-		any_owned_state = {
-			is_controlled_by = CAL
-			is_coastal = yes
-		}
-	}
-	x = -5
-	y = 1
-	relative_position_id = CAL_reforming_the_united_states_navy
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_revive_the_great_white_fleet"
-	}
-}
-
-shared_focus = {
-	id = CAL_focus_the_fleet_on_cruisers_and_shore_protection
-	icon = GFX
-	cost = 3
-	available_if_capitualted = no
-	ai_will_do = {
-		factor = 1
-	}
-	prerequisite = {
-		focus = CAL_reforming_the_united_states_navy
-	}
-	prerequisite = {
-		focus = CAL_reforming_the_united_states_navy
-	}
-	mutually_exclusive = {
-		focus = CAL_focus_the_fleet_on_battleships_and_carriers
-		focus = CAL_focus_the_fleet_on_submarines
-	}
-	available = {
-		any_owned_state = {
-			is_controlled_by = CAL
-			is_coastal = yes
-		}
-	}
-	x = 0
-	y = 1
-	relative_position_id = CAL_reforming_the_united_states_navy
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_revive_the_great_white_fleet"
-	}
-}
-
-shared_focus = {
-	id = CAL_focus_the_fleet_on_battleships_and_carriers
-	icon = GFX
-	cost = 3
-	available_if_capitualted = no
-	ai_will_do = {
-		factor = 1
-	}
-	prerequisite = {
-		focus = CAL_reforming_the_united_states_navy
-	}
-	mutually_exclusive = {
-		focus = CAL_focus_the_fleet_on_cruisers_and_shore_protection
-		focus = CAL_focus_the_fleet_on_submarines
-	}
-	available = {
-		any_owned_state = {
-			is_controlled_by = CAL
-			is_coastal = yes
-		}
-	}
-	x = 5
-	y = 1
-	relative_position_id = CAL_reforming_the_united_states_navy
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_revive_the_great_white_fleet"
-	}
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
 }
 
 shared_focus = {
@@ -7228,11 +7100,6 @@ shared_focus = {
 }
 
 # Foreign Policy # 
-
-shared_focus = {
-	id = CAL_looking_beyond_the_borders_of_our_country
-
-}
 
 shared_focus = {
 	
