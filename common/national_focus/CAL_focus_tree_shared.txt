@@ -6141,6 +6141,37 @@ shared_focus = {
 }
 
 shared_focus = {
+	id = CAL_
+}
+
+shared_focus = {
+	id = CAL_find_fix_and_fight_them
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_battalions_of_sluggers
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_battalions_of_sluggers
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_find_fix_and_fight_them"
+	}
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
 	
 }
 
