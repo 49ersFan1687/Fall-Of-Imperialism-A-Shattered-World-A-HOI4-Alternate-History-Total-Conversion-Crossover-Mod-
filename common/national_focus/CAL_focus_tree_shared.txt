@@ -2502,7 +2502,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_dealing_with_the_despots_in_california
+	id = CAL_dealing_with_pelleys_extremists
 	icon = GFX
 	cost = 3
 	available_if_capitualted = no
@@ -2512,7 +2512,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_but_preparations_have_to_be_made_first
 	}
-	x = -3.8
+	x = -4
 	y = 1
 	relative_position_id = CAL_but_preparations_have_to_be_made_first
 	completion_reward = {
@@ -2550,7 +2550,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_but_preparations_have_to_be_made_first
 	}
-	x = 3.8
+	x = 4
 	y = 1
 	relative_position_id = CAL_but_preparations_have_to_be_made_first
 	completion_reward = {
@@ -2567,18 +2567,18 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_dealing_with_the_despots_in_california
+		focus = CAL_dealing_with_pelleys_extremists
 	}
 	x = -1
 	y = 1
-	relative_position_id = CAL_dealing_with_the_despots_in_california
+	relative_position_id = CAL_dealing_with_pelleys_extremists
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_liberation"
 	}
 }
 
 shared_focus = {
-	id = CAL_silence_the_ultranationalists
+	id = CAL_silence_pelley
 	icon = GFX
 	cost = 3
 	available_if_capitualted = no
@@ -2586,11 +2586,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_dealing_with_the_despots_in_california
+		focus = CAL_dealing_with_pelleys_extremists
 	}
 	x = 1
 	y = 1
-	relative_position_id = CAL_dealing_with_the_despots_in_california
+	relative_position_id = CAL_dealing_with_pelleys_extremists
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_shut_the_ultranationalists_up"
 	}	
@@ -2719,11 +2719,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_silence_the_ultranationalists
+		focus = CAL_silence_pelley
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_silence_the_ultranationalists
+	relative_position_id = CAL_silence_pelley
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_hang_the_nazis_and_fascists"
 	}	
@@ -2832,7 +2832,7 @@ shared_focus = {
 	}
 	x = 0
 	y = 3
-	relative_position_id = CAL_dealing_with_the_despots_in_california
+	relative_position_id = CAL_dealing_with_pelleys_extremists
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_we_the_people"
 	}	
@@ -2899,7 +2899,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_no_to_fascism
+	id = CAL_say_no_to_fascism
 	icon = GFX
 	cost = 3
 	available_if_capitualted = no
@@ -2973,7 +2973,7 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_no_to_fascism
+		focus = CAL_say_no_to_fascism
 	}
 	prerequisite = {
 		focus = CAL_the_situation_is_under_control
