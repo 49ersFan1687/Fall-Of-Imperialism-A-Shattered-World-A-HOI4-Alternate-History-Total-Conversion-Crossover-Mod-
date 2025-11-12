@@ -7219,7 +7219,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_nothing_can_stop_the_us_air_force
+	id = CAL_nothing_can_stop_the_us_army_air_force
 	icon = GFX
 	cost = 3
 	available_if_capitualted = no
@@ -7239,7 +7239,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_improved_radar_systems
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_mass_pilot_enlistment"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_nothing_can_stop_the_us_army_air_force"
 	}
 }
 
@@ -7247,8 +7247,9 @@ shared_focus = {
 
 shared_focus = {
 	id = CAL_reform_the_united_states_navy
-	icon = GFX_goal_USA_navy
+	icon = GFX
 	cost = 5
+	available_if_capitualted = no
 	available = {
 		any_owned_state = {
 			is_controlled_by = COR
@@ -7257,21 +7258,19 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
-		modifier = {
-			factor = 1.5
-			has_war = yes
-		}
-		modifier = {
-			factor = 0
-			NOT = { has_country_flag = choice_made }
-		}
 	}
-	x = 1
+	available = {
+		has_completed_focus = CAL_form_the_western_american_government
+	}
+	allow_branch = {
+		has_completed_focus = CAL_form_the_western_american_government
+	}
+	x = 0
 	y = 10
 	relative_position_id = CAL_new_heavy_jet_bomber_designs
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reform_the_united_states_navy"
-		navy_experience = 10
+		navy_experience = 20
 		add_doctrine_cost_reduction = {
 			name = naval_doc_bonus
 			cost_reduction = 0.5
@@ -7282,39 +7281,296 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_whose_reform_plan_should_we_follow
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	available = {
+		any_owned_state = {
+			is_controlled_by = COR
+			is_coastal = yes
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_reform_the_united_states_navy
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_reform_the_united_states_navy
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_whose_reform_plan_should_we_follow"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_follow_admiral_kings_reform_plan
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	available = {
+		any_owned_state = {
+			is_controlled_by = COR
+			is_coastal = yes
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_whose_reform_plan_should_we_follow
+	}
+	mutually_exclusive = {
+		focus = CAL_follow_admiral_kidds_reform_plan
+		focus = CAL_follow_admiral_nimitzs_reform_plan
+	}
+	x = -3
+	y = 1
+	relative_position_id = CAL_whose_reform_plan_should_we_follow
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_follow_admiral_kings_reform_plan"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_follow_admiral_kidds_reform_plan
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	available = {
+		any_owned_state = {
+			is_controlled_by = COR
+			is_coastal = yes
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_whose_reform_plan_should_we_follow
+	}
+	mutually_exclusive = {
+		focus = CAL_follow_admiral_kings_reform_plan
+		focus = CAL_follow_admiral_nimitzs_reform_plan
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_whose_reform_plan_should_we_follow
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_follow_admiral_kidds_reform_plan"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_follow_admiral_nimitzs_reform_plan
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	available = {
+		any_owned_state = {
+			is_controlled_by = COR
+			is_coastal = yes
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_whose_reform_plan_should_we_follow
+	}
+	mutually_exclusive = {
+		focus = CAL_follow_admiral_kidds_reform_plan
+		focus = CAL_follow_admiral_kings_reform_plan
+	}
+	x = 3
+	y = 1
+	relative_position_id = CAL_whose_reform_plan_should_we_follow
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_follow_admiral_nimitzs_reform_plan"
+	}
+}
+
+
+shared_focus = {
+	id = CAL_building_new_battleships
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_follow_admiral_kings_reform_plan
+		focus = CAL_follow_admiral_kidds_reform_plan
+		focus = CAL_follow_admiral_nimitzs_reform_plan
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_follow_admiral_kings_reform_plan
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_building_new_battleships"
+		add_tech_bonus = {
+			name = navy_bonus
+			bonus = 1
+			uses = 2
+			category = shbb_tech
+		}
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_new_battlecruiser_designs
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			has_war = yes
+		}
+	}
+	prerequisite = {
+		focus = CAL_follow_admiral_kings_reform_plan
+		focus = CAL_follow_admiral_kidds_reform_plan
+		focus = CAL_follow_admiral_nimitzs_reform_plan
+	}
+	x = -2
+	y = 2
+	relative_position_id = CAL_whose_reform_plan_should_we_follow
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_new_battlecruiser_designs"
+		add_tech_bonus = {
+			name = navy_bonus
+			bonus = 1
+			uses = 2
+			category = ca_tech
+		}
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_reinstate_the_us_coast_guard
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	ai_will_do = {
+		factor = 1
+			modifier = {
+				factor = 1.5
+				has_war = yes
+			}
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_follow_admiral_kidds_reform_plan
+		prerequisite = {
+			focus = CAL_protect_american_trade
+		}
+		
+		completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reinstate_the_us_coast_guard"
+		add_tech_bonus = {
+			name = navy_bonus
+			bonus = 1
+			uses = 2
+			category = dd_tech
+		}
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_new_light_cruisers
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			has_war = yes
+		}
+	}
+	prerequisite = {
+		focus = CAL_follow_admiral_kings_reform_plan
+		focus = CAL_follow_admiral_kidds_reform_plan
+		focus = CAL_follow_admiral_nimitzs_reform_plan
+	}
+	x = 2
+	y = 1
+	relative_position_id = CAL_follow_admiral_kidds_reform_plan
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_new_light_cruisers"
+		add_tech_bonus = {
+			name = navy_bonus
+			bonus = 1
+			uses = 2
+			category = cl_tech
+		}
+	}
 }
 
 shared_focus = {
-	
-}
-
-shared_focus = {
-	
+	id = CAL_mobile_floating_airfields
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			has_war = yes
+		}
+	}
+	prerequisite = {
+		focus = CAL_follow_admiral_kings_reform_plan
+		focus = CAL_follow_admiral_kidds_reform_plan
+		focus = CAL_follow_admiral_nimitzs_reform_plan	
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_follow_admiral_nimitzs_reform_plan
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_naval_aviation"
+		add_tech_bonus = {
+			name = navy_air_bonus
+			bonus = 1
+			uses = 2
+			category = naval_air
+		}
+	}
 }
 
 shared_focus = {
