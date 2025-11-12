@@ -7938,8 +7938,8 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_anchors_aweigh
 	}
-	x = 0
-	y = 1
+	x = -8
+	y = -2
 	relative_position_id = CAL_the_army_goes_marching_along
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reform_the_united_states_marine_corps"
@@ -7972,7 +7972,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_refine_and_evolve_biddles_tactics
+	id = CAL_refine_biddles_tactics
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -7997,19 +7997,116 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_marines_as_foot_soldiers
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	prerequisite = {
+		focus = CAL_remembering_order_forty_seven
+	}
+	mutually_exclusive = {
+		focus = CAL_mechanized_marine_corps
+	}
+	x = -2
+	y = 2
+	relative_position_id = CAL_reform_the_united_states_marine_corps
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_marines_as_foot_soldiers"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_blowtorch_and_corkscrew
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	prerequisite = {
+		focus = CAL_remembering_order_forty_seven
+	}
+	prerequisite = {
+		focus = CAL_refine_biddles_tactics
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_reform_the_united_states_marine_corps
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_blowtorch_and_corkscrew"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_a_mechanized_marine_corps
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	prerequisite = {
+		focus = CAL_refine_biddles_tactics
+	}
+	mutually_exclusive = {
+		focus = CAL_marines_as_foot_soldiers
+	}
+	x = 2
+	y = 2
+	relative_position_id = CAL_reform_the_united_states_marine_corps
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_marines_as_foot_soldiers"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_semper_fi
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	prerequisite = {
+		focus = CAL_blowtorch_and_corkscrew
+	}
+	prerequisite = {
+		focus = CAL_marines_as_foot_soldiers
+		focus = CAL_a_mechanized_marine_corps
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_blowtorch_and_corkscrew
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_marines_as_foot_soldiers"
+	}	
 }
 
 shared_focus = {
