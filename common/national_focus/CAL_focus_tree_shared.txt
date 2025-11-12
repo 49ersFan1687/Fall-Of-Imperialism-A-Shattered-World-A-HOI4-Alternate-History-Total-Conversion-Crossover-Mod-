@@ -4001,9 +4001,9 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	x = -16.5
-	y = 7
-	relative_position_id = CAL_alexanders_military_mission
+	x = 18
+	y = 0
+	relative_position_id = CAL_looking_outwards_from_the_golden_state
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_economy_of_the_western_american_government"
 	}
@@ -5494,9 +5494,9 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	x = 15.5
-	y = 0
-	relative_position_id = CAL_looking_outwards_from_the_golden_state
+	x = -23
+	y = 3
+	relative_position_id = CAL_alexanders_military_mission
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_the_complete_and_total_overhaul_of_the_sca"
 		add_doctrine_cost_reduction = {
@@ -6819,10 +6819,10 @@ shared_focus = {
 	}
 }
 
-# Military Reform - Navy # 
+# Military Reform - Air Force # 
 
 shared_focus = {
-	id = CAL_reforming_the_united_states_navy
+	id = CAL_reforming_the_united_states_army_air_force
 	icon = GFX
 	cost = 3
 	available_if_capitualted = no
@@ -6835,18 +6835,228 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	available = {
-		any_owned_state = {
-			is_controlled_by = CAL
-			is_coastal = yes
-		}
+	x = 14
+	y = -3
+	relative_position_id = CAL_begin_the_complete_and_total_overhaul_of_the_sca
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reforming_the_united_states_army_air_force"
+	}
+}
+
+shared_focus = {
+	id = CAL_building_new_airfields_and_expanding_others
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_reforming_the_united_states_army_air_force
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_reforming_the_united_states_army_air_force
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_building_new_airfields_and_expanding_others"
+	}
+}
+
+shared_focus = {
+	id = CAL_revitalize_naval_aviation
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_building_new_airfields_and_expanding_others
+	}
+	x = -7
+	y = 1
+	relative_position_id = CAL_building_new_airfields_and_expanding_others
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_revitalize_naval_aviation"
+	}	
+}
+
+shared_focus = {
+	id = CAL_restore_the_united_states_army_airborne
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_building_new_airfields_and_expanding_others
+	}
+	x = -4
+	y = 1
+	relative_position_id = CAL_building_new_airfields_and_expanding_others
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_restore_the_united_states_army_airborne"
+	}
+}
+
+shared_focus = {
+	id = CAL_adopt_the_lemay_reform_plan
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_building_new_airfields_and_expanding_others
+	}
+	mutually_exclusive = {
+		focus = CAL_adopt_the_chennault_reform_plan
+	}
+	x = -1.5
+	y = 1
+	relative_position_id = CAL_building_new_airfields_and_expanding_others
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_adopt_the_lemay_reform_plan"
+	}
+}
+
+shared_focus = {
+	id = CAL_adopt_the_chennault_reform_plan
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_building_new_airfields_and_expanding_others
+	}
+	mutually_exclusive = {
+		focus = CAL_adopt_the_lemay_reform_plan
+	}
+	x = 1.5
+	y = 1
+	relative_position_id = CAL_building_new_airfields_and_expanding_others
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_adopt_the_chennault_reform_plan"
+	}
+}
+
+shared_focus = {
+	id = CAL_research_into_jet_engines
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_building_new_airfields_and_expanding_others
+	}
+	x = 4
+	y = 1
+	relative_position_id = CAL_building_new_airfields_and_expanding_others
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_research_into_jet_engines"
+	}
+}
+
+shared_focus = {
+	id = CAL_designing_jet_powered_naval_bombers
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_revitalize_naval_aviation
+	}
+	x = -1.5
+	y = 1
+	relative_position_id = CAL_revitalize_naval_aviation
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_designing_jet_powered_naval_bombers"
+	}
+}
+
+shared_focus = {
+	id = CAL_new_naval_pilot_training_programs
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_revitalize_naval_aviation
+	}
+	x = 1.5
+	y = 1
+	relative_position_id = CAL_revitalize_naval_aviation
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_new_naval_pilot_training_programs"
+	}	
+}
+
+shared_focus = {
+	id = CAL_strategic_destruction_tactics
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_adopt_the_lemay_reform_plan
+	}
+	x = -1.5
+	y = 1
+	relative_position_id = CAL_adopt_the_lemay_reform_plan
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_strategic_destruction_tactics"
+	}
+}
+
+shared_focus = {
+	id = CAL_set_up_jet_fighter_production
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_adopt_the_lemay_reform_plan
+		focus = CAL_adopt_the_chennault_reform_plan
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_the_army_goes_marching_along
+	relative_position_id = CAL_building_new_airfields_and_expanding_others
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_reforming_the_united_states_navy"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_set_up_jet_fighter_production"
+	}	
+}
+
+shared_focus = {
+	id = CAL_introduce_dive_bombing_tactics
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
 	}
+	prerequisite = {
+		focus = CAL_adopt_the_chennault_reform_plan
+	}
+	x = 1.5
+	y = 1
+	relative_position_id = CAL_adopt_the_chennault_reform_plan
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_introduce_dive_bombing_tactics"
+	}	
 }
 
 shared_focus = {
@@ -6917,47 +7127,7 @@ shared_focus = {
 	
 }
 
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-# Military Reform - Air Force # 
+# Military Reform - Navy # 
 
 shared_focus = {
 
