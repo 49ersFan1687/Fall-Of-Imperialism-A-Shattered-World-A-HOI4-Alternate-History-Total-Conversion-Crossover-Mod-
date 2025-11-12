@@ -7266,7 +7266,7 @@ shared_focus = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
 	x = 0
-	y = 10
+	y = 8
 	relative_position_id = CAL_new_heavy_jet_bomber_designs
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reform_the_united_states_navy"
@@ -7481,20 +7481,19 @@ shared_focus = {
 				has_war = yes
 			}
 	}
+	prerequisite = {
+		focus = CAL_follow_admiral_kidds_reform_plan
+	}
 	x = 0
 	y = 1
 	relative_position_id = CAL_follow_admiral_kidds_reform_plan
-		prerequisite = {
-			focus = CAL_protect_american_trade
-		}
-		
-		completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_reinstate_the_us_coast_guard"
-		add_tech_bonus = {
-			name = navy_bonus
-			bonus = 1
-			uses = 2
-			category = dd_tech
+	completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus CAL_reinstate_the_us_coast_guard"
+	add_tech_bonus = {
+		name = navy_bonus
+		bonus = 1
+		uses = 2
+		category = dd_tech
 		}
 	}
 }
@@ -7574,31 +7573,218 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_expand_dockyards
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			has_war = yes
+		}
+	}
+	prerequisite = {
+		focus = CAL_building_new_battleships
+		focus = CAL_reinstate_the_us_coast_guard
+		focus = CAL_mobile_floating_airfields
+	}
+	x = 1
+	y = 2
+	relative_position_id = CAL_follow_admiral_kings_reform_plan
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_dockyards"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_the_legacy_of_annapolis
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			has_war = yes
+		}
+	}
+	prerequisite = {
+		focus = CAL_building_new_battleships
+		focus = CAL_reinstate_the_us_coast_guard
+		focus = CAL_mobile_floating_airfields
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_reinstate_the_us_coast_guard
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_legacy_of_annapolis"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_new_naval_bases
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			has_war = yes
+		}
+	}
+	prerequisite = {
+		focus = CAL_building_new_battleships
+		focus = CAL_reinstate_the_us_coast_guard
+		focus = CAL_mobile_floating_airfields
+	}
+	x = -1
+	y = 2
+	relative_position_id = CAL_follow_admiral_nimitzs_reform_plan
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_new_naval_bases"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_the_american_submarine_fleet
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			has_war = yes
+		}
+	}
+	prerequisite = {
+		focus = CAL_expand_dockyards
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_expand_dockyards
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_submarines"
+		add_tech_bonus = {
+			name = navy_bonus
+			bonus = 1
+			uses = 2
+			category = ss_tech
+		}
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_new_liberty_ship_models
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			has_war = yes
+		}
+	}
+	prerequisite = {
+		focus = CAL_expand_dockyards
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_expand_dockyards
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_submarines"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_expand_the_naval_air_stations
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			has_war = yes
+		}
+	}
+	prerequisite = {
+		focus = CAL_new_naval_bases
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_new_naval_bases
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_submarines"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_rebuilding_destroyed_naval_bases
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			has_war = yes
+		}
+	}
+	prerequisite = {
+		focus = CAL_new_naval_bases
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_new_naval_bases
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_destroyed_naval_bases"
+	}	
 }
 
 shared_focus = {
