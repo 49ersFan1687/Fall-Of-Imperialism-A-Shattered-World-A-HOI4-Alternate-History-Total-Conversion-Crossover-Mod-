@@ -111,7 +111,26 @@ characters = {
 		}
 	}
 
-	CAL_Walter_Elias_Disney
+	CAL_Walter_Elias_Disney = {
+		name = CAL_Walter_Elias_Disney
+		portraits = {
+			civillian = {
+
+			}
+		}
+		advisor = {
+			slot = 
+			idea_token = CAL_walter_elias_disney_hog
+			allowed = { original_tag = CAL }
+			traits = {
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = yes
+			ai_will_do = { factor = 0 }
+		}
+	}
 
     # Field Marshals #
 	CAL_Dwight_David_Eisenhower = {
