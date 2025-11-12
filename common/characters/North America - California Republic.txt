@@ -111,6 +111,8 @@ characters = {
 		}
 	}
 
+	CAL_Walter_Elias_Disney
+
     # Field Marshals #
 	CAL_Dwight_David_Eisenhower = {
 		name = CAL_Dwight_David_Eisenhower
