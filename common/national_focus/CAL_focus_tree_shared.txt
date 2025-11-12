@@ -7140,7 +7140,7 @@ shared_focus = {
 	
 }
 
-# Military Reform - Navy # 
+# Foreign Policy # 
 
 shared_focus = {
 
