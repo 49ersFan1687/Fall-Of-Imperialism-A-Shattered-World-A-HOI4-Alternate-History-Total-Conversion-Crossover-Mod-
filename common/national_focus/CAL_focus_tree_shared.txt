@@ -6742,7 +6742,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_this_is_my_rifle_this_is_my_gun
+	id = CAL_this_is_my_rifle_there_are_many_like_it
 	icon = GFX
 	cost = 3
 	available_if_capitualted = no
@@ -6810,7 +6810,7 @@ shared_focus = {
 		focus = CAL_remembering_our_fallen
 	}
 	prerequisite = {
-		focus = CAL_this_is_my_rifle_this_is_my_gun
+		focus = CAL_this_is_my_rifle_there_are_many_like_it
 	}
 	prerequisite = {
 		focus = CAL_improving_army_medical_units
@@ -8135,7 +8135,7 @@ shared_focus = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
 	x = 0
-	y = 2
+	y = 3
 	relative_position_id = CAL_the_army_goes_marching_along
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reinstate_the_secretary_of_state_office"
@@ -8172,7 +8172,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_searching_for_legitimacy
 	}
-	x = -6
+	x = -7
 	y = 1
 	relative_position_id = CAL_searching_for_legitimacy
 	completion_reward = {
@@ -8229,7 +8229,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_searching_for_legitimacy
 	}
-	x = 6
+	x = 7
 	y = 1
 	relative_position_id = CAL_searching_for_legitimacy
 	completion_reward = {
