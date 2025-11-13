@@ -28,6 +28,7 @@ characters = {
 			logistics_skill =
 		}
     }
+
 	CSD_Yuko_Oshima = {
 		name = CSD_Yuko_Oshima
 		portraits = {
@@ -47,6 +48,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_Minami_Takahashi = {
 		name = CSD_Minami_Takahashi
 		portraits = {
@@ -66,6 +68,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_Mariko_Shinoda = {
 		name = CSD_Mariko_Shinoda
 		portraits = {
@@ -85,6 +88,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_Aki_Takajo = {
 		name = CSD_Aki_Takajo
 		portraits = {
@@ -125,6 +129,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_Sae_Miyazawa = {
 		name = CSD_Sae_Miyazawa
 		portraits = {
@@ -144,6 +149,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_Rie_Kitahara = {
 		name = CSD_Rie_Kitahara
 		portraits = {
@@ -163,6 +169,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_Tomomi_Kasai = {
 		name = CSD_Tomomi_Kasai
 		portraits = {
@@ -182,6 +189,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_Minami_Minegishi = {
 		name = CSD_Minami_Minegishi
 		portraits = {
@@ -201,6 +209,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_Jurina_Matsui = {
 		name = CSD_Jurina_Matsui
 		portraits = {
@@ -220,6 +229,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_Sayaka_Akimoto = {
 		name = CSD_Sayaka_Akimoto
 		portraits = {
@@ -239,6 +249,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_Rino_Sashihara = {
 		name = CSD_Rino_Sashihara
 		portraits = {
@@ -258,6 +269,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_Asuka_Kuramochi = {
 		name = CSD_Asuka_Kuramochi
 		portraits = {
@@ -277,6 +289,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+	
 	CSD_Miho_Miyazaki = {
 		name = CSD_Miho_Miyazaki
 		portraits = {
@@ -296,6 +309,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_Erena_Ono = {
 		name = CSD_Erena_Ono
 		portraits = {
@@ -348,6 +362,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_Tomomi_Itano = {
 		name = CSD_Tomomi_Itano
 		portraits = {
@@ -379,6 +394,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_Haruna_Kojima = {
 		name = CSD_Haruna_Kojima
 		portraits = {
@@ -410,6 +426,7 @@ characters = {
 			}
 		}
 	}
+
 	CSD_Rena_Matsui = {
 		name = CSD_Rena_Matsui
 		portraits = {
@@ -439,6 +456,7 @@ characters = {
 			traits = { }
 		}
 	}
+	
 	# Cascadian Army Rangers - The Power Rangers (Field Marshals) #
 
 	CSD_jason_lee_scott = {
