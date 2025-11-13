@@ -1,3 +1,22 @@
 characters = {
-    
+
+    # Country Leaders #
+
+    CAN_Louis_Stephen_St_Laurent = {
+        name = CAN_Louis_Stephen_St_Laurent
+        portraits = {
+			civilian = {
+				large = 
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_LOUIS_ST_LAURENT_DESC"
+			expire = "1994.4.20"
+			ideology = progressive_conservatism_ideology
+			traits = {
+
+			}
+		}
+    }
+
 }
