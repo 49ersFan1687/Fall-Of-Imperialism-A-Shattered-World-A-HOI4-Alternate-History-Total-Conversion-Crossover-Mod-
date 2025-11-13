@@ -28,7 +28,9 @@ characters = {
 
 
     # British Exiles Field Marshals #
-
+    CAN_Bernard_Law_Montgomery = {
+        
+    }
 
     # British Exiles Generals #
 
