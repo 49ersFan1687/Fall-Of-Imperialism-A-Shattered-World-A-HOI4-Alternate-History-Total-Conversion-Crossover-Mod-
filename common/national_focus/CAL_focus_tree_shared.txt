@@ -6733,7 +6733,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_mad_dash_to_progress
 	}
-	x = -2
+	x = -2.5
 	y = 1
 	relative_position_id = CAL_mad_dash_to_progress
 	completion_reward = {
@@ -6790,7 +6790,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_reestablish_the_war_production_board
 	}
-	x = 2
+	x = 2.5
 	y = 1
 	relative_position_id = CAL_reestablish_the_war_production_board
 	completion_reward = {
