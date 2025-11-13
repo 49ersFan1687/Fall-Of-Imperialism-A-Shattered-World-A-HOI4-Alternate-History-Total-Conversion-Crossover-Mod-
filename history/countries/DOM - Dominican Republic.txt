@@ -17,3 +17,12 @@ set_popularities = {
 	paternal_autocrat = 95
 	conservatism = 5
 }
+create_country_leader = {
+	name = "Rafael Trujillo"
+	desc = ""
+	picture = GFX_fish
+	ideology = civilian_dictatorship_ideology
+	traits = {
+		#
+	}
+}

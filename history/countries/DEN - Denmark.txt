@@ -34,4 +34,13 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_country_leader = {
+	name = "Frits Clausen"
+	desc = ""
+	picture = GFX_fish
+	ideology = stratocratic_nationalism_ideology
+	traits = {
+		#
+	}
+}
 

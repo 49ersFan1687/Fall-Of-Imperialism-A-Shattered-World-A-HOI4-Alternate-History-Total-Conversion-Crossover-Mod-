@@ -26,3 +26,12 @@ set_popularities = {
 	conservatism = 10
 }
 
+create_country_leader = {
+	name = "Farouk I"
+	desc = ""
+	picture = GFX_fish
+	ideology = absolute_monarchy_ideology
+	traits = {
+		#
+	}
+}

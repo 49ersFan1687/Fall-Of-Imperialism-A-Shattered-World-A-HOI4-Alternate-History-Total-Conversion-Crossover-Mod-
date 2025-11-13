@@ -20,3 +20,12 @@ set_popularities = {
 	neutrality = 10
 	
 }
+create_country_leader = {
+	name = "Strom Thurmond"
+	desc = ""
+	picture = GFX_fish
+	ideology = dixiecrat_ideology
+	traits = {
+		#
+	}
+}
