@@ -30,5 +30,13 @@ set_popularities = {
 	socialism = 5
 	democratic = 5
 }
-
+create_country_leader = {
+	name = "Semyon Nomokonov"
+	desc = ""
+	picture = GFX_fish
+	ideology = autonomous_communism_ideology
+	traits = {
+		#
+	}
+}
 

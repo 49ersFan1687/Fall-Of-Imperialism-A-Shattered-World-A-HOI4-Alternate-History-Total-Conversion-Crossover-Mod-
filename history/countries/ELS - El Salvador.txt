@@ -19,3 +19,12 @@ set_popularities = {
 	neutrality = 10
 	conservatism = 10
 }
+create_country_leader = {
+	name = "Revolutionary Council of Government"
+	desc = ""
+	picture = GFX_fish
+	ideology = democratic_stratocracy_ideology
+	traits = {
+		#
+	}
+}

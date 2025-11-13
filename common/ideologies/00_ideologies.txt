@@ -13,6 +13,7 @@ ideologies = {
 			trotskyism_ideology = { }
 			bukharinism_ideology = { }
 			red_junta_communism_ideology = { }
+			autonomous_communism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 117 20 13 }
@@ -43,7 +44,7 @@ ideologies = {
 	### Social Democrat Subideologies ###
     social_democracy = {
         types = {
-			social_democracy = { } # Generic #
+			social_democracy_ideology = { } #Generic
 			social_democratic_progressive_democracy_ideology = { } 
 			nordic_model_ideology = { }
 			narodnikism_ideology = { }
@@ -60,12 +61,14 @@ ideologies = {
 	### Liberal Subideologies ###
     democratic = {
         types = {
+			liberalism_ideology = { } #Generic
 			progressive_democracy_ideology = { }
 			centrism_ideology = { }
 			liberalism_liberal_conservatism_ideology = { }
 			free_market_capitalism_ideology = { }
 			national_liberalism_ideology = { }
 			classical_liberalism_ideology = { }
+			technocratic_liberalism_ideology = { }
 		}
 		dynamic_faction_names = { }
 		color = { 31 121 181 }
@@ -76,6 +79,7 @@ ideologies = {
 	### Conservative Subideologies ###
     conservatism = {
         types = {
+			conservatism_ideology = { } #Generic
 			toryism_ideology = { }
 			conservatism_liberal_conservatism_ideology = { }
 			national_conservatism_ideology = { }
@@ -92,6 +96,7 @@ ideologies = {
 	### Authoritarian Democracy Subideologies ###
     neutrality = {
         types = {
+			authoritarian_democracy_ideology = { } #Generic
 			social_nationalism_ideology = { }
 			provisional_government_ideology = { }
 			tribal_paternalism_ideology = { }
@@ -99,6 +104,7 @@ ideologies = {
 			longism_ideology = { }
 			semi_constitutional_monarchy_ideology = { }
 			democratic_stratocracy_ideology = { }
+			irish_national_catholicism = { }
         }
 		dynamic_faction_names = { }
 		color = { 135 135 140 }
@@ -122,6 +128,7 @@ ideologies = {
 	### Paternal Autocrat Subideologies ###
     paternal_autocrat = {
         types = {
+			paternal_autocrat_ideology = { } #Generic
 			red_junta_ideology = { }
 			military_junta_ideology = { }
 			civilian_dictatorship_ideology = { }
@@ -141,11 +148,14 @@ ideologies = {
 	### Fascist Subideologies ###
     fascism = {
         types = {
+			fascism_ideology = { } #Generic
 			classical_fascism_ideology = { }
 			nation_first_nationalism_ideology = { }
 			dixiecrat_ideology = { }
 			fascist_stratocracy_ideology = { }
 			esoteric_fascism_ideology = { }
+			arrow_cross_movement_ideology = { }
+			british_fascism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 92 58 20 }
@@ -156,6 +166,7 @@ ideologies = {
 	### Ultranationalist Subideologies ###
     ultranationalism = {
         types = {
+			ultranationalism_ideology = { } #Generic
 			stratocratic_nationalism_ideology = { }
         }
 		dynamic_faction_names = { }
@@ -168,11 +179,12 @@ ideologies = {
     national_socialism = {
         types = {
 			nazism_ideology = { } # Generic #
-			reformist_nazism_ideology = { }
+			enlightened_nazism_ideology = { }
 			technocratic_nazism_ideology = { }
 			stratocratic_nazism_ideology = { }
 			esoteric_nazism_ideology = { }
 			occultist_nazism_ideology = { }
+			clerical_fascism = { }
         }
 		dynamic_faction_names = { }
 		color = { 41 33 22 }
@@ -183,6 +195,7 @@ ideologies = {
 	### Esoteric Ideologies ###
     esotericism = {
         types = {
+			esotericism_ideology = { } #Generic
 			anarcho_primitivism_ideology = { }  
 			esoteric_nazism_esoteric_ideology = { }
 			occultist_nazism_esoteric_ideology = { }

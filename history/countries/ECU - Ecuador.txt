@@ -19,3 +19,12 @@ set_popularities = {
 	neutrality = 10
 	fascism = 10
 }
+create_country_leader = {
+	name = "Galo Plaza"
+	desc = ""
+	picture = GFX_fish
+	ideology = technocratic_liberalism_ideology
+	traits = {
+		#
+	}
+}
