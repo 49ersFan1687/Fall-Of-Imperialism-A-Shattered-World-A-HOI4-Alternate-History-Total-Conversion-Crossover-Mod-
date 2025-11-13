@@ -7,7 +7,7 @@
 
 shared_focus = {
 	id = CAL_the_long_retreat_west
-	icon = GFX_
+	icon = GFX_focus_the_long_retreat_west
 	cost = 3
 	available_if_capitualted = no
 	ai_will_do = {
