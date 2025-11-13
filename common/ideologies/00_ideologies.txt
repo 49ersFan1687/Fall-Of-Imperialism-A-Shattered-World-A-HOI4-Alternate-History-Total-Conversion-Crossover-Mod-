@@ -43,6 +43,7 @@ ideologies = {
 	### Social Democrat Subideologies ###
     social_democracy = {
         types = {
+			social_democracy = { } # Generic #
 			social_democratic_progressive_democracy_ideology = { } 
 			nordic_model_ideology = { }
 			narodnikism_ideology = { }
@@ -109,6 +110,7 @@ ideologies = {
     accelerationism = {
         types = {
 			accelerationism_ideology = { } # Generic #
+			nation_rejuvinatism_ideology = { }
 			cosmicism_ideology = { }
         }
 		dynamic_faction_names = { }
