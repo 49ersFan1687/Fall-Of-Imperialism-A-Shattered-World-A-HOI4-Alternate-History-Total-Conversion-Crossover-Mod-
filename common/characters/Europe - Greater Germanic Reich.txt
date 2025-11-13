@@ -129,7 +129,9 @@ characters = {
             traits = {  }
         }
     }
+
     # Greater Germanic Reich - Generalfeldmarschalls #
+
     GER_Werner_Eduard_Fritz_von_Blomberg = {
         name = GER_Werner_Eduard_Fritz_von_Blomberg
         portraits = {
@@ -149,6 +151,7 @@ characters = {
             logistics_skill = 1
         }
     }
+
     GER_Johannes_Erwin_Eugen_Rommel = {
         name = GER_Johannes_Erwin_Eugen_Rommel
         portraits = {
@@ -168,6 +171,7 @@ characters = {
             logistics_skill = 1
         }
     }
+
     GER_Fritz_Erich_Georg_Eduard_von_mannstein = {
         name = GER_Fritz_Erich_Georg_Eduard_von_mannstein
         portraits = {
@@ -187,9 +191,14 @@ characters = {
             logistics_skill = 1
         }
     }
+
     # Greater Germanic Reich - Generals #
 
     # Greater Germanic Reich - Waffen-SS Field Marshals #
 
     # Greater Germanic Reich - Waffen-SS Generals #
+
+    # Greater German Reich - Kriegsmarine #
+
+    # Greater German Reich - Luftwaffe #
 }
