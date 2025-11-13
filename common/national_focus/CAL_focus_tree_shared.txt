@@ -8119,7 +8119,25 @@ shared_focus = {
 # Foreign Policy # 
 
 shared_focus = {
-	
+	id = CAL_reinstate_the_secretary_of_state_office
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		has_completed_focus = CAL_form_the_western_american_government
+	}
+	allow_branch = {
+		has_completed_focus = CAL_form_the_western_american_government
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_the_army_goes_marching_along
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reinstate_the_secretary_of_state_office"
+	}
 }
 
 shared_focus = {
