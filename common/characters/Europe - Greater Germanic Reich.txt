@@ -73,6 +73,7 @@ characters = {
             logistics_skill = 1
         }
     }
+
     GER_martin_bormann = {
         name = GER_martin_bormann
         portraits = {
@@ -87,6 +88,7 @@ characters = {
             traits = {  }
         }
     }
+
     GER_joseph_goebbels = {
         name = GER_joseph_goebbels
         portraits = {
@@ -101,6 +103,7 @@ characters = {
             traits = {  }
         }
     }
+
     GER_albert_speer = {
         name = GER_albert_speer
         portraits = {
@@ -115,6 +118,7 @@ characters = {
             traits = {  }
         }
     }
+    
     GER_karl_otto_saur = {
         name = GER_karl_otto_saur
         portraits = {
