@@ -3,7 +3,7 @@
 # By Aide of General Eisenhower
 ###########################
 
-### Initial Focus Tree ###
+### Initial Focus Tree - Warlord State ###
 
 shared_focus = {
 	id = CAL_the_long_retreat_west
@@ -340,7 +340,7 @@ shared_focus = {
 	}
 }
 
-### Canadian Interaction Focus Tree ###
+### Canadian Interaction Focus Tree - Warlord State###
 
 shared_focus = {
 	id = CAL_alexanders_military_mission
@@ -633,7 +633,7 @@ shared_focus = {
 	}
 }
 
-### Create Anti-Nazi Front Focus Tree ###
+### Create Anti-Nazi Front Focus Tree - Warlord Stage ###
 shared_focus = {
 	id = CAL_dreams_of_a_united_american_anti_nazi_front
 	icon = GFX
@@ -1390,7 +1390,7 @@ shared_focus = {
 }
 
 
-# Buildup to War Focus Tree #
+# Buildup to War Focus Tree - Warlord Stage #
 shared_focus = {
 	id = CAL_beat_the_inertia
 	icon = GFX
@@ -1855,7 +1855,7 @@ shared_focus = {
 		mark_focus_tree_layout_dirty = yes
 	}
 }
-# California Civil War Focus Tree #
+# California Civil War Focus Tree - Warlord Stage#
 shared_focus = {
 	id = CAL_the_first_of_many_steps_to_victory
 	icon = GFX
@@ -2030,7 +2030,7 @@ shared_focus = {
 		mark_focus_tree_layout_dirty = yes
 	}
 }
-# California Rebuilding Focus Tree #
+# California Rebuilding Focus Tree - Pre-Regional Stage #
 shared_focus = {
 	id = CAL_begin_rebuilding_california
 	icon = GFX
@@ -2463,7 +2463,7 @@ shared_focus = {
 	}
 }
 
-# Regional Unification Focus Tree # 
+# Regional Unification Focus Tree - Part One # 
 
 shared_focus = {
 	id = CAL_looking_outwards_from_the_golden_state
@@ -2995,7 +2995,7 @@ shared_focus = {
 	}	
 }
 
-# Eastward and Northward Expansion #
+# Eastward and Northward Expansion - Part Two #
 
 shared_focus = {
 	id = CAL_our_focus_on_nevada
@@ -3409,6 +3409,8 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_bring_cascadia_back_into_the_union"
 	}	
 }
+
+# Securing Western America - Part Three #
 
 shared_focus = {
 	id = CAL_rebuilding_plans_for_nevada_and_cascadia
@@ -3990,7 +3992,7 @@ shared_focus = {
 	}
 }
 
-# Economic Reform # 
+# Economic Reform - Regional Stage # 
 
 shared_focus = {
 	id = CAL_address_the_economy_of_the_western_american_government
@@ -5483,7 +5485,7 @@ shared_focus = {
 	}
 }
 
-# Military Reform - Second Continental Army # 
+# Military Reform - Second Continental Army - Regional Stage# 
 
 shared_focus = {
 	id = CAL_begin_the_complete_and_total_overhaul_of_the_sca
@@ -6824,7 +6826,7 @@ shared_focus = {
 	}
 }
 
-# Military Reform - Air Force # 
+# Military Reform - Air Force - Regional Stage # 
 
 shared_focus = {
 	id = CAL_reforming_the_united_states_army_air_force
@@ -7248,7 +7250,7 @@ shared_focus = {
 	}
 }
 
-# Military Reform - Navy # 
+# Military Reform - Navy - Regional Stage # 
 
 shared_focus = {
 	id = CAL_reform_the_united_states_navy
@@ -7921,7 +7923,7 @@ shared_focus = {
 	}	
 }
 
-# Military Reform - Marines #
+# Military Reform - Marines - Regional Stage #
 
 shared_focus = {
 	id = CAL_reform_the_united_states_marine_corps
