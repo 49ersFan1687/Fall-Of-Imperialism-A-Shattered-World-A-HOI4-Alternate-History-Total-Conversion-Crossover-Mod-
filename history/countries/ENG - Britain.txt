@@ -46,5 +46,14 @@ set_popularities = {
 	neutrality = 10
 	esotericism = 5
 }
+create_country_leader = {
+	name = "Oswald Mosley"
+	desc = ""
+	picture = GFX_fish
+	ideology = british_fascism_ideology
+	traits = {
+		#
+	}
+}
 
 

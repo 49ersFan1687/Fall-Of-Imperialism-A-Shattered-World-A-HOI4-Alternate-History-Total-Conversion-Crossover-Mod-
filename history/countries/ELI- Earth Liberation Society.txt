@@ -16,3 +16,12 @@ set_politics = {
 set_popularities = {
 	socialism = 100
 }
+create_country_leader = {
+	name = "Barry Commoner"
+	desc = ""
+	picture = GFX_fish
+	ideology = eco_socialism_ideology
+	traits = {
+		#
+	}
+}

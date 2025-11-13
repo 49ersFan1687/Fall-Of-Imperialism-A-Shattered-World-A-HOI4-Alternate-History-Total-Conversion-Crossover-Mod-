@@ -155,6 +155,7 @@ ideologies = {
 			fascist_stratocracy_ideology = { }
 			esoteric_fascism_ideology = { }
 			arrow_cross_movement_ideology = { }
+			british_fascism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 92 58 20 }
