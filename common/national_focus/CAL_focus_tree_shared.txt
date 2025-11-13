@@ -8142,6 +8142,21 @@ shared_focus = {
 
 shared_focus = {
 	id = CAL_searching_for_legitimacy
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_reinstate_the_secretary_of_state_office
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_reinstate_the_secretary_of_state_office
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_searching_for_legitimacy"
+	}
 }
 
 shared_focus = {
