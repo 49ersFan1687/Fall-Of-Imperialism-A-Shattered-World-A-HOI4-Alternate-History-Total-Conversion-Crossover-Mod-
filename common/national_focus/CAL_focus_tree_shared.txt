@@ -45,7 +45,7 @@ shared_focus = {
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
 		hidden_effect = {
 			CAL = {
-				country_event = { id = CAL.2 }
+				country_event = { id = CAL_start.2 }
 			}
 		}
 	}
@@ -70,7 +70,7 @@ shared_focus = {
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
 		hidden_effect = {
 			CAL = {
-				country_event = { id = CAL.3 }
+				country_event = { id = CAL_start.3 }
 			}
 		}
 	}
@@ -95,7 +95,7 @@ shared_focus = {
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
 		hidden_effect = {
 			CAL = {
-				country_event = { id = CAL.4 }
+				country_event = { id = CAL_start.4 }
 			}
 		}
 	}
@@ -120,7 +120,7 @@ shared_focus = {
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
 		hidden_effect = {
 			CAL = {
-				country_event = { id = CAL.4 }
+				country_event = { id = CAL_start.5 }
 			}
 		}
 	}
@@ -145,7 +145,7 @@ shared_focus = {
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
 		hidden_effect = {
 			CAL = {
-				country_event = { id = CAL.3 }
+				country_event = { id = CAL_start.6 }
 			}
 		}
 	}
@@ -173,7 +173,7 @@ shared_focus = {
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
 		hidden_effect = {
 			CAL = {
-				country_event = { id = CAL.6 }
+				country_event = { id = CAL_start.7 }
 			}
 		}
 	}
@@ -198,7 +198,7 @@ shared_focus = {
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
 		hidden_effect = {
 			CAL = {
-				country_event = { id = CAL.6 }
+				country_event = { id = CAL_start.8 }
 			}
 		}
 	}
@@ -226,7 +226,7 @@ shared_focus = {
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
 		hidden_effect = {
 			CAL = {
-				country_event = { id = CAL.6 }
+				country_event = { id = CAL_start.9 }
 			}
 		}
 	}
@@ -257,7 +257,7 @@ shared_focus = {
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
 		hidden_effect = {
 			CAL = {
-				country_event = { id = CAL.10 }
+				country_event = { id = CAL_start.10 }
 			}
 		}
 	}
@@ -282,7 +282,7 @@ shared_focus = {
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
 		hidden_effect = {
 			CAL = {
-				country_event = { id = CAL.9 }
+				country_event = { id = CAL_start.11 }
 			}
 		}
 		mark_focus_tree_layout_dirty = yes
@@ -308,7 +308,7 @@ shared_focus = {
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
 		hidden_effect = {
 			CAL = {
-				country_event = { id = CAL.9 }
+				country_event = { id = CAL_start.12 }
 			}
 		}
 		mark_focus_tree_layout_dirty = yes
@@ -334,7 +334,7 @@ shared_focus = {
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
 		hidden_effect = {
 			CAL = {
-				country_event = { id = CAL.9 }
+				country_event = { id = CAL_start.13 }
 			}
 		}
 	}
