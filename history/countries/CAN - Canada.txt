@@ -35,15 +35,10 @@ set_popularities = {
 	socialism = 5
 	neutrality = 5
 }
-create_country_leader = {
-	name = "George A. Drew"
-	desc = ""
-	picture = GFX_fish
-	ideology = progressive_conservatism_ideology
-	traits = {
-		#
-	}
-}
+
+### Country Leader ###
+recruit_character = CAN_Louis_Stephen_St_Laurent
+
 create_faction = "Bermuda Accords"
 add_to_faction = FFR
 add_to_faction = AST
