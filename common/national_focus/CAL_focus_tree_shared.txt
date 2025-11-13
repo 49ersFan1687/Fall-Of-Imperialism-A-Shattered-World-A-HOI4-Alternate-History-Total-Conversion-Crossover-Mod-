@@ -8081,7 +8081,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_semper_fi
+	id = CAL_duty_honor_semper_fi
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -8105,7 +8105,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_blowtorch_and_corkscrew
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_marines_as_foot_soldiers"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_duty_honor_semper_fi"
 	}	
 }
 
