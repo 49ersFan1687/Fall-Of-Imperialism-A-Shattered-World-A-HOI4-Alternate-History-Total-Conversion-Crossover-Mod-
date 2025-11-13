@@ -8170,7 +8170,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_searching_for_legitimacy
 	}
-	x = -8
+	x = -6
 	y = 1
 	relative_position_id = CAL_searching_for_legitimacy
 	completion_reward = {
@@ -8189,7 +8189,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_searching_for_legitimacy
 	}
-	x = -4
+	x = -2
 	y = 1
 	relative_position_id = CAL_searching_for_legitimacy
 	completion_reward = {
@@ -8208,7 +8208,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_searching_for_legitimacy
 	}
-	x = 0
+	x = 2
 	y = 1
 	relative_position_id = CAL_searching_for_legitimacy
 	completion_reward = {
@@ -8227,31 +8227,12 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_searching_for_legitimacy
 	}
-	x = 4
+	x = 6
 	y = 1
 	relative_position_id = CAL_searching_for_legitimacy
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_hawaii_question"
 	}
-}
-
-shared_focus = {
-	id = CAL_what_russian_warlord_shall_we_support
-	icon = GFX
-	cost = 5
-	available_if_capitualted = no
-	ai_will_do = {
-		factor = 1
-	}
-	prerequisite = {
-		focus = CAL_searching_for_legitimacy
-	}
-	x = 8
-	y = 1
-	relative_position_id = CAL_searching_for_legitimacy
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_what_russian_warlord_shall_we_support"
-	}	
 }
 
 shared_focus = {
