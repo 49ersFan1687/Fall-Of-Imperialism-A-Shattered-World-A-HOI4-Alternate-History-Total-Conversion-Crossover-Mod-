@@ -31,4 +31,13 @@ characters = {
 
 
     # British Exiles Generals #
+
+
+    # Royal Navy Admirals #
+
+
+    # Canadian Admirals #
+
+
+    # Exiles Generals #
 }
