@@ -456,7 +456,7 @@ characters = {
 			traits = { }
 		}
 	}
-	
+
 	# Cascadian Army Rangers - The Power Rangers (Field Marshals) #
 
 	CSD_jason_lee_scott = {
@@ -576,6 +576,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_rocky_de_santos = {
 		name = CSD_rocky_de_santos
 		portraits = {
@@ -595,6 +596,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_adam_park = {
 		name = CSD_adam_park
 		portraits = {
@@ -614,6 +616,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_aisha_campbell = {
 		name = CSD_aisha_campbell
 		portraits = {
@@ -633,6 +636,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_katherine_hillard = {
 		name = CSD_katherine_hillard
 		portraits = {
@@ -652,6 +656,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_tanya_sloan = {
 		name = CSD_tanya_sloan
 		portraits = {
@@ -671,6 +676,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_trey_of_triforia = {
 		name = CSD_trey_of_triforia
 		portraits = {
@@ -690,6 +696,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_theodore_jarvis_johnson = {
 		name = CSD_theodore_jarvis_johnson
 		portraits = {
@@ -709,6 +716,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_ashley_hammond = {
 		name = CSD_ashley_hammond
 		portraits = {
@@ -728,6 +736,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_cassie_chan = {
 		name = CSD_cassie_chan
 		portraits = {
@@ -747,6 +756,7 @@ characters = {
 			logistics_skill =
 		}
 	}
+
 	CSD_carlos_vallerte = {
 		name = CSD_carlos_vallerte
 		portraits = {
@@ -767,7 +777,7 @@ characters = {
 		}
 	}
 
-    # Crystal Prep Clique - The Progressives #
+    # Crystal Prep Clique - The Progressives (Field Marshals) #
 	
 	CSD_twilight_sparkle = {
 		name = CSD_twilight_sparkle
@@ -869,6 +879,8 @@ characters = {
 		}
 	}
 
+	# Crystal Prep Clique - The Progressives (Generals) #
+
 	CSD_fluttershy = {
 		name = CSD_fluttershy
 		portraits = {
@@ -878,6 +890,14 @@ characters = {
 			army = {
 				large = 
 			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
 		}
 	}
 
@@ -891,6 +911,14 @@ characters = {
 				large = 
 			}
 		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
 	}
 
 	CSD_rarity = {
@@ -902,6 +930,14 @@ characters = {
 			army = {
 				large = 
 			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
 		}
 	}
 
@@ -915,6 +951,14 @@ characters = {
 				large = 
 			}
 		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
 	}
 
 	CSD_trixie_lulamoon = {
@@ -926,6 +970,14 @@ characters = {
 			army = {
 				large = 
 			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
 		}
 	}
 
@@ -939,6 +991,14 @@ characters = {
 				large = 
 			}
 		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
 	}
 
 	CSD_scootaloo = {
@@ -951,6 +1011,14 @@ characters = {
 				large = 
 			}
 		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
 	}
 
 	CSD_apple_bloom = {
@@ -962,6 +1030,14 @@ characters = {
 			army = {
 				large = 
 			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
 		}
 	}
 
