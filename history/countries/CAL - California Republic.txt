@@ -35,6 +35,9 @@ recruit_character = CAL_henry_agard_wallace
 ### Advsiors ###
 recruit_character = CAL_huey_pierce_long_jr
 recruit_character = CAL_Earl_Warren
+recruit_character = CAL_john_edgar_hoover
+recruit_character = CAL_Thomas_Edmund_Dewey
+recruit_character = CAL_Walter_Elias_Disney
 
 ## Second Continental Army ##
 
