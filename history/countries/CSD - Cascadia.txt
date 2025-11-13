@@ -22,5 +22,6 @@ set_popularities = {
 	democratic = 5
 	social_democracy = 5
 	fascism = 5
-	
 }
+
+# Cascadian Second Continental Army Leaders #
