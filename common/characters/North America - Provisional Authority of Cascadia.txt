@@ -15,7 +15,7 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_ATSUKO_MAEDA_DESC"
 			expire = "1994.4.20"
-			ideology = 
+			ideology = democratic_stratocracy_ideology
 			traits = {
 			}
 		}
