@@ -1,7 +1,6 @@
 characters = {
 
     # Country Leaders #
-
     CAN_Louis_Stephen_St_Laurent = {
         name = CAN_Louis_Stephen_St_Laurent
         portraits = {
@@ -19,4 +18,17 @@ characters = {
 		}
     }
 
+    # Advisors #
+
+
+    # Canadian Field Marshals #
+
+
+    # Canadian Generals #
+
+
+    # British Exiles Field Marshals #
+
+
+    # British Exiles Generals #
 }
