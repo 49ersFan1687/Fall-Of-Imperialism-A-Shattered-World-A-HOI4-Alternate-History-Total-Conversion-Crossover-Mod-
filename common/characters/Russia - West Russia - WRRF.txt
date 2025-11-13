@@ -1,13 +1,13 @@
 characters = {
     # Country Leaders #
-	WRS_Semyon_Mikhailovich_Budyonny = {
-		name = WRS_Semyon_Mikhailovich_Budyonny
+	RRF_Semyon_Mikhailovich_Budyonny = {
+		name = RRF_Semyon_Mikhailovich_Budyonny
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/wrs/Portrait_WRS_semyon_mikhailovich_budyonny.dds"
+				large = "gfx/leaders/RRF/Portrait_RRF_semyon_mikhailovich_budyonny.dds"
 			}
 			army = {
-				large = "gfx/leaders/wrs/Portrait_WRS_semyon_mikhailovich_budyonny.dds"
+				large = "gfx/leaders/RRF/Portrait_RRF_semyon_mikhailovich_budyonny.dds"
 			}
 		}
 		country_leader = {
@@ -29,14 +29,14 @@ characters = {
 		}
 	}
 
-    WRS_Mikhail_Vasilievich_Frunze = { 
-		name = WRS_Mikhail_Vasilievich_Frunze
+    RRF_Mikhail_Vasilievich_Frunze = { 
+		name = RRF_Mikhail_Vasilievich_Frunze
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/wrs/Portrait_WRS_mikhail_vasilievich_frunze.png"
+				large = "gfx/leaders/RRF/Portrait_RRF_mikhail_vasilievich_frunze.png"
 			}
 			army = {
-				large = "gfx/leaders/wrs/Portrait_WRS_mikhail_vasilievich_frunze.png"
+				large = "gfx/leaders/RRF/Portrait_RRF_mikhail_vasilievich_frunze.png"
 			}
 		}
 		country_leader = {
@@ -58,14 +58,14 @@ characters = {
 		}
 	}
 
-    WRS_Georgy_Konstantinovich_Zhukov = {
-		name = WRS_Georgy_Konstantinovich_Zhukov
+    RRF_Georgy_Konstantinovich_Zhukov = {
+		name = RRF_Georgy_Konstantinovich_Zhukov
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/wrs/Portrait_WRS_georgy_konstantinovich_zhukov.dds"
+				large = "gfx/leaders/RRF/Portrait_RRF_georgy_konstantinovich_zhukov.dds"
 			}
 			army = {
-				large = "gfx/leaders/wrs/Portrait_WRS_georgy_konstantinovich_zhukov.dds"
+				large = "gfx/leaders/RRF/Portrait_RRF_georgy_konstantinovich_zhukov.dds"
 			}
 		}
 		country_leader = {
@@ -88,14 +88,14 @@ characters = {
 		}
     }
 
-    WRS_Mikhail_Nikolayevich_Tukhachevsky = {
-		name = WRS_Mikhail_Nikolayevich_Tukhachevsky
+    RRF_Mikhail_Nikolayevich_Tukhachevsky = {
+		name = RRF_Mikhail_Nikolayevich_Tukhachevsky
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/wrs/Portrait_WRS_mikhail_nikolayevich_tukhachevsky"
+				large = "gfx/leaders/RRF/Portrait_RRF_mikhail_nikolayevich_tukhachevsky"
 			}
 			army = {
-				large = "gfx/leaders/wrs/Portrait_WRS_mikhail_nikolayevich_tukhachevsky"
+				large = "gfx/leaders/RRF/Portrait_RRF_mikhail_nikolayevich_tukhachevsky"
 			}
 		}
 		country_leader = {
@@ -117,8 +117,8 @@ characters = {
 		}
 	}
 
-	WRS_Nestor_Lunin = {
-		name = WRS_Nestor_Lunin
+	RRF_Nestor_Lunin = {
+		name = RRF_Nestor_Lunin
 		portraits = {
 			civilian = {
 				large = GFX_fish
