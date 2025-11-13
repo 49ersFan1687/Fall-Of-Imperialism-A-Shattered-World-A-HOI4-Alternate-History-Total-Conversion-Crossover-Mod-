@@ -7489,7 +7489,9 @@ shared_focus = {
 			}
 	}
 	prerequisite = {
+		focus = CAL_follow_admiral_kings_reform_plan
 		focus = CAL_follow_admiral_kidds_reform_plan
+		focus = CAL_follow_admiral_nimitzs_reform_plan
 	}
 	x = 0
 	y = 1
@@ -8116,7 +8118,7 @@ shared_focus = {
 	}	
 }
 
-# Foreign Policy # 
+# Foreign Policy - Regional Stage # 
 
 shared_focus = {
 	id = CAL_reinstate_the_secretary_of_state_office
@@ -8236,7 +8238,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_signing_the_non_aggression_pact
 }
 
 shared_focus = {
