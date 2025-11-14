@@ -18,3 +18,12 @@ set_popularities = {
 	neutrality = 40
 	
 }
+create_country_leader = {
+	name = "George E. Stratemeyer"
+	desc = ""
+	picture = GFX_fish
+	ideology = military_junta_ideology
+	traits = {
+		#
+	}
+}

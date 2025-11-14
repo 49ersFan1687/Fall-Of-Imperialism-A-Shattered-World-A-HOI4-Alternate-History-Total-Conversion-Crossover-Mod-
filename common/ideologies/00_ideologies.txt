@@ -34,6 +34,8 @@ ideologies = {
 			democratic_socialism_ideology = { }
 			red_junta_socialism_ideology = { }
 			pan_africanism_ideology = { }
+			christian_anarchism_ideology = { }
+			anarcho_pacifism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 209 0 0 }
@@ -51,6 +53,7 @@ ideologies = {
 			longism_ideology = { }
 			peronism_ideology = { }
 			internationalist_social_democracy_ideology = { }
+			liberal_feminist_socialism_ideology = { }
 		}
 		dynamic_faction_names = { }
 		color = { 148 80 142 }
@@ -69,6 +72,7 @@ ideologies = {
 			national_liberalism_ideology = { }
 			classical_liberalism_ideology = { }
 			technocratic_liberalism_ideology = { }
+			liberal_statism_ideology = { }
 		}
 		dynamic_faction_names = { }
 		color = { 31 121 181 }
@@ -156,6 +160,7 @@ ideologies = {
 			esoteric_fascism_ideology = { }
 			arrow_cross_movement_ideology = { }
 			british_fascism_ideology = { }
+			french_fascism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 92 58 20 }

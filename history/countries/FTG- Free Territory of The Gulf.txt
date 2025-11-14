@@ -18,3 +18,12 @@ set_popularities = {
 	communism = 5
 	
 }
+create_country_leader = {
+	name = "Ammon Hennacy"
+	desc = ""
+	picture = GFX_fish
+	ideology = christian_anarchism_ideology
+	traits = {
+		#
+	}
+}

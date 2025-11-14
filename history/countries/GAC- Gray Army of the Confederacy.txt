@@ -20,3 +20,12 @@ set_popularities = {
 	paternal_autocrat = 10
 	
 }
+create_country_leader = {
+	name = "James Eastland"#He will 100 percent have a pro-mississipi policy
+	desc = ""
+	picture = GFX_fish
+	ideology = nation_first_nationalism_ideology
+	traits = {
+		#
+	}
+}

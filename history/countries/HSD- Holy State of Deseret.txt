@@ -18,3 +18,12 @@ set_popularities = {
 	neutrality = 30
 	conservatism = 20
 }
+create_country_leader = {
+	name = "George Albert Smith"
+	desc = ""
+	picture = GFX_fish
+	ideology = theocracy_ideology
+	traits = {
+		#
+	}
+}

@@ -19,3 +19,12 @@ set_popularities = {
 	democratic = 20
 	paternal_autocrat = 10
 }
+create_country_leader = {
+	name = "Ramón Villeda Morales"
+	desc = ""
+	picture = GFX_fish
+	ideology = centrism_ideology
+	traits = {
+		#
+	}
+}

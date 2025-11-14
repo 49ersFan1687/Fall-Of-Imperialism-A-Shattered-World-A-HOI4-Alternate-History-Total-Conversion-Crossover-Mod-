@@ -33,6 +33,14 @@ set_popularities = {
 	communism = 5
 }
 
-
+create_country_leader = {
+	name = "Ioannis Rallis"
+	desc = ""
+	picture = GFX_fish
+	ideology = authoritarian_social_nationalism_ideology
+	traits = {
+		#
+	}
+}
 
 
