@@ -8405,15 +8405,66 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_expanding_the_canadian_liason
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuilding_the_canadian_embassy
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuilding_the_canadian_embassy
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expanding_the_canadian_liason"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_peaceful_negotiations_for_the_islands
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	mutually_exclusive = {
+		focus = CAL_taking_hawaii_back_by_force
+	}
+	prerequisite = {
+		focus = CAL_the_hawaii_question
+	}
+	x = -1.5
+	y = 1
+	relative_position_id = CAL_the_hawaii_question
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expanding_the_canadian_liason"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_taking_hawaii_back_by_force
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	mutually_exclusive = {
+		focus = CAL_peaceful_negotiations_for_the_islands
+	}
+	prerequisite = {
+		focus = CAL_the_hawaii_question
+	}
+	x = 1.5
+	y = 1
+	relative_position_id = CAL_the_hawaii_question
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_taking_hawaii_back_by_force"
+	}	
 }
 
 shared_focus = {
