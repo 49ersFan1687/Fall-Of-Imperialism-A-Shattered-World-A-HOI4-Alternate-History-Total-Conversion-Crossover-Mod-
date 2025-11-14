@@ -5679,7 +5679,13 @@ shared_focus = {
 	relative_position_id = CAL_choosing_the_new_doctrine_of_the_sca
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_eisenhower_return_to_form"
-		add_idea = CAL_Eisenhowers_vision1
+		add_ideas = CAL_Eisenhowers_vision1
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.5
+			uses = 1
+			category = land_doctrine
+		}
 	}
 }
 
@@ -5704,7 +5710,13 @@ shared_focus = {
 	relative_position_id = CAL_choosing_the_new_doctrine_of_the_sca
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_patton_army_of_the_future"
-		add_idea = CAL_Eisenhowers_vision1
+		add_idea = CAL_Pattons_vision1
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.5
+			uses = 1
+			category = land_doctrine
+		}
 	}	
 }
 
@@ -5730,6 +5742,12 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_marshall_modern_minuteman"
 		add_idea = CAL_marshalls_vision1
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.5
+			uses = 1
+			category = land_doctrine
+		}
 	}	
 }
 
@@ -5755,6 +5773,12 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_eisenhower_return_to_form"
 		add_idea = CAL_westmorelands_vision1
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.5
+			uses = 1
+			category = land_doctrine
+		}
 	}	
 }
 
