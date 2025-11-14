@@ -19,3 +19,12 @@ set_popularities = {
 	social_democracy = 40
 	neutrality = 10
 }
+create_country_leader = {
+	name = "Juan José Arévalo"
+	desc = ""
+	picture = GFX_fish
+	ideology = liberalism_ideology
+	traits = {
+		#
+	}
+}

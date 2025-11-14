@@ -23,3 +23,12 @@ set_popularities = {
 	democratic = 30
 	neutrality = 20
 }
+create_country_leader = {
+	name = "Léon M'ba"
+	desc = ""
+	picture = GFX_fish
+	ideology = conservatism_liberal_conservatism_ideology
+	traits = {
+		#
+	}
+}

@@ -18,3 +18,12 @@ set_popularities = {
 	social_democracy = 20
 	
 }
+create_country_leader = {
+	name = "Mary Hansen"
+	desc = ""
+	picture = GFX_fish
+	ideology = anarchism_ideology
+	traits = {
+		#
+	}
+}

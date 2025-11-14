@@ -21,3 +21,12 @@ set_popularities = {
 	democratic = 10
 	socialism = 10
 }
+create_country_leader = {
+	name = "Ahmed Sékou Touré"
+	desc = ""
+	picture = GFX_fish
+	ideology = civilian_dictatorship_ideology
+	traits = {
+		#
+	}
+}

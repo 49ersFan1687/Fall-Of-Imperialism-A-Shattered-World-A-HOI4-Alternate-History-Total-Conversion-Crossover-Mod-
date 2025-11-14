@@ -16,3 +16,12 @@ set_popularities = {
 	socialism = 100
 	
 }
+create_country_leader = {
+	name = "David Wieck"
+	desc = ""
+	picture = GFX_fish
+	ideology = anarcho_pacifism_ideology
+	traits = {
+		#
+	}
+}

@@ -9,14 +9,23 @@ set_convoys = 10
 
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	conservatism = 50
-	democratic = 20
-	paternal_autocrat = 20
+	socialism = 50
+	conservatism = 30
+	democratic = 10
 	neutrality = 10
+}
+create_country_leader = {
+	name = "Edward Francis Small"
+	desc = ""
+	picture = GFX_fish
+	ideology = pan_africanism_ideology
+	traits = {
+		#
+	}
 }

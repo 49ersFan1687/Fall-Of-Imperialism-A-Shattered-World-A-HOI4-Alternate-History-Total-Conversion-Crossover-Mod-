@@ -17,7 +17,7 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = paternal_autocrat
 	last_election = "1935.3.31"
 	election_frequency = 48
 	elections_allowed = yes
@@ -26,8 +26,17 @@ set_popularities = {
 	neutrality = 5
 	conservatism = 25
 	democratic = 15
-	paternal_autocrat = 10
-	fascism = 40
+	paternal_autocrat = 40
+	fascism = 10
 	national_socialism = 5
+}
+create_country_leader = {
+	name = "Miklós Horthy"
+	desc = ""
+	picture = GFX_fish
+	ideology = civilian_dictatorship_ideology
+	traits = {
+		#
+	}
 }
 

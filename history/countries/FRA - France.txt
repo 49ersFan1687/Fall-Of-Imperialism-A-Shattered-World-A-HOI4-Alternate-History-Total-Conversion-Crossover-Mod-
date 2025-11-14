@@ -22,6 +22,15 @@ set_popularities = {
 	paternal_autocrat = 7
 	national_socialism = 1
 }
+create_country_leader = {
+	name = "Philippe Pétain"
+	desc = ""
+	picture = GFX_fish
+	ideology = french_fascism_ideology
+	traits = {
+		#
+	}
+}
 set_autonomy = {
 	target = SYR
 	autonomous_state = autonomy_integrated_puppet

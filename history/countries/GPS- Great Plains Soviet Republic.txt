@@ -18,3 +18,12 @@ set_popularities = {
 	neutrality = 10
 	
 }
+create_country_leader = {
+	name = "James W. Ford"
+	desc = ""
+	picture = GFX_fish
+	ideology = marxism_ideology
+	traits = {
+		#
+	}
+}

@@ -27,4 +27,12 @@ set_popularities = {
 	conservatism = 10
 
 }
-
+create_country_leader = {
+	name = "Kathrine Chemnitz"
+	desc = ""
+	picture = GFX_fish
+	ideology = liberal_feminist_socialism_ideology
+	traits = {
+		#
+	}
+}
