@@ -61,7 +61,7 @@ ideas = {
             }
         }
 
-#### ARMY REFORM IDEAS ###
+#### ARMY REFORM IDEAS - UNIQUE IDEAS ###
 
         ### Army Reform Ideas - Dwight David Eisenhower ###
         CAL_Eisenhowers_vision1 = { # Eisenhower's Army Reform Plan - Return to Form - Part One
@@ -111,7 +111,7 @@ ideas = {
             }
         }
 
-        CAL_Eisenhowers_vision4 = { # Eisenhower's Army Reform Plan - Return to Form - Part Three
+        CAL_Eisenhowers_vision4 = { # Eisenhower's Army Reform Plan - Return to Form - Part Four
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Eisenhowers_vision4" }
             allowed = { always = no }
             picture = eisenhower_plan
@@ -120,7 +120,7 @@ ideas = {
             }
         }
 
-        CAL_Eisenhowers_vision5 = { # Eisenhower's Army Reform Plan - Return to Form - Part Three
+        CAL_Eisenhowers_vision5 = { # Eisenhower's Army Reform Plan - Return to Form - Part Five
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Eisenhowers_vision5" }
             allowed = { always = no }
             picture = eisenhower_plan
@@ -129,7 +129,7 @@ ideas = {
             }
         }
 
-        CAL_Eisenhowers_vision6 = { # Eisenhower's Army Reform Plan - Return to Form - Part Three
+        CAL_Eisenhowers_vision6 = { # Eisenhower's Army Reform Plan - Return to Form - Part Six
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Eisenhowers_vision6" }
             allowed = { always = no }
             picture = eisenhower_plan
@@ -138,7 +138,7 @@ ideas = {
             }
         }
 
-        CAL_Eisenhowers_vision7 = { # Eisenhower's Army Reform Plan - Return to Form - Part Three
+        CAL_Eisenhowers_vision7 = { # Eisenhower's Army Reform Plan - Return to Form - Part Seven
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Eisenhowers_vision7" }
             allowed = { always = no }
             picture = eisenhower_plan
@@ -147,7 +147,7 @@ ideas = {
             }
         }
 
-        CAL_Eisenhowers_vision8 = { # Eisenhower's Army Reform Plan - Return to Form - Part Three
+        CAL_Eisenhowers_vision8 = { # Eisenhower's Army Reform Plan - Return to Form - Part Eight
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Eisenhowers_vision8" }
             allowed = { always = no }
             picture = eisenhower_plan
@@ -156,7 +156,7 @@ ideas = {
             }
         }
 
-        CAL_Eisenhowers_vision9 = { # Eisenhower's Army Reform Plan - Return to Form - Part Three
+        CAL_Eisenhowers_vision9 = { # Eisenhower's Army Reform Plan - Return to Form - Part Nine
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Eisenhowers_vision9" }
             allowed = { always = no }
             picture = eisenhower_plan
@@ -165,7 +165,7 @@ ideas = {
             }
         }
 
-        CAL_Eisenhowers_vision10 = { # Eisenhower's Army Reform Plan - Return to Form - Part Three
+        CAL_Eisenhowers_vision10 = { # Eisenhower's Army Reform Plan - Return to Form - Part Ten
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Eisenhowers_vision10" }
             allowed = { always = no }
             picture = eisenhower_plan
@@ -174,7 +174,7 @@ ideas = {
             }
         }
 
-        CAL_Eisenhowers_vision11 = { # Eisenhower's Army Reform Plan - Return to Form - Part Three
+        CAL_Eisenhowers_vision11 = { # Eisenhower's Army Reform Plan - Return to Form - Part Eleven
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Eisenhowers_vision11" }
             allowed = { always = no }
             picture = eisenhower_plan
@@ -272,7 +272,7 @@ ideas = {
             }
         }
 
-        ### Army Reform Ideas - Shared Ideas ###
+### ARMY REFORM IDEAS - SHARED IDEAS ###
 
         ### Canadian Military Mission ####
         CAL_Alexanders_Advice = { # General Alexander has been chosen to help Improve the Second Continental Army #
@@ -323,7 +323,7 @@ ideas = {
         }
 
 
-        
+
         ### Air Force Reform Ideas ###
         ### Navy Reform Ideas ###
         ### Military Industrial Complex Ideas ###
