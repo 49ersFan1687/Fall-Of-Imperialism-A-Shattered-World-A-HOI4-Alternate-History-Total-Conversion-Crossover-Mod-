@@ -5824,6 +5824,7 @@ shared_focus = {
 	relative_position_id = CAL_patton_army_of_the_future
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_new_military_industrial_complex"
+		add_ideas = CAL_a_new_military_industrial_complex
 	}
 }
 
