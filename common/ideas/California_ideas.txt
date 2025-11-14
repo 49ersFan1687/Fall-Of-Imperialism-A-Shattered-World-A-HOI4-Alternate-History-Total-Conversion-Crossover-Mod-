@@ -334,7 +334,7 @@ ideas = {
         CAL_the_new_military_industrial_complex = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_new_military_industrial_complex" }
             allowed = { always = no }
-            picture = Simonds_plan
+            picture = new_military_industrial_complex
             modifier = {
 
             }    
