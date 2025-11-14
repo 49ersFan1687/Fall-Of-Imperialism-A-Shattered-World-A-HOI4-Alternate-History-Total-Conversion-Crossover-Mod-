@@ -70,7 +70,7 @@ ideas = {
             picture = eisenhower_plan
             modifier = {
                 max_planning = 0.025
-                planning_speed = 0.05
+                planning_speed = 0.025
                 supply_consumption_factor = -0.025
                 out_of_supply_factor = 0.05
                 army_org_Factor = 0.025
@@ -189,7 +189,7 @@ ideas = {
             }
         }
 
-        CAL_Pattons_vision4 = { # Patton's Army Reform Plan - Army of the Future - Part Three
+        CAL_Pattons_vision4 = { # Patton's Army Reform Plan - Army of the Future - Part Four
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Pattons_vision4" }
             allowed = { always = no }
             picture = patton_plan
@@ -198,7 +198,7 @@ ideas = {
             }
         }
 
-        CAL_Pattons_vision5 = { # Patton's Army Reform Plan - Army of the Future - Part Three
+        CAL_Pattons_vision5 = { # Patton's Army Reform Plan - Army of the Future - Part Five
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Pattons_vision5" }
             allowed = { always = no }
             picture = patton_plan
@@ -207,7 +207,7 @@ ideas = {
             }
         }
 
-        CAL_Pattons_vision6 = { # Patton's Army Reform Plan - Army of the Future - Part Three
+        CAL_Pattons_vision6 = { # Patton's Army Reform Plan - Army of the Future - Part Six
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Pattons_vision6" }
             allowed = { always = no }
             picture = patton_plan
@@ -216,7 +216,7 @@ ideas = {
             }
         }
 
-        CAL_Pattons_vision7 = { # Patton's Army Reform Plan - Army of the Future - Part Three
+        CAL_Pattons_vision7 = { # Patton's Army Reform Plan - Army of the Future - Part Seven
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Pattons_vision7" }
             allowed = { always = no }
             picture = patton_plan
@@ -225,7 +225,7 @@ ideas = {
             }
         }
 
-        CAL_Pattons_vision8 = { # Patton's Army Reform Plan - Army of the Future - Part Three
+        CAL_Pattons_vision8 = { # Patton's Army Reform Plan - Army of the Future - Part Eight
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Pattons_vision8" }
             allowed = { always = no }
             picture = patton_plan
@@ -323,7 +323,7 @@ ideas = {
 
 ### ARMY REFORM IDEAS - SHARED IDEAS - LIASON IMPROVEMENTS ###
 
-        CAL_the_permanant_canadian_liason = {
+        CAL_the_permanant_canadian_liason1 = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_permanant_canadian_liason" }
             allowed = { always = no }
             picture = permanent_canadian_liason
@@ -335,7 +335,7 @@ ideas = {
 
 ### ARMY REFORM IDEAS - SHARED IDEAS - UPGRADES FOR THE SECOND CONTIENTAL ARMY ###
 
-        CAL_the_new_military_industrial_complex = {
+        CAL_a_new_military_industrial_complex = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_new_military_industrial_complex" }
             allowed = { always = no }
             picture = new_military_industrial_complex
