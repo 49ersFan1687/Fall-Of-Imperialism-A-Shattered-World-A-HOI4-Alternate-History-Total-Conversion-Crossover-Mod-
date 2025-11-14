@@ -5802,7 +5802,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_the_military_industrial_complex
+	id = CAL_the_new_military_industrial_complex
 	icon = GFX
 	cost = 3
 	available_if_capitualted = no
@@ -5819,7 +5819,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_patton_army_of_the_future
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_military_industrial_complex"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_new_military_industrial_complex"
 	}
 }
 
@@ -6494,7 +6494,7 @@ shared_focus = {
 	}
 	x = 0
 	y = 6
-	relative_position_id = CAL_the_military_industrial_complex
+	relative_position_id = CAL_the_new_military_industrial_complex
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrating_flame_tanks_into_the_army"
 	}
