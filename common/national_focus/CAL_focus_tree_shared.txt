@@ -5800,7 +5800,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_steel_plated_cavalry
+	id = CAL_steel_plated_and_steel_coated_cavalry
 	icon = GFX
 	cost = 3
 	available_if_capitualted = no
@@ -5928,11 +5928,11 @@ shared_focus = {
 		factor = 2
 	}
 	prerequisite = {
-		focus = CAL_steel_plated_cavalry
+		focus = CAL_steel_plated_and_steel_coated_cavalry
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_steel_plated_cavalry
+	relative_position_id = CAL_steel_plated_and_steel_coated_cavalry
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_drive_towards_a_fully_mechanized_and_motorized_army"
 	}
