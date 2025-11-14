@@ -5798,6 +5798,10 @@ shared_focus = {
 	relative_position_id = CAL_eisenhower_return_to_form
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_bombard_the_enemy_to_hell"
+		swap_ideas = {
+			remove_idea = CAL_Eisenhowers_vision1
+			add_idea = CAL_Eisenhowers_vision2
+		}
 	}
 }
 
@@ -5940,6 +5944,10 @@ shared_focus = {
 	relative_position_id = CAL_bombard_the_enemy_to_hell
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_supplying_the_army_with_all_the_shells_they_need"
+		swap_ideas = {
+			remove_idea = CAL_Eisenhowers_vision2
+			add_idea = CAL_Eisenhowers_vision3
+		}
 	}
 }
 
@@ -6035,6 +6043,10 @@ shared_focus = {
 	relative_position_id = CAL_supplying_the_army_with_all_the_shells_they_need
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_battalions_of_sluggers"
+		swap_ideas = {
+			remove_idea = CAL_Eisenhowers_vision3
+			add_idea = CAL_Eisenhowers_vision4
+		}
 	}
 }
 
@@ -6187,6 +6199,10 @@ shared_focus = {
 	relative_position_id = CAL_battalions_of_sluggers
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_find_fix_and_fight_them"
+		swap_ideas = {
+			remove_idea = CAL_Eisenhowers_vision4
+			add_idea = CAL_Eisenhowers_vision5
+		}
 	}
 }
 
@@ -6339,6 +6355,10 @@ shared_focus = {
 	relative_position_id = CAL_find_fix_and_fight_them
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrating_tanks_into_our_army"
+		swap_ideas = {
+			remove_idea = CAL_Eisenhowers_vision5
+			add_idea = CAL_Eisenhowers_vision6
+		}
 	}
 }
 
@@ -6475,6 +6495,10 @@ shared_focus = {
 	relative_position_id = CAL_supplying_the_army_with_all_the_shells_they_need
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_earn_your_stripes"
+		swap_ideas = {
+			remove_idea = CAL_Eisenhowers_vision6
+			add_idea = CAL_Eisenhowers_vision7
+		}
 	}
 }
 
@@ -6626,6 +6650,10 @@ shared_focus = {
 	relative_position_id = CAL_earn_your_stripes
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_roughshod_discipline"
+		swap_ideas = {
+			remove_idea = CAL_Eisenhowers_vision7
+			add_idea = CAL_Eisenhowers_vision8
+		}
 	}
 }
 
