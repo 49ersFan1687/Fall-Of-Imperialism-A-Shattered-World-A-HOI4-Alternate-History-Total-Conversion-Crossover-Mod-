@@ -189,6 +189,51 @@ ideas = {
             }
         }
 
+        CAL_Pattons_vision4 = { # Patton's Army Reform Plan - Army of the Future - Part Three
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Pattons_vision4" }
+            allowed = { always = no }
+            picture = patton_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_Pattons_vision5 = { # Patton's Army Reform Plan - Army of the Future - Part Three
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Pattons_vision5" }
+            allowed = { always = no }
+            picture = patton_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_Pattons_vision6 = { # Patton's Army Reform Plan - Army of the Future - Part Three
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Pattons_vision6" }
+            allowed = { always = no }
+            picture = patton_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_Pattons_vision7 = { # Patton's Army Reform Plan - Army of the Future - Part Three
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Pattons_vision7" }
+            allowed = { always = no }
+            picture = patton_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_Pattons_vision8 = { # Patton's Army Reform Plan - Army of the Future - Part Three
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Pattons_vision8" }
+            allowed = { always = no }
+            picture = patton_plan
+            modifier = {
+
+            }
+        }
+
         ### Army Reform Ideas - George Catlett Marshall ###
         CAL_Marshalls_vision1 = { # Marshall's Army Reform Plan - Modern Minutemen - Part One
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Marshalls_vision1" }
