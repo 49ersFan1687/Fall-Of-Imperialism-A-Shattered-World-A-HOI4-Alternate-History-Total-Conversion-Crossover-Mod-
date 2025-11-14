@@ -275,7 +275,7 @@ ideas = {
         ### Army Reform Ideas - Shared Ideas ###
 
         ### Canadian Military Mission ####
-        CAL_Alexanders_Advice = { #General Alexander has been chosen to help Improve the Second Continental Army
+        CAL_Alexanders_Advice = { # General Alexander has been chosen to help Improve the Second Continental Army #
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Alexanders_Advice" }
             allowed = { always = no }
             picture = alexander_plan
@@ -283,7 +283,8 @@ ideas = {
 
             }
         }
-        CAL_Moncels_Advice = { #General Moncel has been chosen to help Improve the Second Continental Army
+
+        CAL_Moncels_Advice = { # General Moncel has been chosen to help Improve the Second Continental Army #
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Moncels_Advice" }
             allowed = { always = no }
             picture = moncel_plan
@@ -292,7 +293,8 @@ ideas = {
             }
 
         }
-        CAL_Simondss_Advice = { #General Simonds has been chosen to help Improve the Second Continental Army
+
+        CAL_Simondss_Advice = { # General Simonds has been chosen to help Improve the Second Continental Army #
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Simondss_Advice" }
             allowed = { always = no }
             picture = Simonds_plan
@@ -300,6 +302,7 @@ ideas = {
 
             }
         }
+
         CAL_the_permanant_canadian_liason = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_permanant_canadian_liason" }
             allowed = { always = no }
@@ -309,6 +312,18 @@ ideas = {
                 experience_gain_army = 0.03
             }
         }
+
+        CAL_the_new_military_industrial_complex = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_new_military_industrial_complex" }
+            allowed = { always = no }
+            picture = Simonds_plan
+            modifier = {
+
+            }    
+        }
+
+
+        
         ### Air Force Reform Ideas ###
         ### Navy Reform Ideas ###
         ### Military Industrial Complex Ideas ###
