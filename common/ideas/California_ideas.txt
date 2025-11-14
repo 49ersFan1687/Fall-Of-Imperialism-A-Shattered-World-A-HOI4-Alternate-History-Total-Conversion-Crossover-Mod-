@@ -156,33 +156,6 @@ ideas = {
             }
         }
 
-        CAL_Eisenhowers_vision9 = { # Eisenhower's Army Reform Plan - Return to Form - Part Nine
-            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Eisenhowers_vision9" }
-            allowed = { always = no }
-            picture = eisenhower_plan
-            modifier = {
-                
-            }
-        }
-
-        CAL_Eisenhowers_vision10 = { # Eisenhower's Army Reform Plan - Return to Form - Part Ten
-            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Eisenhowers_vision10" }
-            allowed = { always = no }
-            picture = eisenhower_plan
-            modifier = {
-                
-            }
-        }
-
-        CAL_Eisenhowers_vision11 = { # Eisenhower's Army Reform Plan - Return to Form - Part Eleven
-            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Eisenhowers_vision11" }
-            allowed = { always = no }
-            picture = eisenhower_plan
-            modifier = {
-                
-            }
-        }
-
         ### Army Reform Ideas - George Smith Patton Jr. ###
         CAL_Pattons_vision1 = { # Patton's Army Reform Plan - Army of the Future - Part One
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Pattons_vision1" }
