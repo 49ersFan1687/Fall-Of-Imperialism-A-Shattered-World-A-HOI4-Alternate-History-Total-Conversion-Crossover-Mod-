@@ -5909,6 +5909,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_leagacy_of_general_pershing"
 		add_war_support = 0.025
 		add_stability = 0.005
+		add_ideas: CAL_pershings_legacy
 	}
 }
 
