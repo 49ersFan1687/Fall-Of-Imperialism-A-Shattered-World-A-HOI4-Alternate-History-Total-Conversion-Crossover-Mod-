@@ -290,7 +290,7 @@ ideas = {
             }
         }
 
-### ARMY REFORM IDEAS - SHARED IDEAS ###
+### ARMY REFORM IDEAS - SHARED IDEAS - ADVICE FROM THE MILITARY MISSION ###
 
         ### Canadian Military Mission ####
         CAL_Alexanders_Advice = { # General Alexander has been chosen to help Improve the Second Continental Army #
@@ -321,6 +321,8 @@ ideas = {
             }
         }
 
+### ARMY REFORM IDEAS - SHARED IDEAS - LIASON IMPROVEMENTS ###
+
         CAL_the_permanant_canadian_liason = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_permanant_canadian_liason" }
             allowed = { always = no }
@@ -330,6 +332,8 @@ ideas = {
                 experience_gain_army = 0.03
             }
         }
+
+### ARMY REFORM IDEAS - SHARED IDEAS - UPGRADES FOR THE SECOND CONTIENTAL ARMY ###
 
         CAL_the_new_military_industrial_complex = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_new_military_industrial_complex" }
