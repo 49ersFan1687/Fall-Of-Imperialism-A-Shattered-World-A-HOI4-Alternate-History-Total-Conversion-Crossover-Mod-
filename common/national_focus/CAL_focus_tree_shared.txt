@@ -540,7 +540,7 @@ shared_focus = {
 	relative_position_id = CAL_in_the_footsteps_of_general_simonds
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_permanent_liason_to_america"
-		add_idea = CAL_the_permanant_canadian_liason
+		add_idea = CAL_the_permanant_canadian_liason1
 	}
 }
 
@@ -8263,7 +8263,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_searching_for_legitimacy
 	}
-	x = -10
+	x = -8.5
 	y = 1
 	relative_position_id = CAL_searching_for_legitimacy
 	completion_reward = {
@@ -8320,7 +8320,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_searching_for_legitimacy
 	}
-	x = 8
+	x = 8.5
 	y = 1
 	relative_position_id = CAL_searching_for_legitimacy
 	completion_reward = {
@@ -8377,20 +8377,35 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_improving_relations_with_the_south_american_nations
 	}
+	x = -1.5
+	y = 1
+	relative_position_id = CAL_improving_relations_with_the_south_american_nations
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_sending_them_some_of_our_rifles"
+	}
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_the_dutch_exiles_in_suriname
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
 	ai_will_do = {
 		factor = 1
 	}
+	prerequisite = {
+		focus = CAL_improving_relations_with_the_south_american_nations
+	}
+	x = 1.5
+	y = 1
+	relative_position_id = CAL_improving_relations_with_the_south_american_nations
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_dutch_exiles_in_suriname"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_
 }
 
 shared_focus = {
