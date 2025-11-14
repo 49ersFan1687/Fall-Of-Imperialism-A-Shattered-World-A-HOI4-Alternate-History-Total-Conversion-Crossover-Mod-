@@ -5843,6 +5843,10 @@ shared_focus = {
 	relative_position_id = CAL_patton_army_of_the_future
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_steel_plated_cavalry"
+		swap_ideas = {
+			remove_idea = CAL_Pattons_vision1
+			add_idea = CAL_Pattons_vision2
+		}
 	}
 }
 
@@ -5978,6 +5982,10 @@ shared_focus = {
 	relative_position_id = CAL_steel_plated_and_steel_coated_cavalry
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_drive_towards_a_fully_mechanized_and_motorized_army"
+		swap_ideas = {
+			remove_idea = CAL_Pattons_vision2
+			add_idea = CAL_Pattons_vision3
+		}
 	}
 }
 
@@ -6096,6 +6104,10 @@ shared_focus = {
 	relative_position_id = CAL_a_drive_towards_a_fully_mechanized_and_motorized_army
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_an_efficient_army"
+		swap_ideas = {
+			remove_idea = CAL_Pattons_vision3
+			add_idea = CAL_Pattons_vision4
+		}
 	}	
 }
 
@@ -6252,6 +6264,10 @@ shared_focus = {
 	relative_position_id = CAL_an_efficient_army
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_an_aerial_and_armored_breakthrough"
+		swap_ideas = {
+			remove_idea = CAL_Pattons_vision4
+			add_idea = CAL_Pattons_vision5
+		}
 	}
 }
 
@@ -6374,7 +6390,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_mobile_armored_artillery
+	id = CAL_establish_the_aerial_scouts
 	icon = GFX
 	cost = 3
 	available_if_capitualted = no
@@ -6393,7 +6409,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_establish_the_aerial_scouts
+	id = CAL_mobile_armored_artillery
 	icon = GFX
 	cost = 3
 	available_if_capitualted = no
@@ -6408,6 +6424,10 @@ shared_focus = {
 	relative_position_id = CAL_an_unceasing_tide_of_steel
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_mobile_armored_artillery"
+		swap_ideas = {
+			remove_idea = CAL_Pattons_vision5
+			add_idea = CAL_Pattons_vision6
+		}
 	}
 }
 
@@ -6554,6 +6574,10 @@ shared_focus = {
 	relative_position_id = CAL_a_drive_towards_a_fully_mechanized_and_motorized_army
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_creating_artillery_brigades"
+		swap_ideas = {
+			remove_idea = CAL_Pattons_vision6
+			add_idea = CAL_Pattons_vision7
+		}
 	}	
 }
 
@@ -6684,7 +6708,11 @@ shared_focus = {
 	relative_position_id = CAL_towards_a_better_tank
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_officers_must_lead_by_example"
-	}	
+		swap_ideas = {
+			remove_idea = CAL_Pattons_vision7
+			add_idea = CAL_Pattons_vision8
+		}
+	}
 }
 
 shared_focus = {
