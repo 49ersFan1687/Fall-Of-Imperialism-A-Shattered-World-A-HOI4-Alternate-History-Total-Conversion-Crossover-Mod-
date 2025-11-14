@@ -5866,6 +5866,13 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_rangers_lead_the_way"
 		add_potential_special_forces_tree = yes
+		army_experience = 40
+		add_manpower = 4000
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 2
+			category = cat_special_forces_generic
+		}
 	}
 }
 
