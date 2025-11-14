@@ -340,7 +340,14 @@ ideas = {
             }    
         }
 
+        CAL_pershings_legacy = {
+           on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_pershings_legacy" }
+            allowed = { always = no }
+            picture = pershings_legacy
+            modifier = {
 
+            }    
+        }
 
         ### Air Force Reform Ideas ###
         ### Navy Reform Ideas ###
