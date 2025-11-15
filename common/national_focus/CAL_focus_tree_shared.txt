@@ -9029,6 +9029,9 @@ shared_focus = {
 	x = 0
 	y = 6
 	relative_position_id = CAL_the_hawaii_question
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_hawaii_back_in_american_hands"
+	}
 }
 
 # Superregional Stage # 
