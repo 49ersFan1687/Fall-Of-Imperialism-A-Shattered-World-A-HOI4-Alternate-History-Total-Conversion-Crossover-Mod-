@@ -108,7 +108,7 @@ ideologies = {
 			longism_ideology = { }
 			semi_constitutional_monarchy_ideology = { }
 			democratic_stratocracy_ideology = { }
-			irish_national_catholicism = { }
+			irish_national_catholicism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 135 135 140 }
