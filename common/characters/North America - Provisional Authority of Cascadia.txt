@@ -463,10 +463,10 @@ characters = {
 		name = CSD_jason_lee_scott
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Jason_Lee_Scott.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Jason_Lee_Scott.dds"
 			}
 		}
 		field_marshal = {
@@ -527,7 +527,7 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { ranger commando offensive_doctrine brilliant_strategist career_officer }
+			traits = { ranger commando offensive_doctrine career_officer }
 			skill = 5
 			attack_skill = 5
 			defense_skill = 4
@@ -581,10 +581,10 @@ characters = {
 		name = CSD_rocky_de_santos
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/CSD/Portrait_CSD_rocky_de_santos.dds"
+				large = "gfx/leaders/CSD/Portrait_CSD_Rocky_De_Santos.dds"
 			}
 			army = {
-				large = "gfx/leaders/CSD/Portrait_CSD_rocky_de_santos.dds"
+				large = "gfx/leaders/CSD/Portrait_CSD_Rocky_De_Santos.dds"
 			}
 		}
 		corps_commander = {
@@ -661,10 +661,10 @@ characters = {
 		name = CSD_tanya_sloan
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Tanya_Sloan.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Tanya_Sloan.dds"
 			}
 		}
 		corps_commander = {
