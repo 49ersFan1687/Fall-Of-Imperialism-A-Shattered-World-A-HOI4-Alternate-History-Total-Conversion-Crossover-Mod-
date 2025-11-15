@@ -8658,7 +8658,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_fund_resistance_groups_on_the_islands
+	id = CAL_support_resistance_groups_on_the_islands
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -8672,12 +8672,12 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_taking_hawaii_back_by_force
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_fund_resistance_groups_on_the_islands"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_support_resistance_groups_on_the_islands"
 	}
 }
 
 shared_focus = {
-	id = CAL_helping_them_industrialize
+	id = CAL_helping_them_industrialize_their_rump_state
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -8715,59 +8715,224 @@ shared_focus = {
 }
 
 shared_focus = {
-
+	id = CAL_helping_the_brazilian_army
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_ask_the_mexicans_for_help
+	}
+	prerequisite = {
+		focus = CAL_assist_the_royal_netherlands_army
+	}
+	x = 0
+	y = 3
+	relative_position_id = CAL_improving_relations_with_south_and_latin_american_nations
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_helping_the_brazilian_army"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_the_sitrep_for_operation_homecoming
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_conducting_excercises_with_canada
+	}
+	prerequisite = {
+		focus = CAL_ask_for_alaska_back
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_expanding_the_canadian_liason
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_sitrep_for_operation_homecoming"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_pow_exhange_program
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_hold_the_san_francisco_conference
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_hold_the_san_francisco_conference
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_pow_exhange_program"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_spread_anti_japanese_propaganda
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_support_resistance_groups_on_the_islands
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_support_resistance_groups_on_the_islands
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_spread_anti_japanese_propaganda"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_resolving_colonial_disputes
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_helping_them_industrialize_their_rump_state
+	}
+	prerequisite = {
+		focus = CAL_help_build_up_their_air_force
+	}
+	x = 0
+	y = 4
+	relative_position_id = CAL_assistance_to_our_french_friends_in_west_africa
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_resolving_colonial_disputes"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_figuring_out_a_fitting_punishment_for_argentina
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_helping_the_brazilian_army
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_helping_the_brazilian_army
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_figuring_out_a_fitting_punishment_for_argentina"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_join_the_bermuda_accords
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_sitrep_for_operation_homecoming
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_the_sitrep_for_operation_homecoming
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_join_the_bermuda_accords"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_concessions_to_the_japanese
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_pow_exhange_program
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_pow_exhange_program
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_concessions_to_the_japanese"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_operation_takeover
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_spread_anti_japanese_propaganda
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_spread_anti_japanese_propaganda
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_operation_takeover"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_prouducing_anti_vichy_propaganda
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_resolving_colonial_disputes
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_resolving_colonial_disputes
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_prouducing_anti_vichy_propaganda"
+	}
 }
 
 shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
-}
-
-shared_focus = {
-	
+	id = CAL_asking_canada_for_the_return_of_our_carribean_colonies
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_figuring_out_a_fitting_punishment_for_argentina
+	}
+	prerequisite = {
+		focus = CAL_join_the_bermuda_accords
+	}
+	x = 0
+	y = 6
+	relative_position_id = CAL_searching_for_legitimacy
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_asking_canada_for_the_return_of_our_carribean_colonies"
+	}
 }
 
 shared_focus = {
