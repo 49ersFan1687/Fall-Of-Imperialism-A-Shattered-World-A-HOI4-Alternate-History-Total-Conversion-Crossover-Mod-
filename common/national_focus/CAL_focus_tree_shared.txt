@@ -5945,6 +5945,10 @@ shared_focus = {
 	relative_position_id = CAL_westmoreland_brute_force
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_start_mass_army_conscription"
+		swap_ideas = {
+			remove_idea = CAL_westmorelands_vision1
+			add_idea = CAL_westmorelands_vision2
+		}
 	}
 }
 
@@ -6033,6 +6037,10 @@ shared_focus = {
 	relative_position_id = CAL_start_mass_army_conscription
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_train_the_army_in_large_front_battles"
+		swap_ideas = {
+			remove_idea = CAL_westmorelands_vision2
+			add_idea = CAL_westmorelands_vision3
+		}
 	}
 }
 
@@ -6155,6 +6163,10 @@ shared_focus = {
 	relative_position_id = CAL_use_the_knowledge_of_our_land
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_spirit_of_the_green_mountaineers"
+		swap_ideas = {
+			remove_idea = CAL_marshalls_vision3
+			add_idea = CAL_marshalls_vision4
+		}
 	}	
 }
 
@@ -6174,6 +6186,10 @@ shared_focus = {
 	relative_position_id = CAL_train_the_army_in_large_front_battles
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reinforcing_the_meat_grinders"
+		swap_ideas = {
+			remove_idea = CAL_westmorelands_vision3
+			add_idea = CAL_westmorelands_vision4
+		}
 	}
 }
 
@@ -6315,6 +6331,10 @@ shared_focus = {
 	relative_position_id = CAL_spirit_of_the_green_mountaineers
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_hunters_of_the_night"
+		swap_ideas = {
+			remove_idea = CAL_marshalls_vision4
+			add_idea = CAL_marshalls_vision5
+		}
 	}	
 }
 
@@ -6334,6 +6354,10 @@ shared_focus = {
 	relative_position_id = CAL_reinforcing_the_meat_grinders
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_hunters_of_the_night"
+		swap_ideas = {
+			remove_idea = CAL_westmorelands_vision4
+			add_idea = CAL_westmorelands_vision5
+		}
 	}
 }
 
@@ -6475,6 +6499,10 @@ shared_focus = {
 	relative_position_id = CAL_hunters_of_the_night
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_improved_camoflauge_equipment"
+		swap_ideas = {
+			remove_idea = CAL_marshalls_vision5
+			add_idea = CAL_marshalls_vision6
+		}
 	}	
 }
 
@@ -6494,6 +6522,10 @@ shared_focus = {
 	relative_position_id = CAL_unending_flood_of_soldiers
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_an_unbreakable_wall_of_steel"
+		swap_ideas = {
+			remove_idea = CAL_westmorelands_vision5
+			add_idea = CAL_westmorelands_vision6
+		}
 	}
 }
 
@@ -6631,6 +6663,10 @@ shared_focus = {
 	relative_position_id = CAL_use_the_knowledge_of_our_land
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_creating_artillery_brigades"
+		swap_ideas = {
+			remove_idea = CAL_marshalls_vision6
+			add_idea = CAL_marshalls_vision7
+		}
 	}	
 }
 
@@ -6675,6 +6711,10 @@ shared_focus = {
 	relative_position_id = CAL_train_the_army_in_large_front_battles
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_an_american_form_of_deep_battle"
+		swap_ideas = {
+			remove_idea = CAL_westmorelands_vision6
+			add_idea = CAL_westmorelands_vision7
+		}
 	}
 }
 
@@ -6740,6 +6780,10 @@ shared_focus = {
 	relative_position_id = CAL_special_forces_lead_the_way
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_masters_of_guerilla_warfare"
+		swap_ideas = {
+			remove_idea = CAL_marshalls_vision7
+			add_idea = CAL_marshalls_vision8
+		}
 	}
 }
 
@@ -6759,6 +6803,10 @@ shared_focus = {
 	relative_position_id = CAL_an_american_form_of_deep_battle
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_attack_attack_attack"
+		swap_ideas = {
+			remove_idea = CAL_westmorelands_vision7
+			add_idea = CAL_westmorelands_vision8
+		}
 	}
 }
 
