@@ -25,7 +25,17 @@ set_popularities = {
 	neutrality = 15
 	paternal_autocrat = 5
 	communism = 2
-	
+}
+
+### Starting Ideas ###
+
+add_ideas = {
+	CAL_the_long_march_west
+	CAL_the_greater_depression
+	CAL_a_shattered_army
+	CAL_an_outdated_air_force
+	CAL_the_mothballed_navy
+	CAL_the_failure_of_democracy
 }
 
 ### Country Leader ###
