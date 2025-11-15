@@ -59,4 +59,35 @@ characters = {
 			}
 		}
 	}
+
+    MAR_Raymond_Ames_Spruance = {
+        name = MAR_Raymond_Ames_Spruance
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        navy_leader = {
+			desc = 
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			maneuvering_skill = 
+			coordination_skill =
+
+		}
+		advisior = { 
+			slot = 
+			idea_token = 
+			ledger = navy
+			allowed = { original_tag = CAL }
+			traits = {
+
+			}
+		}
+    }
 }
