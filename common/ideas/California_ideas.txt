@@ -262,6 +262,51 @@ ideas = {
             }
         }
 
+        CAL_Marshalls_vision4 = { # Marshall's Army Reform Plan - Modern Minutemen - Part Four
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Marshalls_vision4" }
+            allowed = { always = no }
+            picture = marshall_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_Marshalls_vision5 = { # Marshall's Army Reform Plan - Modern Minutemen - Part Five
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Marshalls_vision5" }
+            allowed = { always = no }
+            picture = marshall_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_Marshalls_vision6 = { # Marshall's Army Reform Plan - Modern Minutemen - Part Six
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Marshalls_vision6" }
+            allowed = { always = no }
+            picture = marshall_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_Marshalls_vision7 = { # Marshall's Army Reform Plan - Modern Minutemen - Part Seven
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Marshalls_vision7" }
+            allowed = { always = no }
+            picture = marshall_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_Marshalls_vision8 = { # Marshall's Army Reform Plan - Modern Minutemen - Part Eight
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Marshalls_vision8" }
+            allowed = { always = no }
+            picture = marshall_plan
+            modifier = {
+
+            }
+        }
+
         ### Army Reform Ideas - William Childs Westmoreland ###
         CAL_Westmorelands_Vision1 = { # Westmoreland's Army Reform Plan - Brute Force - Part One
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Westmorelands_Vision1" }
