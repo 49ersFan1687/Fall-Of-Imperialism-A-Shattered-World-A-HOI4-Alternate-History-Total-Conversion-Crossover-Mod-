@@ -463,7 +463,7 @@ characters = {
 		name = CSD_jason_lee_scott
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Jason_Lee_Scott.dds"
 			}
 			army = {
 				large = 
