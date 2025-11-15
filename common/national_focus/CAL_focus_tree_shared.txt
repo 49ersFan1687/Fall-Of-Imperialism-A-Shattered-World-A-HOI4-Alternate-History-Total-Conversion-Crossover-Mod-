@@ -8620,14 +8620,42 @@ shared_focus = {
 	}
 }
 
-
-
 shared_focus = {
-	
+	id = CAL_helping_them_industrialize
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_send_them_some_artillery_and_trucks
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_send_them_some_artillery_and_trucks
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_helping_them_industrialize"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_help_build_up_their_air_force
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_training_the_french_foreign_legion
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_training_the_french_foreign_legion
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_help_build_up_their_air_force"
+	}
 }
 
 shared_focus = {
