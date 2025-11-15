@@ -15,6 +15,32 @@
  RKG_DEF: "Norge"
  RKG_ADJ: "Norwegian"
 
+ #Parties#
+ GER_national_socialism_party: "NSDAP [T]"
+ GER_national_socialism_party_long: "§YNationalsozialistische Deutsche Arbeiterpartei [Traditionalisten]§!\n§gNational Socialist German Workers' Party [Traditionalists]§!"
+ GER_esotericism_party: "NSDAP [O]/[Th]"
+ GER_esotericism_party_long: "§YNationalsozialistische Deutsche Arbeiterpartei [Okkultisten]/[Thulisten]§!\n§gNational Socialist German Workers' Party [Occultists]/[Thulists]§!"
+ GER_fascism_party: "NSDAP [H]"
+ GER_fascism_party_long: "§YNationalsozialistische Deutsche Arbeiterpartei [Hardliner]§!\n§gNational Socialist German Workers' Party [Hardliners]§!"
+ GER_paternal_autocrat_party: "NSDAP [W]"
+ GER_paternal_autocrat_party_long: "§YNationalsozialistische Deutsche Arbeiterpartei [Wehrmacht]§!\n§gNational Socialist German Workers' Party [Wehrmacht]§!"
+ GER_neutrality_party: "DNP"
+ GER_neutrality_party_long: "§YDeutschnationale Partei§!\n§gGerman Nationalist Party§!"
+ GER_conservatism_party: "CDU"
+ GER_conservatism_party_long: "§YChristlich-Demokratische Union Deutschlands§!\n§gChristian Democratic Union of Germany§!"
+ GER_democratic_party: "FDP"
+ GER_democratic_party_long: "§YFreie Demokratische Partei§!\n§gFree Democratic Party§!"
+ GER_social_democracy_party: "SPD"
+ GER_social_democracy_party_long: "§YSozialdemokratische Partei Deutschlands§!\n§gSocial Democratic Party of Germany§!"
+ GER_socialism_party: "Die Linke"
+ GER_socialism_party_long: "§YDie Linke§!\n§gThe Left§!"
+ GER_communism_party: "SED"
+ GER_communism_party_long: "§YSozialistische Einheitspartei Deutschlands§!\n§gSocialist Unity Party of Germany§!"
+ GER_ultranationalism_party: "NSDAP [M]"
+ GER_ultranationalism_party_long: "§YNationalsozialistische Deutsche Arbeiterpartei [Militaristen]§!\n§gNational Socialist German Workers' Party [Militarists]§!"
+ GER_accelerationism_party: "DKB"
+ GER_accelerationism_party_long: "§YDeutscher Künstlerverband§!\n§gGerman Artists' Union§!"
+
  # Localisation for Britain #
 
  #Country Names#
