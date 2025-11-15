@@ -81,3 +81,8 @@ recruit_character = CAL_William_Fredrick_Halsey_Jr
 recruit_character = CAL_William_Daniel_Leahy
 recruit_character = CAL_Issac_Campbell_Kidd_Sr
 recruit_character = CAL_Arleigh_Albert_Burke
+
+### Operatives ###
+
+
+### Scientists ###
