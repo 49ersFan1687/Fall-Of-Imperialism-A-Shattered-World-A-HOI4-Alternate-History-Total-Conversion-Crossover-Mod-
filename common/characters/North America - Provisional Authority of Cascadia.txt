@@ -581,10 +581,10 @@ characters = {
 		name = CSD_rocky_de_santos
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/CSD/Portrait_CSD_rocky_de_santos.dds"
+				large = "gfx/leaders/CSD/Portrait_CSD_Rocky_De_Santos.dds"
 			}
 			army = {
-				large = "gfx/leaders/CSD/Portrait_CSD_rocky_de_santos.dds"
+				large = "gfx/leaders/CSD/Portrait_CSD_Rocky_De_Santos.dds"
 			}
 		}
 		corps_commander = {
@@ -661,10 +661,10 @@ characters = {
 		name = CSD_tanya_sloan
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Tanya_Sloan.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Tanya_Sloan.dds"
 			}
 		}
 		corps_commander = {
