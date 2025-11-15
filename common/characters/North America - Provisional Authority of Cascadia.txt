@@ -466,7 +466,7 @@ characters = {
 				large = "gfx/leaders/CSD/Portrait_CSD_Jason_Lee_Scott.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Jason_Lee_Scott.dds"
 			}
 		}
 		field_marshal = {
