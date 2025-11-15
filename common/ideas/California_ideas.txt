@@ -318,7 +318,7 @@ ideas = {
         }
 
         CAL_Westmorelands_Vision2 = { # Westmoreland's Army Reform Plan - Brute Force - Part Two
-            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Westmorelands_Vision1" }
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Westmorelands_Vision2" }
              allowed = { always = no }
             picture = westmoreland_plan
             modifier = {
@@ -327,7 +327,52 @@ ideas = {
         }
 
         CAL_Westmorelands_Vision3 = { # Westmoreland's Army Reform Plan - Brute Force - Part Three
-            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Westmorelands_Vision1" }
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Westmorelands_Vision3" }
+             allowed = { always = no }
+            picture = westmoreland_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_Westmorelands_Vision4 = { # Westmoreland's Army Reform Plan - Brute Force - Part Four
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Westmorelands_Vision4" }
+             allowed = { always = no }
+            picture = westmoreland_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_Westmorelands_Vision5 = { # Westmoreland's Army Reform Plan - Brute Force - Part Five
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Westmorelands_Vision5" }
+             allowed = { always = no }
+            picture = westmoreland_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_Westmorelands_Vision6 = { # Westmoreland's Army Reform Plan - Brute Force - Part Six
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Westmorelands_Vision6" }
+             allowed = { always = no }
+            picture = westmoreland_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_Westmorelands_Vision7 = { # Westmoreland's Army Reform Plan - Brute Force - Part Seven
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Westmorelands_Vision7" }
+             allowed = { always = no }
+            picture = westmoreland_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_Westmorelands_Vision8 = { # Westmoreland's Army Reform Plan - Brute Force - Part Eight
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Westmorelands_Vision8" }
              allowed = { always = no }
             picture = westmoreland_plan
             modifier = {
