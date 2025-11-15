@@ -5897,6 +5897,10 @@ shared_focus = {
 	relative_position_id = CAL_marshall_modern_minuteman
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_modernize_revolutionary_war_tactics"
+		swap_ideas = {
+			remove_idea = CAL_marshalls_vision1
+			add_idea = CAL_marshalls_vision2
+		}
 	}
 }
 
@@ -6006,6 +6010,10 @@ shared_focus = {
 	relative_position_id = CAL_modernize_revolutionary_war_tactics
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_use_the_knowledge_of_our_land"
+		swap_ideas = {
+			remove_idea = CAL_marshalls_vision2
+			add_idea = CAL_marshalls_vision3
+		}
 	}
 }
 
@@ -8659,7 +8667,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+
 }
 
 shared_focus = {
