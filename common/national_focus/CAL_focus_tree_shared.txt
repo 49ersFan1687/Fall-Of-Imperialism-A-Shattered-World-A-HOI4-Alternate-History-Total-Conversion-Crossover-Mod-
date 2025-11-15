@@ -1814,7 +1814,21 @@ shared_focus = {
 			name = "California National Guard Armored Division"
 			division_names_group = CAL_ARM_01
 			regiments = {
-
+				medium_armor = { x = 0 y = 0 }
+				medium_armor = { x = 0 y = 1 }
+				light_armor = { x = 0 y = 2 }
+				medium_armor = { x = 1 y = 0 }
+				medium_armor = { x = 1 y = 1 }
+				light_armor = { x = 1 y = 2 }
+				mechanized_infantry = { x = 2 y = 0 }
+				mechanized_infantry = { x = 2 y = 1 }
+				mechanized_infantry = { x = 2 y = 2 }
+				mechanized_infantry = { x = 3 y = 0 }
+				mechanized_infantry = { x = 3 y = 1 }
+				mechanized_infantry = { x = 3 y = 2 }
+			}
+			support = {
+				
 			}
 		}
 		1031 = {
@@ -1855,7 +1869,7 @@ shared_focus = {
 		mark_focus_tree_layout_dirty = yes
 	}
 }
-# California Civil War Focus Tree - Warlord Stage#
+# California Civil War Focus Tree - Warlord Stage #
 shared_focus = {
 	id = CAL_the_first_of_many_steps_to_victory
 	icon = GFX
