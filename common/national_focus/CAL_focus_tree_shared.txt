@@ -8264,7 +8264,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_searching_for_legitimacy
 	}
-	x = -8.5
+	x = -8
 	y = 1
 	relative_position_id = CAL_searching_for_legitimacy
 	completion_reward = {
@@ -8321,7 +8321,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_searching_for_legitimacy
 	}
-	x = 8.5
+	x = 8
 	y = 1
 	relative_position_id = CAL_searching_for_legitimacy
 	completion_reward = {
@@ -8340,7 +8340,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_assistance_to_our_french_friends_in_west_africa
 	}
-	x = -1.5
+	x = -1.3
 	y = 1
 	relative_position_id = CAL_assistance_to_our_french_friends_in_west_africa
 	completion_reward = {
@@ -8359,7 +8359,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_assistance_to_our_french_friends_in_west_africa
 	}
-	x = 1.5
+	x = 1.3
 	y = 1
 	relative_position_id = CAL_assistance_to_our_french_friends_in_west_africa
 	completion_reward = {
@@ -8378,7 +8378,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_improving_relations_with_the_south_american_nations
 	}
-	x = -1.5
+	x = -1.3
 	y = 1
 	relative_position_id = CAL_improving_relations_with_the_south_american_nations
 	completion_reward = {
@@ -8397,7 +8397,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_improving_relations_with_the_south_american_nations
 	}
-	x = 1.5
+	x = 1.3
 	y = 1
 	relative_position_id = CAL_improving_relations_with_the_south_american_nations
 	completion_reward = {
@@ -8469,19 +8469,64 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_send_them_some_artillery_and_trucks
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_sending_them_some_of_our_rifles
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_sending_them_some_of_our_rifles
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_send_them_some_artillery_and_trucks"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_training_the_french_foreign_legion
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_permanent_liason_to_free_france
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_the_permanent_liason_to_free_france
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_training_the_french_foreign_legion"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_
 }
 
 shared_focus = {
-	
+	id = CAL_assist_the_royal_netherlands_army
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_dutch_exiles_in_suriname
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_the_dutch_exiles_in_suriname
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_assist_the_royal_netherlands_army"
+	}
 }
 
 shared_focus = {
