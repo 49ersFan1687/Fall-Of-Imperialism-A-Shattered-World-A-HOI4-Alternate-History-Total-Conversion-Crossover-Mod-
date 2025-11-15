@@ -8936,24 +8936,99 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_the_pacific_handover
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_concessions_to_the_japanese
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_concessions_to_the_japanese
+		completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_pacific_handover"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_writing_our_peace_deal
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_operation_takeover
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_operation_takeover
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_writing_our_peace_deal"
+	}	
 }
 
 shared_focus = {
-	
+	id = CAL_recognize_free_france
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_prouducing_anti_vichy_propaganda
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_prouducing_anti_vichy_propaganda
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_recognize_free_france"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_helping_the_other_american_remnants
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_asking_canada_for_the_return_of_our_carribean_colonies
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_asking_canada_for_the_return_of_our_carribean_colonies
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_helping_the_other_american_remnants"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_hawaii_back_in_american_hands
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_pacific_handover
+		focus = CAL_writing_our_peace_deal
+	}
+	x = 0
+	y = 6
+	relative_position_id = CAL_the_hawaii_question
 }
+
+# Superregional Stage # 
 
 shared_focus = {
 	
