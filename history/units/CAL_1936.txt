@@ -53,32 +53,45 @@ division_template = {
     }
 }
 
+division_template = {
+    name = "Second Continental Army Marine Division"
+
+    division_names_group = CAL_ARM_01
+
+    regiments = {
+        
+    }
+    support = {
+
+    }
+}
+
 units = {
     division = {
         name = 
         location = 
-        division_template = 
+        division_template = "Second Continental Army Infantry Division"
         start_equipment_factor = 
     }
 
     division = {
         name = 
         location = 
-        division_template = 
+        division_template = "Second Continental Army Infantry Division"
         start_equipment_factor =
     }
 
     division = {
         name = 
         location = 
-        division_template = 
+        division_template = "Second Continental Army Infantry Division"
         start_equipment_factor =
     }
 
     division = {
         name = 
         location = 
-        division_template = 
+        division_template = "Second Continental Army Infantry Division"
         start_equipment_factor =
     }
 
