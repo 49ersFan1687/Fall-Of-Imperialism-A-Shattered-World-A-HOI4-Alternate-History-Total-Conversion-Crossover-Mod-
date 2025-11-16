@@ -30,6 +30,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/nazism_ideology.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_british_fascism_ideology"
+		texturefile = "gfx/interface/ideologies/british_fascism_ideology.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_stratocratic_nazism_ideology"
 		texturefile = "gfx/interface/ideologies/stratocratic_nazism_ideology.png"
 	}
@@ -49,6 +53,35 @@ spriteTypes = {
 		name = "GFX_ideology_stratocratic_nationalism_ideology"
 		texturefile = "gfx/interface/ideologies/stratocratic_nationalism_ideology.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_GER_social_democracy_ideology"
+		texturefile = "gfx/interface/ideologies/GER_social_democracy_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_GER_market_liberalism_ideology"
+		texturefile = "gfx/interface/ideologies/GER_market_liberalism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_GER_christian_democracy_ideology"
+		texturefile = "gfx/interface/ideologies/GER_christian_democracy_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_enlightened_nazism_ideology"
+		texturefile = "gfx/interface/ideologies/enlightened_nazism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_technocratic_nazism_ideology"
+		texturefile = "gfx/interface/ideologies/technocratic_nazism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_GER_leninism_ideology"
+		texturefile = "gfx/interface/ideologies/GER_leninism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_GER_democratic_socialism_ideology"
+		texturefile = "gfx/interface/ideologies/GER_democratic_socialism_ideology.png"
+	}
+
 #Unknown
 	spriteType = {
 		name = "GFX_ideology_unknown"

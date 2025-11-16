@@ -7,6 +7,7 @@ set_stability = 0.5
 set_technology = {
 	infantry_weapons = 1
 }
+add_ideas = AFR_colonial_remenants
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"
@@ -15,17 +16,54 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 40
-	conservatism = 40
-	socialism = 10
-	paternal_autocrat = 10
+	democratic = 30
+	paternal_autocrat = 20
+	communism = 20
+	conservatism = 15
+	social_democracy = 15
 	
 }
 create_country_leader = {
 	name = "Maurice Yaméogo"
 	desc = ""
-	picture = GFX_fish
+	picture = GFX_Maurice_BUR
 	ideology = progressive_democracy_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Maurice Yaméogo"
+	desc = ""
+	picture = GFX_Maurice_BUR
+	ideology = civilian_dictatorship_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Philippe Ouédraogo"
+	desc = ""
+	picture = GFX_fish
+	ideology = leninism_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Joseph Issoufou Conombo"
+	desc = ""
+	picture = GFX_fish
+	ideology = conservatism_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Nazi Boni"
+	desc = ""
+	picture = GFX_fish
+	ideology = social_democracy_ideology
 	traits = {
 		#
 	}

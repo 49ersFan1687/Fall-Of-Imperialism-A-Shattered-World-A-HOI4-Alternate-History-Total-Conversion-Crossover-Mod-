@@ -9,7 +9,7 @@ set_convoys = 10
 
 
 add_ideas = GNA_broken_promises
-add_ideas = GNA_colonial_remenants
+add_ideas = AFR_colonial_remenants
 set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1936.1.1"

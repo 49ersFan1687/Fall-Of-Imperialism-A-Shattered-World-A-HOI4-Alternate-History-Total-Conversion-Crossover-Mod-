@@ -68,6 +68,8 @@ national_communism_ideology: "National Communism"
 national_communism_ideology_desc: "national communism"
 autonomous_communism_ideology: "Autonomous Communism"
 autonomous_communism_ideology_desc: "Autonomus Communism"
+autocratic_marxism_ideology: "Autocratic Marxism"
+autocratic_marxism_ideology_desc: "Autocratic Marxism"
 
 ### Subideologies - Syndicalism ###
 syndicalism_ideology: "Syndicalism"
@@ -193,6 +195,8 @@ absolute_monarchy_ideology: "Absolute Monarchy"
 absolute_monarchy_ideology_desc: "Absolute Monarchy"
 colonial_government_ideology: "Colonial Government"
 colonial_government_ideology_desc: "Colonial Government"
+autocratic_marxism_paternal_ideology: "Autocratic Marxism"
+autocratic_marxism_paternal_ideology_desc: "Autocratic Marxism"
 
 ### Subideologies - Accelerationism ###
 accelerationism_ideology: "Accelerationism"

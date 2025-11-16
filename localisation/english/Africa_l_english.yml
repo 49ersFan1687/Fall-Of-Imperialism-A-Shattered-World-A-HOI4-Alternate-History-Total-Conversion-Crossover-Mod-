@@ -64,6 +64,7 @@ BRE: "British-Ghanese Colonial District"
 BRE_DEF: "British-Ghanese Colonial District"
 BRE_ADJ: "British-Ghanese"
 # PARTIES #
+#Guinea
 GNA_paternal_autocrat_party: "PDG-RDA"
 GNA_paternal_autocrat_party_long: "§YParti Démocratique de Guinée-Rassemblement Démocratique Africain§!\n§gDemocratic Party of Guinea – African Democratic Rally§!"
 GNA_social_democracy_party: "RPG"
@@ -88,11 +89,34 @@ GNA_national_socialism_party: "§RN/A§!"
 GNA_national_socialism_party_long: "§RN/A§!"
 GNA_esotericism_party: "§RN/A§!"
 GNA_esotericism_party_long: "§RN/A§!"
-
-
+#Upper Volta
+BUR_democratic_party: "UDV-RDA"
+BUR_democratic_party_long: "§YUnion Démocratique Voltaïque-Rassemblement Démocratique Africain§!\n§gVoltaic Democratic Union-African Democratic Rally§!"
+BUR_paternal_autocrat_party: "UDV-RDA"
+BUR_paternal_autocrat_party_long: "§YUnion Démocratique Voltaïque-Rassemblement Démocratique Africain§!\n§gVoltaic Democratic Union-African Democratic Rally§!"
+BUR_communism_party: "PAI"
+BUR_communism_party_long: "§YParti Africain de l'Indépendance§!\n§gAfrican Independence Party§!"
+BUR_socialism_party: "MPA"
+BUR_socialism_party_long: "§YMouvement Populaire Africain§!\n§gAfrican Popular Movement§!"
+BUR_social_democracy_party: "PRL"
+BUR_social_democracy_party_long: "§YParti Républicain pour la Liberté§!\n§gRepublican Party for Liberty§!"
+BUR_conservatism_party: "PSEMA"
+BUR_conservatism_party_long: "§YParti Social pour l'Émancipation des Masses Africaines§!\n§gSocial Party for the Emancipation of the African Masses§!"
+BUR_neutrality_party: "§RN/A§!"
+BUR_neutrality_party_long: "§RN/A§!"
+BUR_accelerationism_party: "§RN/A§!"
+BUR_accelerationism_party_long: "§RN/A§!"
+BUR_ultranationalism_party: "§RN/A§!"
+BUR_ultranationalism_party_long: "§RN/A§!"
+BUR_fascism_party: "§RN/A§!"
+BUR_fascism_party_long: "§RN/A§!"
+BUR_national_socialism_party: "§RN/A§!"
+BUR_national_socialism_party_long: "§RN/A§!"
+BUR_esotericism_party: "§RN/A§!"
+BUR_esotericism_party_long: "§RN/A§!"
 #Ideas#
 GNA_broken_promises: "Broken Promises"
-GNA_colonial_remenants: "Colonial Remenants"
+AFR_colonial_remenants: "Colonial Remenants"
 
 
 ### Character Localization ###

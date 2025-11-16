@@ -1,9 +1,11 @@
 spriteTypes = {
-	
-
 	spriteType = {
 		name = "GFX_Ahmed_GNA"
 		textureFile = "gfx/leaders/Africa/AhmedGuinea.png"
+	}
+	spriteType = {
+		name = "GFX_Maurice_BUR"
+		textureFile = "gfx/leaders/Africa/MauriceVolta.png"
 	}
 
 }

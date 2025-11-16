@@ -14,7 +14,8 @@ ideas = {
                 
             }
 	}
-     GNA_colonial_remenants = {
+    ### Country Ideas - General ###
+     AFR_colonial_remenants = {
              allowed = { always = no }
              picture = GFX_fish
              modifier = {

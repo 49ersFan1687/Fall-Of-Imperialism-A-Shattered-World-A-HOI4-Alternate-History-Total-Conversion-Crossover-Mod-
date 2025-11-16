@@ -88,3 +88,48 @@ add_to_faction = HUN
 add_to_faction = FRA
 add_to_faction = ENG
 add_to_faction = ANR
+create_country_leader = {
+	name = "CDU Guy"
+	desc = ""
+	picture = GFX_Fish
+	ideology = christian_democracy_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "FDP Guy"
+	desc = ""
+	picture = GFX_Fish
+	ideology = market_liberalism_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "SPD Guy"
+	desc = ""
+	picture = GFX_Fish
+	ideology = social_democracy_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "SED Guy"
+	desc = ""
+	picture = GFX_Fish
+	ideology = leninism_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Die Linke Guy"
+	desc = ""
+	picture = GFX_Fish
+	ideology = democratic_socialism_ideology
+	traits = {
+		#
+	}
+}

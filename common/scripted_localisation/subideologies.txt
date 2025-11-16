@@ -292,6 +292,13 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_country_leader_ideology = market_liberalism_ideology
+		}
+		localization_key = market_liberalism_ideology
+		
+	}
+	text = {
+		trigger = {
 			has_country_leader_ideology = progressive_democracy_ideology
 		}
 		localization_key = progressive_democracy_ideology

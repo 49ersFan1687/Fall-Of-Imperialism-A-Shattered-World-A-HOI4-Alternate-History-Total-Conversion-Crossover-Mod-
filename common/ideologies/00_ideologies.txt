@@ -70,6 +70,7 @@ ideologies = {
 			progressive_democracy_ideology = { }
 			centrism_ideology = { }
 			liberalism_liberal_conservatism_ideology = { }
+			market_liberalism_ideology = { }
 			free_market_capitalism_ideology = { }
 			national_liberalism_ideology = { }
 			classical_liberalism_ideology = { }
