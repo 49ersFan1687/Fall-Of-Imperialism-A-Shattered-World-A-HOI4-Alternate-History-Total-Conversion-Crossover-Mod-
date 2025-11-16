@@ -8098,8 +8098,8 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_anchors_aweigh
 	}
-	x = -8
-	y = -2
+	x = -10
+	y = -3
 	relative_position_id = CAL_the_army_goes_marching_along
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reform_the_united_states_marine_corps"
@@ -8241,7 +8241,32 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_duty_honor_semper_fi
+	id = CAL_reinstate_the_marine_raiders
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	prerequisite = {
+		focus = CAL_marines_as_foot_soldiers
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_marines_as_foot_soldiers
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reinstate_the_marine_raiders"
+	}
+}
+
+shared_focus = {
+	id = CAL_marine_artillery_battalions
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -8257,16 +8282,91 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_blowtorch_and_corkscrew
 	}
-	prerequisite = {
-		focus = CAL_marines_as_foot_soldiers
-		focus = CAL_a_mechanized_marine_corps
-	}
 	x = 0
 	y = 1
 	relative_position_id = CAL_blowtorch_and_corkscrew
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_marine_artillery_battalions"
+	}
+}
+
+shared_focus = {
+	id = CAL_improve_amphib_transports_and_tanks
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	prerequisite = {
+		focus = CAL_a_mechanized_marine_corps
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_a_mechanized_marine_corps
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_improve_amphib_transports_and_tanks"
+	}
+}
+
+shared_focus = {
+	id = CAL_duty_honor_semper_fi
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	prerequisite = {
+		focus = CAL_marine_artillery_battalions
+	}
+	prerequisite = {
+		focus = CAL_reinstate_the_marine_raiders
+		focus = CAL_improve_amphib_transports_and_tanks
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_marine_artillery_battalions
+	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_duty_honor_semper_fi"
 	}	
+}
+
+shared_focus = {
+	id = CAL_first_to_fight_for_right_and_freedom
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = CAL
+		}
+	}
+	prerequisite = {
+		focus = CAL_duty_honor_semper_fi
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_duty_honor_semper_fi
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_first_to_fight_for_right_and_freedom"
+	}
 }
 
 # Foreign Policy - Regional Stage # 
@@ -9036,9 +9136,7 @@ shared_focus = {
 
 # Superregional Stage # 
 
-shared_focus = {
-	
-}
+
 
 shared_focus = {
 	
