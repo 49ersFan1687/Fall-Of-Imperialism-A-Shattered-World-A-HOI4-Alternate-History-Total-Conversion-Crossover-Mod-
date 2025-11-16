@@ -8,24 +8,52 @@ set_technology = {
 set_convoys = 10
 
 
-
+add_ideas = GNA_broken_promises
+add_ideas = GNA_colonial_remenants
 set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	paternal_autocrat = 60
-	neutrality = 20
-	democratic = 10
-	socialism = 10
+	paternal_autocrat = 40
+	democratic = 20
+	socialism = 20
+	social_democracy = 20
 }
 create_country_leader = {
 	name = "Ahmed Sékou Touré"
 	desc = ""
+	picture = GFX_Ahmed_GNA
+	ideology = autocratic_marxism_paternal_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Alpha Condé"
+	desc = ""
 	picture = GFX_fish
-	ideology = civilian_dictatorship_ideology
+	ideology = social_democracy_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Lansana Conté"
+	desc = ""
+	picture = GFX_fish
+	ideology = free_market_capitalism_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Louis Lansana Beavogui"
+	desc = ""
+	picture = GFX_fish
+	ideology = autocratic_marxism_ideology
 	traits = {
 		#
 	}

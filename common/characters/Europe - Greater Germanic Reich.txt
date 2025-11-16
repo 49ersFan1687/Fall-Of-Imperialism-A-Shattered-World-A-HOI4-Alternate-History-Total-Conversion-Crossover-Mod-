@@ -26,7 +26,7 @@ characters = {
         country_leader = {
             desc = "POLITICS_HEINRICH_HIMMLER_DESC"
             expire = "1994.4.20"
-            ideology = nazism_ideology
+            ideology = occultist_nazism_esoteric_ideology
             traits = { 
                 
             }

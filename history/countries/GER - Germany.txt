@@ -1,5 +1,6 @@
 capital = 64
-
+recruit_character = GER_Adolf_Hitler
+recruit_character = GER_Heinrich_Himmler
 
 set_war_support = 0.3
 set_stability = 0.7

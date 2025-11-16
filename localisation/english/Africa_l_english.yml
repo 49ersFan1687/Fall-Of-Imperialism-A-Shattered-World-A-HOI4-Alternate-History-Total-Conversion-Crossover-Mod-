@@ -64,7 +64,35 @@ BRE: "British-Ghanese Colonial District"
 BRE_DEF: "British-Ghanese Colonial District"
 BRE_ADJ: "British-Ghanese"
 # PARTIES #
+GNA_paternal_autocrat_party: "PDG-RDA"
+GNA_paternal_autocrat_party_long: "§YParti Démocratique de Guinée-Rassemblement Démocratique Africain§!\n§gDemocratic Party of Guinea – African Democratic Rally§!"
+GNA_social_democracy_party: "RPG"
+GNA_social_democracy_party_long: "§YRassemblement du Peuple Guinéen§!\n§gRally of the Guinean People§!"
+GNA_democratic_party: "PUP"
+GNA_democratic_party_long: "§YParti de l'Unité et du Progrès§!\n§gUnity and Progress Party§!"
+GNA_socialism_party: "DSG"
+GNA_socialism_party_long: "§YDémocratie Socialiste de Guinée§!\n§gSocialist Democracy of Guinea§!"
+GNA_communism_party: "PDG-RDA"
+GNA_communism_party_long: "§YParti Démocratique de Guinée-Rassemblement Démocratique Africain§!\n§gDemocratic Party of Guinea – African Democratic Rally§!"
+GNA_conservatism_party: "§RN/A§!"
+GNA_conservatism_party_long: "§RN/A§!"
+GNA_neutrality_party: "§RN/A§!"
+GNA_neutrality_party_long: "§RN/A§!"
+GNA_ultranationalism_party: "§RN/A§!"
+GNA_ultranationalism_party_long: "§RN/A§!"
+GNA_accelerationism_party: "§RN/A§!"
+GNA_accelerationism_party_long: "§RN/A§!"
+GNA_fascism_party: "§RN/A§!"
+GNA_fascism_party_long: "§RN/A§!"
+GNA_national_socialism_party: "§RN/A§!"
+GNA_national_socialism_party_long: "§RN/A§!"
+GNA_esotericism_party: "§RN/A§!"
+GNA_esotericism_party_long: "§RN/A§!"
 
+
+#Ideas#
+GNA_broken_promises: "Broken Promises"
+GNA_colonial_remenants: "Colonial Remenants"
 
 
 ### Character Localization ###

@@ -1,0 +1,9 @@
+spriteTypes = {
+	
+
+	spriteType = {
+		name = "GFX_Ahmed_GNA"
+		textureFile = "gfx/leaders/Africa/AhmedGuinea.png"
+	}
+
+}
