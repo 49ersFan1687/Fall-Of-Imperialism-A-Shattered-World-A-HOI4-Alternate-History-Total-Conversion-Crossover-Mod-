@@ -2,6 +2,7 @@
 
 ### Ideology Types ###
  communism: "Communist"
+ syndicalism: "Syndicalist"
  socialism: "Socialist"
  social_democracy: "Social Democratic"
  democratic: "Liberal"
@@ -25,11 +26,13 @@ neutrality_desc: "Authoritarian Regime"
 conservatism_desc: "Democratic Regime"
 social_democracy_desc: "Democratic Regime"
 socialism_desc: "Socialist Regime"
+syndicalism_desc: "Socialist Regime"
 communism_desc: "Totalitarian Regime"
 democratic_desc: "Democratic Regime"
 
 ### Nouns ###
 communism_noun: "Communism"
+syndicalism_Noun: "Syndicalism"
 socialism_noun: "Socialism"
 social_democracy_noun: "Social Democracy"
 democratic_noun: "Liberalism"
@@ -65,6 +68,10 @@ national_communism_ideology: "National Communism"
 national_communism_ideology_desc: "national communism"
 autonomous_communism_ideology: "Autonomous Communism"
 autonomous_communism_ideology_desc: "Autonomus Communism"
+
+### Subideologies - Syndicalism ###
+syndicalism_ideology: "Syndicalism"
+syndicalism_ideology_desc: "Syndicalism"
 
 ### Subideologies - Socialism ###
 socialism_ideology: "Socialism"
