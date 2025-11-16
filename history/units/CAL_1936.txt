@@ -40,6 +40,19 @@ division_template = {
     }
 }
 
+division_template = {
+    name = "Second Continental Army Irregular Militia"
+
+    division_names_group = CAL_ARM_01
+
+    regiments = {
+        
+    }
+    support = {
+
+    }
+}
+
 units = {
     division = {
         name = 
