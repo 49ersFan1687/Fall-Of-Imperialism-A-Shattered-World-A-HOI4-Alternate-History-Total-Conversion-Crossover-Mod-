@@ -9282,7 +9282,7 @@ shared_focus = {
 # Superregional Stage # 
 
 shared_focus = {
-	id = CAL
+	id = CAL_
 }
 
 
