@@ -648,7 +648,7 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_contact_the_remnants
 	}
-	x = 0
+	x = -2
 	y = 11
 	relative_position_id = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
 	completion_reward = {
@@ -8098,8 +8098,8 @@ shared_focus = {
 	allow_branch = {
 		has_completed_focus = CAL_anchors_aweigh
 	}
-	x = -10
-	y = -3
+	x = -9
+	y = -2.5
 	relative_position_id = CAL_the_army_goes_marching_along
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reform_the_united_states_marine_corps"
@@ -9136,10 +9136,8 @@ shared_focus = {
 
 # Superregional Stage # 
 
-
-
 shared_focus = {
-	
+	id = CAL
 }
 
 shared_focus = {
