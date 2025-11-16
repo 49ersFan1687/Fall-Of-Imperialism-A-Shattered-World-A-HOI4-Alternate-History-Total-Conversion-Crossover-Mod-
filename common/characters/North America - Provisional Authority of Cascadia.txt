@@ -1161,10 +1161,10 @@ characters = {
 		}
 	}
 
-	# Vytal Clique - The Militarists #
+	# Vytal Clique - The Militarists (Field Marshals) #
 
-	CSD_Ruby_Rose = {
-		name = CSD_ruby_rose
+	CSD_oscar_pine = {
+		name = CSD_oscar_pine
 		portraits = {
 			civilian = {
 				large = 
@@ -1173,9 +1173,37 @@ characters = {
 				large = 
 			}
 		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
 	}
-
-	CSD_Weiss_Schnee = {
+	
+	CSD_jaune_arc = {
+		name = CSD_jaune_arc
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+	
+	CSD_weiss_schnee = {
 		name = CSD_weiss_schnee
 		portraits = {
 			civilian = {
@@ -1185,7 +1213,77 @@ characters = {
 				large = 
 			}
 		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
 	}
+
+	CSD_ruby_rose = {
+		name = CSD_ruby_rose
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+
+	CSD_coco_adel = {
+		name = CSD_coco_adel
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+
+	CSD_velvet_scarlatina = {
+		name = CSD_velvet_scarlatina
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+
+	# Vytal Clique - The Militarists (Generals) #
 
 	CSD_Blake_Belladonna = {
 		name = CSD_blake_belladonna
@@ -1211,17 +1309,7 @@ characters = {
 		}
 	}
 
-	CSD_Jaune_Arc = {
-		name = CSD_jaune_arc
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-	}
+	
 
 	CSD_Nora_Valkyrie = {
 		name = CSD_nora_valkyrie
@@ -1259,29 +1347,7 @@ characters = {
 		}
 	}
 
-	CSD_Coco_Adel = {
-		name = CSD_coco_adel
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-	}
-
-	CSD_Velvet_Scarlatina = {
-		name = CSD_velvet_scarlatina
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-	}
+	
 
 	CSD_Fox_Alistair = {
 		name = CSD_fox_alistair
