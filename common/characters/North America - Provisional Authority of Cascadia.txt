@@ -1284,20 +1284,8 @@ characters = {
 	}
 
 	# Vytal Clique - The Militarists (Generals) #
-
-	CSD_Blake_Belladonna = {
-		name = CSD_blake_belladonna
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-	}
-
-	CSD_Yang_Xiao_Long = {
+	
+	CSD_yang_xiao_long = {
 		name = CSD_yang_xiao_long
 		portraits = {
 			civilian = {
@@ -1307,12 +1295,18 @@ characters = {
 				large = 
 			}
 		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
 	}
 
-	
-
-	CSD_Nora_Valkyrie = {
-		name = CSD_nora_valkyrie
+	CSD_blake_belladonna = {
+		name = CSD_blake_belladonna
 		portraits = {
 			civilian = {
 				large = 
@@ -1321,9 +1315,17 @@ characters = {
 				large = 
 			}
 		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
 	}
 
-	CSD_Pyrrha_Nikos = {
+	CSD_pyrrha_nikos = {
 		name = CSD_pyrrha_nikos
 		portraits = {
 			civilian = {
@@ -1333,9 +1335,37 @@ characters = {
 				large = 
 			}
 		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
 	}
 
-	CSD_Lie_Ren = {
+	CSD_nora_valkyrie = {
+		name = CSD_nora_valkyrie
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_lie_een = {
 		name = CSD_lie_ren
 		portraits = {
 			civilian = {
@@ -1345,11 +1375,17 @@ characters = {
 				large = 
 			}
 		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
 	}
 
-	
-
-	CSD_Fox_Alistair = {
+	CSD_fox_alistair = {
 		name = CSD_fox_alistair
 		portraits = {
 			civilian = {
@@ -1359,9 +1395,17 @@ characters = {
 				large = 
 			}
 		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
 	}
 
-	CSD_Yatsuhashi_Daichi = {
+	CSD_yatsuhashi_daichi = {
 		name = CSD_yatsuhashi_daichi
 		portraits = {
 			civilian = {
@@ -1370,6 +1414,94 @@ characters = {
 			army = {
 				large = 
 			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_cardin_winchester = {
+		name = CSD_cardin_winchester
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_russel_thursh = {
+		name = CSD_russel_thursh
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_dove_bronzewing = {
+		name = CSD_dove_bronzewing
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_sky_lark = {
+		name = CSD_sky_lark
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
 		}
 	}
 
