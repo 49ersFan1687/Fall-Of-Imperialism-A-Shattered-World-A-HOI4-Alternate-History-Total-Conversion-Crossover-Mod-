@@ -470,12 +470,12 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { ranger commando infantry_officer }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill = 
+			traits = { ranger commando infantry_officer infatry_leader brilliant_strategist }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
 		}
 	}
 	CSD_zack_taylor = {
@@ -489,12 +489,12 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { ranger commando }
-			skill = 
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			traits = { ranger commando infantry_leader trait_reckless trickster }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 2
 		}
 	}
 	CSD_billy_cranston = {
@@ -508,12 +508,12 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { ranger commando }
-			skill = 
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			traits = { ranger commando engineer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 3
 		}
 	}
 	CSD_tommy_oliver = {
@@ -601,10 +601,10 @@ characters = {
 		name = CSD_adam_park
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/CSD/Portrait_CSD_Aisha_Campbell.dds"
+				large = 
 			}
 			army = {
-				large = "gfx/leaders/CSD/Portrait_CSD_Aisha_Campbell.dds"
+				large = 
 			}
 		}
 		corps_commander = {
@@ -621,10 +621,10 @@ characters = {
 		name = CSD_aisha_campbell
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Aisha_Campbell.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Aisha_Campbell.dds"
 			}
 		}
 		corps_commander = {
@@ -668,12 +668,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando }
-			skill =
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			traits = { ranger commando infantry_leader }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 
