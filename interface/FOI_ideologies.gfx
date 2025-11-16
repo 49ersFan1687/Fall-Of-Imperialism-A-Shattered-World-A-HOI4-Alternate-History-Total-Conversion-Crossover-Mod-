@@ -1,0 +1,62 @@
+spriteTypes = {
+	
+#Main Ideologies
+	spriteType = {
+		name = "GFX_ideology_neutrality_group"
+		texturefile = "gfx/interface/ideologies/neutrality_group.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_communism_group"
+		texturefile = "gfx/interface/ideologies/communism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_fascism_group"
+		texturefile = "gfx/interface/ideologies/fascism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_democratic_group"
+		texturefile = "gfx/interface/ideologies/democratic_group.dds"
+	}
+#Subideologies
+	spriteType = {
+		name = "GFX_ideology_anarchism"
+		texturefile = "gfx/interface/ideologies/anarchism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_nazism_ideology"
+		texturefile = "gfx/interface/ideologies/nazism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_stratocratic_nazism_ideology"
+		texturefile = "gfx/interface/ideologies/stratocratic_nazism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_esoteric_nazism_esoteric_ideology"
+		texturefile = "gfx/interface/ideologies/esoteric_nazism_esoteric_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_esoteric_nazism_ideology"
+		texturefile = "gfx/interface/ideologies/esoteric_nazism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_military_junta_ideology"
+		texturefile = "gfx/interface/ideologies/military_junta_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_stratocratic_nationalism_ideology"
+		texturefile = "gfx/interface/ideologies/stratocratic_nationalism_ideology.png"
+	}
+#Unknown
+	spriteType = {
+		name = "GFX_ideology_unknown"
+		texturefile = "gfx/interface/ideologies/unknown.dds"
+		legacy_lazy_load = no
+	}
+	
+	
+
+
+}

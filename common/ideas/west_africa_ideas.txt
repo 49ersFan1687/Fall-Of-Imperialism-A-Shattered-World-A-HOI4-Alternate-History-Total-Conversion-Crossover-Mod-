@@ -1,0 +1,28 @@
+ideas = {
+    ### Country Ideas - Guinea ###
+    country = {
+      
+     GNA_broken_promises = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		democratic_drift = 0.01
+		socialism_drift = 0.01
+		social_democracy_drift = 0.01
+		stability_factor = -0.1
+		war_support_factpr = -0.06
+                
+            }
+	}
+     GNA_colonial_remenants = {
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		stability_factor = -0.13
+		production_factory_efficiency_gain_factor = -0.07
+		consumer_goods = 0.15
+                
+            }
+	}
+
+}
