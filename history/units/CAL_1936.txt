@@ -98,14 +98,14 @@ units = {
     division = {
         name = 
         location = 
-        division_template = 
+        division_template = "Second Continental Army Marine Division"
         start_equipment_factor =
     }
 
     division = {
         name = 
         location = 
-        division_template = 
+        division_template = "Second Continental Army Marine Division"
         start_equipment_factor =
     }
 }
