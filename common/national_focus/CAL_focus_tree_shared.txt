@@ -9096,7 +9096,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_helping_the_other_american_remnants
+	id = CAL_helping_the_other_allied_american_remnants
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -9110,7 +9110,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_asking_canada_for_the_return_of_our_carribean_colonies
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_helping_the_other_american_remnants"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_helping_the_other_allied_american_remnants"
 	}
 }
 
@@ -9134,15 +9134,38 @@ shared_focus = {
 	}
 }
 
+shared_focus = {
+	id = CAL_a_coalition_to_eradicate_evil
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_recognize_free_france
+	}
+	prerequisite = {
+		focus = CAL_helping_the_other_allied_american_remnants
+	}
+	prerequisite = {
+		focus = CAL_hawaii_back_in_american_hands
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_helping_the_other_allied_american_remnants
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_coalition_to_eradicate_evil"
+	}
+}
+
 # Superregional Stage # 
 
 shared_focus = {
 	id = CAL
 }
 
-shared_focus = {
-	
-}
+
 
 shared_focus = {
 	
