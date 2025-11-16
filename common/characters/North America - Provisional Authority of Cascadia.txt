@@ -880,9 +880,69 @@ characters = {
 	}
 
 	# Crystal Prep Clique - The Progressives (Generals) #
+	
+	CSD_rarity = {
+		name = CSD_rarity
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
 
 	CSD_fluttershy = {
 		name = CSD_fluttershy
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+	
+	CSD_sunset_shimmer = {
+		name = CSD_sunset_shimmer
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+	
+	CSD_trixie_lulamoon = {
+		name = CSD_trixie_lulamoon
 		portraits = {
 			civilian = {
 				large = 
@@ -921,8 +981,8 @@ characters = {
 		}
 	}
 
-	CSD_rarity = {
-		name = CSD_rarity
+	CSD_radiant_hope = {
+		name = CSD_radiant_hope
 		portraits = {
 			civilian = {
 				large = 
@@ -941,8 +1001,8 @@ characters = {
 		}
 	}
 
-	CSD_sunset_shimmer = {
-		name = CSD_sunset_shimmer
+	CSD_arctic_lilly = {
+		name = CSD_arctic_lilly
 		portraits = {
 			civilian = {
 				large = 
@@ -961,8 +1021,8 @@ characters = {
 		}
 	}
 
-	CSD_trixie_lulamoon = {
-		name = CSD_trixie_lulamoon
+	CSD_shining_shield = {
+		name = CSD_shining_shield
 		portraits = {
 			civilian = {
 				large = 
@@ -981,6 +1041,66 @@ characters = {
 		}
 	}
 
+	CSD_quick_march = {
+		name = CSD_quick_march
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_quarter_pounder = {
+		name = CSD_quarter_pounder
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_thunderboom = {
+		name = CSD_thunderboom
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+	
 	CSD_sweetie_belle = {
 		name = CSD_sweetie_belle
 		portraits = {
