@@ -3195,6 +3195,22 @@ shared_focus = {
 	relative_position_id = CAL_reunite_with_cascadia
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_send_an_ultimatun_to_the_free_republic"
+		CSD = {
+			transfer_units_fraction = {
+				target = OPM
+				size = 1
+				army_ratio = 1
+				air_ratio = 1
+				navy_ratio = 1
+				stockpile_ratio = 1
+			}
+			every_character = { limit = { is_unit_leader = yes is_army_leader = yes } set_nationality = CSD }
+			every_character = { limit = { is_unit_leader = yes is_navy_leader = yes } set_nationality = CSD }
+		}
+		CSD = {
+			annex_country = { target = CSD }
+			every_owned_state = { add_state_core = CSD }
+		}
 	}
 }
 
@@ -3410,6 +3426,22 @@ shared_focus = {
 	relative_position_id = CAL_tend_to_the_pacific_northwest
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_bring_cascadia_back_into_the_union"
+		CAL = {
+			transfer_units_fraction = {
+				target = CSD
+				size = 1
+				army_ratio = 1
+				air_ratio = 1
+				navy_ratio = 1
+				stockpile_ratio = 1
+			}
+			every_character = { limit = { is_unit_leader = yes is_army_leader = yes } set_nationality = CAL }
+			every_character = { limit = { is_unit_leader = yes is_navy_leader = yes } set_nationality = CAL }
+		}
+		CAL = {
+			annex_country = { target = CSD }
+			every_owned_state = { add_state_core = CSD }
+		}
 	}	
 }
 
