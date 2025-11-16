@@ -6814,6 +6814,28 @@ shared_focus = {
 }
 
 shared_focus = {
+	id = CAL_walkie_talkies_for_the_troops
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_roughshod_discipline
+		focus = CAL_officers_must_lead_by_example
+		focus = CAL_masters_of_guerilla_warfare
+		focus = CAL_attack_attack_attack
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_integrating_flame_tanks_into_the_army
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_walkie_talkies_for_the_troops"
+	}
+}
+
+shared_focus = {
 	id = CAL_the_new_american_army
 	icon = GFX
 	cost = 3
@@ -6832,6 +6854,28 @@ shared_focus = {
 	relative_position_id = CAL_the_way_of_the_zouave
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_new_american_army"
+	}
+}
+
+shared_focus = {
+	id = CAL_the_renewed_west_point_spirit
+	icon = GFX
+	cost = 3
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_roughshod_discipline
+		focus = CAL_officers_must_lead_by_example
+		focus = CAL_masters_of_guerilla_warfare
+		focus = CAL_attack_attack_attack
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_integrating_mechanized_cavalry
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_renewed_west_point_spirit"
 	}
 }
 
