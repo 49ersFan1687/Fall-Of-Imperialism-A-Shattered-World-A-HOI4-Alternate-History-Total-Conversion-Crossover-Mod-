@@ -6,7 +6,7 @@ strategic_region={
 		4 411 593 786 990 1211 
 	}
 	naval_terrain=water_fjords
-	weather={
+	weather = {
 		period={
 			between={ 0.0 30.0 }
 			temperature={ -10.0 -1.0 }

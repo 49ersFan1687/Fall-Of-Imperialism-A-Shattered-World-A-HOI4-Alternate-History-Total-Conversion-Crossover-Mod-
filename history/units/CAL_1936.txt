@@ -59,10 +59,26 @@ division_template = {
     division_names_group = CAL_ARM_01
 
     regiments = {
-        
+        marine = { x = 0 y = 0 }
+        marine = { x = 0 y = 1 }
+        marine = { x = 0 y = 2 }
+        marine = { x = 1 y = 0 }
+        marine = { x = 1 y = 1 }
+        marine = { x = 1 y = 2 }
+        marine = { x = 2 y = 0 }
+        marine = { x = 2 y = 1 }
+        marine = { x = 2 y = 2 }
+        artillery_brigade = { x = 3 x = 0 }
+        artillery_brigade = { x = 3 x = 1 }
+        artillery_brigade = { x = 3 x = 2 }
+        artillery_brigade = { x = 3 x = 3 }
     }
     support = {
-
+        engineer = { x = 0 y = 0 }
+        logistics_company = { x = 0 y = 1 }
+        field_hospital = { x = 0 y = 2 }
+        signal_company = { x = 0 y = 3 }
+        recon = { x = 0 y = 4 }
     }
 }
 
@@ -98,14 +114,14 @@ units = {
     division = {
         name = 
         location = 
-        division_template = 
+        division_template = "Second Continental Army Infantry Division"
         start_equipment_factor =
     }
 
     division = {
         name = 
         location = 
-        division_template = 
+        division_template = "Second Continental Army Marine Division"
         start_equipment_factor =
     }
 }

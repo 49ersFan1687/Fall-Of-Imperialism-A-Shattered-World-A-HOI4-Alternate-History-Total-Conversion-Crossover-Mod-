@@ -9285,8 +9285,6 @@ shared_focus = {
 	id = CAL_
 }
 
-
-
 shared_focus = {
 	
 }

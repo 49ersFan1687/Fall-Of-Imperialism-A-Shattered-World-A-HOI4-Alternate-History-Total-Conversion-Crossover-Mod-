@@ -5,7 +5,7 @@ strategic_region={
 	provinces={
 		2035 2150 2168 2214 5151 5220 8172 10874 10956 12853 12913 12933 12947 12999 13274 13281 13282 13354 
 	}
-	weather={
+	weather = {
 		period={
 			between={ 0.0 30.0 }
 			temperature={ 20.0 33.0 }
