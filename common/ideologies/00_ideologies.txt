@@ -21,6 +21,17 @@ ideologies = {
 		can_be_boosted = no
     }
 
+	### Syndicalist Subideologies ###
+	syndicalism = {
+		types = {
+			syndicalism_ideology = { } # Generic #
+		}
+		dynamic_faction_names = { }
+		color = { 255 0 0 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
 	### Socialist Subideologies ###
     socialism = {
         types = {
@@ -46,7 +57,7 @@ ideologies = {
 	### Social Democrat Subideologies ###
     social_democracy = {
         types = {
-			social_democracy_ideology = { } #Generic
+			social_democracy_ideology = { } # Generic #
 			social_democratic_progressive_democracy_ideology = { } 
 			nordic_model_ideology = { }
 			narodnikism_ideology = { }
@@ -64,7 +75,7 @@ ideologies = {
 	### Liberal Subideologies ###
     democratic = {
         types = {
-			liberalism_ideology = { } #Generic
+			liberalism_ideology = { } # Generic #
 			progressive_democracy_ideology = { }
 			centrism_ideology = { }
 			liberalism_liberal_conservatism_ideology = { }
@@ -83,7 +94,7 @@ ideologies = {
 	### Conservative Subideologies ###
     conservatism = {
         types = {
-			conservatism_ideology = { } #Generic
+			conservatism_ideology = { } # Generic #
 			toryism_ideology = { }
 			conservatism_liberal_conservatism_ideology = { }
 			national_conservatism_ideology = { }
@@ -100,7 +111,7 @@ ideologies = {
 	### Authoritarian Democracy Subideologies ###
     neutrality = {
         types = {
-			authoritarian_democracy_ideology = { } #Generic
+			authoritarian_democracy_ideology = { } # Generic #
 			social_nationalism_ideology = { }
 			provisional_government_ideology = { }
 			tribal_paternalism_ideology = { }
@@ -132,7 +143,7 @@ ideologies = {
 	### Paternal Autocrat Subideologies ###
     paternal_autocrat = {
         types = {
-			paternal_autocrat_ideology = { } #Generic
+			paternal_autocrat_ideology = { } # Generic #
 			red_junta_ideology = { }
 			military_junta_ideology = { }
 			civilian_dictatorship_ideology = { }
@@ -152,7 +163,7 @@ ideologies = {
 	### Fascist Subideologies ###
     fascism = {
         types = {
-			fascism_ideology = { } #Generic
+			fascism_ideology = { } # Generic #
 			classical_fascism_ideology = { }
 			nation_first_nationalism_ideology = { }
 			dixiecrat_ideology = { }
@@ -171,7 +182,7 @@ ideologies = {
 	### Ultranationalist Subideologies ###
     ultranationalism = {
         types = {
-			ultranationalism_ideology = { } #Generic
+			ultranationalism_ideology = { } # Generic #
 			stratocratic_nationalism_ideology = { }
         }
 		dynamic_faction_names = { }
@@ -200,7 +211,7 @@ ideologies = {
 	### Esoteric Ideologies ###
     esotericism = {
         types = {
-			esotericism_ideology = { } #Generic
+			esotericism_ideology = { }  # Generic #
 			anarcho_primitivism_ideology = { }  
 			esoteric_nazism_esoteric_ideology = { }
 			occultist_nazism_esoteric_ideology = { }
