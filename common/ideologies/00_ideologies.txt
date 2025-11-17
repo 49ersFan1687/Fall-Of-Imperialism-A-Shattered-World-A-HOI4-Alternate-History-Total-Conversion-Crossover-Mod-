@@ -22,6 +22,18 @@ ideologies = {
 		can_be_boosted = no
     }
 
+	### Syndicalist Subideologies ###
+	syndicalism = {
+		types = {
+			syndicalism_ideology = { }
+			syndicalist_anarcho_syndicalism_ideology = { }
+		}
+		dynamic_faction_names = { }
+		color = { 255 0 0 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
 	### Socialist Subideologies ###
     socialism = {
         types = {
@@ -29,7 +41,7 @@ ideologies = {
 			eco_socialism_ideology = { }
 			anarchism_ideology = { }
 			anarcho_communism_ideology = { }
-			anarcho_syndicalism_ideology = { }
+			socialism_anarcho_syndicalism_ideology = { }
 			anarcho_mutualism_ideology = { }
 			socialist_narodnikism_ideology = { }
 			democratic_socialism_ideology = { }
@@ -37,7 +49,6 @@ ideologies = {
 			pan_africanism_ideology = { }
 			christian_anarchism_ideology = { }
 			anarcho_pacifism_ideology = { }
-			syndicalism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 209 0 0 }
