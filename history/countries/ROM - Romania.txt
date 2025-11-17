@@ -22,7 +22,7 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = ultranationalism
 	last_election = "1933.12.20"
 	election_frequency = 48
 	elections_allowed = yes
@@ -36,4 +36,12 @@ set_popularities = {
 	esotericism = 3
 	national_socialism = 5
 }
-
+create_country_leader = {
+	name = "Iron Guard Guy"
+	desc = ""
+	picture = GFX_fish
+	ideology = iron_guard_ideology
+	traits = {
+		#
+	}
+}

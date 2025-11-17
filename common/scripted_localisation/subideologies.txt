@@ -9,6 +9,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_government = syndicalism
+		}
+		localization_key = "[GetSubIdeologySyndicalism]"
+	}
+	text = {
+		trigger = {
 			has_government = socialism
 		}
 		localization_key = "[GetSubIdeologySocialism]"
@@ -150,6 +156,23 @@ defined_text = {
 		}
 		localization_key = autocratic_marxism_ideology
 	}
+}
+defined_text = {
+	name = GetSubIdeologySyndicalism
+	text = {
+		trigger = {
+			has_country_leader_ideology = syndicalism_ideology
+		}
+		localization_key = syndicalism_ideology
+		
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = syndicalist_anarcho_syndicalism_ideology
+		}
+		localization_key = syndicalist_anarcho_syndicalism_ideology
+	}
+
 }
 defined_text = {
 	name = GetSubIdeologySocialism
@@ -544,6 +567,12 @@ defined_text = {
 		}
 		localization_key = autocratic_marxism_paternal_ideology
 	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = horthyism_ideology
+		}
+		localization_key = horthyism_ideology
+	}
 }
 defined_text = {
 	name = GetSubIdeologyUltranationalism
@@ -559,6 +588,12 @@ defined_text = {
 			has_country_leader_ideology = stratocratic_nationalism_ideology
 		}
 		localization_key = stratocratic_nationalism_ideology
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = iron_guard_ideology
+		}
+		localization_key = iron_guard_ideology
 	}
 	
 }
@@ -618,6 +653,12 @@ defined_text = {
 			has_country_leader_ideology = french_fascism_ideology
 		}
 		localization_key = french_fascism_ideology
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = american_fascism_ideology
+		}
+		localization_key = american_fascism_ideology
 	}
 	
 }

@@ -34,7 +34,7 @@ create_country_leader = {
 	name = "Miklós Horthy"
 	desc = ""
 	picture = GFX_fish
-	ideology = civilian_dictatorship_ideology
+	ideology = horthyism_ideology
 	traits = {
 		#
 	}

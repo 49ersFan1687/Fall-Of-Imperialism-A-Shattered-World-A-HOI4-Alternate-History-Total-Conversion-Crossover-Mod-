@@ -7,5 +7,9 @@ spriteTypes = {
 		name = "GFX_Maurice_BUR"
 		textureFile = "gfx/leaders/Africa/MauriceVolta.png"
 	}
+	spriteType = {
+		name = "GFX_Leopold_SEN"
+		textureFile = "gfx/leaders/Africa/LeopoldSenegal.png"
+	}
 
 }
