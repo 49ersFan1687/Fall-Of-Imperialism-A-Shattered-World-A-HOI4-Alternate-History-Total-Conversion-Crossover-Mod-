@@ -1505,6 +1505,26 @@ characters = {
 		}
 	}
 
+	CSD_penny_polendina = {
+		name = CSD_penny_polendina
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
 	# Kuoh Clique - The Conservatives #
 
 	CSD_sona_sitri = {
