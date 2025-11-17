@@ -9294,10 +9294,28 @@ shared_focus = {
 	}
 }
 
-# Superregional Stage # 
+# Superregional Stage - # 
 
 shared_focus = {
-	id = CAL_
+	id = CAL_preparing_for_operation_washington
+	icon = GFX
+	cost = 2
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		has_completed_focus = CAL_a_coalition_to_eradicate_evil
+	}
+	allow_branch = {
+		has_completed_focus = CAL_a_coalition_to_eradicate_evil
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_the_giant_awakens_once_more
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_preparing_for_operation_washington"
+	}
 }
 
 shared_focus = {
