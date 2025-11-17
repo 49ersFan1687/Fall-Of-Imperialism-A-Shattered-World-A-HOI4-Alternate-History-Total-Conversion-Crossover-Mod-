@@ -114,6 +114,13 @@ BUR_national_socialism_party: "§RN/A§!"
 BUR_national_socialism_party_long: "§RN/A§!"
 BUR_esotericism_party: "§RN/A§!"
 BUR_esotericism_party_long: "§RN/A§!"
+#Senegal
+SEN_socialism_party: "PS"
+SEN_socialism_party_long: "§YParti Socialiste du Sénégal§!\n§gSocialist Party of Senegal§!"
+SEN_democratic_party: "PDS"
+SEN_democratic_party_long: "§YParti Démocratique Sénégalais§!\n§gSenegalese Democratic Party§!"
+SEN_social_democracy_party: "LD"
+SEN_social_democracy_party_long: "§YLigue Démocratique/Mouvement pour le Parti du Travail§!\n§gDemocratic League/Movement for the Labour Party§!"
 #Ideas#
 GNA_broken_promises: "Broken Promises"
 AFR_colonial_remenants: "Colonial Remenants"

@@ -30,3 +30,12 @@ set_popularities = {
 	paternal_autocrat = 10
 }
 
+create_country_leader = {
+	name = "Irish National Catholicism Guy"
+	desc = ""
+	picture = GFX_fish
+	ideology = irish_national_catholicism
+	traits = {
+		#
+	}
+}

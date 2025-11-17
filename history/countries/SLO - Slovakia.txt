@@ -35,3 +35,12 @@ set_popularities = {
 	socialism = 5
 	communism = 5
 }
+create_country_leader = {
+	name = "Clerical Fascism Guy"
+	desc = ""
+	picture = GFX_fish
+	ideology = clerical_fascism_ideology
+	traits = {
+		#
+	}
+}

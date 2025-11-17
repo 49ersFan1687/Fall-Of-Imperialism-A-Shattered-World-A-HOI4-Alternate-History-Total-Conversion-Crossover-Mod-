@@ -34,6 +34,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/british_fascism_ideology.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_french_fascism_ideology"
+		texturefile = "gfx/interface/ideologies/french_fascism_ideology.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_stratocratic_nazism_ideology"
 		texturefile = "gfx/interface/ideologies/stratocratic_nazism_ideology.png"
 	}
@@ -68,6 +72,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_enlightened_nazism_ideology"
 		texturefile = "gfx/interface/ideologies/enlightened_nazism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_horthyism_ideology"
+		texturefile = "gfx/interface/ideologies/horthyism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_iron_guard_ideology"
+		texturefile = "gfx/interface/ideologies/iron_guard_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_clerical_fascism_ideology"
+		texturefile = "gfx/interface/ideologies/clerical_fascism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_american_fascism_ideology"
+		texturefile = "gfx/interface/ideologies/american_fascism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_irish_national_catholicism"
+		texturefile = "gfx/interface/ideologies/irish_national_catholicism.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_technocratic_nazism_ideology"
