@@ -4,7 +4,7 @@ CAL:0 "California Focus Tree"
 
 ### Political Parties - California Republic ###
 CAL_communist_party:0 "Communist Party USA"
-CAL_communist_party_long:0 ""
+CAL_communist_party_long:0 "Communist Party of the United States of America"
 
 ### Character Localization ###
 CAL_henry_agard_wallace: "Henry Agard Wallace"
@@ -12,7 +12,7 @@ CAL_huey_pierce_long_jr: "Huey Pierce Long Jr."
 CAL_Dwight_David_Eisenhower: "Dwight David Eisenhower" 
 CAL_George_Catlett_Marshall: "George Catlett Marshall" 
 CAL_Omar_Nelson_Bradley: "Omar Nelson Bradley"
-CAL_George_Smith_Patton_Jr: "George Smith Patton Jr"
+CAL_George_Smith_Patton_Jr: "George Smith Patton Jr."
 CAL_Walton_Harris_Walker: "Walton Harris Walker"
 CAL_Smedley_Darlington_Butler: "Smedley Darlington Butler"
 CAL_Glynda_Goodwitch: "Glynda Goodwitch"
@@ -62,5 +62,6 @@ CAL_the_failure_of_democracy:0 "The Failure of Democracy"
 CAL_the_failure_of_democracy_desc:0
 
 ### National Focuses ###
+
 CAL_the_long_retreat_west:0 "The Long Retreat West"
 CAL_the_long_retreat_west_desc:0
