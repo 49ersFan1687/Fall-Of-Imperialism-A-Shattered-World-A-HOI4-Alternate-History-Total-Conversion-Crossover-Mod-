@@ -601,19 +601,19 @@ characters = {
 		name = CSD_adam_park
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Adam_Park.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Adam_Park.dds"
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando }
-			skill =
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			traits = { ranger commando carreer_officer inflexible_strategist }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 
