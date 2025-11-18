@@ -301,8 +301,70 @@ characters = {
         }
     }
 
-    
     # Admirals #
+    NCA_Willis_Augustus_Lee = {
+        name = NCA_Willis_Augustus_Lee
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        navy_leader = {
+            desc = 
+            traits = {  }
+            skill = 
+            attack_skill = 
+            defense_skill = 
+            maneuvering_skill = 
+            coordination_skill =
 
-    
+        }
+    }
+
+    NCA_arthur_schuyler_carpender = {
+        name = NCA_arthur_schuyler_carpender
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        navy_leader = {
+            desc = 
+            traits = {  }
+            skill = 
+            attack_skill = 
+            defense_skill = 
+            maneuvering_skill = 
+            coordination_skill =
+
+        }
+    }
+
+    NCA_hugh_nathaniel_mulzac = {
+        name = NCA_hugh_nathaniel_mulzac
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        navy_leader = {
+            desc = 
+            traits = {  }
+            skill = 
+            attack_skill = 
+            defense_skill = 
+            maneuvering_skill = 
+            coordination_skill =
+
+        }
+    }
 }
