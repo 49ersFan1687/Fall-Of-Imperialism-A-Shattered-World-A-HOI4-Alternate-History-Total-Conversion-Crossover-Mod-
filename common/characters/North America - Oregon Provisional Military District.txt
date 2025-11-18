@@ -1,6 +1,6 @@
 characters = {
 
-	# Second Continental Army - U.A. High School Faction - Field Marshals #
+	# Second Continental Army - U.A. High School 1A Faction - Field Marshals #
 	OPM_izuku_midoriya = {
 		name = OPM_izuku_midoriya
 		portraits = {
@@ -80,7 +80,7 @@ characters = {
 		}
 	}
 
-	# Second Continental Army - U.A. High School Faction - Generals #
+	# Second Continental Army - U.A. High School 1A Faction - Generals #
 
 	OPM_jiro_kyoka = {
 		name = OPM_jiro_kyoka
