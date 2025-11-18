@@ -15,6 +15,7 @@ ideologies = {
 			red_junta_communism_ideology = { }
 			autonomous_communism_ideology = { }
 			autocratic_marxism_ideology = { }
+			communism_broad_communism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 117 20 13 }
@@ -25,7 +26,10 @@ ideologies = {
 	syndicalism = {
 		types = {
 			syndicalism_ideology = { }
-			syndicalist_anarcho_syndicalism_ideology = { }
+			syndicalism_anarcho_syndicalism_ideology = { }
+			syndicalism_agrarian_syndicalism_ideology = { }
+			syndicalism_broad_communism_ideology = { }
+			red_junta_syndicalism_ideology = { }
 		}
 		dynamic_faction_names = { }
 		color = { 255 0 0 }
@@ -48,7 +52,7 @@ ideologies = {
 			pan_africanism_ideology = { }
 			christian_anarchism_ideology = { }
 			anarcho_pacifism_ideology = { }
-			syndicalism_ideology = { }
+			socialism_broad_communism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 209 0 0 }
