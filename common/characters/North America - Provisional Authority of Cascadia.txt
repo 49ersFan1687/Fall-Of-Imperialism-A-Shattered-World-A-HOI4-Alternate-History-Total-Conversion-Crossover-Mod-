@@ -641,7 +641,7 @@ characters = {
 		name = CSD_katherine_hillard
 		portraits = {
 			civilian = {
-				large = 
+				large = ""
 			}
 			army = {
 				large = 
