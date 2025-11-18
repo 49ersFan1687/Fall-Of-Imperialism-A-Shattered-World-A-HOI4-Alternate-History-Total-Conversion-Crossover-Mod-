@@ -405,7 +405,7 @@ characters = {
 		}
 	}
 
-	# Second Continental Army - Oregon Rangers #
+	# Second Continental Army - Oregon Rangers - Field Marshals #
     OPM_kat_mikaelsen_1 = {
         name = OPM_kat_mikaelsen
 		portraits = {
@@ -427,8 +427,14 @@ characters = {
 			traits = { OPM_revolutionary_leader
 			}
 		}
-
-
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill = 
+			defense_skill =
+			planning_skill = 
+			logistics_skill =
+		}
     }
 
     OPM_kat_mikaelsen_2 = {
@@ -452,9 +458,74 @@ characters = {
 			traits = { OPM_revolutionary_leader
 			}
 		}
-
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill = 
+			defense_skill =
+			planning_skill = 
+			logistics_skill =
+		}
     }
 
+	OPM_yu_narukami = {
+		name = OPM_yu_narukami
+		portraits = {
+			army = {
+				large = 
+
+				small = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill = 
+			defense_skill =
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	OPM_chie_satonaka = {
+		name = OPM_chie_satonaka
+		portraits = {
+			army = {
+				large = 
+
+				small = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill = 
+			defense_skill =
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	OPM_rise_kujikawa = {
+		name = OPM_rise_kujikawa
+		portraits = {
+			army = {
+				large = 
+
+				small = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill = 
+			defense_skill =
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	# Second Continental Army - Oregon Rangers - Generals #
 
 	OPM_autumn_lockhart = {
 		name = OPM_autumn_lockhart
@@ -476,6 +547,14 @@ characters = {
 			ideology = social_nationalism_ideology
 			traits = {
 			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
 		}
 	}
 
@@ -500,6 +579,14 @@ characters = {
 			traits = {
 			}
 		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
 	}
 
 	OPM_swann_holloway = {
@@ -523,8 +610,16 @@ characters = {
 			traits = {
 			}
 		}
-
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
 	}
+
 	OPM_dylan_mikaelsen = {
 		name = OPM_dylan_mikaelsen
 		portraits = {
@@ -545,6 +640,94 @@ characters = {
 			ideology = conservatism_liberal_conservatism_ideology
 			traits = {
 			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	OPM_yukiko_amagi = {
+		name = OPM_yukiko_amagi
+		portraits = {
+
+			army = {
+				large = 
+
+				small = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	OPM_yosuke_hanamura = {
+		name = OPM_yosuke_hanamura
+		portraits = {
+
+			army = {
+				large = 
+
+				small = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	OPM_kanji_tatsumi = {
+		name = OPM_kanji_tatsumi
+		portraits = {
+
+			army = {
+				large = 
+
+				small = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	OPM_naoto_shirogane = {
+		name = OPM_naoto_shirogane
+		portraits = {
+
+			army = {
+				large = 
+
+				small = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
 		}
 	}
 }
