@@ -1,7 +1,7 @@
 characters = {
     # Country Leaders #
-	RRF_Semyon_Mikhailovich_Budyonny = {
-		name = RRF_Semyon_Mikhailovich_Budyonny
+	RRF_semyon_mikhailovich_budyonny = {
+		name = RRF_semyon_mikhailovich_budyonny
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/RRF/Portrait_RRF_semyon_mikhailovich_budyonny.dds"
@@ -29,8 +29,8 @@ characters = {
 		}
 	}
 
-    RRF_Mikhail_Vasilievich_Frunze = { 
-		name = RRF_Mikhail_Vasilievich_Frunze
+    RRF_mikhail_vasilievich_frunze = { 
+		name = RRF_mikhail_vasilievich_frunze
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/RRF/Portrait_RRF_mikhail_vasilievich_frunze.png"
@@ -58,8 +58,8 @@ characters = {
 		}
 	}
 
-    RRF_Georgy_Konstantinovich_Zhukov = {
-		name = RRF_Georgy_Konstantinovich_Zhukov
+    RRF_georgy_konstantinovich_zhukov = {
+		name = RRF_georgy_konstantinovich_zhukov
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/RRF/Portrait_RRF_georgy_konstantinovich_zhukov.dds"
@@ -88,8 +88,8 @@ characters = {
 		}
     }
 
-    RRF_Mikhail_Nikolayevich_Tukhachevsky = {
-		name = RRF_Mikhail_Nikolayevich_Tukhachevsky
+    RRF_mikhail_nikolayevich_tukhachevsky = {
+		name = RRF_mikhail_nikolayevich_tukhachevsky
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/RRF/Portrait_RRF_mikhail_nikolayevich_tukhachevsky"
@@ -117,8 +117,8 @@ characters = {
 		}
 	}
 
-	RRF_Nestor_Lunin = {
-		name = RRF_Nestor_Lunin
+	RRF_nestor_nunin = {
+		name = RRF_nestor_nunin
 		portraits = {
 			civilian = {
 				large = GFX_fish
@@ -141,5 +141,286 @@ characters = {
 
 
 	# Red Army Generals #
+	RRF_vasily_danilovich_sokolovsky = {
+		name = RRF_vasily_danilovich_sokolovsky
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	RRF_dimitry_timofeyevich_yazov = {
+		name = RRF_dimitry_timofeyevich_yazov
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	RRF_iona_emmanuilovich_yakir = {
+		name = RRF_iona_emmanuilovich_yakir
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	RRF_ieronim_petrovich_uborevich = {
+		name = RRF_ieronim_petrovich_uborevich
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	RRF_semyon_konstantinovich_timoshenko = {
+		name = RRF_semyon_konstantinovich_timoshenko
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	RRF_andrei_antonovich_grechko = {
+		name = RRF_andrei_antonovich_grechko
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	RRF_vasily_ivanovich_chuikov = {
+		name = RRF_vasily_ivanovich_chuikov
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	RRF_dimitry_fyodorovich_ustinov = {
+		name = RRF_dimitry_fyodorovich_ustinov
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	RRF_sergey_fyodorovich_akhromeyev = {
+		name = RRF_sergey_fyodorovich_akhromeyev
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	RRF_pavel_semyonovich_rybalko = {
+		name = RRF_pavel_semyonovich_rybalko
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	RRF_konstantin_fedorovich_telegin = {
+		name = RRF_konstantin_fedorovich_telegin
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	RRF_alexander_terentyevich_altunin = {
+		name = RRF_alexander_terentyevich_altunin
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	RRF_veronika_krasnova = {
+		name = RRF_veronika_krasnova
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	RRF_vinous_kostyelev = {
+		name = RRF_vinous_kostyelev
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	# Red Navy Admirals #
 }
 
