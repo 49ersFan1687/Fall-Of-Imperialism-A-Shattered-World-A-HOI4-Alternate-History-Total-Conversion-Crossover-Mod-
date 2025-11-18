@@ -9343,6 +9343,15 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
+	prerequisite = {
+		focus = CAL_preparing_for_operation_washington
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_preparing_for_operation_washington
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_planning_the_long_march_east"
+	}
 }
 
 shared_focus = {
