@@ -924,4 +924,42 @@ characters = {
 			logistics_skill = 
 		}
 	}
+
+	CSD_melanie_malachite = {
+		name = CSD_melanie_malachite
+		portraits = {
+			army = {
+				large = 
+
+				small = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_milita_malachite = {
+		name = CSD_milita_malachite
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = { }
+			attack_skill = 
+			defense_skill =
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
 }
