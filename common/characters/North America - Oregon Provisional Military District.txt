@@ -730,4 +730,160 @@ characters = {
 			logistics_skill = 
 		}
 	}
+
+	# Oregon Vytal Clique - The Militarists (Field Marshals) #
+
+	CSD_arslan_atlan = {
+		name = CSD_arslan_atlan
+		portraits = {
+			army = {
+				large = 
+
+				small = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill = 
+			defense_skill =
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	CSD_bolin_hori = {
+		name = CSD_bolin_hori
+		portraits = {
+			army = {
+				large = 
+
+				small = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill = 
+			defense_skill =
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	CSD_may_zedong = {
+		name = CSD_may_zedong
+		portraits = {
+			army = {
+				large = 
+
+				small = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill = 
+			defense_skill =
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	# Oregon Vytal Clique - The Militarists (Generals) #
+
+	CSD_reese_chloris = {
+		name = CSD_reese_chloris
+		portraits = {
+			army = {
+				large = 
+
+				small = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_nadir_shirko = {
+		name = CSD_nadir_shirko
+		portraits = {
+			army = {
+				large = 
+
+				small = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_roy_stallion = {
+		name = CSD_roy_stallion
+		portraits = {
+			army = {
+				large = 
+
+				small = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_brawnz_ni = {
+		name = CSD_brawnz_ni
+		portraits = {
+			army = {
+				large = 
+
+				small = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_nolan_porfirio = {
+		name = CSD_nolan_porfirio
+		portraits = {
+			army = {
+				large = 
+
+				small = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
 }
