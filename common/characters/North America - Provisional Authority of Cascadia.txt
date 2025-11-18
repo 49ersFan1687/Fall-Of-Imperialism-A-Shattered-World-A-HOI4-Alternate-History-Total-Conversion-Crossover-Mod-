@@ -1989,6 +1989,26 @@ characters = {
 		}
 	}
 
+	CSD_yasaka = {
+		name = CSD_yasaka
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
 	# Sensha-Do Clique - The Moderates (Field Marshals) #
 
 	CSD_miho_nishizumi = {
