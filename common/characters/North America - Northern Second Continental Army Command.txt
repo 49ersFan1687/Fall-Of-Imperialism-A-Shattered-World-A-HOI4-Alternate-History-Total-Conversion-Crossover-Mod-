@@ -1,7 +1,7 @@
 characters = {
     # Country Leaders #
-    NCA_Curtis_Emerson_Lemay = {
-        name = NCA_Curtis_Emerson_Lemay
+    NCA_curtis_emerson_lemay = {
+        name = NCA_curtis_emerson_lemay
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -11,7 +11,7 @@ characters = {
             }
         }
         country_leader = {
-            desc = "POLITICS_CURTIS_EMERSON_LEMAY_DESC"
+            desc = "POLITICS_CURTIS_LEMAY_DESC"
             expire = "1995.8.20"
             ideology = social_nationalism_ideology
             traits = {
@@ -30,8 +30,8 @@ characters = {
 
     # Field Marshals #
 
-    NCA_Alexander_McCarell_Patch = {
-        name = NCA_Alexander_McCarell_Patch
+    NCA_alexander_mccarell_patch = {
+        name = NCA_alexander_mccarell_patch
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -50,8 +50,8 @@ characters = {
         }
     }
 
-    NCA_Matthew_Bunker_Ridgeway = {
-        name = NCA_Alexander_McCarell_Patch
+    NCA_matthew_bunker_ridgeway = {
+        name = NCA_alexander_mccarell_patch
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -73,8 +73,8 @@ characters = {
 
     # Generals #
 
-    NCA_Joseph_Warren_Stillwell = {
-        name = NCA_Joseph_Warren_Stillwell
+    NCA_joseph_warren_stillwell = {
+        name = NCA_joseph_warren_stillwell
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -92,8 +92,8 @@ characters = {
         }
     }
 
-    NCA_Andrew_Pick_OMeara = {
-        name = NCA_Andrew_Pick_OMeara
+    NCA_andrew_pick_omeara = {
+        name = NCA_andrew_pick_omeara
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -111,8 +111,8 @@ characters = {
         }
     }
 
-    NCA_John_Knight_Waters = {
-        name = NCA_John_Knight_Waters
+    NCA_john_knight_waters = {
+        name = NCA_john_knight_waters
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -130,8 +130,8 @@ characters = {
         }
     }
 
-    NCA_Barksdale_Hamlett_Jr = {
-        name = NCA_Barksdale_Hamlett_Jr
+    NCA_barksdale_hamlett_jr = {
+        name = NCA_barksdale_hamlett_jr
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -149,8 +149,8 @@ characters = {
         }
     }
 
-    NCA_Creighton_Williams_Abrams_Jr = {
-        name = NCA_Creighton_Williams_Abrams_Jr
+    NCA_creighton_williams_abrams_jr = {
+        name = NCA_creighton_williams_abrams_jr
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -168,8 +168,8 @@ characters = {
         }
     }
 
-    NCA_Joseph_Lawton_Collins = {
-        name = NCA_Joseph_Lawton_Collins
+    NCA_joseph_lawton_collins = {
+        name = NCA_joseph_lawton_collins
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -187,8 +187,8 @@ characters = {
         }
     }
 
-    NCA_Walter_Kreuger = {
-        name = NCA_Walter_Kreuger
+    NCA_walter_kreuger = {
+        name = NCA_walter_kreuger
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -206,8 +206,8 @@ characters = {
         }
     }
 
-    NCA_Albert_Coady_Wedemeyer = {
-        name = NCA_Albert_Coady_Wedemeyer
+    NCA_albert_coady_wedemeyer = {
+        name = NCA_albert_coady_wedemeyer
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -225,8 +225,8 @@ characters = {
         }
     }
 
-    NCA_Edmund_Bristol_Gregory = {
-        name = NCA_Edmund_Bristol_Gregory
+    NCA_edmund_bristol_gregory = {
+        name = NCA_edmund_bristol_gregory
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -244,8 +244,8 @@ characters = {
         }
     }
 
-    NCA_Simon_Bolivar_Buckner_Jr = {
-        name = NCA_Simon_Bolivar_Buckner_Jr
+    NCA_simon_bolivar_buckner_jr = {
+        name = NCA_simon_bolivar_buckner_jr
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -263,6 +263,45 @@ characters = {
         }
     }
 
+    NCA_james_alward_van_fleet = {
+        name = NCA_james_alward_van_fleet
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
+
+    NCA_george_edward_stratemeyer = {
+        name = NCA_george_edward_stratemeyer
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
+
+    
     # Admirals #
 
     
