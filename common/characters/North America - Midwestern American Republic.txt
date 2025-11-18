@@ -43,7 +43,14 @@ characters = {
                 large = GFX_fish
             }
         }
-
+        field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill = 
+			defense_skill =
+			planning_skill = 
+			logistics_skill =
+		}
     }
     # Generals #
     # Admirals #
