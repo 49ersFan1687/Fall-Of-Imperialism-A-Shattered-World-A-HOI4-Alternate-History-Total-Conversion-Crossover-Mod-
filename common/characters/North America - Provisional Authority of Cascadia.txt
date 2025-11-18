@@ -1990,8 +1990,25 @@ characters = {
 	}
 
 	# Sensha-Do Clique - The Moderates #
+	
 	CSD_miho_nishizumi = {
-		
+		name = CSD_miho_nishizumi
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
 	}
 
 
