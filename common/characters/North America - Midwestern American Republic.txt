@@ -1,6 +1,24 @@
 characters = {
     # Country Leaders #
-
+    MAR_Herbert_Clark_Hoover = {
+        name = MAR_Herbert_Clark_Hoover
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_HERBERT_HOOVER_DESC"
+            expire = "1995.8.20"
+            ideology = social_nationalism_ideology
+            traits = {
+            
+            }
+        }
+    }
     # Advisors #
     MAR_Martin_Luther_King_Jr = {
         name = MAR_Martin_Luther_King_Jr
