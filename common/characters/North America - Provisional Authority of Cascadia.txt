@@ -1365,7 +1365,7 @@ characters = {
 		}
 	}
 
-	CSD_lie_een = {
+	CSD_lie_ren = {
 		name = CSD_lie_ren
 		portraits = {
 			civilian = {
@@ -1525,7 +1525,7 @@ characters = {
 		}
 	}
 
-	# Kuoh Clique - The Conservatives #
+	# Kuoh Clique - The Conservatives (Field Marshals) #
 
 	CSD_sona_sitri = {
 		name = CSD_sona_sitri
@@ -1537,7 +1537,14 @@ characters = {
 				large = 
 			}
 		}
-
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
 	}
 
 	CSD_rias_gremory = {
@@ -1550,7 +1557,14 @@ characters = {
 				large = 
 			}
 		}
-
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
 	}
 
 	CSD_akeno_himejima = {
@@ -1563,7 +1577,14 @@ characters = {
 				large = 
 			}
 		}
-
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
 	}
 
 	CSD_tsubaki_shinra = {
@@ -1575,6 +1596,14 @@ characters = {
 			army = {
 				large = 
 			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
 		}
 	}
 
@@ -1588,7 +1617,14 @@ characters = {
 				large = 
 			}
 		}
-
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
 	}
 
 	CSD_rossweisse = {
@@ -1601,8 +1637,358 @@ characters = {
 				large = 
 			}
 		}
-
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
 	}
+
+	# Kuoh Clique - The Conservatives (Generals) #
+
+	CSD_gasper_vladi = {
+		name = CSD_gasper_vladi
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_kiba_yuuto = {
+		name = CSD_kiba_yuuto
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_koneko_toujou = {
+		name = CSD_koneko_toujou
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_tsubasa_yura = {
+		name = CSD_tsubasa_yura
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_momo_hanakai = {
+		name = CSD_momo_hanakai
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_reya_kusaka = {
+		name = CSD_reya_kusaka
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_tomoe_meguri = {
+		name = CSD_tomoe_meguri
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_genshirou_saji = {
+		name = CSD_genshirou_saji
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_asia_argento = {
+		name = CSD_asia_argento
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_xenovia_quarta = {
+		name = CSD_xenovia_quarta
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_loup_garou = {
+		name = CSD_loup_garou
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_ruruko_nimura = {
+		name = CSD_ruruko_nimura
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_irina_shidou = {
+		name = CSD_irina_shidou
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_ravel_phenex = {
+		name = CSD_ravel_phenex
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_le_fay_pendragon = {
+		name = CSD_le_fay_pendragon
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_elmenhilde_karnstein = {
+		name = CSD_elmenhilde_karnstein
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_ingvild_leviathan = {
+		name = CSD_ingvild_leviathan
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
 	# Sensha-Do Clique - The Moderates #
 	CSD_miho_nishizumi = {
 		
