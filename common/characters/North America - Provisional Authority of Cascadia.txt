@@ -2111,8 +2111,327 @@ characters = {
 		}
 	}
 
-	# Hope Peak Clique - The Corporatists #
+	# Hope's Peak Clique - The Corporatists (Field Marshals) #
 
+	CSD_makoto_naegi = {
+		name = CSD_makoto_naegi
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
 
+	CSD_junko_enoshima = {
+		name = CSD_junko_enoshima
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
 
+	CSD_kyoko_kirigiri = {
+		name = CSD_kyoko_kirigiri
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+
+	CSD_byakuya_togami = {
+		name = CSD_byakuya_togami
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+
+	CSD_mukuro_ikusaba = {
+		name = CSD_mukuro_ikusaba
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+	}
+
+	# Hope's Peak Clique - The Corporatists (Generals) #
+
+	CSD_aoi_asahina = {
+		name = CSD_aoi_asahina
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_sakura_ogami = {
+		name = CSD_sakura_ogami
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_leon_kuwata = {
+		name = CSD_leon_kuwata
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_hifumi_yamada = {
+		name = CSD_hifumi_yamada
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_toko_fukawa = {
+		name = CSD_toko_fukawa
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_mondo_owada = {
+		name = CSD_mondo_owada
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_kiyota_ishimaru = {
+		name = CSD_kiyotaka_ishimaru
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_chihiro_fujisaki = {
+		name = CSD_chihiro_fujisaki
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_celestia_ludenberg = {
+		name = CSD_celestia_ludenberg
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_yasuhiro_hagakure = {
+		name = CSD_yasuhiro_hagakure
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+	
+	CSD_sayaka_maizono = {
+		name = CSD_sayaka_maizono
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
 }
