@@ -353,9 +353,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_restablish_radio_contact_with_canada
 	}
-	allow_branch = {
-		has_completed_focus = CAL_restablish_radio_contact_with_canada
-	}
+
 	x = -5
 	y = -1
 	relative_position_id = CAL_barely_no_industry
@@ -446,7 +444,7 @@ shared_focus = {
 	relative_position_id = CAL_alexanders_military_mission
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_in_the_footsteps_of_general_alexander"
-		add_idea = CAL_alexanders_advice
+		add_ideas = CAL_alexanders_advice
 		add_doctrine_cost_reduction = {
 			name = cat_mobile_warfare
 			cost_reduction = 0.5
@@ -479,7 +477,7 @@ shared_focus = {
 	relative_position_id = CAL_learn_from_the_canadians
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_in_the_footsteps_of_general_simonds"
-		add_idea = CAL_simondss_advice
+		add_ideas = CAL_simondss_advice
 		add_doctrine_cost_reduction = {
 			name = cat_superior_firepower
 			cost_reduction = 0.5
@@ -512,13 +510,13 @@ shared_focus = {
 	relative_position_id = CAL_canadian_surplus_weapons
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_in_the_footsteps_of_general_simonds"
-		add_idea = CAL_moncels_advice
-		add_doctrine_cost_reduction = {
-			name = cat_grand_battleplan
-			cost_reduction = 0.5
-			uses = 2
-			category = cat_grand_battleplan
-		}
+		add_ideas = CAL_moncels_advice
+		#add_doctrine_cost_reduction = {
+		#	name = cat_grand_battleplan
+		#	cost_reduction = 0.5
+		#	uses = 2
+		#	category = cat_grand_battleplan
+		#}
 	}
 }
 
@@ -540,7 +538,7 @@ shared_focus = {
 	relative_position_id = CAL_in_the_footsteps_of_general_simonds
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_permanent_liason_to_america"
-		add_idea = CAL_the_permanant_canadian_liason1
+		add_ideas = CAL_the_permanant_canadian_liason1
 	}
 }
 
@@ -645,9 +643,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_contact_the_remnants
 	}
-	allow_branch = {
-		has_completed_focus = CAL_contact_the_remnants
-	}
+
 	x = -2
 	y = 11
 	relative_position_id = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
@@ -927,13 +923,11 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
 	}
-	allow_branch = {
-		has_completed_focus = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
-	}
+
 	x = -4
 	y = 2
 	relative_position_id = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
-	completion reward = {
+	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_turn_to_the_remaining_allied_powers"
 	}
 }
@@ -951,7 +945,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = CAL_turn_to_the_remaining_allied_powers
-	completion reward = {
+	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_open_up_talks_with_the_other_commonwealths"
 	}
 }
@@ -1428,9 +1422,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_beat_the_inertia
 	}
-	allow_branch = {
-		has_completed_focus = CAL_beat_the_inertia
-	}
+
 	x = 0
 	y = 1
 	relative_position_id = CAL_beat_the_inertia
@@ -1455,9 +1447,6 @@ shared_focus = {
 	relative_position_id = CAL_begin_planning_for_war
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_solve_the_resource_issue"
-		allow_branch = {
-			has_completed_focus = CAL_beat_the_inertia
-		}
 	}
 }
 
@@ -1477,9 +1466,6 @@ shared_focus = {
 	relative_position_id = CAL_begin_planning_for_war
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_southern_california_industry"
-		allow_branch = {
-			has_completed_focus = CAL_beat_the_inertia
-		}
 	}
 }
 
@@ -1499,9 +1485,6 @@ shared_focus = {
 	relative_position_id = CAL_begin_planning_for_war
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_solve_the_resource_issue"
-		allow_branch = {
-			has_completed_focus = CAL_beat_the_inertia
-		}
 	}
 }
 
@@ -1784,32 +1767,32 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_california_national_guard"
 		custom_effect_tooltip = tooltip_white_line
-		division_template = {
-			name = "California National Guard Motorized Infantry Division"
-			division_names_group = CAL_INF_01
-			regiments = {
-				motorised_infantry = { x = 0 y = 0 }
-				motorised_infantry = { x = 0 y = 1 }
-				motorised_infantry = { x = 0 y = 2 }
-				motorised_infantry = { x = 1 y = 0 }
-				motorised_infantry = { x = 1 y = 1 }
-				motorised_infantry = { x = 1 y = 2 }
-				motorised_infantry = { x = 2 y = 0 }
-				motorised_infantry = { x = 2 y = 1 }
-				motorised_infantry = { x = 2 y = 2 }
-				mot_artillery_brigade = { x = 3 y = 0 }
-				mot_artillery_brigade = { x = 3 y = 1 }
-				mot_artillery_brigade = { x = 3 y = 2 }
-				mot_artillery_brigade  = { x = 3 y = 3 }
-				medium_armor = { x = 4 y = 0 }
-			}
-			support = {
-				artillery = { x = 0 y = 0 }
-				engineer = { x = 0 y = 1 }
-				field_hospital = { x = 0 y = 2 }
-				logistics_company = { x = 0 y = 3 }
-			}
-		}
+		#division_template = {
+		#	name = "California National Guard Motorized Infantry Division"
+		#	division_names_group = CAL_INF_01
+		#	regiments = {
+		#		motorised_infantry = { x = 0 y = 0 }
+		#		motorised_infantry = { x = 0 y = 1 }
+		#		motorised_infantry = { x = 0 y = 2 }
+		#		motorised_infantry = { x = 1 y = 0 }
+		#		motorised_infantry = { x = 1 y = 1 }
+		#		motorised_infantry = { x = 1 y = 2 }
+		#		motorised_infantry = { x = 2 y = 0 }
+		#		motorised_infantry = { x = 2 y = 1 }
+		#		motorised_infantry = { x = 2 y = 2 }
+		#		mot_artillery_brigade = { x = 3 y = 0 }
+		#		mot_artillery_brigade = { x = 3 y = 1 }
+		#		mot_artillery_brigade = { x = 3 y = 2 }
+		#		mot_artillery_brigade  = { x = 3 y = 3 }
+		#		medium_armor = { x = 4 y = 0 }
+		#	}
+		#	support = {
+		#		artillery = { x = 0 y = 0 }
+		#		engineer = { x = 0 y = 1 }
+		#		field_hospital = { x = 0 y = 2 }
+		#		logistics_company = { x = 0 y = 3 }
+		#	}
+		#}
 		division_template = {
 			name = "California National Guard Armored Division"
 			division_names_group = CAL_ARM_01
@@ -1888,9 +1871,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_the_bear_roars_again
 	}
-	allow_branch = {
-		has_completed_focus = CAL_the_bear_roars_again
-	}
+
 	x = 0
 	y = 1
 	relative_position_id = CAL_the_bear_roars_again
@@ -1950,10 +1931,10 @@ shared_focus = {
 			every_character = { limit = { is_unit_leader = yes is_army_leader = yes } set_nationality = CAL }
 			every_character = { limit = { is_unit_leader = yes is_navy_leader = yes } set_nationality = CAL }
 		}
-		CAL = {
-			annex_country = { target = NCA }
-			every_owned_state = { add_state_core = CAL }
-		}
+		#CAL = {
+		#	annex_country = { target = NCA }
+		#	every_owned_state = { add_core = CAL }
+		#}
 	}
 }
 
@@ -2060,9 +2041,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_consolidate_control_over_california
 	}
-	allow_branch = {
-		has_completed_focus = CAL_consolidate_control_over_california
-	}
+
 	x = 0
 	y = 1
 	relative_position_id = CAL_consolidate_control_over_california
@@ -2494,9 +2473,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_the_new_bastion_of_freedom
 	}
-	allow_branch = {
-		has_completed_focus = CAL_the_new_bastion_of_freedom
-	}
+
 	x = 8.5
 	y = -1
 	relative_position_id = CAL_alone_and_isolated
@@ -2961,7 +2938,7 @@ shared_focus = {
 	y = 3
 	relative_position_id = CAL_reinstate_civilian_rule
 	completion_reward = {
-		log: "[GetDateText]: [Root.GetName]: Focus CAL_the_situation_is_under_control"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_situation_is_under_control"
 	}		
 }
 
@@ -3023,9 +3000,7 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-	allow_branch = {
-		has_completed_focus = CAL_eastward_and_northern_expansion
-	}
+
 	prerequisite = {
 		focus = CAL_eastward_and_northern_expansion
 	}
@@ -3044,9 +3019,6 @@ shared_focus = {
 	available_if_capitulated = no
 	ai_will_do = {
 		factor = 1
-	}
-	allow_branch = {
-		has_completed_focus = CAL_eastward_and_northern_expansion
 	}
 	prerequisite = {
 		focus = CAL_eastward_and_northern_expansion
@@ -3087,10 +3059,10 @@ shared_focus = {
 			every_character = { limit = { is_unit_leader = yes is_army_leader = yes } set_nationality = CAL }
 			every_character = { limit = { is_unit_leader = yes is_navy_leader = yes } set_nationality = CAL }
 		}
-		CAL = {
-			annex_country = { target = NVM }
-			every_owned_state = { add_state_core = NVM }
-		}
+		#CAL = {
+		#	annex_country = { target = NVM }
+		#	every_owned_state = { add_core = NVM }
+		#}
 	}
 }
 
@@ -3222,10 +3194,10 @@ shared_focus = {
 			every_character = { limit = { is_unit_leader = yes is_army_leader = yes } set_nationality = CSD }
 			every_character = { limit = { is_unit_leader = yes is_navy_leader = yes } set_nationality = CSD }
 		}
-		CSD = {
-			annex_country = { target = CSD }
-			every_owned_state = { add_state_core = CSD }
-		}
+		#CSD = {
+		#	annex_country = { target = CSD }
+		#	every_owned_state = { add_core = CSD }
+		#}
 	}
 }
 
@@ -3453,10 +3425,10 @@ shared_focus = {
 			every_character = { limit = { is_unit_leader = yes is_army_leader = yes } set_nationality = CAL }
 			every_character = { limit = { is_unit_leader = yes is_navy_leader = yes } set_nationality = CAL }
 		}
-		CAL = {
-			annex_country = { target = CSD }
-			every_owned_state = { add_state_core = CSD }
-		}
+		#CAL = {
+		#	annex_country = { target = CSD }
+		#	every_owned_state = { add_core = CSD }
+		#}
 	}	
 }
 
@@ -3493,9 +3465,7 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-	allow_branch = {
-		has_completed_focus = CAL_rebuilding_plans_for_nevada_and_cascadia
-	}
+
 	prerequisite = {
 		focus = CAL_rebuilding_plans_for_nevada_and_cascadia
 	}
@@ -3515,9 +3485,7 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-	allow_branch = {
-		has_completed_focus = CAL_rebuilding_plans_for_nevada_and_cascadia
-	}
+
 	prerequisite = {
 		focus = CAL_rebuilding_plans_for_nevada_and_cascadia
 	}
@@ -3537,9 +3505,7 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-	allow_branch = {
-		has_completed_focus = CAL_rebuilding_plans_for_nevada_and_cascadia
-	}
+
 	prerequisite = {
 		focus = CAL_rebuilding_plans_for_nevada_and_cascadia
 	}
@@ -4055,9 +4021,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	allow_branch = {
-		has_completed_focus = CAL_form_the_western_american_government
-	}
+
 	x = 18
 	y = 0
 	relative_position_id = CAL_looking_outwards_from_the_golden_state
@@ -5548,9 +5512,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	allow_branch = {
-		has_completed_focus = CAL_form_the_western_american_government
-	}
+
 	x = -24
 	y = 1
 	relative_position_id = CAL_alexanders_military_mission
@@ -5760,7 +5722,7 @@ shared_focus = {
 	relative_position_id = CAL_choosing_the_new_doctrine_of_the_sca
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_patton_army_of_the_future"
-		add_idea = CAL_Pattons_vision1
+		add_ideas = CAL_Pattons_vision1
 		add_doctrine_cost_reduction = {
 			name = land_doc_bonus
 			cost_reduction = 0.5
@@ -5791,7 +5753,7 @@ shared_focus = {
 	relative_position_id = CAL_choosing_the_new_doctrine_of_the_sca
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_marshall_modern_minuteman"
-		add_idea = CAL_marshalls_vision1
+		add_ideas = CAL_marshalls_vision1
 		add_doctrine_cost_reduction = {
 			name = land_doc_bonus
 			cost_reduction = 0.5
@@ -5822,7 +5784,7 @@ shared_focus = {
 	relative_position_id = CAL_choosing_the_new_doctrine_of_the_sca
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_eisenhower_return_to_form"
-		add_idea = CAL_westmorelands_vision1
+		add_ideas = CAL_westmorelands_vision1
 		add_doctrine_cost_reduction = {
 			name = land_doc_bonus
 			cost_reduction = 0.5
@@ -5975,7 +5937,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_leagacy_of_general_pershing"
 		add_war_support = 0.025
 		add_stability = 0.005
-		add_ideas: CAL_pershings_legacy
+		add_ideas = CAL_pershings_legacy
 	}
 }
 
@@ -7142,9 +7104,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	allow_branch = {
-		has_completed_focus = CAL_form_the_western_american_government
-	}
+
 	x = -9
 	y = 0
 	relative_position_id = CAL_alexanders_military_mission
@@ -7572,9 +7532,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	allow_branch = {
-		has_completed_focus = CAL_form_the_western_american_government
-	}
+
 	x = 0
 	y = 8
 	relative_position_id = CAL_new_heavy_jet_bomber_designs
@@ -8247,9 +8205,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_anchors_aweigh
 	}
-	allow_branch = {
-		has_completed_focus = CAL_anchors_aweigh
-	}
+
 	x = -11
 	y = -2.5
 	relative_position_id = CAL_the_army_goes_marching_along
@@ -8534,9 +8490,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	allow_branch = {
-		has_completed_focus = CAL_form_the_western_american_government
-	}
+
 	x = 0
 	y = 2
 	relative_position_id = CAL_the_army_goes_marching_along
@@ -9324,9 +9278,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_a_coalition_to_eradicate_evil
 	}
-	allow_branch = {
-		has_completed_focus = CAL_a_coalition_to_eradicate_evil
-	}
+
 	x = 0
 	y = 2
 	relative_position_id = CAL_the_giant_awakens_once_more
