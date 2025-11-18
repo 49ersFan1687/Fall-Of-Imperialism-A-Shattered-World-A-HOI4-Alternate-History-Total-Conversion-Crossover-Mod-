@@ -2525,7 +2525,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_dealing_with_pelleys_extremists
+	id = CAL_dealing_with_the_california_extremists
 	icon = GFX
 	cost = 3
 	available_if_capitualted = no
@@ -2539,7 +2539,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_but_preparations_have_to_be_made_first
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_dealing_with_the_despots_in_california"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_dealing_with_the_california_extremists"
 	}
 }
 
@@ -2590,18 +2590,18 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_dealing_with_pelleys_extremists
+		focus = CAL_dealing_with_the_california_extremists
 	}
 	x = -1
 	y = 1
-	relative_position_id = CAL_dealing_with_pelleys_extremists
+	relative_position_id = CAL_dealing_with_the_california_extremists
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_liberation"
 	}
 }
 
 shared_focus = {
-	id = CAL_silence_pelley
+	id = CAL_silence_the_fascists
 	icon = GFX
 	cost = 3
 	available_if_capitualted = no
@@ -2609,13 +2609,13 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_dealing_with_pelleys_extremists
+		focus = CAL_dealing_with_the_california_extremists
 	}
 	x = 1
 	y = 1
-	relative_position_id = CAL_dealing_with_pelleys_extremists
+	relative_position_id = CAL_dealing_with_the_california_extremists
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_shut_the_ultranationalists_up"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_silence_the_fascists"
 	}	
 }
 
@@ -2734,7 +2734,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_hang_the_silver_shirts
+	id = CAL_hang_their_asses
 	icon = GFX
 	cost = 3
 	available_if_capitualted = no
@@ -2742,13 +2742,13 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_silence_pelley
+		focus = CAL_silence_the_fascists
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_silence_pelley
+	relative_position_id = CAL_silence_the_fascists
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_hang_the_nazis_and_fascists"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_hang_their_asses"
 	}	
 }
 
@@ -2851,11 +2851,11 @@ shared_focus = {
 		focus = CAL_free_the_opressed
 	}
 	prerequisite = {
-		focus = CAL_hang_the_silver_shirts
+		focus = CAL_hang_their_asses
 	}
 	x = 0
 	y = 3
-	relative_position_id = CAL_dealing_with_pelleys_extremists
+	relative_position_id = CAL_dealing_with_the_california_extremists
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_we_the_people"
 	}	
