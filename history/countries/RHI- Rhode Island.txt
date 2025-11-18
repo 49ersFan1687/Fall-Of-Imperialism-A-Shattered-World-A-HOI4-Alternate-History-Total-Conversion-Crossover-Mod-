@@ -21,3 +21,21 @@ set_popularities = {
 	
 	
 }
+create_country_leader = {
+	name = "Robert H Barlow"
+	desc = ""
+	picture = GFX_fish
+	ideology = marxism_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Frank Belknap Long"
+	desc = ""
+	picture = GFX_fish
+	ideology = civilian_dictatorship_ideology
+	traits = {
+		#
+	}
+}
