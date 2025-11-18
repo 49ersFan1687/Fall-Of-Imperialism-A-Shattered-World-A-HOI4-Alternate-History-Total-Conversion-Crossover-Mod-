@@ -1,3 +1,4 @@
 characters = {
-    
+
+    # Second Continental Army - U.A. High School 1A Faction - Field Marshals #
 }
