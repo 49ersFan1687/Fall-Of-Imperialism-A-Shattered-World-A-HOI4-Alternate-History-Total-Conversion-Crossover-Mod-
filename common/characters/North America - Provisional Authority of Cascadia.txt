@@ -1989,8 +1989,8 @@ characters = {
 		}
 	}
 
-	# Sensha-Do Clique - The Moderates #
-	
+	# Sensha-Do Clique - The Moderates (Field Marshals) #
+
 	CSD_miho_nishizumi = {
 		name = CSD_miho_nishizumi
 		portraits = {
@@ -2011,7 +2011,85 @@ characters = {
 		}
 	}
 
+	CSD_kay = {
+		name = CSD_kay
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
 
+	CSD_darjeeling = {
+		name = CSD_darjeeling
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_katyusha = {
+		name = CSD_katyusha
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_nonna = {
+		name = CSD_nonna
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
 
 	# Hope Peak Clique - The Corporatists #
 
