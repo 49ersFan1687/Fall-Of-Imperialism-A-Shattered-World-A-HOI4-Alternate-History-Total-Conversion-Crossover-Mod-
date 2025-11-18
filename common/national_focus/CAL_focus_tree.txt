@@ -147,7 +147,7 @@ focus_tree = {
 }
 
 focus_tree = {
-    id = CAL_rebuilding_economy_tree
+    id = CAL_eastward_expansion_tree
     country = {
         factor = 0 
         modifier = {
