@@ -741,19 +741,19 @@ characters = {
 		name = CSD_cassie_chan
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Cassie_Chan.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Cassie_Chan.dds"
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando }
-			skill =
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			traits = { ranger commando trickster swamp_fox }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
 		}
 	}
 
