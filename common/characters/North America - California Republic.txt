@@ -254,7 +254,7 @@ characters = {
 		}
 	}
 
-	CAL_Walton_Harris_Walker = {
+	CAL_walton_Harris_walker = {
 		name = CAL_walton_harris_walker
 		desc = 
 		portraits = {
@@ -361,7 +361,7 @@ characters = {
 		desc = 
 		portraits = {
 			army = {
-				large = "gfx/leaders/CAL/Portrait_CAL_Mark_Wayne_Clark.dds"
+				large = "gfx/leaders/CAL/Portrait_CAL_Mark_wayne_Clark.dds"
 			}
 		}
 		corps_commander = {
@@ -606,7 +606,7 @@ characters = {
 		 }
 	}
 
-	CAL_Chester_William_Nimitz = {
+	CAL_Chester_william_Nimitz = {
 		name = CAL_Chester_William_Nimitz
 		desc = 
 		portraits = {
@@ -672,8 +672,8 @@ characters = {
 		 }
 	}
 
-	CAL_William_Fredrick_Halsey_Jr = {
-		name = CAL = CAL_William_Fredrick_Halsey_Jr
+	CAL_william_Fredrick_Halsey_Jr = {
+		name = CAL = CAL_william_Fredrick_Halsey_Jr
 		desc = 
 		portraits = {
 			army = {
