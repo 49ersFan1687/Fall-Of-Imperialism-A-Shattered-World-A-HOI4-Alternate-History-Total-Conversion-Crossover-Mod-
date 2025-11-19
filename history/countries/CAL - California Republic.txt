@@ -74,13 +74,13 @@ recruit_character = CAL_Hobart_Raymond_Gay
 
 ## US Navy ##
 
-recruit_character = CAL_Ernest_Joseph_King
-recruit_character = CAL_Chester_William_Nimitz
-recruit_character = CAL_Samuel_Lee_Gravely_Jr
-recruit_character = CAL_William_Fredrick_Halsey_Jr
-recruit_character = CAL_William_Daniel_Leahy
-recruit_character = CAL_Issac_Campbell_Kidd_Sr
-recruit_character = CAL_Arleigh_Albert_Burke
+recruit_character = CAL_ernest_joseph_king
+recruit_character = CAL_chester_william_nimitz
+recruit_character = CAL_samuel_lee_gravely_Jr
+recruit_character = CAL_william_fredrick_halsey_jr
+recruit_character = CAL_william_daniel_leahy
+recruit_character = CAL_issac_campbell_kidd_sr
+recruit_character = CAL_arleigh_albert_burke
 
 ### Operatives ###
 
