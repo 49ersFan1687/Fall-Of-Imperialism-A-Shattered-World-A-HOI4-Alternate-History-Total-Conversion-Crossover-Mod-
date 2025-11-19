@@ -1,8 +1,3 @@
-###########################
-# California Republic Focus Tree
-# By Aide of General Eisenhower
-###########################
-
 ### Initial Focus Tree - Warlord State ###
 
 shared_focus = {
@@ -176,7 +171,6 @@ shared_focus = {
 		}
 	}
 }
-
 shared_focus = {
 	id = CAL_radio_silence_from_outside
 	icon = GFX_alone_and_isolated
@@ -312,7 +306,6 @@ shared_focus = {
 		mark_focus_tree_layout_dirty = yes
 	}
 }
-
 shared_focus = {
 	id = CAL_begin_turning_southern_california_into_a_bastion
 	icon = GFX_alone_and_isolated
@@ -337,9 +330,6 @@ shared_focus = {
 		}
 	}
 }
-
-### Canadian Interaction Focus Tree - Warlord State###
-
 shared_focus = {
 	id = CAL_alexanders_military_mission
 	icon = GFX
@@ -500,7 +490,7 @@ shared_focus = {
 		focus = CAL_canadian_surplus_weapons
 	}
 	mutually_exclusive = {
-		focus = CAL_in_the_footsteps_of_simmonds
+		focus = CAL_in_the_footsteps_of_general_simmonds
 		focus = CAL_in_the_footsteps_of_general_alexander
 	}
 	x = 1
@@ -517,7 +507,6 @@ shared_focus = {
 		#}
 	}
 }
-
 shared_focus = {
 	id = CAL_a_permanent_liason_to_america
 	icon = GFX
@@ -628,8 +617,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: focus CAL_the_beaver_and_the_eagle_march_together_to_war_once_more"
 	}
 }
-
-### Create Anti-Nazi Front Focus Tree - Warlord Stage ###
 shared_focus = {
 	id = CAL_dreams_of_a_united_american_anti_nazi_front
 	icon = GFX
@@ -746,7 +733,6 @@ shared_focus = {
 
 	}
 }
-
 shared_focus = {
 	id = CAL_the_other_side_of_the_pillow
 	icon = GFX
@@ -908,8 +894,6 @@ shared_focus = {
 		mark_focus_tree_layout_dirty = yes
 	}
 }
-
-# Contact Commonwealths #
 shared_focus = {
 	id = CAL_turn_to_the_remaining_allied_powers
 	icon = GFX
@@ -966,7 +950,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_messages_with_australia"
 	}
 }
-
 shared_focus = {
 	id = CAL_contact_the_kiwis
 	icon = GFX
@@ -1118,7 +1101,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: CAL_south_african_military_aid"
 	}
 }
-
 shared_focus = {
 	id = CAL_investements_from_down_under
 	icon = GFX
@@ -1317,7 +1299,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: CAL_reestablish_trade_with_australia"
 	}
 }
-
 shared_focus = {
 	id = CAL_reestablish_trade_with_new_zealand
 	icon = GFX
@@ -1381,8 +1362,6 @@ shared_focus = {
 	}
 }
 
-
-# Buildup to War Focus Tree - Warlord Stage #
 shared_focus = {
 	id = CAL_beat_the_inertia
 	icon = GFX
@@ -1854,7 +1833,6 @@ shared_focus = {
 		mark_focus_tree_layout_dirty = yes
 	}
 }
-# California Civil War Focus Tree - Warlord Stage #
 shared_focus = {
 	id = CAL_the_first_of_many_steps_to_victory
 	icon = GFX
@@ -2027,7 +2005,6 @@ shared_focus = {
 		mark_focus_tree_layout_dirty = yes
 	}
 }
-# California Rebuilding Focus Tree - Pre-Regional Stage #
 shared_focus = {
 	id = CAL_begin_rebuilding_california
 	icon = GFX
@@ -2275,7 +2252,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_upgrade_railway_systems"
 	}
 }
-
 shared_focus = {
 	id = CAL_rebuild_la_north_american_aviation_factory
 	icon = GFX
@@ -2370,7 +2346,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_willys_overland_factory_in_southern_california"
 	}
 }
-
 shared_focus = {
 	id = CAL_expand_the_la_firestone_factory
 	icon = GFX
@@ -2457,9 +2432,6 @@ shared_focus = {
 		mark_focus_tree_layout_dirty = yes
 	}
 }
-
-# Regional Unification Focus Tree - Part One # 
-
 shared_focus = {
 	id = CAL_looking_outwards_from_the_golden_state
 	icon = GFX
@@ -2593,7 +2565,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_silence_the_fascists"
 	}	
 }
-
 shared_focus = {
 	id = CAL_rebuild_the_cali_arz_border
 	icon = GFX
@@ -2987,9 +2958,6 @@ shared_focus = {
 		mark_focus_tree_layout_dirty = yes
 	}	
 }
-
-# Eastward and Northward Expansion - Part Two #
-
 shared_focus = {
 	id = CAL_our_focus_on_nevada
 	icon = GFX
@@ -3198,7 +3166,6 @@ shared_focus = {
 		#}
 	}
 }
-
 shared_focus = {
 	id = CAL_crush_cascadian_communism
 	icon = GFX
@@ -3429,9 +3396,6 @@ shared_focus = {
 		#}
 	}	
 }
-
-# Securing Western America - Part Three #
-
 shared_focus = {
 	id = CAL_rebuilding_plans_for_nevada_and_cascadia
 	icon = GFX
@@ -3704,7 +3668,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_hawthorne_army_depot"
 	}
 }
-
 shared_focus = {
 	id = CAL_rebuild_farragut_training_station
 	icon = GFX
@@ -4005,9 +3968,6 @@ shared_focus = {
 		mark_focus_tree_layout_dirty = yes
 	}
 }
-
-# Economic Reform - Regional Stage # 
-
 shared_focus = {
 	id = CAL_address_the_economy_of_the_western_american_government
 	icon = GFX
@@ -4685,7 +4645,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_investing_in_the_lumber_industry"
 	}	
 }
-
 shared_focus = {
 	id = CAL_feed_crop_subsidiaries
 	icon = GFX
@@ -5343,7 +5302,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_paving_over_the_devastation"
 	}
 }
-
 shared_focus = {
 	id = CAL_agrarianism_secured
 	icon = GFX
@@ -5496,9 +5454,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_giant_awakens_once_more"
 	}
 }
-
-# Military Reform - Second Continental Army - Regional Stage# 
-
 shared_focus = {
 	id = CAL_begin_the_complete_and_total_overhaul_of_the_sca
 	icon = GFX
@@ -5961,7 +5916,6 @@ shared_focus = {
 		}
 	}
 }
-
 shared_focus = {
 	id = CAL_supplying_the_army_with_all_the_shells_they_need
 	icon = GFX
@@ -6072,7 +6026,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_improve_communication_between_units"
 	}
 }
-
 shared_focus = {
 	id = CAL_battalions_of_sluggers
 	icon = GFX
@@ -6605,7 +6558,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrating_flame_tanks_into_the_army"
 	}
 }
-
 shared_focus = {
 	id = CAL_towards_a_better_tank
 	icon = GFX
@@ -6946,7 +6898,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_americans_fight_to_win"
 	}
 }
-
 shared_focus = {
 	id = CAL_mad_dash_to_progress
 	icon = GFX
@@ -7088,9 +7039,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_army_goes_marching_along"
 	}
 }
-
-# Military Reform - Air Force - Regional Stage # 
-
 shared_focus = {
 	id = CAL_reforming_the_united_states_army_air_force
 	icon = GFX
@@ -7510,9 +7458,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_nothing_can_stop_the_us_army_air_force"
 	}
 }
-
-# Military Reform - Navy - Regional Stage # 
-
 shared_focus = {
 	id = CAL_reform_the_united_states_navy
 	icon = GFX
@@ -8449,7 +8394,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_duty_honor_semper_fi"
 	}	
 }
-
 shared_focus = {
 	id = CAL_first_to_fight_for_right_and_freedom
 	icon = GFX
@@ -8474,9 +8418,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_first_to_fight_for_right_and_freedom"
 	}
 }
-
-# Foreign Policy - Regional Stage # 
-
 shared_focus = {
 	id = CAL_reinstate_the_secretary_of_state_office
 	icon = GFX
@@ -9062,7 +9003,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_join_the_bermuda_accords"
 	}
 }
-
 shared_focus = {
 	id = CAL_concessions_to_the_japanese
 	icon = GFX
