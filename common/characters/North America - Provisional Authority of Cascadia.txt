@@ -628,12 +628,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando }
-			skill =
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			traits = { ranger commando brilliant_strategist infantry_leader infantry_expert }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 
@@ -728,7 +728,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando trickster swamp_fox infantry_leader}
+			traits = { ranger commando trickster swamp_fox infantry_leader }
 			skill = 3
 			attack_skill = 4
 			defense_skill = 2
