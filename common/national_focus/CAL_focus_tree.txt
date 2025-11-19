@@ -1,160 +1,26 @@
-## Intro ##
-
 focus_tree = {
-    id = CAL_starting_focus_tree
+    id = CAL_focus_tree
     country = {
 		factor = 0
 		modifier = { 
             add = 10 
-            tag = CAL 
+            tag = CAL
         }
 	}
     default = no
 	shared_focus = CAL_the_long_retreat_west
+	shared_focus = CAL_alexanders_military_mission
+	shared_focus = CAL_dreams_of_a_united_american_anti_nazi_front
+	shared_focus = CAL_turn_to_the_remaining_allied_powers
+	#shared_focus = CAL_beat_the_inertia
+	#shared_focus = CAL_the_first_of_many_steps_to_victory
+	shared_focus = CAL_looking_outwards_from_the_golden_state
+	shared_focus = CAL_address_the_economy_of_the_western_american_government
+	shared_focus = CAL_begin_the_complete_and_total_overhaul_of_the_sca
+	shared_focus = CAL_reforming_the_united_states_army_air_force
+	shared_focus = CAL_reform_the_united_states_navy
+	shared_focus = CAL_reinstate_the_secretary_of_state_office
 
-    continuous_focus_position = { x = 2500 y = 50 }
+    continuous_focus_position = { x = 6000 y = 2000 }
 }
 
-focus_tree = {
-    id = CAL_canadian_mission_focus_tree
-    country = {
-        factor = 0
-        modifier = { 
-            add = 10 
-            tag = CAL 
-        }
-    }
-    default = no
-    shared_focus = CAL_alexanders_military_mission
-}
-
-focus_tree = {
-    id = CAL_commonwealth_focus_tree
-    country = {
-        factor = 0
-        modifier = { 
-            add = 10 
-            tag = CAL 
-        }
-    }
-    default = no
-    shared_focus = CAL_turn_to_the_remaining_allied_powers
-}
-
-focus_tree = {
-    id = CAL_anti_nazi_front_focus_tree
-    country = {
-        factor = 0
-        modifier = { 
-            add = 10 
-            tag = CAL 
-        }
-    }
-    default = no
-    shared_focus = CAL_dreams_of_a_united_american_anti_nazi_front
-}
-
-focus_tree = {
-    id = CAL_regional_focus_tree
-    country = {
-        factor = 0
-        modifier = { 
-            add = 10 
-            tag = CAL 
-        }
-    }
-    default = no
-    shared_focus = CAL_looking_outwards_from_the_golden_state
-}
-
-focus_tree = {
-    id = CAL_economy_tree
-    country = {
-        factor = 0
-        modifier = {
-            add = 10
-            tag = CAL
-        }
-    }
-    default = no
-    shared_focus = CAL_address_the_economy_of_the_western_american_government
-}
-
-focus_tree = {
-    id = CAL_army_tree
-    country = {
-        factor = 0 
-        modifier = {
-            add = 10
-            tag = CAL
-        }
-    }
-    default = no
-    shared_focus = CAL_begin_the_complete_and_total_overhaul_of_the_sca
-}
-
-
-focus_tree = {
-    id = CAL_air_force_tree
-    country = {
-        factor = 0 
-        modifier = {
-            add = 10
-            tag = CAL
-        }
-    }
-    default = no
-    shared_focus = CAL_reforming_the_united_states_army_air_force
-}
-
-focus tree = {
-    id = CAL_navy_tree
-    country = {
-        factor = 0 
-        modifier = {
-            add = 10
-            tag = CAL
-        }
-    }
-    default = no
-    shared_focus = CAL_reform_the_united_states_navy
-}
-
-focus_tree = {
-    id = CAL_industry_tree
-    country = {
-        factor = 0 
-        modifier = {
-            add = 10
-            tag = CAL
-        }
-    }
-    default = no
-    shared_focus = CAL_reform_the_united_states_marine_corps
-}
-
-focus_tree = {
-    id = CAL_foreign_policy_tree
-    country = {
-        factor = 0 
-        modifier = {
-            add = 10
-            tag = CAL
-        }
-    }
-    default = no
-    shared_focus = CAL_reinstate_the_secretary_of_state_office
-}
-
-focus_tree = {
-    id = CAL_eastward_expansion_tree
-    country = {
-        factor = 0 
-        modifier = {
-            add = 10
-            tag = CAL
-        }
-    }
-    default = no
-    shared_focus = CAL_preparing_for_operation_washington
-}
