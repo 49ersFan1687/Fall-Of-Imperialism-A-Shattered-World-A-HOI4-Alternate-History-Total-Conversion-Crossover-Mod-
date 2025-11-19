@@ -224,7 +224,7 @@ characters = {
 	}
 
 	# generals #
-	CAL_george_smith_Patton_jr = {
+	CAL_george_smith_patton_jr = {
 		name = CAL_george_smith_patton_jr
 		desc = 
 		portraits = {
@@ -254,7 +254,7 @@ characters = {
 		}
 	}
 
-	CAL_walton_Harris_walker = {
+	CAL_walton_harris_walker = {
 		name = CAL_walton_harris_walker
 		desc = 
 		portraits = {
@@ -356,8 +356,8 @@ characters = {
 		}
 	}
 
-	CAL_Mark_Wayne_Clark = {
-		name = CAL_Mark_Wayne_Clark
+	CAL_mark_wayne_clark = {
+		name = CAL_mark_wayne_clark
 		desc = 
 		portraits = {
 			army = {
@@ -374,8 +374,8 @@ characters = {
 		}
 	}
 
-	CAL_Henry_Harley_Arnold = {
-		name = CAL_Henry_Harley_Arnold
+	CAL_henry_harley_arnold = {
+		name = CAL_henry_harley_arnold
 		desc = 
 		portraits = {
 			army = {
@@ -392,8 +392,8 @@ characters = {
 		}
 	}
 
-	CAL_Jacob_Loucks_devers = {
-		name = CAL_Jacob_Loucks_devers
+	CAL_jacob_loucks_devers = {
+		name = CAL_jacob_loucks_devers
 		desc = 
 		portraits = {
 			army = {
@@ -410,8 +410,8 @@ characters = {
 		}
 	}
 
-	CAL_Lucian_King_Truscott = {
-		name = CAL_Lucian_King_Truscott
+	CAL_lucian_king_truscott = {
+		name = CAL_lucian_king_truscott
 		desc = 
 		portraits = {
 			army = {
@@ -464,8 +464,8 @@ characters = {
 		}
 	}
 
-	CAL_Ulysses_Simpson_grant_III = {
-		name = CAL_Ulysses_Simpson_grant_III
+	CAL_ulysses_simpson_grant_iii = {
+		name = CAL_ulysses_simpson_grant_iii
 		desc = 
 		portraits = {
 			army = {
@@ -482,8 +482,8 @@ characters = {
 		}
 	}
 
-	CAL_Claire_Lee_Chennault = {
-		name = CAL_Claire_Lee_Chennault
+	CAL_claire_lee_chennault = {
+		name = CAL_claire_lee_chennault
 		desc = 
 		portraits = {
 			army = {
@@ -500,8 +500,8 @@ characters = {
 		}
 	}
 
-	CAL_Hobart_Raymond_gay = {
-		name = CAL_Hobart_Raymond_gay
+	CAL_hobart_raymond_gay = {
+		name = CAL_hobart_raymond_gay
 		desc = 
 		portraits = {
 			army = {
@@ -573,8 +573,8 @@ characters = {
 	}
 
 	# Admirals #
-	CAL_Ernest_Joseph_King = {
-		name = CAL_Ernest_Joseph_King
+	CAL_ernest_joseph_king = {
+		name = CAL_ernest_joseph_king
 		desc = 
 		portraits = {
 			army = {
@@ -606,8 +606,8 @@ characters = {
 		 }
 	}
 
-	CAL_Chester_william_Nimitz = {
-		name = CAL_Chester_William_Nimitz
+	CAL_whester_william_nimitz = {
+		name = CAL_chester_william_nimitz
 		desc = 
 		portraits = {
 			army = {
@@ -672,8 +672,8 @@ characters = {
 		 }
 	}
 
-	CAL_william_Fredrick_Halsey_Jr = {
-		name = CAL = CAL_william_Fredrick_Halsey_Jr
+	CAL_william_fredrick_halsey_jr = {
+		name = CAL = CAL_william_fredrick_halsey_jr
 		desc = 
 		portraits = {
 			army = {
