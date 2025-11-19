@@ -48,24 +48,4 @@ characters = {
             }
         }
     }
-
-    RHI_howard_phillips_lovecraft = {
-        name = RHI_howard_phillips_lovecraft
-        portraits = {
-            civilian = {
-                large = GFX_fish
-            }
-            army = {
-                large = GFX_fish
-            }
-        }
-        country_leader = {
-            desc = "POLITICS_HOWARD_PHILLIPS_LOVECRAFT_DESC"
-            expire = "1995.11.01"
-            ideology = 
-            traits = {
-                
-            }
-        }
-    }
 }
