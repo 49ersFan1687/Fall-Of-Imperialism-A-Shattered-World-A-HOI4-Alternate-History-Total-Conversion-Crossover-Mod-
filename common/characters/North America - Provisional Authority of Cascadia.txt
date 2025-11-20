@@ -2111,6 +2111,8 @@ characters = {
 		}
 	}
 
+	# Sensha-Do Clique - The Moderates (Generals) #
+
 	# Hope's Peak Clique - The Corporatists (Field Marshals) #
 
 	CSD_makoto_naegi = {
