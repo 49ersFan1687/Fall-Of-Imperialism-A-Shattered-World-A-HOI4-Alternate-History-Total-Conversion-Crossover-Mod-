@@ -256,7 +256,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_restablish_radio_contact_with_canada
+	id = CAL_reestablish_radio_contact_with_canada
 	icon = GFX_alone_and_isolated
 	cost = 3
 	available_if_capitulated = no
@@ -270,7 +270,7 @@ shared_focus = {
 	y = 1
     relative_position_id = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_restablish_radio_contact_with_canada"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reestablish_radio_contact_with_canada"
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
 		hidden_effect = {
 			CAL = {
@@ -1374,7 +1374,7 @@ shared_focus = {
 		focus = CAL_begin_turning_southern_california_into_a_bastion
 	}
 	prerequisite = {
-		focus = CAL_restablish_radio_contact_with_canada
+		focus = CAL_reestablish_radio_contact_with_canada
 	}
 	prerequisite = {
 		focus = CAL_contact_the_remnants
