@@ -518,8 +518,8 @@ characters = {
 		}
 	}
 
-	CAL_John_daniel_Lavelle = {
-		name = CAL_John_daniel_Lavelle
+	CAL_john_daniel_lavelle = {
+		name = CAL_john_daniel_lavelle
 		desc = 
 		portraits = {
 			army = {
