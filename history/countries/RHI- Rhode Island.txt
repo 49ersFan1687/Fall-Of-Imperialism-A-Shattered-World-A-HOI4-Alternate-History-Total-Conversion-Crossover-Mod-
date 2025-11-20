@@ -21,3 +21,6 @@ set_popularities = {
 	
 	
 }
+
+recruit_character = RHI_robert_hillard_barrow
+recruit_character = RHI_frank_belknap_long
