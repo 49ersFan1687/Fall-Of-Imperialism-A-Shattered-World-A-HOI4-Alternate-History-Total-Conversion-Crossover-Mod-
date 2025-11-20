@@ -7050,7 +7050,6 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-
 	x = -9
 	y = 0
 	relative_position_id = CAL_alexanders_military_mission
@@ -8148,7 +8147,6 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_anchors_aweigh
 	}
-
 	x = -11
 	y = -2.5
 	relative_position_id = CAL_the_army_goes_marching_along
@@ -8429,7 +8427,6 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-
 	x = 0
 	y = 2
 	relative_position_id = CAL_the_army_goes_marching_along
@@ -9203,7 +9200,7 @@ shared_focus = {
 	}
 }
 
-# Superregional Stage - # 
+# Superregional Stage - Eastward Expansion # 
 
 shared_focus = {
 	id = CAL_preparing_for_operation_washington
@@ -9216,7 +9213,6 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_a_coalition_to_eradicate_evil
 	}
-
 	x = 0
 	y = 2
 	relative_position_id = CAL_the_giant_awakens_once_more
