@@ -606,7 +606,7 @@ characters = {
 		 }
 	}
 
-	CAL_whester_william_nimitz = {
+	CAL_chester_william_nimitz = {
 		name = CAL_chester_william_nimitz
 		desc = 
 		portraits = {
