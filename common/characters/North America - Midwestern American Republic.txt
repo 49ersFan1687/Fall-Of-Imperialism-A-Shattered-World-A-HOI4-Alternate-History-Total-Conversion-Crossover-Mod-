@@ -19,6 +19,67 @@ characters = {
             }
         }
     }
+
+    MAR_lyndon_baines_johnson = {
+        name = MAR_lyndon_baines_johnson
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_LYNDON_BAINES_JOHNSON_DESC"
+            expire = "1995.8.20"
+            ideology = 
+            traits = {
+                
+            }
+        }
+    }
+
+    MAR_quentin_roosevelt = {
+        name = MAR_quentin_roosevelt
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_QUENTIN_ROOSEVELT_DESC"
+            expire = "1995.8.20"
+            ideology = social_democratic_progressive_democracy_ideology
+            traits = {
+                
+            }
+        }
+    }
+
+    MAR_alfred_mossman_landon = {
+        name = MAR_alfred_mossman_landon
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_ALFRED_MOSSMAN_LANDON_DESC"
+            expire = "1995.8.20"
+            ideology = progressive_conservatism_ideology
+            traits = {
+                
+            }
+        }
+    }
+
     # Advisors #
     MAR_Martin_Luther_King_Jr = {
         name = MAR_Martin_Luther_King_Jr
