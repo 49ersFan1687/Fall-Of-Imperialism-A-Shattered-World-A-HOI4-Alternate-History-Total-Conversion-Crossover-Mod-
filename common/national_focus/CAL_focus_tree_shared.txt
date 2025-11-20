@@ -9240,4 +9240,97 @@ shared_focus = {
 	}
 }
 
+shared_focus = {
+	id = CAL_1
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_planning_the_long_march_east
+	}
+	x = -8
+	y = 1
+	relative_position_id = CAL_planning_the_long_march_east
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_1"
+	}
+}
+
+shared_focus = {
+	id = CAL_2
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_planning_the_long_march_east
+	}
+	x = -4
+	y = 1
+	relative_position_id = CAL_planning_the_long_march_east
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_2"
+	}
+}
+
+shared_focus = {
+	id = CAL_3
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_planning_the_long_march_east
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_planning_the_long_march_east
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_3"
+	}
+}
+
+shared_focus = {
+	id = CAL_4
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_planning_the_long_march_east
+	}
+	x = 4
+	y = 1
+	relative_position_id = CAL_planning_the_long_march_east
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_1"
+	}
+}
+shared_focus = {
+	id = CAL_5
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_planning_the_long_march_east
+	}
+	x = 8
+	y = 1
+	relative_position_id = CAL_planning_the_long_march_east
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_1"
+	}
+}
 
