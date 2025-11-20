@@ -46,7 +46,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CAL_in_a_greater_depression
-	icon = GFX_focus_a_shattered_military
+	icon = GFX_focus_in_a_greater_depression
 	cost = 3
 	available_if_capitulated = no
 	ai_will_do = {
@@ -120,7 +120,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_nonexistant_bureaucracy
+	id = CAL_nonexistent_bureaucracy
 	icon = GFX_alone_and_isolated
 	cost = 3
 	available_if_capitulated = no
@@ -208,11 +208,11 @@ shared_focus = {
 		focus = CAL_alone_and_isolated
 	}
 	prerequisite = {
-		focus = CAL_nonexistant_bureaucracy
+		focus = CAL_nonexistent_bureaucracy
 	}
 	x = 0
 	y = 1
-    relative_position_id = CAL_nonexistant_bureaucracy
+    relative_position_id = CAL_nonexistent_bureaucracy
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_chaos_is_everywhere"
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
@@ -2443,7 +2443,6 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_the_new_bastion_of_freedom
 	}
-
 	x = 8.5
 	y = -1
 	relative_position_id = CAL_alone_and_isolated
@@ -2966,7 +2965,6 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-
 	prerequisite = {
 		focus = CAL_eastward_and_northern_expansion
 	}
@@ -8148,7 +8146,7 @@ shared_focus = {
 		has_completed_focus = CAL_anchors_aweigh
 	}
 	x = -11
-	y = -2.5
+	y = -3
 	relative_position_id = CAL_the_army_goes_marching_along
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reform_the_united_states_marine_corps"
