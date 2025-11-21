@@ -529,6 +529,14 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 3
 		}
+		advisior = {
+			cost = 100
+			slot = army_chief
+			idea_token = leonard_townsend_gerow
+			traits = {
+
+			}
+		}
 	}
 
 	CAL_benjamin_oliver_davis_sr = {
@@ -710,7 +718,6 @@ characters = {
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
-
 		}
 		advisior = {
 			cost = 150 
@@ -744,7 +751,6 @@ characters = {
 			defense_skill = 
 			maneuvering_skill = 
 			coordination_skill =
-
 		}
 		advisior = { 
 			slot = 
@@ -777,7 +783,6 @@ characters = {
 			defense_skill = 
 			maneuvering_skill = 
 			coordination_skill =
-
 		}
 		advisior = { 
 			slot = 
@@ -810,7 +815,6 @@ characters = {
 			defense_skill = 
 			maneuvering_skill = 
 			coordination_skill =
-
 		}
 		advisior = { 
 			slot = 
@@ -840,7 +844,6 @@ characters = {
 			defense_skill = 
 			maneuvering_skill = 
 			coordination_skill =
-
 		}
 	}
 
@@ -861,7 +864,6 @@ characters = {
 			defense_skill = 
 			maneuvering_skill = 
 			coordination_skill =
-
 		}
 	}
 
