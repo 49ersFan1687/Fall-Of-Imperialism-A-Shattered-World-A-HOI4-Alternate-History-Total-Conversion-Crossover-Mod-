@@ -257,8 +257,48 @@ characters = {
         }
     }
 
-    # Greater Germanic Reich - Waffen-SS Field Marshals #
+    GER_
 
+    # Greater Germanic Reich - Waffen-SS Field Marshals #
+    GER_felix_martin_julius_steiner = {
+        name = GER_felix_martin_julius_steiner
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        field_marshal = {
+            traits = {  }
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+    GER_josef_dietrich = {
+        name = GER_josef_dietrich
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        field_marshal = {
+            traits = {  }
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
 
     # Greater Germanic Reich - Waffen-SS Generals #
 
