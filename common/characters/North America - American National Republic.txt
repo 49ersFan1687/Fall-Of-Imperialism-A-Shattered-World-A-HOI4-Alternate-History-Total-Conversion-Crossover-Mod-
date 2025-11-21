@@ -139,4 +139,12 @@ characters = {
             }
         }
     }
+
+    # Advisors #
+
+    # Field Marshals #
+
+    # Generals #
+
+    # Admirals #
 }
