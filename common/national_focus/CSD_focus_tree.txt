@@ -1,7 +1,7 @@
 ## Intro ##
 
 focus_tree = {
-    id = CSD_starting_focus_tree
+    id = CSD_focus_tree
     country = {
 		factor = 0
 		modifier = { 
