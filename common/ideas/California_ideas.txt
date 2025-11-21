@@ -164,7 +164,38 @@ ideas = {
             allowed = { always = no }
             picture = eisenhower_plan
             modifier = {
-                
+                max_planning = 0.04
+                planning_speed = 0.04
+                supply_consumption_factor = -0.025
+                out_of_supply_factor = 0.025
+                army_org_Factor = 0.05
+                max_command_power = 30
+                army_attack_factor = 0.025
+                conscription_factor = 0.03
+                army_artillery_attack_factor = 0.05
+				army_artillery_defence_factor = 0.05
+                max_dig_in_factor = 0.03    
+            }
+             equipment_bonus = {
+                artillery_equipment = {
+                    soft_attack = 0.03
+                    breakthrough = 0.03
+                    build_cost_ic = -0.05
+                    reliability = 0.01
+                    instant = yes
+                }
+                infantry_equipment = {
+                    soft_attack = 0.03
+                    build_cost_ic = -0.03
+                    reliability = 0.02
+                    instant = yes
+                }
+                support_equipment = {
+                    soft_attack = 0.01
+                    build_cost_ic = -0.03
+                    reliability = 0.02
+                    instant = yes
+                }
             }
         }
 
