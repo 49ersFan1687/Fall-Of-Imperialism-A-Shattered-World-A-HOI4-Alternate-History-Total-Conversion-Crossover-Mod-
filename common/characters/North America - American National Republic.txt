@@ -13,7 +13,7 @@ characters = {
         country_leader = {
             desc = "POLITICS_RICHARD_NIXON_DESC"
             expire = "1995.6.30"
-            ideology = social_nationalism_ideology
+            ideology = conservatism_liberal_conservatism_ideology
             traits = {
                 
             }
@@ -73,7 +73,7 @@ characters = {
         country_leader = {
             desc = "POLITICS_GERALD_KENNETH_SMITH_DESC"
             expire = "1995.6.30"
-            ideology = social_nationalism_ideology
+            ideology = american_fascism_ideology
             traits = {
                 
             }
@@ -93,7 +93,7 @@ characters = {
         country_leader = {
             desc = "POLITICS_FRANCIS_PARKER_YOCKEY_DESC"
             expire = "1995.6.30"
-            ideology = social_nationalism_ideology
+            ideology = nazism_ideology
             traits = {
                 
             }
@@ -113,7 +113,7 @@ characters = {
         country_leader = {
             desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
             expire = "1995.6.30"
-            ideology = social_nationalism_ideology
+            ideology = esoteric_esoteric_fascism_ideology
             traits = {
                 
             }
