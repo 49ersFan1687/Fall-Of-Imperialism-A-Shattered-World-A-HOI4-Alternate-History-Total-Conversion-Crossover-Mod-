@@ -18,6 +18,40 @@ characters = {
 		}
     }
 
+    CAN_john_george_diefenbaker = {
+        name = CAN_john_george_diefenbaker
+        portraits = {
+            civilian = {
+                large = 
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_JOHN_DIEFENBAKER_DESC"
+            expire = "1994.4.20"
+            ideology = progressive_conservatism_ideology
+            traits = {
+
+            }
+        }
+    }
+
+    CAN_lester_bowles_pearson = {
+        name = CAN_lester_bowles_pearson
+        portraits = {
+            civilian = {
+                large = 
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_LESTER_PEARSON_DESC"
+            expire = "1994.4.20"
+            ideology = social_democratic_progressive_democracy_ideology
+            traits = {
+
+            }
+        }
+    }
+
     # Advisors #
 
 
