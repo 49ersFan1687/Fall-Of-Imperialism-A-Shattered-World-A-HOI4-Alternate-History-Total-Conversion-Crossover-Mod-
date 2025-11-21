@@ -1,5 +1,25 @@
 characters = {
     # Country Leaders #
+    ANR_fritz_julius_kuhn = {
+        name = ANR_fritz_julius_kuhn
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_FRITZ_KUHN_DESC"
+            expire = "1995.6.30"
+            ideology = nazism_ideology
+            traits = {
+                
+            }
+        }
+    }
+
     ANR_richard_milhous_nixon = {
         name = ANR_richard_milhous_nixon
         portraits = {
