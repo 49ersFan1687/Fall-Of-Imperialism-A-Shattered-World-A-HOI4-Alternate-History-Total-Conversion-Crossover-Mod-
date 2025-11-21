@@ -66,7 +66,26 @@ characters = {
         
     }
 
-    # British Exiles Generals #
+    # British Exiles Field Marshals #
+    CAN_harold_rupert_leofric_george_alexander = {
+        name = CAN_harold_rupert_leofric_george_alexander
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        field_marshal = {
+            traits = { }
+            skill = 
+            attack_skill =
+            defense_skill =
+            planning_skill =
+            logistics_skill =
+        }
+    }
 
 
     # Royal Navy Admirals #
