@@ -63,10 +63,24 @@ characters = {
 
     # British Exiles Field Marshals #
     CAN_Bernard_Law_Montgomery = {
-        
+        name = CAN_Bernard_Law_Montgomery
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        field_marshal = {
+            traits = {  }
+            skill = 
+            attack_skill =
+            defense_skill =
+            planning_skill =
+            logistics_skill =
+        }
     }
-
-    # British Exiles Field Marshals #
     CAN_harold_rupert_leofric_george_alexander = {
         name = CAN_harold_rupert_leofric_george_alexander
         portraits = {
@@ -86,6 +100,9 @@ characters = {
             logistics_skill =
         }
     }
+
+    # British Exiles Generals #
+  
 
 
     # Royal Navy Admirals #
