@@ -1,0 +1,122 @@
+characters = {
+    # Country Leaders #
+    ANR_richard_milhous_nixon = {
+        name = ANR_richard_milhous_nixon
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_RICHARD_NIXON_DESC"
+            expire = "1995.6.30"
+            ideology = social_nationalism_ideology
+            traits = {
+                
+            }
+        }
+    }
+
+    ANR_james_strom_thurmond_sr = {
+        name = ANR_james_strom_thurmond_sr
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_JAMES_STROM_THURMOND_DESC"
+            expire = "1995.6.30"
+            ideology = social_nationalism_ideology
+            traits = {
+                
+            }
+        }
+    }
+
+    ANR_robert_alphonso_taft = {
+        name = ANR_robert_alphonso_taft
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_ROBERT_TAFT_DESC"
+            expire = "1995.6.30"
+            ideology = social_nationalism_ideology
+            traits = {
+                
+            }
+        }
+    }
+
+    ANR_gerald_lyman_kenneth_smith = {
+        name = ANR_gerald_lyman_kenneth_smith
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_GERALD_KENNETH_SMITH_DESC"
+            expire = "1995.6.30"
+            ideology = social_nationalism_ideology
+            traits = {
+                
+            }
+        }
+    }
+
+    ANR_francis_parker_yockey = {
+        name = ANR_francis_parker_yockey
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_FRANCIS_PARKER_YOCKEY_DESC"
+            expire = "1995.6.30"
+            ideology = social_nationalism_ideology
+            traits = {
+                
+            }
+        }
+    }
+
+    ANR_william_dudley_pelley = {
+        name = ANR_william_dudley_pelley
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
+            expire = "1995.6.30"
+            ideology = social_nationalism_ideology
+            traits = {
+                
+            }
+        }
+    }
+}
