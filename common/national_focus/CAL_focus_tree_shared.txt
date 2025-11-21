@@ -341,7 +341,6 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_restablish_radio_contact_with_canada
 	}
-
 	x = -5
 	y = -1
 	relative_position_id = CAL_barely_no_industry
@@ -628,7 +627,6 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_contact_the_remnants
 	}
-
 	x = -2
 	y = 11
 	relative_position_id = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
@@ -905,7 +903,6 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
 	}
-
 	x = -4
 	y = 2
 	relative_position_id = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
@@ -7472,7 +7469,6 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-
 	x = 0
 	y = 8
 	relative_position_id = CAL_new_heavy_jet_bomber_designs
