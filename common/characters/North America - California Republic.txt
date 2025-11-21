@@ -184,7 +184,13 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { career_officer politically_connected organizer offensive_doctrine logistics_wizard }
+			traits = {
+				career_officer
+				politically_connected
+				organizer
+				offensive_doctrine
+				logistics_wizard
+			}
 			skill = 5
 			attack_skill = 5
 			defense_skill = 3
@@ -226,7 +232,13 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { trait_engineer cautious organizer brilliant_strategist career_officer }
+			traits = {
+				trait_engineer
+				cautious
+				organizer
+				brilliant_strategist
+				career_officer
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 3
@@ -245,7 +257,14 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { offensive_doctrine trait_reckless panzer_leader armor_officer trickster cavalry_leader }
+			traits = {
+				offensive_doctrine
+				trait_reckless
+				panzer_leader
+				armor_officer
+				trickster
+				cavalry_leader
+			}
 			skill = 4 
 			attack_skill = 6
 			defense_skill = 3
@@ -275,7 +294,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { politically_connected career_officer panzer_leader offensive_doctrine }
+			traits = {
+				politically_connected
+				career_officer
+				panzer_leader
+				offensive_doctrine
+			}
 			skill = 3
 			attack_skill = 4
 			defense_skill = 2
@@ -293,7 +317,13 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { offensive_doctrine inspirational_leader commando naval_invader career_officer }
+			traits = {
+				offensive_doctrine
+				inspirational_leader
+				commando
+				naval_invader
+				career_officer 
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 2
@@ -311,7 +341,14 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { brilliant_strategist ranger infantry_leader inspirational_leader career_officer }
+			traits = {
+				brilliant_strategist
+				ranger
+				infantry_leader
+				infantry_expert
+				inspirational_leader
+				career_officer
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 3
@@ -329,7 +366,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { offensive_doctrine organizer fast_planner aggressive_assaulter }
+			traits = {
+				offensive_doctrine
+				organizer
+				fast_planner
+				aggressive_assaulter
+			}
 			skill = 3
 			attack_skill = 4
 			defense_skill = 4
@@ -359,7 +401,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { paratrooper offensive_doctrine career_officer commando }
+			traits = {
+				paratrooper
+				offensive_doctrine
+				career_officer
+				commando
+			}
 			skill = 3
 			attack_skill = 4
 			defense_skill = 3
@@ -377,7 +424,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { reckless infantry_officer offensive_doctrine infantry_leader }
+			traits = {
+				reckless
+				infantry_officer
+				offensive_doctrine
+				infantry_leader
+			}
 			skill = 4
 			attack_skill = 5
 			defense_skill = 2
@@ -395,7 +447,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { career_officer politically_connected inspirational_leader organizer }
+			traits = {
+				career_officer
+				politically_connected
+				inspirational_leader
+				organizer
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 3
@@ -413,7 +470,13 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { panzer_leader cavalry_leader artillery_specialist brilliant_strategist organizer }
+			traits = {
+				panzer_leader
+				cavalry_leader
+				artillery_specialist
+				brilliant_strategist
+				organizer
+			}
 			skill = 3
 			attack_skill = 4
 			defense_skill = 3
@@ -431,7 +494,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { trait_engineer commando cavalry_officer }
+			traits = {
+				trait_engineer
+				commando
+				cavalry_officer
+				brilliant_strategist
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 4
@@ -449,7 +517,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { armor_officer career_officer organizer }
+			traits = {
+				armor_officer
+				career_officer
+				organizer
+				panzer_leader
+			}
 			skill = 3
 			attack_skill = 3
 			defense_skill = 3
@@ -467,7 +540,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { career_officer organizer infantry_leader }
+			traits = {
+				career_officer
+				organizer
+				infantry_leader
+				inspirational_leader
+			}
 			skill = 4 
 			attack_skill = 3
 			defense_skill = 3
@@ -485,7 +563,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { infantry_leader media_personality skilled_staffer inflexible_strategist }
+			traits = {
+				infantry_leader
+				media_personality
+				skilled_staffer
+				inflexible_strategist
+			}
 			skill = 3
 			attack_skill = 3
 			defense_skill = 3
@@ -503,7 +586,10 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { cautious career_officer }
+			traits = {
+				cautious
+				career_officer
+			}
 			skill = 3 
 			attack_skill = 2
 			defense_skill = 2
@@ -521,7 +607,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { brilliant_strategist panzer_leader armor_officer cavalry_leader }
+			traits = {
+				brilliant_strategist
+				panzer_leader
+				armor_officer
+				cavalry_leader
+			}
 			skill = 2
 			attack_skill = 3
 			defense_skill = 1
@@ -539,7 +630,11 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { commando paratrooper trait_reckless }
+			traits = {
+				commando
+				paratrooper
+				trait_reckless
+			}
 			skill = 3
 			attack_skill = 4
 			defense_skill = 2
@@ -557,7 +652,10 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { engineer trait_reckless }
+			traits = {
+				engineer
+				trait_reckless
+			}
 			skill = 2
 			attack_skill = 3
 			defense_skill = 3
@@ -575,7 +673,10 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { reckless media_personality }
+			traits = {
+				reckless
+				media_personality
+			}
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
@@ -599,16 +700,21 @@ characters = {
 		}
 		navy_leader = {
 			desc = 
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			maneuvering_skill = 
-			coordination_skill =
+			traits = { 
+				superior_tactician
+				aviation_enthusiast
+				blockade_runner
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
 
 		}
-		advisior = { 
-			slot = 
+		advisior = {
+			cost = 150 
+			slot = navy_chief
 			idea_token = 
 			ledger = navy
 			allowed = { original_tag = CAL }
