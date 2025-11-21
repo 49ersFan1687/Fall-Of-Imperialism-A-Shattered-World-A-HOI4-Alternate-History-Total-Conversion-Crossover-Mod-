@@ -16,6 +16,7 @@ characters = {
             }
         }
     }
+
     GER_Heinrich_Himmler = {
         name = GER_Heinrich_Himmler
         portraits = {
@@ -32,6 +33,7 @@ characters = {
             }
         }
     }
+
     GER_Hermann_Goring = {
         name = GER_Hermann_Goring
         portraits = {
@@ -48,6 +50,7 @@ characters = {
             }
         }
     }
+
     GER_Ferdinand_Schorner = {
         name = GER_Ferdinand_Schorner
         portraits = {
@@ -197,12 +200,70 @@ characters = {
     }
 
     # Greater Germanic Reich - Generals #
+    GER_heinz_wilhelm_guderian = {
+        name = GER_heinz_wilhelm_guderian
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = {  }
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+    GER_ernst_hermann_august_theodor_busse = {
+        name = GER_ernst_hermann_august_theodor_busse
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = {  }
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+    GER_hans_speidel = {
+        name = GER_hans_speidel
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = {  }
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
 
     # Greater Germanic Reich - Waffen-SS Field Marshals #
+
 
     # Greater Germanic Reich - Waffen-SS Generals #
 
     # Greater German Reich - Kriegsmarine #
+    
 
     # Greater German Reich - Luftwaffe #
 }
