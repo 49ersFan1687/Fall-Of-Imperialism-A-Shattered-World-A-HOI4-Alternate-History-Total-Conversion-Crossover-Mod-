@@ -145,7 +145,13 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { logistics_wizard offensive_doctrine panzer_leader cautious organizer politically_connected }
+			traits = {
+				logistics_wizard
+				offensive_doctrine
+				panzer_leader
+				cautious organizer
+				politically_connected
+			}
 			skill = 5
 			attack_skill = 5
 			defense_skill = 4
@@ -153,16 +159,16 @@ characters = {
 			logistics_skill = 3
 		}
 		advisior = {
+			cost = 200
 			slot = theorist
-			idea_token = dwight_david_Eisenhower
+			idea_token = dwight_david_eisenhower
 			ledger = army
-				allowed = {
-					original_tag = CAL
-				}
+			allowed = {
+				original_tag = CAL
+			}
+			traits = {
 
-				traits = {
-					
-				}
+			}
 		}
 	}
 
@@ -186,16 +192,17 @@ characters = {
 			logistics_skill = 4
 		}
 		advisior = {
+			cost = 200
 			slot = theorist
-			idea_token = george_Catlett_Marshall
+			idea_token = george_catlett_marshall
 			ledger = army
-				allowed = {
-					original_tag = CAL
-				}
+			allowed = {
+				original_tag = CAL
+			}
 
-				traits = {
-					
-				}
+			traits = {
+
+			}
 		}
 	}
 	
@@ -211,7 +218,12 @@ characters = {
 			}
 		}
 		advisior = {
-			slot = 
+			cost = 100
+			slot = army_chief
+			idea_token = omar_nelson_bradley
+			traits = {
+
+			}
 		}
 		field_marshal = {
 			traits = { trait_engineer cautious organizer brilliant_strategist career_officer }
@@ -241,16 +253,16 @@ characters = {
 			logistics_skill = 3 
 		}
 		advisior = {
+			cost = 200
 			slot = theorist
 			idea_token = george_Smith_Patton_jr
 			ledger = army
-				allowed = {
-					original_tag = CAL
-				}
-
-				traits = {
+			allowed = {
+				original_tag = CAL
+			}
+			traits = {
 					
-				}
+			}
 		}
 	}
 
@@ -325,16 +337,16 @@ characters = {
 			logistics_skill = 4
 		}
 		advisior = {
-			slot = theorist
-			idea_token = william_childs_westmoreland
-			ledger = army
-				allowed = {
-					original_tag = CAL
-				}
-
-				traits = {
+		cost = 200
+		slot = theorist
+		idea_token = william_childs_westmoreland
+		ledger = army
+			allowed = {
+				original_tag = CAL
+			}
+			traits = {
 					
-				}
+			}
 		}
 	}
 
