@@ -2112,6 +2112,65 @@ characters = {
 	}
 
 	# Sensha-Do Clique - The Moderates (Generals) #
+	CSD_yukari_akiyama = {
+		name = CSD_yukari_akiyama
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_hana_isuzu = {
+		name = CSD_hana_isuzu
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_mako_reizei = {
+		name = CSD_mako_reizei
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
 
 	# Hope's Peak Clique - The Corporatists (Field Marshals) #
 
