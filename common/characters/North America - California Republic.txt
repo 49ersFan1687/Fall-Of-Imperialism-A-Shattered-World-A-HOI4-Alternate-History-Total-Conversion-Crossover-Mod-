@@ -516,7 +516,7 @@ characters = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Leonard_Townsend_gerow.dds"
 			}
 		}
-		corps_commander = {
+		corps_commander = { 
 			traits = {
 				armor_officer
 				career_officer
@@ -707,7 +707,6 @@ characters = {
 			}
 		}
 		navy_leader = {
-			desc = 
 			traits = { 
 				superior_tactician
 				aviation_enthusiast
@@ -744,7 +743,6 @@ characters = {
 			}
 		}
 		navy_leader = {
-			desc = 
 			traits = {  }
 			skill = 
 			attack_skill = 
@@ -752,7 +750,8 @@ characters = {
 			maneuvering_skill = 
 			coordination_skill =
 		}
-		advisior = { 
+		advisior = {
+			cost = 150
 			slot = 
 			idea_token = 
 			ledger = navy
@@ -776,7 +775,6 @@ characters = {
 			}
 		}
 		navy_leader = {
-			desc = 
 			traits = {  }
 			skill = 
 			attack_skill = 
@@ -808,7 +806,6 @@ characters = {
 			}
 		}
 		navy_leader = {
-			desc = 
 			traits = {  }
 			skill = 
 			attack_skill = 
@@ -837,7 +834,6 @@ characters = {
 			}
 		}
 		navy_leader = {
-			desc = 
 			traits = {  }
 			skill = 
 			attack_skill = 
@@ -857,7 +853,6 @@ characters = {
 			}
 		}
 		navy_leader = {
-			desc = 
 			traits = {  }
 			skill = 
 			attack_skill = 
@@ -877,7 +872,6 @@ characters = {
 			}
 		}
 		navy_leader = {
-			desc = 
 			traits = {  }
 			skill = 
 			attack_skill = 
@@ -886,4 +880,7 @@ characters = {
 			coordination_skill =
 		}
 	}
+
+	# Scientists #
+	
 }
