@@ -9304,7 +9304,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_hold_a_new_congressional_election
+	id = CAL_hold_new_congressional_elections
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9319,7 +9319,7 @@ shared_focus = {
 	y = 2
 	relative_position_id = CAL_beginning_the_initial_tranisition_to_a_civilian_government
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_hold_a_new_congressional_election"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_hold_new_congressional_elections"
 	}
 }
 
@@ -9332,11 +9332,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_hold_a_new_congressional_election
+		focus = CAL_hold_new_congressional_elections
 	}
 	x = -8
 	y = 1
-	relative_position_id = CAL_hold_a_new_congressional_election
+	relative_position_id = CAL_hold_new_congressional_elections
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_1"
 	}
@@ -9351,11 +9351,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_hold_a_new_congressional_election
+		focus = CAL_hold_new_congressional_elections
 	}
 	x = -4
 	y = 1
-	relative_position_id = CAL_hold_a_new_congressional_election
+	relative_position_id = CAL_hold_new_congressional_elections
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_2"
 	}
@@ -9370,11 +9370,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_hold_a_new_congressional_election
+		focus = CAL_hold_new_congressional_elections
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_hold_a_new_congressional_election
+	relative_position_id = CAL_hold_new_congressional_elections
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_3"
 	}
@@ -9389,11 +9389,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_hold_a_new_congressional_election
+		focus = CAL_hold_new_congressional_elections
 	}
 	x = 4
 	y = 1
-	relative_position_id = CAL_hold_a_new_congressional_election
+	relative_position_id = CAL_hold_new_congressional_elections
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_1"
 	}
@@ -9407,11 +9407,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_hold_a_new_congressional_election
+		focus = CAL_hold_new_congressional_elections
 	}
 	x = 8
 	y = 1
-	relative_position_id = CAL_hold_a_new_congressional_election
+	relative_position_id = CAL_hold_new_congressional_elections
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_1"
 	}
