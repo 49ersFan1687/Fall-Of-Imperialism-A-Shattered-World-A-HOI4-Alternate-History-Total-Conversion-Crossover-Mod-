@@ -1,0 +1,27 @@
+state = {
+	id = 1137
+	name = "STATE_1041"
+	manpower = 345013
+	
+	state_category = rural
+
+	history = {
+
+		owner = CRD
+		add_core_of = CRD
+
+		buildings = {
+			infrastructure = 2 #was: 6
+			arms_factory = 1
+
+		}
+		
+
+	}
+
+	provinces = {
+		7780 11772 12642 12570 1809 1738
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 1140
+	name = "STATE_1044"
+	manpower = 54101
+	
+	state_category = rural
+
+	history = {
+
+		owner = KKS
+		add_core_of = KKS
+
+		buildings = {
+			infrastructure = 2 #was: 6
+			arms_factory = 1
+			
+
+		}
+		
+
+	}
+
+	provinces = {
+		4820 4794
+	}
+
+	local_supplies = 0.0 
+}

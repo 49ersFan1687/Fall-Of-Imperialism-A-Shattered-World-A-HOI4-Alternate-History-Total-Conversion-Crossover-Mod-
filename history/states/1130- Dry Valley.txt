@@ -1,0 +1,26 @@
+state = {
+	id = 1130
+	name = "STATE_1033"
+	manpower = 5913
+	
+	state_category = rural
+
+	history = {
+
+		owner = ELI
+		add_core_of = ELI
+
+		buildings = {
+			infrastructure = 1 #was: 6
+
+		}
+		
+
+	}
+
+	provinces = {
+		7879
+	}
+
+	local_supplies = 0.0 
+}

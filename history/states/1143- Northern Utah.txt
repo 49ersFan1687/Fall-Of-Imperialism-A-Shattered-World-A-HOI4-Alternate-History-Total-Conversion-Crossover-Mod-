@@ -1,0 +1,27 @@
+state = {
+	id = 1143
+	name = "STATE_1035"
+	manpower = 249813
+	
+	state_category = rural
+
+	history = {
+
+		owner = HSD
+		add_core_of = HSD
+
+		buildings = {
+			infrastructure = 2 #was: 6
+			arms_factory = 2
+
+		}
+		
+
+	}
+
+	provinces = {
+		1663 13153 10582 10651 4865 4668
+	}
+
+	local_supplies = 0.0 
+}

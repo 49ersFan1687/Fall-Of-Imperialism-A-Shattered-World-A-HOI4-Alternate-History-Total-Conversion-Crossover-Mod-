@@ -1,0 +1,33 @@
+state = {
+	id = 1129
+	name = "STATE_1129"
+	manpower = 45921
+	
+	state_category = large_town
+
+	history = {
+
+		owner = NVR
+		add_core_of = NVR
+
+		buildings = {
+			infrastructure = 4 #was: 6
+			arms_factory = 2
+			# Hoover Dam
+			4799 = { dam_mountain = 1 }
+
+		}
+		victory_points = {
+			4799 5 # Las Vegas
+		}
+		
+		
+
+	}
+
+	provinces = {
+		4799 12425
+	}
+
+	local_supplies = 0.0 
+}
