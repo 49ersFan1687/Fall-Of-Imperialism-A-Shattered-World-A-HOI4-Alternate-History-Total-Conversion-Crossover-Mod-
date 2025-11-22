@@ -9221,7 +9221,7 @@ shared_focus = {
 	}
 }
 
-#  Focus Tree - Political Tree - Regional Stage #
+#  Focus Tree - Initial Political Tree - Regional Stage #
 
 shared_focus = {
 	id = CAL_preparing_for_operation_washington
