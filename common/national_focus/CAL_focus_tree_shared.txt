@@ -95,6 +95,31 @@ shared_focus = {
 }
 
 shared_focus = {
+	id = CAL_nonexistent_bureaucracy
+	icon = GFX_focus_non_existent_bureaucracy
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_long_retreat_west
+	}
+	x = 2
+	y = 1
+    relative_position_id = CAL_the_long_retreat_west
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_nonexistant_bureaucracy"
+		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
+		hidden_effect = {
+			CAL = {
+				country_event = { id = CAL_start.6 }
+			}
+		}
+	}
+}
+
+shared_focus = {
 	id = CAL_alone_and_isolated
 	icon = GFX_alone_and_isolated
 	cost = 3
@@ -114,31 +139,6 @@ shared_focus = {
 		hidden_effect = {
 			CAL = {
 				country_event = { id = CAL_start.5 }
-			}
-		}
-	}
-}
-
-shared_focus = {
-	id = CAL_nonexistent_bureaucracy
-	icon = GFX_alone_and_isolated
-	cost = 3
-	available_if_capitulated = no
-	ai_will_do = {
-		factor = 1
-	}
-	prerequisite = {
-		focus = CAL_the_long_retreat_west
-	}
-	x = 2
-	y = 1
-    relative_position_id = CAL_the_long_retreat_west
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_nonexistant_bureaucracy"
-		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
-		hidden_effect = {
-			CAL = {
-				country_event = { id = CAL_start.6 }
 			}
 		}
 	}
