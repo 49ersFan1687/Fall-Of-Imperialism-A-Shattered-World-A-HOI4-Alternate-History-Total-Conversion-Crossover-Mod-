@@ -422,5 +422,25 @@ characters = {
 	}
 
 	# Red Navy Admirals #
+	RRF_Nnikolay_gerasimovich_kuznetsov = {
+		name = RRF_Nnikolay_gerasimovich_kuznetsov
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			navy = {
+				large = GFX_fish
+			}
+		}
+		navy_leader = {
+            desc =
+            traits = {  }
+            skill =
+            attack_skill =
+            defense_skill =
+            maneuvering_skill =
+            coordination_skill =
+        }
+	}
 }
 

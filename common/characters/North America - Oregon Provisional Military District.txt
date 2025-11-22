@@ -159,7 +159,7 @@ characters = {
 	}
 
 	OPM_eijiro_kirishima = {
-		name = CSD_eijiro_kirishima
+		name = OPM_eijiro_kirishima
 		portraits = {
 			army = {
 				large = 
@@ -733,8 +733,8 @@ characters = {
 
 	# Oregon Vytal Clique - The Militarists (Field Marshals) #
 
-	CSD_arslan_atlan = {
-		name = CSD_arslan_atlan
+	OPM_arslan_atlan = {
+		name = OPM_arslan_atlan
 		portraits = {
 			army = {
 				large = 
@@ -752,8 +752,8 @@ characters = {
 		}
 	}
 
-	CSD_bolin_hori = {
-		name = CSD_bolin_hori
+	OPM_bolin_hori = {
+		name = OPM_bolin_hori
 		portraits = {
 			army = {
 				large = 
@@ -771,8 +771,8 @@ characters = {
 		}
 	}
 
-	CSD_may_zedong = {
-		name = CSD_may_zedong
+	OPM_may_zedong = {
+		name = OPM_may_zedong
 		portraits = {
 			army = {
 				large = 
@@ -792,8 +792,8 @@ characters = {
 
 	# Oregon Vytal Clique - The Militarists (Generals) #
 
-	CSD_reese_chloris = {
-		name = CSD_reese_chloris
+	OPM_reese_chloris = {
+		name = OPM_reese_chloris
 		portraits = {
 			army = {
 				large = 
@@ -811,8 +811,8 @@ characters = {
 		}
 	}
 
-	CSD_nadir_shirko = {
-		name = CSD_nadir_shirko
+	OPM_nadir_shirko = {
+		name = OPM_nadir_shirko
 		portraits = {
 			army = {
 				large = 
@@ -830,8 +830,8 @@ characters = {
 		}
 	}
 
-	CSD_roy_stallion = {
-		name = CSD_roy_stallion
+	OPM_roy_stallion = {
+		name = OPM_roy_stallion
 		portraits = {
 			army = {
 				large = 
@@ -849,8 +849,8 @@ characters = {
 		}
 	}
 
-	CSD_brawnz_ni = {
-		name = CSD_brawnz_ni
+	OPM_brawnz_ni = {
+		name = OPM_brawnz_ni
 		portraits = {
 			army = {
 				large = 
@@ -868,8 +868,8 @@ characters = {
 		}
 	}
 
-	CSD_nolan_porfirio = {
-		name = CSD_nolan_porfirio
+	OPM_nolan_porfirio = {
+		name = OPM_nolan_porfirio
 		portraits = {
 			army = {
 				large = 
@@ -887,8 +887,8 @@ characters = {
 		}
 	}
 
-	CSD_neon_katt = {
-		name = CSD_neon_katt
+	OPM_neon_katt = {
+		name = OPM_neon_katt
 		portraits = {
 			army = {
 				large = 
@@ -906,8 +906,8 @@ characters = {
 		}
 	}
 
-	CSD_ciel_soleil = {
-		name = CSD_ciel_soleil
+	OPM_ciel_soleil = {
+		name = OPM_ciel_soleil
 		portraits = {
 			army = {
 				large = 
@@ -925,8 +925,8 @@ characters = {
 		}
 	}
 
-	CSD_melanie_malachite = {
-		name = CSD_melanie_malachite
+	OPM_melanie_malachite = {
+		name = OPM_melanie_malachite
 		portraits = {
 			army = {
 				large = 
@@ -944,8 +944,8 @@ characters = {
 		}
 	}
 
-	CSD_milita_malachite = {
-		name = CSD_milita_malachite
+	OPM_milita_malachite = {
+		name = OPM_milita_malachite
 		portraits = {
 			civilian = {
 				large = GFX_fish

@@ -1,3 +1,7 @@
+####    					       ####
+#### CALIFORNIA REPUBLIC FOCUS TREE By Aide of General Eisenhower ####
+####                                                   ####
+
 ### Initial Focus Tree - Warlord State ###
 
 shared_focus = {
@@ -46,7 +50,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CAL_in_a_greater_depression
-	icon = GFX_focus_a_shattered_military
+	icon = GFX_focus_in_a_greater_depression
 	cost = 3
 	available_if_capitulated = no
 	ai_will_do = {
@@ -95,6 +99,31 @@ shared_focus = {
 }
 
 shared_focus = {
+	id = CAL_nonexistent_bureaucracy
+	icon = GFX_focus_non_existent_bureaucracy
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_long_retreat_west
+	}
+	x = 2
+	y = 1
+    relative_position_id = CAL_the_long_retreat_west
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_nonexistant_bureaucracy"
+		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
+		hidden_effect = {
+			CAL = {
+				country_event = { id = CAL_start.6 }
+			}
+		}
+	}
+}
+
+shared_focus = {
 	id = CAL_alone_and_isolated
 	icon = GFX_alone_and_isolated
 	cost = 3
@@ -114,31 +143,6 @@ shared_focus = {
 		hidden_effect = {
 			CAL = {
 				country_event = { id = CAL_start.5 }
-			}
-		}
-	}
-}
-
-shared_focus = {
-	id = CAL_nonexistant_bureaucracy
-	icon = GFX_alone_and_isolated
-	cost = 3
-	available_if_capitulated = no
-	ai_will_do = {
-		factor = 1
-	}
-	prerequisite = {
-		focus = CAL_the_long_retreat_west
-	}
-	x = 2
-	y = 1
-    relative_position_id = CAL_the_long_retreat_west
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_nonexistant_bureaucracy"
-		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
-		hidden_effect = {
-			CAL = {
-				country_event = { id = CAL_start.6 }
 			}
 		}
 	}
@@ -208,11 +212,11 @@ shared_focus = {
 		focus = CAL_alone_and_isolated
 	}
 	prerequisite = {
-		focus = CAL_nonexistant_bureaucracy
+		focus = CAL_nonexistent_bureaucracy
 	}
 	x = 0
 	y = 1
-    relative_position_id = CAL_nonexistant_bureaucracy
+    relative_position_id = CAL_nonexistent_bureaucracy
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_chaos_is_everywhere"
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
@@ -256,7 +260,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_restablish_radio_contact_with_canada
+	id = CAL_reestablish_radio_contact_with_canada
 	icon = GFX_alone_and_isolated
 	cost = 3
 	available_if_capitulated = no
@@ -270,7 +274,7 @@ shared_focus = {
 	y = 1
     relative_position_id = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_restablish_radio_contact_with_canada"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reestablish_radio_contact_with_canada"
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
 		hidden_effect = {
 			CAL = {
@@ -330,6 +334,9 @@ shared_focus = {
 		}
 	}
 }
+
+# Focus Tree - Canadian Military Mission #
+
 shared_focus = {
 	id = CAL_alexanders_military_mission
 	icon = GFX
@@ -341,7 +348,6 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_restablish_radio_contact_with_canada
 	}
-
 	x = -5
 	y = -1
 	relative_position_id = CAL_barely_no_industry
@@ -617,6 +623,9 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: focus CAL_the_beaver_and_the_eagle_march_together_to_war_once_more"
 	}
 }
+
+# Focus Tree - Anti-Nazi Efforts #
+
 shared_focus = {
 	id = CAL_dreams_of_a_united_american_anti_nazi_front
 	icon = GFX
@@ -628,7 +637,6 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_contact_the_remnants
 	}
-
 	x = -2
 	y = 11
 	relative_position_id = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
@@ -894,6 +902,9 @@ shared_focus = {
 		mark_focus_tree_layout_dirty = yes
 	}
 }
+
+# Focus Tree - Reaching out to the Remaining Allied Powers #
+
 shared_focus = {
 	id = CAL_turn_to_the_remaining_allied_powers
 	icon = GFX
@@ -905,7 +916,6 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
 	}
-
 	x = -4
 	y = 2
 	relative_position_id = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
@@ -1374,7 +1384,7 @@ shared_focus = {
 		focus = CAL_begin_turning_southern_california_into_a_bastion
 	}
 	prerequisite = {
-		focus = CAL_restablish_radio_contact_with_canada
+		focus = CAL_reestablish_radio_contact_with_canada
 	}
 	prerequisite = {
 		focus = CAL_contact_the_remnants
@@ -2432,6 +2442,9 @@ shared_focus = {
 		mark_focus_tree_layout_dirty = yes
 	}
 }
+
+# Focus Tree - Regional Expansion and Consolidation #
+
 shared_focus = {
 	id = CAL_looking_outwards_from_the_golden_state
 	icon = GFX
@@ -2443,8 +2456,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_the_new_bastion_of_freedom
 	}
-
-	x = 8.5
+	x = 9
 	y = -1
 	relative_position_id = CAL_alone_and_isolated
 	completion_reward = {
@@ -2966,7 +2978,6 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-
 	prerequisite = {
 		focus = CAL_eastward_and_northern_expansion
 	}
@@ -3968,6 +3979,9 @@ shared_focus = {
 		mark_focus_tree_layout_dirty = yes
 	}
 }
+
+# Focus Tree - Economy Reform Tree - Regional Stage #
+
 shared_focus = {
 	id = CAL_address_the_economy_of_the_western_american_government
 	icon = GFX
@@ -5454,6 +5468,9 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_giant_awakens_once_more"
 	}
 }
+
+# Focus Tree - Second Continental Army Reform Tree - Regional Stage #
+
 shared_focus = {
 	id = CAL_begin_the_complete_and_total_overhaul_of_the_sca
 	icon = GFX
@@ -5466,7 +5483,7 @@ shared_focus = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
 
-	x = -24
+	x = -25
 	y = 1
 	relative_position_id = CAL_alexanders_military_mission
 	completion_reward = {
@@ -7039,6 +7056,9 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_army_goes_marching_along"
 	}
 }
+
+# Focus Tree - Air Force Reform Tree - Regional Stage #
+
 shared_focus = {
 	id = CAL_reforming_the_united_states_army_air_force
 	icon = GFX
@@ -7050,7 +7070,6 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-
 	x = -9
 	y = 0
 	relative_position_id = CAL_alexanders_military_mission
@@ -7458,6 +7477,9 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_nothing_can_stop_the_us_army_air_force"
 	}
 }
+
+# Focus Tree - Navy Reform Tree - Regional Stage #
+
 shared_focus = {
 	id = CAL_reform_the_united_states_navy
 	icon = GFX
@@ -7475,7 +7497,6 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-
 	x = 0
 	y = 8
 	relative_position_id = CAL_new_heavy_jet_bomber_designs
@@ -8129,7 +8150,7 @@ shared_focus = {
 	}	
 }
 
-# Military Reform - Marines - Regional Stage #
+# Focus Tree - Marines Reform Tree - Regional Stage #
 
 shared_focus = {
 	id = CAL_reform_the_united_states_marine_corps
@@ -8148,9 +8169,8 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_anchors_aweigh
 	}
-
-	x = -11
-	y = -2.5
+	x = -12
+	y = -2
 	relative_position_id = CAL_the_army_goes_marching_along
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reform_the_united_states_marine_corps"
@@ -8418,6 +8438,9 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_first_to_fight_for_right_and_freedom"
 	}
 }
+
+# Focus Tree - Foreign Policy Tree - Regional Stage #
+
 shared_focus = {
 	id = CAL_reinstate_the_secretary_of_state_office
 	icon = GFX
@@ -8429,7 +8452,6 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-
 	x = 0
 	y = 2
 	relative_position_id = CAL_the_army_goes_marching_along
@@ -9203,7 +9225,7 @@ shared_focus = {
 	}
 }
 
-# Superregional Stage - # 
+#  Focus Tree - Initial Political Tree - Regional Stage #
 
 shared_focus = {
 	id = CAL_preparing_for_operation_washington
@@ -9216,7 +9238,6 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_a_coalition_to_eradicate_evil
 	}
-
 	x = 0
 	y = 2
 	relative_position_id = CAL_the_giant_awakens_once_more
@@ -9244,4 +9265,98 @@ shared_focus = {
 	}
 }
 
+shared_focus = {
+	id = CAL_1
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_planning_the_long_march_east
+	}
+	x = -8
+	y = 1
+	relative_position_id = CAL_planning_the_long_march_east
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_1"
+	}
+}
 
+shared_focus = {
+	id = CAL_2
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_planning_the_long_march_east
+	}
+	x = -4
+	y = 1
+	relative_position_id = CAL_planning_the_long_march_east
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_2"
+	}
+}
+
+shared_focus = {
+	id = CAL_3
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_planning_the_long_march_east
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_planning_the_long_march_east
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_3"
+	}
+}
+
+shared_focus = {
+	id = CAL_4
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_planning_the_long_march_east
+	}
+	x = 4
+	y = 1
+	relative_position_id = CAL_planning_the_long_march_east
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_1"
+	}
+}
+shared_focus = {
+	id = CAL_5
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_planning_the_long_march_east
+	}
+	x = 8
+	y = 1
+	relative_position_id = CAL_planning_the_long_march_east
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_1"
+	}
+}
+
+# Superregional Stage - Eastward Expansion - Part One -  Four Corners, Texas, and Oklahoma # 

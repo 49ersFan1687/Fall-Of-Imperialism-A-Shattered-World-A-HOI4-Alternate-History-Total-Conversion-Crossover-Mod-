@@ -7,5 +7,5 @@ tags={
 	"Ideologies"
 }
 name="Fall of Imperialism: A Shattered World"
-supported_version="1.16.10"
+supported_version="1.17.0"
 picture = fallofimperialismthumbnail.png

@@ -561,19 +561,19 @@ characters = {
 		name = CSD_trini_kwan
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Trini_Kwan.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Trini_Kwan.dds"
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando }
-			skill =
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			traits = { ranger commando infantry_leader brilliant_strategist}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
 		}
 	}
 
@@ -628,12 +628,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando }
-			skill =
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			traits = { ranger commando brilliant_strategist infantry_leader infantry_expert }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 
@@ -721,19 +721,19 @@ characters = {
 		name = CSD_ashley_hammond
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Ashley_Hammond.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Ashley_Hammond.dds"
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando }
-			skill =
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			traits = { ranger commando trickster swamp_fox infantry_leader }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 
@@ -2102,6 +2102,67 @@ characters = {
 			}
 		}
 		field_marshal = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	# Sensha-Do Clique - The Moderates (Generals) #
+	CSD_yukari_akiyama = {
+		name = CSD_yukari_akiyama
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_hana_isuzu = {
+		name = CSD_hana_isuzu
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
+	CSD_mako_reizei = {
+		name = CSD_mako_reizei
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
 			traits = {  }
 			skill = 
 			attack_skill = 

@@ -18,6 +18,40 @@ characters = {
 		}
     }
 
+    CAN_john_george_diefenbaker = {
+        name = CAN_john_george_diefenbaker
+        portraits = {
+            civilian = {
+                large = 
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_JOHN_DIEFENBAKER_DESC"
+            expire = "1994.4.20"
+            ideology = progressive_conservatism_ideology
+            traits = {
+
+            }
+        }
+    }
+
+    CAN_lester_bowles_pearson = {
+        name = CAN_lester_bowles_pearson
+        portraits = {
+            civilian = {
+                large = 
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_LESTER_PEARSON_DESC"
+            expire = "1994.4.20"
+            ideology = social_democratic_progressive_democracy_ideology
+            traits = {
+
+            }
+        }
+    }
+
     # Advisors #
 
 
@@ -29,10 +63,46 @@ characters = {
 
     # British Exiles Field Marshals #
     CAN_Bernard_Law_Montgomery = {
-        
+        name = CAN_Bernard_Law_Montgomery
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        field_marshal = {
+            traits = {  }
+            skill = 
+            attack_skill =
+            defense_skill =
+            planning_skill =
+            logistics_skill =
+        }
+    }
+    CAN_harold_rupert_leofric_george_alexander = {
+        name = CAN_harold_rupert_leofric_george_alexander
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        field_marshal = {
+            traits = { }
+            skill = 
+            attack_skill =
+            defense_skill =
+            planning_skill =
+            logistics_skill =
+        }
     }
 
     # British Exiles Generals #
+  
 
 
     # Royal Navy Admirals #

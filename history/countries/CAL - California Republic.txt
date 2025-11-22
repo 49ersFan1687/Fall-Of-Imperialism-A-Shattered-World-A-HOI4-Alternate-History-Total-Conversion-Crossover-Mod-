@@ -1,5 +1,6 @@
 capital = 378
-
+oob = "CAL_1936"
+set_naval_oob =
 
 set_war_support = 0.1
 set_stability = 0.8
@@ -8,7 +9,7 @@ set_technology = {
 	infantry_weapons = 1
 }
 
-oob = "CAL_1936"
+
 
 set_politics = {
 	ruling_party = democratic #liberalism
@@ -43,44 +44,44 @@ recruit_character = CAL_henry_agard_wallace
 
 ### Advsiors ###
 recruit_character = CAL_huey_pierce_long_jr
-recruit_character = CAL_Earl_Warren
+recruit_character = CAL_earl_earren
 recruit_character = CAL_john_edgar_hoover
 recruit_character = CAL_Thomas_Edmund_Dewey
 recruit_character = CAL_Walter_Elias_Disney
 
 ## Second Continental Army ##
 
-recruit_character = CAL_Dwight_David_Eisenhower
-recruit_character = CAL_Omar_Nelson_Bradley
-recruit_character = CAL_George_Catlett_Marshall
-recruit_character = CAL_George_Smith_Patton_Jr
-recruit_character = CAL_Walton_Harris_Walker
-recruit_character = CAL_Smedley_Darlington_Butler
-recruit_character = CAL_Glynda_Goodwitch
-recruit_character = CAL_William_Childs_Westmoreland
-recruit_character = CAL_Maxwell_Davenport_Taylor
-recruit_character = CAL_Mark_Wayne_Clark
-recruit_character = CAL_Henry_Harley_Arnold
-recruit_character = CAL_Jacob_Loucks_Devers
-recruit_character = CAL_Leonard_Townsend_Gerow
-recruit_character = CAL_Claire_Lee_Chennault
-recruit_character = CAL_Lucian_King_Truscott
-recruit_character = CAL_Benjamin_Oliver_Davis_Sr
-recruit_character = CAL_Ulysses_Simpson_Grant_III
-recruit_character = CAL_John_Daniel_Lavelle
+recruit_character = CAL_dwight_david_eisenhower
+recruit_character = CAL_omar_nelson_bradley
+recruit_character = CAL_george_catlett_marshall
+recruit_character = CAL_george_smith_patton_jr
+recruit_character = CAL_walton_harris_walker
+recruit_character = CAL_smedley_darlington_butler
+recruit_character = CAL_glynda_goodwitch
+recruit_character = CAL_william_childs_westmoreland
+recruit_character = CAL_maxwell_davenport_taylor
+recruit_character = CAL_mark_wayne_clark
+recruit_character = CAL_henry_harley_arnold
+recruit_character = CAL_jacob_loucks_devers
+recruit_character = CAL_leonard_townsend_gerow
+recruit_character = CAL_claire_lee_chennault
+recruit_character = CAL_lucian_king_truscott
+recruit_character = CAL_benjamin_oliver_davis_sr
+recruit_character = CAL_ulysses_simpson_grant_iii
+recruit_character = CAL_john_daniel_lavelle
 recruit_character = CAL_Elizabeth_Coleman
 recruit_character = CAL_Charity_Edna_Adams_Earley
 recruit_character = CAL_Hobart_Raymond_Gay
 
 ## US Navy ##
 
-recruit_character = CAL_Ernest_Joseph_King
-recruit_character = CAL_Chester_William_Nimitz
-recruit_character = CAL_Samuel_Lee_Gravely_Jr
-recruit_character = CAL_William_Fredrick_Halsey_Jr
-recruit_character = CAL_William_Daniel_Leahy
-recruit_character = CAL_Issac_Campbell_Kidd_Sr
-recruit_character = CAL_Arleigh_Albert_Burke
+recruit_character = CAL_ernest_joseph_king
+recruit_character = CAL_chester_william_nimitz
+recruit_character = CAL_samuel_lee_gravely_Jr
+recruit_character = CAL_william_fredrick_halsey_jr
+recruit_character = CAL_william_daniel_leahy
+recruit_character = CAL_issac_campbell_kidd_sr
+recruit_character = CAL_arleigh_albert_burke
 
 ### Operatives ###
 

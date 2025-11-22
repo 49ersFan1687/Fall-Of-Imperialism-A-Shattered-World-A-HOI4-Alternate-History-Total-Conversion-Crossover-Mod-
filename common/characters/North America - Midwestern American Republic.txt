@@ -1,7 +1,7 @@
 characters = {
     # Country Leaders #
-    MAR_Herbert_Clark_Hoover = {
-        name = MAR_Herbert_Clark_Hoover
+    MAR_herbert_clark_hoover = {
+        name = MAR_herbert_clark_hoover
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -19,6 +19,75 @@ characters = {
             }
         }
     }
+
+    MAR_lyndon_baines_johnson = {
+        name = MAR_lyndon_baines_johnson
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_LYNDON_BAINES_JOHNSON_DESC"
+            expire = "1995.8.20"
+            ideology = 
+            traits = {
+                
+            }
+        }
+    }
+
+    MAR_quentin_roosevelt = {
+        name = MAR_quentin_roosevelt
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_QUENTIN_ROOSEVELT_DESC"
+            expire = "1995.8.20"
+            ideology = social_democratic_progressive_democracy_ideology
+            traits = {
+                
+            }
+        }
+        corps_commander = {
+            traits = {  }
+            skill =
+            attack_skill =
+            defense_skill =
+            planning_skill =
+            logistics_skill =
+        }
+    }
+
+    MAR_alfred_mossman_landon = {
+        name = MAR_alfred_mossman_landon
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_ALFRED_MOSSMAN_LANDON_DESC"
+            expire = "1995.8.20"
+            ideology = progressive_conservatism_ideology
+            traits = {
+                
+            }
+        }
+    }
+
     # Advisors #
     MAR_Martin_Luther_King_Jr = {
         name = MAR_Martin_Luther_King_Jr
@@ -52,7 +121,149 @@ characters = {
 			logistics_skill =
 		}
     }
+
     # Generals #
+
+    MAR_alexander_archer_vandegrift = {
+        name = MAR_alexander_archer_vandegrift
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = {  }
+            skill =
+            attack_skill =
+            defense_skill =
+            planning_skill =
+            logistics_skill =
+        }
+    }
+
+    MAR_richard_kerens_southerland = {
+        name = MAR_richard_kerens_southerland
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = {  }
+            skill =
+            attack_skill =
+            defense_skill =
+            planning_skill =
+            logistics_skill =
+        }
+    }
+
+    MAR_terry_de_la_mesa_allen_sr = {
+        name = MAR_terry_de_la_mesa_allen_sr
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = {  }
+            skill =
+            attack_skill =
+            defense_skill =
+            planning_skill =
+            logistics_skill =
+        }
+    }
+
+    MAR_courtney_hicks_hodges = {
+        name = MAR_courtney_hicks_hodges
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = {  }
+            skill =
+            attack_skill =
+            defense_skill =
+            planning_skill =
+            logistics_skill =
+        }
+    }
+
+    MAR_joseph_lawton_collins = {
+        name = MAR_joseph_lawton_collins
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = {  }
+            skill =
+            attack_skill =
+            defense_skill =
+            planning_skill =
+            logistics_skill =
+        }
+    }
+
+    MAR_sumter_de_leon_lowry_jr = {
+        name = MAR_sumter_de_leon_lowry_jr
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = {  }
+            skill =
+            attack_skill =
+            defense_skill =
+            planning_skill =
+            logistics_skill =
+        }
+    }
+
+    MAR_ernest_nason_harmon = {
+        name = MAR_ernest_nason_harmon
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = {  }
+            skill =
+            attack_skill =
+            defense_skill =
+            planning_skill =
+            logistics_skill =
+        }
+    }
+
     # Admirals #
     MAR_Elmo_Russell_Zumwalt_Jr = {
         name = MAR_Elmo_Russell_Zumwalt_Jr
@@ -114,5 +325,47 @@ characters = {
 
 			}
 		}
+    }
+
+    MAR_john_sidney_mccain_sr = {
+        name = MAR_john_sidney_mccain_sr
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        navy_leader = {
+            desc =
+            traits = {  }
+            skill =
+            attack_skill =
+            defense_skill =
+            maneuvering_skill =
+            coordination_skill =
+        }
+    }
+
+    MAR_james_youngblood_nance = {
+        name = MAR_james_youngblood_nance
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        navy_leader = {
+            desc =
+            traits = {  }
+            skill =
+            attack_skill =
+            defense_skill =
+            maneuvering_skill =
+            coordination_skill =
+        }
     }
 }
