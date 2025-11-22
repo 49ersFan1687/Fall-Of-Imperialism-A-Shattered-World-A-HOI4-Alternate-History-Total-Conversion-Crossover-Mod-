@@ -8977,14 +8977,30 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_helping_them_industrialize_their_rump_state
 	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_helping_them_industrialize_their_rump_state
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_resolving_colonial_disputes"
+	}
+}
+
+shared_focus = {
+	id = CAL_building_the_free_french_armored_divisions
+	icon = GFX
+	cost = 5
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
 	prerequisite = {
 		focus = CAL_help_build_up_their_air_force
 	}
 	x = 0
-	y = 4
-	relative_position_id = CAL_assistance_to_our_french_friends_in_west_africa
+	y = 1
+	relative_position_id = CAL_help_build_up_their_air_force
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_resolving_colonial_disputes"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_building_the_free_french_armored_divisions"
 	}
 }
 
@@ -9074,9 +9090,12 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_resolving_colonial_disputes
 	}
+	prerequisite = {
+		focus = CAL_building_the_free_french_armored_divisions
+	}
 	x = 0
-	y = 1
-	relative_position_id = CAL_resolving_colonial_disputes
+	y = 5
+	relative_position_id = CAL_assistance_to_our_french_friends_in_west_africa
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_prouducing_anti_vichy_propaganda"
 	}
