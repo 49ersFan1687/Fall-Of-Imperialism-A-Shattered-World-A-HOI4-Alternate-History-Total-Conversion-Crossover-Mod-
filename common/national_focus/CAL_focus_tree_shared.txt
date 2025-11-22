@@ -2440,7 +2440,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_the_new_bastion_of_freedom
 	}
-	x = 8.5
+	x = 9
 	y = -1
 	relative_position_id = CAL_alone_and_isolated
 	completion_reward = {
@@ -5461,7 +5461,7 @@ shared_focus = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
 
-	x = -24
+	x = -25
 	y = 1
 	relative_position_id = CAL_alexanders_military_mission
 	completion_reward = {
@@ -8410,6 +8410,9 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_first_to_fight_for_right_and_freedom"
 	}
 }
+
+# Foreign Policy Tree - Regional Stage #
+
 shared_focus = {
 	id = CAL_reinstate_the_secretary_of_state_office
 	icon = GFX
@@ -9194,7 +9197,7 @@ shared_focus = {
 	}
 }
 
-# Superregional Stage - Eastward Expansion # 
+# Superregional Stage - Eastward Expansion - Part One -  # 
 
 shared_focus = {
 	id = CAL_preparing_for_operation_washington
