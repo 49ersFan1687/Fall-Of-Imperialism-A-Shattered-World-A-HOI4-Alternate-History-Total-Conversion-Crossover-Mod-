@@ -9257,9 +9257,9 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_a_coalition_to_eradicate_evil
 	}
-	x = 0
-	y = 2
-	relative_position_id = CAL_the_giant_awakens_once_more
+	x = 70
+	y = 0
+	relative_position_id = CAL_reinstate_the_secretary_of_state_office
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_beginning_the_initial_tranisition_to_a_civilian_government"
 	}
@@ -9380,14 +9380,71 @@ shared_focus = {
 	}
 }
 
+shared_focus = {
+	id = CAL_senator_
+}
+shared_focus = {
+	id = CAL_a_free_market_approach
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_a_republican_majority_in_congress
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_a_republican_majority_in_congress
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_free_market_approach"
+	}
+}
+shared_focus = {
+	id = CAL_senator_
+}
+
 shared_focus = {}
+shared_focus = {
+	id = CAL_moderate_economic_policies
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_a_democrat_majority_in_congress
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_a_democrat_majority_in_congress
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_moderate_economic_policies"
+	}
+}
 shared_focus = {}
+
 shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
+shared_focus = {
+	id = CAL_taming_the_bull_moose
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_a_progressive_majority_in_congress
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_a_progressive_majority_in_congress
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_taming_the_bull_moose"
+	}
+}
 shared_focus = {}
 
 shared_focus = {}
