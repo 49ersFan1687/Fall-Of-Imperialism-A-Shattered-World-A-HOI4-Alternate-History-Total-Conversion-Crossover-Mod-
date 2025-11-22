@@ -330,6 +330,9 @@ shared_focus = {
 		}
 	}
 }
+
+# Focus Tree - Canadian Military Mission #
+
 shared_focus = {
 	id = CAL_alexanders_military_mission
 	icon = GFX
@@ -616,6 +619,9 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: focus CAL_the_beaver_and_the_eagle_march_together_to_war_once_more"
 	}
 }
+
+# Focus Tree - Anti-Nazi Efforts #
+
 shared_focus = {
 	id = CAL_dreams_of_a_united_american_anti_nazi_front
 	icon = GFX
@@ -892,6 +898,9 @@ shared_focus = {
 		mark_focus_tree_layout_dirty = yes
 	}
 }
+
+# Focus Tree - Reaching out to the Remaining Allied Powers #
+
 shared_focus = {
 	id = CAL_turn_to_the_remaining_allied_powers
 	icon = GFX
@@ -2429,6 +2438,9 @@ shared_focus = {
 		mark_focus_tree_layout_dirty = yes
 	}
 }
+
+# Focus Tree - Regional Expansion and Consolidation #
+
 shared_focus = {
 	id = CAL_looking_outwards_from_the_golden_state
 	icon = GFX
@@ -3963,6 +3975,9 @@ shared_focus = {
 		mark_focus_tree_layout_dirty = yes
 	}
 }
+
+# Focus Tree - Economy Reform Tree - Regional Stage #
+
 shared_focus = {
 	id = CAL_address_the_economy_of_the_western_american_government
 	icon = GFX
@@ -5449,6 +5464,9 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_giant_awakens_once_more"
 	}
 }
+
+# Focus Tree - Second Continental Army Reform Tree - Regional Stage #
+
 shared_focus = {
 	id = CAL_begin_the_complete_and_total_overhaul_of_the_sca
 	icon = GFX
@@ -7034,6 +7052,9 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_army_goes_marching_along"
 	}
 }
+
+# Focus Tree - Air Force Reform Tree - Regional Stage #
+
 shared_focus = {
 	id = CAL_reforming_the_united_states_army_air_force
 	icon = GFX
@@ -7452,6 +7473,9 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_nothing_can_stop_the_us_army_air_force"
 	}
 }
+
+# Focus Tree - Navy Reform Tree - Regional Stage #
+
 shared_focus = {
 	id = CAL_reform_the_united_states_navy
 	icon = GFX
@@ -8122,7 +8146,7 @@ shared_focus = {
 	}	
 }
 
-# Military Reform - Marines - Regional Stage #
+# Focus Tree - Marines Reform Tree - Regional Stage #
 
 shared_focus = {
 	id = CAL_reform_the_united_states_marine_corps
@@ -8141,8 +8165,8 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_anchors_aweigh
 	}
-	x = -11
-	y = -3
+	x = -12
+	y = -2
 	relative_position_id = CAL_the_army_goes_marching_along
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reform_the_united_states_marine_corps"
@@ -8411,7 +8435,7 @@ shared_focus = {
 	}
 }
 
-# Foreign Policy Tree - Regional Stage #
+# Focus Tree - Foreign Policy Tree - Regional Stage #
 
 shared_focus = {
 	id = CAL_reinstate_the_secretary_of_state_office
@@ -9197,7 +9221,7 @@ shared_focus = {
 	}
 }
 
-# Superregional Stage - Eastward Expansion - Part One -  # 
+#  Focus Tree - Political Tree - Regional Stage #
 
 shared_focus = {
 	id = CAL_preparing_for_operation_washington
@@ -9331,3 +9355,4 @@ shared_focus = {
 	}
 }
 
+# Superregional Stage - Eastward Expansion - Part One -  Four Corners, Texas, and Oklahoma # 
