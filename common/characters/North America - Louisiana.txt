@@ -1,4 +1,112 @@
 characters = {
     # Country Leaders #
+    LOU_uss_enterprise = {
+        name = LOU_uss_enterprise
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_USS_ENTERPRISE_DESC"
+            expire = "1995.10.15"
+            ideology = democratic_stratocracy_ideology
+            traits = {
+                
+            }
+        }
+        field_marshal = {
+            traits = { }
+            skill = 
+            attack_skill =
+            defense_skill =
+            planning_skill =
+            logistics_skill =
+        }
+    }
 
+    # Field Marshals #
+
+    LOU_uss_kansas = {
+        name = LOU_uss_kansas
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        field_marshal = {
+            traits = {  }
+            skill = 
+            attack_skill =
+            defense_skill =
+            planning_skill =
+            logistics_skill =
+        }
+    }
+
+    LOU_uss_anchorage = {
+        name = LOU_uss_anchorage
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        field_marshal = {
+            traits = {  }
+            skill = 
+            attack_skill =
+            defense_skill =
+            planning_skill =
+            logistics_skill =
+        }
+    }
+
+    LOU_uss_georgia = {
+        name = LOU_uss_georgia
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        field_marshal = {
+            traits = {  }
+            skill = 
+            attack_skill =
+            defense_skill =
+            planning_skill =
+            logistics_skill =
+        }
+    }
+
+    LOU_uss_halford = {
+        name = LOU_uss_halford
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        field_marshal = {
+            traits = {  }
+            skill = 
+            attack_skill =
+            defense_skill =
+            planning_skill =
+            logistics_skill =
+        }
+    }
 }
