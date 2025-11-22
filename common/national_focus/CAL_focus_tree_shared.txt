@@ -9247,7 +9247,7 @@ shared_focus = {
 #  Focus Tree - Initial Political Tree - Regional Stage #
 
 shared_focus = {
-	id = CAL_preparing_for_operation_washington
+	id = CAL_beginning_the_initial_tranisition_to_a_civilian_government
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9261,12 +9261,12 @@ shared_focus = {
 	y = 2
 	relative_position_id = CAL_the_giant_awakens_once_more
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_preparing_for_operation_washington"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_beginning_the_initial_tranisition_to_a_civilian_government"
 	}
 }
 
 shared_focus = {
-	id = CAL_planning_the_long_march_east
+	id = CAL_reinstate_the_house
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9274,13 +9274,52 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_preparing_for_operation_washington
+		focus = CAL_beginning_the_initial_tranisition_to_a_civilian_government
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_beginning_the_initial_tranisition_to_a_civilian_government
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reinstate_the_house"
+	}
+}
+
+shared_focus = {
+	id = CAL_reinstate_the_senate
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_beginning_the_initial_tranisition_to_a_civilian_government
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_beginning_the_initial_tranisition_to_a_civilian_government
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reinstate_the_senate"
+	}
+}
+
+shared_focus = {
+	id = CAL_hold_a_new_congressional_election
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_reinstate_the_house
+		focus = CAL_reinstate_the_senate
 	}
 	x = 0
-	y = 1
-	relative_position_id = CAL_preparing_for_operation_washington
+	y = 2
+	relative_position_id = CAL_beginning_the_initial_tranisition_to_a_civilian_government
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_planning_the_long_march_east"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_hold_a_new_congressional_election"
 	}
 }
 
@@ -9293,11 +9332,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_planning_the_long_march_east
+		focus = CAL_hold_a_new_congressional_election
 	}
 	x = -8
 	y = 1
-	relative_position_id = CAL_planning_the_long_march_east
+	relative_position_id = CAL_hold_a_new_congressional_election
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_1"
 	}
@@ -9312,11 +9351,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_planning_the_long_march_east
+		focus = CAL_hold_a_new_congressional_election
 	}
 	x = -4
 	y = 1
-	relative_position_id = CAL_planning_the_long_march_east
+	relative_position_id = CAL_hold_a_new_congressional_election
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_2"
 	}
@@ -9331,11 +9370,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_planning_the_long_march_east
+		focus = CAL_hold_a_new_congressional_election
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_planning_the_long_march_east
+	relative_position_id = CAL_hold_a_new_congressional_election
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_3"
 	}
@@ -9350,11 +9389,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_planning_the_long_march_east
+		focus = CAL_hold_a_new_congressional_election
 	}
 	x = 4
 	y = 1
-	relative_position_id = CAL_planning_the_long_march_east
+	relative_position_id = CAL_hold_a_new_congressional_election
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_1"
 	}
@@ -9368,11 +9407,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_planning_the_long_march_east
+		focus = CAL_hold_a_new_congressional_election
 	}
 	x = 8
 	y = 1
-	relative_position_id = CAL_planning_the_long_march_east
+	relative_position_id = CAL_hold_a_new_congressional_election
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_1"
 	}
