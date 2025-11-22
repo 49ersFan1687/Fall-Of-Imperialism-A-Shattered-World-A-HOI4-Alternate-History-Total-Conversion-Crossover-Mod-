@@ -1,0 +1,29 @@
+state = {
+	id = 1122
+	name = "STATE_1025"
+	manpower = 273099
+	
+	state_category = rural
+
+	history = {
+
+		owner = NCA
+		add_core_of = NCA
+
+		buildings = {
+			infrastructure = 2 #was: 6
+			arms_factory = 1
+			
+
+		}
+		
+		
+
+	}
+
+	provinces = {
+		6665 4331 10159 3588
+	}
+
+	local_supplies = 0.0 
+}

@@ -14,7 +14,7 @@ set_politics = {
 }
 
 set_popularities = {
-	neutrality - 50
+	neutrality = 50
 	conservatism = 20
 	democratic = 20
 	paternal_autocrat = 10

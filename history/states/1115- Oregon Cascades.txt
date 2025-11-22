@@ -1,0 +1,32 @@
+state = {
+	id = 1115
+	name = "STATE_1115"
+	manpower = 145980
+	
+	state_category = town
+
+	history = {
+
+		owner = OPM
+		add_core_of = OPM
+
+		buildings = {
+			infrastructure = 1 #was: 6
+			arms_factory = 2
+			
+
+		}
+		
+		victory_points = {
+			 1414 1
+		}
+
+
+	}
+
+	provinces = {
+		4274 1414 4826
+	}
+
+	local_supplies = 0.0 
+}

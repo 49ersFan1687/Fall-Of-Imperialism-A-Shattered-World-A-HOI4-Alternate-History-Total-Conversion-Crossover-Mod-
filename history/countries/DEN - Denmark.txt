@@ -22,23 +22,23 @@ set_technology = {
 
 
 set_popularities = {
-	paternal_autocrat = 70
+	paternal_autocrat = 10
 	neutrality = 10
 	fascism = 10
-	national_socialism = 10
+	national_socialism = 70
 }
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = national_socialism
 	last_election = "1935.10.22"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Frits Clausen"
+	name = "Werner Best"
 	desc = ""
 	picture = GFX_fish
-	ideology = stratocratic_nationalism_ideology
+	ideology = nazism_ideology
 	traits = {
 		#
 	}

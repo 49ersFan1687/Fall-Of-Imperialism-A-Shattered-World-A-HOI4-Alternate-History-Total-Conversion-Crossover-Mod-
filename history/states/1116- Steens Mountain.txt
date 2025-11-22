@@ -1,0 +1,32 @@
+state = {
+	id = 1116
+	name = "STATE_1116"
+	manpower = 92191
+	
+	state_category = rural
+
+	history = {
+
+		owner = PCD
+		add_core_of = PCD
+
+		buildings = {
+			infrastructure = 1 #was: 6
+			arms_factory = 1
+			
+
+		}
+		
+		victory_points = {
+			 10625 1
+		}
+
+
+	}
+
+	provinces = {
+		7721 10625 10305
+	}
+
+	local_supplies = 0.0 
+}

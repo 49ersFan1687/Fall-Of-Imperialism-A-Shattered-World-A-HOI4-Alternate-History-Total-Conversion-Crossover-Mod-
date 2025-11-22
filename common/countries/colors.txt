@@ -1343,7 +1343,7 @@ VRM = {
 	color = rgb { 71 52 99 }
 	color_ui = rgb { 71 52 99 }
 }
-RHI = {
+RDI = {
 	color = rgb { 46 64 47 }
 	color_ui = rgb { 46 64 47 }
 }

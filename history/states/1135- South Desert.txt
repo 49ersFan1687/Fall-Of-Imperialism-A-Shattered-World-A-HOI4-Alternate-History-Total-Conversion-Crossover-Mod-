@@ -1,0 +1,26 @@
+state = {
+	id = 1135
+	name = "STATE_1039"
+	manpower = 32381
+	
+	state_category = rural
+
+	history = {
+
+		owner = SWS
+		add_core_of = SWS
+
+		buildings = {
+			infrastructure = 2 #was: 6
+
+		}
+		
+
+	}
+
+	provinces = {
+		5044 12791
+	}
+
+	local_supplies = 0.0 
+}

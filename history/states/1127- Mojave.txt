@@ -1,0 +1,28 @@
+state = {
+	id = 1127
+	name = "STATE_1127"
+	manpower = 211321
+	
+	state_category = rural
+
+	history = {
+
+		owner = CRR
+		add_core_of = CRR
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 1
+
+		}
+		
+		
+
+	}
+
+	provinces = {
+		4727 12303 823 12374 7986 
+	}
+
+	local_supplies = 0.0 
+}
