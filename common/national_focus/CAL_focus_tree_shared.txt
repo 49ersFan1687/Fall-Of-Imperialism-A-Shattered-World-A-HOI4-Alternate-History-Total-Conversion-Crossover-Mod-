@@ -10495,6 +10495,8 @@ shared_focus = {
 	}
 	available = {
 		has_completed_focus = CAL_
+		has_completed_focus = CAL_
+		has_completed_focus = CAL_
 	}
 	x = 0
 	y = 2
@@ -10503,7 +10505,16 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_our_focus_on_the_four_corners_and_southwestern_southern_states"
 	}
 }
-shared_focus = {}
+
+shared_focus = {
+	id = CAL_the_siutation_in_texas_and_oklahoma
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+}
 shared_focus = {}
 shared_focus = {}
 shared_focus = {}
