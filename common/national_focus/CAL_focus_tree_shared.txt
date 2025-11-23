@@ -9388,6 +9388,9 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
+	mutually_exclusive = {
+		focus = CAL_a_radical_apporach
+	}
 	prerequisite = {
 		focus = CAL_a_republican_majority_in_congress
 	}
@@ -9419,12 +9422,15 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_3
+	id = CAL_a_radical_apporach
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
 	ai_will_do = {
 		factor = 1
+	}
+	mutually_exclusive = {
+		focus = CAL_a_fiscal_approach
 	}
 	prerequisite = {
 		focus = CAL_a_republican_majority_in_congress
@@ -9433,7 +9439,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_republican_majority_in_congress
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_3"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_radical_apporach"
 	}
 }
 
@@ -9495,7 +9501,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_7
+	id = CAL_a_conservative_new_deal
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9509,7 +9515,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_progressive_majority_in_congress
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_7"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_conservative_new_deal"
 	}
 }
 
@@ -9533,7 +9539,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_9
+	id = CAL_a_radical_new_deal
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9547,7 +9553,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_progressive_majority_in_congress
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_9"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_radical_new_deal"
 	}
 }
 
@@ -9598,11 +9604,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_3
+		focus = CAL_a_radical_apporach
 	}
 	x = -1
 	y = 1
-	relative_position_id = CAL_3
+	relative_position_id = CAL_a_radical_apporach
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_10"
 	}
@@ -9617,11 +9623,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_3
+		focus = CAL_a_radical_apporach
 	}
 	x = 1
 	y = 1
-	relative_position_id = CAL_3
+	relative_position_id = CAL_a_radical_apporach
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_10"
 	}	
@@ -9708,11 +9714,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_7
+		focus = CAL_a_conservative_new_deal
 	}
 	x = -1
 	y = 1
-	relative_position_id = CAL_7
+	relative_position_id = CAL_a_conservative_new_deal
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_16"
 	}
@@ -9727,11 +9733,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_7
+		focus = CAL_a_conservative_new_deal
 	}
 	x = 1
 	y = 1
-	relative_position_id = CAL_7
+	relative_position_id = CAL_a_conservative_new_deal
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_16"
 	}
@@ -9746,11 +9752,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_9
+		focus = CAL_a_radical_new_deal
 	}
 	x = -1
 	y = 1
-	relative_position_id = CAL_9
+	relative_position_id = CAL_a_radical_new_deal
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_20"
 	}
@@ -9765,11 +9771,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_9
+		focus = CAL_a_radical_new_deal
 	}
 	x = 1
 	y = 1
-	relative_position_id = CAL_9
+	relative_position_id = CAL_a_radical_new_deal
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_16"
 	}
@@ -9831,7 +9837,7 @@ shared_focus = {
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_3
+	relative_position_id = CAL_a_radical_apporach
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_23"
 	}
@@ -9915,7 +9921,7 @@ shared_focus = {
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_7
+	relative_position_id = CAL_a_conservative_new_deal
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_26"
 	}
@@ -9956,9 +9962,9 @@ shared_focus = {
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_9
+	relative_position_id = CAL_a_radical_new_deal
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_9"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_30"
 	}
 }
 
