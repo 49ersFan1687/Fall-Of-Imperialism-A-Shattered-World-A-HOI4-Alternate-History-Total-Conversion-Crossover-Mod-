@@ -9756,7 +9756,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_20
+	id = CAL_plan_new_new_deal_projects
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9770,7 +9770,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_radical_new_deal
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_20"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_plan_new_new_deal_projects"
 	}
 }
 
@@ -9967,7 +9967,7 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_20
+		focus = CAL_plan_new_new_deal_projects
 	}
 	prerequisite = {
 		focus = CAL_21
@@ -10209,14 +10209,14 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_20
+		focus = CAL_plan_new_new_deal_projects
 	}
 	prerequisite = {
 		focus = CAL_30
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_20
+	relative_position_id = CAL_plan_new_new_deal_projects
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_40"
 	}
