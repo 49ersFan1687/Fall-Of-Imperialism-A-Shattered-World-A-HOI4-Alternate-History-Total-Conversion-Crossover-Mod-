@@ -752,7 +752,7 @@ characters = {
 		}
 		advisior = {
 			cost = 150
-			slot = 
+			slot = navy_chief
 			idea_token = 
 			ledger = navy
 			allowed = { original_tag = CAL }
