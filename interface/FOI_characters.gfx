@@ -1,5 +1,5 @@
 spriteTypes = {
-	#Africa
+	# Africa #
 	spriteType = {
 		name = "GFX_Ahmed_GNA"
 		textureFile = "gfx/leaders/Africa/AhmedGuinea.png"
@@ -13,7 +13,7 @@ spriteTypes = {
 		textureFile = "gfx/leaders/Africa/LeopoldSenegal.png"
 	}
 
-	#California
+	# California #
 	spriteType = {
 		name = "GFX_CAL_Benjamin_Oliver_Davis_Sr"
 		textureFile = "gfx/leaders/CAL/Portrait_CAL_Benjamin_Oliver_Davis_Sr.dds"
@@ -41,5 +41,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_CAL_Henry_Agard_Wallace"
 		textureFile = "gfx/leaders/CAL/Portrait_CAL_Henry_Agard_Wallace.dds"
-	}	
+	}
+
+	
 }
