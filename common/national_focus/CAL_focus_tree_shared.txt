@@ -9244,7 +9244,7 @@ shared_focus = {
 	}
 }
 
-#  Focus Tree - Initial Political Tree - Regional Stage #
+#  Focus Tree - Initial Political Tree - Regional Stage (No Presidential Elections yet) #
 
 shared_focus = {
 	id = CAL_beginning_the_initial_tranisition_to_a_civilian_government
@@ -9257,9 +9257,9 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_a_coalition_to_eradicate_evil
 	}
-	x = 70
-	y = 0
-	relative_position_id = CAL_reinstate_the_secretary_of_state_office
+	x = 0
+	y = 2
+	relative_position_id = CAL_the_giant_awakens_once_more
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_beginning_the_initial_tranisition_to_a_civilian_government"
 	}
@@ -9381,10 +9381,26 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_senator_
+	id = CAL_1
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_a_republican_majority_in_congress
+	}
+	x = -2
+	y = 1
+	relative_position_id = CAL_a_republican_majority_in_congress
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_1"
+	}
 }
+
 shared_focus = {
-	id = CAL_a_free_market_approach
+	id = CAL_2
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9398,16 +9414,50 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_republican_majority_in_congress
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_free_market_approach"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_2"
 	}
 }
+
 shared_focus = {
-	id = CAL_senator_
+	id = CAL_3
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_a_republican_majority_in_congress
+	}
+	x = 2
+	y = 1
+	relative_position_id = CAL_a_republican_majority_in_congress
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_3"
+	}
 }
 
-shared_focus = {}
 shared_focus = {
-	id = CAL_moderate_economic_policies
+	id = CAL_4
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_a_democrat_majority_in_congress
+	}
+	x = -2
+	y = 1
+	relative_position_id = CAL_a_democrat_majority_in_congress
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_4"
+	}
+}
+
+shared_focus = {
+	id = CAL_5
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9424,11 +9474,47 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_moderate_economic_policies"
 	}
 }
-shared_focus = {}
 
-shared_focus = {}
 shared_focus = {
-	id = CAL_taming_the_bull_moose
+	id = CAL_6
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_a_democrat_majority_in_congress
+	}
+	x = 2
+	y = 1
+	relative_position_id = CAL_a_democrat_majority_in_congress
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_6"
+	}
+}
+
+shared_focus = {
+	id = CAL_7
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_a_progressive_majority_in_congress
+	}
+	x = -2
+	y = 1
+	relative_position_id = CAL_a_progressive_majority_in_congress
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_7"
+	}
+}
+
+shared_focus = {
+	id = CAL_8
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9442,33 +9528,439 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_progressive_majority_in_congress
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_taming_the_bull_moose"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_8"
 	}
 }
-shared_focus = {}
 
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
+shared_focus = {
+	id = CAL_9
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_a_progressive_majority_in_congress
+	}
+	x = 2
+	y = 1
+	relative_position_id = CAL_a_progressive_majority_in_congress
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_9"
+	}
+}
 
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
+shared_focus = {
+	id = CAL_10
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_1
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_10"
+	}
+}
+
+shared_focus = {
+	id = CAL_11
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_1
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_11"
+	}
+}
+
+shared_focus = {
+	id = CAL_12
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_3
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_10"
+	}
+}
+
+shared_focus = {
+	id = CAL_13
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_3
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_10"
+	}	
+}
+
+shared_focus = {
+	id = CAL_14
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_4
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_10"
+	}
+}
+shared_focus = {
+	id = CAL_15
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_4
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_15"
+	}
+}
+shared_focus = {
+	id = CAL_16
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_6
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_16"
+	}
+}
+shared_focus = {
+	id = CAL_17
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_6
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_16"
+	}
+}
+shared_focus = {
+	id = CAL_18
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_7
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_7
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_16"
+	}
+}
+
+shared_focus = {
+	id = CAL_19
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_7
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_7
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_16"
+	}
+}
+
+shared_focus = {
+	id = CAL_20
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_9
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_9
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_20"
+	}
+}
+
+shared_focus = {
+	id = CAL_21
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_9
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_9
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_16"
+	}
+}
+
+shared_focus = {
+	id = CAL_22
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_10
+	}
+	prerequisite = {
+		focus = CAL_11
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_22"
+	}
+}
+
+shared_focus = {
+	id = CAL_23
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_2
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_23"
+	}
+}
+shared_focus = {
+	id = CAL_24
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_12
+	}
+	prerequisite = {
+		focus = CAL_13
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_23"
+	}
+}
+
+shared_focus = {
+	id = CAL_25
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_14
+	}
+	prerequisite = {
+		focus = CAL_15
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_22"
+	}
+}
+
+shared_focus = {
+	id = CAL_26
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_5
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_26"
+	}
+}
+shared_focus = {
+	id = CAL_27
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_16
+	}
+	prerequisite = {
+		focus = CAL_17
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_26"
+	}
+}
+
+shared_focus = {
+	id = CAL_28
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_18
+	}
+	prerequisite = {
+		focus = CAL_19
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_7
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_26"
+	}
+}
+
+shared_focus = {
+	id = CAL_29
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_8
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_8
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_8"
+	}
+}
+
+shared_focus = {
+	id = CAL_30
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_20
+	}
+	prerequisite = {
+		focus = CAL_21
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_9
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_9"
+	}
+}
 
 shared_focus = {}
 shared_focus = {}
