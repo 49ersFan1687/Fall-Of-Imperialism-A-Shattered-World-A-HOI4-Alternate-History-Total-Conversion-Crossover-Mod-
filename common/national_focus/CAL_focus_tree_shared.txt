@@ -10286,7 +10286,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_45
+	id = CAL_a_strong_and_free_america
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10303,7 +10303,7 @@ shared_focus = {
 	y = 2
 	relative_position_id = CAL_new_radical_republicanism
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_45"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_strong_and_free_america"
 	}
 }
 
@@ -10446,7 +10446,7 @@ shared_focus = {
 	}
 	prerequisite = {
 		focus = CAL_a_conservative_america
-		focus = CAL_45
+		focus = CAL_a_strong_and_free_america
 	}
 	x = 0
 	y = 1
