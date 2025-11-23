@@ -1,4 +1,5 @@
 spriteTypes = {
+	#Africa
 	spriteType = {
 		name = "GFX_Ahmed_GNA"
 		textureFile = "gfx/leaders/Africa/AhmedGuinea.png"
@@ -10,5 +11,35 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Leopold_SEN"
 		textureFile = "gfx/leaders/Africa/LeopoldSenegal.png"
+	}
+
+	#California
+	spriteType = {
+		name = "GFX_CAL_Benjamin_Oliver_Davis_Sr"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Benjamin_Oliver_Davis_Sr.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Claire_Lee_Chennault"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Claire_Lee_Chennault.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Dwight_David_Eisenhower"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Dwight_David_Eisenhower.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_George_Catlett_Marshall"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_George_Catlett_Marshall.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_George_Smith_Patton_Jr"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_George_Smith_Patton_Jr.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Glynda_Goodwitch"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Glynda_Goodwitch.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Henry_Agard_Wallace"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Henry_Agard_Wallace.dds"
 	}	
 }
