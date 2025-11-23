@@ -9444,12 +9444,15 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_4
+	id = CAL_keep_the_old_status_quo
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
 	ai_will_do = {
 		factor = 1
+	}
+	mutually_exclusive = {
+		focus = CAL_reform_the_status_quo
 	}
 	prerequisite = {
 		focus = CAL_a_democrat_majority_in_congress
@@ -9458,7 +9461,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_democrat_majority_in_congress
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_4"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_keep_the_old_status_quo"
 	}
 }
 
@@ -9482,12 +9485,15 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_6
+	id = CAL_reform_the_status_quo
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
 	ai_will_do = {
 		factor = 1
+	}
+	mutually_exclusive = {
+		focus = CAL_keep_the_old_status_quo
 	}
 	prerequisite = {
 		focus = CAL_a_democrat_majority_in_congress
@@ -9496,7 +9502,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_democrat_majority_in_congress
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_6"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reform_the_status_quo"
 	}
 }
 
@@ -9648,11 +9654,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_4
+		focus = CAL_keep_the_old_status_quo
 	}
 	x = -1
 	y = 1
-	relative_position_id = CAL_4
+	relative_position_id = CAL_keep_the_old_status_quo
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_10"
 	}
@@ -9666,11 +9672,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_4
+		focus = CAL_keep_the_old_status_quo
 	}
 	x = 1
 	y = 1
-	relative_position_id = CAL_4
+	relative_position_id = CAL_keep_the_old_status_quo
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_15"
 	}
@@ -9684,11 +9690,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_6
+		focus = CAL_reform_the_status_quo
 	}
 	x = -1
 	y = 1
-	relative_position_id = CAL_6
+	relative_position_id = CAL_reform_the_status_quo
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_16"
 	}
@@ -9702,11 +9708,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_6
+		focus = CAL_reform_the_status_quo
 	}
 	x = 1
 	y = 1
-	relative_position_id = CAL_6
+	relative_position_id = CAL_reform_the_status_quo
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_16"
 	}
@@ -9865,7 +9871,7 @@ shared_focus = {
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_4
+	relative_position_id = CAL_keep_the_old_status_quo
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_22"
 	}
@@ -9905,7 +9911,7 @@ shared_focus = {
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_6
+	relative_position_id = CAL_reform_the_status_quo
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_26"
 	}
@@ -10555,6 +10561,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_siutation_in_the_four_corners"
 	}
 }
+
 shared_focus = {}
 shared_focus = {}
 shared_focus = {}
