@@ -9608,7 +9608,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_12
+	id = CAL_in_landons_footsteps
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9622,7 +9622,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_radical_apporach
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_12"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_in_landons_footsteps"
 	}
 }
 
@@ -9842,7 +9842,7 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_12
+		focus = CAL_in_landons_footsteps
 	}
 	prerequisite = {
 		focus = CAL_13
@@ -10033,14 +10033,14 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_12
+		focus = CAL_in_landons_footsteps
 	}
 	prerequisite = {
 		focus = CAL_new_radical_republicanism
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_12
+	relative_position_id = CAL_in_landons_footsteps
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_form_a_conservative_coalition"
 	}
