@@ -9381,7 +9381,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_1
+	id = CAL_a_fiscal_approach
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9395,7 +9395,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_republican_majority_in_congress
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_1"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_fiscal_approach"
 	}
 }
 
@@ -9560,11 +9560,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_1
+		focus = CAL_a_fiscal_approach
 	}
 	x = -1
 	y = 1
-	relative_position_id = CAL_1
+	relative_position_id = CAL_a_fiscal_approach
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_10"
 	}
@@ -9579,11 +9579,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_1
+		focus = CAL_a_fiscal_approach
 	}
 	x = 1
 	y = 1
-	relative_position_id = CAL_1
+	relative_position_id = CAL_a_fiscal_approach
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_11"
 	}
@@ -9791,7 +9791,7 @@ shared_focus = {
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_1
+	relative_position_id = CAL_a_fiscal_approach
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_22"
 	}
@@ -10524,6 +10524,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_siutation_in_texas_and_oklahoma"
 	}
 }
+
 shared_focus = {}
 shared_focus = {}
 shared_focus = {}
