@@ -1,102 +1,170 @@
+#### Provisional Authority of Cascadia FOCUS TREE By Aide of General Eisenhower and ThatFordFanYT ####
+
+### Initial Focus Tree - Warlord State ###
+
 shared_focus = {
-		id = CSD_start_to_recover
-		icon = GFX_fish
-		#prerequisite = { focus = }
-		#mutually_exclusive = { focus =  }
-		x = 10
-		y = 1
-
-		cost = 4
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		#available = {
-		#}
-		
-		#bypass = {
-		#}
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		available_if_capitulated = no
-
-		#complete_tooltip = {
-		#}
-
-		completion_reward = {
-			add_stability = 0.05
-			add_war_support = 0.05
-			country_event = {
-				id = CSD_event.1
-				days = 1
-		}
+	id = CSD_sunrise_on_the_shattered_pacific
+	icon = GFX_fish
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
 	}
-}
-shared_focus = {
-		id = CSD_restart_militia_organisation
-		icon = GFX_fish
-		prerequisite = { focus = CSD_start_to_recover }
-		#mutually_exclusive = { focus =  }
-		x = 5
-		y = 2
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		#available = {
-		#}
-		
-		#bypass = {
-		#}
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		available_if_capitulated = no
-
-		#complete_tooltip = {
-		#}
-
-		completion_reward = {
-			army_xp = 50
-			#research_bonus
-			swap_ideas = {
-				remove_idea = CSD_disorganised_militia
-				add_idea = CSD_militia_organisation_underway
+	x = 15
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CSD_sunrise_on_the_shattered_pacific_northwest"
+		add_stability = 0.05
+		add_war_support = 0.05
+		country_event = {
+			id = CSD_event.1
+			days = 1
 		}
 	}
 }
 
-	shared_focus = {
-		id = CSD_peoples_militia
-		icon = GFX_fish
-		prerequisite = { focus = CSD_restart_militia_organisation }
-		#mutually_exclusive = { focus =  }
-		x = 5
-		y = 2
+shared_focus = {
+	id = CSD_the_many_faces_of_cascadia
+	icon = GFX_fish
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CSD_sunrise_on_the_shattered_pacific_northwest
+	}
+	x = 0
+	y = 1
+	relative_position_id = CSD_sunrise_on_the_shattered_pacific_northwest
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CSD_the_many_faces_of_cascadia"
+	}
+}
 
-		cost = 7
+shared_focus = {
+	id = CSD_twilights_progressive_officer_clique
+	icon = GFX_fish
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CSD_the_many_faces_of_cascadia
+	}
+	x = -6
+	y = 1
+	relative_position_id = CSD_the_many_faces_of_cascadia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CSD_twilights_progressive_officer_clique"
+	}
+}
 
-		ai_will_do = {
-			factor = 1
-		}
+shared_focus = {
+	id = CSD_rubys_militarist_officer_clique
+	icon = GFX_fish
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CSD_the_many_faces_of_cascadia
+	}
+	x = -3
+	y = 1
+	relative_position_id = CSD_the_many_faces_of_cascadia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CSD_rubys_militarist_officer_clique"
+	}
+}
 
-		#available = {
-		#}
-		
-		#bypass = {
-		#}
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		available_if_capitulated = no
+shared_focus = {
+	id = CSD_sonas_conservative_officer_clique
+	icon = GFX_fish
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CSD_the_many_faces_of_cascadia 
+	}
+	x = 0
+	y = 1
+	relative_position_id = CSD_the_many_faces_of_cascadia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CSD_sonas_conservative_officer_clique"
+	}
+}
 
-		#complete_tooltip = {
-		#}
+shared_focus = {
+	id = CSD_mihos_moderate_officer_clique
+	icon = GFX_fish
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CSD_the_many_faces_of_cascadia 
+	}
+	x = 3
+	y = 1
+	relative_position_id = CSD_the_many_faces_of_cascadia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CSD_mihos_moderate_officer_clique"
+	}
+}
 
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = CSD_militia_organisation_underway
-				add_idea = CSD_peoples_militia
-		}
+shared_focus = {
+	id = CSD_makotos_corporatist_officer_clique
+	icon = GFX_fish
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CSD_the_many_faces_of_cascadia 
+	}
+	x = 6
+	y = 1
+	relative_position_id = CSD_the_many_faces_of_cascadia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CSD_makotos_corporatist_officer_clique"
+	}
+}
+
+shared_focus = {
+	id = CSD_the_second_continental_army_controls_all
+	icon = GFX_fish
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CSD_twilights_progressive_officer_clique
+	}
+	prerequisite = {
+		focus = CSD_rubys_militarist_officer_clique
+	}
+	prerequisite = {
+		focus = CSD_sonas_conservative_officer_clique
+	}
+	prerequisite = {
+		focus = CSD_mihos_moderate_officer_clique
+	}
+	prerequisite = {
+		focus = CSD_makotos_corporatist_officer_clique
+	}
+	x = 0
+	y = 1
+	relative_position_id = CSD_sonas_conservative_officer_clique
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CSD_the_second_continental_army_controls_all"
 	}
 }
 

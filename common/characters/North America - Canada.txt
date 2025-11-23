@@ -56,7 +56,7 @@ characters = {
 
 
     # Canadian Field Marshals #
-
+    
 
     # Canadian Generals #
 
@@ -81,6 +81,7 @@ characters = {
             logistics_skill =
         }
     }
+
     CAN_harold_rupert_leofric_george_alexander = {
         name = CAN_harold_rupert_leofric_george_alexander
         portraits = {

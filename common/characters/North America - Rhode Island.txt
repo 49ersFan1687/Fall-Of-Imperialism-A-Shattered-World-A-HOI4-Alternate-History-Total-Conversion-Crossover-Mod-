@@ -50,7 +50,7 @@ characters = {
     }
 
     RDI_clark_ashton_smith = {
-        name = RDI_frank_belknap_long
+        name = RDI_clark_ashton_smith
         portraits = {
             civilian = {
                 large = GFX_fish

@@ -42,6 +42,12 @@ spriteTypes = {
 		name = "GFX_CAL_Henry_Agard_Wallace"
 		textureFile = "gfx/leaders/CAL/Portrait_CAL_Henry_Agard_Wallace.dds"
 	}
-
-	
+	spriteType = {
+		name = "GFX_CAL_William_Childs_Westmoreland"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_William_Childs_Westmoreland.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Maxwell_Devenport_Taylor"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Maxewell_davenport_Taylor.dds"
+	}
 }

@@ -1,6 +1,4 @@
-####    					       ####
 #### CALIFORNIA REPUBLIC FOCUS TREE By Aide of General Eisenhower ####
-####                                                   ####
 
 ### Initial Focus Tree - Warlord State ###
 
@@ -15,6 +13,7 @@ shared_focus = {
 	x = 15
 	y = 0
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_long_retreat_west"
 		custom_effect_tooltip = CAL_the_long_retreat_west_tooltip
         hidden_effect = {
 			CAL = {
@@ -23,6 +22,7 @@ shared_focus = {
 		}
 	}
 }
+
 shared_focus = {
 	id = CAL_cementing_temporary_military_rule
 	icon = GFX_focus_cementing_temporary_military_rule
@@ -9718,7 +9718,7 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id = CAL_18
+	id = CAL_finish_western_new_deal_projects
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9794,7 +9794,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_22
+	id = CAL_bringing_back_traditional_values
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9811,7 +9811,7 @@ shared_focus = {
 	y = 2
 	relative_position_id = CAL_a_fiscal_approach
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_22"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_bringing_back_traditional_values"
 	}
 }
 
@@ -9834,7 +9834,7 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id = CAL_24
+	id = CAL_new_radical_republicanism
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9873,7 +9873,7 @@ shared_focus = {
 	y = 2
 	relative_position_id = CAL_keep_the_old_status_quo
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_22"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_bringing_back_traditional_values"
 	}
 }
 
@@ -9926,7 +9926,7 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_18
+		focus = CAL_finish_western_new_deal_projects
 	}
 	prerequisite = {
 		focus = CAL_19
@@ -9992,7 +9992,7 @@ shared_focus = {
 		focus = CAL_in_waynes_footsteps
 	}
 	prerequisite = {
-		focus = CAL_22
+		focus = CAL_bringing_back_traditional_values
 	}
 	x = 0
 	y = 2
@@ -10003,7 +10003,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_32
+	id = CAL_form_a_conservative_coalition
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10014,7 +10014,7 @@ shared_focus = {
 		focus = CAL_11
 	}
 	prerequisite = {
-		focus = CAL_22
+		focus = CAL_bringing_back_traditional_values
 	}
 	x = 0
 	y = 2
@@ -10036,13 +10036,13 @@ shared_focus = {
 		focus = CAL_12
 	}
 	prerequisite = {
-		focus = CAL_24
+		focus = CAL_new_radical_republicanism
 	}
 	x = 0
 	y = 2
 	relative_position_id = CAL_12
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_32"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_form_a_conservative_coalition"
 	}
 }
 
@@ -10058,7 +10058,7 @@ shared_focus = {
 		focus = CAL_13
 	}
 	prerequisite = {
-		focus = CAL_24
+		focus = CAL_new_radical_republicanism
 	}
 	x = 0
 	y = 2
@@ -10165,14 +10165,14 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_18
+		focus = CAL_finish_western_new_deal_projects
 	}
 	prerequisite = {
 		focus = CAL_28
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_18
+	relative_position_id = CAL_finish_western_new_deal_projects
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_39"
 	}
@@ -10256,11 +10256,11 @@ shared_focus = {
 		focus = CAL_31
 	}
 	prerequisite = {
-		focus = CAL_32
+		focus = CAL_form_a_conservative_coalition
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_22
+	relative_position_id = CAL_bringing_back_traditional_values
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_42"
 	}
@@ -10301,7 +10301,7 @@ shared_focus = {
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_24
+	relative_position_id = CAL_new_radical_republicanism
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_45"
 	}
@@ -10393,7 +10393,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_50
+	id = CAL_give_me_your_tired_your_poor
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10407,7 +10407,7 @@ shared_focus = {
 	y = 2
 	relative_position_id = CAL_just_as_teddy_intended
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_50"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_give_me_your_tired_your_poor"
 	}
 }
 
@@ -10480,7 +10480,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_54
+	id = CAL_believers_in_american_progress
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10488,7 +10488,7 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_50
+		focus = CAL_give_me_your_tired_your_poor
 	}
 	prerequisite = {
 		focus = CAL_49
@@ -10496,9 +10496,9 @@ shared_focus = {
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_50
+	relative_position_id = CAL_give_me_your_tired_your_poor
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_54"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_believers_in_american_progress"
 	}
 }
 
@@ -10514,7 +10514,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_
 		has_completed_focus = CAL_
-		has_completed_focus = CAL_
+		has_completed_focus = CAL_believers_in_american_progress
 	}
 	x = 0
 	y = 2
