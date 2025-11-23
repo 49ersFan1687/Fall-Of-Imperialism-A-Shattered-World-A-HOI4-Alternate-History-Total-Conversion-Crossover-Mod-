@@ -9508,6 +9508,9 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
+	mutually_exclusive = {
+		focus = CAL_a_radical_new_deal
+	}
 	prerequisite = {
 		focus = CAL_a_progressive_majority_in_congress
 	}
@@ -9545,6 +9548,9 @@ shared_focus = {
 	available_if_capitulated = no
 	ai_will_do = {
 		factor = 1
+	}
+	mutually_exclusive = {
+		focus = CAL_a_conservative_new_deal
 	}
 	prerequisite = {
 		focus = CAL_a_progressive_majority_in_congress
