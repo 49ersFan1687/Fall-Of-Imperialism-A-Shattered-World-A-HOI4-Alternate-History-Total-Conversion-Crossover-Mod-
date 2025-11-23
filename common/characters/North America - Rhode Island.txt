@@ -48,4 +48,88 @@ characters = {
             }
         }
     }
+
+    RDI_clark_ashton_smith = {
+        name = RDI_frank_belknap_long
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+    }
+
+    RDI_august_derleth = {
+        name = RDI_august_derleth
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+    }
+
+    RDI_e_hoffman_price = {
+        name = RDI_e_hoffman_price
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+    }
+
+    RDI_robert_bloch = {
+        name = RDI_robert_bloch
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+    }
+
+    RDI_willis_conover = {
+        name = RDI_willis_conover
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+    }
+
+    RDI_alfred_galpin = {
+        name = RDI_alfred_galpin
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+    }
+
+    RDI_henry_kuttner = {
+        name = RDI_henry_kuttner
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+    }
 }
