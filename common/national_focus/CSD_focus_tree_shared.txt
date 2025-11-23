@@ -3,7 +3,7 @@
 ### Initial Focus Tree - Warlord State ###
 
 shared_focus = {
-	id = CSD_sunrise_on_the_shattered_pacific_northwest
+	id = CSD_sunrise_on_the_shattered_pacific
 	icon = GFX_fish
 	cost = 3
 	available_if_capitulated = no
