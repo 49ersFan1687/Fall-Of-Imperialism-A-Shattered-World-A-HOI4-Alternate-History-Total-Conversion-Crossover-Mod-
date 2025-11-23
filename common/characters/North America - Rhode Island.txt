@@ -1,8 +1,8 @@
 characters = {
     # Country Leaders #
 
-    RHI_robert_hillard_barrow = {
-        name = RHI_robert_hillard_barrow
+    RDI_robert_hillard_barrow = {
+        name = RDI_robert_hillard_barrow
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -29,8 +29,8 @@ characters = {
         }
     }
 
-    RHI_frank_belknap_long = {
-        name = RHI_frank_belknap_long
+    RDI_frank_belknap_long = {
+        name = RDI_frank_belknap_long
         portraits = {
             civilian = {
                 large = GFX_fish
