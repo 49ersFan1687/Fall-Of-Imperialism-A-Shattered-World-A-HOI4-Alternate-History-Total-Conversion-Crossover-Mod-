@@ -9400,7 +9400,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_2
+	id = CAL_free_market_economics
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9414,7 +9414,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_republican_majority_in_congress
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_2"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_free_market_economics"
 	}
 }
 
@@ -9457,7 +9457,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_5
+	id = CAL_moderate_economic_policies
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9514,7 +9514,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_8
+	id = CAL_an_expanded_new_deal
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9528,7 +9528,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_progressive_majority_in_congress
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_8"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_an_expanded_new_deal"
 	}
 }
 
@@ -9806,11 +9806,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_2
+		focus = CAL_free_market_economics
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_2
+	relative_position_id = CAL_free_market_economics
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_23"
 	}
@@ -9868,11 +9868,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_5
+		focus = CAL_moderate_economic_policies
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_5
+	relative_position_id = CAL_moderate_economic_policies
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_26"
 	}
@@ -9930,13 +9930,13 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_8
+		focus = CAL_an_expanded_new_deal
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_8
+	relative_position_id = CAL_an_expanded_new_deal
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_8"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_29"
 	}
 }
 
@@ -10484,4 +10484,53 @@ shared_focus = {
 	}
 }
 
-# Superregional Stage - Eastward Expansion - Part One -  Four Corners, Texas, and Oklahoma # 
+# Superregional Stage - Eastward Expansion - Part One -  Four Corners, Texas, and Oklahoma #
+shared_focus = {
+	id = CAL_our_focus_on_the_four_corners_and_southwestern_southern_states
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		has_completed_focus = CAL_
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_the_new_bastion_of_freedom
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_our_focus_on_the_four_corners_and_southwestern_southern_states"
+	}
+}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
