@@ -10,7 +10,7 @@ focus_tree = {
         }
 	}
     default = no
-	shared_focus = CSD_start_to_recover
+	shared_focus = CSD_sunshine_on_the_pacific_northwest
 
     continuous_focus_position = { x = 2500 y = 50 }
 }
