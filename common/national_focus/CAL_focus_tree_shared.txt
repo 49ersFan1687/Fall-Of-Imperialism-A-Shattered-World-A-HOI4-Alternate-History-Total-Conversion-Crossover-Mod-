@@ -10003,7 +10003,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_32
+	id = CAL_form_a_conservative_coalition
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10042,7 +10042,7 @@ shared_focus = {
 	y = 2
 	relative_position_id = CAL_12
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_32"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_form_a_conservative_coalition"
 	}
 }
 
@@ -10256,7 +10256,7 @@ shared_focus = {
 		focus = CAL_31
 	}
 	prerequisite = {
-		focus = CAL_32
+		focus = CAL_form_a_conservative_coalition
 	}
 	x = 0
 	y = 2
@@ -10480,7 +10480,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_54
+	id = CAL_believers_in_american_progress
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10498,7 +10498,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_50
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_54"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_believers_in_american_progress"
 	}
 }
 
@@ -10514,7 +10514,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_
 		has_completed_focus = CAL_
-		has_completed_focus = CAL_
+		has_completed_focus = CAL_believers_in_american_progress
 	}
 	x = 0
 	y = 2
