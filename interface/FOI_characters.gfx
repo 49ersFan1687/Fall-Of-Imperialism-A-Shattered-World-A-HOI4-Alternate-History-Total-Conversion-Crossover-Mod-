@@ -10,6 +10,5 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Leopold_SEN"
 		textureFile = "gfx/leaders/Africa/LeopoldSenegal.png"
-	}
-
+	}	
 }
