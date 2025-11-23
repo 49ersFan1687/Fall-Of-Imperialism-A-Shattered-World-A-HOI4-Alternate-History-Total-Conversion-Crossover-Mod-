@@ -9529,7 +9529,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_an_expanded_new_deal
+	id = CAL_expand_the_new_deal
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9543,7 +9543,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_progressive_majority_in_congress
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_an_expanded_new_deal"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_new_deal"
 	}
 }
 
@@ -9878,7 +9878,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_26
+	id = CAL_promote_classical_liberalism
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9892,7 +9892,7 @@ shared_focus = {
 	y = 2
 	relative_position_id = CAL_moderate_economic_policies
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_26"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_promote_classical_liberalism"
 	}
 }
 shared_focus = {
@@ -9913,7 +9913,7 @@ shared_focus = {
 	y = 2
 	relative_position_id = CAL_reform_the_status_quo
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_26"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_27"
 	}
 }
 
@@ -9935,12 +9935,12 @@ shared_focus = {
 	y = 2
 	relative_position_id = CAL_a_conservative_new_deal
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_26"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_28"
 	}
 }
 
 shared_focus = {
-	id = CAL_29
+	id = CAL_just_as_teddy_intended
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9948,13 +9948,13 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_an_expanded_new_deal
+		focus = CAL_expand_the_new_deal
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_an_expanded_new_deal
+	relative_position_id = CAL_expand_the_new_deal
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_29"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_just_as_teddy_intended"
 	}
 }
 
@@ -10338,11 +10338,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_26
+		focus = CAL_promote_classical_liberalism
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_26
+	relative_position_id = CAL_promote_classical_liberalism
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_47"
 	}
@@ -10401,11 +10401,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_29
+		focus = CAL_just_as_teddy_intended
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_29
+	relative_position_id = CAL_just_as_teddy_intended
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_50"
 	}
