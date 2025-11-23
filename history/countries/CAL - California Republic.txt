@@ -46,8 +46,8 @@ recruit_character = CAL_henry_agard_wallace
 recruit_character = CAL_huey_pierce_long_jr
 recruit_character = CAL_earl_earren
 recruit_character = CAL_john_edgar_hoover
-recruit_character = CAL_Thomas_Edmund_Dewey
-recruit_character = CAL_Walter_Elias_Disney
+recruit_character = CAL_thomas_edmund_dewey
+recruit_character = CAL_walter_elias_disney
 
 ## Second Continental Army ##
 
@@ -69,9 +69,9 @@ recruit_character = CAL_lucian_king_truscott
 recruit_character = CAL_benjamin_oliver_davis_sr
 recruit_character = CAL_ulysses_simpson_grant_iii
 recruit_character = CAL_john_daniel_lavelle
-recruit_character = CAL_Elizabeth_Coleman
-recruit_character = CAL_Charity_Edna_Adams_Earley
-recruit_character = CAL_Hobart_Raymond_Gay
+recruit_character = CAL_elizabeth_coleman
+recruit_character = CAL_charity_edna_adams_earley
+recruit_character = CAL_hobart_raymond_gay
 
 ## US Navy ##
 
