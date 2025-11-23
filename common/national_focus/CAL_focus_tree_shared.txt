@@ -9570,7 +9570,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_10
+	id = CAL_in_waynes_footsteps
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9584,7 +9584,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_fiscal_approach
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_10"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_in_waynes_footsteps"
 	}
 }
 
@@ -9622,7 +9622,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_radical_apporach
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_10"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_12"
 	}
 }
 
@@ -9641,7 +9641,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_radical_apporach
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_10"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_13"
 	}	
 }
 
@@ -9660,7 +9660,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_keep_the_old_status_quo
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_10"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_14"
 	}
 }
 shared_focus = {
@@ -9802,7 +9802,7 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_10
+		focus = CAL_in_waynes_footsteps
 	}
 	prerequisite = {
 		focus = CAL_11
@@ -9989,14 +9989,14 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_10
+		focus = CAL_in_waynes_footsteps
 	}
 	prerequisite = {
 		focus = CAL_22
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_10
+	relative_position_id = CAL_in_waynes_footsteps
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_31"
 	}
