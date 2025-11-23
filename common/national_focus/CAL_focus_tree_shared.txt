@@ -10393,7 +10393,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_50
+	id = CAL_give_me_your_tired_your_poor
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10407,7 +10407,7 @@ shared_focus = {
 	y = 2
 	relative_position_id = CAL_just_as_teddy_intended
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_50"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_give_me_your_tired_your_poor"
 	}
 }
 
@@ -10488,7 +10488,7 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_50
+		focus = CAL_give_me_your_tired_your_poor
 	}
 	prerequisite = {
 		focus = CAL_49
@@ -10496,7 +10496,7 @@ shared_focus = {
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_50
+	relative_position_id = CAL_give_me_your_tired_your_poor
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_believers_in_american_progress"
 	}
