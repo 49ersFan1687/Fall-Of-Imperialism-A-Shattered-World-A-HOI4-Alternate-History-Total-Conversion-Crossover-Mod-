@@ -9589,7 +9589,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_11
+	id = CAL_bring_back_trad_americanism
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9603,7 +9603,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_fiscal_approach
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_11"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_bring_back_trad_americanism"
 	}
 }
 
@@ -9805,7 +9805,7 @@ shared_focus = {
 		focus = CAL_in_waynes_footsteps
 	}
 	prerequisite = {
-		focus = CAL_11
+		focus = CAL_bring_back_trad_americanism
 	}
 	x = 0
 	y = 2
@@ -9981,7 +9981,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_31
+	id = CAL_support_from_christian_groups
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9998,7 +9998,7 @@ shared_focus = {
 	y = 2
 	relative_position_id = CAL_in_waynes_footsteps
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_31"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_support_from_christian_groups"
 	}
 }
 
@@ -10011,16 +10011,16 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_11
+		focus = CAL_bring_back_trad_americanism
 	}
 	prerequisite = {
 		focus = CAL_bringing_back_traditional_values
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_11
+	relative_position_id = CAL_bring_back_trad_americanism
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_31"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_support_from_christian_groups"
 	}
 }
 
@@ -10245,7 +10245,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_43
+	id = CAL_a_conservative_america
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10253,7 +10253,7 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_31
+		focus = CAL_support_from_christian_groups
 	}
 	prerequisite = {
 		focus = CAL_form_a_conservative_coalition
@@ -10445,7 +10445,7 @@ shared_focus = {
 		focus = CAL_44
 	}
 	prerequisite = {
-		focus = CAL_43
+		focus = CAL_a_conservative_america
 		focus = CAL_45
 	}
 	x = 0
