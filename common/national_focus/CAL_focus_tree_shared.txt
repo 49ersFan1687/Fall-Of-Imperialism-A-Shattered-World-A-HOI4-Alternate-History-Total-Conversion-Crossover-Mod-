@@ -229,7 +229,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_what_the_fucking_hell_are_we_going_to_do_now
+	id = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	icon = GFX_alone_and_isolated
 	cost = 3
 	available_if_capitulated = no
@@ -249,7 +249,7 @@ shared_focus = {
 	y = 3
     relative_position_id = CAL_the_long_retreat_west
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_what_the_fucking_hell_are_we_going_to_do_now"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now"
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
 		hidden_effect = {
 			CAL = {
@@ -268,11 +268,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_what_the_fucking_hell_are_we_going_to_do_now
+		focus = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	}
 	x = -2.5
 	y = 1
-    relative_position_id = CAL_what_the_fucking_hell_are_we_going_to_do_now
+    relative_position_id = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reestablish_radio_contact_with_canada"
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
@@ -294,11 +294,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_what_the_fucking_hell_are_we_going_to_do_now
+		focus = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	}
 	x = 2.5
 	y = 1
-    relative_position_id = CAL_what_the_fucking_hell_are_we_going_to_do_now
+    relative_position_id = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_contact_the_remnants"
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
@@ -323,7 +323,7 @@ shared_focus = {
 	}
 	x = 0
 	y = 1
-    relative_position_id = CAL_what_the_fucking_hell_are_we_going_to_do_now
+    relative_position_id = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_turning_southern_california_into_a_bastion"
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
@@ -10514,6 +10514,12 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
+	prerequisite = {
+		focus = CAL_our_focus_on_the_four_corners_and_southwestern_southern_states
+	}
+	x = -6
+	y = 1
+	relative_position_id = CAL_our_focus_on_the_four_corners_and_southwestern_southern_states
 }
 shared_focus = {}
 shared_focus = {}
