@@ -22,6 +22,7 @@ shared_focus = {
 		}
 	}
 }
+
 shared_focus = {
 	id = CAL_cementing_temporary_military_rule
 	icon = GFX_focus_cementing_temporary_military_rule
