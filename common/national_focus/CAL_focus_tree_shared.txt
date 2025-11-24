@@ -4124,7 +4124,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_every_man_a_king
+	id = CAL_the_longist_way_of_doing_things
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -4138,7 +4138,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_implementing_longs_share_our_wealth_program
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_every_man_a_king"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_longist_way_of_doing_things"
 	}
 }
 
@@ -8453,7 +8453,7 @@ shared_focus = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
 	x = 0
-	y = 2
+	y = 3
 	relative_position_id = CAL_the_army_goes_marching_along
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reinstate_the_secretary_of_state_office"
@@ -9257,8 +9257,8 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_a_coalition_to_eradicate_evil
 	}
-	x = -6
-	y = 1
+	x = 0
+	y = 3
 	relative_position_id = CAL_the_giant_awakens_once_more
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_beginning_the_initial_tranisition_to_a_civilian_government"
@@ -10516,7 +10516,7 @@ shared_focus = {
 		has_completed_focus = CAL_a_bulwark_of_justice
 		has_completed_focus = CAL_believers_in_american_progress
 	}
-	x = -4
+	x = -10
 	y = 2
 	relative_position_id = CAL_the_new_bastion_of_freedom
 	completion_reward = {
@@ -10525,7 +10525,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_the_siutation_in_texas_and_oklahoma
+	id = CAL_the_situation_in_texas_and_oklahoma
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10535,7 +10535,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_our_focus_on_the_four_corners_and_southwestern_southern_states
 	}
-	x = -6
+	x = 0
 	y = 1
 	relative_position_id = CAL_our_focus_on_the_four_corners_and_southwestern_southern_states
 	completion_reward = {
@@ -10544,7 +10544,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_the_siutation_in_the_four_corners
+	id = CAL_assist_the_state_of_texas
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10552,70 +10552,261 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_our_focus_on_the_four_corners_and_southwestern_southern_states
+		focus = CAL_the_situation_in_texas_and_oklahoma
+	}
+	x = -6
+	y = 1
+	relative_position_id = CAL_the_situation_in_texas_and_oklahoma
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_assist_the_state_of_texas"
+	}
+}
+
+shared_focus = {
+	id = CAL_integrate_the_state_militia
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_situation_in_texas_and_oklahoma
+	}
+	x = -2
+	y = 1
+	relative_position_id = CAL_the_situation_in_texas_and_oklahoma
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrate_the_state_militia"
+	}
+}
+
+shared_focus = {
+	id = CAL_crush_the_texan_anarchists
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_situation_in_texas_and_oklahoma
+	}
+	x = 2
+	y = 1
+	relative_position_id = CAL_the_situation_in_texas_and_oklahoma
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrate_the_state_militia"
+	}	
+}
+
+shared_focus = {
+	id = CAL_end_the_republics_revolt
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_situation_in_texas_and_oklahoma
 	}
 	x = 6
 	y = 1
-	relative_position_id = CAL_our_focus_on_the_four_corners_and_southwestern_southern_states
+	relative_position_id = CAL_the_situation_in_texas_and_oklahoma
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_siutation_in_the_four_corners"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_end_the_republics_revolt"
+	}
+}
+
+shared_focus = {
+	id = CAL_eureka_and_friendship_together
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_assist_the_state_of_texas
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_assist_the_state_of_texas
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_eureka_and_friendship_together"
+	}
+}
+
+shared_focus = {
+	id = CAL_access_to_the_gulf_of_mexico
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_assist_the_state_of_texas
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_assist_the_state_of_texas
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_eureka_and_friendship_together"
+	}
+}
+
+shared_focus = {
+	id = CAL_expand_the_texas_national_guard
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrate_the_state_militia
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_integrate_the_state_militia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_texas_national_guard"
+	}
+}
+
+shared_focus = {
+	id = CAL_retake_our_naval_bases
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrate_the_state_militia
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_integrate_the_state_militia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_retake_our_naval_bases"
+	}	
+}
+
+shared_focus = {
+	id = CAL_break_their_autonomous_communes
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_crush_the_texan_anarchists
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_crush_the_texan_anarchists
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_retake_our_naval_bases"
+	}
+}
+
+shared_focus = {
+	id = CAL_silence_their_agitators
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_crush_the_texan_anarchists
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_crush_the_texan_anarchists
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_silence_their_agitators"
+	}
+}
+
+shared_focus = {
+	id = CAL_remind_them_of_texas_vs_white
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_end_the_republics_revolt
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_end_the_republics_revolt
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_remind_them_of_texas_vs_white"
+	}
+}
+
+shared_focus = {
+	id = CAL_united_under_one_flag
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_end_the_republics_revolt
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_end_the_republics_revolt
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_united_under_one_flag"
 	}
 }
 
 shared_focus = {}
-
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
 shared_focus = {}
 
 shared_focus = {}
-
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
 shared_focus = {}
 
 shared_focus = {}
-
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
 shared_focus = {}
 
 shared_focus = {}
-
 shared_focus = {}
-
 shared_focus = {}
-
 shared_focus = {}
-
-shared_focus = {}
-
-shared_focus = {}
-
-shared_focus = {}
-
-shared_focus = {}
-
-shared_focus = {}
-
-shared_focus = {}
-
-shared_focus = {}
-
-shared_focus = {}
-
-shared_focus = {}
-
-shared_focus = {}
-
-shared_focus = {}
-
-shared_focus = {}
-
-shared_focus = {}
-
-shared_focus = {}
-
-shared_focus = {}
-
-shared_focus = {}
-
-shared_focus = {}
-
 shared_focus = {}
 
 shared_focus = {}
