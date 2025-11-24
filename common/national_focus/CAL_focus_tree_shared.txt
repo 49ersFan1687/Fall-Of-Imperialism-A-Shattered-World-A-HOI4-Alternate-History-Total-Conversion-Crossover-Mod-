@@ -9737,7 +9737,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_19
+	id = CAL_compromising_with_libs_and_cons
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9751,7 +9751,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_conservative_new_deal
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_19"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_compromising_with_libs_and_cons"
 	}
 }
 
@@ -9775,7 +9775,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_21
+	id = CAL_tame_the_bull_moose
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9789,7 +9789,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_radical_new_deal
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_21"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_tame_the_bull_moose"
 	}
 }
 
@@ -9918,7 +9918,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_28
+	id = CAL_reaching_across_the_aisle
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9929,13 +9929,13 @@ shared_focus = {
 		focus = CAL_finish_western_new_deal_projects
 	}
 	prerequisite = {
-		focus = CAL_19
+		focus = CAL_compromising_with_libs_and_cons
 	}
 	x = 0
 	y = 2
 	relative_position_id = CAL_a_conservative_new_deal
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_28"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reaching_across_the_aisle"
 	}
 }
 
@@ -9959,7 +9959,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_30
+	id = CAL_fully_regulate_big_buisness
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9970,13 +9970,13 @@ shared_focus = {
 		focus = CAL_plan_new_new_deal_projects
 	}
 	prerequisite = {
-		focus = CAL_21
+		focus = CAL_tame_the_bull_moose
 	}
 	x = 0
 	y = 2
 	relative_position_id = CAL_a_radical_new_deal
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_30"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_fully_regulate_big_buisness"
 	}
 }
 
@@ -10157,7 +10157,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_39
+	id = CAL_finishing_up_economic_recovery
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10168,18 +10168,18 @@ shared_focus = {
 		focus = CAL_finish_western_new_deal_projects
 	}
 	prerequisite = {
-		focus = CAL_28
+		focus = CAL_reaching_across_the_aisle
 	}
 	x = 0
 	y = 2
 	relative_position_id = CAL_finish_western_new_deal_projects
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_39"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_finishing_up_economic_recovery"
 	}
 }
 
 shared_focus = {
-	id = CAL_40
+	id = CAL_stamping_out_waste
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10187,21 +10187,21 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_19
+		focus = CAL_compromising_with_libs_and_cons
 	}
 	prerequisite = {
-		focus = CAL_28
+		focus = CAL_reaching_across_the_aisle
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_19
+	relative_position_id = CAL_compromising_with_libs_and_cons
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_40"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_stamping_out_waste"
 	}
 }
 
 shared_focus = {
-	id = CAL_41
+	id = CAL_continued_economic_recovery
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10212,18 +10212,18 @@ shared_focus = {
 		focus = CAL_plan_new_new_deal_projects
 	}
 	prerequisite = {
-		focus = CAL_30
+		focus = CAL_fully_regulate_big_buisness
 	}
 	x = 0
 	y = 2
 	relative_position_id = CAL_plan_new_new_deal_projects
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_40"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_stamping_out_waste"
 	}
 }
 
 shared_focus = {
-	id = CAL_42
+	id = CAL_the_american_phoenix
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10231,16 +10231,16 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_21
+		focus = CAL_tame_the_bull_moose
 	}
 	prerequisite = {
-		focus = CAL_30
+		focus = CAL_fully_regulate_big_buisness
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_21
+	relative_position_id = CAL_tame_the_bull_moose
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_42"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_american_phoenix"
 	}
 }
 
@@ -10262,7 +10262,7 @@ shared_focus = {
 	y = 2
 	relative_position_id = CAL_bringing_back_traditional_values
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_42"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_conservative_america"
 	}
 }
 
@@ -10371,7 +10371,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_49
+	id = CAL_enforce_the_bill_of_rights
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10379,16 +10379,16 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_39
+		focus = CAL_finishing_up_economic_recovery
 	}
 	prerequisite = {
-		focus = CAL_40
+		focus = CAL_stamping_out_waste
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_28
+	relative_position_id = CAL_reaching_across_the_aisle
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_49"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_enforce_the_bill_of_rights"
 	}
 }
 
@@ -10412,7 +10412,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_51
+	id = CAL_expand_the_bill_of_rights
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10420,16 +10420,16 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_41
+		focus = CAL_continued_economic_recovery
 	}
 	prerequisite = {
-		focus = CAL_42
+		focus = CAL_the_american_phoenix
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_30
+	relative_position_id = CAL_fully_regulate_big_buisness
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_51"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_bill_of_rights"
 	}
 }
 
@@ -10491,8 +10491,8 @@ shared_focus = {
 		focus = CAL_give_me_your_tired_your_poor
 	}
 	prerequisite = {
-		focus = CAL_49
-		focus = CAL_51
+		focus = CAL_enforce_the_bill_of_rights
+		focus = CAL_expand_the_bill_of_rights
 	}
 	x = 0
 	y = 1
