@@ -1,7 +1,7 @@
 ## Intro ##
 
 focus_tree = {
-    id = ALB_starting_focus_tree
+    id = ALB_focus_tree
     country = {
 		factor = 0
 		modifier = { 
