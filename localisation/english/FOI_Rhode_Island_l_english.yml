@@ -1,0 +1,49 @@
+﻿l_english:
+## Rhode Island ##
+
+#Political Parties
+
+RDI_communism_party: "RICP"
+RDI_communism_party_long: "§YRhode Island Communist Party§!"
+RDI_socialism_party: "LS [S]"
+RDI_socialism_party_long: "§YLovecraft Society [Socialists]§!"
+RDI_syndicalism_party: "ASS"
+RDI_syndicalism_party_long: "§YAmerican Syndicalist Society§!"
+RDI_social_democracy_party: "SDPNE/UDPR"
+RDI_social_democracy_party_long: "§YSocial Democratic Paty of New England/United Democratic Party Rhode Island§!"
+RDI_democratic_party: "LP"
+RDI_democratic_party_long: "§YLiberterian Party§!"
+RDI_conservatism_party: "LS [P]"
+RDI_conservatism_party_long: "§YLovecraft Society [Pragmatists]§!"
+RDI_neutrality_party: "LS [P]"
+RDI_neutrality_party_long: "§YLovecraft Society [Pragmatists]§!"
+RDI_accelerationism_party: "LS [R]"
+RDI_accelerationism_party_long: "§YLovecraft Society [Radicals]§!"
+RDI_paternal_autocrat_party: "LS [C]"
+RDI_paternal_autocrat_party_long: "§YLovecraft Society [Conservatives]§!"
+RDI_ultranationalism_party: "NENP"
+RDI_ultranationalism_party_long: "§YNew England National Party§!"
+RDI_fascism_party: "LS [N]"
+RDI_fascism_party_long: "§YLovecraft Society [Nationalists]§!"
+RDI_national_socialism_party: "Assorted Cults"
+RDI_national_socialism_party_long: "§YAssorted Cults§!"
+RDI_esotericism_party: "Assorted Cults"
+RDI_esotericism_party_long: "Assorted Cults"
+
+
+### Leader Bios ###
+
+### Ideas ###
+
+RDI_factionalism: "Factionalism"
+
+RDI_occultists_in_the_shadows: "Occultists in the Shadows"
+
+RDI_anglo_saxon_civ: "Anglo-Saxon Civilisation"
+
+RDI_occult_leg: "Occult Legacy"
+
+RDI_occultists_in_the_shadows_min: "Occultists in the Shadows"
+
+##Focus##
+

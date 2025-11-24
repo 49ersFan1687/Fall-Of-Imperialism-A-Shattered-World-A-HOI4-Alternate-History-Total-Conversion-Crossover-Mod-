@@ -1,0 +1,35 @@
+###########################
+# Rhode Island Events
+###########################
+
+add_namespace = rhode_island
+
+# Start Event
+country_event = {
+	id = rhode_island.1
+	title = rhode_island.1.t
+	desc = rhode_island.1.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = rhode_island.1.a
+	 		
+	}			
+}
+country_event = {
+	id = rhode_island.2
+	title = rhode_island.2.t
+	desc = rhode_island.2.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = rhode_island.2.a
+	 	}	
+	}			
+}
