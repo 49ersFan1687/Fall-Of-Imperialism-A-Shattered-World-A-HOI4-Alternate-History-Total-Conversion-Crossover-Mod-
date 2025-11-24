@@ -10517,11 +10517,15 @@ shared_focus = {
 		has_completed_focus = CAL_believers_in_american_progress
 	}
 	x = 0
-	y = 3
+	y = 2
 	relative_position_id = CAL_the_new_bastion_of_freedom
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_beginning_the_long_march_west"
 	}
+}
+
+shared_focus = {
+	id = CAL_re
 }
 
 shared_focus = {}
