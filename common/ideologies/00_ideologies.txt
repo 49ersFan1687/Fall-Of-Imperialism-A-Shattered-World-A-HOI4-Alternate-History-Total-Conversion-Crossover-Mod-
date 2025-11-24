@@ -25,7 +25,7 @@ ideologies = {
 	### Syndicalist Subideologies ###
 	syndicalism = {
 		types = {
-			syndicalism_ideology = { }
+			syndicalism_ideology = { } # Generic #
 			syndicalism_anarcho_syndicalism_ideology = { }
 			syndicalism_agrarian_syndicalism_ideology = { }
 			syndicalism_broad_communism_ideology = { }
