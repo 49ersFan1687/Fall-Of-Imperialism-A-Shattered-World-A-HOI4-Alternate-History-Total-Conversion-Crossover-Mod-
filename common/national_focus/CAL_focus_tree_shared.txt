@@ -125,7 +125,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CAL_alone_and_isolated
-	icon = GFX_alone_and_isolated
+	icon = GFX_focus_alone_and_isolated
 	cost = 3
 	available_if_capitulated = no
 	ai_will_do = {
