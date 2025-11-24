@@ -53,7 +53,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CSD_the_many_faces_of_cascadia
 	}
-	x = -6
+	x = -5
 	y = 1
 	relative_position_id = CSD_the_many_faces_of_cascadia
 	completion_reward = {
@@ -72,7 +72,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CSD_the_many_faces_of_cascadia
 	}
-	x = -3
+	x = -2.5
 	y = 1
 	relative_position_id = CSD_the_many_faces_of_cascadia
 	completion_reward = {
@@ -110,7 +110,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CSD_the_many_faces_of_cascadia 
 	}
-	x = 3
+	x = 2.5
 	y = 1
 	relative_position_id = CSD_the_many_faces_of_cascadia
 	completion_reward = {
@@ -129,7 +129,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CSD_the_many_faces_of_cascadia 
 	}
-	x = 6
+	x = 5
 	y = 1
 	relative_position_id = CSD_the_many_faces_of_cascadia
 	completion_reward = {
