@@ -54,4 +54,7 @@ spriteTypes = {
 		name = "GFX_CAL_Omar_Nelson_Bradley"
 		textureFile = "gfx/leaders/CAL/Portrait_CAL_Omar_Nelson_Bradley.dds"
 	}
+
+	# Cascadia #
+
 }
