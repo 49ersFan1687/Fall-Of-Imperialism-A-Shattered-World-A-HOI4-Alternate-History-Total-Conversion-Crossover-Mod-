@@ -200,6 +200,7 @@ characters = {
     }
 
     # Greater Germanic Reich - Generals #
+
     GER_heinz_wilhelm_guderian = {
         name = GER_heinz_wilhelm_guderian
         portraits = {
@@ -257,7 +258,24 @@ characters = {
         }
     }
 
-    GER_
+    GER_lothar_rendulic = {
+        name = GER_lothar_rendulic
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = {  }
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
 
     # Greater Germanic Reich - Waffen-SS Field Marshals #
     GER_felix_martin_julius_steiner = {
