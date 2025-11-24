@@ -32,11 +32,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CSD_sunrise_on_the_shattered_pacific_northwest
+		focus = CSD_sunrise_on_the_shattered_pacific
 	}
 	x = 0
 	y = 1
-	relative_position_id = CSD_sunrise_on_the_shattered_pacific_northwest
+	relative_position_id = CSD_sunrise_on_the_shattered_pacific
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CSD_the_many_faces_of_cascadia"
 	}
