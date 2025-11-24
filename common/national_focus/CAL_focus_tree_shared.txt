@@ -10516,7 +10516,7 @@ shared_focus = {
 		has_completed_focus = CAL_a_bulwark_of_justice
 		has_completed_focus = CAL_believers_in_american_progress
 	}
-	x = 0
+	x = -9
 	y = 2
 	relative_position_id = CAL_the_new_bastion_of_freedom
 	completion_reward = {
@@ -10565,4 +10565,22 @@ shared_focus = {}
 
 shared_focus = {}
 
-# Superregional Stage - Eastward Expansion - Part Two -  Great Plains #
+# Superregional Stage - Eastward Expansion - Part Two - The Great Plains #
+shared_focus = {
+	id = CAL_continuing_to_the_great_plains
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		has_completed_focus = CAL_
+	}
+	x = 9
+	y = 2
+	relative_position_id = CAL_the_new_bastion_of_freedom
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_continuing_to_the_great_plains"
+	}
+}
