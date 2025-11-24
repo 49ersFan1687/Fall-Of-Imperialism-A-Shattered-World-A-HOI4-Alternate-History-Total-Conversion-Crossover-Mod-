@@ -3994,7 +3994,7 @@ shared_focus = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
 
-	x = 18
+	x = 20
 	y = 0
 	relative_position_id = CAL_looking_outwards_from_the_golden_state
 	completion_reward = {
@@ -8453,7 +8453,7 @@ shared_focus = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
 	x = 0
-	y = 3
+	y = 2
 	relative_position_id = CAL_the_army_goes_marching_along
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reinstate_the_secretary_of_state_office"
@@ -9257,8 +9257,8 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_a_coalition_to_eradicate_evil
 	}
-	x = 0
-	y = 2
+	x = -6
+	y = 1
 	relative_position_id = CAL_the_giant_awakens_once_more
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_beginning_the_initial_tranisition_to_a_civilian_government"
@@ -10516,7 +10516,7 @@ shared_focus = {
 		has_completed_focus = CAL_a_bulwark_of_justice
 		has_completed_focus = CAL_believers_in_american_progress
 	}
-	x = 0
+	x = -4
 	y = 2
 	relative_position_id = CAL_the_new_bastion_of_freedom
 	completion_reward = {
