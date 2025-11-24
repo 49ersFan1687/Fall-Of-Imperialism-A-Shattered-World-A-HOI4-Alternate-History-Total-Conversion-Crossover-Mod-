@@ -103,7 +103,27 @@ characters = {
     }
 
     # British Exiles Generals #
-  
+    CAN_alan_gordon_cunningham = {
+        name = CAN_alan_gordon_cunningham
+         portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+			traits = {
+				
+			}
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+    }
 
 
     # Royal Navy Admirals #
