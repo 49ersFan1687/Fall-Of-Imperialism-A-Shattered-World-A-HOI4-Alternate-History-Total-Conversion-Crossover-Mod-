@@ -19,7 +19,7 @@ focus_tree = {
 	shared_focus = CAL_reform_the_united_states_navy
 	shared_focus = CAL_reinstate_the_secretary_of_state_office
 	shared_focus = CAL_beginning_the_initial_tranisition_to_a_civilian_government
-	shared_focus = CAL_our_focus_on_the_four_corners_and_southwestern_southern_states
+	shared_focus = CAL_beginning_the_long_march_east
 
     continuous_focus_position = { x = 6000 y = 2000 }
 }
