@@ -9627,7 +9627,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_13
+	id = CAL_learn_from_our_mistakes
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9641,7 +9641,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_a_radical_apporach
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_13"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_learn_from_our_mistakes"
 	}	
 }
 
@@ -9816,7 +9816,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_23
+	id = CAL_rebuilding_trust_in_people
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -9830,7 +9830,7 @@ shared_focus = {
 	y = 2
 	relative_position_id = CAL_free_market_economics
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_23"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_trust_in_people"
 	}
 }
 shared_focus = {
@@ -9845,13 +9845,13 @@ shared_focus = {
 		focus = CAL_in_landons_footsteps
 	}
 	prerequisite = {
-		focus = CAL_13
+		focus = CAL_learn_from_our_mistakes
 	}
 	x = 0
 	y = 2
 	relative_position_id = CAL_a_radical_apporach
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_23"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_trust_in_our_people"
 	}
 }
 
@@ -10025,7 +10025,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_33
+	id = CAL_new_republicanism
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10047,7 +10047,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_34
+	id = CAL_a_republican_new_deal
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10055,16 +10055,16 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_13
+		focus = CAL_learn_from_our_mistakes
 	}
 	prerequisite = {
 		focus = CAL_new_radical_republicanism
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_13
+	relative_position_id = CAL_learn_from_our_mistakes
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_34"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_republican_new_deal"
 	}
 }
 
@@ -10267,7 +10267,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_44
+	id = CAL_appoint_a_republican_speaker
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10275,13 +10275,13 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_23
+		focus = CAL_rebuilding_trust_in_people
 	}
 	x = 0
 	y = 2
-	relative_position_id = CAL_23
+	relative_position_id = CAL_rebuilding_trust_in_people
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_44"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_appoint_a_republican_speaker"
 	}
 }
 
@@ -10294,10 +10294,10 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_33
+		focus = CAL_new_republicanism
 	}
 	prerequisite = {
-		focus = CAL_34
+		focus = CAL_a_republican_new_deal
 	}
 	x = 0
 	y = 2
@@ -10434,7 +10434,7 @@ shared_focus = {
 }
 
 shared_focus = {	
-	id = CAL_52
+	id = CAL_a_bulwark_of_liberty
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10442,7 +10442,7 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_44
+		focus = CAL_appoint_a_republican_speaker
 	}
 	prerequisite = {
 		focus = CAL_a_conservative_america
@@ -10450,9 +10450,9 @@ shared_focus = {
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_44
+	relative_position_id = CAL_appoint_a_republican_speaker
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_51"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_bulwark_of_liberty"
 	}
 }
 
@@ -10512,7 +10512,7 @@ shared_focus = {
 		factor = 1
 	}
 	available = {
-		has_completed_focus = CAL_
+		has_completed_focus = CAL_a_bulwark_of_liberty
 		has_completed_focus = CAL_
 		has_completed_focus = CAL_believers_in_american_progress
 	}
