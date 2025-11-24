@@ -10504,7 +10504,7 @@ shared_focus = {
 
 # Superregional Stage - Eastward Expansion - Part One -  Four Corners, Texas, and Oklahoma #
 shared_focus = {
-	id = CAL_beginning_the_long_march_west
+	id = CAL_beginning_the_long_march_east
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10523,6 +10523,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_beginning_the_long_march_west"
 	}
 }
+
 shared_focus = {}
 shared_focus = {}
 shared_focus = {}
