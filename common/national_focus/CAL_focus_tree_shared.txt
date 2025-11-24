@@ -10599,3 +10599,22 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_continuing_to_the_great_plains"
 	}
 }
+
+shared_focus = {
+	id = CAL_searching_for_remnants_and_friends
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_continuing_to_the_great_plains
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_continuing_to_the_great_plains
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_searching_for_remnants_and_friends"
+	}
+}
