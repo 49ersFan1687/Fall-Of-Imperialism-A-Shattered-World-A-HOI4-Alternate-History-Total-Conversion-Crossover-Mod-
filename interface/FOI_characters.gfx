@@ -48,6 +48,10 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_CAL_Maxwell_Devenport_Taylor"
-		textureFile = "gfx/leaders/CAL/Portrait_CAL_Maxewell_davenport_Taylor.dds"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Maxewell_Davenport_Taylor.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Omar_Nelson_Bradley"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Omar_Nelson_Bradley.dds"
 	}
 }
