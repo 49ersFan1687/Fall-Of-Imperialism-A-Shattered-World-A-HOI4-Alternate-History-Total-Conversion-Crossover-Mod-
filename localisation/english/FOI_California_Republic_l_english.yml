@@ -3,8 +3,32 @@
 CAL:0 "California Focus Tree"
 
 ### Political Parties - California Republic ###
-CAL_communist_party:0 "Communist Party USA"
-CAL_communist_party_long:0 "Communist Party of the United States of America"
+CAL_communism_party: 
+CAL_communism_party_long: 
+CAL_socialism_party: 
+CAL_socialism_party_long: 
+CAL_syndicalism_party: 
+CAL_syndicalism_party_long: 
+CAL_social_democracy_party: 
+CAL_social_democracy_party_long: 
+CAL_democratic_party: 
+CAL_democratic_party_long: 
+CAL_conservatism_party: 
+CAL_conservatism_party_long: 
+CAL_neutrality_party: 
+CAL_neutrality_party_long: 
+CAL_accelerationism_party: 
+CAL_accelerationism_party_long: "
+CAL_paternal_autocrat_party: 
+CAL_paternal_autocrat_party_long: 
+CAL_ultranationalism_party: 
+CAL_ultranationalism_party_long: 
+CAL_fascism_party: 
+CAL_fascism_party_long: 
+CAL_national_socialism_party: 
+CAL_national_socialism_party_long: 
+CAL_esotericism_party: 
+CAL_esotericism_party_long: 
 
 ### Character Localization - Leaders ###
 CAL_henry_agard_wallace: "Henry Agard Wallace"
