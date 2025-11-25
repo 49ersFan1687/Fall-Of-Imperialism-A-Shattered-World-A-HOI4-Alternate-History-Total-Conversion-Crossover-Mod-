@@ -138,10 +138,10 @@ characters = {
 		desc = 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/CAL/Portrait_CAL_dwight_david_Eisenhower.dds"
+				large = "gfx/leaders/CAL/Portrait_CAL_Dwight_David_Eisenhower.dds"
 			}
 			army = {
-				large = "gfx/leaders/CAL/Portrait_CAL_dwight_david_Eisenhower.dds"
+				large = "gfx/leaders/CAL/Portrait_CAL_Dwight_David_Eisenhower.dds"
 			}
 		}
 		field_marshal = {
@@ -177,10 +177,10 @@ characters = {
 		desc = 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/CAL/Portrait_CAL_george_Catlett_Marshall.dds"
+				large = "gfx/leaders/CAL/Portrait_CAL_George_Catlett_Marshall.dds"
 			}
 			army = {
-				large = "gfx/leaders/CAL/Portrait_CAL_george_Catlett_Marshall.dds"
+				large = "gfx/leaders/CAL/Portrait_CAL_George_Catlett_Marshall.dds"
 			}
 		}
 		field_marshal = {
@@ -253,7 +253,7 @@ characters = {
 		desc = 
 		portraits = {
 			army = {
-				large = "gfx/leaders/CAL/Portrait_CAL_george_Smith_Patton_Jr.dds"
+				large = "gfx/leaders/CAL/Portrait_CAL_George_Smith_Patton_Jr.dds"
 			}
 		}
 		corps_commander = {
@@ -313,7 +313,7 @@ characters = {
 		desc = 
 		portraits = {
 			army = {
-				large = "gfx/leaders/CAL/Portrait_CAL_Smedley_darlington_Butler.dds"
+				large = "gfx/leaders/CAL/Portrait_CAL_Smedley_Darlington_Butler.dds"
 			}
 		}
 		corps_commander = {
@@ -337,7 +337,7 @@ characters = {
 		desc = 
 		portraits = {
 			army = {
-				large = "gfx/leaders/CAL/Portrait_CAL_glynda_goodwitch.dds"
+				large = "gfx/leaders/CAL/Portrait_CAL_Glynda_Goodwitch.dds"
 			}
 		}
 		corps_commander = {
@@ -397,7 +397,7 @@ characters = {
 		desc = 
 		portraits = {
 			army = {
-				large = "gfx/leaders/CAL/Portrait_CAL_Maxewell_davenport_Taylor.dds"
+				large = "gfx/leaders/CAL/Portrait_CAL_Maxewell_Davenport_Taylor.dds"
 			}
 		}
 		corps_commander = {
@@ -420,7 +420,7 @@ characters = {
 		desc = 
 		portraits = {
 			army = {
-				large = "gfx/leaders/CAL/Portrait_CAL_Mark_wayne_Clark.dds"
+				large = "gfx/leaders/CAL/Portrait_CAL_Mark_Wayne_Clark.dds"
 			}
 		}
 		corps_commander = {
@@ -466,7 +466,7 @@ characters = {
 		desc = 
 		portraits = {
 			army = {
-				large = "gfx/leaders/CAL/Portrait_CAL_Jacob_Loucks_devers.dds"
+				large = "gfx/leaders/CAL/Portrait_CAL_Jacob_Loucks_Devers.dds"
 			}
 		}
 		corps_commander = {
