@@ -25,7 +25,7 @@ ideologies = {
 	### Syndicalist Subideologies ###
 	syndicalism = {
 		types = {
-			syndicalism_ideology = { } # Generic #
+			syndicalism_ideology = { }
 			syndicalism_anarcho_syndicalism_ideology = { }
 			syndicalism_agrarian_syndicalism_ideology = { }
 			syndicalism_broad_communism_ideology = { }
@@ -126,7 +126,7 @@ ideologies = {
 			longism_ideology = { }
 			semi_constitutional_monarchy_ideology = { }
 			democratic_stratocracy_ideology = { }
-			irish_national_catholicism = { }
+			irish_national_catholicism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 135 135 140 }

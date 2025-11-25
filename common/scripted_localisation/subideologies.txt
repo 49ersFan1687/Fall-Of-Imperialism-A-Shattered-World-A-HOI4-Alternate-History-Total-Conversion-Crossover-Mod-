@@ -156,6 +156,12 @@ defined_text = {
 		}
 		localization_key = autocratic_marxism_ideology
 	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = communism_broad_communism_ideology
+		}
+		localization_key = communism_broad_communism_ideology
+	}
 }
 defined_text = {
 	name = GetSubIdeologySyndicalism
@@ -172,7 +178,30 @@ defined_text = {
 		}
 		localization_key = syndicalist_anarcho_syndicalism_ideology
 	}
-
+	text = {
+		trigger = {
+			has_country_leader_ideology = syndicalism_anarcho_syndicalism_ideology
+		}
+		localization_key = syndicalism_anarcho_syndicalism_ideology
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = syndicalism_agrarian_syndicalism_ideology
+		}
+		localization_key = syndicalism_agrarian_syndicalism_ideology
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = syndicalism_broad_communism_ideology
+		}
+		localization_key = syndicalism_broad_communism_ideology
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = red_junta_syndicalism_ideology
+		}
+		localization_key = red_junta_syndicalism_ideology
+	}
 }
 defined_text = {
 	name = GetSubIdeologySocialism
@@ -251,9 +280,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = syndicalism_ideology
+			has_country_leader_ideology = socialism_broad_communism_ideology
 		}
-		localization_key = syndicalism_ideology
+		localization_key = socialism_broad_communism_ideology
 	}
 
 }
@@ -280,6 +309,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_country_leader_ideology = narodnikism_ideology
+		}
+		localization_key = narodnikism_ideology
+	}
+	text = {
+		trigger = {
 			has_country_leader_ideology = longism_ideology
 		}
 		localization_key = longism_ideology
@@ -301,6 +336,12 @@ defined_text = {
 			has_country_leader_ideology = liberal_feminist_socialism_ideology
 		}
 		localization_key = liberal_feminist_socialism_ideology
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = social_democracy_ideology
+		}
+		localization_key = social_democracy_ideology
 	}
 	
 }
@@ -470,9 +511,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = irish_national_catholicism
+			has_country_leader_ideology = irish_national_catholicism_ideology
 		}
-		localization_key = irish_national_catholicism
+		localization_key = irish_national_catholicism_ideology
 	}
 	
 }
