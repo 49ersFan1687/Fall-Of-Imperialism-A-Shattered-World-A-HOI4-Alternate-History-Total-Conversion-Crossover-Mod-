@@ -699,8 +699,8 @@ characters = {
 		desc = 
 		portraits = {
 			army = {
-				large = 
-				small =
+				large = "gfx/leaders/CAL/Portrait_CAL_Ernest_Joseph_King.dds"
+				small = "gfx/leaders/CAL/Portrait_CAL_Ernest_Joseph_King.dds"
 			}
 			civilian = {
 				small = 
@@ -737,14 +737,20 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_Chester_William_Nimitz.dds"
-				small =
+				small = "gfx/leaders/CAL/Portrait_Chester_William_Nimitz.dds"
 			}
 			civilian = {
-				small = "gfx/leaders/CAL/Portrait_Chester_William_Nimitz.dds"
+				small = 
 			}
 		}
 		navy_leader = {
-			traits = { gentlemanly naval_lineage superior_tactician spotter blue_water_expert }
+			traits = {
+				gentlemanly
+				naval_lineage
+				superior_tactician
+				spotter
+				blue_water_expert
+			}
 			skill = 5
 			attack_skill = 3
 			defense_skill = 3
@@ -768,20 +774,23 @@ characters = {
 		desc = 
 		portraits = {
 			army = {
-				large = 
-				small =
+				large = "gfx/leaders/CAL/Portrait_William_Daniel_Leahy.dds"
+				small = "gfx/leaders/CAL/Portrait_William_Daniel_Leahy.dds"
 			}
 			civilian = {
 				small = 
 			}
 		}
 		navy_leader = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			maneuvering_skill = 
-			coordination_skill =
+			traits = {
+				ironside
+				superior_tactician 
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 4
 		}
 		advisior = { 
 			slot = 
@@ -795,24 +804,29 @@ characters = {
 	}
 
 	CAL_william_fredrick_halsey_jr = {
-		name = CAL = CAL_william_fredrick_halsey_jr
+		name = CAL_william_fredrick_halsey_jr
 		desc = 
 		portraits = {
 			army = {
-				large = 
-				small =
+				large = "gfx/leaders/CAL/Portrait_William_Fredrick_Halsey_Jr.dds"
+				small = "gfx/leaders/CAL/Portrait_William_Fredrick_Halsey_Jr.dds"
 			}
 			civilian = {
 				small = 
 			}
 		}
 		navy_leader = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			maneuvering_skill = 
-			coordination_skill =
+			traits = {
+				bold
+				aviation_enthusiast
+				superior_tactician
+				spotter
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 2
 		}
 		advisior = { 
 			slot = 
