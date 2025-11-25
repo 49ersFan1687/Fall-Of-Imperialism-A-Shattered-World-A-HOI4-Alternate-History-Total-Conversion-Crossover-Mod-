@@ -243,18 +243,18 @@ characters = {
         name = GER_hans_speidel
         portraits = {
             civilian = {
-                large = GFX_fish
+                large = "gfx/leaders/GER/Portrait_GER_Hans_Speidel.dds"
             }
             army = {
-                large = GFX_fish
+                large = "gfx/leaders/GER/Portrait_GER_Hans_Speidel.dds"
             }
         }
         corps_commander = {
-            traits = {  }
-            attack_skill = 1
-            defense_skill = 1
-            planning_skill = 1
-            logistics_skill = 1
+            traits = { skilled_staffer trait_cautious }
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 4
+            logistics_skill = 3
         }
     }
 
