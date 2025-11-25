@@ -711,12 +711,13 @@ characters = {
 				superior_tactician
 				aviation_enthusiast
 				blockade_runner
+				career_officer
 			}
-			skill = 4
+			skill = 5
 			attack_skill = 4
-			defense_skill = 4
-			maneuvering_skill = 4
-			coordination_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 6
 		}
 		advisior = {
 			cost = 150 
