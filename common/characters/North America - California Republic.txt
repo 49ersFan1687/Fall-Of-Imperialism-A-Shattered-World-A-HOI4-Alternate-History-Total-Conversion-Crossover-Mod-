@@ -743,12 +743,12 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			maneuvering_skill = 
-			coordination_skill =
+			traits = { gentlemanly naval_lineage superior_tactician spotter blue_water_expert }
+			skill = 5
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 5
+			coordination_skill = 5
 		}
 		advisior = {
 			cost = 150
