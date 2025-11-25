@@ -284,6 +284,12 @@ defined_text = {
 		}
 		localization_key = socialism_broad_communism_ideology
 	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = left_lovecraftism_ideology
+		}
+		localization_key = left_lovecraftism_ideology
+	}
 
 }
 defined_text = {
@@ -534,6 +540,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_country_leader_ideology = avante_garde_lovecraftism_ideology
+		}
+		localization_key = avante_garde_lovecraftism_ideology
+	}
+	text = {
+		trigger = {
 			has_country_leader_ideology = cosmicism_ideology
 		}
 		localization_key = cosmicism_ideology
@@ -613,6 +625,12 @@ defined_text = {
 			has_country_leader_ideology = horthyism_ideology
 		}
 		localization_key = horthyism_ideology
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = lovecraftism_ideology
+		}
+		localization_key = lovecraftism_ideology
 	}
 }
 defined_text = {
@@ -748,6 +766,12 @@ defined_text = {
 		}
 		localization_key = clerical_fascism_ideology
 	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = true_believers_ideology
+		}
+		localization_key = true_believers_ideology
+	}
 
 	
 }
@@ -785,6 +809,13 @@ defined_text = {
 			has_country_leader_ideology = esoteric_esoteric_fascism_ideology
 		}
 		localization_key = esoteric_esoteric_fascism_ideology
+		
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = true_believers_esoteric_ideology
+		}
+		localization_key = true_believers_esoteric_ideology
 		
 	}
 	
