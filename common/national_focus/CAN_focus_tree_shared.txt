@@ -1,0 +1,14 @@
+focus_tree = {
+    id = CAL_focus_tree
+    country = {
+		factor = 0
+		modifier = { 
+            add = 10 
+            tag = CAL
+        }
+	}
+    default = no
+	shared_focus = CAN_
+
+    continuous_focus_position = { x = 6000 y = 2000 }
+}

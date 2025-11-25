@@ -62,6 +62,18 @@ spriteTypes = {
 		name = "GFX_CAL_Chester_William_Nimitz"
 		textureFile = "gfx/leaders/CAL/Portrait_Chester_William_Nimitz.dds"
 	}
+	spriteType = {
+		name = "GFX_CAL_Ernest_Joseph_King"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Ernest_Joseph_King.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_William_Daniel_Leahy"
+		textureFile = "gfx/leaders/CAL/Portrait_William_Daniel_Leahy.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_William_Fredrick_Halsey_Jr"
+		textureFile = "gfx/leaders/CAL/Portrait_William_Fredrick_Halsey_Jr.dds"
+	}
 
 	# Cascadia #
 
