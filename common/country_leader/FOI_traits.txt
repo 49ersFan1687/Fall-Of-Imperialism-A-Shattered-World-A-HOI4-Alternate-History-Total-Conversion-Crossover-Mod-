@@ -1,0 +1,36 @@
+leader_traits = {
+	RDI_divided_congress = {
+		sprite = 13
+		stability_factor = -0.05
+		justify_war_goal_time = 0.75
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	RDI_heir_of_innsmouth = {
+		sprite = 13
+		political_power_gain = 0.18
+		conscription_factor = 0.33
+		party_popularity_stability_factor = 0.04
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	OPM_beat_the_odds = {
+		sprite = 13
+		war_support_factor = 0.15
+		socialism_drift = 0.02
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	OPM_naive_idealist = {
+		sprite = 13
+		stability_factor = 0.13
+		socialism_acceptance = 75
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+}

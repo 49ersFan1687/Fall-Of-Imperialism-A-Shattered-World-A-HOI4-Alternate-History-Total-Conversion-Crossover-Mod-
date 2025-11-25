@@ -74,6 +74,18 @@ ideas = {
                 
             }
         }
+
+	RDI_seize_the_means = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		stability_factor = -0.1
+		consumer_goods_factor = -0.2
+            }
+            equipment_bonus = {
+                
+            }
+        }
       
         
         ### Air Force Reform Ideas ###
