@@ -3,32 +3,32 @@
 CAL:0 "California Focus Tree"
 
 ### Political Parties - California Republic ###
-CAL_communism_party: 
-CAL_communism_party_long: 
-CAL_socialism_party: 
-CAL_socialism_party_long: 
-CAL_syndicalism_party: 
-CAL_syndicalism_party_long: 
-CAL_social_democracy_party: 
-CAL_social_democracy_party_long: 
-CAL_democratic_party: 
-CAL_democratic_party_long: 
-CAL_conservatism_party: 
-CAL_conservatism_party_long: 
-CAL_neutrality_party: 
-CAL_neutrality_party_long: 
-CAL_accelerationism_party: 
-CAL_accelerationism_party_long: "
-CAL_paternal_autocrat_party: 
-CAL_paternal_autocrat_party_long: 
-CAL_ultranationalism_party: 
-CAL_ultranationalism_party_long: 
-CAL_fascism_party: 
-CAL_fascism_party_long: 
-CAL_national_socialism_party: 
-CAL_national_socialism_party_long: 
-CAL_esotericism_party: 
-CAL_esotericism_party_long: 
+CAL_communism_party: "CPC"
+CAL_communism_party_long: "§YCommunist Party of California§!"
+CAL_socialism_party: "CWF"
+CAL_socialism_party_long: "§YCalifornia Worker's Federation§!"
+CAL_syndicalism_party: "CWF"
+CAL_syndicalism_party_long: "§YCalifornia Worker's Federation§!"
+CAL_social_democracy_party: "SDP"
+CAL_social_democracy_party_long: "§YSocial Democratic Party§!"
+CAL_democratic_party: "Progressives"
+CAL_democratic_party_long: "§YProgressive Party§!"
+CAL_conservatism_party: "DRP"
+CAL_conservatism_party_long: "§YDemocrat-Republican Party§!"
+CAL_neutrality_party: "Provisional Government"
+CAL_neutrality_party_long: "§YProvisional Government§!"
+CAL_accelerationism_party: "CAA"
+CAL_accelerationism_party_long: "§YCalifornia Artist's Association§!"
+CAL_paternal_autocrat_party: "CSA"
+CAL_paternal_autocrat_party_long: "§YCalifornia State Army§!"
+CAL_ultranationalism_party: "MNLC"
+CAL_ultranationalism_party_long: "§YMovement for the National Liberation of California§!"
+CAL_fascism_party: "MNLC"
+CAL_fascism_party_long: "§YMovement for the National Liberation of California§!"
+CAL_national_socialism_party: "§RBANNED§!"
+CAL_national_socialism_party_long: "§RBANNED§!"
+CAL_esotericism_party: "§RBANNED§!"
+CAL_esotericism_party_long: "§RBANNED§!"
 
 ### Character Localization - Leaders ###
 CAL_henry_agard_wallace: "Henry Agard Wallace"
