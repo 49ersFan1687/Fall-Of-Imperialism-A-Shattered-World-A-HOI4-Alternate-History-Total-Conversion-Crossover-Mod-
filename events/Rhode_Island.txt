@@ -16,7 +16,10 @@ country_event = {
 	
 	option = {
 		name = rhode_island.1.a
-	 		
+	 	add_popularity = {
+			ideology = accelerationism
+			popularity = 0.09
+		}	
 	}			
 }
 country_event = {

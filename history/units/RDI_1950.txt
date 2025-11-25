@@ -1,0 +1,34 @@
+division_template = {
+	name = "Rhode Island State Guard"			
+
+	division_names_group = RDI_SG
+
+	regiments = {
+		irregular = { x = 0 y = 0 }
+		irregular = { x = 0 y = 1 }
+		irregular = { x = 0 y = 2 }
+	}
+}
+
+
+units = {
+	division = {
+		name = "Arkham Division"
+		location = 9832
+		division_template = "State Guard"		
+		start_equipment_factor = 0.7
+	}
+
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment
+			creator = "RDI"
+		}
+		requested_factories = 1
+		progress = 0.31
+		efficiency = 0.53
+	}
+}

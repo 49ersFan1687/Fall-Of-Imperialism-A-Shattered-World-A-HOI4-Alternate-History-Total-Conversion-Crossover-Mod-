@@ -1,6 +1,14 @@
 ﻿l_english:
 ## Rhode Island ##
 
+ RDI: "Rhode Island"
+ RDI_DEF: "Rhode Island"
+ RDI_ADJ: "Rhode Islander"
+ RDI_esotericism: "Messangers of Nyarlathotep"
+ RDI_esotericism_DEF: "Messangers of Nyarlathotep"
+ RDI_national_socialism: "Messangers of Nyarlathotep"
+ RDI_national_socialism_DEF: "Messangers of Nyarlathotep"
+
 #Political Parties
 
 RDI_communism_party: "RICP"
@@ -33,6 +41,12 @@ RDI_esotericism_party_long: "Assorted Cults"
 
 ### Leader Bios ###
 
+### Traits ###
+
+RDI_divided_congress: "Divided Congress"
+
+RDI_heir_of_innsmouth: "Heir of Innsmouth"
+
 ### Ideas ###
 
 RDI_factionalism: "Factionalism"
@@ -45,5 +59,12 @@ RDI_occult_leg: "Occult Legacy"
 
 RDI_occultists_in_the_shadows_min: "Occultists in the Shadows"
 
+RDI_seize_the_means: "Seize The Means"
+
+### Events ###
+
+rhode_island.1.t: "The Integration of The UAPA"
+rhode_island.1.d: "The UAPA, or United Amateur Press Association, is an organisation which seeks to unite both young and old writers, who do not wish to make great somes of money through their writing. Rather, these Writers find passion in their writing. This is the association which alored Lovecraft greatly, and whose legacy has shaped the organisation to this day. It seems only right, that we integrate such an Artist's Union into our system. Both in honour of Lovecraft, but also for the importance of helping and preserving such an Important part of Artist Culture and Amateurdom."
+rhode_island.1.a: "Welcome To Providence!"
 ##Focus##
 
