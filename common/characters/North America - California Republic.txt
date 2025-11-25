@@ -735,11 +735,11 @@ characters = {
 		desc = 
 		portraits = {
 			army = {
-				large = 
+				large = "gfx/leaders/CAL/Portrait_Chester_William_Nimitz.dds"
 				small =
 			}
 			civilian = {
-				small = 
+				small = "gfx/leaders/CAL/Portrait_Chester_William_Nimitz.dds"
 			}
 		}
 		navy_leader = {
