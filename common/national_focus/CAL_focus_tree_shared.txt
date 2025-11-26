@@ -7497,8 +7497,8 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
-	x = 0
-	y = 8
+	x = -1
+	y = 9
 	relative_position_id = CAL_new_heavy_jet_bomber_designs
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reform_the_united_states_navy"
@@ -10516,7 +10516,7 @@ shared_focus = {
 		has_completed_focus = CAL_a_bulwark_of_justice
 		has_completed_focus = CAL_believers_in_american_progress
 	}
-	x = -10
+	x = -11
 	y = 2
 	relative_position_id = CAL_the_new_bastion_of_freedom
 	completion_reward = {
@@ -10543,10 +10543,82 @@ shared_focus = {
 	}
 }
 
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
+shared_focus = {
+	id = CAL_subsuming_the_lone_star_state
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_assess_the_situation_for_potential_openings
+	}
+	x = -5
+	y = 1
+	relative_position_id = CAL_assess_the_situation_for_potential_openings
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_subsuming_the_lone_star_state"
+	}
+}
+
+shared_focus = {
+	id = CAL_plans_for_the_four_corners_states
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_assess_the_situation_for_potential_openings
+	}
+	x = 5
+	y = 1
+	relative_position_id = CAL_assess_the_situation_for_potential_openings
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_plans_for_the_four_corners_states"
+	}
+}
+
+shared_focus = {
+	id = CAL_integrate_the_willing
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_subsuming_the_lone_star_state
+	}
+	x = -2
+	y = 1
+	relative_position_id = CAL_subsuming_the_lone_star_state
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrate_the_willing"
+	}
+}
+
+shared_focus = {
+	id = CAL_conquer_the_defiant
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_subsuming_the_lone_star_state
+	}
+	x = 2
+	y = 1
+	relative_position_id = CAL_subsuming_the_lone_star_state
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_conquer_the_defiant"
+	}
+}
+
 shared_focus = {}
 shared_focus = {}
 
@@ -10592,7 +10664,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_
 	}
-	x = 10
+	x = 11
 	y = 2
 	relative_position_id = CAL_the_new_bastion_of_freedom
 	completion_reward = {
