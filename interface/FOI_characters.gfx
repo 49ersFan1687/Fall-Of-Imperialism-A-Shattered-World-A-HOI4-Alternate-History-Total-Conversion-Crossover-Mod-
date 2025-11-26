@@ -12,6 +12,15 @@ spriteTypes = {
 		name = "GFX_Leopold_SEN"
 		textureFile = "gfx/leaders/Africa/LeopoldSenegal.png"
 	}
+	# Rhode Island #
+	spriteType = {
+		name = "GFX_Congress_Of_Providence_RDI"
+		textureFile = "gfx/leaders/RDI/RDI_congress_of_providence.png"
+	}
+	spriteType = {
+		name = "GFX_Frank_Belknap_RDI"
+		textureFile = "gfx/leaders/RDI/RDI_frank_belknap_long.png"
+	}
 
 	# California #
 	spriteType = {
