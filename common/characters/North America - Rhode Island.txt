@@ -48,6 +48,25 @@ characters = {
             }
         }
     }
+    RDI_alfred_galpin = {
+        name = RDI_alfred_galpin
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_FRANK_BELKNAP_LONG_DESC"
+            expire = "1995.11.01"
+            ideology = lovecraftism_ideology
+            traits = {
+                
+            }
+        }
+    }
 
     RDI_clark_ashton_smith = {
         name = RDI_clark_ashton_smith
@@ -99,18 +118,6 @@ characters = {
 
     RDI_willis_conover = {
         name = RDI_willis_conover
-        portraits = {
-            civilian = {
-                large = GFX_fish
-            }
-            army = {
-                large = GFX_fish
-            }
-        }
-    }
-
-    RDI_alfred_galpin = {
-        name = RDI_alfred_galpin
         portraits = {
             civilian = {
                 large = GFX_fish
