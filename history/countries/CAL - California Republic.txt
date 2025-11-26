@@ -54,6 +54,7 @@ recruit_character = CAL_walter_elias_disney
 recruit_character = CAL_dwight_david_eisenhower
 recruit_character = CAL_omar_nelson_bradley
 recruit_character = CAL_george_catlett_marshall
+recruit_character = CAL_spitfire
 recruit_character = CAL_george_smith_patton_jr
 recruit_character = CAL_walton_harris_walker
 recruit_character = CAL_smedley_darlington_butler
