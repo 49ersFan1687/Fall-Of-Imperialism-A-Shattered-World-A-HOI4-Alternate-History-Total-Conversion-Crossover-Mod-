@@ -247,6 +247,27 @@ characters = {
 		}
 	}
 
+	CAL_spitfire = {
+		name = CAL_spitfire
+		desc =
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		field_marshal={
+			traits={ media_personality }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 4
+        }
+	}
+
 	# generals #
 	CAL_george_smith_patton_jr = {
 		name = CAL_george_smith_patton_jr
