@@ -38,6 +38,15 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
+	name = "Frank Belknap Long"
+	picture = GFX_Frank_Belknap_RDI
+	expire = "1995.1.1"
+	ideology = socialism_broad_communism_ideology
+	traits = {
+		
+	}
+}
+create_country_leader = {
 	name = "Congress of Providence"
 	picture = GFX_Congress_Of_Providence_RDI
 	expire = "1995.1.1"
@@ -100,3 +109,5 @@ create_country_leader = {
 		RDI_heir_of_innsmouth
 	}
 }
+
+
