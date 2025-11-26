@@ -48,6 +48,7 @@ characters = {
             }
         }
     }
+    
     RDI_alfred_galpin = {
         name = RDI_alfred_galpin
         portraits = {
