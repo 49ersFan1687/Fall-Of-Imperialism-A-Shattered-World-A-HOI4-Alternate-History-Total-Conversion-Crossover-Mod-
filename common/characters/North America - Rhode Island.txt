@@ -14,7 +14,7 @@ characters = {
         country_leader = {
             desc = "POLITICS_ROBERT_HILLARD_BARROW_DESC"
             expire = "1995.11.01"
-            ideology = marxism_ideology
+            ideology = left_lovecraftism_ideology
             traits = {
                 
             }
@@ -48,7 +48,7 @@ characters = {
             }
         }
     }
-    
+
     RDI_alfred_galpin = {
         name = RDI_alfred_galpin
         portraits = {
