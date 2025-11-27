@@ -38,6 +38,15 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
+	name = "Robert H. Barlow"
+	picture = GFX_Barlow_RDI
+	expire = "1995.1.1"
+	ideology = left_lovecraftism_ideology
+	traits = {
+		
+	}
+}
+create_country_leader = {
 	name = "Frank Belknap Long"
 	picture = GFX_Frank_Belknap_RDI
 	expire = "1995.1.1"

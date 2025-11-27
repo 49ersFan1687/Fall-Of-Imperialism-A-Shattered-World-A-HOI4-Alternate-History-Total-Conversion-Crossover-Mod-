@@ -83,6 +83,7 @@ shared_focus = {
         			last_election = 1935.01.01
 			}
 		retire_country_leader = yes
+		retire_country_leader = yes
 		add_stability = 0.08
 		remove_ideas = RDI_factionalism
 		country_event = { id = rhode_island.4 }
