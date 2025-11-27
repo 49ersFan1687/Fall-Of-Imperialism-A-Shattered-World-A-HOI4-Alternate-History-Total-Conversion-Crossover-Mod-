@@ -15,7 +15,7 @@ units = {
 	division = {
 		name = "Arkham Division"
 		location = 9832
-		division_template = "State Guard"		
+		division_template = "Rhode Island State Guard"		
 		start_equipment_factor = 0.7
 	}
 

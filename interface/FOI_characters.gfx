@@ -21,6 +21,10 @@ spriteTypes = {
 		name = "GFX_Frank_Belknap_RDI"
 		textureFile = "gfx/leaders/RDI/RDI_frank_belknap_long.png"
 	}
+	spriteType = {
+		name = "GFX_Barlow_RDI"
+		textureFile = "gfx/leaders/RDI/RDI_r_h_barlow.png"
+	}
 
 	# California #
 	spriteType = {

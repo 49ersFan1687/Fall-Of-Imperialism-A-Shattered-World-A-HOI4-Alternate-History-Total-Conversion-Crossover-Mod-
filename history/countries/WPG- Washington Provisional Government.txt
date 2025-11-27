@@ -19,7 +19,6 @@ set_popularities = {
 	social_democracy = 10
 	neutrality = 10
 }
-
 create_country_leader = {
 	name = "Dwayne Milford"
 	desc = ""
