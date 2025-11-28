@@ -10620,11 +10620,11 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = 
+	id = CAL
 }
 
 shared_focus = {
-	id = 
+	id = CAL
 }
 
 shared_focus = {}
