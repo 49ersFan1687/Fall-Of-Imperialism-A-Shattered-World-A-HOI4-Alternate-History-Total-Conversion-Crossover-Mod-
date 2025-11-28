@@ -632,7 +632,7 @@ characters = {
 		desc = 
 		portraits = {
 			army = {
-				large =
+				large = "gfx/leaders/CAL/Portrait_CAL_Hobart_Raymond_Gay.dds"
 			}
 		}
 		corps_commander = {
@@ -698,7 +698,7 @@ characters = {
 		desc = 
 		portraits = {
 			army = { 
-				large = 
+				large = "gfx/leaders/CAL/Portrait_CAL_Charity_Edna_Adams_Earley.dds"
 			}
 		}
 		corps_commander = {
@@ -903,17 +903,17 @@ characters = {
 		desc = 
 		portraits = {
 			army = {
-				large = 
-				small =
+				large = "gfx/leaders/CAL/Portrait_CAL_Issac_Campbell_Kidd_Sr.dds"
+				small = "gfx/leaders/CAL/Portrait_CAL_Issac_Campbell_Kidd_Sr.dds"
 			}
 		}
 		navy_leader = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			maneuvering_skill = 
-			coordination_skill =
+			traits = { blockade_runner bold fleet_protector }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
 		}
 	}
 
