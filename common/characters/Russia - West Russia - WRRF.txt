@@ -422,8 +422,8 @@ characters = {
 	}
 
 	# Red Navy Admirals #
-	RRF_Nnikolay_gerasimovich_kuznetsov = {
-		name = RRF_Nnikolay_gerasimovich_kuznetsov
+	RRF_nikolay_gerasimovich_kuznetsov = {
+		name = RRF_nikolay_gerasimovich_kuznetsov
 		portraits = {
 			civilian = {
 				large = GFX_fish
