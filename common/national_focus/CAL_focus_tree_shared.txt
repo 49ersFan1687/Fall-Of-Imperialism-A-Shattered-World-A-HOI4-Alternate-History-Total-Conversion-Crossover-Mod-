@@ -10554,7 +10554,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_assess_the_situation_for_potential_openings
 	}
-	x = -5
+	x = -3
 	y = 1
 	relative_position_id = CAL_assess_the_situation_for_potential_openings
 	completion_reward = {
@@ -10563,7 +10563,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_plans_for_the_four_corners_states
+	id = CAL_the_four_corners_front
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10573,11 +10573,11 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_assess_the_situation_for_potential_openings
 	}
-	x = 5
+	x = 3
 	y = 1
 	relative_position_id = CAL_assess_the_situation_for_potential_openings
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_plans_for_the_four_corners_states"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_four_corners_front"
 	}
 }
 
@@ -10620,23 +10620,326 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL
+	id = CAL_lure_the_navajo
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_four_corners_front
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_the_four_corners_front
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_lure_the_navajo"
+	}
 }
 
 shared_focus = {
-	id = CAL
+	id = CAL_rangers_reporting
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_four_corners_front
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_the_four_corners_front
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rangers_reporting"
+	}
+}
+
+shared_focus = {
+	id = CAL_admit_sequoyah_as_the_forty_ninth_state
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrate_the_willing
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_integrate_the_willing
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_admit_sequoyah_as_the_forty_ninth_state"
+	}
+}
+
+shared_focus = {
+	id = CAL_readmit_oklahoma_back_into_the_union
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrate_the_willing
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_integrate_the_willing
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_readmit_oklahoma_back_into_the_union"
+	}
+}
+
+shared_focus = {
+	id = CAL_the_cowboy_republic
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_conquer_the_defiant
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_conquer_the_defiant
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_cowboy_republic"
+	}
+}
+
+shared_focus = {
+	id = CAL_the_free_territory
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_conquer_the_defiant
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_conquer_the_defiant
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_free_territory"
+	}
+}
+
+shared_focus = {
+	id = CAL_scour_the_socialists
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_lure_the_navajo
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_lure_the_navajo
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_scour_the_socialists"
+	}
+}
+
+shared_focus = {
+	id = CAL_readmit_arizona
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rangers_reporting
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rangers_reporting
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_readmit_arizona"
+	}
+}
+
+shared_focus = {
+	id = CAL_a_new_brown_foster_act
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_admit_sequoyah_as_the_forty_ninth_state
+	}
+	prerequisite = {
+		focus = CAL_readmit_oklahoma_back_into_the_union
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_integrate_the_willing
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_free_territory"
+	}
+}
+
+shared_focus = {
+	id = CAL_the_peoples_republic
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_cowboy_republic
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_the_cowboy_republic
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_free_territory"
+	}
+}
+
+shared_focus = {
+	id = CAL_smash_houstons_dream
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_free_territory
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_the_free_territory
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_free_territory"
+	}
+}
+
+shared_focus = {
+	id = CAL_consolidate_the_colorado
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_scour_the_socialists
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_scour_the_socialists
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_consolidate_the_colorado"
+	}
+}
+
+shared_focus = {
+	id = CAL_readmit_new_mexico
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_readmit_arizona
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_readmit_arizona
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_readmit_new_mexico"
+	}
+}
+
+shared_focus = {
+	id = CAL_the_lone_star_and_sooner_state_back_under_america
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_a_new_brown_foster_act
+	}
+	prerequisite = {
+		focus = CAL_the_peoples_republic
+	}
+	prerequisite = {
+		focus = CAL_smash_houstons_dream
+	}
+	x = 0
+	y = 4
+	relative_position_id = CAL_subsuming_the_lone_star_state
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_lone_star_and_sooner_state_back_under_america"
+	}
+}
+
+shared_focus = {
+	id = CAL_davids_nightmare
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_consolidate_the_colorado
+	}
+	prerequisite = {
+		focus = CAL_readmit_new_mexico
+	}
+	x = 0
+	y = 4
+	relative_position_id = CAL_the_four_corners_front
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_davids_nightmare"
+	}
+}
+
+shared_focus = {
+	id = CAL_set_up_the_rebuilding_zones
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_lone_star_and_sooner_state_back_under_america
+	}
+	prerequisite = {
+		focus = CAL_davids_nightmare
+	}
+	x = 0
+	y = 6
+	relative_position_id = CAL_assess_the_situation_for_potential_openings
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_set_up_the_rebuilding_zones"
+	}
 }
 
 shared_focus = {}
 shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
 
 shared_focus = {}
 shared_focus = {}
@@ -10644,14 +10947,7 @@ shared_focus = {}
 shared_focus = {}
 shared_focus = {}
 shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
 
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
 shared_focus = {}
 shared_focus = {}
 
@@ -10695,3 +10991,8 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_searching_for_remnants_and_friends"
 	}
 }
+
+shared_focus = {}
+shared_focus = {}
+
+shared_focus = {}
