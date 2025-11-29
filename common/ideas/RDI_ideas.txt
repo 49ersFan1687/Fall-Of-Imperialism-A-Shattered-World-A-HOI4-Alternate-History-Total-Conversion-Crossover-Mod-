@@ -49,43 +49,43 @@ ideas = {
             }
         }
 	RDI_occult_leg = { 
-             allowed = { always = no }
-             picture = GFX_fish
-             modifier = {
-		stability_factor = -0.04
-		paternal_autocrat_drift = 0.02
-		fascism_drift = 0.01
-		weekly_manpower = 430 
-            }
-            equipment_bonus = {
-                
-            }
+        allowed = { always = no }
+        picture = GFX_fish
+        modifier = {
+		    stability_factor = -0.04
+		    paternal_autocrat_drift = 0.02
+		    fascism_drift = 0.01
+		    weekly_manpower = 430 
         }
+        equipment_bonus = {
+                
+        }
+    }
 	RDI_occultists_in_the_shadows_min = { 
-             allowed = { always = no }
-             picture = GFX_fish
-             modifier = {
-		stability_factor = -0.09
-		war_support_factor = -0.04
-		consumer_goods_factor = 0.13
-		esotericism_drift = 0.01
-            }
-            equipment_bonus = {
-                
-            }
+        allowed = { always = no }
+        picture = GFX_fish
+        modifier = {
+            stability_factor = -0.09
+            war_support_factor = -0.04
+            consumer_goods_factor = 0.13
+            esotericism_drift = 0.01
         }
+        equipment_bonus = {
+                
+        }
+    }
 
 	RDI_seize_the_means = { 
-             allowed = { always = no }
-             picture = GFX_fish
-             modifier = {
-		stability_factor = -0.1
+        allowed = { always = no }
+        picture = GFX_fish
+        modifier = {
+            stability_factor = -0.1
 		consumer_goods_factor = -0.2
-            }
-            equipment_bonus = {
-                
-            }
         }
+        equipment_bonus = {
+                
+        }
+    }
       
         
         ### Air Force Reform Ideas ###
