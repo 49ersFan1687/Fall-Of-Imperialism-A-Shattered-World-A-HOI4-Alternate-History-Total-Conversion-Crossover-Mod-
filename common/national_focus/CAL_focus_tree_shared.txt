@@ -10516,7 +10516,7 @@ shared_focus = {
 		has_completed_focus = CAL_a_bulwark_of_justice
 		has_completed_focus = CAL_believers_in_american_progress
 	}
-	x = -11
+	x = -8
 	y = 1
 	relative_position_id = CAL_the_new_bastion_of_freedom
 	completion_reward = {
@@ -11282,7 +11282,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_
 	}
-	x = 11
+	x = 8
 	y = 1
 	relative_position_id = CAL_the_new_bastion_of_freedom
 	completion_reward = {
