@@ -141,6 +141,7 @@ ideologies = {
 			accelerationism_ideology = { } # Generic #
 			nation_rejuvinatism_ideology = { }
 			cosmicism_ideology = { }
+			surrealism_ideology = { }
 			avante_garde_lovecraftism_ideology = { }
         }
 		dynamic_faction_names = { }
