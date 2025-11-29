@@ -1,91 +1,97 @@
 ideas = {
     ### Country Ideas - Rhode Island ###
     country = {
-        ### Starting Ideas ###
-       RDI_factionalism = { 
-             allowed = { always = no }
-             picture = GFX_fish
-             modifier = {
-		socialism_drift = 0.05
-		paternal_autocrat_drift = 0.05
-		stability_factor = -0.135
-		war_support_factor = -0.135
-                
+        ### Starting Ideas - Factionalism ###
+        RDI_factionalism = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea RDI_factionalism" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+                socialism_drift = 0.05
+                paternal_autocrat_drift = 0.05
+                stability_factor = -0.135
+                war_support_factor = -0.135
             }
             equipment_bonus = {
-                
-            }
-        }
-	 RDI_occultists_in_the_shadows = { 
-             allowed = { always = no }
-             picture = GFX_fish
-             modifier = {
-		stability_factor = -0.23
-		war_support_factor = -0.13
-		consumer_goods_factor = 0.23
-		esotericism_drift = 0.03
-		
-                
-            }
-            equipment_bonus = {
-                
-            }
-        }
-	#Racist Tree Ideas
-	RDI_anglo_saxon_civ = { 
-             allowed = { always = no }
-             picture = GFX_fish
-             modifier = {
-		stability_factor = 0.16
-		war_support_factor = 0.10
-		political_power_factor = 0.12
-		paternal_autocrat_drift = 0.01
-		production_factory_efficiency_gain_factor = 0.09
-		
-                
-            }
-            equipment_bonus = {
-                
-            }
-        }
-	RDI_occult_leg = { 
-        allowed = { always = no }
-        picture = GFX_fish
-        modifier = {
-		    stability_factor = -0.04
-		    paternal_autocrat_drift = 0.02
-		    fascism_drift = 0.01
-		    weekly_manpower = 430 
-        }
-        equipment_bonus = {
-                
-        }
-    }
-	RDI_occultists_in_the_shadows_min = { 
-        allowed = { always = no }
-        picture = GFX_fish
-        modifier = {
-            stability_factor = -0.09
-            war_support_factor = -0.04
-            consumer_goods_factor = 0.13
-            esotericism_drift = 0.01
-        }
-        equipment_bonus = {
-                
-        }
-    }
 
-	RDI_seize_the_means = { 
-        allowed = { always = no }
-        picture = GFX_fish
-        modifier = {
-            stability_factor = -0.1
-		consumer_goods_factor = -0.2
+            }
         }
-        equipment_bonus = {
+
+        ### Starting Ideas = Occultists in the Shadows ###
+        RDI_occultists_in_the_shadows = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_occultists_in_the_shadows" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+                stability_factor = -0.23
+                war_support_factor = -0.13
+                consumer_goods_factor = 0.23
+                esotericism_drift = 0.03
+            }
+            equipment_bonus = {
+
+            }
+        }
+
+	    ### Rhode Island Racist Tree Ideas ###
+        RDI_anglo_saxon_civ = { 
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_anglo_saxon_civ" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+                stability_factor = 0.16
+                war_support_factor = 0.10
+                political_power_factor = 0.12
+                paternal_autocrat_drift = 0.01
+                production_factory_efficiency_gain_factor = 0.09
+            }
+            equipment_bonus = {
                 
+            }
         }
-    }
+        
+        RDI_occult_leg = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_occult_leg" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+		        stability_factor = -0.04
+		        paternal_autocrat_drift = 0.02
+		        fascism_drift = 0.01
+		        weekly_manpower = 430 
+            }
+            equipment_bonus = {
+
+            }
+        }
+        
+        RDI_occultists_in_the_shadows_min = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_occultists_in_the_shadows_min" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+                stability_factor = -0.09
+                war_support_factor = -0.04
+                consumer_goods_factor = 0.13
+                esotericism_drift = 0.01
+            }
+            equipment_bonus = {
+
+            }
+        }
+        
+        RDI_seize_the_means = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_seize_the_means" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+                stability_factor = -0.1
+                consumer_goods_factor = -0.2
+            }
+            equipment_bonus = {
+
+            }
+        }
       
         
         ### Air Force Reform Ideas ###
