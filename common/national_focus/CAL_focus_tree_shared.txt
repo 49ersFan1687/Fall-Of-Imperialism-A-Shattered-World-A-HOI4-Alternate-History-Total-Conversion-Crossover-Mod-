@@ -11053,47 +11053,221 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_tapping_for_new_oil_reserves
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_let_the_black_gold_flow
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_let_the_black_gold_flow
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_tapping_for_new_oil_reserves"
+	}
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_invest_in_texas_ranching
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_bail_corpus_christi_out
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_bail_corpus_christi_out
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_invest_in_texas_ranching"
+	}
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_follow_in_the_zephyrs_footsteps
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_designs_of_denver
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_designs_of_denver
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_follow_in_the_zephyrs_footsteps"
+	}
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_use_the_farm_Land
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_maintenence_on_the_hoover_dam
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_maintenence_on_the_hoover_dam
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_use_the_farm_Land"
+	}
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_expand_oil_refineries
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_tapping_for_new_oil_reserves
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_tapping_for_new_oil_reserves
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_oil_refineries"
+	}
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_revitalize_the_beef_industry
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_invest_in_texas_ranching
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_invest_in_texas_ranching
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_pearl_of_the_plains"
+	}
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_the_pearl_of_the_plains
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_follow_in_the_zephyrs_footsteps
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_follow_in_the_zephyrs_footsteps
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_pearl_of_the_plains"
+	}
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_the_american_nile
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_use_the_farm_Land
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_use_the_farm_Land
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_american_nile"
+	}
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_dont_mess_with_texas
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expand_oil_refineries
+	}
+	prerequisite = {
+		focus = CAL_revitalize_the_beef_industry
+	}
+	x = 0
+	y = 4
+	relative_position_id = CAL_piecing_the_star_back_together
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_dont_mess_with_texas"
+	}
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_fixing_the_four_corners
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_pearl_of_the_plains
+	}
+	prerequisite = {
+		focus = CAL_the_american_nile
+	}
+	x = 0
+	y = 4
+	relative_position_id = CAL_four_corners_loads_of_problems
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_fixing_the_four_corners"
+	}
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_finishing_our_work
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_dont_mess_with_texas
+	}
+	prerequisite = {
+		focus = CAL_fixing_the_four_corners
+	}
+	x = 0
+	y = 6
+	relative_position_id = CAL_set_up_the_rebuilding_zones
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_finishing_our_work"
+	}
 }
 
 # Superregional Stage - Eastward Expansion - Part Two - The Great Plains (Wyoming, North/South Dakota, Montana) #
