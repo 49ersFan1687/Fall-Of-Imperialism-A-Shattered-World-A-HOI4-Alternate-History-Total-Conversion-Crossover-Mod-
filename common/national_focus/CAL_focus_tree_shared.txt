@@ -10517,7 +10517,7 @@ shared_focus = {
 		has_completed_focus = CAL_believers_in_american_progress
 	}
 	x = -11
-	y = 2
+	y = 1
 	relative_position_id = CAL_the_new_bastion_of_freedom
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_beginning_the_long_march_west"
@@ -10658,7 +10658,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_admit_sequoyah_as_the_forty_ninth_state
+	id = CAL_admit_sequoyah
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10672,12 +10672,12 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_integrate_the_willing
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_admit_sequoyah_as_the_forty_ninth_state"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_admit_sequoyah"
 	}
 }
 
 shared_focus = {
-	id = CAL_readmit_oklahoma_back_into_the_union
+	id = CAL_readmit_oklahoma
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -10691,7 +10691,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_integrate_the_willing
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_readmit_oklahoma_back_into_the_union"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_readmit_oklahoma"
 	}
 }
 
@@ -10780,10 +10780,10 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_admit_sequoyah_as_the_forty_ninth_state
+		focus = CAL_admit_sequoyah
 	}
 	prerequisite = {
-		focus = CAL_readmit_oklahoma_back_into_the_union
+		focus = CAL_readmit_oklahoma
 	}
 	x = 0
 	y = 2
@@ -10938,20 +10938,163 @@ shared_focus = {
 	}
 }
 
-shared_focus = {}
-shared_focus = {}
+shared_focus = {
+	id = CAL_piecing_the_star_back_together
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_set_up_the_rebuilding_zones
+	}
+	x = -2
+	y = 1
+	relative_position_id = CAL_set_up_the_rebuilding_zones
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_piecing_the_star_back_together"
+	}
+}
 
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
+shared_focus = {
+	id = CAL_four_corners_loads_of_problems
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_set_up_the_rebuilding_zones
+	}
+	x = 2
+	y = 1
+	relative_position_id = CAL_set_up_the_rebuilding_zones
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_four_corners_loads_of_problems"
+	}
+}
 
-shared_focus = {}
-shared_focus = {}
+shared_focus = {
+	id = CAL_let_the_black_gold_flow
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_piecing_the_star_back_together
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_piecing_the_star_back_together
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_let_the_black_gold_flow"
+	}
+}
 
-shared_focus = {}
+shared_focus = {
+	id = CAL_bail_corpus_christi_out
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_piecing_the_star_back_together
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_piecing_the_star_back_together
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_bail_corpus_christi_out"
+	}
+}
+
+shared_focus = {
+	id = CAL_designs_of_denver
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_four_corners_loads_of_problems
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_four_corners_loads_of_problems
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_designs_of_denver"
+	}
+}
+
+shared_focus = {
+	id = CAL_maintenence_on_the_hoover_dam
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_four_corners_loads_of_problems
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_four_corners_loads_of_problems
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_maintenence_on_the_hoover_dam"
+	}
+}
+
+shared_focus = {
+	id = CAL_
+}
+
+shared_focus = {
+	id = CAL_
+}
+
+shared_focus = {
+	id = CAL_
+}
+
+shared_focus = {
+	id = CAL_
+}
+
+shared_focus = {
+	id = CAL_
+}
+
+shared_focus = {
+	id = CAL_
+}
+
+shared_focus = {
+	id = CAL_
+}
+
+shared_focus = {
+	id = CAL_
+}
+
+shared_focus = {
+	id = CAL_
+}
+
+shared_focus = {
+	id = CAL_
+}
+
+shared_focus = {
+	id = CAL_
+}
 
 # Superregional Stage - Eastward Expansion - Part Two - The Great Plains (Wyoming, North/South Dakota, Montana) #
 shared_focus = {
@@ -10966,7 +11109,7 @@ shared_focus = {
 		has_completed_focus = CAL_
 	}
 	x = 11
-	y = 2
+	y = 1
 	relative_position_id = CAL_the_new_bastion_of_freedom
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_continuing_to_the_great_plains"
