@@ -11309,8 +11309,60 @@ shared_focus = {
 	}
 }
 
-shared_focus = {}
-shared_focus = {}
+shared_focus = {
+	id = CAL_fixing_the_montana_mess
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_searching_for_remnants_and_friends
+	}
+	x = -3
+	y = 1
+	relative_position_id = CAL_searching_for_remnants_and_friends
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_fixing_the_montana_mess"
+	}
+}
+
+shared_focus = {
+	id = CAL_bringing_order_back_to_wyoming_and_dakota
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_searching_for_remnants_and_friends
+	}
+	x = 3
+	y = 1
+	relative_position_id = CAL_searching_for_remnants_and_friends
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_bringing_order_back_to_wyoming_and_dakota"
+	}
+}
 
 # Superregional Stage - Eastward Expansion - Part Three - The Midwest #
-shared_focus = {}
+
+shared_focus = {
+	id = CAL_continuing_onto_the_midwest
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 15
+	y = 39
+	relative_position_id = {
+		focus = CAL_the_new_bastion_of_freedom
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_continuing_onto_the_midwest"
+	}
+}
