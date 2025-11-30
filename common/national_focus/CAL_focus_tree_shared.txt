@@ -11706,8 +11706,43 @@ shared_focus = {
 	}
 }
 
-shared_focus = {}
-shared_focus = {}
+shared_focus = {
+	id = CAL_rebuilding_montana
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuilding_the_great_plains
+	}
+	x = -2
+	y = 1
+	relative_position_id = CAL_rebuilding_the_great_plains
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_montana"
+	}
+}
+
+shared_focus = {
+	id = CAL_rebuilding_wyoming
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuilding_the_great_plains
+	}
+	x = 2
+	y = 1
+	relative_position_id = CAL_rebuilding_the_great_plains
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_wyoming"
+	}
+}
 
 shared_focus = {}
 shared_focus = {}
