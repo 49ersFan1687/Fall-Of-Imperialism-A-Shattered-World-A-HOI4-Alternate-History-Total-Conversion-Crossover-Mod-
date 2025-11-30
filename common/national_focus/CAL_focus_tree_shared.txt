@@ -11369,7 +11369,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_reconcile_With_the_blackfoot_nation
+	id = CAL_reconcile_with_the_blackfoot_nation
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -11383,7 +11383,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_war_plan_montana
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_reconcile_With_the_blackfoot_nation"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reconcile_with_the_blackfoot_nation"
 	}
 }
 
@@ -11425,18 +11425,221 @@ shared_focus = {
 	}
 }
 
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
+shared_focus = {
+	id = CAL_destroy_montana_anarchism
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_readmit_montana
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_readmit_montana
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_destroy_montana_anarchism"
+	}
+}
+
+shared_focus = {
+	id = CAL_subjigate_the_cowboys
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_reconcile_with_the_blackfoot_nation
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_reconcile_with_the_blackfoot_nation
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_subjigate_the_cowboys"
+	}
+}
+
+shared_focus = {
+	id = CAL_expanding_their_forces
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrate_the_wyoming_ng
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_integrate_the_wyoming_ng
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_subjigate_the_cowboys"
+	}
+}
+
+shared_focus = {
+	id = CAL_integrating_their_bases
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrate_the_wyoming_ng
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_integrate_the_wyoming_ng
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrating_their_bases"
+	}
+}
+
+shared_focus = {
+	id = CAL_reopen_yellowstone
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_ultimatum_to_wyoming_free_state
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_ultimatum_to_wyoming_free_state
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reopen_yellowstone"
+	}
+}
+
+shared_focus = {
+	id = CAL_wyoming_coal_reserves
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_ultimatum_to_wyoming_free_state
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_ultimatum_to_wyoming_free_state
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_wyoming_coal_reserves"
+	}
+}
+
+shared_focus = {
+	id = CAL_break_their_councils
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_destroy_montana_anarchism
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_destroy_montana_anarchism
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_break_their_councils"
+	}
+}
+
+shared_focus = {
+	id = CAL_sieze_their_lands
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_subjigate_the_cowboys
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_subjigate_the_cowboys
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_sieze_their_lands"
+	}
+}
+
+shared_focus = {
+	id = CAL_crush_the_khaki_shirts
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expanding_their_forces
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_expanding_their_forces
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_crush_the_khaki_shirts"
+	}
+}
+
+shared_focus = {
+	id = CAL_fucking_wyoming_communists
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrating_their_bases
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_integrating_their_bases
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_fucking_wyoming_communists"
+	}
+}
+
+shared_focus = {
+	id = CAL_expanding_the_oil_fields
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_reopen_yellowstone
+	}
+	prerequisite = {
+		focus = CAL_wyoming_coal_reserves
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_ultimatum_to_wyoming_free_state
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_fucking_wyoming_communists"
+	}
+}
 
 shared_focus = {}
 shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
+
 shared_focus = {}
 
 shared_focus = {}
