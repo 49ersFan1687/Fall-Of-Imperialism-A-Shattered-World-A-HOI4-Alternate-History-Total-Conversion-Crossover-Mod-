@@ -11384,8 +11384,9 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_crush_plains_communists"
 	}
 }
-shared_focus = { 
-	id = CAL_reconciliation_for_the_indian_wars
+
+shared_focus = {
+	id = CAL_integrating_the_state_of_montana
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -11399,12 +11400,12 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_fixing_the_montana_mess
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_reconciliation_for_the_indian_wars"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrating_the_state_of_montana"
 	}
 }
 
-shared_focus = {
-	id = CAL_integrating_the_state_of_montana
+shared_focus = { 
+	id = CAL_reconciliation_for_the_indian_wars
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -11418,7 +11419,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_fixing_the_montana_mess
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrating_the_state_of_montana"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reconciliation_for_the_indian_wars"
 	}
 }
 
@@ -11460,10 +11461,87 @@ shared_focus = {
 	}
 }
 
-shared_focus = { }
-shared_focus = { }
-shared_focus = { }
-shared_focus = { }
+shared_focus = { 
+	id = CAL_destroy_montana_anarchists
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrating_the_state_of_montana
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_integrating_the_state_of_montana
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_destroy_montana_anarchists"
+	}
+}
+
+shared_focus = { 
+	id = CAL_crush_the_cowboy_republic
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrating_the_state_of_montana
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_integrating_the_state_of_montana
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_crush_the_cowboy_republic"
+	}
+}
+
+shared_focus = {
+	id = CAL_conservative_reconciliation_act
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	mutually_exclusive = {
+		focus = CAL_progressive_reconciliation_act
+	}
+	prerequisite = {
+		focus = CAL_reconciliation_for_the_indian_wars
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_reconciliation_for_the_indian_wars
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_conservative_reconciliation_act"
+	}
+}
+
+shared_focus = { 
+		id = CAL_progressive_reconciliation_act
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	mutually_exclusive = {
+		focus = CAL_conservative_reconciliation_act
+	}
+	prerequisite = {
+		focus = CAL_reconciliation_for_the_indian_wars
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_reconciliation_for_the_indian_wars
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_conservative_reconciliation_act"
+	}
+}
 
 shared_focus = { }
 shared_focus = { }
