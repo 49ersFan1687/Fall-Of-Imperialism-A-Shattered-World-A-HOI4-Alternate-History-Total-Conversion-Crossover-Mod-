@@ -11522,7 +11522,7 @@ shared_focus = {
 }
 
 shared_focus = { 
-		id = CAL_progressive_reconciliation_act
+	id = CAL_progressive_reconciliation_act
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -11539,7 +11539,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_reconciliation_for_the_indian_wars
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_conservative_reconciliation_act"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_progressive_reconciliation_act"
 	}
 }
 
