@@ -22,6 +22,7 @@ focus_tree = {
 	shared_focus = CAL_beginning_the_initial_tranisition_to_a_civilian_government
 	shared_focus = CAL_beginning_the_long_march_east
 	shared_focus = CAL_continuing_to_the_great_plains
+	shared_focus = CAL_the_midwestern_military_operation
 
     continuous_focus_position = { x = 100 y = 4200 }
 }
