@@ -11422,8 +11422,44 @@ shared_focus = {
 	}
 }
 
-shared_focus = { }
-shared_focus = { }
+shared_focus = { 
+	id = CAL_integrate_the_wyoming_state
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrate_wyoming_nat_guard
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_integrate_wyoming_nat_guard
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrate_the_wyoming_state"
+	}
+}
+
+shared_focus = {
+	id = CAL_crush_the_wyoming_anarchists
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_crush_plains_communists
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_crush_plains_communists
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_crush_the_wyoming_anarchists"
+	}
+}
+
 shared_focus = { }
 shared_focus = { }
 shared_focus = { }
