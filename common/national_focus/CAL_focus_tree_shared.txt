@@ -10517,7 +10517,7 @@ shared_focus = {
 		has_completed_focus = CAL_a_bulwark_of_justice
 		has_completed_focus = CAL_believers_in_american_progress
 	}
-	x = -8
+	x = -6
 	y = 1
 	relative_position_id = CAL_the_new_bastion_of_freedom
 	completion_reward = {
@@ -11284,7 +11284,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_
 	}
-	x = 8
+	x = 6
 	y = 1
 	relative_position_id = CAL_the_new_bastion_of_freedom
 	completion_reward = {
@@ -11744,8 +11744,87 @@ shared_focus = {
 	}
 }
 
+shared_focus = {
+	id = CAL_revitalize_montana_infastructure
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuilding_montana
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_rebuilding_montana
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_revitalize_montana_infastructure"
+	}
+}
+
+shared_focus = {
+	id = CAL_reopen_the_copper_mines
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuilding_montana
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_rebuilding_montana
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reopen_the_copper_mines"
+	}
+}
+
+shared_focus = {
+	id = CAL_wyoming_coal_mines
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuilding_wyoming
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_rebuilding_wyoming
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_wyoming_coal_mines"
+	}
+}
+
+shared_focus = {
+	id = CAL_building_warren_air_force_base
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuilding_wyoming
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_rebuilding_wyoming
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_building_warren_air_force_base"
+	}
+}
+
 shared_focus = {}
 shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+
 shared_focus = {}
 shared_focus = {}
 shared_focus = {}
