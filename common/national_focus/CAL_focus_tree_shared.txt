@@ -11521,7 +11521,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_wyoming_coal_reserves
+	id = CAL_reopen_grand_teton
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -11535,7 +11535,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_ultimatum_to_wyoming_free_state
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_wyoming_coal_reserves"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reopen_grand_teton"
 	}
 }
 
@@ -11616,7 +11616,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_expanding_the_oil_fields
+	id = CAL_readmit_wyoming
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -11627,13 +11627,13 @@ shared_focus = {
 		focus = CAL_reopen_yellowstone
 	}
 	prerequisite = {
-		focus = CAL_wyoming_coal_reserves
+		focus = CAL_reopen_grand_teton
 	}
 	x = 0
 	y = 2
 	relative_position_id = CAL_ultimatum_to_wyoming_free_state
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_fucking_wyoming_communists"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_readmit_wyoming"
 	}
 }
 
@@ -11655,7 +11655,7 @@ shared_focus = {
 	y = 4
 	relative_position_id = CAL_war_plan_montana
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_davids_nightmare"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_big_sky_back_in_american_hands"
 	}
 }
 
@@ -11674,7 +11674,7 @@ shared_focus = {
 		focus = CAL_fucking_wyoming_communists
 	}
 	prerequisite = {
-		focus = CAL_expanding_the_oil_fields
+		focus = CAL_readmit_wyoming
 	}
 	x = 0
 	y = 4
