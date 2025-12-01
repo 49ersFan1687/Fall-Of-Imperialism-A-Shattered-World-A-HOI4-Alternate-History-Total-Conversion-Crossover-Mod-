@@ -11802,7 +11802,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_building_warren_air_force_base
+	id = CAL_rebuilding_warren_air_force_base
 	icon = GFX
 	cost = 2
 	available_if_capitulated = no
@@ -11816,24 +11816,227 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_rebuilding_wyoming
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_building_warren_air_force_base"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_warren_air_force_base"
 	}
 }
 
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
+shared_focus = {
+	id = CAL_rebuild_great_falls_air_base
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_revitalize_montana_infastructure
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_revitalize_montana_infastructure
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_great_falls_air_base"
+	}
+}
 
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
+shared_focus = {
+	id = CAL_expand_butte_and_phillipsburg
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_reopen_the_copper_mines
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_reopen_the_copper_mines
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_butte_and_phillipsburg"
+	}	
+}
 
-shared_focus = {}
-shared_focus = {}
+shared_focus = {
+	id = CAL_wyoming_oil_deposits
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_wyoming_coal_mines
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_wyoming_coal_mines
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_wyoming_oil_deposits"
+	}
+}
 
-shared_focus = {}
+shared_focus = {
+	id = CAL_expand_united_airlines_maintenance_center
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuilding_warren_air_force_base
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuilding_warren_air_force_base
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_united_airlines_maintenance_center"
+	}
+}
+
+shared_focus = {
+	id = CAL_expand_the_montana_nat_guard
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_great_falls_air_base
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuild_great_falls_air_base
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_montana_nat_guard"
+	}
+}
+
+shared_focus = {
+	id = CAL_tap_into_montanas_gas_and_oil
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expand_butte_and_phillipsburg
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_expand_butte_and_phillipsburg
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_tap_into_montanas_gas_and_oil"
+	}
+}
+
+shared_focus = {
+	id = CAL_wyoming_uranium_mines
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_wyoming_oil_deposits
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_wyoming_oil_deposits
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_wyoming_uranium_mines"
+	}
+}
+
+shared_focus = {
+	id = CAL_expand_frontier_refining_company
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expand_united_airlines_maintenance_center
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_expand_united_airlines_maintenance_center
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_frontier_refining_company"
+	}	
+}
+
+shared_focus = {
+	id = CAL_completing_the_rebuilding_of_montana
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expand_the_montana_nat_guard
+	}
+	prerequisite = {
+		focus = CAL_tap_into_montanas_gas_and_oil
+	}
+	x = 0
+	y = 4
+	relative_position_id = CAL_rebuilding_montana
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_completing_the_rebuilding_of_montana"
+	}
+}
+
+shared_focus = {
+	id = CAL_completing_the_rebuilding_of_wyoming
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_wyoming_uranium_mines
+	}
+	prerequisite = {
+		focus = CAL_expand_frontier_refining_company
+	}
+	x = 0
+	y = 4
+	relative_position_id = CAL_rebuilding_wyoming
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_completing_the_rebuilding_of_montana"
+	}
+}
+
+shared_focus = {
+	id = CAL_the_new_great_plains
+	icon = GFX
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_completing_the_rebuilding_of_montana
+	}
+	prerequisite = {
+		focus = CAL_completing_the_rebuilding_of_wyoming
+	}
+	x = 0
+	y = 6
+	relative_position_id = CAL_rebuilding_the_great_plains
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_new_great_plains"
+	}
+}
 
 
 # Superregional Stage - Eastward Expansion - Part Three - The Midwest #
