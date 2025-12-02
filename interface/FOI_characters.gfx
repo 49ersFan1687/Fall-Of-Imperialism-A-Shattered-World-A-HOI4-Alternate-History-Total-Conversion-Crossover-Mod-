@@ -1,8 +1,8 @@
 spriteTypes = {
 	# SDNL #
 	spriteType = {
-		name = "GFX_SDNL_Tukhachevsky"
-		textureFile = "gfx/leaders/RRF/Portrait_RRF_mikhail_nikolayevich_tukhachevsky.dds"
+		name = "GFX_SDL_Tukhachevsky"
+		textureFile = "gfx/leaders/RRF/Portrait_SDL_mikhail_nikolayevich_tukhachevsky.dds"
 	}
 	# Africa #
 	spriteType = {
