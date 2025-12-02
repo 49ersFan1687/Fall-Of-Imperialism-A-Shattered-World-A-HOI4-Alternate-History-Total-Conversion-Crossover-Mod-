@@ -962,4 +962,6 @@ characters = {
 			logistics_skill = 
 		}
 	}
+
+	# Oregon Vytal Clique - The Militarists (Generals) #
 }
