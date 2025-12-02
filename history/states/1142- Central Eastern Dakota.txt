@@ -7,8 +7,8 @@ state = {
 
 	history = {
 
-		owner = FTD
-		add_core_of = FTD
+		owner = PRD
+		add_core_of = PRD
 
 		buildings = {
 			infrastructure = 2 #was: 6
@@ -21,7 +21,7 @@ state = {
 	}
 
 	provinces = {
-		7862 4880 12620 12667
+		7862 12620 10569
 	}
 
 	local_supplies = 0.0 
