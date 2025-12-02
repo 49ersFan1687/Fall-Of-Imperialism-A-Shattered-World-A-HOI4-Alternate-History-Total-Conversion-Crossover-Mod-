@@ -18,7 +18,7 @@ characters = {
             }
         }
         corps_commander = {
-            traits = { invader }
+            traits = { politically_connected }
             skill = 
             attack_skill = 
             defense_skill = 
