@@ -21,12 +21,5 @@ set_popularities = {
 	socialism = 5
 	fascism = 5
 }
-create_country_leader = {
-	name = "Barry Goldwater"
-	desc = ""
-	picture = GFX_ARZ_Goldwater
-	ideology = provisional_government_ideology
-	traits = {
-		#
-	}
-}
+
+recruit_character = ARZ_barry_morris_goldwater

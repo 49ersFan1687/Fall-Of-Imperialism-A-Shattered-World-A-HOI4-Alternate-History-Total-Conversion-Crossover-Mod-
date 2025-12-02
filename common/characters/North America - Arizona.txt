@@ -1,0 +1,29 @@
+characters = {
+    ARZ_barry_morris_goldwater = {
+        name = ARZ_barry_morris_goldwater
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/ARZ/Portrait_ARZ_Barry_Morris_Goldwater.dds"
+            }
+            army = {
+                large = "gfx/leaders/ARZ/Portrait_ARZ_Barry_Morris_Goldwater.dds"
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_BARRY_GOLDWATER_DESC"
+            expire = "1995.11.01"
+            ideology = 
+            traits = {
+                
+            }
+        }
+        corps_commander = {
+            traits = { invader }
+            skill = 
+            attack_skill = 
+            defense_skill = 
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
+}
