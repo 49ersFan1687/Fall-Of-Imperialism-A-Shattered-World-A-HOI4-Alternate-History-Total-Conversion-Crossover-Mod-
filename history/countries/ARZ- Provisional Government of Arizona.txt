@@ -22,9 +22,9 @@ set_popularities = {
 	fascism = 5
 }
 create_country_leader = {
-	name = "J. Howard Pyle"
+	name = "Barry Goldwater"
 	desc = ""
-	picture = GFX_fish
+	picture = GFX_ARZ_Goldwater
 	ideology = provisional_government_ideology
 	traits = {
 		#
