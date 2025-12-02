@@ -20,12 +20,7 @@ set_popularities = {
 }
 create_faction = "Antifashistskiy Front"
 
-create_country_leader = {
-	name = "Mikhail Tukhachevsky"
-	desc = ""
-	picture = GFX_SDNL_Tukhachevsky
-	ideology = leninism_ideology
-	traits = {
-		#
-	}
-}
+recruit_character = SDL_semyon_mikhailovich_budyonny
+recruit_character = SDL_georgy_konstantinovich_zhukov
+recruit_character = SDL_mikhail_vasilievich_frunze
+recruit_character = SDL_mikhail_nikolayevich_tukhachevsky

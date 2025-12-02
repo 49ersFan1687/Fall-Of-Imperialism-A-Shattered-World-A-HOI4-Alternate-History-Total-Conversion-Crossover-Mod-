@@ -1,13 +1,13 @@
 characters = {
     # Country Leaders #
-	RRF_semyon_mikhailovich_budyonny = {
-		name = RRF_semyon_mikhailovich_budyonny
+	SDL_semyon_mikhailovich_budyonny = {
+		name = SDL_semyon_mikhailovich_budyonny
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/RRF/Portrait_RRF_semyon_mikhailovich_budyonny.dds"
+				large = "gfx/leaders/SDL/Portrait_SDL_semyon_mikhailovich_budyonny.dds"
 			}
 			army = {
-				large = "gfx/leaders/RRF/Portrait_RRF_semyon_mikhailovich_budyonny.dds"
+				large = "gfx/leaders/SDL/Portrait_SDL_semyon_mikhailovich_budyonny.dds"
 			}
 		}
 		country_leader = {
@@ -29,14 +29,14 @@ characters = {
 		}
 	}
 
-    RRF_mikhail_vasilievich_frunze = { 
-		name = RRF_mikhail_vasilievich_frunze
+    SDL_mikhail_vasilievich_frunze = { 
+		name = SDL_mikhail_vasilievich_frunze
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/RRF/Portrait_RRF_mikhail_vasilievich_frunze.png"
+				large = "gfx/leaders/SDL/Portrait_SDL_mikhail_vasilievich_frunze.png"
 			}
 			army = {
-				large = "gfx/leaders/RRF/Portrait_RRF_mikhail_vasilievich_frunze.png"
+				large = "gfx/leaders/SDL/Portrait_SDL_mikhail_vasilievich_frunze.png"
 			}
 		}
 		country_leader = {
@@ -58,14 +58,14 @@ characters = {
 		}
 	}
 
-    RRF_georgy_konstantinovich_zhukov = {
-		name = RRF_georgy_konstantinovich_zhukov
+    SDL_georgy_konstantinovich_zhukov = {
+		name = SDL_georgy_konstantinovich_zhukov
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/RRF/Portrait_RRF_georgy_konstantinovich_zhukov.dds"
+				large = "gfx/leaders/SDL/Portrait_SDL_georgy_konstantinovich_zhukov.dds"
 			}
 			army = {
-				large = "gfx/leaders/RRF/Portrait_RRF_georgy_konstantinovich_zhukov.dds"
+				large = "gfx/leaders/SDL/Portrait_SDL_georgy_konstantinovich_zhukov.dds"
 			}
 		}
 		country_leader = {
@@ -88,14 +88,14 @@ characters = {
 		}
     }
 
-    RRF_mikhail_nikolayevich_tukhachevsky = {
-		name = RRF_mikhail_nikolayevich_tukhachevsky
+    SDL_mikhail_nikolayevich_tukhachevsky = {
+		name = SDL_mikhail_nikolayevich_tukhachevsky
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/RRF/Portrait_RRF_mikhail_nikolayevich_tukhachevsky"
+				large = "gfx/leaders/SDL/Portrait_SDL_mikhail_nikolayevich_tukhachevsky"
 			}
 			army = {
-				large = "gfx/leaders/RRF/Portrait_RRF_mikhail_nikolayevich_tukhachevsky"
+				large = "gfx/leaders/SDL/Portrait_SDL_mikhail_nikolayevich_tukhachevsky"
 			}
 		}
 		country_leader = {
@@ -117,8 +117,8 @@ characters = {
 		}
 	}
 
-	RRF_nestor_nunin = {
-		name = RRF_nestor_nunin
+	SDL_nestor_nunin = {
+		name = SDL_nestor_nunin
 		portraits = {
 			civilian = {
 				large = GFX_fish
@@ -141,8 +141,8 @@ characters = {
 
 
 	# Red Army Generals #
-	RRF_vasily_danilovich_sokolovsky = {
-		name = RRF_vasily_danilovich_sokolovsky
+	SDL_vasily_danilovich_sokolovsky = {
+		name = SDL_vasily_danilovich_sokolovsky
 		portraits = {
 			civilian = {
 				large = GFX_fish
@@ -161,8 +161,8 @@ characters = {
 		}
 	}
 
-	RRF_dimitry_timofeyevich_yazov = {
-		name = RRF_dimitry_timofeyevich_yazov
+	SDL_dimitry_timofeyevich_yazov = {
+		name = SDL_dimitry_timofeyevich_yazov
 		portraits = {
 			civilian = {
 				large = GFX_fish
@@ -181,8 +181,8 @@ characters = {
 		}
 	}
 
-	RRF_iona_emmanuilovich_yakir = {
-		name = RRF_iona_emmanuilovich_yakir
+	SDL_iona_emmanuilovich_yakir = {
+		name = SDL_iona_emmanuilovich_yakir
 		portraits = {
 			civilian = {
 				large = GFX_fish
@@ -201,8 +201,8 @@ characters = {
 		}
 	}
 
-	RRF_ieronim_petrovich_uborevich = {
-		name = RRF_ieronim_petrovich_uborevich
+	SDL_ieronim_petrovich_uborevich = {
+		name = SDL_ieronim_petrovich_uborevich
 		portraits = {
 			civilian = {
 				large = GFX_fish
@@ -221,8 +221,8 @@ characters = {
 		}
 	}
 
-	RRF_semyon_konstantinovich_timoshenko = {
-		name = RRF_semyon_konstantinovich_timoshenko
+	SDL_semyon_konstantinovich_timoshenko = {
+		name = SDL_semyon_konstantinovich_timoshenko
 		portraits = {
 			civilian = {
 				large = GFX_fish
@@ -241,8 +241,8 @@ characters = {
 		}
 	}
 
-	RRF_andrei_antonovich_grechko = {
-		name = RRF_andrei_antonovich_grechko
+	SDL_andrei_antonovich_grechko = {
+		name = SDL_andrei_antonovich_grechko
 		portraits = {
 			civilian = {
 				large = GFX_fish
@@ -261,8 +261,8 @@ characters = {
 		}
 	}
 
-	RRF_vasily_ivanovich_chuikov = {
-		name = RRF_vasily_ivanovich_chuikov
+	SDL_vasily_ivanovich_chuikov = {
+		name = SDL_vasily_ivanovich_chuikov
 		portraits = {
 			civilian = {
 				large = GFX_fish
@@ -281,8 +281,8 @@ characters = {
 		}
 	}
 
-	RRF_dimitry_fyodorovich_ustinov = {
-		name = RRF_dimitry_fyodorovich_ustinov
+	SDL_dimitry_fyodorovich_ustinov = {
+		name = SDL_dimitry_fyodorovich_ustinov
 		portraits = {
 			civilian = {
 				large = GFX_fish
@@ -301,8 +301,8 @@ characters = {
 		}
 	}
 
-	RRF_sergey_fyodorovich_akhromeyev = {
-		name = RRF_sergey_fyodorovich_akhromeyev
+	SDL_sergey_fyodorovich_akhromeyev = {
+		name = SDL_sergey_fyodorovich_akhromeyev
 		portraits = {
 			civilian = {
 				large = GFX_fish
@@ -321,8 +321,8 @@ characters = {
 		}
 	}
 
-	RRF_pavel_semyonovich_rybalko = {
-		name = RRF_pavel_semyonovich_rybalko
+	SDL_pavel_semyonovich_rybalko = {
+		name = SDL_pavel_semyonovich_rybalko
 		portraits = {
 			civilian = {
 				large = GFX_fish
@@ -341,8 +341,8 @@ characters = {
 		}
 	}
 
-	RRF_konstantin_fedorovich_telegin = {
-		name = RRF_konstantin_fedorovich_telegin
+	SDL_konstantin_fedorovich_telegin = {
+		name = SDL_konstantin_fedorovich_telegin
 		portraits = {
 			civilian = {
 				large = GFX_fish
@@ -361,8 +361,8 @@ characters = {
 		}
 	}
 
-	RRF_alexander_terentyevich_altunin = {
-		name = RRF_alexander_terentyevich_altunin
+	SDL_alexander_terentyevich_altunin = {
+		name = SDL_alexander_terentyevich_altunin
 		portraits = {
 			civilian = {
 				large = GFX_fish
@@ -381,8 +381,8 @@ characters = {
 		}
 	}
 
-	RRF_veronika_krasnova = {
-		name = RRF_veronika_krasnova
+	SDL_veronika_krasnova = {
+		name = SDL_veronika_krasnova
 		portraits = {
 			civilian = {
 				large = GFX_fish
@@ -401,8 +401,8 @@ characters = {
 		}
 	}
 
-	RRF_vinous_kostyelev = {
-		name = RRF_vinous_kostyelev
+	SDL_vinous_kostyelev = {
+		name = SDL_vinous_kostyelev
 		portraits = {
 			civilian = {
 				large = GFX_fish
@@ -422,8 +422,8 @@ characters = {
 	}
 
 	# Red Navy Admirals #
-	RRF_nikolay_gerasimovich_kuznetsov = {
-		name = RRF_nikolay_gerasimovich_kuznetsov
+	SDL_nikolay_gerasimovich_kuznetsov = {
+		name = SDL_nikolay_gerasimovich_kuznetsov
 		portraits = {
 			civilian = {
 				large = GFX_fish
@@ -443,6 +443,6 @@ characters = {
         }
 	}
 
-	RRF_
+	SDL_
 }
 
