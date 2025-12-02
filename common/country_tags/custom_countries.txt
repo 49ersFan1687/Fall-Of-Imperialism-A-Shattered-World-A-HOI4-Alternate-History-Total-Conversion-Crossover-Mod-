@@ -74,7 +74,9 @@ OHI = "countries/OhianRustRepublic.txt"
 ICS = "countries/IndianaCorporate.txt"
 ILL = "countries/IllinoisState.txt"
 MSI = "countries/IllinoisMilitia.txt"
-
+PRD = "countries/PeopleDakota.txt"
+SSD = "countries/StateSouthDakota.txt"
+SND = "countries/StateNorthDakota.txt"
 #RUSSIA#
 RRF = "countries/RussiaRevolutionFront.txt"
 VYA = "countries/Vyatka.txt"

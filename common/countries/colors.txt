@@ -1599,6 +1599,18 @@ BAT = {
 	color = rgb { 67 75 125 }
 	color_ui = rgb { 170  125  80 }
 }
+PRD = {
+	color = rgb { 128 17 18 }
+	color_ui = rgb { 170  125  80 }
+}
+SSD = {
+	color = rgb { 67 99 156 }
+	color_ui = rgb { 170  125  80 }
+}
+SND = {
+	color = rgb { 31 39 110 }
+	color_ui = rgb { 170  125  80 }
+}
 
 
 

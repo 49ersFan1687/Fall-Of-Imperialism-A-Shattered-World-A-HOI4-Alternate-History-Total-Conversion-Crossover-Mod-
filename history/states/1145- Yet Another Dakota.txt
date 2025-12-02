@@ -1,0 +1,26 @@
+state = {
+	id = 1145
+	name = "STATE_1145"
+	manpower = 11210
+	
+	state_category = rural
+
+	history = {
+
+		owner = SSD
+		add_core_of = SSD
+
+		buildings = {
+			infrastructure = 2 #was: 6
+
+		}
+		
+
+	}
+
+	provinces = {
+		10595 12667 4880
+	}
+
+	local_supplies = 0.0 
+}

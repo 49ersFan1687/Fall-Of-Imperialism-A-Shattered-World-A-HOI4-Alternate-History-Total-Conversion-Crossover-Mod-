@@ -224,6 +224,15 @@
  CAN: "Kingdom of Canada"
  CAN_DEF: "Kingdom of Canada"
  CAN_ADJ: "Canadian"
+ PRD: "People's Republic of Dakota"
+ PRD_DEF: "People's Republic of Dakota"
+ PRD_ADJ: "Dakotan"
+ SND: "State of North Dakota"
+ SND_DEF: "State of North Dakota"
+ SND_ADJ: "North Dakotan"
+ SSD: "State Militia of South Dakota"
+ SSD_DEF: "State Militia of South Dakota"
+ SSD_ADJ: "South Dakotan"
 
 # PARTIES #
 

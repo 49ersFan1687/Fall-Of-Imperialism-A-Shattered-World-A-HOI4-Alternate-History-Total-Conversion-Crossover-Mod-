@@ -1,0 +1,27 @@
+state = {
+	id = 1144
+	name = "STATE_1144"
+	manpower = 13450
+	
+	state_category = rural
+
+	history = {
+
+		owner = SND
+		add_core_of = SND
+
+		buildings = {
+			infrastructure = 1 #was: 6
+			arms_factory = 1
+
+		}
+		
+
+	}
+
+	provinces = {
+		4759 10709 12685
+	}
+
+	local_supplies = 0.0 
+}
