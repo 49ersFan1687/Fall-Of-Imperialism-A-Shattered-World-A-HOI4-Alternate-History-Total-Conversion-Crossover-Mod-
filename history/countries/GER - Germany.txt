@@ -1,6 +1,4 @@
 capital = 64
-recruit_character = GER_Adolf_Hitler
-recruit_character = GER_Heinrich_Himmler
 
 set_war_support = 0.3
 set_stability = 0.7
@@ -21,9 +19,8 @@ set_popularities = {
 	neutrality = 5
 	paternal_autocrat = 4
 	conservatism = 1
-	
-	
 }
+
 set_autonomy = {
 	target = RKM
 	autonomous_state = autonomy_integrated_puppet
@@ -86,6 +83,10 @@ add_to_faction = HUN
 add_to_faction = FRA
 add_to_faction = ENG
 add_to_faction = ANR
+
+### Country Leader ###
+recruit_character = GER_Adolf_Hitler
+recruit_character = GER_Heinrich_Himmler
 
 # Wehrmacht Generals #
 recruit_character = GER_hans_speidel
