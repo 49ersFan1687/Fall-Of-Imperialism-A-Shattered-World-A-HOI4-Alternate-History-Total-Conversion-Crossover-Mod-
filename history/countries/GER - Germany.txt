@@ -80,14 +80,18 @@ set_autonomy = {
 	freedom_level = 0.5
 }
 
-
-
 create_faction = "Reichsordung Pakt"
 add_to_faction = ROM
 add_to_faction = HUN
 add_to_faction = FRA
 add_to_faction = ENG
 add_to_faction = ANR
+
+# Wehrmacht Generals #
+recruit_character = GER_hans_speidel
+recruit_character = GER_heinz_wilhelm_guderian
+recruit_character = GER_Fritz_Erich_Georg_Eduard_von_mannstein
+
 create_country_leader = {
 	name = "CDU Guy"
 	desc = ""
