@@ -1,0 +1,20 @@
+###########################
+# Washington Events
+###########################
+
+add_namespace = washington
+
+# Start Event
+country_event = {
+	id = washington.1
+	title = washington.1.t
+	desc = washington.1.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = washington.1.a	
+	}			
+}

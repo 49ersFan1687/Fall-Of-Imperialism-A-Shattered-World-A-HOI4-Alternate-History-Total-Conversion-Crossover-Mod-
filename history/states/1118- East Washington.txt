@@ -7,8 +7,8 @@ state = {
 
 	history = {
 
-		owner = WPG
-		add_core_of = WPG
+		owner = WGP
+		add_core_of = WGP
 
 		buildings = {
 			infrastructure = 2 #was: 6
