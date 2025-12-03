@@ -1,10 +1,14 @@
 spriteTypes = {
 	# SDNL #
 	spriteType = {
-		name = "GFX_SDL_Tukhachevsky"
-		textureFile = "gfx/leaders/RRF/Portrait_SDL_mikhail_nikolayevich_tukhachevsky.dds"
+		name = "GFX_SDNL_Tukhachevsky"
+		textureFile = "gfx/leaders/RRF/Portrait_RRF_mikhail_nikolayevich_tukhachevsky.dds"
 	}
-
+	# Bermuda Accords #
+	spriteType = {
+		name = "GFX_Dickens_BAT"
+		textureFile = "gfx/leaders/Bermuda/Charles_Dickens_BAT.png"
+	}
 	# Africa #
 	spriteType = {
 		name = "GFX_Ahmed_GNA"
@@ -17,6 +21,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Leopold_SEN"
 		textureFile = "gfx/leaders/Africa/LeopoldSenegal.png"
+	}
+	# Washington Provisional Government #
+	spriteType = {
+		name = "GFX_D_Milford_WGP"
+		textureFile = "gfx/leaders/WGP/WGP_dwayne_milford.dds"
 	}
 	# Rhode Island #
 	spriteType = {
@@ -31,7 +40,6 @@ spriteTypes = {
 		name = "GFX_Barlow_RDI"
 		textureFile = "gfx/leaders/RDI/RDI_r_h_barlow.png"
 	}
-
 	#American Warlords
 	spriteType = {
 		name = "GFX_George_Leader_PEN"

@@ -22,7 +22,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Dwayne Milford"
 	desc = ""
-	picture = GFX_fish
+	picture = GFX_D_Milford_WGP
 	ideology = progressive_democracy_ideology
 	traits = {
 		#
