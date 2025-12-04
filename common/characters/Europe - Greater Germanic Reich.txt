@@ -51,7 +51,7 @@ characters = {
         }
     }
 
-    GER_ferdinand_schorner = {
+    GER_ferdinand_schörner = {
         name = GER_ferdinand_schorner
         portraits = {
             civilian = {
@@ -190,12 +190,18 @@ characters = {
             }
         }
         field_marshal = {
-            traits = {  }
-            skill = 1
-            attack_skill = 1
-            defense_skill = 1
-            planning_skill = 1
-            logistics_skill = 1
+            traits = {
+                infantry_officer
+                brilliant_strategist
+                old_guard
+                media_personality
+                offensive_doctrine
+            }
+            skill = 4
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 4
+            logistics_skill = 3
         }
     }
 
@@ -212,11 +218,17 @@ characters = {
             }
         }
         corps_commander = {
-            traits = {  }
-            attack_skill = 1
-            defense_skill = 1
-            planning_skill = 1
-            logistics_skill = 1
+            traits = {
+                trickster
+                panzer_leader
+                armor_officer
+                combined_arms_expert
+                media_personality
+            }
+            attack_skill = 4
+            defense_skill = 4
+            planning_skill = 4
+            logistics_skill = 3
         }
     }
 
