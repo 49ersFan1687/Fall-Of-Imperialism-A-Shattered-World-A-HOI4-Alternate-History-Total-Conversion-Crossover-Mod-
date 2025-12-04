@@ -179,8 +179,8 @@ characters = {
         }
     }
 
-    GER_Fritz_Erich_Georg_Eduard_von_mannstein = {
-        name = GER_Fritz_Erich_Georg_Eduard_von_mannstein
+    GER_fritz_erich_georg_eduard_von_manstein = {
+        name = GER_fritz_erich_georg_eduard_von_manstein
         portraits = {
             civilian = {
                 large = GFX_fish
