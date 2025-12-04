@@ -244,13 +244,19 @@ characters = {
         portraits = {
             civilian = {
                 large = "gfx/leaders/GER/Portrait_GER_Hans_Speidel.dds"
+                small = 
             }
             army = {
                 large = "gfx/leaders/GER/Portrait_GER_Hans_Speidel.dds"
+                small = 
             }
         }
         corps_commander = {
-            traits = { skilled_staffer trait_cautious }
+            traits = {
+                skilled_staffer
+                trait_cautious
+                thorough_plannerorganizer
+            }
             attack_skill = 4
             defense_skill = 3
             planning_skill = 4
@@ -289,12 +295,17 @@ characters = {
             }
         }
         field_marshal = {
-            traits = {  }
-            skill = 1
-            attack_skill = 1
-            defense_skill = 1
-            planning_skill = 1
-            logistics_skill = 1
+            traits = {
+                old_guard
+                brilliant_strategist
+                career_officer
+                war_hero
+            }
+            skill = 4
+            attack_skill = 5
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 3
         }
     }
 
@@ -309,12 +320,16 @@ characters = {
             }
         }
         field_marshal = {
-            traits = {  }
-            skill = 1
-            attack_skill = 1
-            defense_skill = 1
-            planning_skill = 1
-            logistics_skill = 1
+            traits = {
+                war_hero
+                trait_reckless
+                panzer_leader
+            }
+            skill = 4
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 4
+            logistics_skill = 2
         }
     }
 

@@ -833,6 +833,7 @@ characters = {
 				small = "gfx/leaders/CAL/Portrait_William_Fredrick_Halsey_Jr.dds"
 			}
 			civilian = {
+				large = 
 				small = 
 			}
 		}
