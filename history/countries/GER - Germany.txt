@@ -85,8 +85,10 @@ add_to_faction = ENG
 add_to_faction = ANR
 
 ### Country Leader ###
-recruit_character = GER_Adolf_Hitler
-recruit_character = GER_Heinrich_Himmler
+recruit_character = GER_adolf_hitler
+recruit_character = GER_heinrich_luitpold_himmler
+recruit_character = GER_ferdinand_schörner
+recruit_character = GER_hermann_wilhelm_goring
 
 # Wehrmacht Generals #
 recruit_character = GER_hans_speidel
