@@ -1,7 +1,7 @@
 characters = {
     # Greater Germanic Reich - Leaders #
-    GER_Adolf_Hitler = {
-        name = GER_Adolf_Hitler
+    GER_adolf_hitler = {
+        name = GER_adolf_hitler
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -17,8 +17,8 @@ characters = {
         }
     }
 
-    GER_Heinrich_Himmler = {
-        name = GER_Heinrich_Himmler
+    GER_heinrich_luitpold_himmler = {
+        name = GER_heinrich_luitpold_himmler
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -34,8 +34,8 @@ characters = {
         }
     }
 
-    GER_Hermann_Goring = {
-        name = GER_Hermann_Goring
+    GER_hermann_wilhelm_goring = {
+        name = GER_hermann_wilhelm_goring
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -51,8 +51,8 @@ characters = {
         }
     }
 
-    GER_Ferdinand_Schorner = {
-        name = GER_Ferdinand_Schorner
+    GER_ferdinand_schorner = {
+        name = GER_ferdinand_schorner
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -77,8 +77,8 @@ characters = {
         }
     }
 
-    GER_martin_bormann = {
-        name = GER_martin_bormann
+    GER_martin_ludwig_bormann = {
+        name = GER_martin_ludwig_bormann
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -92,7 +92,7 @@ characters = {
         }
     }
 
-    GER_joseph_goebbels = {
+    GER_paul_joseph_goebbels = {
         name = GER_joseph_goebbels
         portraits = {
             civilian = {
@@ -107,8 +107,8 @@ characters = {
         }
     }
 
-    GER_albert_speer = {
-        name = GER_albert_speer
+    GER_berthold_konrad_hermann_albert_speer = {
+        name = GER_berthold_konrad_hermann_albert_speer
         portraits = {
             civilian = {
                 large = GFX_fish
