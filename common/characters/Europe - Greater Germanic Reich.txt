@@ -159,8 +159,8 @@ characters = {
         }
     }
 
-    GER_Johannes_Erwin_Eugen_Rommel = {
-        name = GER_Johannes_Erwin_Eugen_Rommel
+    GER_johannes_erwin_eugen_rommel = {
+        name = GER_johannes_erwin_eugen_rommel
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -170,11 +170,16 @@ characters = {
             }
         }
         field_marshal = {
-            traits = {  }
-            skill = 1
-            attack_skill = 1
-            defense_skill = 1
-            planning_skill = 1
+            traits = {
+                trait_reckless
+                war_hero
+                armor_officer
+                media_personality
+            }
+            skill = 4
+            attack_skill = 4
+            defense_skill = 4
+            planning_skill = 2
             logistics_skill = 1
         }
     }
