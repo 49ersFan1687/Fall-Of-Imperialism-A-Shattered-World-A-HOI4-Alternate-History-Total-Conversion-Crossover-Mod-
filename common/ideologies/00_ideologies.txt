@@ -128,6 +128,7 @@ ideologies = {
 			semi_constitutional_monarchy_ideology = { }
 			democratic_stratocracy_ideology = { }
 			irish_national_catholicism_ideology = { }
+			kemalism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 135 135 140 }
