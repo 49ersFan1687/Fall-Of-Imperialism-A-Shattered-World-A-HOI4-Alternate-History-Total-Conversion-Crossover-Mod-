@@ -167,7 +167,7 @@ characters = {
 				original_tag = CAL
 			}
 			traits = {
-
+				superior_firepower_expert
 			}
 		}
 	}
@@ -207,7 +207,7 @@ characters = {
 			}
 
 			traits = {
-
+				grand_battleplan_expert
 			}
 		}
 	}
@@ -259,7 +259,9 @@ characters = {
 			}
 		}
 		field_marshal={
-			traits={ media_personality }
+			traits= {
+				media_personality
+			}
 			skill = 4
 			attack_skill = 3
 			defense_skill = 3
@@ -295,13 +297,13 @@ characters = {
 		advisior = {
 			cost = 200
 			slot = theorist
-			idea_token = george_Smith_Patton_jr
+			idea_token = george_smith_patton_jr
 			ledger = army
 			allowed = {
 				original_tag = CAL
 			}
 			traits = {
-					
+				mobile_warfare_expert
 			}
 		}
 	}
@@ -408,7 +410,7 @@ characters = {
 				original_tag = CAL
 			}
 			traits = {
-					
+				mass_assault_expert
 			}
 		}
 	}
