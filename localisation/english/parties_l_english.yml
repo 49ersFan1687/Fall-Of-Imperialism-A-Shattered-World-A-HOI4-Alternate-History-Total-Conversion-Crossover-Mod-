@@ -70,10 +70,21 @@ autonomous_communism_ideology: "Autonomous Communism"
 autonomous_communism_ideology_desc: "Autonomus Communism"
 autocratic_marxism_ideology: "Autocratic Marxism"
 autocratic_marxism_ideology_desc: "Autocratic Marxism"
+communism_broad_communism_ideology: "Broad Communism"
+communism_broad_communism_ideology_desc: "Broad Communism"
 
 ### Subideologies - Syndicalism ###
 syndicalism_ideology: "Syndicalism"
 syndicalism_ideology_desc: "Syndicalism"
+syndicalism_anarcho_syndicalism_ideology: "Anarcho-Syndicalism"
+syndicalism_anarcho_syndicalism_ideology_desc: "Anarcho-Syndicalism"
+syndicalism_agrarian_syndicalism_ideology: "Agrarian Syndicalism"
+syndicalism_agrarian_syndicalism_ideology_desc: "Agrarian Syndicalism"
+syndicalism_broad_communism_ideology: "Broad Communism"
+syndicalism_broad_communism_ideology_desc: "Broad Communism"
+red_junta_syndicalism_ideology: "Red Junta"
+red_junta_syndicalism_ideology_desc: "Red Junta"
+
 
 ### Subideologies - Socialism ###
 socialism_ideology: "Socialism"
@@ -100,6 +111,10 @@ christian_anarchism_ideology: "Christian Anarchism"
 christian_anarchism_ideology_desc: "Christian Anarchism"
 anarcho_pacifism_ideology: "Anarcho-Pacifism"
 anarcho_pacifism_ideology_desc: "Anarcho-Pacifism"
+socialism_broad_communism_ideology: "Broad Communism"
+socialism_broad_communism_ideology_desc: "Broad Communism"
+left_lovecraftism_ideology: "Left Lovecraftism"
+left_lovecraftism_ideology_desc: "Left Lovecraftism"
 
 ### Subideologies - Social Democracy ###
 social_democracy_ideology: "Social Democracy"
@@ -197,6 +212,10 @@ colonial_government_ideology: "Colonial Government"
 colonial_government_ideology_desc: "Colonial Government"
 autocratic_marxism_paternal_ideology: "Autocratic Marxism"
 autocratic_marxism_paternal_ideology_desc: "Autocratic Marxism"
+horthyism_ideology: "Horthyism"
+horthyism_ideology_desc: "Horthyism"
+lovecraftism_ideology: "Lovecraftism"
+lovecraftism_ideology_desc: "Lovecraftism"
 
 ### Subideologies - Accelerationism ###
 accelerationism_ideology: "Accelerationism"
@@ -205,12 +224,18 @@ nation_rejuvinatism_ideology: "Nation Rejuvinatism"
 nation_rejuvinatism_ideology_desc: "Nation Rejuvinatism"
 cosmicism_ideology: "Cosmicism"
 cosmicism_ideology_desc: "Cosmicism"
+surrealism_ideology: "Surrealism"
+surrealism_ideology_desc: "Surrealism"
+avante_garde_lovecraftism_ideology: "Avante-Garde Lovecraftism"
+avante_garde_lovecraftism_ideology_desc: "Avante-Garde Lovecraftism"
 
 ### Subideologies - Ultranationalism ###
 ultranationalism_ideology: "Ultranationalism"
 ultranationalism_ideology_desc: "Ultranationalism"
 stratocratic_nationalism_ideology: "Stratocratic Nationalism"
 stratocratic_nationalism_ideology_desc: "§YStratocratic Nationalism§!, like all Stratocracys, cares mainly for §YThe Military§!, and keeps People in check through rigid, authoritarian means, as well as a deeply imbedded Nationalistic Rhetoric, usually against a perceived enemy. In essence it is a §YMilitary Junta§!, just without the Promises of Democracy, and more with the Hatred and Fascism"
+iron_guard_ideology: "Iron Guard"
+iron_guard_ideology_desc: "Iron Guard"
 
 ### Subideologies - Fascism ###
 fascism_ideology: "Fascism"
@@ -231,6 +256,8 @@ british_fascism_ideology: "British Fascism"
 british_fascism_ideology_desc: "British Fascism"
 french_fascism_ideology: "French Fascism"
 french_fascism_ideology_desc: "French Fascism"
+american_fascism_ideology: "American Fascism"
+american_fascism_ideology_desc: "American Fascism"
 
 ### Subideologies -  National Socialism ###
 nazism_ideology: "Nazism"
@@ -247,6 +274,8 @@ occultist_nazism_ideology: "Occultist Nazism"
 occultist_nazism_ideology_desc: "Occultist Nazism"
 clerical_fascism_ideology: "Clerical Fascism"
 clerical_fascism_ideology_desc: "Clerical Fascism"
+true_believers_ideology: "True Believers"
+true_believers_ideology_desc: "True Believers"
 
 ### Subideologies - Esotericism ###
 esotericism_ideology: "Esotericism"
@@ -259,4 +288,6 @@ occultist_nazism_esoteric_ideology: "Occultist Nazism"
 occultist_nazism_esoteric_ideology_desc: "Occultist Nazism"
 esoteric_esoteric_fascism_ideology: "Esoteric Fascism"
 esoteric_esoteric_fascism_ideology_desc: "Esoteric Fascism"
+true_believers_esoteric_ideology: "True Believers"
+true_believers_esoteric_ideology_desc: "True Believers"
 
