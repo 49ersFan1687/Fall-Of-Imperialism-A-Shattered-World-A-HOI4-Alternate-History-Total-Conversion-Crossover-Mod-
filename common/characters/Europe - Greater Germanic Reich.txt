@@ -175,6 +175,7 @@ characters = {
                 war_hero
                 armor_officer
                 media_personality
+                wehrmacht_aligned_officer
             }
             skill = 4
             attack_skill = 4
@@ -201,6 +202,7 @@ characters = {
                 old_guard
                 media_personality
                 offensive_doctrine
+                wehrmacht_aligned_officer
             }
             skill = 4
             attack_skill = 4
@@ -229,6 +231,7 @@ characters = {
                 armor_officer
                 combined_arms_expert
                 media_personality
+                wehrmacht_aligned_officer
             }
             attack_skill = 4
             defense_skill = 4
@@ -272,7 +275,9 @@ characters = {
             traits = {
                 skilled_staffer
                 trait_cautious
-                thorough_plannerorganizer
+                thorough_planner
+                organizer
+                wehrmacht_aligned_officer
             }
             attack_skill = 4
             defense_skill = 3
@@ -317,6 +322,7 @@ characters = {
                 brilliant_strategist
                 career_officer
                 war_hero
+                ss_aligned_officer
             }
             skill = 4
             attack_skill = 5
@@ -341,6 +347,7 @@ characters = {
                 war_hero
                 trait_reckless
                 panzer_leader
+                ss_aligned_officer
             }
             skill = 4
             attack_skill = 4
