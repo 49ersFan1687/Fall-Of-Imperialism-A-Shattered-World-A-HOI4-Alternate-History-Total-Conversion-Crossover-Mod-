@@ -15,7 +15,7 @@ characters = {
 			desc = "POLITICS_SEMYON_BUDYONNY_DESC"
 			ideology = leninism_ideology
             traits = {
-
+				SDL_the_old_warhorse
             }
 			id = -1
 		}
@@ -44,7 +44,7 @@ characters = {
 			desc = "POLITICS_MIKHAIL_FRUNZE_DESC"
 			ideology = marxism_ideology
             traits = {
-
+				SDL_the_hero_of_the_civil_war
             }
 			id = -1
 		}
@@ -73,7 +73,7 @@ characters = {
 			desc = "POLITICS_GEORGY_ZHUKOV_DESC"
 			ideology = red_junta_communism_ideology
 			traits = {
-
+				SDL_the_peoples_marshal
 			}
 			id = -1
 		}
@@ -103,7 +103,7 @@ characters = {
 			desc = "POLITICS_MIKHAIL_TUKHACHEVSKY_DESC"
 			ideology = leninism_ideology
 			traits = {
-				
+				SDL_the_red_bonaparte
 			}
 			id = -1
 		}
