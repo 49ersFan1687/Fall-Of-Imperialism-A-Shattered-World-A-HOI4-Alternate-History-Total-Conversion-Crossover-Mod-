@@ -39,18 +39,24 @@ leader_traits = {
 	}
 
 	### Soviet Directorate of National Liberation Leader Traits ###
-	SDL_the_old_warhorse = {}
+	SDL_the_old_warhorse = {
+		random = no
+	}
 
-	SDL_the_peoples_marshal = {}
+	SDL_the_peoples_marshal = {
+		random = no
+	}
 
 	SDL_the_red_bonaparte = {
 		random = no
 		army_org_factor = 0.5
-		army_attack_factor = 0.08
-		army_defence_factor 0.08
+		army_attack_factor = 0.06
+		army_defence_factor 0.06
 	}
 
-	SDL_the_hero_of_the_revolution = {}
+	SDL_the_hero_of_the_revolution = {
+		random = no
+	}
 
 	### Provisional Authority of Cascadia Leader Traits ###
 }
