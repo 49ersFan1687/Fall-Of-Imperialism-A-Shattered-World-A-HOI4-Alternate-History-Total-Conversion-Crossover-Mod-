@@ -47,6 +47,7 @@ leader_traits = {
 		random = no
 		army_org_factor = 0.5
 		army_attack_factor = 0.08
+		army_defence_factor 0.08
 	}
 
 	SDL_the_hero_of_the_revolution = {}
