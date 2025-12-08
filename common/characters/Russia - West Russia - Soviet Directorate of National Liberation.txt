@@ -20,7 +20,13 @@ characters = {
 			id = -1
 		}
 		field_marshal = {
-			traits = { inspirational_leader media_personality cavalry_officer cavalry_expert skilled_staffer }
+			traits = {
+				inspirational_leader
+				media_personality
+				cavalry_officer
+				cavalry_expert
+				skilled_staffer
+			}
 			skill = 3
 			attack_skill = 4
 			defense_skill = 1
@@ -49,7 +55,13 @@ characters = {
 			id = -1
 		}
 		field_marshal = {
-			traits = { inspirational_leader offensive_doctrine war_hero politically_connected infantry_leader }
+			traits = {
+				inspirational_leader
+				offensive_doctrine
+				war_hero
+				politically_connected
+				infantry_leader
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 3
@@ -78,7 +90,14 @@ characters = {
 			id = -1
 		}
 		field_marshal = {
-			traits = { offensive_doctrine armor_officer media_personality war_hero }
+			traits = {
+				offensive_doctrine
+				winter_specialist
+				panzer_leader
+				armor_officer
+				media_personality
+				war_hero
+			}
 			skill = 5
 			attack_skill = 5
 			defense_skill = 2
@@ -108,7 +127,13 @@ characters = {
 			id = -1
 		}
 		field_marshal = {
-			traits = { offensive_doctrine career_officer panzer_leader aggressive_assaulter cavalry_leader }
+			traits = {
+				offensive_doctrine
+				career_officer
+				panzer_leader
+				aggressive_assaulter
+				cavalry_leader
+			}
 			skill = 5
 			attack_skill = 5
 			defense_skill = 3
