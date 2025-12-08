@@ -46,4 +46,6 @@ leader_traits = {
 	SDL_the_red_bonaparte = {}
 
 	SDL_the_hero_of_the_revolution = {}
+
+	### Provisional Authority of Cascadia Leader Traits ###
 }
