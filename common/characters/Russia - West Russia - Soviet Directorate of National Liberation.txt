@@ -473,6 +473,67 @@ characters = {
         }
 	}
 
-	SDL_
+	SDL_furious_glory = {
+		name = SDL_furious_glory
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			navy = {
+				large = GFX_fish
+			}
+		}
+		navy_leader = {
+            desc =
+            traits = {  }
+            skill =
+            attack_skill =
+            defense_skill =
+            maneuvering_skill =
+            coordination_skill =
+        }
+	}
+	
+	SDL_grey_gorshkov = {
+		name = SDL_grey_gorshkov
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			navy = {
+				large = GFX_fish
+			}
+		}
+		navy_leader = {
+            desc =
+            traits = {  }
+            skill =
+            attack_skill =
+            defense_skill =
+            maneuvering_skill =
+            coordination_skill =
+        }
+	}
+	
+	SDL_karina = {
+		name = SDL_karina
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			navy = {
+				large = GFX_fish
+			}
+		}
+		navy_leader = {
+            desc =
+            traits = {  }
+            skill =
+            attack_skill =
+            defense_skill =
+            maneuvering_skill =
+            coordination_skill =
+        }
+	}
 }
 
