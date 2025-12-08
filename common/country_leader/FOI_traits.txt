@@ -43,7 +43,11 @@ leader_traits = {
 
 	SDL_the_peoples_marshal = {}
 
-	SDL_the_red_bonaparte = {}
+	SDL_the_red_bonaparte = {
+		random = no
+		army_org_factor = 0.5
+		army_attack_factor = 0.08
+	}
 
 	SDL_the_hero_of_the_revolution = {}
 
