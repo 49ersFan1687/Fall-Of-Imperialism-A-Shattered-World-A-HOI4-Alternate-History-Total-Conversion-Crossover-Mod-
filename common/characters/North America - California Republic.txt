@@ -132,6 +132,69 @@ characters = {
 		}
 	}
 
+	CAL_howard_robard_hughes_jr = {
+		name = CAL_howard_robard_hughes_jr
+		portraits = {
+			civillian = {
+
+			}
+		}
+		advisor = {
+			slot = 
+			idea_token = CAL_walter_elias_disney_hog
+			allowed = { original_tag = CAL }
+			traits = {
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = yes
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	CAL_alben_william_barkley = {
+		name = CAL_alben_william_barkley
+		portraits = {
+			civillian = {
+
+			}
+		}
+		advisor = {
+			slot = 
+			idea_token = CAL_walter_elias_disney_hog
+			allowed = { original_tag = CAL }
+			traits = {
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = yes
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	CAL_james_byron_dean = {
+		name = CAL_james_byron_dean
+		portraits = {
+			civillian = {
+
+			}
+		}
+		advisor = {
+			slot = 
+			idea_token = CAL_walter_elias_disney_hog
+			allowed = { original_tag = CAL }
+			traits = {
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = yes
+			ai_will_do = { factor = 0 }
+		}
+	}
+
     # Field Marshals #
 	CAL_dwight_david_eisenhower = {
 		name = CAL_dwight_david_eisenhower
