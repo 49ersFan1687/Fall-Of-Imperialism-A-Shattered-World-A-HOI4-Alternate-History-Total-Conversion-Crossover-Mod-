@@ -20,7 +20,12 @@ set_popularities = {
 }
 create_faction = "Antifashistskiy Front"
 
+### Leaders/Field Marshals ###
 recruit_character = SDL_semyon_mikhailovich_budyonny
 recruit_character = SDL_georgy_konstantinovich_zhukov
 recruit_character = SDL_mikhail_vasilievich_frunze
 recruit_character = SDL_mikhail_nikolayevich_tukhachevsky
+
+### Generals ###
+recruit_character = SDL_dimitry_timofeyevich_yazov
+recruit_character = SDL_vasily_danilovich_sokolovsky

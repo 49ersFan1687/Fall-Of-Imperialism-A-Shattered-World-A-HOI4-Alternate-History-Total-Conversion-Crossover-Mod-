@@ -205,7 +205,6 @@ characters = {
 			allowed = {
 				original_tag = CAL
 			}
-
 			traits = {
 				grand_battleplan_expert
 			}
