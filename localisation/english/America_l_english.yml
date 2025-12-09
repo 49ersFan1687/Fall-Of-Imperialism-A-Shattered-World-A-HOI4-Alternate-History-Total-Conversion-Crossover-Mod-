@@ -272,6 +272,35 @@
  PCD_socialism_party: "CPP"
  PCD_socialism_party_long: "§YCascadian People's Party§!"
 
+ #Pennsylvania
+ PEN_communism_party: "PCP"
+ PEN_communism_party_long: "§YPennsylvania Communist Party§!"
+ PEN_syndicalism_party: "PS"
+ PEN_syndicalism_party_long: "§YParty of Socialists§!"
+ PEN_socialism_party: "PS"
+ PEN_socialism_party_long: "§YParty of Socialists§!"
+ PEN_social_democracy_party: "Progressives"
+ PEN_social_democracy_party_long: "§YProgressive Party§!"
+ PEN_democratic_party: "Democrats"
+ PEN_democratic_party_long: "§YDemocrats of Pennsylvania§!"
+ PEN_conservatism_party: "CPP"
+ PEN_conservatism_party_long: "§YConservative Party of Pennsylvania§!"
+ PEN_neutrality_party: "NCA"
+ PEN_neutrality_party_long: "§YNational Conservative Party§!"
+ PEN_paternal_autocrat_party: "PM"
+ PEN_paternal_autocrat_party_long: "§YPennsylvania Military§!"
+ PEN_accelerationism_party: "PA"
+ PEN_accelerationism_party_long: "§YPennsylvanian Artists§!"
+ PEN_ultranationalism_party: "§RN/A§!"
+ PEN_ultranationalism_party_long: "§RN/A§!"
+ PEN_fascism_party: "§RN/A§!"
+ PEN_fascism_party_long: "§RN/A§!"
+ PEN_national_socialism_party: "§RBANNED§!"
+ PEN_national_socialism_party_long: "§RBANNED§!"
+ PEN_esotericism_party: "§RBANNED§!"
+ PEN_esotericism_party_long: "§RBANNED§!"
+ 
+
 ### Character Localization ###
 
 ###OPM###
