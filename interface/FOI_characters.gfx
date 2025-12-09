@@ -2,7 +2,7 @@ spriteTypes = {
 	# SDNL #
 	spriteType = {
 		name = "GFX_SDNL_Tukhachevsky"
-		textureFile = "gfx/leaders/RRF/Portrait_RRF_mikhail_nikolayevich_tukhachevsky.dds"
+		textureFile = "gfx/leaders/SDL/Portrait_SDL_mikhail_nikolayevich_tukhachevsky.dds"
 	}
 	# Bermuda Accords #
 	spriteType = {

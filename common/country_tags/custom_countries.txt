@@ -78,7 +78,7 @@ PRD = "countries/PeopleDakota.txt"
 SSD = "countries/StateSouthDakota.txt"
 SND = "countries/StateNorthDakota.txt"
 #RUSSIA#
-RRF = "countries/RussiaRevolutionFront.txt"
+SDL = "countries/SovietDirectorateOfLiberation.txt"
 VYA = "countries/Vyatka.txt"
 URL = "countries/SouthUral.txt"
 VGD = "countries/Vologda.txt"

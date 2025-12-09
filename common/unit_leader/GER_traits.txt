@@ -1,0 +1,37 @@
+leader_traits = {
+    ss_aligned_officer = {
+        type = all
+        trait_type = personality_trait
+        gain_xp = {
+			always = no # not gainable
+		}
+		modifier = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+            factor = 0
+        }
+    }
+
+    wehrmacht_aligned_officer = {
+        type = all
+        trait_type = personality_trait
+        gain_xp = {
+			always = no # not gainable
+		}
+		modifier = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+            factor = 0
+        }
+    }
+}

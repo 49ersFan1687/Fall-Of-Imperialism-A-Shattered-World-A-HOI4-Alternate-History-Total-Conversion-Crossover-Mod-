@@ -15,12 +15,18 @@ characters = {
 			desc = "POLITICS_SEMYON_BUDYONNY_DESC"
 			ideology = leninism_ideology
             traits = {
-
+				SDL_the_old_warhorse
             }
 			id = -1
 		}
 		field_marshal = {
-			traits = { inspirational_leader media_personality cavalry_officer cavalry_expert skilled_staffer }
+			traits = {
+				inspirational_leader
+				media_personality
+				cavalry_officer
+				cavalry_expert
+				skilled_staffer
+			}
 			skill = 3
 			attack_skill = 4
 			defense_skill = 1
@@ -44,12 +50,18 @@ characters = {
 			desc = "POLITICS_MIKHAIL_FRUNZE_DESC"
 			ideology = marxism_ideology
             traits = {
-
+				SDL_the_hero_of_the_civil_war
             }
 			id = -1
 		}
 		field_marshal = {
-			traits = { inspirational_leader offensive_doctrine war_hero politically_connected infantry_leader }
+			traits = {
+				inspirational_leader
+				offensive_doctrine
+				war_hero
+				politically_connected
+				infantry_leader
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 3
@@ -73,18 +85,24 @@ characters = {
 			desc = "POLITICS_GEORGY_ZHUKOV_DESC"
 			ideology = red_junta_communism_ideology
 			traits = {
-
+				SDL_the_peoples_marshal
 			}
 			id = -1
 		}
 		field_marshal = {
-			traits = { offensive_doctrine armor_officer media_personality war_hero }
+			traits = {
+				offensive_doctrine
+				winter_specialist
+				panzer_leader
+				armor_officer
+				media_personality
+				war_hero
+			}
 			skill = 5
 			attack_skill = 5
 			defense_skill = 2
 			planning_skill = 4
 			logistics_skill = 5
-			
 		}
     }
 
@@ -103,12 +121,18 @@ characters = {
 			desc = "POLITICS_MIKHAIL_TUKHACHEVSKY_DESC"
 			ideology = leninism_ideology
 			traits = {
-				
+				SDL_the_red_bonaparte
 			}
 			id = -1
 		}
 		field_marshal = {
-			traits = { offensive_doctrine career_officer panzer_leader aggressive_assaulter cavalry_leader }
+			traits = {
+				offensive_doctrine
+				career_officer
+				panzer_leader
+				aggressive_assaulter
+				cavalry_leader
+			}
 			skill = 5
 			attack_skill = 5
 			defense_skill = 3
@@ -152,12 +176,16 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = {
+				organizer
+				war_hero
+				infantry_expert
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 
@@ -172,12 +200,17 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = {
+				politically_connected
+				winter_specialist
+				brilliant_strategist
+				trickster
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 2
 		}
 	}
 
@@ -443,6 +476,67 @@ characters = {
         }
 	}
 
-	SDL_
+	SDL_furious_glory = {
+		name = SDL_furious_glory
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			navy = {
+				large = GFX_fish
+			}
+		}
+		navy_leader = {
+            desc =
+            traits = {  }
+            skill =
+            attack_skill =
+            defense_skill =
+            maneuvering_skill =
+            coordination_skill =
+        }
+	}
+	
+	SDL_grey_gorshkov = {
+		name = SDL_grey_gorshkov
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			navy = {
+				large = GFX_fish
+			}
+		}
+		navy_leader = {
+            desc =
+            traits = {  }
+            skill =
+            attack_skill =
+            defense_skill =
+            maneuvering_skill =
+            coordination_skill =
+        }
+	}
+	
+	SDL_karina = {
+		name = SDL_karina
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			navy = {
+				large = GFX_fish
+			}
+		}
+		navy_leader = {
+            desc =
+            traits = {  }
+            skill =
+            attack_skill =
+            defense_skill =
+            maneuvering_skill =
+            coordination_skill =
+        }
+	}
 }
 

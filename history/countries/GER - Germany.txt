@@ -90,10 +90,18 @@ recruit_character = GER_heinrich_luitpold_himmler
 recruit_character = GER_ferdinand_schörner
 recruit_character = GER_hermann_wilhelm_goring
 
-# Wehrmacht Generals #
+# Wehrmacht Generals (Heer) #
 recruit_character = GER_hans_speidel
 recruit_character = GER_heinz_wilhelm_guderian
 recruit_character = GER_fritz_erich_georg_eduard_von_manstein
+recruit_character = GER_johannes_erwin_eugen_rommel
+
+# Waffen-SS Generals #
+recruit_character = GER_felix_martin_julius_steiner
+recruit_character = GER_josef_dietrich
+
+# Kriegsmarine Admirals #
+
 
 create_country_leader = {
 	name = "CDU Guy"
