@@ -7,7 +7,7 @@ state = {
 	state_category = town
 
 	history = {
-		owner = RRF
+		owner = SDL
 		victory_points = {
 			3338 5 
 		}
@@ -19,7 +19,7 @@ state = {
 				naval_base = 3
 			}
 		}
-		add_core_of = RRF
+		add_core_of = SDL
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 2

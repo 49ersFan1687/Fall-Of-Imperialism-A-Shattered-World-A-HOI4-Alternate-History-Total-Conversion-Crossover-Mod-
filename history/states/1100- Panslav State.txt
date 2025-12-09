@@ -7,9 +7,9 @@ state = {
 
 	history = {
 
-		owner = RRF
+		owner = SDL
 		#add_core_of = PSF
-		add_core_of = RRF
+		add_core_of = SDL
 
 		buildings = {
 			infrastructure = 2 #was: 6

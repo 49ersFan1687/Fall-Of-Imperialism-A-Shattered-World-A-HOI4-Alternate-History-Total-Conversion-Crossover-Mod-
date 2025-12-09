@@ -1,8 +1,8 @@
 ﻿l_english:
 #COUNTRY NAMES#
-RRF: "Soviet Directorate of National Liberation"
-RRF_DEF: "Soviet Directorate of National Liberation"
-RRF_ADJ: "Russian"
+SDL: "Soviet Directorate of National Liberation"
+SDL_DEF: "Soviet Directorate of National Liberation"
+SDL_ADJ: "Russian"
 VYA: "Vyatka"
 VYA_DEF: "Imperial State of Vyatka"
 VYA_ADJ: "Vyatkan"

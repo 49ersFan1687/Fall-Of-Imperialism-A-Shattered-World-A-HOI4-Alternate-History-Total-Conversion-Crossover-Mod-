@@ -14,7 +14,7 @@ state = {
 		victory_points = {
 			105 1 
 		}
-		owner = RRF
+		owner = SDL
 		buildings = {
 			infrastructure = 1
 			12530 = {
@@ -22,7 +22,7 @@ state = {
 			}
 
 		}
-		add_core_of = RRF
+		add_core_of = SDL
 	}
 
 	provinces = {

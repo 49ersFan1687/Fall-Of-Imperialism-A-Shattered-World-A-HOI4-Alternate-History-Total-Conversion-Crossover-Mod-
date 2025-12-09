@@ -10,14 +10,14 @@ state={
 	}
 
 	history={
-		owner = RRF
+		owner = SDL
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 1
 		}
 
 		#add_core_of = TAT
-		add_core_of = RRF
+		add_core_of = SDL
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2

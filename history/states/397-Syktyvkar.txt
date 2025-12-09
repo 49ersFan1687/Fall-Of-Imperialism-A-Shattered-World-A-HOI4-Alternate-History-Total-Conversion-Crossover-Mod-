@@ -9,14 +9,14 @@ state = {
 		victory_points = {
 			108 1 
 		}
-		owner = RRF
+		owner = SDL
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 
 		}
 		#add_core_of = KOM
-		add_core_of = RRF
+		add_core_of = SDL
 	}
 
 	provinces = {

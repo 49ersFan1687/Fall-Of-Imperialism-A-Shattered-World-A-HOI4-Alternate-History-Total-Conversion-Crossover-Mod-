@@ -7,7 +7,7 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = RRF
+		owner = SDL
 		victory_points = {
 			138 1 
 		}
@@ -15,7 +15,7 @@ state = {
 			infrastructure = 1
 			
 		}
-		add_core_of = RRF
+		add_core_of = SDL
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 2
