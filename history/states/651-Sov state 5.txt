@@ -7,7 +7,7 @@ state = {
 	state_category = city
 
 	history = {
-		owner = RRF
+		owner = SDL
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
@@ -20,7 +20,7 @@ state = {
 			4354 1 
 		}
 		#add_core_of = BSK
-		add_core_of = RRF
+		add_core_of = SDL
 	}
 
 	provinces = {

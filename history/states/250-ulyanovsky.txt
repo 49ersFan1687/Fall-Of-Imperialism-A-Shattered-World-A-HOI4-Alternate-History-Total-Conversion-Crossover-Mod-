@@ -10,13 +10,13 @@ state={
 	}
 
 	history={
-		owner = RRF
+		owner = SDL
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
 		#add_core_of = SRR
-		add_core_of = RRF
+		add_core_of = SDL
 		victory_points = {
 			392 1
 		}

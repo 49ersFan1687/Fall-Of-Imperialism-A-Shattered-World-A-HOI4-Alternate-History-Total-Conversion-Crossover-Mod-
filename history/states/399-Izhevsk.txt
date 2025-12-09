@@ -9,12 +9,12 @@ state = {
 	}
 
 	history = {
-		owner = RRF
+		owner = SDL
 		buildings = {
 			infrastructure = 2
 		}
 		#add_core_of = VYA
-		add_core_of = RRF
+		add_core_of = SDL
 		
 		victory_points = {
 			6278 1 

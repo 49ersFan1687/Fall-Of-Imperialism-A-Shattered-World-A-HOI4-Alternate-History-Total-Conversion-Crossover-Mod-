@@ -1411,7 +1411,7 @@ MSI = {
 	color = rgb { 40 67 82 }
 	color_ui = rgb { 40 67 82 }
 }
-RRF = {
+SDL = {
 	color = rgb { 133 29 48 }
 	color_ui = rgb { 40 67 82 }
 }
