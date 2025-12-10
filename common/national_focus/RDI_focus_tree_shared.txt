@@ -60,7 +60,13 @@ shared_focus = {
 	x = 21
 	y = 3
 	completion_reward = {
-		custom_effect_tooltip = RDI_August_Dereleth_Leader
+		custom_effect_tooltip = RDI_August_Leader
+			set_politics = {
+				ruling_party = paternal_autocrat
+       				elections_allowed = no
+        			last_election = 1935.01.01
+			}
+		retire_country_leader = yes
 		add_political_power = 30
 		remove_ideas = RDI_factionalism
 		country_event = { id = rhode_island.3 }
@@ -70,19 +76,18 @@ shared_focus = {
 	id = RDI_The_Independent
 	icon = GFX_fish
 	cost = 4
-	available = { has_country_flag = RDI_Frank_Belknap_Is_Leader }
+	available = { has_country_flag = RDI_Galpin_Is_Leader }
 	prerequisite = { focus = RDI_True_Teachings_Of_The_King }
 	mutually_exclusive = { focus = RDI_The_Editor }	
 	x = 19
 	y = 3
 	completion_reward = {
-		custom_effect_tooltip = RDI_Frank_Belknap_Long_Leader
+		custom_effect_tooltip = RDI_Galpin_Leader
 			set_politics = {
-				ruling_party = socialism
+				ruling_party = paternal_autocrat
        				elections_allowed = no
         			last_election = 1935.01.01
 			}
-		retire_country_leader = yes
 		retire_country_leader = yes
 		add_stability = 0.08
 		remove_ideas = RDI_factionalism
@@ -215,7 +220,7 @@ shared_focus = {
 	x = 22
 	y = 8
 	completion_reward = {
-		add_ideas = RDI_white_welfare
+		add_ideas = RDI_White_Welfare
 	}
 }
 shared_focus = {
