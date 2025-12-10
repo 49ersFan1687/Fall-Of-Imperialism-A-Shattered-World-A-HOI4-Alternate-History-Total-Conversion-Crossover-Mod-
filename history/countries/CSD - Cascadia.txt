@@ -25,3 +25,4 @@ set_popularities = {
 }
 
 # Cascadian Second Continental Army Leaders #
+recruit_character = CSD_atsuko_maeda
