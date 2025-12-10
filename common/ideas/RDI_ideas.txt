@@ -150,7 +150,87 @@ ideas = {
 
             }
         }
-      
+	    ### Rhode Island Socialist Path Ideas ###
+      RDI_A_Better_Life = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_A_Better_Life" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+                consumer_goods_factor = 0.14
+		stability_factor = 0.17
+		war_support_factor = 0.09
+		
+		
+            }
+            equipment_bonus = {
+
+            }
+        }
+      RDI_the_peoples_vanguard = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_Vanguard_Of_The_People" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+		war_support_factor = 0.12
+		weekly_casualties_war_support = 0.002
+		resistance_target = 0.12
+		army_core_attack_factor = 0.15
+		army_core_defence_factor = 0.15
+		
+		
+            }
+            equipment_bonus = {
+
+            }
+        }
+      RDI_Ode_To_Aztecs = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_Ode_To_Aztecs" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+		war_support_factor = 0.1
+		socialism_drift = 0.02
+		accelerationism_drift = 0.02
+		
+		
+            }
+            equipment_bonus = {
+
+            }
+        }
+      RDI_the_proleteriat_reigns_supreme = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_the_proleteriat_reigns_supreme" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+		production_speed_buildings_factor = 0.12
+		industrial_capacity_factory = 0.09
+		industrial_capacity_dockyard = 0.06
+		
+		
+            }
+            equipment_bonus = {
+
+            }
+        }
+
+      RDI_State_Capitalism = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_State_Capitalism" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+		consumer_goods_factor = -0.12
+		production_speed_buildings_factor = -0.18
+		industrial_capacity_factory = 0.11
+		
+		
+            }
+            equipment_bonus = {
+
+            }
+        }
+
+
         
         ### Air Force Reform Ideas ###
         ### Navy Reform Ideas ###
