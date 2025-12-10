@@ -1,8 +1,32 @@
-l_english:
-
-CSD:0 "Provisonal Authority of Cascadia Focus Tree"
-
+﻿l_english:
+ CSD: "Cascadia"
+ CSD_DEF: "Cascadia"
+ CSD_ADJ: "Cascadian"
 ### Political Parties - Provisional Authority of Cascadia ###
+CSD_communism_party: "§RBANNED§!"
+CSD_communism_party_long: "§RBANNED§!"
+CSD_socialism_party: "SPC"
+CSD_socialism_party_long: "§YSocialist Party of Cascadia§!"
+CSD_social_democracy_party: "PPR"
+CSD_social_democracy_party_long: "§YParty for Progressive Reform§!"
+CSD_democratic_party: "CRP"
+CSD_democratic_party_long: "§YCascadian Republican Party§!"
+CSD_conservatism_party: "Tories"
+CSD_conservatism_party_long: "§YTory Party of Cascadia§!"
+CSD_neutrality_party: "CNM"
+CSD_neutrality_party_long: "§YCascadian National Movement§!"
+CSD_paternal_autocrat_party: "CNA"
+CSD_paternal_autocrat_party_long: "§YCascadian National Army§!"
+CSD_accelerationism_party: "§RN/A§!"
+CSD_accelerationism_party_long: "§RN/A§!"
+CSD_ultranationalism_party: "CNM"
+CSD_ultranationalism_party_long: "§YCascadian National Movement§!"
+CSD_fascism_party: "WW"
+CSD_fascism_party_long: "§YWind in The Woods§!"
+CSD_national_socialism_party: "NSCWP"
+CSD_national_socialism_party_long: "§YNational Socialist Cascadian Worker's Party§!"
+CSD_esotericism_party: "WW"
+CSD_esotericism_party_long: "§YWind in The Woods§!"
 
 
 ### Character Localization ###
