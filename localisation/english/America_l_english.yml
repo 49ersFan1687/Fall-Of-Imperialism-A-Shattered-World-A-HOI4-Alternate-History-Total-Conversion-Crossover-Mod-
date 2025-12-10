@@ -3,9 +3,6 @@
  CAL: "California"
  CAL_DEF: "California Republic"
  CAL_ADJ: "Californian"
- CSD: "Cascadia"
- CSD_DEF: "Cascadia"
- CSD_ADJ: "Cascadian"
  OPM: "Oregon Military District"
  OPM_DEF: "Oregon Provisional Military District"
  OPM_ADJ: "Oregonian"
@@ -240,9 +237,6 @@
  CAL_democratic_party: "Progressive Party"
  CAL_democratic_party_long: "§YProgressive Party§!\n§gDid You Know You Can Add Descriptions to these?§!"
  
- #Cascadia
- CSD_neutrality_party: "CNM"
- CSD_neutrality_party_long: "Cascadian National Movement"
  
  #Oregon Military
  OPM_paternal_autocrat_party: "Military Socialists"
