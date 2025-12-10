@@ -14,6 +14,21 @@ ideas = {
                 
             }
 	}
+    ### Country Ideas - Senegal ###
+    country = {
+      
+     SEN_socialist_democracy = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		socialism_drift = 0.03
+		stability_factor = 0.04
+		war_support_factpr = 0.08
+                
+            }
+	}
+	
+
     ### Country Ideas - General ###
      AFR_colonial_remenants = {
              allowed = { always = no }

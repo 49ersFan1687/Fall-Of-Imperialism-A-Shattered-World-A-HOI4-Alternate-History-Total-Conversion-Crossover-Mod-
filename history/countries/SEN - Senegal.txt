@@ -8,7 +8,8 @@ set_technology = {
 set_convoys = 20
 
 
-
+add_ideas = AFR_colonial_remenants
+add_ideas = SEN_socialist_democracy
 
 set_politics = {
 	ruling_party = socialism
