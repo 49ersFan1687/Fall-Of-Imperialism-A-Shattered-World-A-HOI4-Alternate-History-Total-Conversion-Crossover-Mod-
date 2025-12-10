@@ -1,0 +1,19 @@
+leader_traits = {
+    british_exile = {
+        type = all
+        trait_type = personality_trait
+        gain_xp = {
+			always = no # not gainable
+		}
+		modifier = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+            factor = 0
+        }
+    }
+}
