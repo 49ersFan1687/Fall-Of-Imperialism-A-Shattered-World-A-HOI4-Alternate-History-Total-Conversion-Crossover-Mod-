@@ -33,7 +33,21 @@ country_event = {
 	
 	option = {
 		name = rhode_island.2.a
-	 		
+	 	custom_effect_tooltip = RDI_becone_socialist	
+	 	add_popularity = {
+			ideology = socialism
+			popularity = 0.06
+		}
+		add_stability = -0.08
+	}
+	option = {
+		name = rhode_island.2.b
+	 	custom_effect_tooltip = RDI_stay_autocrat
+		add_popularity = {
+			ideology = paternal_autocrat
+			popularity = 0.07
+		}
+		add_war_support = -0.09
 	}			
 }
 country_event = {

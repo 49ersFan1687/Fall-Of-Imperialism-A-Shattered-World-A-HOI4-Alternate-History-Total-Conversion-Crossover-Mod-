@@ -50,21 +50,50 @@ RDI_heir_of_innsmouth: "Heir of Innsmouth"
 ### Ideas ###
 
 RDI_factionalism: "Factionalism"
-
 RDI_occultists_in_the_shadows: "Occultists in the Shadows"
-
 RDI_anglo_saxon_civ: "Anglo-Saxon Civilisation"
-
 RDI_occult_leg: "Occult Legacy"
-
 RDI_occultists_in_the_shadows_min: "Occultists in the Shadows"
-
 RDI_seize_the_means: "Seize The Means"
+RDI_Honour_Lovecrafts_Legacy: "Honour Lovecraft's Legacy"
+RDI_White_Welfare: "White Welfare"
+RDI_Era_Of_Scientific_Enlightenment: "Era of Scientific Enlightenment"
+RDI_Era_Of_Scientific_Enlightenment_2: "Era of Scientific Enlightenment"
+RDI_A_Better_Life: "A Better Life"
+RDI_the_peoples_vanguard: "The People's Vanguard"
+RDI_Ode_To_Aztecs: "Ode To Aztecs"
+RDI_the_proleteriat_reigns_supreme: "The Proleteriat Reigns Supreme"
+RDI_State_Capitalism: "State Capitalism"
+
+### Tooltips & Flags ###
+RDI_Racist_Victory: "The Right Wing of The Lovecraftians Has Won"
+RDI_August_Is_Leader: "August Dereleth Has Won The Leadership Struggle"
+RDI_Galpin_Is_Leader: "Alfred Galpin Has Won The Leadership Struggle"
+RDI_Socialist_Victory: "The Left Wing of The Lovecraftians Has Won"
+RDI_Defeated_Cultists: "The Cultists Have Been Defeated... For Now"
+RDI_Belknap_Is_Leader: "Frank Belknap Long Has Won The Leadership Struggle"
+RDI_Barlow_Is_Leader: "Robert H. Barlow Has Won The Leadership Struggle"
+
+RDI_stay_autocrat: "§YWe Will Stay The Current Course§!"
+RDI_recruit_racist_characters_1: "We Gonna Be Racist"
+RDI_August_Leader: "§YAugust Dereleth Will Lead The State§!"
+RDI_Galpin_Leader: "§YAlfred Galpin Will Lead The State§!"
+RDI_become_socialist: "§YWe Will Attempt To Become Socialist§!"
+RDI_socialist_or_cultists: "§RThe Final Battle Between The Socialists and The Cultists Will Be Faught...§!"
+RDI_death_to_fascist_scum: "§YDeath To The Fascist Scum!§!"
+RDI_Belknap_Leader: "§YFrank Belknap Long Will Lead The State§!"
+RDI_Barlow_Leader: "§YRobert H. Barlow Will Lead The State§!"
+
 
 ### Events ###
 
 rhode_island.1.t: "The Integration of The UAPA"
 rhode_island.1.d: "The UAPA, or United Amateur Press Association, is an organisation which seeks to unite both young and old writers, who do not wish to make great somes of money through their writing. Rather, these Writers find passion in their writing. This is the association which alored Lovecraft greatly, and whose legacy has shaped the organisation to this day. It seems only right, that we integrate such an Artist's Union into our system. Both in honour of Lovecraft, but also for the importance of helping and preserving such an Important part of Artist Culture and Amateurdom."
 rhode_island.1.a: "Welcome To Providence!"
+
+rhode_island.2.t: "The II Congress of Providence"
+rhode_island.2.d: "The Second Congress Is Upon Us. On The Left are the 'Left Lovecraftians', who views Lovecraft's Last Year as his true legacy, and believe in the logical continuation of his Ideology to create a Proleterian Socialist Vanguard State for All. On The Right are the 'Right Lovecraftians' Who see Lovecraft's Last years as not being true Lovecraftism, and that his early beliefs in Nationalism, Angolphilia, The Aryan Race and other Nazi-Esk Beliefs as being the correct philosophy for the State to follow.\nOn The Side are rumours of Strange Cultists, lead by the Enegmatic 'Obed Marsh', their Esoteric and Annihalationist Beliefs worry both the Left and Right Lovecraftians.\nAs The Congress Ends, the Winner is type, but in the end the winner is announced:"
+rhode_island.2.a: "A Socialist Victory"
+rhode_island.2.b: "Victory For The Rightists"
 ##Focus##
 

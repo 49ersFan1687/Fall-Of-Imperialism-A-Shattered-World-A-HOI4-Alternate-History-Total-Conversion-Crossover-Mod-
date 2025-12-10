@@ -337,6 +337,7 @@ shared_focus = {
 	id = RDI_Trust_In_His_Judgement
 	icon = GFX_fish
 	cost = 5
+	available = { has_country_flag = RDI_Socialist_Victory }
 	prerequisite = { focus = RDI_Second_Congress }
 	mutually_exclusive = { focus = RDI_True_Teachings_Of_The_King }
 	x = 10
@@ -406,6 +407,7 @@ shared_focus = {
 	id = RDI_And_You_Will_Be_Slain
 	icon = GFX_fish
 	cost = 2
+	available = { has_country_flag = RDI_Defeated_Cultists }
 	prerequisite = { focus = RDI_Bring_Fourth_Your_Fascist_Bayonets }
 	mutually_exclusive = { focus = RDI_The_End_Of_Degeneracy }
 	x = 10
