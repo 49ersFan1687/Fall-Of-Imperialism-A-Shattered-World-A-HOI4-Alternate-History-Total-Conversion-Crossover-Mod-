@@ -47,6 +47,7 @@ shared_focus = {
 		}
 		add_stability = -0.08
 		add_war_support = 0.05
+		custom_effect_tooltip = RDI_stay_autocrat
 		custom_effect_tooltip = RDI_recruit_racist_characters_1
 	}
 }
@@ -73,7 +74,7 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id = RDI_The_Independent
+	id = RDI_The_Philosopher
 	icon = GFX_fish
 	cost = 4
 	available = { has_country_flag = RDI_Galpin_Is_Leader }
@@ -98,7 +99,7 @@ shared_focus = {
 	id = RDI_Anglo_Saxon_Civilisation
 	icon = GFX_fish
 	cost = 4
-	prerequisite = { focus = RDI_The_Editor focus = RDI_The_Independent }	
+	prerequisite = { focus = RDI_The_Editor focus = RDI_The_Philosopher }	
 	x = 21
 	y = 4
 	completion_reward = {
@@ -111,7 +112,7 @@ shared_focus = {
 	id = RDI_Occult_Legacy
 	icon = GFX_fish
 	cost = 4
-	prerequisite = { focus = RDI_The_Editor focus = RDI_The_Independent }	
+	prerequisite = { focus = RDI_The_Editor focus = RDI_The_Philosopher }	
 	x = 19
 	y = 4
 	completion_reward = {
@@ -289,7 +290,7 @@ shared_focus = {
 	x = 15
 	y = 3
 	completion_reward = {
-		
+		add_ideas = RDI_Era_Of_Scientific_Enlightenment
 	}
 }
 shared_focus = {
@@ -300,7 +301,11 @@ shared_focus = {
 	x = 16
 	y = 4
 	completion_reward = {
-		
+		country_event = { id = rhode_island.12 }
+		swap_ideas = {
+			remove_idea = RDI_Era_Of_Scientific_Enlightenment
+			add_idea = RDI_Era_Of_Scientific_Enlightenment_2
+		}
 	}
 }
 shared_focus = {
@@ -311,7 +316,7 @@ shared_focus = {
 	x = 14
 	y = 4
 	completion_reward = {
-		
+		country_event = { id = rhode_island.13 }
 	}
 }
 shared_focus = {
@@ -323,7 +328,8 @@ shared_focus = {
 	x = 15
 	y = 5
 	completion_reward = {
-		
+		country_event = { id = rhode_island.14 }
+		add_political_power = 100
 	}
 }
 #Socialist Lovecraft Path
@@ -336,7 +342,13 @@ shared_focus = {
 	x = 10
 	y = 2
 	completion_reward = {
-		
+		country_event = { id = rhode_island.17 }
+		add_stability = -0.13
+		custom_effect_tooltip = RDI_become_socialist
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.08
+		}
 	}
 }
 shared_focus = {
@@ -347,7 +359,23 @@ shared_focus = {
 	x = 9
 	y = 3
 	completion_reward = {
-		
+		add_popularity = {
+			ideology = fascism
+			popularity = -0.12
+		}
+		add_popularity = {
+			ideology = ultranationalism
+			popularity = -0.12
+		}
+		add_popularity = {
+			ideology = national_socialism
+			popularity = -0.12
+		}
+		add_popularity = {
+			ideology = paternal_autocrat
+			popularity = -0.06
+		}
+		country_event = { id = rhode_island.18 }
 	}
 }
 shared_focus = {
@@ -358,7 +386,8 @@ shared_focus = {
 	x = 11
 	y = 3
 	completion_reward = {
-		
+		country_event = { id = rhode_island.19 }
+		add_political_power = 50
 	}
 }
 shared_focus = {
@@ -370,7 +399,7 @@ shared_focus = {
 	x = 10
 	y = 4
 	completion_reward = {
-		
+		custom_effect_tooltip = RDI_socialist_or_cultists
 	}
 }
 shared_focus = {
@@ -382,40 +411,64 @@ shared_focus = {
 	x = 10
 	y = 5
 	completion_reward = {
-		
+		custom_effect_tooltip = RDI_death_to_fascist_scum
+		remove_ideas = RDI_occultists_in_the_shadows
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.45
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.08
+		}
+		country_event = { id = rhode_island.19 }
 	}
 }
 shared_focus = {
-	id = RDI_The_Philosopher
+	id = RDI_The_Independent
 	icon = GFX_fish
 	cost = 5
+	available = { has_country_flag = RDI_Belknap_Is_Leader }
 	prerequisite = { focus = RDI_And_You_Will_Be_Slain }
 	mutually_exclusive = { focus = RDI_The_Historian }
 	x = 6
 	y = 6
 	completion_reward = {
+		custom_effect_tooltip = RDI_Belknap_Leader
+		set_politics = {
+			ruling_party = socialism
+       			elections_allowed = no
+        		last_election = 1935.01.01
+		}
+		retire_country_leader = yes
+		add_political_power = 35
+		remove_ideas = RDI_factionalism
+		country_event = { id = rhode_island.15 }
 		
 	}
 }
 shared_focus = {
-	id = RDI_A_Better_Philosophy_For_A_Better_Age
+	id = RDI_A_Better_Ideology_For_A_Better_Age
 	icon = GFX_fish
 	cost = 5
-	prerequisite = { focus = RDI_The_Philosopher }
+	prerequisite = { focus = RDI_The_Independent }
 	x = 6
 	y = 7
 	completion_reward = {
-		
+		country_event = { id = rhode_island.20 }
+		add_ideas = RDI_A_Better_Life
 	}
 }
 shared_focus = {
 	id = RDI_Vanguard_Of_The_People
 	icon = GFX_fish
 	cost = 5
-	prerequisite = { focus = RDI_A_Better_Philosophy_For_A_Better_Age }
+	prerequisite = { focus = RDI_A_Better_Ideology_For_A_Better_Age }
 	x = 6
 	y = 8
 	completion_reward = {
+		country_event = { id = rhode_island.21 }
+		add_ideas = RDI_the_peoples_vanguard
 		
 	}
 }
@@ -423,11 +476,23 @@ shared_focus = {
 	id = RDI_The_Historian
 	icon = GFX_fish
 	cost = 5
+	available = { has_country_flag = RDI_Barlow_Is_Leader }
 	prerequisite = { focus = RDI_And_You_Will_Be_Slain }
 	mutually_exclusive = { focus = RDI_The_Philosopher }
 	x = 14
 	y = 6
 	completion_reward = {
+		custom_effect_tooltip = RDI_Barlow_Leader
+		set_politics = {
+			ruling_party = socialism
+       			elections_allowed = no
+        		last_election = 1935.01.01
+		}
+		retire_country_leader = yes
+		retire_country_leader = yes
+		add_stability = -0.03
+		remove_ideas = RDI_factionalism
+		country_event = { id = rhode_island.16 }
 		
 	}
 }
@@ -439,7 +504,8 @@ shared_focus = {
 	x = 14
 	y = 7
 	completion_reward = {
-		
+		add_ideas = RDI_Ode_To_Aztecs
+		country_event = { id = rhode_island.22 }
 	}
 }
 shared_focus = {
@@ -450,6 +516,7 @@ shared_focus = {
 	x = 14
 	y = 8
 	completion_reward = {
+		country_event = { id = rhode_island.23 }#Accelerationism or Socialism
 		
 	}
 }
@@ -461,7 +528,7 @@ shared_focus = {
 	x = 8
 	y = 7
 	completion_reward = {
-		
+		add_ideas = RDI_the_proleteriat_reigns_supreme
 	}
 }
 shared_focus = {
@@ -472,7 +539,7 @@ shared_focus = {
 	x = 10
 	y = 7
 	completion_reward = {
-		
+		add_ideas = RDI_State_Capitalism
 	}
 }
 shared_focus = {
@@ -483,7 +550,8 @@ shared_focus = {
 	x = 12
 	y = 7
 	completion_reward = {
-		
+		add_ideas = RDI_Abstinance
+		country_event = { id = rhode_island.24 }
 	}
 }
 shared_focus = {
@@ -496,7 +564,9 @@ shared_focus = {
 	x = 11
 	y = 8
 	completion_reward = {
-		
+		add_ideas = RDI_no_sex_zone #do not question 
+		add_political_power = 100
+		add_stability = -0.09
 	}
 }
 shared_focus = {
@@ -509,7 +579,8 @@ shared_focus = {
 	x = 9
 	y = 8
 	completion_reward = {
-		
+		add_ideas = RDI_for_one_and_for_all
+		country_event = { id = rhode_island.25 }
 	}
 }
 shared_focus = {
@@ -520,7 +591,7 @@ shared_focus = {
 	x = 9
 	y = 9
 	completion_reward = {
-		
+		country_event = { id = rhode_island.26 }
 	}
 }
 shared_focus = {
@@ -531,7 +602,7 @@ shared_focus = {
 	x = 11
 	y = 9
 	completion_reward = {
-		
+		country_event = { id = rhode_island.27 }
 	}
 }
 shared_focus = {

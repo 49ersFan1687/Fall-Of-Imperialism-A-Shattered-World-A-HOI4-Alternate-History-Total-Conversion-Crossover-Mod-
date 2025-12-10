@@ -121,6 +121,35 @@ ideas = {
 
             }
         }
+	    ### Rhode Island Research Branch Ideas ###
+      RDI_Era_Of_Scientific_Enlightenment = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_Era_Of_Scientific_Enlightenment" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+                consumer_goods_factor = -0.06
+		research_speed_factor = 0.04
+		
+		
+            }
+            equipment_bonus = {
+
+            }
+        }
+      RDI_Era_Of_Scientific_Enlightenment_2 = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_Era_Of_Scientific_Enlightenment_2" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+                consumer_goods_factor = -0.13
+		research_speed_factor = 0.14
+		
+		
+            }
+            equipment_bonus = {
+
+            }
+        }
       
         
         ### Air Force Reform Ideas ###
