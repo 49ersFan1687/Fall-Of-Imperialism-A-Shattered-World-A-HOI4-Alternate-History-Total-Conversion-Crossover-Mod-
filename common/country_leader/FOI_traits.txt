@@ -37,7 +37,16 @@ leader_traits = {
 			factor = 2
 		}
 	}
-
+	### American Warlord Traits ###
+	ELI_eco_anarchist = {
+		sprite = 13
+		stability_factor = -0.06
+		consumer_goods_factor = -0.13
+		monthly_population = 0.07
+		ai_will_do = {
+			factor = 2
+		}
+	}
 	### Soviet Directorate of National Liberation Leader Traits ###
 	SDL_the_old_warhorse = {
 		random = no

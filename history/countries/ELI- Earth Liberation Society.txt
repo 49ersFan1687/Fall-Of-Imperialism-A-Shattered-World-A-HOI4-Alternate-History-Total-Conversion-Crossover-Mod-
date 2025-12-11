@@ -22,6 +22,6 @@ create_country_leader = {
 	picture = GFX_Boochkin_ELI
 	ideology = eco_socialism_ideology
 	traits = {
-		#
+		ELI_eco_anarchist
 	}
 }
