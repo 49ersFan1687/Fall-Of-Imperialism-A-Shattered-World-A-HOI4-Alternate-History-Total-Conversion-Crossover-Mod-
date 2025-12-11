@@ -11,6 +11,8 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+add_ideas = PEN_the_commonwealth_united
+add_ideas = AMR_the_end_of_the_american_experiment
 
 set_popularities = {
 	conservatism = 40

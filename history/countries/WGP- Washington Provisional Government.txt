@@ -12,7 +12,8 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
-
+add_ideas = AMR_the_end_of_the_american_experiment
+add_ideas = WGP_the_black_lodge
 set_popularities = {
 	conservatism = 20
 	democratic = 60
