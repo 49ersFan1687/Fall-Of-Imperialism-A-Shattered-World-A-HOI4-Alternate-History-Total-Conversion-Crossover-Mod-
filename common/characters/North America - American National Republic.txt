@@ -187,10 +187,10 @@ characters = {
         }
         corps_commander = {
 			traits = {
-				
-				
-				
-				
+				trickster
+				career_officer
+				cavalry_officer
+				ANR_klan_afiliated_leader
 			}
 			skill = 
 			attack_skill = 
