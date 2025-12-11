@@ -253,10 +253,6 @@
  #Free Beasts
  FBH_esotericism_party: "The Free Beasts"
  FBH_eostericism_party_long: "§YThe Free Beasts§!"
-
- #Washington
- WPG_conservatism_party: "Tory Party"
- WPG_conservatism_party_long: "§YThe Tory Party§!"
  
  #Unit 731
  USO_national_socialism_party: "IDFK"
@@ -322,6 +318,35 @@
  ELI_esotericism_party: "§RN/A§!"
  ELI_esotericism_party_long: "§RN/A§!"
  
+ #Washington Government
+ WGP_communism_party: "WCP"
+ WGP_communism_party_long: "§YWashington Communist Party§!"
+ WGP_syndicalism_party: "WCP"
+ WGP_syndicalism_party_long: "§YWashington Communist Party§!"
+ WGP_socialism_party: "WSDP"
+ WGP_socialism_party_long: "§YWashington Social Democratic Party§!"
+ WGP_social_democracy_party: "WSDP"
+ WGP_social_democracy_party_long: "§YWashington Social Democratic Party§!"
+ WGP_democratic_party: "DP"
+ WGP_democratic_party_long: "§YDemocratic Party§!"
+ WPG_conservatism_party: "NPP"
+ WPG_conservatism_party_long: "§YNeo-Peelite Party§!"
+ WPG_neutrality_party: "Tory Party"
+ WGP_neutrality_party_long: "§YThe Tory Party§!"
+ WGP_paternal_autocrat_party: "WPA"
+ WGP_paternal_autocrat_party_long: "§YWashington Provincial Army§!"
+ WGP_fascism_party: "The Lodge"
+ WGP_fascism_party_long: "§YThe Lodge§!"
+ WGP_ultranationalism_party: "The Lodge"
+ WGP_ultranationalism_party_long: "§YThe Lodge§!"
+ WGP_accelerationism_party: "The Lodge"
+ WGP_accelerationism_party_long: "§YThe Lodge§!"
+ WGP_national_socialism_party: "The Lodge"
+ WGP_national_socialism_party_long: "§YThe Lodge§!"
+ WGP_esotericism_party: "The Lodge"
+ WGP_esotericism_party_long: "§YThe Lodge§!"
+ 
+
 
 ### Character Localization ###
 
@@ -346,3 +371,8 @@ ELI_the_battle_for_earth: "The Battle For Earth"
 WGP_the_black_lodge: "The Black Lodge"
 
 AMR_the_end_of_the_american_experiment: "The End of The American Experiment"
+
+#Events#
+washington.1.t: "A Strange Patient"
+washington.1.d: "Dr Darmon reviewed the notes one more time, the recording in front of him was from one of his patients, a strange child by the name Phillip Michael Gerard. It had been recorded in a routine interview with one of the councillers, and like all such recordings, it had made its way to his desk. But something about this recording made his skin crawl, as if some creature ate away inside him. He played the recording one more time:\n\n'Through the darkness of future pasts, the magician longs to see\nOne chance out, between two worlds\n\nFire, Walk with me...\nWe... Lived among the people. I think you say conveniance store. We lived above it...\nI- I mean it like it is, like it sounds. I too, had been touched by the devilish one- Tattoo on the left shoulder.\nAh, but when I saw the face of god... I was changed.\nI took the entire arm off.\nMy name is Mike\nHis name... is Bob...'\n\nDr Darman threw the recording into the flames of the fireplace beside him. He shuddered"
+washington.1.a: "'I need a vacation'"
