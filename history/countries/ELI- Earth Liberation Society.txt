@@ -17,9 +17,9 @@ set_popularities = {
 	socialism = 100
 }
 create_country_leader = {
-	name = "Barry Commoner"
+	name = "Murray Boochkin"
 	desc = ""
-	picture = GFX_fish
+	picture = GFX_Boochkin_ELI
 	ideology = eco_socialism_ideology
 	traits = {
 		#

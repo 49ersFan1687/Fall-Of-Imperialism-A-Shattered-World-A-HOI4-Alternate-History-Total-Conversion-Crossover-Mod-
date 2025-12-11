@@ -45,6 +45,10 @@ spriteTypes = {
 		name = "GFX_George_Leader_PEN"
 		textureFile = "gfx/leaders/America/George_M_Leader.png"
 	}
+		spriteType = {
+		name = "GFX_Boochkin_ELI"
+		textureFile = "gfx/leaders/America/Murray_Boochkin.png"
+	}
 	spriteType = {
 		name = "GFX_ARZ_Barry_Morris_Goldwater"
 		textureFile = "gfx/leaders/ARZ/Portrait_ARZ_Barry_Morris_Goldwater.dds"
