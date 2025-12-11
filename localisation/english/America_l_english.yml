@@ -293,6 +293,34 @@
  PEN_national_socialism_party_long: "§RBANNED§!"
  PEN_esotericism_party: "§RBANNED§!"
  PEN_esotericism_party_long: "§RBANNED§!"
+
+ #Earth Liberation Society
+ ELI_communism_party: "ELS [J]"
+ ELI_communism_party_long: "§YEarth Liberation Society [Jacobins]§!"
+ ELI_syndicalism_party: "ELS [U]"
+ ELI_syndicalism_party_long: "§YEarth Liberation Society [Unionists]§!"
+ ELI_socialism_party: "ELS [M]"
+ ELI_socialism_party_long: "§YEarth Liberation Society [Majority]§!"
+ ELI_social_democracy_party: "ELS [Mi]"
+ ELI_social_democracy_party_long: "§YEarth Liberation Society [Minority]§!"
+ ELI_democratic_party: "§RN/A§!"
+ ELI_democratic_party_long: "§RN/A§!"
+ ELI_conservatism_party: "§RN/A§!"
+ ELI_conservatism_party_long: "§RN/A§!"
+ ELI_neutrality_party: "§RN/A§!"
+ ELI_neutrality_party_long: "§RN/A§!"
+ ELI_paternal_autocrat_party: "§RN/A§!"
+ ELI_paternal_autocrat_party_long: "§RN/A§!"
+ ELI_accelerationism_party: "§RN/A§!"
+ ELI_accelerationism_party_long: "§RN/A§!"
+ ELI_ultranationalism_party: "§RN/A§!"
+ ELI_ultranationalism_party_long: "§RN/A§!"
+ ELI_fascism_party: "§RN/A§!"
+ ELI_fascism_party_long: "§RN/A§!"
+ ELI_national_socialism_party: "§RN/A§!"
+ ELI_national_socialism_party_long: "§RN/A§!"
+ ELI_esotericism_party: "§RN/A§!"
+ ELI_esotericism_party_long: "§RN/A§!"
  
 
 ### Character Localization ###
@@ -309,4 +337,5 @@ OPM_dylan_mikaelsen: "Dylan Mikaelsen"
 ###MAR###
 MAR_Elmo_Russell_Zumwalt_Jr: "Elmo Russell Zumwalt Jr."
 
-
+#TRAITS#
+ELI_eco_anarchist: "Eco-Anarchist"
