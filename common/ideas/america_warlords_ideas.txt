@@ -13,7 +13,6 @@ ideas = {
             }
 	}
     ### Country Ideas - Earth Liberation Society ###
-    country = {
       
      ELI_the_battle_for_earth = { 
              allowed = { always = no }
@@ -29,7 +28,6 @@ ideas = {
             }
 	}
    ### Country Ideas - Washington Government ###
-    country = {
       
      WGP_the_black_lodge = { 
              allowed = { always = no }

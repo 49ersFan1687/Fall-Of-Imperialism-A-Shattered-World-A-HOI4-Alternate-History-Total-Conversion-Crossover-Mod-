@@ -10,12 +10,11 @@ ideas = {
 		socialism_drift = 0.01
 		social_democracy_drift = 0.01
 		stability_factor = -0.1
-		war_support_factpr = -0.06
+		war_support_factor = -0.06
                 
             }
 	}
     ### Country Ideas - Senegal ###
-    country = {
       
      SEN_socialist_democracy = { 
              allowed = { always = no }
