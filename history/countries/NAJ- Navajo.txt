@@ -18,7 +18,7 @@ set_popularities = {
 	socialism = 10
 	paternal_autocrat = 10
 }
-
+add_ideas = AMR_the_end_of_the_american_experiment
 create_country_leader = {
 	name = "Lilakai Julian Neil"
 	desc = ""

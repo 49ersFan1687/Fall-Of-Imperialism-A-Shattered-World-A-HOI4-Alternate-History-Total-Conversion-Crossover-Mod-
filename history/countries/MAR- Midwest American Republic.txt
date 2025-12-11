@@ -11,7 +11,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
-
+add_ideas = AMR_the_end_of_the_american_experiment
 set_popularities = {
 	social_democracy = 40
 	democratic = 20

@@ -6,6 +6,9 @@ set_stability = 0.4
 set_technology = {
 	infantry_weapons = 1
 }
+add_ideas = ELI_the_battle_for_earth
+add_ideas = AMR_the_end_of_the_american_experiment
+
 set_politics = {
 	ruling_party = socialism
 	last_election = "1936.1.1"

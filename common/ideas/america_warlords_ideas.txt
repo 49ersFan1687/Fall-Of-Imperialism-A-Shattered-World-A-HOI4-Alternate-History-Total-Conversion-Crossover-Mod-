@@ -1,0 +1,57 @@
+ideas = {
+    ### Country Ideas - Pennsylvania ###
+    country = {
+      
+     PEN_the_commonwealth_united = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		democratic_drift = 0.01
+		conservatism_drift = 0.01
+		war_support_factpr = 0.12
+                
+            }
+	}
+    ### Country Ideas - Earth Liberation Society ###
+      
+     ELI_the_battle_for_earth = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		socialism_drift = 0.03
+		communism_drift = 0.02
+		syndicalism_drift = 0.02
+		social_democracy_drift = 0.01
+		war_support_factor = 0.13
+		production_factory_efficiency_gain_factor = 0.12
+                
+            }
+	}
+   ### Country Ideas - Washington Government ###
+      
+     WGP_the_black_lodge = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		war_support_weekly = 0.01
+		stability_weekly = 0.01
+                
+            }
+	}
+	
+
+    ### Country Ideas - General ###
+     AMR_the_end_of_the_american_experiment = {
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		conscription = 0.05
+		war_support_factor = -0.05
+		stability_factor = -0.05
+		army_core_defence_factor = 0.05
+		army_core_attack_factor = 0.05
+                
+            }
+	}
+
+}
