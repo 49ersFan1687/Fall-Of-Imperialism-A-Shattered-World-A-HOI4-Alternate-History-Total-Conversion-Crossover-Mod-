@@ -175,6 +175,30 @@ characters = {
     # Field Marshals #
 
     # Generals #
+    ANR_wycliffe_preston_draper = {
+        name = ANR_wycliffe_preston_draper
+         portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+			traits = {
+				
+				
+				
+				
+			}
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+    }
 
     # Admirals #
 }
