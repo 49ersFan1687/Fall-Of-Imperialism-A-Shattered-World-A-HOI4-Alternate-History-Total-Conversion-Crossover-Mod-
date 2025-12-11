@@ -8453,7 +8453,7 @@ shared_focus = {
 		has_completed_focus = CAL_form_the_western_american_government
 	}
 	x = 0
-	y = 4
+	y = 6
 	relative_position_id = CAL_the_army_goes_marching_along
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reinstate_the_secretary_of_state_office"
@@ -9258,7 +9258,7 @@ shared_focus = {
 		has_completed_focus = CAL_a_coalition_to_eradicate_evil
 	}
 	x = 0
-	y = 3
+	y = 5
 	relative_position_id = CAL_the_giant_awakens_once_more
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_beginning_the_initial_tranisition_to_a_civilian_government"
