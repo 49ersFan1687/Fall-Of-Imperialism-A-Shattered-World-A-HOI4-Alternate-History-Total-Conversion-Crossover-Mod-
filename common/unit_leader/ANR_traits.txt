@@ -1,0 +1,25 @@
+leader_traits = {
+    ANR_klan_afiliated_leader = {
+		type = land
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		modifier = {
+			army_morale_factor = 0.05
+			planning_speed = -0.020
+			wounded_chance_factor = 0.04
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+
+    ANR_silver_legion_afiliated_leader = {
+        
+    }
+}
