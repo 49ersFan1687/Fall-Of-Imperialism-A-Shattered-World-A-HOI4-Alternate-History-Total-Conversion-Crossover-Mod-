@@ -122,6 +122,27 @@ characters = {
 		}
     }
 
+    MAR_william_joseph_donovan = {
+        name = MAR_william_joseph_donovan
+         portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill = 
+			defense_skill =
+			planning_skill = 
+			logistics_skill =
+		}
+    }
+
+
     # Generals #
 
     MAR_alexander_archer_vandegrift = {

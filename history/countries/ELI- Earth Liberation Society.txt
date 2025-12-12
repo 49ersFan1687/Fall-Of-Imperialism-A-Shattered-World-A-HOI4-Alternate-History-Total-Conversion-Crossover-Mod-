@@ -6,8 +6,11 @@ set_stability = 0.4
 set_technology = {
 	infantry_weapons = 1
 }
-add_ideas = ELI_the_battle_for_earth
-add_ideas = AMR_the_end_of_the_american_experiment
+
+add_ideas = {
+	ELI_the_battle_for_earth
+	AMR_the_end_of_the_american_experiment
+}
 
 set_politics = {
 	ruling_party = socialism
@@ -19,12 +22,5 @@ set_politics = {
 set_popularities = {
 	socialism = 100
 }
-create_country_leader = {
-	name = "Murray Boochkin"
-	desc = ""
-	picture = GFX_Boochkin_ELI
-	ideology = eco_socialism_ideology
-	traits = {
-		ELI_eco_anarchist
-	}
-}
+
+recruit_character = ELI_murray_boochkin
