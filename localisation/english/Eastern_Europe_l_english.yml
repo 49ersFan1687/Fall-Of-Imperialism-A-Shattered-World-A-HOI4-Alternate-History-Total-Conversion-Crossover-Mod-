@@ -3,6 +3,19 @@
 
  # Localisation for Ukraine #
 
+ # Localisation for Balkans #
+
+ #Names
+ HUN: "Kingdom of Hungary"
+ HUN_DEF: "Kingdom of Hungary"
+ HUN_ADJ: "Hungarian"
+ ROM: "Kingdom of Romania"
+ ROM_DEF: "Kingdom of Romania"
+ ROM_ADJ: "Romanian"
+ BUL: "Tsardom of Bulgaria"
+ BUL_DEF: "Tsardom of Bulgaria"
+ BUL_ADJ: "Bulgarian"
+
  # Localisation for Baltics #
 
  # Localisation for Poland #

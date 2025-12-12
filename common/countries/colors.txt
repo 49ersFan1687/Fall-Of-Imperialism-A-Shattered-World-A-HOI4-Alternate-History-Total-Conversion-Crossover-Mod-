@@ -1135,7 +1135,7 @@ PCD = {
 	color = rgb { 122 47 47 }
 	color_ui = rgb { 122 47 47 }
 }
-WPG = {
+WGP = {
 	color = rgb { 70 114 117 }
 	color_ui = rgb { 70 114 117 }
 }

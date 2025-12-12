@@ -63,6 +63,16 @@ RAJ_ADJ: "Indian"
 RAS: "Southern Breakaway State"
 RAS_DEF: "Southern Breakaway State"
 RAS_ADJ: "South Indian"
+TIB: "Tibet"
+TIB_DEF: "Tibet"
+TIB_ADJ: "Tibetan"
+MEN: "State of Mongolia"
+MEN_DEF: "State of Mongolia"
+MEN_ADJ: "Mongolian"
+MON: "People's Republic of Mongolia"
+MON_DEF: "People's Republic of Mongolia"
+MON_ADJ: "Mongolian"
+
 
 # PARTIES #
 
