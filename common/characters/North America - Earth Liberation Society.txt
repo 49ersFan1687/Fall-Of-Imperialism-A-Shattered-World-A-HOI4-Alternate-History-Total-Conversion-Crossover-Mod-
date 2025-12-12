@@ -1,0 +1,18 @@
+characters = {
+    ELI_murray_boochkin = {
+        name = ELI_murray_boochkin
+        portraits = {
+			civilian = {
+				large = 
+			}
+		}
+		country_leader = {
+			desc = 
+			expire = "1994.4.20"
+			ideology = eco_socialism_ideology
+			traits = {
+                ELI_eco_anarchist
+			}
+		}
+    }
+}
