@@ -86,6 +86,10 @@
  DEN: "Dänemark"
  DEN_DEF: "Dänemark"
  DEN_ADJ: "Danish"
+ FIN: "Finland"
+ FIN_DEF: "Finnish Republic"
+ FIN_ADJ: "Finnish"
+ 
 
  # Localisation for Iberia #
 

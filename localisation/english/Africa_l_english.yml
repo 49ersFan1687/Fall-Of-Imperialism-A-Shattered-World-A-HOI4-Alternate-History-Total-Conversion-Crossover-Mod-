@@ -63,6 +63,10 @@ SEN_ADJ: "Senegalese"
 BRE: "British-Ghanese Colonial District"
 BRE_DEF: "British-Ghanese Colonial District"
 BRE_ADJ: "British-Ghanese"
+LIB: "Liberia"
+LIB_DEF: "Liberia"
+LIB_ADJ: "Liberian"
+
 # PARTIES #
 #Guinea
 GNA_paternal_autocrat_party: "PDG-RDA"
