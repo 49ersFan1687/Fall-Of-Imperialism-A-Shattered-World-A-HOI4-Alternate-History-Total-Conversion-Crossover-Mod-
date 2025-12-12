@@ -40,6 +40,11 @@ spriteTypes = {
 		name = "GFX_Barlow_RDI"
 		textureFile = "gfx/leaders/RDI/RDI_r_h_barlow.png"
 	}
+	#Asia
+	spriteType = {
+		name = "GFX_Abdukerim_Abbasov_SIK"
+		textureFile = "gfx/leaders/Asia/Abdukerim_Abbasov.png"
+	}
 	#American Warlords
 	spriteType = {
 		name = "GFX_George_Leader_PEN"

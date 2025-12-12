@@ -230,6 +230,12 @@
  SSD: "State Militia of South Dakota"
  SSD_DEF: "State Militia of South Dakota"
  SSD_ADJ: "South Dakotan"
+ GRN: "Greenland"
+ GRN_DEF: "Greenland"
+ GRN_ADJ: "Greenlander"
+ ICE: "Icelandic Republic"
+ ICE_DEF: "Icelandic Republic"
+ ICE_ADJ: "Icelandic"
 
 # PARTIES #
 
