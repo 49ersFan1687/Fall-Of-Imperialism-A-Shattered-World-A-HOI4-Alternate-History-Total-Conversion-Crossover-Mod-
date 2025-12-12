@@ -11,3 +11,7 @@ CAL_foi_chrysler = {
 
 
 ### Equipment Military-Industrial Organizations ###
+CAL_harrington_and_richardson = {
+    name = CAL_foi_harrington_and_richardson
+    icon = GFX_idea_foi_harrington_and_richardson
+}
