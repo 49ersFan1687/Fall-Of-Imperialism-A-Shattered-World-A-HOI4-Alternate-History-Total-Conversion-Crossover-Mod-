@@ -13,6 +13,51 @@ ideas = {
                 
             }
 	}
+    ### Country Ideas - Mongolian State ###
 
+   MEN_Mongol_Civil_War = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		war_support_factor = 0.21
+		surrender_limit = 0.15
+		conscription = 0.02
+	     }
+            rule = {
+                can_join_factions = no
+            }
+	    cancel = {
+    		owns_state = 330
+	    }
+	    on_remove = { 
+		JAP = {
+			add_to_faction = MEN
+		}
+	    }
+            
 
+	}
+   MON_Mongol_Civil_War = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		war_support_factor = 0.21
+		surrender_limit = 0.15
+		conscription = 0.02
+	     }
+            rule = {
+                can_join_factions = no
+            }
+	    cancel = {
+    		owns_state = 611
+	    }
+            
+	}
+   MEN_Japanese_Influence = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+	     }
+            
+	}
 }
