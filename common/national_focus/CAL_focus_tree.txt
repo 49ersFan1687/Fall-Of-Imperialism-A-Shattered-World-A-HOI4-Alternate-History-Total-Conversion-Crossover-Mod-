@@ -21,7 +21,6 @@ focus_tree = {
 	shared_focus = CAL_reinstate_the_secretary_of_state_office
 	shared_focus = CAL_beginning_the_initial_tranisition_to_a_civilian_government
 	shared_focus = CAL_western_america_under_our_control
-
     continuous_focus_position = { x = 100 y = 4200 }
 }
 
