@@ -1,23 +1,22 @@
 capital = 611
-
-
-
 set_technology = {
 	infantry_weapons = 1
 	
 }
-
-
-
-
 set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+add_ideas = MEN_Japanese_Influence
+add_ideas = MEN_Mongol_Civil_War
 set_popularities = {
 	paternal_autocrat = 70
 	neutrality = 20
 	fascism = 10
+}
+declare_war_on = {
+		target = MON 
+		type = annex_everything 
 }

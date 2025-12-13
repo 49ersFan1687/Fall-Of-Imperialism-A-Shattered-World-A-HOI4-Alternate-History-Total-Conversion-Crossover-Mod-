@@ -24,7 +24,6 @@ set_popularities = {
 }
 create_faction = "Greater East Asian Co-Prosperity Sphere"
 add_to_faction = CHI
-add_to_faction = MEN
 add_to_faction = MAN
 add_to_faction = VIN
 add_to_faction = CAM
