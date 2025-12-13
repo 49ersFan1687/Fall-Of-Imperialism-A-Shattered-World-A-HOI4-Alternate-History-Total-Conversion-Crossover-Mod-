@@ -1,0 +1,18 @@
+ideas = {
+    ### Country Ideas - East Turkestan ###
+    country = {
+      
+     SIK_Uyghur_Revolution = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		stability_factor = 0.12
+		war_support_factor = 0.17
+		surrender_limit = 0.2
+		political_power_factor = 0.07
+                
+            }
+	}
+
+
+}

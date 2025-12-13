@@ -8,11 +8,15 @@ set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
+add_ideas = SIK_Uyghur_Revolution
 set_popularities = {
-	paternal_autocrat = 60
-	neutrality = 30
+	paternal_autocrat = 58
+	neutrality = 20
+	communism = 5
+	socialism = 5
+	social_democracy = 2
 	conservatism = 5
 	democratic = 5
 }
