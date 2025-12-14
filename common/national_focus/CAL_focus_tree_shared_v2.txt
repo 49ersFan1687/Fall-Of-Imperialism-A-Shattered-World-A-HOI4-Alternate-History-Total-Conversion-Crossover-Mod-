@@ -318,7 +318,7 @@ shared_focus = {
     prerequisite = {
         focus = CAL_begin_preparations_for_war
     }
-    x = -4
+    x = -5
 	y = 1
     relative_position_id = CAL_begin_preparations_for_war
     completion_reward = {
@@ -356,7 +356,7 @@ shared_focus = {
     prerequisite = {
         focus = CAL_begin_preparations_for_war
     }
-    x = 4
+    x = 5
 	y = 1
     relative_position_id = CAL_begin_preparations_for_war
     completion_reward = {
