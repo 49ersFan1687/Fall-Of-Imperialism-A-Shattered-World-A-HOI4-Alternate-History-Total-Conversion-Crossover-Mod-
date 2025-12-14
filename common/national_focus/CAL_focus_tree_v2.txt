@@ -1,5 +1,5 @@
 focus_tree = {
-    id = CAL_focus_tree
+    id = CAL_starting_focus_tree
     country = {
 		factor = 0
 		modifier = { 
