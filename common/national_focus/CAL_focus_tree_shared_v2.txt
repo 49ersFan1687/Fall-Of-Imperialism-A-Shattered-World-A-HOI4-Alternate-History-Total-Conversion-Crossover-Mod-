@@ -168,3 +168,9 @@ shared_focus = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL"
     }
 }
+
+shared_focus = { }
+shared_focus = { }
+shared_focus = { }
+shared_focus = { }
+shared_focus = { }
