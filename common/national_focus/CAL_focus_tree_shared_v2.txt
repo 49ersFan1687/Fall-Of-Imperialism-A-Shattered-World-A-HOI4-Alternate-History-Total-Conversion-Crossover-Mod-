@@ -61,7 +61,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_taking_note_of_the_situation_in_california
     completion_reward = {
-        log =
+        log = "[GetDateText]: [Root.GetName]: Focus CAL"
     }
 }
 
@@ -80,7 +80,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_taking_note_of_the_situation_in_california
     completion_reward = {
-        log =
+        log = "[GetDateText]: [Root.GetName]: Focus CAL"
     }
 }
 
@@ -99,7 +99,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_taking_note_of_the_situation_in_california
     completion_reward = {
-        log =
+        log = "[GetDateText]: [Root.GetName]: Focus CAL"
     }
 }
 
@@ -118,7 +118,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_taking_note_of_the_situation_in_california
     completion_reward = {
-        log =
+        log = "[GetDateText]: [Root.GetName]: Focus CAL"
     }
 }
 
@@ -137,6 +137,56 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_taking_note_of_the_situation_in_california
     completion_reward = {
-        log =
+        log = "[GetDateText]: [Root.GetName]: Focus CAL"
+    }
+}
+
+shared_focus = {
+    id = CAL_6
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_1
+    }
+    prerequisite = {
+        focus = CAL_2
+    }
+    prerequisite = {
+        focus = CAL_3
+    }
+    prerequisite = {
+        focus = CAL_4
+    }
+    prerequisite = {
+        focus = CAL_5
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_3
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL"
+    }
+}
+
+shared_focus = {
+    id = CAL_7
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_taking_note_of_the_situation_in_california
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_6
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL"
     }
 }
