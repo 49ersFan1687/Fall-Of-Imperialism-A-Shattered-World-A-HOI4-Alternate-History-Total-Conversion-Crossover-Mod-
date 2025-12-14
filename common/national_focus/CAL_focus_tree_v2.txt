@@ -1,0 +1,26 @@
+focus_tree = {
+    id = CAL_focus_tree
+    country = {
+		factor = 0
+		modifier = { 
+            add = 10 
+            tag = CAL
+        }
+	}
+    default = no
+	shared_focus = CAL_the_long_retreat_west
+	shared_focus = CAL_alexanders_military_mission
+	shared_focus = CAL_dreams_of_a_united_american_anti_nazi_front
+	shared_focus = CAL_turn_to_the_remaining_allied_powers
+	shared_focus = CAL_looking_outwards_from_the_golden_state
+	shared_focus = CAL_address_the_economy_of_the_western_american_government
+	shared_focus = CAL_begin_the_complete_and_total_overhaul_of_the_sca
+	shared_focus = CAL_reforming_the_united_states_army_air_force
+	shared_focus = CAL_reform_the_united_states_navy
+	shared_focus = CAL_reform_the_united_states_marine_corps
+	shared_focus = CAL_reinstate_the_secretary_of_state_office
+	shared_focus = CAL_beginning_the_initial_tranisition_to_a_civilian_government
+	shared_focus = CAL_western_america_under_our_control
+    continuous_focus_position = { x = 100 y = 4200 }
+}
+
