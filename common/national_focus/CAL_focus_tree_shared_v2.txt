@@ -188,9 +188,62 @@ shared_focus = {
     }
 }
 
-shared_focus = { }
-shared_focus = { }
-shared_focus = { }
+shared_focus = {
+    id = CAL_dealing_with_the_anarchy_in_our_state
+     icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_6
+    }
+    x = -4
+	y = 1
+    relative_position_id = CAL_6
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_dealing_with_the_anarchy_in_our_state"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_second_continental_army_junta
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_6
+    }
+    x = 0
+	y = 1
+    relative_position_id = CAL_6
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_second_continental_army_junta"
+    }
+}
+
+shared_focus = {
+    id = CAL_memories_of_the_old_republic
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_6
+    }
+    x = 4
+	y = 1
+    relative_position_id = CAL_6
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_memories_of_the_old_republic"
+    } 
+}
 
 shared_focus = {
     id = CAL_rebuilding_south_california_industry
