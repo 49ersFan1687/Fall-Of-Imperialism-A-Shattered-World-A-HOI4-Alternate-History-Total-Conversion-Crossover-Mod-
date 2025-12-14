@@ -1,7 +1,10 @@
+#### CALIFORNIA REPUBLIC FOCUS TREE By Aide of General Eisenhower ####
+
+### Initial Focus Tree - Warlord State ###
 shared_focus = {
     id = CAL_the_long_dead_march_west
     icon = GFX_focus_the_long_retreat_west
-	cost = 3
+	cost = 1
 	available_if_capitulated = no
 	ai_will_do = {
 		factor = 1
@@ -17,4 +20,108 @@ shared_focus = {
 			}
 		}
 	}
+}
+
+shared_focus = {
+    id = CAL_taking_note_of_the_situation_in_california
+    icon = GFX_focus_taking_note_of_the_situation_in_california
+    cost = 1
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_the_long_dead_march_west
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_long_dead_march_west
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_taking_note_of_the_situation_in_california"
+        hidden_effect = {
+			CAL = {
+				country_event = { id = CAL_start.2 }
+			}
+		}
+    }
+}
+
+shared_focus = {
+    id = CAL_1
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_taking_note_of_the_situation_in_california
+    }
+    x = -4
+    y = 1
+    relative_position_id = CAL_taking_note_of_the_situation_in_california
+}
+
+shared_focus = {
+    id = CAL_2
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_taking_note_of_the_situation_in_california
+    }
+    x = -2
+    y = 1
+    relative_position_id = CAL_taking_note_of_the_situation_in_california
+}
+
+shared_focus = {
+    id = CAL_3
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_taking_note_of_the_situation_in_california
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_taking_note_of_the_situation_in_california
+}
+
+shared_focus = {
+    id = CAL_4
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_taking_note_of_the_situation_in_california
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_taking_note_of_the_situation_in_california
+}
+
+shared_focus = {
+    id = CAL_5
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_taking_note_of_the_situation_in_california
+    }
+    x = 4
+    y = 1
+    relative_position_id = CAL_taking_note_of_the_situation_in_california
 }
