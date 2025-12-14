@@ -23,7 +23,51 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_taking_note_of_the_situation_in_california
+    id = CAL_re_affirm_the_treaty_of_guadalupe_hidalgo
+    icon = GFX_focus_the_long_retreat_west
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_the_long_dead_march_west
+    }
+    mutually_exclusive = {
+        focus = CAL_a_dangerous_game
+    }
+    x = -3
+    y = 1
+    relative_position_id = CAL_the_long_dead_march_west
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_re_affirm_the_treaty_of_guadalupe_hidalgo"
+	}
+}
+
+shared_focus = {
+    id = CAL_a_dangerous_game
+    icon = GFX_focus_the_long_retreat_west
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_the_long_dead_march_west
+    }
+    mutually_exclusive = {
+        focus = CAL_re_affirm_the_treaty_of_guadalupe_hidalgo
+    }
+    x = 3
+    y = 1
+    relative_position_id = CAL_the_long_dead_march_west
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_re_affirm_the_treaty_of_guadalupe_hidalgo"
+	}
+}
+
+shared_focus = {
+    id = CAL_control_the_sixth_army
     icon = GFX_focus_taking_note_of_the_situation_in_california
     cost = 1
 	available_if_capitulated = no
@@ -34,7 +78,7 @@ shared_focus = {
         focus = CAL_the_long_dead_march_west
     }
     x = 0
-    y = 1
+    y = 2
     relative_position_id = CAL_the_long_dead_march_west
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_taking_note_of_the_situation_in_california"
@@ -47,7 +91,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_1
+    id = CAL_tighten_border_control
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -55,37 +99,18 @@ shared_focus = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_taking_note_of_the_situation_in_california
-    }
-    x = -3
-    y = 1
-    relative_position_id = CAL_taking_note_of_the_situation_in_california
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL"
-    }
-}
-
-shared_focus = {
-    id = CAL_2
-    icon = GFX
-    cost = 2
-    available_if_capitulated = no
-	ai_will_do = {
-		factor = 1
-	}
-    prerequisite = {
-        focus = CAL_taking_note_of_the_situation_in_california
+        focus = CAL_re_affirm_the_treaty_of_guadalupe_hidalgo
     }
     x = -1
     y = 1
-    relative_position_id = CAL_taking_note_of_the_situation_in_california
+    relative_position_id = CAL_re_affirm_the_treaty_of_guadalupe_hidalgo
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_tighten_border_control"
     }
 }
 
 shared_focus = {
-    id = CAL_3
+    id = CAL_expand_the_partisan_militias
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -93,18 +118,18 @@ shared_focus = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_taking_note_of_the_situation_in_california
+        focus = CAL_re_affirm_the_treaty_of_guadalupe_hidalgo
     }
     x = 1
     y = 1
-    relative_position_id = CAL_taking_note_of_the_situation_in_california
+    relative_position_id = CAL_re_affirm_the_treaty_of_guadalupe_hidalgo
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_partisan_militias"
     }
 }
 
 shared_focus = {
-    id = CAL_4
+    id = CAL_mercenary_gunmen_for_hire
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -112,18 +137,18 @@ shared_focus = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_taking_note_of_the_situation_in_california
+        focus = CAL_a_dangerous_game
     }
-    x = 3
+    x = -1
     y = 1
-    relative_position_id = CAL_taking_note_of_the_situation_in_california
+    relative_position_id = CAL_a_dangerous_game
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_mercenary_gunmen_for_hire"
     }
 }
 
 shared_focus = {
-    id = CAL_5
+    id = CAL_the_mexican_connection
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -131,27 +156,121 @@ shared_focus = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_1
+        focus = CAL_a_dangerous_game
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_a_dangerous_game
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_mexican_connection"
+    }
+}
+
+shared_focus = {
+    id = CAL_a_pioneer_republic
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_tighten_border_control
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_tighten_border_control
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_pioneer_republic"
+    }
+}
+
+shared_focus = {
+    id = CAL_san_diego_fleet_command
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_control_the_sixth_army
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_control_the_sixth_army
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_san_diego_fleet_command"
+    }
+}
+
+shared_focus = {
+    id = CAL_march_air_force_base
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_control_the_sixth_army
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_control_the_sixth_army
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_march_air_force_base"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_pacific_coast_economy_line
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_the_mexican_connection
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_mexican_connection
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CCAL_the_pacific_coast_economy_line"
+    }
+}
+
+
+shared_focus = {
+    id = CAL_manifest_destiny
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_a_pioneer_republic
+        focus = CAL_the_pacific_coast_economy_line
     }
     prerequisite = {
-        focus = CAL_2
+        focus = CAL_san_diego_fleet_command
     }
     prerequisite = {
-        focus = CAL_3
-    }
-    prerequisite = {
-        focus = CAL_4
+        focus = CAL_march_air_force_base
     }
     x = 0
     y = 2
-    relative_position_id = CAL_taking_note_of_the_situation_in_california
+    relative_position_id = CAL_control_the_sixth_army
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL"
     }
 }
 
 shared_focus = {
-    id = CAL_6
+    id = CAL_begin_preparations_for_war
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -159,11 +278,11 @@ shared_focus = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_5
+        focus = CAL_manifest_destiny
     }
     x = 0
     y = 1
-    relative_position_id = CAL_5
+    relative_position_id = CAL_manifest_destiny
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL"
     }
@@ -178,11 +297,11 @@ shared_focus = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_6
+        focus = CAL_begin_preparations_for_war
     }
     x = -12
 	y = 1
-    relative_position_id = CAL_6
+    relative_position_id = CAL_begin_preparations_for_war
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_epxand_the_california_national_guard"
     }
@@ -197,11 +316,11 @@ shared_focus = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_6
+        focus = CAL_begin_preparations_for_war
     }
     x = -4
 	y = 1
-    relative_position_id = CAL_6
+    relative_position_id = CAL_begin_preparations_for_war
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_dealing_with_the_anarchy_in_our_state"
     }
@@ -216,11 +335,11 @@ shared_focus = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_6
+        focus = CAL_begin_preparations_for_war
     }
     x = 0
 	y = 1
-    relative_position_id = CAL_6
+    relative_position_id = CAL_begin_preparations_for_war
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_the_second_continental_army_junta"
     }
@@ -235,11 +354,11 @@ shared_focus = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_6
+        focus = CAL_begin_preparations_for_war
     }
     x = 4
 	y = 1
-    relative_position_id = CAL_6
+    relative_position_id = CAL_begin_preparations_for_war
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_memories_of_the_old_republic"
     } 
@@ -254,11 +373,11 @@ shared_focus = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_6
+        focus = CAL_begin_preparations_for_war
     }
     x = 12
 	y = 1
-    relative_position_id = CAL_6
+    relative_position_id = CAL_begin_preparations_for_war
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_south_california_industry"
     }
