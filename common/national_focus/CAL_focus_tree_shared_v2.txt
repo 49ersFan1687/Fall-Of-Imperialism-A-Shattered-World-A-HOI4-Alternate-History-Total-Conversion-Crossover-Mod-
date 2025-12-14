@@ -57,7 +57,7 @@ shared_focus = {
     prerequisite = {
         focus = CAL_taking_note_of_the_situation_in_california
     }
-    x = -4
+    x = -3
     y = 1
     relative_position_id = CAL_taking_note_of_the_situation_in_california
     completion_reward = {
@@ -76,7 +76,7 @@ shared_focus = {
     prerequisite = {
         focus = CAL_taking_note_of_the_situation_in_california
     }
-    x = -2
+    x = -1
     y = 1
     relative_position_id = CAL_taking_note_of_the_situation_in_california
     completion_reward = {
@@ -95,7 +95,7 @@ shared_focus = {
     prerequisite = {
         focus = CAL_taking_note_of_the_situation_in_california
     }
-    x = 0
+    x = 1
     y = 1
     relative_position_id = CAL_taking_note_of_the_situation_in_california
     completion_reward = {
@@ -114,7 +114,7 @@ shared_focus = {
     prerequisite = {
         focus = CAL_taking_note_of_the_situation_in_california
     }
-    x = 2
+    x = 3
     y = 1
     relative_position_id = CAL_taking_note_of_the_situation_in_california
     completion_reward = {
@@ -124,25 +124,6 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_5
-    icon = GFX
-    cost = 2
-    available_if_capitulated = no
-	ai_will_do = {
-		factor = 1
-	}
-    prerequisite = {
-        focus = CAL_taking_note_of_the_situation_in_california
-    }
-    x = 4
-    y = 1
-    relative_position_id = CAL_taking_note_of_the_situation_in_california
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL"
-    }
-}
-
-shared_focus = {
-    id = CAL_6
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -161,19 +142,16 @@ shared_focus = {
     prerequisite = {
         focus = CAL_4
     }
-    prerequisite = {
-        focus = CAL_5
-    }
     x = 0
-    y = 1
-    relative_position_id = CAL_3
+    y = 2
+    relative_position_id = CAL_taking_note_of_the_situation_in_california
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL"
     }
 }
 
 shared_focus = {
-    id = CAL_7
+    id = CAL_6
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -181,11 +159,11 @@ shared_focus = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_taking_note_of_the_situation_in_california
+        focus = CAL_5
     }
     x = 0
     y = 1
-    relative_position_id = CAL_6
+    relative_position_id = CAL_5
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL"
     }
