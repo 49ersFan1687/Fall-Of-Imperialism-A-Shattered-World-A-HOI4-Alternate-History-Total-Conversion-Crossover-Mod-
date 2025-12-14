@@ -382,3 +382,5 @@ shared_focus = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_south_california_industry"
     }
 }
+
+shared_focus
