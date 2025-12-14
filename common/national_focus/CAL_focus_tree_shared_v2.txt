@@ -1,0 +1,20 @@
+shared_focus = {
+    id = CAL_the_long_dead_march_west
+    icon = GFX_focus_the_long_retreat_west
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    x = 10
+	y = 0
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_long_dead_march_west"
+		custom_effect_tooltip = CAL_the_long_retreat_west_tooltip
+        hidden_effect = {
+			CAL = {
+				country_event = { id = CAL_start.1 }
+			}
+		}
+	}
+}

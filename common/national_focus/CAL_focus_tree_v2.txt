@@ -12,3 +12,13 @@ focus_tree = {
     continuous_focus_position = { x = 100 y = 4200 }
 }
 
+focus_tree = {
+	id = CAL_post_california_reunification
+	 country = {
+		factor = 0
+		modifier = { 
+            add = 10 
+            tag = CAL
+        }
+	}
+}
