@@ -553,7 +553,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_tquestion_of_law
+    id = CAL_question_of_law
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -856,4 +856,86 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_in_the_footsteps_of_general_simonds"
 		add_ideas = CAL_moncels_advice
 	}
+}
+
+shared_focus = {
+    id = CAL_farmlands_of_california
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_establishing_a_military_focused_economy
+    }
+    x = -2
+    y = 1
+    relative_position_id = CAL_establishing_a_military_focused_economy
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_farmlands_of_california"
+    }
+}
+
+shared_focus = {
+    id = CAL_subsidiaries_for_arms_companies
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_establishing_a_military_focused_economy
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_establishing_a_military_focused_economy
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_subsidiaries_for_arms_companies"
+    }
+}
+
+shared_focus = {
+    id = CAL_dealing_with_the_labor_shortage
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_establishing_a_military_focused_economy
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_establishing_a_military_focused_economy
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_dealing_with_the_labor_shortage"
+    }
+}
+
+shared_focus = {
+    id = CAL_state_matters
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_question_of_law
+    }
+    prerequisite = {
+        focus = CAL_question_of_the_ballot
+    }
+    prerequisite = {
+        focus = CAL_question_of_civil_liberties
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_question_of_the_ballot
+     completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_state_matters"
+    }
 }
