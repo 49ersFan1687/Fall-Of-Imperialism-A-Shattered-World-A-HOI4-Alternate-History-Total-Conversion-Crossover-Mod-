@@ -404,7 +404,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_better_rifle_designs
+    id = CAL_improved_rifle_designs
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -418,12 +418,12 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_epxand_the_california_national_guard
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_better_rifle_designs"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_improved_rifle_designs"
     }
 }
 
 shared_focus = {
-    id = CAL_reformed_armored_divisions
+    id = CAL_reform_the_fortieth_armored
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -437,7 +437,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_epxand_the_california_national_guard
      completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reformed_armored_divisions"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reform_the_fortieth_armored"
     }
 }
 
