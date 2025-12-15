@@ -110,7 +110,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_expand_the_partisan_militias
+    id = CAL_expand_the_volunteer_militias
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -124,7 +124,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_re_affirm_the_treaty_of_guadalupe_hidalgo
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_partisan_militias"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_volunteer_militias"
     }
 }
 
