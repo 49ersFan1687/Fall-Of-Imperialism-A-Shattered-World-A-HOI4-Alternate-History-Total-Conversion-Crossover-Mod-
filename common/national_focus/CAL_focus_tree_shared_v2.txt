@@ -1205,7 +1205,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_factories_under_military_oversight
+    id = CAL_place_factories_under_military_oversight
     icon = GFX
 	cost = 5
 	available_if_capitulated = no
@@ -1219,7 +1219,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_dealing_with_labor_shortage
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_factories_under_military_oversight"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_place_factories_under_military_oversight"
     }
 }
 
@@ -1277,5 +1277,336 @@ shared_focus = {
     relative_position_id = CAL_state_matters
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_too_many_reds"
+    }
+}
+
+shared_focus = {
+    id = CAL_begin_arresting_extremists
+     icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_wiretap_their_meetings
+    }
+    prerequisite = {
+        focus = CAL_infiltrate_their_rallies
+    }
+    x = 0
+    y = 3
+    relative_position_id = CAL_reform_the_federal_bureau_of_investigation
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_arresting_extremists"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_new_american_military_policeman
+     icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_centralized_mp_command
+    }
+    prerequisite = {
+        focus = CAL_military_police_signal_corps
+    }
+    x = 0
+    y = 3
+    relative_position_id = CAL_expand_the_military_police
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_new_american_military_policeman"
+    }
+}
+
+shared_focus = {
+    id = CAL_reactivate_destroyed_divisions
+     icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_initial_mechanization_efforts
+    }
+    prerequisite = {
+        focus = CAL_military_logistic_corps
+    }
+     prerequisite = {
+        focus = CAL_anti_tank_research
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_military_logistic_corps
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reactivate_destroyed_divisions"
+    }
+}
+
+shared_focus = {
+    id = CAL_revitalized_military_medical_infastructure
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_well_relegated_minutemen
+        focus = CAL_an_expanded_army_reserve
+    }
+    x = 0
+    y = 3
+    relative_position_id = CAL_solving_the_manpower_problem
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_revitalized_military_medical_infastructure"
+    }
+}
+
+shared_focus = {
+	id = CAL_export_canadian_equipment
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_a_permanent_liason_to_america
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_a_permanent_liason_to_america
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_export_canadian_equipment"
+	}
+}
+
+shared_focus = {
+	id = CAL_improving_trade_relations
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_canadian_funded_factories
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_canadian_funded_factories
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_improving_trade_relations"
+	}
+}
+
+shared_focus = {
+    id = CAL_rebuilding_civilian_industry
+    icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+        focus = CAL_ramp_up_ration_production
+    }
+    x = 0
+	y = 1
+	relative_position_id = CAL_ramp_up_ration_production
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_civilian_industry"
+	}
+}
+
+shared_focus = {
+    id = CAL_rebuilding_destroyed_arms_factories
+    icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+        focus = CAL_create_the_war_research_department
+    }
+    x = 0
+	y = 1
+	relative_position_id = CAL_create_the_war_research_department
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_destroyed_arms_factories"
+	}
+}
+
+shared_focus = {
+    id = CAL_forming_a_reconstruction_corps
+    icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+        focus = CAL_place_factories_under_military_oversight
+    }
+    x = 0
+	y = 1
+	relative_position_id = CAL_place_factories_under_military_oversight
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_forming_a_reconstruction_corps"
+	}
+}
+
+shared_focus = {
+    id = CAL_what_are_we_truly
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_the_protesting_democrats
+    }
+    prerequisite = {
+        focus = CAL_the_nationalists
+    }
+    prerequisite = {
+        focus = CAL_too_many_reds
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_nationalists
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_what_are_we_truly"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_state_secured
+     icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_begin_arresting_extremists
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_begin_arresting_extremists
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_state_secured"
+    }
+}
+
+shared_focus = {
+    id = CAL_an_army_ready_for_war
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_the_new_american_military_policeman
+    }
+    prerequisite = {
+        focus = CAL_reactivate_destroyed_divisions
+    }
+    prerequisite = {
+        focus = CAL_revitalized_military_medical_infastructure
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_reactivate_destroyed_divisions
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_an_army_ready_for_war"
+    }
+}
+
+shared_focus = {
+	id = CAL_the_beaver_and_the_eagle_march_together
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_export_canadian_equipment
+	}
+	prerequisite = {
+		focus = CAL_improving_trade_relations
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_export_canadian_equipment
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus CAL_the_beaver_and_the_eagle_march_together"
+	}
+}
+
+shared_focus = {
+    id = CAL_a_proper_war_economy
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_rebuilding_civilian_industry
+    }
+    prerequisite = {
+        focus = CAL_rebuilding_destroyed_arms_factories
+    }
+    prerequisite = {
+        focus = CAL_forming_a_reconstruction_corps
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_rebuilding_destroyed_arms_factories
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_an_army_ready_for_war"
+    }
+}
+
+shared_focus = {
+    id = CAL_setting_the_warplans_in_motion
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_what_are_we_truly
+    }
+    prerequisite = {
+        focus = CAL_the_state_secured
+    }
+    prerequisite = {
+        focus = CAL_an_army_ready_for_war
+    }
+    prerequisite = {
+        focus = CAL_the_beaver_and_the_eagle_march_together
+    }
+    prerequisite = {
+        focus = CAL_a_proper_war_economy
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_an_army_ready_for_war
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_an_army_ready_for_war"
     }
 }
