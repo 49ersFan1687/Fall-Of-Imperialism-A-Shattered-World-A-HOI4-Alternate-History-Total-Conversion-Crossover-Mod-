@@ -299,7 +299,7 @@ shared_focus = {
     prerequisite = {
         focus = CAL_begin_preparations_for_war
     }
-    x = -13
+    x = 0
 	y = 1
     relative_position_id = CAL_begin_preparations_for_war
     completion_reward = {
@@ -318,7 +318,7 @@ shared_focus = {
     prerequisite = {
         focus = CAL_begin_preparations_for_war
     }
-    x = -6
+    x = -9
 	y = 1
     relative_position_id = CAL_begin_preparations_for_war
     completion_reward = {
@@ -337,7 +337,7 @@ shared_focus = {
     prerequisite = {
         focus = CAL_begin_preparations_for_war
     }
-    x = 0
+    x = -14
 	y = 1
     relative_position_id = CAL_begin_preparations_for_war
     completion_reward = {
@@ -346,8 +346,8 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_memories_of_the_old_republic
-    icon = GFX
+    id = CAL_negotiations_with_the_canadians
+     icon = GFX
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -356,12 +356,12 @@ shared_focus = {
     prerequisite = {
         focus = CAL_begin_preparations_for_war
     }
-    x = 6
+    x = 9
 	y = 1
     relative_position_id = CAL_begin_preparations_for_war
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_memories_of_the_old_republic"
-    } 
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_negotiations_with_the_canadians"
+    }
 }
 
 shared_focus = {
@@ -375,7 +375,7 @@ shared_focus = {
     prerequisite = {
         focus = CAL_begin_preparations_for_war
     }
-    x = 13
+    x = 14
 	y = 1
     relative_position_id = CAL_begin_preparations_for_war
     completion_reward = {
@@ -383,4 +383,228 @@ shared_focus = {
     }
 }
 
-shared_focus
+shared_focus = {
+    id = CAL_expand_the_military_police
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_epxand_the_california_national_guard
+    }
+    x = -5
+    y = 1
+    relative_position_id = CAL_epxand_the_california_national_guard
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_initiate_a_mass_recruitment_drive"
+    }
+    
+}
+
+shared_focus = {
+    id = CAL_better_rifle_designs
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_epxand_the_california_national_guard
+    }
+    x = -2
+    y = 1
+    relative_position_id = CAL_epxand_the_california_national_guard
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_better_rifle_designs"
+    }
+}
+
+shared_focus = {
+    id = CAL_reformed_armored_divisions
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_epxand_the_california_national_guard
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_epxand_the_california_national_guard
+     completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reformed_armored_divisions"
+    }
+}
+
+shared_focus = {
+    id = CAL_new_artillery_designs
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_epxand_the_california_national_guard
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_epxand_the_california_national_guard
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_the_screaming_eagles"
+    }
+}
+
+shared_focus = {
+    id = CAL_solving_the_manpower_problem
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_epxand_the_california_national_guard
+    }
+    x = 5
+    y = 1
+    relative_position_id = CAL_epxand_the_california_national_guard
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_initiate_a_mass_recruitment_drive"
+    }
+}
+
+shared_focus = {
+    id = CAL_reform_the_federal_bureau_of_investigation
+     icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_dealing_with_the_anarchy_in_our_state
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_dealing_with_the_anarchy_in_our_state
+}
+
+shared_focus = {
+    id = CAL_memories_of_the_old_republic
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_the_second_continental_army_junta
+    }
+    x = 0
+	y = 1
+    relative_position_id = CAL_the_second_continental_army_junta
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_memories_of_the_old_republic"
+    } 
+}
+
+shared_focus = {
+    id = CAL_welcoming_general_alexander
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_negotiations_with_the_canadians
+    }
+    x = 0
+	y = 1
+    relative_position_id = CAL_negotiations_with_the_canadians
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_welcoming_general_alexander"
+    }
+}
+
+shared_focus = {
+    id = CAL_establishing_a_military_focused_economy
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_rebuilding_south_california_industry
+    }
+    x = 0
+	y = 1
+    relative_position_id = CAL_rebuilding_south_california_industry
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_establishing_a_military_focused_economy"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_question_of_law
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_memories_of_the_old_republic
+    }
+    x = -2
+    y = 1
+    relative_position_id = CAL_memories_of_the_old_republic
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_question_of_law"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_question_of_the_ballot
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_memories_of_the_old_republic
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_memories_of_the_old_republic
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_question_of_law"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_question_of_civil_liberties
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_memories_of_the_old_republic
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_memories_of_the_old_republic
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_question_of_civil_liberties"
+    }
+}
