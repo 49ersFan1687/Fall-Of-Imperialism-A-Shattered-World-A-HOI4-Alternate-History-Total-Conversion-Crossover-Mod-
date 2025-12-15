@@ -878,7 +878,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_subsidiaries_for_arms_companies
+    id = CAL_arms_companies_subsidiaries
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -892,12 +892,12 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_establishing_a_military_focused_economy
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_subsidiaries_for_arms_companies"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_arms_companies_subsidiaries"
     }
 }
 
 shared_focus = {
-    id = CAL_dealing_with_the_labor_shortage
+    id = CAL_dealing_with_labor_shortage
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -911,7 +911,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_establishing_a_military_focused_economy
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_dealing_with_the_labor_shortage"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_dealing_with_labor_shortage"
     }
 }
 
@@ -935,7 +935,233 @@ shared_focus = {
     x = 0
     y = 1
     relative_position_id = CAL_question_of_the_ballot
-     completion_reward = {
+    completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_state_matters"
     }
+}
+
+shared_focus = {
+    id = CAL_wiretap_their_meetings
+     icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_deal_with_communist_guerillas
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_deal_with_communist_guerillas
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_wiretap_their_meetings"
+    }
+}
+
+shared_focus = {
+    id = CAL_infiltrate_their_rallies
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_deal_with_fascist_insurgents
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_deal_with_fascist_insurgents
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_infiltrate_their_rallies"
+    }
+}
+
+shared_focus = {
+    id = CAL_centralized_mp_command
+     icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_american_gendarmerie
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_american_gendarmerie
+     completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_centralized_mp_command"
+    }
+}
+
+shared_focus = {
+    id = CAL_military_police_signal_corps
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_militarize_civil_police
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_militarize_civil_police
+     completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_military_police_signal_corps"
+    }
+}
+
+shared_focus = {
+    id = CAL_initial_mechanization_efforts
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_initial_motorization_efforts
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_initial_motorization_efforts
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_initial_mechanization_efforts"
+    }
+}
+
+shared_focus = {
+    id = CAL_military_logistic_corps
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_new_tank_research
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_new_tank_research
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_military_logistic_corps"
+    }
+}
+
+shared_focus = {
+    id = CAL_anti_tank_research
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_anti_air_research
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_anti_air_research
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_anti_tank_research"
+    }
+}
+
+shared_focus = {
+    id = CAL_well_relegated_minutemen
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_revive_the_minutemen
+    }
+     x = 0
+    y = 1
+    relative_position_id = CAL_revive_the_minutemen
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_well_relegated_minutemen"
+    }
+}
+
+shared_focus = {
+    id = CAL_an_expanded_army_reserve
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_reimplement_conscription
+    }
+     x = 0
+    y = 1
+    relative_position_id = CAL_reimplement_conscription
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_an_expanded_army_reserve"
+    }
+}
+
+shared_focus = {
+	id = CAL_a_permanent_liason_to_america
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_general_simonds_advice
+		focus = CAL_general_alexanders_advice
+		focus = CAL_general_moncels_advice
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_general_simonds_advice
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_permanent_liason_to_america"
+		add_ideas = CAL_the_permanant_canadian_liason1
+	}
+}
+
+shared_focus = {
+	id = CAL_canadian_funded_factories
+	icon = GFX
+	cost = 5
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_general_simonds_advice
+		focus = CAL_general_alexanders_advice
+		focus = CAL_general_moncels_advice
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_general_alexanders_advice
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_canadian_funded_factories"
+		add_offsite_building = {
+		    type = arms_factory
+			level = 1
+		}
+		add_offsite_building = {
+		    type = arms_factory
+			level = 1
+		}
+        add_offsite_building = {
+		    type = arms_factory
+			level = 1
+		}
+	}
 }
