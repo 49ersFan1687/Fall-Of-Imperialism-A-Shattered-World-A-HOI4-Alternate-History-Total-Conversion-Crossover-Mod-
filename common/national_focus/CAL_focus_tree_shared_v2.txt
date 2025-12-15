@@ -1626,3 +1626,19 @@ shared_focus = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_beginning_the_california_reunfication_war"
     }
 }
+
+shared_focus = {
+    id = CAL_
+}
+
+shared_focus = {
+    id = CAL_
+}
+
+shared_focus = {
+    id = CAL_
+}
+
+shared_focus = {
+    id = CAL_
+}
