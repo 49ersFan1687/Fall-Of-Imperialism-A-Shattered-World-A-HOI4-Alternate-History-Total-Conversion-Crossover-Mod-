@@ -1165,3 +1165,117 @@ shared_focus = {
 		}
 	}
 }
+
+shared_focus = {
+    id = CAL_ramp_up_ration_production
+    icon = GFX
+	cost = 5
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_farmlands_of_california
+    }
+    x = 0
+	y = 1
+	relative_position_id = CAL_farmlands_of_california
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_ramp_up_ration_production"
+    }
+}
+
+shared_focus = {
+    id = CAL_create_the_war_research_department
+    icon = GFX
+	cost = 5
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_arms_companies_subsidiaries
+    }
+    x = 0
+	y = 1
+	relative_position_id = CAL_arms_companies_subsidiaries
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_create_the_war_research_department"
+    }
+}
+
+shared_focus = {
+    id = CAL_factories_under_military_oversight
+    icon = GFX
+	cost = 5
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_dealing_with_labor_shortage
+    }
+    x = 0
+	y = 1
+	relative_position_id = CAL_dealing_with_labor_shortage
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_factories_under_military_oversight"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_protesting_democrats
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_state_matters
+    }
+    x = -2
+    y = 1
+    relative_position_id = CAL_state_matters
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_protesting_democrats"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_nationalists
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_state_matters
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_state_matters
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_nationalists"
+    }
+}
+
+shared_focus = {
+    id = CAL_too_many_reds
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_state_matters
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_state_matters
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_too_many_reds"
+    }
+}
