@@ -1112,7 +1112,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_a_permanent_liason_to_america
+	id = CAL_a_permanent_liason_to_california
 	icon = GFX
 	cost = 3
 	available_if_capitulated = no
@@ -1128,7 +1128,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_general_simonds_advice
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_permanent_liason_to_america"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_permanent_liason_to_california"
 		add_ideas = CAL_the_permanant_canadian_liason1
 	}
 }
@@ -1378,11 +1378,11 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_a_permanent_liason_to_america
+		focus = CAL_a_permanent_liason_to_california
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_a_permanent_liason_to_america
+	relative_position_id = CAL_a_permanent_liason_to_california
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_export_canadian_equipment"
 	}
@@ -1610,3 +1610,5 @@ shared_focus = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_an_army_ready_for_war"
     }
 }
+
+### Initial Focus Tree - Warlord State -  ###
