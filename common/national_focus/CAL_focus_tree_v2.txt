@@ -25,7 +25,7 @@ focus_tree = {
 	}
     default = no
     shared_focus = CAL_beginning_the_california_reunfication_war
-    shared_focus = CAL_turning_our_attention_to_the_pacific_northwest
+    shared_focus = CAL_turning_our_attention_to_the_pacific_northwest_and_nevada
     shared_focus = CAL_initial_eastern_expansion_plans
     continuous_focus_position = { x = 450 y = 200 }
 }
@@ -2166,7 +2166,7 @@ shared_focus = {
 
 ### Focus Tree - Reunification with Cascadia ###
 shared_focus = {
-    id = CAL_turning_our_attention_to_the_pacific_northwest
+    id = CAL_turning_our_attention_to_the_pacific_northwest_and_nevada
     icon = GFX
     cost = 2
     available_if_capitulated = no
