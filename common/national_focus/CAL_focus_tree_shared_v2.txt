@@ -1611,7 +1611,7 @@ shared_focus = {
     }
 }
 
-### Initial Focus Tree - California Reunification and Reunification with Cascadia and Nevada ###
+### Initial Focus Tree - California Reunification ###
 
 shared_focus = {
     id = CAL_beginning_the_california_reunfication_war
@@ -1770,3 +1770,4 @@ shared_focus = {
     }
 }
 
+### Initial Focus Tree - Reunification with Cascadia and Nevada ###
