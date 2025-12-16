@@ -9,7 +9,7 @@ focus_tree = {
 	}
     default = no
 	shared_focus = CAL_the_long_dead_march_west
-    continuous_focus_position = { x = 100 y = 2200 }
+    continuous_focus_position = { x = 450 y = 200 }
 }
 
 focus_tree = {
@@ -23,5 +23,5 @@ focus_tree = {
 	}
     default = no
     shared_focus = CAL_beginning_the_california_reunfication_war
-     continuous_focus_position = { x = 100 y = 2200 }
+    continuous_focus_position = { x = 100 y = 2200 }
 }
