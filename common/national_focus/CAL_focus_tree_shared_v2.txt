@@ -25,6 +25,8 @@ focus_tree = {
 	}
     default = no
     shared_focus = CAL_beginning_the_california_reunfication_war
+    shared_focus = CAL_turning_our_attention_to_the_pacific_northwest
+    shared_focus = CAL_initial_eastern_expansion_plans
     continuous_focus_position = { x = 100 y = 2200 }
 }
 
@@ -1639,7 +1641,7 @@ shared_focus = {
     }
 }
 
-### Initial Focus Tree - California Reunification ###
+### Focus Tree - California Reunification ###
 
 shared_focus = {
     id = CAL_beginning_the_california_reunfication_war
@@ -1933,7 +1935,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_issue_bounties
-     icon = GFX
+    icon = GFX
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -1950,19 +1952,233 @@ shared_focus = {
     }
 }
 
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
+shared_focus = {
+    id = CAL_forcing_forth_the_program
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_stablilize_the_current
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_stablilize_the_current
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_forcing_forth_the_program"
+    }
+}
 
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
-shared_focus = {}
+shared_focus = {
+    id = CAL_the_starved_traitor
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_leave_the_dead_to_march_aimless
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_leave_the_dead_to_march_aimless
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_starved_traitor"
+    }
+}
 
-shared_focus = {}
-shared_focus = {}
+shared_focus = {
+    id = CAL_show_them_a_new_flame
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_curb_the_communists
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_curb_the_communists
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_show_them_a_new_flame"
+    }   
+}
 
-### Initial Focus Tree - Reunification with Cascadia ###
+shared_focus = {
+    id = CAL_the_last_commander
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_issue_bounties
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_issue_bounties
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_last_commander"
+    }
+}
 
-### Initial Focus Tree - Reunification with Nevada ###
+shared_focus = {
+    id = CAL_the_quiet_democratic_facade
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_forcing_forth_the_program
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_forcing_forth_the_program
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_democratic_facade"
+    }
+}
+
+shared_focus = {
+    id = CAL_bones_buried_beneath_the_sands
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_the_starved_traitor
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_starved_traitor
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_bones_buried_beneath_the_sands"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_silence_of_revolutions_failings
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_show_them_a_new_flame
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_show_them_a_new_flame
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_silence_of_revolutions_failings"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_fading_embers
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_the_last_commander
+    }
+     x = 0
+    y = 1
+    relative_position_id = CAL_the_last_commander
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_fading_embers"
+    }
+}
+
+shared_focus = {
+    id = CAL_stability_ensured
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_the_quiet_democratic_facade
+    }
+    prerequisite = {
+        focus = CAL_bones_buried_beneath_the_sands
+    }
+    prerequisite = {
+        focus = CAL_the_silence_of_revolutions_failings
+    }
+    prerequisite = {
+        focus = CAL_the_fading_embers
+    }
+    x = 0
+    y = 5
+    relative_position_id = CAL_merge_the_central_and_northern_commands_together
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_stability_ensured"
+    }
+}
+
+shared_focus = {
+    id = CAL_a_silent_reflection
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_stability_ensured
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_stability_ensured
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_silent_reflection"
+    }
+}
+
+### Focus Tree - Reunification with Cascadia ###
+shared_focus = {
+    id = CAL_turning_our_attention_to_the_pacific_northwest
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    x = 1
+    y = 0
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_turning_our_attention_to_the_pacific_northwest"
+    }
+}
+
+### Focus Tree - Reunification with Nevada ###
+shared_focus = {
+    id = CAL_initial_eastern_expansion_plans
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    x = 20
+    y = 0
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_initial_eastern_expansion_plans"
+    }
+}
