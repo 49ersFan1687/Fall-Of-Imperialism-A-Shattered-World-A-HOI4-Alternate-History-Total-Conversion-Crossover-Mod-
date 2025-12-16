@@ -1612,6 +1612,7 @@ shared_focus = {
 }
 
 ### Initial Focus Tree - California Reunification and Reunification with Cascadia and Nevada ###
+
 shared_focus = {
     id = CAL_beginning_the_california_reunfication_war
     icon = GFX
@@ -1628,17 +1629,144 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_
+    id = CAL_construct_southeastern_defensive_lines
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_beginning_the_california_reunfication_war
+    }
+    x = -2
+    y = 1
+    relative_position_id = CAL_beginning_the_california_reunfication_war
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_construct_southeastern_defensive_lines"
+    }
 }
 
 shared_focus = {
-    id = CAL_
+    id = CAL_construct_northern_defensive_lines
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_beginning_the_california_reunfication_war
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_beginning_the_california_reunfication_war
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_construct_northern_defensive_lines"
+    }
 }
 
 shared_focus = {
-    id = CAL_
+    id = CAL_ultimatum_to_the_river_republic
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_construct_southeastern_defensive_lines
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_construct_southeastern_defensive_lines
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_ultimatum_to_the_river_republic"
+    }
 }
 
 shared_focus = {
-    id = CAL_
+    id = CAL_calming_the_sandstorm
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_construct_southeastern_defensive_lines
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_construct_southeastern_defensive_lines
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_calming_the_sandstorm"
+    }
 }
+
+shared_focus = {
+    id = CAL_crush_the_bay_area_communists
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_construct_northern_defensive_lines
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_construct_northern_defensive_lines
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_crush_the_bay_area_communists"
+    }
+}
+
+shared_focus = {
+    id = CAL_purge_the_nationalists
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_construct_northern_defensive_lines
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_construct_northern_defensive_lines
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_purge_the_nationalists"
+    }
+}
+
+shared_focus = {
+    id = CAL_merge_the_central_and_northern_commands
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_ultimatum_to_the_river_republic
+    }
+    prerequisite = {
+        focus = CAL_calming_the_sandstorm
+    }
+    prerequisite = {
+        focus = CAL_crush_the_bay_area_communists
+    }
+    prerequisite = {
+        focus = CAL_purge_the_nationalists
+    }
+    x = 0
+    y = 3
+    relative_position_id = CAL_beginning_the_california_reunfication_war
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_purge_the_nationalists"
+    }
+}
+
