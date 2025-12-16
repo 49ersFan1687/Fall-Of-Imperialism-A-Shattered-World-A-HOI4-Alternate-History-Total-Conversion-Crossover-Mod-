@@ -1,0 +1,30 @@
+capital = 1148
+
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+	
+set_popularities = {
+	paternal_autocrat = 45
+	neutrality = 25
+	conservatism = 15
+	social_democracy = 15
+}
+
+### Techs ###
+set_technology = {
+	gw_artillery = 1
+}
+create_country_leader = {
+	name = "Stanisław Lem"
+	desc = ""
+	picture = GFX_fish
+	ideology = military_junta_ideology
+	traits = {
+		#
+	}
+}

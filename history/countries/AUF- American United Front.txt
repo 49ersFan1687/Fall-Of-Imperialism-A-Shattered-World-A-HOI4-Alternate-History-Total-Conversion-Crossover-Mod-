@@ -1,0 +1,22 @@
+capital = 1148
+
+
+set_politics = {
+	ruling_party = social_democracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+	
+set_popularities = {
+	social_democracy = 20	
+	liberalism = 35
+	socialism = 35
+	communism = 10
+}
+
+### Techs ###
+set_technology = {
+	gw_artillery = 1
+}
+

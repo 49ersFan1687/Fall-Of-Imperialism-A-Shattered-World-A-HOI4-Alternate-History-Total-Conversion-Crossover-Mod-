@@ -1,0 +1,35 @@
+state = {
+	id = 1152
+	name = "STATE_1152"
+	manpower = 2811911
+	
+	state_category = large_city
+
+	history = {
+
+		owner = GER
+		add_core_of = GER
+
+		buildings = {
+			infrastructure = 4 #was: 6
+			industrial_complex = 1
+			arms_factory = 5
+			anti_air_building = 2
+			air_base = 5
+
+		}
+		victory_points = {
+			3544 25
+		}
+		victory_points = {
+			402 1
+		}
+
+	}
+
+	provinces = {
+		402 524 12562 3544
+	}
+
+	local_supplies = 0.0 
+}

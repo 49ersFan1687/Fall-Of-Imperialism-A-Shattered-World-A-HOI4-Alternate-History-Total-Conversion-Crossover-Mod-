@@ -1,0 +1,32 @@
+state = {
+	id = 1147
+	name = "STATE_1147"
+	manpower = 81302
+	
+	state_category = rural
+
+	history = {
+
+		owner = ANR
+		add_core_of = ANR
+
+		buildings = {
+			infrastructure = 2 #was: 6
+			7202 = {
+				naval_base = 2
+
+			}
+		}
+		victory_points = {
+			7202 1 
+		}
+		
+
+	}
+
+	provinces = {
+		3994 1547 10029 7202
+	}
+
+	local_supplies = 0.0 
+}

@@ -30,7 +30,7 @@ BEL = { color 	 = rgb { 193 171 8  }
 HOL = {	color = rgb { 203 138 74 }
 		color_ui = rgb { 255 179 96 }
 }
-CZE = {	color = rgb { 54 167 156 }
+CZE = {	color = rgb { 27 117 108 }
 		color_ui = rgb { 70 217 203 }
 }
 POL = {
@@ -1609,6 +1609,70 @@ SSD = {
 }
 SND = {
 	color = rgb { 31 39 110 }
+	color_ui = rgb { 170  125  80 }
+}
+AUF = {
+	color = rgb { 59 105 138 }
+	color_ui = rgb { 170  125  80 }
+}
+FRE = {
+	color = rgb { 171 55 82 }
+	color_ui = rgb { 170  125  80 }
+}
+BER = {
+	color = rgb { 158 132 28 }
+	color_ui = rgb { 170  125  80 }
+}
+DUR = {
+	color = rgb { 171 119 46 }
+	color_ui = rgb { 170  125  80 }
+}
+PRS = {
+	color = rgb { 173 87 116 }
+	color_ui = rgb { 170  125  80 }
+}
+GDR = {
+	color = rgb { 60 98 140 }
+	color_ui = rgb { 170  125  80 }
+}
+GSM = {
+	color = rgb { 148 1 70 }
+	color_ui = rgb { 170  125  80 }
+}
+GEN = {
+	color = rgb { 92 40 12 }
+	color_ui = rgb { 170  125  80 }
+}
+GEB = {
+	color = rgb { 92 73 12 }
+	color_ui = rgb { 170  125  80 }
+}
+WEH = {
+	color = rgb { 122 119 108 }
+	color_ui = rgb { 170  125  80 }
+}
+GEM = {
+	color = rgb { 54 69 68 }
+	color_ui = rgb { 170  125  80 }
+}
+GSS = {
+	color = rgb { 28 28 28 }
+	color_ui = rgb { 170  125  80 }
+}
+GEP = {
+	color = rgb { 54 33 33 }
+	color_ui = rgb { 170  125  80 }
+}
+GNZ = {
+	color = hsv { 0.0 0.0 0.32 }
+	color_ui = rgb { 170  125  80 }
+}
+SIL = {
+	color = rgb { 51 35 24 }
+	color_ui = rgb { 170  125  80 }
+}
+POO = {
+	color = rgb { 51 35 24 }
 	color_ui = rgb { 170  125  80 }
 }
 

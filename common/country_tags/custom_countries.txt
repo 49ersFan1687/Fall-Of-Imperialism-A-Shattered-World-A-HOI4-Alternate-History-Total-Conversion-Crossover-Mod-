@@ -77,6 +77,7 @@ MSI = "countries/IllinoisMilitia.txt"
 PRD = "countries/PeopleDakota.txt"
 SSD = "countries/StateSouthDakota.txt"
 SND = "countries/StateNorthDakota.txt"
+AUF = "countries/AmericaFront.txt"
 #RUSSIA#
 SDL = "countries/SovietDirectorateOfLiberation.txt"
 VYA = "countries/Vyatka.txt"
@@ -115,5 +116,19 @@ BRE = "countries/BritainExile.txt"
 #South America
 WIF = "countries/WestIndies.txt"
 BAT = "countries/BritishAtlantic.txt"
-
+#Europe
+FRE = "countries/FranceResistance.txt"
+BER = "countries/BelgiumResistance.txt"
+DUR = "countries/DutchResistance.txt"
+PRS = "countries/PolishResistance.txt"
+GDR = "countries/GermanDemocraticRepublic.txt"
+GSM = "countries/GermanStudentsMovement.txt"
+GEN = "countries/GermanNetherlands.txt"
+GEB = "countries/GermanBelgium.txt"
+WEH = "countries/GermanWehrmacht.txt"
+GEM = "countries/GermanEmpire.txt"
+GSS = "countries/GermanSS.txt"
+GEP = "countries/GermanPoland.txt"
+GNZ = "countries/GermanNazi.txt"
+POO = "countries/GermanAustria.txt"
 

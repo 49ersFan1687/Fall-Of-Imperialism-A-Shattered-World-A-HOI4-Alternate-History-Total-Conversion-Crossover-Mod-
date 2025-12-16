@@ -1,0 +1,23 @@
+capital = 1148
+
+
+set_politics = {
+	ruling_party = ultranationalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+	
+set_popularities = {
+	ultranationalism = 30
+	paternal_autocrat = 30
+	neutrality = 30
+	conservatism = 5
+	fascism = 5
+}
+
+### Techs ###
+set_technology = {
+	gw_artillery = 1
+}
+

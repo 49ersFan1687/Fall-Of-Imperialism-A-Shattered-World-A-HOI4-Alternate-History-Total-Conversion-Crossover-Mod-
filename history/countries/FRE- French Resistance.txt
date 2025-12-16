@@ -1,0 +1,25 @@
+capital = 1148
+
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+	
+set_popularities = {
+	paternal_autocrat = 5
+	communism = 5
+	socialism = 20
+	social_democracy = 20
+	democratic = 20
+	conservatism = 20
+	neutrality = 10
+}
+
+### Techs ###
+set_technology = {
+	gw_artillery = 1
+}
+
