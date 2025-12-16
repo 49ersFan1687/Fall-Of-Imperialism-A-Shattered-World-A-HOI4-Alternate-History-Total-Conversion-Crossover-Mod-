@@ -1743,7 +1743,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_merge_the_central_and_northern_commands
+    id = CAL_merge_the_central_and_northern_commands_together
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -1766,7 +1766,7 @@ shared_focus = {
     y = 3
     relative_position_id = CAL_beginning_the_california_reunfication_war
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_purge_the_nationalists"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_merge_the_central_and_northern_commands_together"
     }
 }
 
