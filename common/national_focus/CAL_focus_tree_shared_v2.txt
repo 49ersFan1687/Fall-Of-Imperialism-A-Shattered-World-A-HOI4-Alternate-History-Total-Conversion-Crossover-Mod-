@@ -1,5 +1,33 @@
 #### CALIFORNIA REPUBLIC FOCUS TREE By Aide of General Eisenhower ####
 
+focus_tree = {
+    id = CAL_starting_focus_tree
+    country = {
+		factor = 0
+		modifier = { 
+            add = 10 
+            tag = CAL
+        }
+	}
+    default = no
+	shared_focus = CAL_the_long_dead_march_west
+    continuous_focus_position = { x = 450 y = 200 }
+}
+
+focus_tree = {
+	id = CAL_california_reunification_and_reconstruction_tree
+	 country = {
+		factor = 0
+		modifier = { 
+            add = 10
+            tag = CAL
+        }
+	}
+    default = no
+    shared_focus = CAL_beginning_the_california_reunfication_war
+    continuous_focus_position = { x = 100 y = 2200 }
+}
+
 ### Initial Focus Tree - Warlord State ###
 shared_focus = {
     id = CAL_the_long_dead_march_west
@@ -1767,6 +1795,82 @@ shared_focus = {
     relative_position_id = CAL_beginning_the_california_reunfication_war
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_merge_the_central_and_northern_commands_together"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_colorado_river
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_merge_the_central_and_northern_commands_together
+    }
+    x = -3
+    y = 1
+    relative_position_id = CAL_merge_the_central_and_northern_commands_together
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_colorado_river"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_mojave_desert
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_merge_the_central_and_northern_commands_together
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_merge_the_central_and_northern_commands_together
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_mojave_desert"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_bay_area
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_merge_the_central_and_northern_commands_together
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_merge_the_central_and_northern_commands_together
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_bay_area"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_redwood_forests
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_merge_the_central_and_northern_commands_together
+    }
+    x = 3
+    y = 1
+    relative_position_id = CAL_merge_the_central_and_northern_commands_together
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_redwood_forests"
     }
 }
 
