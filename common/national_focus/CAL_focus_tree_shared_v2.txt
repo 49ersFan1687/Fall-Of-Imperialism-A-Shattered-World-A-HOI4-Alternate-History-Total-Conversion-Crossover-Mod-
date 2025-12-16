@@ -1874,4 +1874,95 @@ shared_focus = {
     }
 }
 
-### Initial Focus Tree - Reunification with Cascadia and Nevada ###
+shared_focus = {
+    id = CAL_stablilize_the_current
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_the_colorado_river
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_colorado_river
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_stablilize_the_current"
+    }
+}
+
+shared_focus = {
+    id = CAL_leave_the_dead_to_march_aimless
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_the_mojave_desert
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_mojave_desert
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_leave_the_dead_to_march_aimless"
+    }
+}
+
+shared_focus = {
+    id = CAL_curb_the_communists
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_the_bay_area
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_bay_area
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_curb_the_communists"
+    }
+}
+
+shared_focus = {
+    id = CAL_issue_bounties
+     icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_the_redwood_forests
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_redwood_forests
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_redwood_forests"
+    }
+}
+
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+shared_focus = {}
+
+shared_focus = {}
+shared_focus = {}
+
+### Initial Focus Tree - Reunification with Cascadia ###
+
+### Initial Focus Tree - Reunification with Nevada ###
