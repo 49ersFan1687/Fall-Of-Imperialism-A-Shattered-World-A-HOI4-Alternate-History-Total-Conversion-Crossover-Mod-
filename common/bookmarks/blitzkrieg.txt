@@ -6,6 +6,16 @@ bookmarks = {
 		picture = "GFX_select_date_1939"
 		default = yes
 		default_country = "CAL"
+		CAN = {
+			history = CAN_HISTORY_DESC
+			ideology = conservatism
+			ideas={
+				
+			}
+			focuses = {
+			
+			}
+		}
 	
 		CAL = {
 			history = CAL_HISTORY_DESC
@@ -19,7 +29,15 @@ bookmarks = {
 		}
 		ANR = {
 			history = ANR_HISTORY_DESC
-			ideology = fascism
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		MAR = {
+			history = CSD_HISTORY_DESC
+			ideology = social_democracy
 			ideas = {
 			}
 			focuses = {
@@ -33,14 +51,6 @@ bookmarks = {
 			focuses = {
 			}
 			
-		}
-		CAN = {
-			history = CAN_HISTORY_DESC
-			ideology = conservatism
-			ideas = { 
-			}
-			focuses = {
-			}
 		}
 		ITA = {
 			history = ITA_HISTORY_DESC
@@ -58,9 +68,33 @@ bookmarks = {
 			focuses = {
 			}		
 		}
-		SOV = {
-			history = SOV_HISTORY_DESC
+		SDL = {
+			history = SDL_HISTORY_DESC
 			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		CSD = {
+			history = CSD_HISTORY_DESC
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		RDI = {
+			history = RDI_HISTORY_DESC
+			ideology = paternal_autocrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		ENG = {
+			history = ENG_HISTORY_DESC
+			ideology = fascism
 			ideas = {
 			}
 			focuses = {
