@@ -16,7 +16,7 @@ focus_tree = {
 
 focus_tree = {
 	id = CAL_west_coast_reunification_and_reconstruction_tree
-	 country = {
+	country = {
 		factor = 0
 		modifier = { 
             add = 10
@@ -27,7 +27,19 @@ focus_tree = {
     shared_focus = CAL_beginning_the_california_reunfication_war
     shared_focus = CAL_turning_our_attention_to_the_pacific_northwest
     shared_focus = CAL_initial_eastern_expansion_plans
-    continuous_focus_position = { x = 100 y = 2200 }
+    continuous_focus_position = { x = 450 y = 200 }
+}
+
+focus_tree = {
+    id = CAL_regional_stage
+    country = {
+		factor = 0
+		modifier = { 
+            add = 10
+            tag = CAL
+        }
+	}
+    default = no
 }
 
 ### Initial Focus Tree - Warlord State ###
@@ -1651,7 +1663,7 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-    x = 10
+    x = 30
 	y = 0
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_beginning_the_california_reunfication_war"
@@ -2160,7 +2172,7 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-    x = 1
+    x = 20
     y = 0
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_turning_our_attention_to_the_pacific_northwest"
@@ -2176,7 +2188,7 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-    x = 20
+    x = 40
     y = 0
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_initial_eastern_expansion_plans"
