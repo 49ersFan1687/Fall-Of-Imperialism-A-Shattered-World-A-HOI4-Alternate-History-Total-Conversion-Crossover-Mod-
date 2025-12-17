@@ -58,6 +58,10 @@ spriteTypes = {
 		name = "GFX_ARZ_Barry_Morris_Goldwater"
 		textureFile = "gfx/leaders/ARZ/Portrait_ARZ_Barry_Morris_Goldwater.dds"
 	}
+	spriteType = {
+		name = "GFX_AVD_Isaac_Asimov"
+		textureFile = "gfx/leaders/America/Isaac_Asimov.png"
+	}
 
 	# California #
 	spriteType = {
