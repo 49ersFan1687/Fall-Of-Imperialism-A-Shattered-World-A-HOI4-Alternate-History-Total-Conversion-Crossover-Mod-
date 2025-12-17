@@ -25,8 +25,8 @@ focus_tree = {
 	}
     default = no
     shared_focus = CAL_beginning_the_california_reunfication_war
-    shared_focus = CAL_turning_our_attention_to_the_pacific_northwest_and_nevada
-    shared_focus = CAL_initial_eastern_expansion_plans
+    shared_focus = CAL_turning_our_attention_to_the_great_northwest
+    shared_focus = CAL_trouble_in_the_great_sands
     continuous_focus_position = { x = 450 y = 200 }
 }
 
@@ -2166,7 +2166,7 @@ shared_focus = {
 
 ### Focus Tree - Reunification with Cascadia ###
 shared_focus = {
-    id = CAL_turning_our_attention_to_the_pacific_northwest_and_nevada
+    id = CAL_turning_our_attention_to_the_great_northwest
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -2174,15 +2174,141 @@ shared_focus = {
 		factor = 1
 	}
     x = 20
-    y = 1
+    y = 0
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_turning_our_attention_to_the_pacific_northwest"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_turning_our_attention_to_the_great_northwest"
+    }
+}
+
+shared_focus = {
+    id = CAL_our_friends_up_north
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    mutually_exclusive = {
+        focus = CAL_our_northern_enemy
+    }
+    prerequisite = {
+        focus = CAL_turning_our_attention_to_the_great_northwest
+    }
+    x = -2
+    y = 1
+    relative_position_id = CAL_turning_our_attention_to_the_great_northwest
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_our_friends_up_north"
+    }
+}
+
+shared_focus = {
+    id = CAL_economic_integration
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_our_friends_up_north
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_our_friends_up_north
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_economic_integration"
+    }
+}
+
+shared_focus = {
+    id = CAL_integrate_the_akb_clique
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_our_friends_up_north
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_our_friends_up_north
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_integrate_the_akb_clique"
+    }
+}
+
+shared_focus = {
+    id = CAL_our_northern_enemy
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    mutually_exclusive = {
+        focus = CAL_our_friends_up_north
+    }
+    prerequisite = {
+        focus = CAL_turning_our_attention_to_the_great_northwest
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_turning_our_attention_to_the_great_northwest
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_our_northern_enemy"
+    }
+}
+
+shared_focus = {
+    id = CAL_eradicate_the_japanese
+     icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    mutually_exclusive = {
+        focus = CAL_godless_communists
+    }
+    prerequisite = {
+        focus = CAL_our_northern_enemy
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_our_northern_enemy
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_eradicate_the_japanese"
+    }
+}
+
+shared_focus = {
+    id = CAL_godless_communists
+     icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    mutually_exclusive = {
+        focus = CAL_fucking_fascists
+    }
+    prerequisite = {
+        focus = CAL_our_northern_enemy
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_our_northern_enemy
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_godless_communists"
     }
 }
 
 ### Focus Tree - Reunification with Nevada ###
 shared_focus = {
-    id = CAL_initial_eastern_expansion_plans
+    id = CAL_trouble_in_the_great_sands
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -2192,8 +2318,9 @@ shared_focus = {
     x = 40
     y = 1
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_initial_eastern_expansion_plans"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_trouble_in_the_great_sands"
     }
 }
 
 ### Focus Tree - Rebuilding and Reuniting West Coast ###
+
