@@ -41,6 +41,8 @@ focus_tree = {
         }
 	}
     default = no
+    shared_focus = CAL_the_formation_of_the_american_pacific_government
+    shared_focus = CAL_begin_the_total_overhaul_of_the_sca
     continuous_focus_position = { x = 450 y = 200 }
 }
 
@@ -2341,9 +2343,38 @@ shared_focus = {
 }
 
 ### Focus Tree - Regional Stage: Political Focus Tree ###
-
-### Focus Tree - Regional Stage: Military Reform Focus Trees ###
+shared_focus = {
+	id = CAL_the_formation_of_the_american_pacific_government
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 20
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_formation_of_the_american_pacific_government"
+	}
+}
 
 ### Focus Tree - Regional Stage: Economy Focus Tree ###
+
+### Focus Tree - Regional Stage: Military Reform Focus Trees ###
+shared_focus = {
+	id = CAL_begin_the_total_overhaul_of_the_sca
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 35
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_the_total_overhaul_of_the_sca"
+		army_experience = 50
+	}
+}
 
 ### Focus Tree - Regional Stage: Foreign Policy Focus Tree ###
