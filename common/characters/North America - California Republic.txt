@@ -383,7 +383,7 @@ characters = {
 				politically_connected
 				career_officer
 				panzer_leader
-				offensive_doctrine
+				brilliant_strategist
 			}
 			skill = 3
 			attack_skill = 4
@@ -403,7 +403,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				offensive_doctrine
+				brilliant_strategist
 				inspirational_leader
 				commando
 				naval_invader
@@ -452,7 +452,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				offensive_doctrine
+				brilliant_strategist
 				organizer
 				fast_planner
 				aggressive_assaulter
@@ -488,7 +488,7 @@ characters = {
 		corps_commander = {
 			traits = {
 				paratrooper
-				offensive_doctrine
+				brilliant_strategist
 				career_officer
 				commando
 			}
@@ -512,7 +512,7 @@ characters = {
 			traits = {
 				reckless
 				infantry_officer
-				offensive_doctrine
+				brilliant_strategist
 				infantry_leader
 			}
 			skill = 4
