@@ -27,6 +27,7 @@ focus_tree = {
     shared_focus = CAL_beginning_the_california_reunfication_war
     shared_focus = CAL_turning_our_attention_to_the_great_northwest
     shared_focus = CAL_trouble_in_the_great_sands
+    shared_focus = CAL_the_reconstruction_authority_begins_its_work
     continuous_focus_position = { x = 450 y = 200 }
 }
 
@@ -2323,4 +2324,26 @@ shared_focus = {
 }
 
 ### Focus Tree - Rebuilding and Reuniting West Coast ###
+shared_focus = {
+    id = CAL_the_reconstruction_authority_begins_its_work
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    x = 0
+    y = 2
+    relative_position_id = CAL_a_silent_reflection
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_reconstruction_authority_begins_its_work"
+    }
+}
 
+### Focus Tree - Regional Stage: Political Focus Tree ###
+
+### Focus Tree - Regional Stage: Military Reform Focus Trees ###
+
+### Focus Tree - Regional Stage: Economy Focus Tree ###
+
+### Focus Tree - Regional Stage: Foreign Policy Focus Tree ###
