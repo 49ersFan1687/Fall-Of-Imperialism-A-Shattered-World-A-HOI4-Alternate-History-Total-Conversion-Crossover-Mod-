@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_HENRY_WALLACE_dESC"
+			desc = "POLITICS_HENRY_WALLACE_DESC"
 			expire = "1994.4.20"
 			ideology = social_democratic_progressive_democracy_ideology
 			traits = {
@@ -27,7 +27,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_HUEY_LONg_dESC"
+			desc = "POLITICS_HUEY_LONg_DESC"
 			expire = "1994.4.20"
 			ideology = longism_ideology
 			traits = {
