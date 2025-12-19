@@ -27,6 +27,7 @@ characters = {
 			planning_skill = 
 			logistics_skill =
 		}
+		gender = female
     }
 
 	CSD_yuko_oshima = {
@@ -47,6 +48,7 @@ characters = {
 			planning_skill = 
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_minami_takahashi = {
@@ -67,6 +69,7 @@ characters = {
 			planning_skill =
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_mariko_shinoda = {
@@ -107,6 +110,7 @@ characters = {
 			planning_skill =
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	# AKB Clique - Generals #
@@ -128,6 +132,7 @@ characters = {
 			planning_skill = 
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_sae_miyazawa = {
@@ -148,6 +153,7 @@ characters = {
 			planning_skill = 
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_rie_kitahara = {
@@ -168,6 +174,7 @@ characters = {
 			planning_skill = 
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_tomomi_kasai = {
@@ -188,6 +195,7 @@ characters = {
 			planning_skill = 
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_minami_minegishi = {
@@ -208,6 +216,7 @@ characters = {
 			planning_skill = 
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_jurina_matsui = {
@@ -228,6 +237,7 @@ characters = {
 			planning_skill = 
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_sayaka_akimoto = {
@@ -248,6 +258,7 @@ characters = {
 			planning_skill = 
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_rino_sashihara = {
@@ -268,6 +279,7 @@ characters = {
 			planning_skill = 
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_asuka_kuramochi = {
@@ -288,6 +300,7 @@ characters = {
 			planning_skill = 
 			logistics_skill =
 		}
+		gender = female
 	}
 	
 	CSD_miho_miyazaki = {
@@ -308,6 +321,7 @@ characters = {
 			planning_skill = 
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_erena_ono = {
@@ -328,6 +342,7 @@ characters = {
 			planning_skill = 
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	# AKB Clique - Admirals #
@@ -361,6 +376,7 @@ characters = {
 
 			}
 		}
+		gender = female
 	}
 
 	CSD_tomomi_itano = {
@@ -393,6 +409,7 @@ characters = {
 
 			}
 		}
+		gender = female
 	}
 
 	CSD_haruna_kojima = {
@@ -425,6 +442,7 @@ characters = {
 
 			}
 		}
+		gender = female
 	}
 
 	CSD_rena_matsui = {
@@ -455,6 +473,7 @@ characters = {
 			allowed = { original_tag = CAL }
 			traits = { }
 		}
+		gender = female
 	}
 
 	# Cascadian Army Rangers - The Power Rangers (Field Marshals) #
@@ -478,6 +497,7 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+
 	CSD_zack_taylor = {
 		name = CSD_zack_taylor
 		portraits = {
@@ -497,6 +517,7 @@ characters = {
 			logistics_skill = 2
 		}
 	}
+
 	CSD_billy_cranston = {
 		name = CSD_billy_cranston
 		portraits = {
@@ -516,6 +537,7 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+
 	CSD_tommy_oliver = {
 		name = CSD_tommy_oliver
 		portraits = {
@@ -556,7 +578,9 @@ characters = {
 			planning_skill =
 			logistics_skill =
 		}
+		gender = female
 	}
+
 	CSD_trini_kwan = {
 		name = CSD_trini_kwan
 		portraits = {
@@ -575,6 +599,7 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 3
 		}
+		gender = female
 	}
 
 	CSD_rocky_de_santos = {
@@ -655,6 +680,7 @@ characters = {
 			planning_skill =
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_tanya_sloan = {
@@ -675,6 +701,7 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 2
 		}
+		gender = female
 	}
 
 	CSD_trey_of_triforia = {
@@ -735,6 +762,7 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 3
 		}
+		gender = female
 	}
 
 	CSD_cassie_chan = {
@@ -755,6 +783,7 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 4
 		}
+		gender = female
 	}
 
 	CSD_carlos_vallerte = {
@@ -791,12 +820,13 @@ characters = {
 		}
 		field_marshal = {
 			traits = {  }
-			skill =
+			skill = 
 			attack_skill =
 			defense_skill =
 			planning_skill =
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_pinkie_pie = {
@@ -810,13 +840,14 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = {  }
-			skill =
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			traits = { trait_reckless offensive_doctrine fortress_buster }
+			skill = 4
+			attack_skill = 6
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 3
 		}
+		gender = female
 	}
 
 	CSD_starlight_glimmer = {
@@ -837,6 +868,7 @@ characters = {
 			planning_skill =
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_rainbow_dash = {
@@ -857,6 +889,7 @@ characters = {
 			planning_skill =
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_mi_amore_cadenza = {
@@ -877,6 +910,7 @@ characters = {
 			planning_skill =
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	# Crystal Prep Clique - The Progressives (Generals) #
@@ -899,6 +933,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	CSD_fluttershy = {
@@ -919,6 +954,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 	
 	CSD_sunset_shimmer = {
@@ -932,13 +968,14 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill = 
+			traits = { fast_planner }
+			skill = 4
+			attack_skill = 6
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 3
 		}
+		gender = female
 	}
 	
 	CSD_trixie_lulamoon = {
@@ -959,6 +996,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	CSD_applejack = {
@@ -972,13 +1010,14 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill = 
+			traits = { inflexible_strategist ranger }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 2
+			logistics_skill = 4
 		}
+		gender = female
 	}
 
 	CSD_radiant_hope = {
@@ -1119,6 +1158,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	CSD_scootaloo = {
@@ -1139,6 +1179,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	CSD_apple_bloom = {
@@ -1159,6 +1200,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	# Vytal Clique - The Militarists (Field Marshals) #
@@ -1221,6 +1263,7 @@ characters = {
 			planning_skill =
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_ruby_rose = {
@@ -1241,6 +1284,7 @@ characters = {
 			planning_skill =
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_coco_adel = {
@@ -1261,6 +1305,7 @@ characters = {
 			planning_skill =
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_velvet_scarlatina = {
@@ -1281,6 +1326,7 @@ characters = {
 			planning_skill =
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	# Vytal Clique - The Militarists (Generals) #
@@ -1303,6 +1349,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	CSD_blake_belladonna = {
@@ -1323,6 +1370,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	CSD_pyrrha_nikos = {
@@ -1343,6 +1391,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	CSD_nora_valkyrie = {
@@ -1363,6 +1412,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	CSD_lie_ren = {
@@ -1523,6 +1573,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	# Kuoh Clique - The Conservatives (Field Marshals) #
@@ -2212,6 +2263,7 @@ characters = {
 			planning_skill =
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_kyoko_kirigiri = {
@@ -2232,6 +2284,7 @@ characters = {
 			planning_skill =
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_byakuya_togami = {
@@ -2272,6 +2325,7 @@ characters = {
 			planning_skill =
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	# Hope's Peak Clique - The Corporatists (Generals) #
@@ -2294,6 +2348,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	CSD_sakura_ogami = {
@@ -2314,6 +2369,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	CSD_leon_kuwata = {
@@ -2374,6 +2430,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	CSD_mondo_owada = {
@@ -2454,6 +2511,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	CSD_yasuhiro_hagakure = {
@@ -2494,5 +2552,6 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 }
