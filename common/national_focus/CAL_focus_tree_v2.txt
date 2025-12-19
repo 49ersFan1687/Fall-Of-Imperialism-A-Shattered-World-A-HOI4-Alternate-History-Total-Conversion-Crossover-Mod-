@@ -41,7 +41,7 @@ focus_tree = {
         }
 	}
     default = no
-    shared_focus = CAL_the_formation_of_the_american_pacific_government
+    shared_focus = CAL_the_formation_of_the_pacific_states_of_america
     shared_focus = CAL_begin_the_total_overhaul_of_the_sca
     continuous_focus_position = { x = 450 y = 200 }
 }
@@ -184,6 +184,9 @@ shared_focus = {
     relative_position_id = CAL_re_affirm_the_treaty_of_guadalupe_hidalgo
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_volunteer_militias"
+        hidden_effect = {
+            load_oob = "CAL_volunteer_militias"
+        }
     }
 }
 
@@ -2359,9 +2362,47 @@ shared_focus = {
     }
 }
 
+shared_focus = {
+    id = CAL_reconstruct_the_emerald_coast
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_reconstruction_authority_begins_its_work
+    }
+    x = -4
+    y = 1
+    relative_position_id = CAL_the_reconstruction_authority_begins_its_work
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruct_the_emerald_coast"
+    }
+}
+
+shared_focus = {
+    id = CAL_reconstructing_the_silver_state
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_reconstruction_authority_begins_its_work
+    }
+    x = 4
+    y = 1
+    relative_position_id = CAL_the_reconstruction_authority_begins_its_work
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstructing_the_silver_state"
+    }
+}
+
 ### Focus Tree - Regional Stage: Political Focus Tree ###
 shared_focus = {
-	id = CAL_the_formation_of_the_american_pacific_government
+	id = CAL_the_formation_of_the_pacific_states_of_america
 	icon = GFX
 	cost = 3
 	available_if_capitulated = no
@@ -2371,7 +2412,7 @@ shared_focus = {
 	x = 21
 	y = 0
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_formation_of_the_american_pacific_government"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_formation_of_the_pacific_states_of_america"
 	}
 }
 
@@ -2384,11 +2425,11 @@ shared_focus = {
         factor = 1
     }
     prerequisite = {
-        focus = CAL_the_formation_of_the_american_pacific_government
+        focus = CAL_the_formation_of_the_pacific_states_of_america
     }
     x = 0
     y = 1
-    relative_position_id = CAL_the_formation_of_the_american_pacific_government
+    relative_position_id = CAL_the_formation_of_the_pacific_states_of_america
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_the_problems_within_our_government"
     }
@@ -2413,7 +2454,7 @@ shared_focus = {
 	}
 }
 
-### Focus Tree - Regional Stage: Military Reform Focus Trees - Navy Reform ###
+### Focus Tree - Regional Stage: Military Reform Focus Trees - Navy/Maine Corps Reform ###
 
 
 ### Focus Tree - Regional Stage: Military Reform Focus Trees - Air Force Reform ###

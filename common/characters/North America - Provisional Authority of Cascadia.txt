@@ -673,12 +673,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando }
-			skill =
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			traits = { ranger commando engineer winter_specialist brilliant_strategist }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 2
 		}
 		gender = female
 	}
@@ -735,12 +735,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando }
-			skill =
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			traits = { ranger commando trickster swamp_fox infantry_leader }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 
@@ -797,12 +797,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando }
-			skill =
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			traits = { ranger commando trickster swamp_fox }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 
@@ -821,7 +821,7 @@ characters = {
 		field_marshal = {
 			traits = {  }
 			skill = 
-			attack_skill =
+			attack_skill = 
 			defense_skill =
 			planning_skill =
 			logistics_skill =
