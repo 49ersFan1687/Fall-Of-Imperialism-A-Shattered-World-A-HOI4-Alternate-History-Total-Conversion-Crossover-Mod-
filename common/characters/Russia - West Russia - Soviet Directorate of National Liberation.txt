@@ -425,12 +425,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = { engineer panzer_leader combined_arms_leader }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 
