@@ -343,7 +343,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_manifest_destiny
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_preparations_for_war"
     }
 }
 
@@ -1405,6 +1405,10 @@ shared_focus = {
     relative_position_id = CAL_military_logistic_corps
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_reactivate_destroyed_divisions"
+        army_experience = 20
+        hidden_effect = {
+            load_oob = "CAL_reactivated_divisions"
+        }
     }
 }
 
