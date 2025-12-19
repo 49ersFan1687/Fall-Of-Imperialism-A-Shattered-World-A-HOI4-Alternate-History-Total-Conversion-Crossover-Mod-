@@ -840,7 +840,7 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { trait_reckless offensive_doctrine fortress_buster }
+			traits = { trait_reckless offensive_doctrine fortress_buster panzer_leader }
 			skill = 4
 			attack_skill = 6
 			defense_skill = 3
@@ -862,7 +862,7 @@ characters = {
 		}
 		field_marshal = {
 			traits = {  }
-			skill =
+			skill = 
 			attack_skill =
 			defense_skill =
 			planning_skill =
@@ -1010,7 +1010,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { inflexible_strategist ranger }
+			traits = { inflexible_strategist ranger mountaineer }
 			skill = 4
 			attack_skill = 3
 			defense_skill = 5
@@ -1596,6 +1596,7 @@ characters = {
 			planning_skill =
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_rias_gremory = {
@@ -1616,6 +1617,7 @@ characters = {
 			planning_skill =
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_akeno_himejima = {
@@ -1636,6 +1638,7 @@ characters = {
 			planning_skill =
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_tsubaki_shinra = {
@@ -1696,6 +1699,7 @@ characters = {
 			planning_skill =
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	# Kuoh Clique - The Conservatives (Generals) #
@@ -1758,6 +1762,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	CSD_tsubasa_yura = {
@@ -1878,6 +1883,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	CSD_xenovia_quarta = {
@@ -1898,6 +1904,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	CSD_loup_garou = {
@@ -1958,6 +1965,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	CSD_ravel_phenex = {
@@ -1978,6 +1986,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	CSD_le_fay_pendragon = {
@@ -1998,6 +2007,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	CSD_elmenhilde_karnstein = {
@@ -2018,6 +2028,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	CSD_ingvild_leviathan = {
@@ -2038,6 +2049,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	CSD_yasaka = {
@@ -2058,6 +2070,7 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
+		gender = female
 	}
 
 	# Sensha-Do Clique - The Moderates (Field Marshals) #
