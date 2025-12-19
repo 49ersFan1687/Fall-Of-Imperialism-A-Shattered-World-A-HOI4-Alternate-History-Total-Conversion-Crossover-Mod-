@@ -2392,7 +2392,7 @@ shared_focus = {
 
 ### Focus Tree - Regional Stage: Economy Focus Tree ###
 
-### Focus Tree - Regional Stage: Military Reform Focus Trees ###
+### Focus Tree - Regional Stage: Military Reform Focus Trees - Army Reform ###
 shared_focus = {
 	id = CAL_begin_the_total_overhaul_of_the_sca
 	icon = GFX
@@ -2408,5 +2408,10 @@ shared_focus = {
 		army_experience = 50
 	}
 }
+
+### Focus Tree - Regional Stage: Military Reform Focus Trees - Navy Reform ###
+
+
+### Focus Tree - Regional Stage: Military Reform Focus Trees - Air Force Reform ###
 
 ### Focus Tree - Regional Stage: Foreign Policy Focus Tree ###
