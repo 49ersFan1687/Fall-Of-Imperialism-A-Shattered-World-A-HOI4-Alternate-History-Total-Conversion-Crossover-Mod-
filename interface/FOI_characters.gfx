@@ -152,6 +152,10 @@ spriteTypes = {
 		name = "GFX_CAL_Issac_Campbell_Kidd_Sr"
 		textureFile = "gfx/leaders/CAL/Portrait_CAL_Issac_Campbell_Kidd_Sr.dds"
 	}
+	spriteType = {
+		name = "GFX_CAL_Henry_Harley_Arnold"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Henry_Harley_Arnold.dds"
+	}
 
 	# Cascadia #
 
