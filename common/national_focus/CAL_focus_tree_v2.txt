@@ -11,6 +11,8 @@ focus_tree = {
 	}
     default = no
 	shared_focus = CAL_the_long_dead_march_west
+    shared_focus = CAL_resolving_the_water_problem
+    shared_focus = CAL_deal_with_the_regionalists
     continuous_focus_position = { x = 450 y = 200 }
 }
 
@@ -27,7 +29,6 @@ focus_tree = {
     shared_focus = CAL_beginning_the_california_reunfication_war
     shared_focus = CAL_turning_our_attention_to_the_great_northwest
     shared_focus = CAL_trouble_in_the_great_sands
-    shared_focus = CAL_the_reconstruction_authority_begins_its_work
     continuous_focus_position = { x = 450 y = 200 }
 }
 
@@ -306,7 +307,7 @@ shared_focus = {
 
 
 shared_focus = {
-    id = CAL_manifest_destiny
+    id = CAL_summon_the_general_staff
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -327,7 +328,7 @@ shared_focus = {
     y = 2
     relative_position_id = CAL_control_the_sixth_army
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_summon_the_general_staff"
     }
 }
 
@@ -340,11 +341,11 @@ shared_focus = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_manifest_destiny
+        focus = CAL_summon_the_general_staff
     }
     x = 0
     y = 1
-    relative_position_id = CAL_manifest_destiny
+    relative_position_id = CAL_summon_the_general_staff
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_preparations_for_war"
     }
@@ -500,6 +501,9 @@ shared_focus = {
     relative_position_id = CAL_epxand_the_california_national_guard
      completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_reform_the_fortieth_armored"
+        hidden_effect = {
+            load_oob = "CAL_fortieth_armored"
+        }
     }
 }
 
@@ -1678,6 +1682,415 @@ shared_focus = {
     }
 }
 
+
+shared_focus = {
+    id = CAL_resolving_the_water_problem
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    x = 0
+    y = 2
+    relative_position_id = CAL_the_state_secured
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_resolving_the_water_problem"
+    }
+}
+
+shared_focus = {
+    id = CAL_deal_with_the_regionalists
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    x = 0
+    y = 2
+    relative_position_id = CAL_the_beaver_and_the_eagle_march_together
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstructing_the_silver_state"
+    }
+}
+
+shared_focus = {
+    id = CAL_rebuild_uc_california
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_resolving_the_water_problem
+    }
+    x = -3
+    y = 1
+    relative_position_id = CAL_resolving_the_water_problem
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_the_university_of_california_campuses"
+    }
+}
+
+shared_focus = {
+    id = CAL_state_highway_reconstruction
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_resolving_the_water_problem
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_resolving_the_water_problem
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_state_highway_reconstruction"
+    }
+}
+
+shared_focus = {
+    id = CAL_reopen_the_refineries
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_resolving_the_water_problem
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_resolving_the_water_problem
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reopen_the_refineries"
+    }
+}
+
+shared_focus = {
+    id = CAL_integrate_armalite
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_resolving_the_water_problem
+    }
+    x = 3
+    y = 1
+    relative_position_id = CAL_resolving_the_water_problem
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_integrate_armalite"
+    }
+}
+
+shared_focus = {
+    id = CAL_begin_assembling_a_professional_army
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_deal_with_the_regionalists
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_deal_with_the_regionalists
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_assembling_a_professional_army"
+    }
+}
+
+shared_focus = {
+    id = CAL_nationalize_hewlett_packard
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_rebuild_uc_california
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_rebuild_uc_california
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_nationalize_hewlett_packard"
+    }
+}
+
+shared_focus = {
+    id = CAL_increase_funding_for_union_pacific
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_state_highway_reconstruction
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_state_highway_reconstruction
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_increase_funding_for_union_pacific"
+    }
+}
+
+shared_focus = {
+    id = CAL_merge_car_manufacturers
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_reopen_the_refineries
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_reopen_the_refineries
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_merge_car_manufacturers"
+    }
+}
+
+shared_focus = {
+    id = CAL_retool_automobile_factories_for_tanks
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_integrate_armalite
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_integrate_armalite
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_retool_automobile_factories_for_tanks"
+    }
+}
+
+shared_focus = {
+    id = CAL_demobilize_the_militias
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_begin_assembling_a_professional_army
+    }
+    x = -2
+    y = 1
+    relative_position_id = CAL_begin_assembling_a_professional_army
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_demobilize_the_militias"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_american_frontier_spirit
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_begin_assembling_a_professional_army
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_begin_assembling_a_professional_army
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_american_frontier_spirit"
+    }
+}
+
+shared_focus = {
+    id = CAL_waging_protracted_warfare
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_begin_assembling_a_professional_army
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_begin_assembling_a_professional_army
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_waging_protracted_warfare"
+    }
+}
+
+shared_focus = {
+    id = CAL_shockley_semiconductors
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_nationalize_hewlett_packard
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_nationalize_hewlett_packard
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_shockley_semiconductors"
+    }
+}
+
+shared_focus = {
+    id = CAL_agricultural_self_sufficiency
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_increase_funding_for_union_pacific
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_increase_funding_for_union_pacific
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
+    }
+}
+
+shared_focus = {
+    id = CAL_refit_ship_manufactories
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_merge_car_manufacturers
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_merge_car_manufacturers
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_merge_car_manufacturers"
+    }
+}
+
+shared_focus = {
+    id = CAL_california_aviation_industry
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_retool_automobile_factories_for_tanks
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_retool_automobile_factories_for_tanks
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_california_aviation_industry"
+    }
+}
+
+shared_focus = {
+    id = CAL_planning_for_future_expansion
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_demobilize_the_militias
+    }
+    prerequisite = {
+        focus = CAL_the_american_frontier_spirit
+    }
+    prerequisite = {
+        focus = CAL_waging_protracted_warfare
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_american_frontier_spirit
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_planning_for_future_expansion"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_bear_roars_yet_again
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_shockley_semiconductors
+    }
+    prerequisite = {
+        focus = CAL_agricultural_self_sufficiency
+    }
+    prerequisite = {
+        focus = CAL_refit_ship_manufactories
+    }
+    prerequisite = {
+        focus = CAL_california_aviation_industry
+    }
+    x = 0
+    y = 4
+    relative_position_id = CAL_resolving_the_water_problem
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
+    }
+}
+
+shared_focus = {
+    id = CAL_why_we_fight
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_planning_for_future_expansion
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_planning_for_future_expansion
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_why_we_fight"
+    }
+}
+
 ### Focus Tree - California Reunification ###
 
 shared_focus = {
@@ -2343,595 +2756,6 @@ shared_focus = {
     y = 1
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_trouble_in_the_great_sands"
-    }
-}
-
-### Focus Tree - Rebuilding and Reuniting West Coast ###
-shared_focus = {
-    id = CAL_the_reconstruction_authority_begins_its_work
-    icon = GFX
-    cost = 2
-    available_if_capitulated = no
-	ai_will_do = {
-		factor = 1
-	}
-    x = 0
-    y = 2
-    relative_position_id = CAL_a_silent_reflection
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_reconstruction_authority_begins_its_work"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruct_the_emerald_coast
-    icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_the_reconstruction_authority_begins_its_work
-    }
-    x = -4
-    y = 1
-    relative_position_id = CAL_the_reconstruction_authority_begins_its_work
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruct_the_emerald_coast"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstructing_the_silver_state
-    icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_the_reconstruction_authority_begins_its_work
-    }
-    x = 4
-    y = 1
-    relative_position_id = CAL_the_reconstruction_authority_begins_its_work
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstructing_the_silver_state"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_1
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruct_the_emerald_coast
-    }
-    x = -3
-    y = 1
-    relative_position_id = CAL_reconstruct_the_emerald_coast
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_2
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruct_the_emerald_coast
-    }
-    x = -1
-    y = 1
-    relative_position_id = CAL_reconstruct_the_emerald_coast
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_3
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruct_the_emerald_coast
-    }
-    x = 1
-    y = 1
-    relative_position_id = CAL_reconstruct_the_emerald_coast
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_4
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruct_the_emerald_coast
-    }
-    x = 3
-    y = 1
-    relative_position_id = CAL_reconstruct_the_emerald_coast
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_5
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstructing_the_silver_state
-    }
-    x = -3
-    y = 1
-    relative_position_id = CAL_reconstructing_the_silver_state
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_5"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_6
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstructing_the_silver_state
-    }
-    x = -1
-    y = 1
-    relative_position_id = CAL_reconstructing_the_silver_state
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_6"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_7
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstructing_the_silver_state
-    }
-    x = 1
-    y = 1
-    relative_position_id = CAL_reconstructing_the_silver_state
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_8
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstructing_the_silver_state
-    }
-    x = 3
-    y = 1
-    relative_position_id = CAL_reconstructing_the_silver_state
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_9
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_1
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_reconstruction_1
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_10
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_2
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_reconstruction_2
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_11
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_3
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_reconstruction_3
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_12
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_4
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_reconstruction_4
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_13
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_5
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_reconstruction_5
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_14
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_6
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_reconstruction_6
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_15
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_7
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_reconstruction_7
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_18
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_8
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_reconstruction_8
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_19
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_9
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_reconstruction_9
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_20
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_10
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_reconstruction_10
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_21
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_11
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_reconstruction_11
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_22
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_12
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_reconstruction_12
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_23
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_13
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_reconstruction_13
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_24
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_14
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_reconstruction_14
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_25
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_15
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_reconstruction_15
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_reconstruction_26
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_18
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_reconstruction_18
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_readmit_oregon_and_washington_back_into_the_union
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_19
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_20
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_21
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_22
-    }
-    x = 0
-    y = 4
-    relative_position_id = CAL_reconstruct_the_emerald_coast
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
-    }
-}
-
-shared_focus = {
-    id = CAL_readmit_nevada_back_into_the_union
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_23
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_24
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_25
-    }
-    prerequisite = {
-        focus = CAL_reconstruction_26
-    }
-    x = 0
-    y = 4
-    relative_position_id = CAL_reconstructing_the_silver_state
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_readmit_nevada_back_into_the_union"
-    }
-}
-
-shared_focus = {
-    id = CAL_proclaim_a_new_government
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_readmit_oregon_and_washington_back_into_the_union
-    }
-    prerequisite = {
-        focus = CAL_readmit_nevada_back_into_the_union
-    }
-    x = 0
-    y = 6
-    relative_position_id = CAL_the_reconstruction_authority_begins_its_work
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_proclaim_a_new_government"
     }
 }
 
