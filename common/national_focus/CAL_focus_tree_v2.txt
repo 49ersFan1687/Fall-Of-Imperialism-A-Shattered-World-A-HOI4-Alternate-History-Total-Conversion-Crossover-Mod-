@@ -207,6 +207,9 @@ shared_focus = {
     relative_position_id = CAL_a_dangerous_game
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_mercenary_gunmen_for_hire"
+        hidden_effect = {
+            load_oob = "CAL_mercenary_gunmen"
+        }
     }
 }
 
