@@ -12,7 +12,7 @@ focus_tree = {
     default = no
 	shared_focus = CAL_the_long_dead_march_west
     shared_focus = CAL_resolving_the_water_problem
-    shared_focus = CAL_deal_with_the_regionalists
+    shared_focus = CAL_dealing_with_the_regionalists
     continuous_focus_position = { x = 450 y = 200 }
 }
 
@@ -352,7 +352,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_epxand_the_california_national_guard
+    id = CAL_expand_the_california_national_guard
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -366,7 +366,7 @@ shared_focus = {
 	y = 1
     relative_position_id = CAL_begin_preparations_for_war
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_epxand_the_california_national_guard"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_california_national_guard"
     }
 }
 
@@ -455,11 +455,11 @@ shared_focus = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_epxand_the_california_national_guard
+        focus = CAL_expand_the_california_national_guard
     }
     x = -5
     y = 1
-    relative_position_id = CAL_epxand_the_california_national_guard
+    relative_position_id = CAL_expand_the_california_national_guard
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_initiate_a_mass_recruitment_drive"
     }
@@ -475,11 +475,11 @@ shared_focus = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_epxand_the_california_national_guard
+        focus = CAL_expand_the_california_national_guard
     }
     x = -2
     y = 1
-    relative_position_id = CAL_epxand_the_california_national_guard
+    relative_position_id = CAL_expand_the_california_national_guard
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_improved_rifle_designs"
     }
@@ -494,11 +494,11 @@ shared_focus = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_epxand_the_california_national_guard
+        focus = CAL_expand_the_california_national_guard
     }
     x = 0
     y = 1
-    relative_position_id = CAL_epxand_the_california_national_guard
+    relative_position_id = CAL_expand_the_california_national_guard
      completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_reform_the_fortieth_armored"
         hidden_effect = {
@@ -516,11 +516,11 @@ shared_focus = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_epxand_the_california_national_guard
+        focus = CAL_expand_the_california_national_guard
     }
     x = 2
     y = 1
-    relative_position_id = CAL_epxand_the_california_national_guard
+    relative_position_id = CAL_expand_the_california_national_guard
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_the_screaming_eagles"
     }
@@ -535,11 +535,11 @@ shared_focus = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_epxand_the_california_national_guard
+        focus = CAL_expand_the_california_national_guard
     }
     x = 5
     y = 1
-    relative_position_id = CAL_epxand_the_california_national_guard
+    relative_position_id = CAL_expand_the_california_national_guard
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_initiate_a_mass_recruitment_drive"
     }
@@ -1652,7 +1652,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_setting_the_warplans_in_motion
+    id = CAL_final_preparations
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -1678,7 +1678,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_an_army_ready_for_war
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_an_army_ready_for_war"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_final_preparations"
     }
 }
 
@@ -1700,7 +1700,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_deal_with_the_regionalists
+    id = CAL_dealing_with_the_regionalists
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -1711,7 +1711,7 @@ shared_focus = {
     y = 2
     relative_position_id = CAL_the_beaver_and_the_eagle_march_together
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstructing_the_silver_state"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_dealing_with_the_regionalists"
     }
 }
 
@@ -1800,11 +1800,11 @@ shared_focus = {
         factor = 1
     }
     prerequisite = {
-        focus = CAL_deal_with_the_regionalists
+        focus = CAL_dealing_with_the_regionalists
     }
     x = 0
     y = 1
-    relative_position_id = CAL_deal_with_the_regionalists
+    relative_position_id = CAL_dealing_with_the_regionalists
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_assembling_a_professional_army"
     }
