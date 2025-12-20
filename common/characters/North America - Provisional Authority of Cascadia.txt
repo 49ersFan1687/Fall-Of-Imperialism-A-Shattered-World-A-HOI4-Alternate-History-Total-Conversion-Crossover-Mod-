@@ -819,12 +819,12 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			traits = { inspirational_leader brilliant_strategist winter_specialist skilled_staffer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 		}
 		gender = female
 	}
