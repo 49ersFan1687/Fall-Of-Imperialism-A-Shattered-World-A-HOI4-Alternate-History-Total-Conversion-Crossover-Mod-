@@ -573,6 +573,7 @@ shared_focus = {
     relative_position_id = CAL_the_second_continental_army_junta
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_memories_of_the_old_republic"
+        add_ideas = CAL_uncertain_junta
     } 
 }
 
@@ -2434,6 +2435,9 @@ shared_focus = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_the_problems_within_our_government"
     }
 }
+
+shared_focus = {}
+
 
 ### Focus Tree - Regional Stage: Economy Focus Tree ###
 
