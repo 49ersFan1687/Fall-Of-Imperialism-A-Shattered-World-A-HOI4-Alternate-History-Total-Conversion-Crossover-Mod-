@@ -12,7 +12,7 @@ focus_tree = {
     default = no
 	shared_focus = CAL_the_long_dead_march_west
     shared_focus = CAL_resolving_the_water_problem
-    shared_focus = CAL_dealing_with_the_regionalists
+    shared_focus = CAL_dealing_with_regionalists
     continuous_focus_position = { x = 450 y = 200 }
 }
 
@@ -1700,7 +1700,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_dealing_with_the_regionalists
+    id = CAL_dealing_with_regionalists
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -1711,7 +1711,7 @@ shared_focus = {
     y = 2
     relative_position_id = CAL_the_beaver_and_the_eagle_march_together
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_dealing_with_the_regionalists"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_dealing_with_regionalists"
     }
 }
 
@@ -1800,11 +1800,11 @@ shared_focus = {
         factor = 1
     }
     prerequisite = {
-        focus = CAL_dealing_with_the_regionalists
+        focus = CAL_dealing_with_regionalists
     }
     x = 0
     y = 1
-    relative_position_id = CAL_dealing_with_the_regionalists
+    relative_position_id = CAL_dealing_with_regionalists
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_assembling_a_professional_army"
     }
