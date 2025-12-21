@@ -24,5 +24,23 @@ set_popularities = {
 	fascism = 5
 }
 
-# Cascadian Second Continental Army Leaders #
+# Second Continental Army Cascadian Branch - AKB Clique Members #
 recruit_character = CSD_atsuko_maeda
+
+
+# Second Continental Army Cascadian Branch - United States Army Rangers #
+recruit_character = CSD_jason_lee_scott
+recruit_character = CSD_tommy_oliver
+recruit_character = CSD_zack_taylor
+recruit_character = CSD_billy_cranston
+recruit_character = CSD_kimberly_ann_hart
+recruit_character = CSD_trini_kwan
+recruit_character = CSD_rocky_de_santos
+recruit_character = CSD_adam_park
+recruit_character = CSD_aisha_campbell
+recruit_character = CSD_katherine_hillard
+recruit_character = CSD_tanya_sloan
+recruit_character = CSD_theodore_jarvis_johnson
+recruit_character = CSD_ashley_hammond
+recruit_character = CSD_cassie_chan
+recruit_character = CSD_carlos_vallerte
