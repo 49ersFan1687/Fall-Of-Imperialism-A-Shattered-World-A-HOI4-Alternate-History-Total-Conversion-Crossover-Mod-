@@ -74,7 +74,7 @@ recruit_character = CAL_john_daniel_lavelle
 recruit_character = CAL_elizabeth_coleman
 recruit_character = CAL_charity_edna_adams_earley
 recruit_character = CAL_hobart_raymond_gay
-recruit_character= CAL_james_cordie_dozier
+recruit_character = CAL_james_cordie_dozier
 
 ## US Navy ##
 

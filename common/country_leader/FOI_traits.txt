@@ -60,7 +60,7 @@ leader_traits = {
 
 	SDL_the_red_bonaparte = {
 		random = no
-		army_org_factor = 0.5
+		army_org_factor = 0.05
 		army_attack_factor = 0.06
 		army_defence_factor = 0.06
 	}

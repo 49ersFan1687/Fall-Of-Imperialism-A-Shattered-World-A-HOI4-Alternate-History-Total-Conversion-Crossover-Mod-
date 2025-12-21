@@ -54,6 +54,7 @@ ideologies = {
 			anarcho_pacifism_ideology = { }
 			socialism_broad_communism_ideology = { }
 			left_lovecraftism_ideology = { }
+			christian_socialism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 209 0 0 }
