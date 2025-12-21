@@ -41,19 +41,6 @@ division_template = {
 }
 
 division_template = {
-    name = "Second Continental Army Irregular Militia"
-
-    division_names_group = CAL_ARM_01
-
-    regiments = {
-        
-    }
-    support = {
-
-    }
-}
-
-division_template = {
     name = "Second Continental Army Marine Division"
 
     division_names_group = CAL_ARM_01
@@ -80,6 +67,15 @@ division_template = {
         signal_company = { x = 0 y = 3 }
         recon = { x = 0 y = 4 }
     }
+}
+
+division_template = {
+    name = "Second Continental Army Mountain Division"
+    
+    division_names_group = CAL_MTN_01
+
+    regiments = {}
+    support = {}
 }
 
 units = {
