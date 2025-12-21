@@ -28,7 +28,8 @@ focus_tree = {
     shared_focus = CAL_resolving_the_water_problem
     shared_focus = CAL_dealing_with_regionalists
     shared_focus = CAL_integrating_generals_from_other_warlords
-    shared_focus = CAL_unknown_focus
+    shared_focus = CAL_unknown_focus_1
+    shared_focus = CAL_unknown_focus_2
     continuous_focus_position = { x = 450 y = 200 }
 }
 
@@ -1685,6 +1686,25 @@ shared_focus = {
     }
 }
 
+shared_focus = {
+    id = CAL_set_the_war_plans_in_motion
+    icon = GFX
+    cost = 2
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_final_preparations
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_final_preparations
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_set_the_war_plans_in_motion"
+    }
+}
+
 ### Focus Tree - West Coast Reunification (California) ###
 shared_focus = {
     id = CAL_beginning_the_california_reunfication_war
@@ -2466,6 +2486,22 @@ shared_focus = {
     }
 }
 
+### Focus Tree - Unknown as of Now Two ###
+shared_focus = {
+    id = CAL_unknown_focus_2
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    x = 41
+    y = 1
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_integrating_generals_from_other_warlords"
+    }
+}
+
 ### Focus Tree - West Coast Resistance and Consolidation ###
 
 shared_focus = {
@@ -2476,9 +2512,9 @@ shared_focus = {
     ai_will_do = {
         factor = 1
     }
-    x = 41
-    y = 1
-    relative_position_id = CAL_the_beaver_and_the_eagle_march_together
+    x = 0
+    y = 2
+    relative_position_id = CAL_a_silent_reflection
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_dealing_with_regionalists"
     }
@@ -2605,6 +2641,7 @@ shared_focus = {
 }
 
 ### Focus Tree - Unknown as of Now One ###
+
 shared_focus = {
     id = CAL_integrating_generals_from_other_warlords
     icon = GFX
@@ -2680,16 +2717,15 @@ shared_focus = {
 
 ### Focus Tree - Unknown as of Now Two ###
 shared_focus = {
-    id = CAL_unknown_focus
+    id = CAL_unknown_focus_1
     icon = GFX
     cost = 3
     available_if_capitulated = no
     ai_will_do = {
         factor = 1
     }
-    x = 0
-    y = 2
-    relative_position_id = CAL_why_we_fight
+    x = 41
+    y = 1
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_integrating_generals_from_other_warlords"
     }
