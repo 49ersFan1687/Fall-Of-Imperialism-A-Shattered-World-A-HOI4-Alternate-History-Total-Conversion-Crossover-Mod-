@@ -32,7 +32,6 @@ set_popularities = {
 # Second Continental Army Cascadian Branch - AKB Clique Members (AKB...48!) #
 recruit_character = CSD_atsuko_maeda
 
-
 # Second Continental Army Cascadian Branch - United States Army Rangers (It's morphin' time!) #
 recruit_character = CSD_jason_lee_scott
 recruit_character = CSD_tommy_oliver
@@ -96,3 +95,5 @@ recruit_character = CSD_penny_polendina
 # Second Continentn Army Cascadian Branch - Hope's Peak Academy Generals (Dream on, forever!) #
 recruit_character = CSD_makoto_naegi
 recruit_character = 
+
+# Second Continental Army Cascadian Branch - U.A. High School Generals (Plus Ultra!) #
