@@ -27,7 +27,8 @@ focus_tree = {
     shared_focus = CAL_beginning_the_california_reunfication_war
     shared_focus = CAL_resolving_the_water_problem
     shared_focus = CAL_dealing_with_regionalists
-    shared_focus =CAL_integrating_generals_from_other_warlords
+    shared_focus = CAL_integrating_generals_from_other_warlords
+    shared_focus = CAL_unknown_focus
     continuous_focus_position = { x = 450 y = 200 }
 }
 
@@ -2603,7 +2604,7 @@ shared_focus = {
     }
 }
 
-### Focus Tree - West Coast Reconstruction ###
+### Focus Tree - Unknown as of Now One ###
 shared_focus = {
     id = CAL_integrating_generals_from_other_warlords
     icon = GFX
@@ -2674,6 +2675,23 @@ shared_focus = {
     relative_position_id = CAL_integrating_generals_from_other_warlords
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_rehabilitate_oregon_military_district_generals"
+    }
+}
+
+### Focus Tree - Unknown as of Now Two ###
+shared_focus = {
+    id = CAL_unknown_focus
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    x = 0
+    y = 2
+    relative_position_id = CAL_why_we_fight
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_integrating_generals_from_other_warlords"
     }
 }
 
