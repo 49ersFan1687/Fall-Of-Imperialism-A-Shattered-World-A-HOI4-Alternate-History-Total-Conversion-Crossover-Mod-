@@ -92,7 +92,29 @@ recruit_character = CSD_penny_polendina
 
 # Second Continental Army Cascadian Branch - Kuoh Academy Generals (By the eyes of the Pentagram!) #
 recruit_character = CSD_sona_sitri
-
+recruit_character = CSD_rias_gremory
+recruit_character = CSD_akeno_himejima
+recruit_character = CSD_tsubaki_shinra
+recruit_character = CSD_issei_hyoudou
+recruit_character = CSD_rossweisse
+recruit_character = CSD_gasper_vladi
+recruit_character = CSD_kiba_yuuto
+recruit_character = CSD_koneko_toujou
+recruit_character = CSD_tsubasa_yura
+recruit_character = CSD_momo_hanakai
+recruit_character = CSD_reya_kusaka
+recruit_character = CSD_tomoe_meguri 
+recruit_character = CSD_genshirou_saji
+recruit_character = CSD_asia_argento
+recruit_character = CSD_xenovia_quarta
+recruit_character = CSD_loup_garou
+recruit_character = CSD_ruruko_nimura
+recruit_character = CSD_irina_shidou 
+recruit_character = CSD_ravel_phenex
+recruit_character = CSD_le_fay_pendragon
+recruit_character = CSD_elmenhilde_karnstein
+recruit_character = CSD_ingvild_leviathan
+recruit_character = CSD_yasaka
 
 # Second Continentn Army Cascadian Branch - Hope's Peak Academy Generals (Dream on, forever!) #
 recruit_character = CSD_makoto_naegi
