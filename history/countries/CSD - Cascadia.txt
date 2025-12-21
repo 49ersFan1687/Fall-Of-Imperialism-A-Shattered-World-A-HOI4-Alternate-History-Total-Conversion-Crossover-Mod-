@@ -90,7 +90,9 @@ recruit_character = CSD_dove_bronzewing
 recruit_character = CSD_sky_lark
 recruit_character = CSD_penny_polendina
 
-# Second Continental Army Cascadian Branch - Kuoh Academy Generals () #
+# Second Continental Army Cascadian Branch - Kuoh Academy Generals (By the eyes of the Pentagram!) #
+recruit_character = CSD_sona_sitri
+
 
 # Second Continentn Army Cascadian Branch - Hope's Peak Academy Generals (Dream on, forever!) #
 recruit_character = CSD_makoto_naegi
