@@ -7,13 +7,18 @@ set_stability = 0.5
 set_technology = {
 	infantry_weapons = 1
 }
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-add_ideas = AMR_the_end_of_the_american_experiment
+
+add_ideas = {
+	AMR_the_end_of_the_american_experiment
+}
+
 set_popularities = {
 	paternal_autocrat = 20
 	neutrality = 52
@@ -24,11 +29,11 @@ set_popularities = {
 	fascism = 5
 }
 
-# Second Continental Army Cascadian Branch - AKB Clique Members #
+# Second Continental Army Cascadian Branch - AKB Clique Members (AKB...48!) #
 recruit_character = CSD_atsuko_maeda
 
 
-# Second Continental Army Cascadian Branch - United States Army Rangers #
+# Second Continental Army Cascadian Branch - United States Army Rangers (It's morphin' time!) #
 recruit_character = CSD_jason_lee_scott
 recruit_character = CSD_tommy_oliver
 recruit_character = CSD_zack_taylor
@@ -44,3 +49,50 @@ recruit_character = CSD_theodore_jarvis_johnson
 recruit_character = CSD_ashley_hammond
 recruit_character = CSD_cassie_chan
 recruit_character = CSD_carlos_vallerte
+
+# Second Continental Army Cascadian Branch - Equestrian Generals (Friendship is Magic!) #
+recruit_character = CSD_twilight_sparkle
+recruit_character = CSD_pinkie_pie
+recruit_character = CSD_starlight_glimmer
+recruit_character = CSD_rainbow_dash
+recruit_character = CSD_mi_amore_cadenza
+recruit_character = CSD_rarity
+recruit_character = CSD_fluttershy
+recruit_character = CSD_sunset_shimmer
+recruit_character = CSD_trixie_lulamoon
+recruit_character = CSD_applejack
+recruit_character = CSD_radiant_hope
+recruit_character = CSD_arctic_lilly
+recruit_character = CSD_shining_shield
+recruit_character = CSD_quick_march
+recruit_character = CSD_quarter_pounder
+recruit_character = CSD_thunderboom
+recruit_character = CSD_sweetie_belle
+recruit_character = CSD_scootaloo
+recruit_character = CSD_apple_bloom
+
+# Second Continental Army Cascadian Branch - Vytalian Generals (Together for Remmnant!) #
+recruit_character = CSD_oscar_pine
+recruit_character = CSD_jaune_arc
+recruit_character = CSD_weiss_schnee
+recruit_character = CSD_ruby_rose
+recruit_character = CSD_coco_adel
+recruit_character = CSD_velvet_scarlatina
+recruit_character = CSD_yang_xiao_long
+recruit_character = CSD_blake_belladonna
+recruit_character = CSD_pyrrha_nikos
+recruit_character = CSD_nora_valkyrie
+recruit_character = CSD_lie_ren
+recruit_character = CSD_fox_alistair
+recruit_character = CSD_yatsuhashi_daichi
+recruit_character = CSD_cardin_winchester
+recruit_character = CSD_russel_thursh
+recruit_character = CSD_dove_bronzewing
+recruit_character = CSD_sky_lark
+recruit_character = CSD_penny_polendina
+
+# Second Continental Army Cascadian Branch - Kuoh Academy Generals () #
+
+# Second Continentn Army Cascadian Branch - Hope's Peak Academy Generals (Dream on, forever!) #
+recruit_character = CSD_makoto_naegi
+recruit_character = 
