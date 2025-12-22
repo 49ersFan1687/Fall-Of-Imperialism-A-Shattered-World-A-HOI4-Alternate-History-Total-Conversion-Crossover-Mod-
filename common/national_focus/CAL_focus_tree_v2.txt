@@ -545,6 +545,7 @@ shared_focus = {
     relative_position_id = CAL_expand_the_california_national_guard
      completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_reform_the_fortieth_armored"
+        custom_effect_tooltip = CAL_fortieth_armored_tooltip
         hidden_effect = {
             load_oob = "CAL_fortieth_armored"
         }
@@ -1457,6 +1458,7 @@ shared_focus = {
     relative_position_id = CAL_military_logistic_corps
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_reactivate_destroyed_divisions"
+        custom_effect_tooltip = CAL_reactivated_divisions_tooltip
         army_experience = 20
         hidden_effect = {
             load_oob = "CAL_reactivated_divisions"
@@ -2792,6 +2794,8 @@ shared_focus = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_the_problems_within_our_government"
     }
 }
+
+### Focus Tree - Regional Stage: Political Focus Tree (Civillian-Aligned Democracy) ###
 
 ### Focus Tree - Regional Stage: Economy Focus Tree ###
 
