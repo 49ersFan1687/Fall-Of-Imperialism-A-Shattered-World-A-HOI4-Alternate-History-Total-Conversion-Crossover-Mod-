@@ -67,9 +67,16 @@ ideas = {
         CAL_uncertain_junta = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_uncertain_junta" }
             allowed = { always = no }
+            removal_cost = -1
             picture = CAL_uncertain_junta
             modifier = {
-                
+                stability_factor = -0.1
+                army_org_factor = 0.1
+                political_power_gain = 0.35
+                social_democracy_drift = -0.02
+                democracy_drift = -0.02
+                conservatism_drift = -0.02
+                paternal_autocrat_drift = 0.07
             }
         }
 
