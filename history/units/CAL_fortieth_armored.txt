@@ -7,13 +7,32 @@ division_template = {
         medium_armor = { x = 0 y = 0 }
         medium_armor = { x = 0 y = 1 }
         medium_armor = { x = 0 y = 2 }
-        medium_armor = { x = 0 y = 3 }
-        mechanized = { x = 1 y = 0 }
-        mechanized = { x = 1 y = 1 }
-        mechanized = { x = 1 y = 2 }
-        mechanized = { x = 1 y = 3 }
+        light_armor = { x = 0 y = 3 }
+        Mechanized = { x = 1 y = 0 }
+        Mechanized = { x = 1 y = 1 }
+        Mechanized = { x = 1 y = 2 }
+        Mechanized = { x = 1 y = 3 }
+        medium_sp_artillery_brigade = { x = 2 y = 0 }
+        medium_sp_artillery_brigade = { x = 2 y = 1 }
+        medium_sp_artillery_brigade = { x = 2 y = 2 }
+        medium_sp_anti_air_brigade = { x = 2 y = 3 }
     }
     support = {
+        signal_company = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        field_hospital = { x = 0 y = 2 }
+        logistics_company = { x = 0 y = 3 }
+    }
+}
 
+units = {
+    division = {
+        name = {
+			is_name_ordered = yes
+			name_order = 40
+		}
+        location = 9637
+        division_template = "California National Guard Armored Division"
+        start_equipment_factor = 0.85
     }
 }
