@@ -2797,9 +2797,11 @@ shared_focus = {
 
 ### Focus Tree - Regional Stage: Political Focus Tree (Civillian-Aligned Democracy) ###
 
-### Focus Tree - Regional Stage: Economy Focus Tree ###
 
-### Focus Tree - Regional Stage: Military Reform Focus Trees - Army Reform ###
+### Focus Tree - Regional Stage: Shared Economy Focus Tree ###
+
+
+### Focus Tree - Regional Stage: Shared Military Reform Focus Tree ###
 shared_focus = {
 	id = CAL_begin_the_total_overhaul_of_the_psa_military
 	icon = GFX
@@ -2815,10 +2817,5 @@ shared_focus = {
 		army_experience = 50
 	}
 }
-
-### Focus Tree - Regional Stage: Military Reform Focus Trees - Navy/Maine Corps Reform ###
-
-
-### Focus Tree - Regional Stage: Military Reform Focus Trees - Air Force Reform ###
 
 ### Focus Tree - Regional Stage: Foreign Policy Focus Tree ###
