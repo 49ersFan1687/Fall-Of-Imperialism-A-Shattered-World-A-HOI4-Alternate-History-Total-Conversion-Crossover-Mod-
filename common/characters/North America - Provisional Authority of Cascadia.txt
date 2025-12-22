@@ -666,10 +666,10 @@ characters = {
 		name = CSD_katherine_hillard
 		portraits = {
 			civilian = {
-				large = ""
+				large = "gfx/leaders/CSD/Portrait_CSD_Katherine_Hillard.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Katherine_Hillard.dds"
 			}
 		}
 		corps_commander = {
@@ -790,10 +790,10 @@ characters = {
 		name = CSD_carlos_vallerte
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Carlos_Vallerte.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Carlos_Vallerte.dds"
 			}
 		}
 		corps_commander = {
