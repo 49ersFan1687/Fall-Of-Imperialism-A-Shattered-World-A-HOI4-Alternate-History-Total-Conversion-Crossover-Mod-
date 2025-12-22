@@ -15,7 +15,7 @@ focus_tree = {
 }
 
 focus_tree = {
-	id = CAL_west_coast_reunification_and_reconstruction_tree
+	id = CAL_west_coast_reunification_and_reconstruction_focus_tree
 	country = {
 		factor = 0
 		modifier = { 
@@ -34,7 +34,7 @@ focus_tree = {
 }
 
 focus_tree = {
-    id = CAL_regional_stage_military_aligned_democracy
+    id = CAL_regional_stage_military_aligned_democracy_focus_tree
     country = {
 		factor = 0
 		modifier = { 
@@ -49,7 +49,7 @@ focus_tree = {
 }
 
 focus_tree = {
-    id = CAL_regional_stage_civilian_democracy
+    id = CAL_regional_stage_civilian_democracy_focus_tree
     country = {
         factor = 0
         modifier = { 
@@ -63,7 +63,7 @@ focus_tree = {
 }
 
 focus_tree = {
-    id = CAL_superregional_stage_military_aligned_democracy
+    id = CAL_superregional_stage_military_aligned_democracy_focus_tree
     country = {
 		factor = 0
 		modifier = { 
@@ -76,7 +76,20 @@ focus_tree = {
 }
 
 focus_tree = {
-    id = CAL_superregional_stage_civilian_democracy
+    id = CAL_superregional_stage_civilian_democracy_focus_tree
+    country = {
+		factor = 0
+		modifier = { 
+            add = 10
+            tag = CAL
+        }
+	}
+    default = no
+    continuous_focus_position = { x = 450 y = 200 }
+}
+
+focus_tree = {
+    id = CAL_post_unification_focus_tree
     country = {
 		factor = 0
 		modifier = { 
