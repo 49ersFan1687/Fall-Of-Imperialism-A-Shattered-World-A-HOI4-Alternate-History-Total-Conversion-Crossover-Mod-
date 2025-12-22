@@ -530,7 +530,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_reform_the_fortieth_armored
+    id = CAL_form_the_fortieth_armored_division
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -544,10 +544,30 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_expand_the_california_national_guard
      completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reform_the_fortieth_armored"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_form_the_fortieth_armored_division"
         custom_effect_tooltip = CAL_fortieth_armored_tooltip
         hidden_effect = {
             load_oob = "CAL_fortieth_armored"
+        }
+        if = {
+            limit = {
+                NOT = { has_dlc = "No Step Back" }
+            }
+            add_equipment_to_stockpile = {
+                type = medium_tank_equipment_1
+                amount = 200
+                producer = CAL
+            }
+        }
+        if = {
+            limit = {
+                has_dlc = "No Step Back"
+            }
+            add_equipment_to_stockpile = {
+                type = medium_tank_chassis
+                amount = 200
+                producer = CAL
+            }
         }
     }
 }
@@ -567,7 +587,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_expand_the_california_national_guard
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_the_screaming_eagles"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_new_artillery_designs"
     }
 }
 
@@ -825,11 +845,11 @@ shared_focus = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_reform_the_fortieth_armored
+        focus = CAL_form_the_fortieth_armored_division
     }
     x = 0
     y = 1
-    relative_position_id = CAL_reform_the_fortieth_armored
+    relative_position_id = CAL_form_the_fortieth_armored_division
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_new_tank_research"
     }
@@ -850,7 +870,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_new_artillery_designs
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_new_tank_research"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_anti_air_research"
     }
 }
 
