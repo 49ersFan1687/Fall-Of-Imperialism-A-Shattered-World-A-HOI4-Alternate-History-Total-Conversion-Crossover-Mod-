@@ -27,14 +27,14 @@ focus_tree = {
     shared_focus = CAL_beginning_the_california_reunfication_war
     shared_focus = CAL_resolving_the_water_problem
     shared_focus = CAL_dealing_with_regionalists
-    shared_focus = CAL_integrating_generals_from_other_warlords
+    shared_focus = CAL_handling_the_political_system
     shared_focus = CAL_unknown_focus_1
     shared_focus = CAL_unknown_focus_2
     continuous_focus_position = { x = 450 y = 200 }
 }
 
 focus_tree = {
-    id = CAL_regional_stage
+    id = CAL_regional_stage_military_aligned_democracy
     country = {
 		factor = 0
 		modifier = { 
@@ -49,7 +49,34 @@ focus_tree = {
 }
 
 focus_tree = {
-    id = CAL_superregional_stage
+    id = CAL_regional_stage_civilian_democracy
+    country = {
+        factor = 0
+        modifier = { 
+            add = 10
+            tag = CAL
+        }
+    }
+    default = no
+    shared_focus = CAL_begin_the_total_overhaul_of_the_psa_military
+    continuous_focus_position = { x = 450 y = 200 }
+}
+
+focus_tree = {
+    id = CAL_superregional_stage_military_aligned_democracy
+    country = {
+		factor = 0
+		modifier = { 
+            add = 10
+            tag = CAL
+        }
+	}
+    default = no
+    continuous_focus_position = { x = 450 y = 200 }
+}
+
+focus_tree = {
+    id = CAL_superregional_stage_civilian_democracy
     country = {
 		factor = 0
 		modifier = { 
@@ -2640,10 +2667,10 @@ shared_focus = {
     }
 }
 
-### Focus Tree - Unknown as of Now One ###
+### Focus Tree - Pre-Regional Political Tree ###
 
 shared_focus = {
-    id = CAL_integrating_generals_from_other_warlords
+    id = CAL_handling_the_political_system
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -2654,64 +2681,51 @@ shared_focus = {
     y = 2
     relative_position_id = CAL_the_bear_roars_yet_again
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_integrating_generals_from_other_warlords"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_handling_the_political_system"
     }
 }
 
 shared_focus = {
-    id = CAL_integrating_nevada_generals
+    id = CAL_let_the_army_guide_our_democracy_for_the_time_being
     icon = GFX
     cost = 3
     available_if_capitulated = no
     ai_will_do = {
         factor = 1
     }
-    prerequisite = {
-        focus = CAL_integrating_generals_from_other_warlords
+    mutually_exclusive = {
+        focus = CAL_return_democracy_back_to_the_people
     }
-    x = -4
+    prerequisite = {
+        focus = CAL_handling_the_political_system
+    }
+    x = -3
     y = 1
-    relative_position_id = CAL_integrating_generals_from_other_warlords
+    relative_position_id = CAL_handling_the_political_system
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_integrating_nevada_generals"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_let_the_army_guide_our_democracy_for_the_time_being"
     }
 }
 
 shared_focus = {
-    id = CAL_merge_the_cascadian_and_californian_commands
+    id = CAL_return_democracy_back_to_the_people
     icon = GFX
     cost = 3
     available_if_capitulated = no
     ai_will_do = {
         factor = 1
     }
-    prerequisite = {
-        focus = CAL_integrating_generals_from_other_warlords
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_integrating_generals_from_other_warlords
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_merge_the_cascadian_and_californian_commands"
-    }
-}
-
-shared_focus = {
-    id = CAL_rehabilitate_oregon_military_district_generals
-    icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
+    mutually_exclusive = {
+        focus = CAL_let_the_army_guide_our_democracy_for_the_time_being
     }
     prerequisite = {
-        focus = CAL_integrating_generals_from_other_warlords
+        focus = CAL_handling_the_political_system
     }
-    x = 4
+    x = 3
     y = 1
-    relative_position_id = CAL_integrating_generals_from_other_warlords
+    relative_position_id = CAL_handling_the_political_system
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_rehabilitate_oregon_military_district_generals"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_return_democracy_back_to_the_people"
     }
 }
 
@@ -2731,7 +2745,7 @@ shared_focus = {
     }
 }
 
-### Focus Tree - Regional Stage: Political Focus Tree ###
+### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) ###
 shared_focus = {
 	id = CAL_the_formation_of_the_pacific_states_of_america
 	icon = GFX
@@ -2765,8 +2779,6 @@ shared_focus = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_the_problems_within_our_government"
     }
 }
-
-
 
 ### Focus Tree - Regional Stage: Economy Focus Tree ###
 

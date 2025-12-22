@@ -290,7 +290,7 @@ characters = {
 			slot = army_chief
 			idea_token = omar_nelson_bradley
 			traits = {
-
+				
 			}
 		}
 		field_marshal = {
