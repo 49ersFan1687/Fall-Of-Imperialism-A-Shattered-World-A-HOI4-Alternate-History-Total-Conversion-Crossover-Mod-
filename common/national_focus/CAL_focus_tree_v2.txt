@@ -2288,6 +2288,7 @@ shared_focus = {
     relative_position_id = CAL_resolving_the_water_problem
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_the_university_of_california_campuses"
+        add_research_slot = 1
     }
 }
 
