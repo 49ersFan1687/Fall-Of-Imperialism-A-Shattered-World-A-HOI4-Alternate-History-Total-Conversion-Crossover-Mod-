@@ -137,7 +137,7 @@ characters = {
         }
     }
 
-    # Greater Germanic Reich - Generalfeldmarschalls #
+    # Greater Germanic Reich - Wermacht Generalfeldmarschalls #
 
     GER_Werner_Eduard_Fritz_von_Blomberg = {
         name = GER_Werner_Eduard_Fritz_von_Blomberg
@@ -212,7 +212,7 @@ characters = {
         }
     }
 
-    # Greater Germanic Reich - Generals #
+    # Greater Germanic Reich - Wehrmacht Generals #
 
     GER_heinz_wilhelm_guderian = {
         name = GER_heinz_wilhelm_guderian
@@ -233,6 +233,7 @@ characters = {
                 media_personality
                 wehrmacht_aligned_officer
             }
+            skill = 4
             attack_skill = 4
             defense_skill = 4
             planning_skill = 4
@@ -252,6 +253,7 @@ characters = {
         }
         corps_commander = {
             traits = {  }
+            skill = 1
             attack_skill = 1
             defense_skill = 1
             planning_skill = 1
@@ -279,10 +281,31 @@ characters = {
                 organizer
                 wehrmacht_aligned_officer
             }
+            skill = 5
             attack_skill = 4
             defense_skill = 3
             planning_skill = 4
             logistics_skill = 3
+        }
+    }
+
+    GER_wilhelm_emmanuel_burgdorf = {
+        name = GER_wilhelm_emmanuel_burgdorf
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = {  }
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
         }
     }
 
