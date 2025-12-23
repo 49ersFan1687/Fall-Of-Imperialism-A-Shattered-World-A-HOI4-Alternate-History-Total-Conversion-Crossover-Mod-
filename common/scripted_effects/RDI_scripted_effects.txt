@@ -1,0 +1,89 @@
+RDI_Add_1_To_Industrialisation_Score = {
+	custom_effect_tooltip = RDI_This_Will_Increase_Industrialisation_Score_By_1
+
+	add_to_variable = { RDI_Industrialisation_Score = 1 }
+	
+}
+RDI_Add_2_To_Industrialisation_Score = {
+	custom_effect_tooltip = RDI_This_Will_Increase_Industrialisation_Score_By_2
+
+	add_to_variable = { RDI_Industrialisation_Score = 2 }
+	
+}
+RDI_Minus_1_To_Industrialisation_Score = {
+	custom_effect_tooltip = RDI_This_Will_Decrease_Industrialisation_Score_By_1
+
+	add_to_variable = { RDI_Industrialisation_Score = -1 }
+	
+}
+RDI_Minus_2_To_Industrialisation_Score = {
+	custom_effect_tooltip = RDI_This_Will_Decrease_Industrialisation_Score_By_2
+
+	add_to_variable = { RDI_Industrialisation_Score = -2 }
+	
+}
+RDI_Effects_Of_The_Three_Year_Plan = {
+		if = {
+			limit = {
+				check_variable = {
+					RDI_Industrialisation_Score < 2
+				}
+			}
+			add_political_power = -50
+			add_timed_idea = {
+    				idea = RDI_Industrialisation_Poor
+    				days = 365
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					RDI_Industrialisation_Score > 2
+				}
+				check_variable = {
+					RDI_Industrialisation_Score < 5
+				}
+			}
+			add_political_power = 25
+			add_ideas = RDI_Industrialisation_Middling
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					RDI_Industrialisation_Score > 4
+				}
+				check_variable = {
+					RDI_Industrialisation_Score < 7
+				}
+			}
+			add_political_power = 50
+			add_ideas = RDI_Industrialisation_Decent
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					RDI_Industrialisation_Score > 6
+				}
+				check_variable = {
+					RDI_Industrialisation_Score < 9
+				}
+			}
+			add_political_power = 75
+			add_ideas = RDI_Industrialisation_Excellent
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					RDI_Industrialisation_Score > 8
+				}
+			}
+			add_political_power = 100
+			add_stability = 0.1
+			add_manpower = 21000
+			add_ideas = RDI_Industrialisation_Excellent
+		}
+}
+
+
+
+

@@ -120,4 +120,4 @@ create_country_leader = {
 	}
 }
 
-
+set_variable = { RDI_Industrialisation_Score = 0 }

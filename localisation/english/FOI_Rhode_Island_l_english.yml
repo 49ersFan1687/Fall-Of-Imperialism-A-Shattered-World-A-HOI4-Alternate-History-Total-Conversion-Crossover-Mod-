@@ -84,6 +84,27 @@ RDI_death_to_fascist_scum: "§YDeath To The Fascist Scum!§!"
 RDI_Belknap_Leader: "§YFrank Belknap Long Will Lead The State§!"
 RDI_Barlow_Leader: "§YRobert H. Barlow Will Lead The State§!"
 
+RDI_This_Will_Increase_Industrialisation_Score_By_1: "§YThis Will Increase Industrialisation Score By§! §R1§!"
+RDI_This_Will_Increase_Industrialisation_Score_By_2: "§YThis Will Increase Industrialisation Score By§! §R2§!"
+RDI_This_Will_Decrease_Industrialisation_Score_By_1: "§YThis Will Decrease Industrialisation Score By§! §R1§!"
+RDI_This_Will_Decrease_Industrialisation_Score_By_2: "§YThis Will Decrease Industrialisation Score By§! §R2§!"
+
+
+### Decisions ###
+
+RDI_industrialisation_category: "Industrialisaton Of New England"
+RDI_industrialisation_category_desc: "In order to better combat those who oppose us, we should industrialise the nation.\n\n§YThe More We Industrialise, The Better Score We Will Have. A Better Score Will Lead To A Better Bonus For Completing The 3 Year Plan...§!\n\n§YOur Current Industrialisation Is:§! §R[?RDI_Industrialisation_Score]§!"
+RDI_Expand_Port_Of_Providence: "Expand Port Of Providence"
+RDI_Use_The_Miskatonic: "Use The Miskatonic"
+RDI_Nationalise_Boston_Companies: "Nationalise Boston Companies"
+RDI_Expand_Heavy_Industry_In_Conneticut: "Expand Heavy Industry In Conneticut"
+RDI_Exploit_New_Hampshire_Coal: "Exploit New Hampshire Coal"
+RDI_Rework_Upstate_Agriculture: "Rework Upstate Agriculture"
+RDI_Construction_Effort: "Construction Effort"
+RDI_First_3_Year_Plan: "First 3 Year Plan"
+
+RDI_Annex_New_England_category: "The Submittion Of New England"
+RDI_Annex_New_England_category_desc: "We will send ultimatums to those states in New England who require our §Cprotection§!"
 
 ### Events ###
 

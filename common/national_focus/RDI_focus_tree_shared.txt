@@ -49,6 +49,7 @@ shared_focus = {
 		add_war_support = 0.05
 		custom_effect_tooltip = RDI_stay_autocrat
 		custom_effect_tooltip = RDI_recruit_racist_characters_1
+		country_event = { id = rhode_island.33 }
 	}
 }
 shared_focus = {
@@ -194,7 +195,7 @@ shared_focus = {
 	x = 20
 	y = 8
 	completion_reward = {
-		add_ideas = RDI_honour_lovecraft
+		add_ideas = RDI_Honour_Lovecraft
 		add_political_power = 60
 		add_war_support = 0.12
 		country_event = { id = rhode_island.8 }
@@ -526,7 +527,7 @@ shared_focus = {
 	id = RDI_The_Proleterian_Democracy
 	icon = GFX_fish
 	cost = 5
-	prerequisite = { focus = RDI_The_Historian focus = RDI_The_Philosopher }
+	prerequisite = { focus = RDI_The_Historian focus = RDI_The_Independent }
 	x = 8
 	y = 7
 	completion_reward = {
@@ -537,7 +538,7 @@ shared_focus = {
 	id = RDI_The_Peoples_Economy
 	icon = GFX_fish
 	cost = 7
-	prerequisite = { focus = RDI_The_Historian focus = RDI_The_Philosopher }
+	prerequisite = { focus = RDI_The_Historian focus = RDI_The_Independent }
 	x = 10
 	y = 7
 	completion_reward = {
@@ -548,7 +549,7 @@ shared_focus = {
 	id = RDI_Prohabition_Of_Alcohol
 	icon = GFX_fish
 	cost = 3
-	prerequisite = { focus = RDI_The_Historian focus = RDI_The_Philosopher }
+	prerequisite = { focus = RDI_The_Historian focus = RDI_The_Independent }
 	x = 12
 	y = 7
 	completion_reward = {
@@ -566,13 +567,13 @@ shared_focus = {
 	x = 11
 	y = 8
 	completion_reward = {
-		add_ideas = RDI_no_sex_zone #do not question 
+		add_ideas = RDI_No_Sex_Zone #do not question 
 		add_political_power = 100
 		add_stability = -0.09
 	}
 }
 shared_focus = {
-	id = RDI_A_Country_For_All
+	id = RDI_For_One_And_For_All
 	icon = GFX_fish
 	cost = 5
 	prerequisite = { focus = RDI_Prohabition_Of_Alcohol }
@@ -581,7 +582,7 @@ shared_focus = {
 	x = 9
 	y = 8
 	completion_reward = {
-		add_ideas = RDI_for_one_and_for_all
+		add_ideas = RDI_For_One_And_For_All_Idea
 		country_event = { id = rhode_island.25 }
 	}
 }
@@ -589,22 +590,36 @@ shared_focus = {
 	id = RDI_Expel_The_Nazi_Occultists
 	icon = GFX_fish
 	cost = 4
-	prerequisite = { focus = RDI_A_Country_For_All focus = RDI_Celibate_Society }
+	prerequisite = { focus = RDI_For_One_And_For_All focus = RDI_Celibate_Society }
 	x = 9
 	y = 9
 	completion_reward = {
 		country_event = { id = rhode_island.26 }
+		add_popularity = {
+			ideology = paternal_autocrat
+			popularity = -0.53
+		}
+		add_popularity = {
+			ideology = national_socialism
+			popularity = -0.32
+		}
+		add_popularity = {
+			ideology = esotericism
+			popularity = -0.13
+		}
 	}
 }
 shared_focus = {
 	id = RDI_Understand_Lovecrafts_Work
 	icon = GFX_fish
 	cost = 7
-	prerequisite = { focus = RDI_A_Country_For_All focus = RDI_Celibate_Society }
+	prerequisite = { focus = RDI_For_One_And_For_All focus = RDI_Celibate_Society }
 	x = 11
 	y = 9
 	completion_reward = {
 		country_event = { id = rhode_island.27 }
+		add_political_power = 75
+		add_stability = 0.05
 	}
 }
 shared_focus = {
@@ -630,7 +645,24 @@ shared_focus = {
 	x = 1
 	y = 5
 	completion_reward = {
-		
+		add_popularity = {
+			ideology = paternal_autocrat
+			popularity = -0.14
+		}
+		add_popularity = {
+			ideology = socialism
+			popularity = -0.76
+		}
+		add_popularity = {
+			ideology = accelerationism
+			popularity = -0.09
+		}
+		add_stability = -0.18
+		swap_ideas = {
+			remove_idea = RDI_occultists_in_the_shadows
+			add_idea = RDI_occultists_in_the_light
+		}
+		country_event = { id = rhode_island.28 }
 	}
 }
 shared_focus = {
@@ -641,7 +673,9 @@ shared_focus = {
 	x = 1
 	y = 6
 	completion_reward = {
-		
+		add_stability = -0.31
+		add_ideas = RDI_A_People_Without_Hope
+		country_event = { id = rhode_island.29 }
 	}
 }
 shared_focus = {
@@ -652,7 +686,8 @@ shared_focus = {
 	x = 0
 	y = 7
 	completion_reward = {
-		
+		add_ideas = RDI_Wrath_Of_The_Old_Ones_Idea
+		country_event = { id = rhode_island.30 }
 	}
 }
 shared_focus = {
@@ -663,7 +698,8 @@ shared_focus = {
 	x = 2
 	y = 7
 	completion_reward = {
-		
+		country_event = { id = rhode_island.31 }
+		add_political_power = -35
 	}
 }
 shared_focus = {
@@ -675,7 +711,8 @@ shared_focus = {
 	x = 1
 	y = 8
 	completion_reward = {
-		
+		country_event = { id = rhode_island.32 }
+		add_ideas = RDI_Strength_To_Survive
 	}
 }
 shared_focus = {
@@ -693,12 +730,16 @@ shared_focus = {
 #Economy Tree
 shared_focus = {
 	id = RDI_Decouple_With_The_Dollar_Couple_With_The_Pound
+	available = {
+		has_country_flag = RDI_Industry_Unlocked
+	}
 	icon = GFX_fish
 	cost = 5
 	x = 30
 	y = 0
 	completion_reward = {
-		
+		set_country_flag = RDI_Industrialisation_Unlocked
+				
 	}
 }
 shared_focus = {
@@ -711,7 +752,27 @@ shared_focus = {
 	x = 26
 	y = 1
 	completion_reward = {
-		
+		add_ideas = RDI_Nationalised_Economy
+			IF = {
+				limit = {
+					1086 = { ## Msschests
+						free_building_slots = {
+							building = industrial_complex
+							size > 2
+							include_locked = yes
+						}	
+					}
+				}
+				1086 = { ## Msschsets
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+
 	}
 }
 shared_focus = {
@@ -719,10 +780,13 @@ shared_focus = {
 	prerequisite = { focus = RDI_Nationalise_Corporate_Property }
 	icon = GFX_fish
 	cost = 7
-	x = 24
+	x = 25
 	y = 2
 	completion_reward = {
-		
+		swap_ideas = {
+			remove_idea = RDI_Nationalised_Economy
+			add_idea = RDI_Nationalised_Economy_2
+		}
 	}
 }
 shared_focus = {
@@ -733,7 +797,7 @@ shared_focus = {
 	x = 27
 	y = 2
 	completion_reward = {
-		
+		add_ideas = RDI_The_Rural_Farmer_And_The_Urban_Worker
 	}
 }
 shared_focus = {
@@ -745,7 +809,11 @@ shared_focus = {
 	x = 27
 	y = 3
 	completion_reward = {
-		
+		swap_ideas = {
+			remove_idea = RDI_Nationalised_Economy_2
+			add_idea = RDI_Planned_Economy
+		}
+		add_research_slot = 1
 	}
 }
 shared_focus = {
@@ -857,9 +925,23 @@ shared_focus = {
 shared_focus = {
 	id = RDI_The_Great_Search_Begins
 	icon = GFX_fish
+	available = {
+		has_country_flag = RDI_Foreign_Policy_Esoteric
+	}
 	cost = 10
 	x = 31
 	y = 7
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = RDI_Bring_Connecticut_Into_The_Fold
+	prerequisite = { focus = RDI_The_Great_Search_Begins }
+	icon = GFX_fish
+	cost = 5
+	x = 32
+	y = 8
 	completion_reward = {
 		
 	}
@@ -869,7 +951,7 @@ shared_focus = {
 	prerequisite = { focus = RDI_The_Great_Search_Begins }
 	icon = GFX_fish
 	cost = 5
-	x = 31
+	x = 30
 	y = 8
 	completion_reward = {
 		
@@ -878,6 +960,7 @@ shared_focus = {
 shared_focus = {
 	id = RDI_The_Shadow_Over_Innsmouth
 	prerequisite = { focus = RDI_Invade_Massachusetts }
+	prerequisite = { focus = RDI_Bring_Connecticut_Into_The_Fold }
 	icon = GFX_fish
 	cost = 4
 	x = 30
@@ -889,6 +972,7 @@ shared_focus = {
 shared_focus = {
 	id = RDI_Raid_The_Miskatonic
 	prerequisite = { focus = RDI_Invade_Massachusetts }
+	prerequisite = { focus = RDI_Bring_Connecticut_Into_The_Fold }
 	icon = GFX_fish
 	cost = 6
 	x = 32
@@ -898,13 +982,38 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id = RDI_Reveal_The_Secrets_Of_The_Necronomicon
+	id = RDI_Unite_With_Green_Mountain
 	prerequisite = { focus = RDI_Raid_The_Miskatonic }
 	prerequisite = { focus = RDI_The_Shadow_Over_Innsmouth }
 	icon = GFX_fish
-	cost = 1
+	cost = 5
 	x = 31
 	y = 10
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = RDI_Death_To_The_Collective
+	prerequisite = { focus = RDI_Unite_With_Green_Mountain }
+	icon = GFX_fish
+	cost = 5
+	x = 31
+	y = 11
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = RDI_Reveal_The_Secrets_Of_The_Necronomicon
+	prerequisite = { focus = RDI_Death_To_The_Collective }
+	available = {
+		has_country_flag = RDI_New_England_Industrialisation_Complete
+	}
+	icon = GFX_fish
+	cost = 5
+	x = 31
+	y = 12
 	completion_reward = {
 		
 	}
@@ -915,7 +1024,7 @@ shared_focus = {
 	icon = GFX_fish
 	cost = 10
 	x = 29
-	y = 11
+	y = 13
 	completion_reward = {
 		
 	}
@@ -926,7 +1035,7 @@ shared_focus = {
 	icon = GFX_fish
 	cost = 8
 	x = 31
-	y = 11
+	y = 13
 	completion_reward = {
 		
 	}
@@ -937,7 +1046,7 @@ shared_focus = {
 	icon = GFX_fish
 	cost = 3
 	x = 33
-	y = 11
+	y = 13
 	completion_reward = {
 		
 	}
@@ -950,7 +1059,7 @@ shared_focus = {
 	icon = GFX_fish
 	cost = 5
 	x = 31
-	y = 12
+	y = 14
 	completion_reward = {
 		
 	}
@@ -961,7 +1070,7 @@ shared_focus = {
 	icon = GFX_fish
 	cost = 6
 	x = 31
-	y = 13
+	y = 15
 	completion_reward = {
 		
 	}
@@ -972,7 +1081,7 @@ shared_focus = {
 	icon = GFX_fish
 	cost = 1
 	x = 30
-	y = 14
+	y = 16
 	completion_reward = {
 		
 	}
@@ -983,7 +1092,7 @@ shared_focus = {
 	icon = GFX_fish
 	cost = 1
 	x = 32
-	y = 14
+	y = 16
 	completion_reward = {
 		
 	}
@@ -995,7 +1104,7 @@ shared_focus = {
 	icon = GFX_fish
 	cost = 1
 	x = 31
-	y = 15
+	y = 17
 	completion_reward = {
 		
 	}
@@ -1006,7 +1115,7 @@ shared_focus = {
 	icon = GFX_fish
 	cost = 1
 	x = 31
-	y = 16
+	y = 18
 	completion_reward = {
 		
 	}
@@ -1017,7 +1126,7 @@ shared_focus = {
 	icon = GFX_fish
 	cost = 10
 	x = 31
-	y = 17
+	y = 19
 	completion_reward = {
 		
 	}
@@ -1028,16 +1137,30 @@ shared_focus = {
 	icon = GFX_fish
 	cost = 20
 	x = 31
-	y = 19
+	y = 21
 	completion_reward = {
 		
 	}
 }
 #Sever Our Connection Path
 shared_focus = {
-	id = RDI_Request_New_Englander_Submission
+	id = RDI_Sever_Our_Connection
 	icon = GFX_fish
+	available = {
+		has_country_flag = RDI_Foreign_Policy
+	}
 	cost = 5
+	x = 37
+	y = 6
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = RDI_Request_New_Englander_Submission
+	prerequisite = { focus = RDI_Sever_Our_Connection }
+	icon = GFX_fish
+	cost = 1
 	x = 37
 	y = 7
 	completion_reward = {
@@ -1082,6 +1205,9 @@ shared_focus = {
 	prerequisite = { focus = RDI_Keep_Hidden_The_Silver_Key }
 	prerequisite = { focus = RDI_Trust_No_One }
 	prerequisite = { focus = RDI_Study_The_Old_Ones }
+	available = {
+		has_country_flag = RDI_New_England_Industrialisation_Complete
+	}
 	icon = GFX_fish
 	cost = 5
 	x = 37
