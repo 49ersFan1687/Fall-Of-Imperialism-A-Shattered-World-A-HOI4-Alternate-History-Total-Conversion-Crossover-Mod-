@@ -564,19 +564,19 @@ characters = {
 		name = CSD_kimberly_ann_hart
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Kimberly_Ann_Hart.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Kimberly_Ann_Hart.dds"
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando }
-			skill =
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			traits = { ranger commando infantry_officer infantry_leader infantry_expert}
+			skill = 3
+			attack_skill = 6
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
 		}
 		gender = female
 	}
@@ -728,10 +728,10 @@ characters = {
 		name = CSD_theodore_jarvis_johnson
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Theodore_Jarvis_Johnson.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Theodore_Jarvis_Johnson.dds"
 			}
 		}
 		corps_commander = {
