@@ -1,0 +1,107 @@
+####    					   ####
+#### MICHIGAN FOCUS TREE By Charcoal_Flavoured_Kat ####
+####                                               ####
+
+# Michigan Political Tree
+
+shared_focus = {
+	id = MCH_Announce_A_State_Of_Emergency
+	icon = GFX_fish
+	cost = 1
+	x = 7
+	y = 0
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Suspend_The_National_Parliament
+	icon = GFX_fish
+	prerequisite = { focus = MCH_Announce_A_State_Of_Emergency }	
+	cost = 2
+	x = 6
+	y = 1
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Deal_With_The_Militia_Issue
+	icon = GFX_fish
+	prerequisite = { focus = MCH_Suspend_The_National_Parliament }	
+	cost = 3
+	x = 5
+	y = 2
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Focus_On_Fascist_Militias
+	icon = GFX_fish
+	prerequisite = { focus = MCH_Deal_With_The_Militia_Issue }
+	mutually_exclusive = { focus = MCH_Focus_On_Commie_Militias }	
+	cost = 2
+	x = 4
+	y = 3
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Focus_On_Commie_Militias
+	icon = GFX_fish
+	prerequisite = { focus = MCH_Deal_With_The_Militia_Issue }
+	mutually_exclusive = { focus = MCH_Focus_On_Fascist_Militias }	
+	cost = 2
+	x = 6
+	y = 3
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Ban_Extremist_Organisations
+	icon = GFX_fish
+	prerequisite = { focus = MCH_Focus_On_Commie_Militias focus = MCH_Focus_On_Fascist_Militias }
+	cost = 5
+	x = 5
+	y = 4
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Raid_Militias
+	icon = GFX_fish
+	prerequisite = { focus = MCH_Ban_Extremist_Organisations }
+	cost = 4
+	x = 5
+	y = 5
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_End_The_State_Of_Emergency
+	icon = GFX_fish
+	prerequisite = { focus = MCH_Raid_Militias }
+	cost = 3
+	x = 6
+	y = 6
+	completion_reward = {
+
+	}
+}
+#Economic Help
+shared_focus = {
+	id = MCH_Utilise_Canadian_Aid
+	icon = GFX_fish
+	prerequisite = { focus = MCH_Suspend_The_National_Parliament }
+	cost = 4
+	x = 9
+	y = 2
+	completion_reward = {
+
+	}
+}

@@ -1,0 +1,15 @@
+focus_tree = {
+    id = MCH_focus_tree
+    country = {
+		factor = 0
+		modifier = { 
+            add = 10 
+            tag = MCH
+        }
+	}
+    default = no
+	shared_focus = MCH_Announce_A_State_Of_Emergency
+
+    continuous_focus_position = { x = 500 y = 2000 }
+}
+
