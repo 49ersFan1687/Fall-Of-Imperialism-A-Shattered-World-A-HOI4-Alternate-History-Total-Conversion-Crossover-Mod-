@@ -1,0 +1,9 @@
+CAL_warlord_generals_integration_category = {
+    CAL_integrate_provisional_autority_of_cascadia_generals = {
+        icon = GFX_decision_generic_political_rally
+        fire_only_once = yes
+        available = {
+            
+        }
+    }
+}
