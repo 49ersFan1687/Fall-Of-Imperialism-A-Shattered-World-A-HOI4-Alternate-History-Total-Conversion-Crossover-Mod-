@@ -2956,6 +2956,269 @@ shared_focus = {
     }
 }
 
+shared_focus = {
+    id = CAL_bradleys_calling
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_marshall_s_boys_return_to_service
+        focus = CAL_eisenhower_s_triumph
+        focus = CAL_patton_s_cheers
+    }
+    prerequisite = {
+        focus = CAL_service_guarantees_citizenship
+        focus = CAL_the_objections_of_the_intellectuals
+    }
+    x = -2
+    y = 1
+    relative_position_id = CAL_service_guarantees_citizenship
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_bradleys_calling"
+    }
+}
+
+shared_focus = {
+    id = CAL_marshall_s_boys_return_to_service
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite_exclusive = {
+        focus = CAL_bradleys_calling
+        focus = CAL_eisenhower_s_triumph
+        focus = CAL_patton_s_cheers
+    }
+    prerequisite = {
+        focus = CAL_service_guarantees_citizenship
+        focus = CAL_the_objections_of_the_intellectuals
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_service_guarantees_citizenship
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_marshall_s_boys_return_to_service"
+    }
+}
+
+shared_focus = {
+    id = CAL_eisenhower_s_triumph
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite_exclusive = {
+        focus = CAL_bradleys_calling
+        focus = CAL_marshall_s_boys_return_to_service
+        focus = CAL_patton_s_cheers
+    }
+    prerequisite = {
+        focus = CAL_service_guarantees_citizenship
+        focus = CAL_the_objections_of_the_intellectuals
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_service_guarantees_citizenship
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_eisenhower_s_triumph"
+    }
+}
+
+shared_focus = {
+    id = CAL_patton_s_cheers
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite_exclusive = {
+        focus = CAL_bradleys_calling
+        focus = CAL_marshall_s_boys_return_to_service
+        focus = CAL_eisenhower_s_triumph
+    }
+    prerequisite = {
+        focus = CAL_service_guarantees_citizenship
+        focus = CAL_the_objections_of_the_intellectuals
+    }
+    x = 4
+    y = 1
+    relative_position_id = CAL_service_guarantees_citizenship
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_patton_s_cheers"
+    }
+}
+
+shared_focus = {
+    id = CAL_addressing_old_promises
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_first_post_war_elections
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_the_first_post_war_elections
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_old_promises"
+    }
+}
+
+shared_focus = {
+    id = CAL_redraw_state_boundaries
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_first_post_war_elections
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_the_first_post_war_elections
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_old_promises"
+    }
+}
+
+shared_focus = {
+    id = CAL_reopen_the_gi_bill
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_bradleys_calling
+        focus = CAL_marshall_s_boys_return_to_service
+        focus = CAL_eisenhower_s_triumph
+        focus = CAL_patton_s_cheers
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_marshall_s_boys_return_to_service
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reopen_the_gi_bill"
+    }
+}
+
+shared_focus = {
+    id = CAL_for_people_of_the_state
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_bradleys_calling
+        focus = CAL_marshall_s_boys_return_to_service
+        focus = CAL_eisenhower_s_triumph
+        focus = CAL_patton_s_cheers
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_eisenhower_s_triumph
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_for_people_of_the_state"
+    }
+}
+
+shared_focus = {
+    id = CAL_reinstate_civil_liberties
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_addressing_old_promises
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_addressing_old_promises
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reinstate_civil_liberties"
+    }
+}
+
+shared_focus = {
+    id = CAL_expanding_constituences
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_redraw_state_boundaries
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_redraw_state_boundaries
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_expanding_constituences"
+    }
+}
+
+shared_focus = {
+    id = CAL_prepping_for_america
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_reopen_the_gi_bill
+        focus = CAL_for_people_of_the_state
+    }
+    prerequisite = {
+        focus = CAL_reinstate_civil_liberties
+        focus = CAL_expanding_constituences
+    }
+    x = 0
+    y = 6
+    relative_position_id = CAL_handling_the_political_system
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_prepping_for_america"
+    }
+}
+
+shared_focus = {
+    id = CAL_sacramento_up_and_running
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_prepping_for_america
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_prepping_for_america
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_sacramento_up_and_running"
+    }
+}
+
 ### Focus Tree - Unknown as of Now Two ###
 shared_focus = {
     id = CAL_unknown_focus_1
