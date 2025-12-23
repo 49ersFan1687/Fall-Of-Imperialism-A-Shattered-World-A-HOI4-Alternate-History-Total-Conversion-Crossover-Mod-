@@ -163,4 +163,9 @@ spriteTypes = {
 
 	# Cascadia #
 
+	spriteType = {
+		name = "GFX_CSD_Adam_Park"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Adam_Park.dds"
+	}
+
 }
