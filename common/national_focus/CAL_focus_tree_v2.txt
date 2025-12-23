@@ -28,7 +28,7 @@ focus_tree = {
     shared_focus = CAL_resolving_the_water_problem
     shared_focus = CAL_dealing_with_regionalists
     shared_focus = CAL_handling_the_political_system
-    shared_focus = CAL_unknown_focus_1
+    shared_focus = CAL_expanding_the_california_military
     shared_focus = CAL_unknown_focus_2
     continuous_focus_position = { x = 450 y = 200 }
 }
@@ -2583,9 +2583,9 @@ shared_focus = {
     }
 }
 
-### Focus Tree - Unknown as of Now Two ###
+### Focus Tree - Pre-Regional Military Tree ###
 shared_focus = {
-    id = CAL_unknown_focus_2
+    id = CAL_expanding_the_california_military
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -2595,7 +2595,64 @@ shared_focus = {
     x = 41
     y = 1
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_integrating_generals_from_other_warlords"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_expanding_the_california_military"
+    }
+}
+
+shared_focus = {
+    id = CAL_rebuilding_the_air_force
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_expanding_the_california_military
+    }
+    x = -3
+    y = 1
+    relative_position_id = CAL_expanding_the_california_military
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_the_air_force"
+    }
+}
+
+shared_focus = {
+    id = CAL_expanding_the_warlord_army
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_expanding_the_california_military
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_expanding_the_california_military
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_expanding_the_warlord_army"
+    }
+}
+
+shared_focus = {
+    id = CAL_rebuilding_the_navy
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_expanding_the_california_military
+    }
+    x = 3
+    y = 1
+    relative_position_id = CAL_expanding_the_california_military
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_the_navy"
     }
 }
 
