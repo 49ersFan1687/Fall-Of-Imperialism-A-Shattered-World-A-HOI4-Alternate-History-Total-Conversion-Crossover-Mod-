@@ -1,0 +1,11 @@
+CAL_warlord_generals_integration_category = {
+    icon = GFX
+    priority = 35
+    visible_when_empty = no
+    allowed = {
+        original_tag = CAL
+    }
+    visible = {
+        # has_country_flag = 
+    }
+}
