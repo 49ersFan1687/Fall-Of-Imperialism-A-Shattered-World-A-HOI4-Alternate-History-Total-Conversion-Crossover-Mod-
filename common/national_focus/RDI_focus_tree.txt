@@ -11,7 +11,7 @@ focus_tree = {
 	shared_focus = RDI_Integration_Of_The_UAPA
 	shared_focus = RDI_Decouple_With_The_Dollar_Couple_With_The_Pound
 	shared_focus = RDI_The_Great_Search_Begins
-	shared_focus = RDI_Request_New_Englander_Submission
+	shared_focus = RDI_Sever_Our_Connection
 
     continuous_focus_position = { x = 500 y = 2000 }
 }

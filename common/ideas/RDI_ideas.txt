@@ -92,7 +92,7 @@ ideas = {
 
             }
         }
-      RDI_Honour_Lovecrafts_Legacy = {
+      RDI_Honour_Lovecraft = {
             on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_Honour_Lovecrafts_Legacy" }
             allowed = { always = no }
             picture = GFX_fish
@@ -230,8 +230,301 @@ ideas = {
             }
         }
 
+      RDI_Abstinance = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_Abstinance" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+		stability_factor = -0.11
+		political_power_gain = 0.23
+		war_support_factor = 0.03
+		industrial_capacity_factory = 0.07
+		
+		
+            }
+            equipment_bonus = {
 
-        
+            }
+        }
+      RDI_No_Sex_Zone = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_No_Sex_Zone" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+		stability_factor = -0.13
+		monthly_population = -0.34
+		consumer_goods_factor = -0.23
+		
+		
+            }
+            equipment_bonus = {
+
+            }
+        }
+      RDI_For_One_And_For_All_Idea = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_For_One_And_For_All_Idea" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+		stability = 0.21
+		consumer_goods = -0.1
+		production_speed_buildings_factor = 0.17
+		
+		
+		
+            }
+            equipment_bonus = {
+
+            }
+        }
+	    ### Rhode Island Esoteric Path Ideas ###
+      RDI_occultists_in_the_light = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_occultists_in_the_light" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+                stability_factor = -0.30
+                war_support_factor = 0.15
+                consumer_goods_factor = -0.14
+                esotericism_drift = 0.05
+		
+		
+		
+            }
+            equipment_bonus = {
+
+            }
+        }      
+	RDI_A_People_Without_Hope = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_A_People_Without_Hope" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+                stability_factor = -0.11
+		war_support_factor = -0.13
+		stability_weekly = 0.003
+		war_support_weekly = 0.002
+		industrial_capacity_factory = -0.04
+		
+		
+		
+            }
+            equipment_bonus = {
+
+            }
+        }
+	RDI_Wrath_Of_The_Old_Ones_Idea = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_Wrath_Of_The_Old_Ones_Idea" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+                war_support_factor = 0.13
+		army_defence_factor = 0.16
+		army_attack_factor = 0.19
+		breakthrough_factor = 0.14
+		
+		
+		
+            }
+            equipment_bonus = {
+
+            }
+        }
+	RDI_Strength_To_Survive = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_Strength_To_Survive" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+                experience_gain_army = 0.04
+		conscription_factor = 0.13
+		acclimatization_hot_climate_gain_factor = 0.11
+		acclimatization_cold_climate_gain_factor = 0.11
+		
+		
+		
+            }
+            equipment_bonus = {
+
+            }
+        }
+       	### Rhode Island Economic Path Ideas ###
+	RDI_Industrialisation_Poor = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_Industrialisation_Poor" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+                production_speed_buildings_factor = -0.13
+		consumer_goods_factor = 0.06
+		industrial_capacity_factory = -0.04
+		industrial_capacity_dockyard = -0.13
+		
+		
+		
+            }
+            equipment_bonus = {
+
+            }
+        }
+	RDI_Industrialisation_Middling = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_Industrialisation_Middling" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+                production_speed_buildings_factor = 0.05
+		consumer_goods_factor = -0.02
+		industrial_capacity_factory = 0.01
+		industrial_capacity_dockyard = -0.02
+		
+		
+		
+            }
+            equipment_bonus = {
+
+            }
+        }
+	RDI_Industrialisation_Decent = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_Industrialisation_Decent" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+                production_speed_buildings_factor = 0.09
+		consumer_goods_factor = -0.08
+		industrial_capacity_factory = 0.04
+		industrial_capacity_dockyard = 0.01
+		global_building_slots = 1
+		
+		
+		
+            }
+            equipment_bonus = {
+
+            }
+        }
+	RDI_Industrialisation_Excellent = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_Industrialisation_Excellent" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+                production_speed_buildings_factor = 0.14
+		consumer_goods_factor = -0.12
+		industrial_capacity_factory = 0.08
+		industrial_capacity_dockyard = 0.09
+		global_building_slots = 2
+		
+		
+		
+            }
+            equipment_bonus = {
+
+            }
+        }
+	RDI_Nationalised_Economy = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_Nationalised_Economy" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+                consumer_goods_factor = -0.15
+		
+            }
+            equipment_bonus = {
+
+            }
+        }
+	RDI_Nationalised_Economy_2 = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_Nationalised_Economy_2" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+                consumer_goods_factor = -0.17
+		industrial_capacity_factory = 0.04
+		
+            }
+            equipment_bonus = {
+
+            }
+        }
+	RDI_The_Rural_Farmer_And_The_Urban_Worker = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_Nationalised_Economy_2" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+                consumer_goods_factor = 0.06
+		industrial_capacity_factory = -0.02
+		weekly_manpower = 75
+		socialism_drift = 0.02
+		
+            }
+            equipment_bonus = {
+
+            }
+        }
+	RDI_Planned_Economy = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_Planned_Economy" }
+            allowed = { always = no }
+            picture = GFX_fish
+            modifier = {
+                consumer_goods_factor = -0.21
+		industrial_capacity_factory = 0.06
+		industrial_capacity_dockyard = 0.01
+		
+            }
+            equipment_bonus = {
+
+            }
+        }
+      	### Rhode Island Offensive Ideas ###
+	RDI_offensive_CNT = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_offensive_CNT" }
+            allowed = { always = no }
+            picture = GFX_fish
+            targeted_modifier = {
+    			tag = CNT  
+    			attack_bonus_against = 0.15
+    			defense_bonus_against = 0.15
+		}
+            equipment_bonus = {
+
+            }
+        }
+	RDI_offensive_MSC = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_offensive_MSC" }
+            allowed = { always = no }
+            picture = GFX_fish
+            targeted_modifier = {
+    			tag = MSC
+    			attack_bonus_against = 0.15
+    			defense_bonus_against = 0.15
+		}
+            equipment_bonus = {
+
+            }
+        }
+	RDI_offensive_VRM = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_offensive_VRM" }
+            allowed = { always = no }
+            picture = GFX_fish
+            targeted_modifier = {
+    			tag = VRM
+    			attack_bonus_against = 0.15
+    			defense_bonus_against = 0.15
+		}
+            equipment_bonus = {
+
+            }
+        }
+	RDI_offensive_ANN = {
+            on_add =  { log = "[GetDateText]: [Root.GetName]: add idea RDI_offensive_ANN" }
+            allowed = { always = no }
+            picture = GFX_fish
+            targeted_modifier = {
+    			tag = ANN 
+    			attack_bonus_against = 0.15
+    			defense_bonus_against = 0.15
+		}
+            equipment_bonus = {
+
+            }
+        }
         ### Air Force Reform Ideas ###
         ### Navy Reform Ideas ###
         ### Military Industrial Complex Ideas ###
