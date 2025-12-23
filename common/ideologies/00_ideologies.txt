@@ -12,7 +12,7 @@ ideologies = {
 			stalinism_ideology = { }
 			trotskyism_ideology = { }
 			bukharinism_ideology = { }
-			zhdanovshchina_ideology = { }
+			communism_zhdanovshchina_ideology = { }
 			red_junta_communism_ideology = { }
 			autonomous_communism_ideology = { }
 			autocratic_marxism_ideology = { }
@@ -26,7 +26,7 @@ ideologies = {
 	### Syndicalist Subideologies ###
 	syndicalism = {
 		types = {
-			syndicalism_ideology = { }
+			syndicalism_ideology = { } # Generic #
 			syndicalism_anarcho_syndicalism_ideology = { }
 			syndicalism_agrarian_syndicalism_ideology = { }
 			syndicalism_broad_communism_ideology = { }

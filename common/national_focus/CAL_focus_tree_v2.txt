@@ -505,7 +505,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_expand_the_california_national_guard
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_initiate_a_mass_recruitment_drive"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_military_police"
     }
     
 }
@@ -624,6 +624,9 @@ shared_focus = {
     x = 0
     y = 1
     relative_position_id = CAL_dealing_with_the_anarchy_in_our_state
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reform_the_federal_bureau_of_investigation"
+    }
 }
 
 shared_focus = {
@@ -1183,6 +1186,11 @@ shared_focus = {
     relative_position_id = CAL_new_tank_research
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_military_logistic_corps"
+        add_tech_bonus = {
+			bonus = 1
+			uses = 1
+			category = logistics_tech
+		}
     }
 }
 
@@ -2765,6 +2773,29 @@ shared_focus = {
     }
 }
 
+shared_focus = {
+    id = CAL_service_guarantees_citizenship
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_let_the_army_guide_our_democracy_for_the_time_being
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_let_the_army_guide_our_democracy_for_the_time_being
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_service_guarantees_citizenship"
+    }
+}
+
+shared_focus = {
+    id = CAL_letting_president_wallace
+}
+
 ### Focus Tree - Unknown as of Now Two ###
 shared_focus = {
     id = CAL_unknown_focus_1
@@ -2838,5 +2869,6 @@ shared_focus = {
 		army_experience = 50
 	}
 }
+
 
 ### Focus Tree - Regional Stage: Foreign Policy Focus Tree ###
