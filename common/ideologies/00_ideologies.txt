@@ -12,6 +12,7 @@ ideologies = {
 			stalinism_ideology = { }
 			trotskyism_ideology = { }
 			bukharinism_ideology = { }
+			zhdanovshchina_ideology = { }
 			red_junta_communism_ideology = { }
 			autonomous_communism_ideology = { }
 			autocratic_marxism_ideology = { }
@@ -29,6 +30,7 @@ ideologies = {
 			syndicalism_anarcho_syndicalism_ideology = { }
 			syndicalism_agrarian_syndicalism_ideology = { }
 			syndicalism_broad_communism_ideology = { }
+			syndicalism_zhdanovshchina_ideology = { }
 			red_junta_syndicalism_ideology = { }
 		}
 		dynamic_faction_names = { }
@@ -55,6 +57,7 @@ ideologies = {
 			socialism_broad_communism_ideology = { }
 			left_lovecraftism_ideology = { }
 			christian_socialism_ideology = { }
+			socialism_zhdanovshchina_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 209 0 0 }
@@ -93,6 +96,7 @@ ideologies = {
 			classical_liberalism_ideology = { }
 			technocratic_liberalism_ideology = { }
 			liberal_statism_ideology = { }
+			stratocratic_liberalism_ideology = { }
 		}
 		dynamic_faction_names = { }
 		color = { 31 121 181 }
@@ -219,6 +223,7 @@ ideologies = {
 			occultist_nazism_ideology = { }
 			clerical_fascism_ideology = { }
 			true_believers_ideology = { }
+			strasserism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 41 33 22 }
