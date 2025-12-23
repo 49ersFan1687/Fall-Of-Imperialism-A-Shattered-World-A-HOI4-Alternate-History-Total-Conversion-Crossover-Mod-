@@ -2730,7 +2730,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_let_the_army_guide_our_democracy_for_the_time_being
+    id = CAL_an_army_guided_democracy
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -2747,12 +2747,12 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_handling_the_political_system
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_let_the_army_guide_our_democracy_for_the_time_being"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_an_army_guided_democracy"
     }
 }
 
 shared_focus = {
-    id = CAL_return_democracy_back_to_the_people
+    id = CAL_return_of_civilian_democracy
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -2760,7 +2760,7 @@ shared_focus = {
         factor = 1
     }
     mutually_exclusive = {
-        focus = CAL_let_the_army_guide_our_democracy_for_the_time_being
+        focus = CAL_an_army_guided_democracy
     }
     prerequisite = {
         focus = CAL_handling_the_political_system
@@ -2769,7 +2769,121 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_handling_the_political_system
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_return_democracy_back_to_the_people"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_return_of_civilian_democracy"
+    }
+}
+
+shared_focus = {
+    id = CAL_first_washingtonian_congress
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_an_army_guided_democracy
+    }
+    x = -2
+    y = 1
+    relative_position_id = CAL_an_army_guided_democracy
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_first_washingtonian_congress"
+    }
+}
+
+shared_focus = {
+    id = CAL_a_joint_command_meeting
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_an_army_guided_democracy
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_an_army_guided_democracy
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_joint_command_meeting"
+    }
+}
+
+shared_focus = {
+    id = CAL_hold_military_tribunals
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_an_army_guided_democracy
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_an_army_guided_democracy
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_hold_military_tribunals"
+    }
+}
+
+shared_focus = {
+    id = CAL_convene_the_eightieth_congress
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_return_of_civilian_democracy
+    }
+    x = -2
+    y = 1
+    relative_position_id = CAL_return_of_civilian_democracy
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_convene_the_eightieth_congress"
+    }
+}
+
+shared_focus = {
+    id = CAL_president_wallace_at_the_forefront
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_return_of_civilian_democracy
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_return_of_civilian_democracy
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_president_wallace_at_the_forefront"
+    }
+}
+
+shared_focus = {
+    id = CAL_reinstate_the_supreme_court
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_return_of_civilian_democracy
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_return_of_civilian_democracy
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reinstate_the_supreme_court"
     }
 }
 
@@ -2782,18 +2896,64 @@ shared_focus = {
         factor = 1
     }
     prerequisite = {
-        focus = CAL_let_the_army_guide_our_democracy_for_the_time_being
+        focus = CAL_first_washingtonian_congress
     }
-    x = 0
+    prerequisite = {
+        focus = CAL_a_joint_command_meeting
+    }
+    x = 1
     y = 1
-    relative_position_id = CAL_let_the_army_guide_our_democracy_for_the_time_being
+    relative_position_id = CAL_first_washingtonian_congress
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_service_guarantees_citizenship"
     }
 }
 
 shared_focus = {
-    id = CAL_letting_president_wallace
+    id = CAL_the_objections_of_the_intellectuals
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_joint_command_meeting
+    }
+    prerequisite = {
+        focus = CAL_hold_military_tribunals
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_hold_military_tribunals
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_objections_of_the_intellectuals"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_first_post_war_elections
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_convene_the_eightieth_congress
+    }
+    prerequisite = {
+        focus = CAL_president_wallace_at_the_forefront
+    }
+    prerequisite = {
+        focus = CAL_reinstate_the_supreme_court
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_president_wallace_at_the_forefront
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_first_post_war_elections"
+    }
 }
 
 ### Focus Tree - Unknown as of Now Two ###
