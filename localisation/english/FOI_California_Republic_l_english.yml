@@ -30,6 +30,11 @@ CAL_esotericism_party_long: "§YSilver Legion of America (Pelleyites)§!"
 CAL_accelerationism_party: "CAA"
 CAL_accelerationism_party_long: "§YCalifornia Artist Association§!"
 
+#Decisions
+
+CAL_warlord_generals_integration_category: "Integrate Warlord Generals"
+CAL_warlord_generals_integration_category_desc: "Many Warlords had generals who could prove of some use to us. If we offer them certain benefits, they may join us."
+
 ### Character Localization - Leaders ###
 CAL_henry_agard_wallace: "Henry Agard Wallace"
 CAL_huey_pierce_long_jr: "Huey Pierce Long Jr."

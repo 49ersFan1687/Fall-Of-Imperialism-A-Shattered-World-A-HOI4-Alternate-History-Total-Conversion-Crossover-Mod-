@@ -1,5 +1,5 @@
 CAL_warlord_generals_integration_category = {
-    icon = GFX
+    icon = GFX_fish
     priority = 35
     visible_when_empty = no
     allowed = {
