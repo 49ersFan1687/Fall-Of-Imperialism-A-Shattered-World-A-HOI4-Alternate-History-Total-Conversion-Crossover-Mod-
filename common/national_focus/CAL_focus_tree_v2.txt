@@ -3319,5 +3319,24 @@ shared_focus = {
 	}
 }
 
+shared_focus = {
+    id = CAL_addressing_each_military_branch
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_begin_the_total_overhaul_of_the_psa_military
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_begin_the_total_overhaul_of_the_psa_military
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_each_military_branch"
+    }
+}
+
 
 ### Focus Tree - Regional Stage: Foreign Policy Focus Tree ###
