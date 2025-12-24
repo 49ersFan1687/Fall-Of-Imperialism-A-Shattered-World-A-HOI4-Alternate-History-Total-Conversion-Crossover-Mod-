@@ -28,7 +28,7 @@ focus_tree = {
     shared_focus = CAL_resolving_the_water_problem
     shared_focus = CAL_dealing_with_regionalists
     shared_focus = CAL_handling_the_political_system
-    shared_focus = CAL_expanding_the_california_military
+    shared_focus = CAL_expanding_the_california_military_into_something_more_than_a_local_force
     shared_focus = CAL_unknown_focus_2
     continuous_focus_position = { x = 450 y = 200 }
 }
@@ -2585,7 +2585,7 @@ shared_focus = {
 
 ### Focus Tree - Pre-Regional Military Tree ###
 shared_focus = {
-    id = CAL_expanding_the_california_military
+    id = CAL_expanding_the_california_military_into_something_more_than_a_local_force
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -2595,12 +2595,12 @@ shared_focus = {
     x = 41
     y = 1
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_expanding_the_california_military"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_expanding_the_california_military_into_something_more_than_a_local_force"
     }
 }
 
 shared_focus = {
-    id = CAL_rebuilding_the_air_force
+    id = CAL_sowing_the_seeds_of_a_national_air_force
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -2614,12 +2614,12 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_expanding_the_california_military
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_the_air_force"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_sowing_the_seeds_of_a_national_air_force"
     }
 }
 
 shared_focus = {
-    id = CAL_expanding_the_warlord_army
+    id = CAL_begin_planning_for_a_national_army
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -2633,12 +2633,12 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_expanding_the_california_military
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_expanding_the_warlord_army"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_planning_for_a_national_army"
     }
 }
 
 shared_focus = {
-    id = CAL_rebuilding_the_navy
+    id = CAL_begin_planning_for_a_national_navy
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -3368,7 +3368,7 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-	x = 36
+	x = 45
 	y = 0
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_the_total_overhaul_of_the_psa_military"
@@ -3392,6 +3392,82 @@ shared_focus = {
     relative_position_id = CAL_begin_the_total_overhaul_of_the_psa_military
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_each_military_branch"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_pacific_states_air_force
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_addressing_each_military_branch
+    }
+    x = -15
+    y = 1
+    relative_position_id = CAL_addressing_each_military_branch
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_pacific_states_air_force"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_pacific_states_army
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_addressing_each_military_branch
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_addressing_each_military_branch
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_pacific_states_army"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_pacific_states_navy
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_addressing_each_military_branch
+    }
+    x = 15
+    y = 1
+    relative_position_id = CAL_addressing_each_military_branch
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_pacific_states_navy"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_pacific_states_marine_corps
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_addressing_each_military_branch
+    }
+    x = 30
+    y = 1
+    relative_position_id = CAL_addressing_each_military_branch
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_pacific_states_marine_corps"
     }
 }
 
