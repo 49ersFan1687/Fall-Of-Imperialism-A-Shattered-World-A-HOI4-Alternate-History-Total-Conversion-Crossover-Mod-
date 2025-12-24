@@ -66,6 +66,10 @@ spriteTypes = {
 		name = "GFX_Lombardo_MCH"
 		textureFile = "gfx/leaders/MCH/GaetanoAlbertoLombardo.png"
 	}
+	spriteType = {
+		name = "GFX_Sydney_Novak_MCH"
+		textureFile = "gfx/leaders/MCH/SydneyNovak.png"
+	}
 
 	# California #
 	spriteType = {
