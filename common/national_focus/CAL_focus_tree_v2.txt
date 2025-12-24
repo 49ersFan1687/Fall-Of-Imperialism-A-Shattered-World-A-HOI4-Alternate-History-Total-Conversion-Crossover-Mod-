@@ -2608,11 +2608,11 @@ shared_focus = {
         factor = 1
     }
     prerequisite = {
-        focus = CAL_expanding_the_california_military
+        focus = CAL_expanding_the_california_military_into_something_more_than_a_local_force
     }
     x = -3
     y = 1
-    relative_position_id = CAL_expanding_the_california_military
+    relative_position_id = CAL_expanding_the_california_military_into_something_more_than_a_local_force
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_sowing_the_seeds_of_a_national_air_force"
     }
