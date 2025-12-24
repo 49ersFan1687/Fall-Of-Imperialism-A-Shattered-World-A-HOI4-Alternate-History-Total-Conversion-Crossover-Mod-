@@ -1,0 +1,21 @@
+###########################
+# Michigan events
+###########################
+
+add_namespace = michigan
+
+# Start Event
+country_event = {
+	id = michigan.1
+	title = michigan.1.t
+	desc = michigan.1.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = michigan.1.a
+	 		
+	}			
+}
