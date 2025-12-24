@@ -9,6 +9,10 @@ focus_tree = {
 	}
     default = no
 	shared_focus = MCH_Announce_A_State_Of_Emergency
+	shared_focus = MCH_Victory_Of_The_Socialists
+	shared_focus = MCH_A_Liberal_Michigan
+	shared_focus = MCH_A_British_Legacy
+	shared_focus = MCH_The_British_Doctrine
 
     continuous_focus_position = { x = 500 y = 2000 }
 }

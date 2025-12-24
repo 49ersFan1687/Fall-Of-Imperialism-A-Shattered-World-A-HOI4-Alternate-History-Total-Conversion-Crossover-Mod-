@@ -1,0 +1,75 @@
+﻿l_english:
+## Michigan ##
+
+ MCH_neutrality: "Administration of Michigan"
+ MCH_neutrality_DEF: "Administration of Michigan"
+ MCH_paternal_autocrat: "Administration of Michigan"
+ MCH_paternal_autocrat_DEF: "Administration of Michigan"
+ MCH: "Republic of Michigan"
+ MCH_DEF: "Republic of Michigan"
+
+ MCH_ADJ: "Michigander"
+
+#Political Parties
+
+MCH_communism_party: "Lewis' Red Army"
+MCH_communism_party_long: "§YLewis' Red Army§!"
+MCH_socialism_party: "SLP"
+MCH_socialism_party_long: "§YSocialist Labour Party§!"
+MCH_syndicalism_party: "§RN/A§!"
+MCH_syndicalism_party_long: "§RN/A§!"
+MCH_social_democracy_party: "SLP"
+MCH_social_democracy_party_long: "§YSocialist Labour Party§!"
+MCH_democratic_party: "Liberals"
+MCH_democratic_party_long: "§YLiberal Party§!"
+MCH_conservatism_party: "Unionists"
+MCH_conservatism_party_long: "§YUnionist Party§!"
+MCH_neutrality_party: "National Parliament"
+MCH_neutrality_party_long: "§YNational Parliament§!"
+MCH_paternal_autocrat_party: "CIF"
+MCH_paternal_autocrat_party_long: "§YCanadian Interventionist Forces§!"
+MCH_ultranationalism_party: "§RN/A§!"
+MCH_ultranationalism_party_long: "§RN/A§!"
+MCH_fascism_party: "§RN/A§!"
+MCH_fascism_party_long: "§RN/A§!"
+MCH_accelerationism_party: "§RN/A§!"
+MCH_accelerationism_party_long: "§RN/A§!"
+MCH_esotericism_party: "§RN/A§!"
+MCH_esotericism_party_long: "§RN/A§!"
+MCH_national_socialism_party: "NWM"
+MCH_national_socialism_party_long: "§YNational Workers' Movement§!"
+
+
+
+
+### Leader Bios ###
+
+
+### Traits ###
+
+
+### Ideas ###
+
+
+
+### Tooltips & Flags ###
+MCH_Militia_Power_Increase_Small_TT: "§YMilitia Power Will Increase §!§RMarginally§!"
+MCH_Militia_Power_Increase_TT: "§YMilitia Power Will Increase §!§BModerately§!"
+MCH_Militia_Power_Increase_Massive_TT: "§YMilitia Power Will Increase §!§GMassively§!"
+MCH_Militia_Power_Decrease_TT: "§YMilitia Power Will Decrease §!§CModerately§!"
+MCH_Militia_Power_Decrease_Massive_TT: "§YMilitia Power Will Decrease §!§GMassively§!"
+
+MCH_State_Of_Emergency_TT: "§RA State Of Emergency Will Be Enforced§!"
+
+
+### Decisions ###
+MCH_problems_in_arcadia_category: "Problems In Arcadia"
+MCH_problems_in_arcadia_category_desc: "When America Collapsed, Canadian forces marched into Detroit, setting up their own collaborationist regime. Since that time, resistance to the Canadian annexation has only grew...\n\nTo the left is §RH. H. Lewis' Red Army§!, a milita force wanting the expelling of Canadian Forces and the establishment of an Americanist Vanguard State.\nTo the right is §BThe National Workers' Movement§!, a Nazi group funded by the Germans which wants to 'get rid' of the Canadians in charge.\nOn Top of the political resistance, massive economic problems plague the nation. Unemployment is soaring, and average national income is at a record low.\n\nCurrent Militia Power: (§R[?MCH_Militia_Power]§!)\n\nOur Economic Stability: (§R[?MCH_Economic_Stability]§!)\n\n\n\n"
+
+### Events ###
+michigan.1.t: "A Brief Chat..."
+
+##Focus##
+MCH_Announce_A_State_Of_Emergency: "Announce A State Of Emergency"
+MCH_Announce_A_State_Of_Emergency_desc: "The Militia problem is getting out of hand, if we are to stabilise the nation enough to deal with the economic problems, §RWE MUST§! Announce a state of emergency, giving extra-judiciary powers to the Canadian Garrison."
+

@@ -1,0 +1,23 @@
+MCH_Militia_Power_Increase_Small = {
+	custom_effect_tooltip = MCH_Militia_Power_Increase_Small_TT
+	add_to_variable = { MCH_Militia_Power = 2 }
+}
+MCH_Militia_Power_Increase_Average = {
+	custom_effect_tooltip = MCH_Militia_Power_Increase_TT
+	add_to_variable = { MCH_Militia_Power = 6 }
+}
+MCH_Militia_Power_Increase_Massive = {
+	custom_effect_tooltip = MCH_Militia_Power_Increase_Massive_TT
+	add_to_variable = { MCH_Militia_Power = 15 }
+}
+MCH_Militia_Power_Decrease_Average = {
+	custom_effect_tooltip = MCH_Militia_Power_Decrease_TT
+	add_to_variable = { MCH_Militia_Power = -6 }
+}
+MCH_Militia_Power_Decrease_Massive = {
+	custom_effect_tooltip = MCH_Militia_Power_Decrease_Massive_TT
+	add_to_variable = { MCH_Militia_Power = -15 }
+}
+
+
+

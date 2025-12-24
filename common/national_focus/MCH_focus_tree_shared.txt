@@ -11,6 +11,10 @@ shared_focus = {
 	x = 7
 	y = 0
 	completion_reward = {
+		custom_effect_tooltip = MCH_State_Of_Emergency_TT
+		add_stability = -0.1
+		MCH_Militia_Power_Decrease_Average = yes
+		country_event = { id = michigan.1 }
 
 	}
 }
@@ -20,6 +24,17 @@ shared_focus = {
 	prerequisite = { focus = MCH_Announce_A_State_Of_Emergency }	
 	cost = 2
 	x = 6
+	y = 1
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_An_Equal_Partnership
+	icon = GFX_fish
+	prerequisite = { focus = MCH_Announce_A_State_Of_Emergency }	
+	cost = 10
+	x = 8
 	y = 1
 	completion_reward = {
 
@@ -101,6 +116,255 @@ shared_focus = {
 	cost = 4
 	x = 9
 	y = 2
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Invest_In_Detroit
+	icon = GFX_fish
+	prerequisite = { focus = MCH_Utilise_Canadian_Aid }
+	cost = 5
+	x = 8
+	y = 3
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Economic_Protectionism
+	icon = GFX_fish
+	prerequisite = { focus = MCH_Invest_In_Detroit }
+	cost = 7
+	x = 8
+	y = 4
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Dish_Out_Relief
+	icon = GFX_fish
+	prerequisite = { focus = MCH_Utilise_Canadian_Aid }
+	cost = 3
+	x = 10
+	y = 3
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_The_Poor_Law_Amendement_Act
+	icon = GFX_fish
+	prerequisite = { focus = MCH_Dish_Out_Relief }
+	cost = 7
+	x = 10
+	y = 4
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Right_To_Work
+	icon = GFX_fish
+	prerequisite = { focus = MCH_The_Poor_Law_Amendement_Act }
+	prerequisite = { focus = MCH_Economic_Protectionism }
+	cost = 5
+	x = 9
+	y = 5
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Fix_The_Economy
+	icon = GFX_fish
+	prerequisite = { focus = MCH_Right_To_Work }
+	cost = 6
+	x = 9
+	y = 6
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Allow_The_Parliament_To_Return
+	icon = GFX_fish
+	prerequisite = { focus = MCH_Fix_The_Economy }
+	prerequisite = { focus = MCH_End_The_State_Of_Emergency }
+	cost = 4
+	x = 8
+	y = 7
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_New_Elections
+	icon = GFX_fish
+	prerequisite = { focus = MCH_Allow_The_Parliament_To_Return }
+	cost = 1
+	x = 8
+	y = 8
+	completion_reward = {
+
+	}
+}
+#Elections#
+shared_focus = {
+	id = MCH_Victory_Of_The_Socialists
+	mutually_exclusive = { focus = MCH_A_Liberal_Michigan }
+	mutually_exclusive = { focus = MCH_A_British_Legacy }
+	icon = GFX_fish
+	cost = 1
+	x = 15
+	y = 2
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Nationalistion_Of_Corporate_Property
+	prerequisite = { focus = MCH_Victory_Of_The_Socialists }
+	icon = GFX_fish
+	cost = 5
+	x = 14
+	y = 3
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Michigan_Bill_Of_Rights
+	prerequisite = { focus = MCH_Victory_Of_The_Socialists focus = MCH_A_Liberal_Michigan }
+	icon = GFX_fish
+	cost = 5
+	x = 16
+	y = 3
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_A_Liberal_Michigan
+	mutually_exclusive = { focus = MCH_Victory_Of_The_Socialists }
+	mutually_exclusive = { focus = MCH_A_British_Legacy }
+	icon = GFX_fish
+	cost = 1
+	x = 17
+	y = 2
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Teach_Adam_Smith
+	prerequisite = { focus = MCH_A_British_Legacy focus = MCH_A_Liberal_Michigan }
+	icon = GFX_fish
+	cost = 5
+	x = 18
+	y = 3
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_A_British_Legacy
+	mutually_exclusive = { focus = MCH_A_Liberal_Michigan }
+	mutually_exclusive = { focus = MCH_Victory_Of_The_Socialists }
+	icon = GFX_fish
+	cost = 1
+	x = 19
+	y = 2
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Join_The_Maple_Leaf
+	prerequisite = { focus = MCH_A_British_Legacy }
+	icon = GFX_fish
+	cost = 5
+	x = 20
+	y = 3
+	completion_reward = {
+
+	}
+}
+#Army Tree
+shared_focus = {
+	id = MCH_The_British_Doctrine
+	icon = GFX_fish
+	cost = 2
+	x = 14
+	y = 5
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Central_Control
+	icon = GFX_fish
+	prerequisite = { focus = MCH_The_British_Doctrine }
+	cost = 4
+	x = 13
+	y = 6
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Meritocratic_Professionalism
+	icon = GFX_fish
+	prerequisite = { focus = MCH_Central_Control }
+	cost = 5
+	x = 13
+	y = 7
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Tally_Ho #Gives Idea 'tally ho lads'
+	icon = GFX_fish
+	prerequisite = { focus = MCH_The_British_Doctrine }
+	cost = 7
+	x = 17
+	y = 6
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Keep_Calm_And_Carry_On
+	icon = GFX_fish
+	prerequisite = { focus = MCH_Tally_Ho }
+	cost = 4
+	x = 17
+	y = 7
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Green_Water_Navy
+	icon = GFX_fish
+	prerequisite = { focus = MCH_The_British_Doctrine }
+	cost = 7
+	x = 15
+	y = 6
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = MCH_Grand_Army
+	icon = GFX_fish
+	prerequisite = { focus = MCH_Keep_Calm_And_Carry_On }
+	prerequisite = { focus = MCH_Meritocratic_Professionalism }
+	cost = 5
+	x = 15
+	y = 8
 	completion_reward = {
 
 	}
