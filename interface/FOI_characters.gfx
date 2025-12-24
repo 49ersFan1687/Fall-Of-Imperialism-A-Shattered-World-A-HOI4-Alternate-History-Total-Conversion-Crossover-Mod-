@@ -161,11 +161,67 @@ spriteTypes = {
 		textureFile = "gfx/leaders/CAL/Portrait_James_Cordie_Dozier.dds" 
 	}
 
-	# Cascadia #
+	# Cascadia - Power Rangers Characters #
 
+	spriteType = {
+		name = "GFX_CSD_Jason_Lee Scott"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Jason_Lee Scott.dds"
+	}
+	spriteType = {
+		name = "GFX_CSD_Tommy_Oliver"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Tommy_Oliver.dds"
+	}
+	spriteType = {
+		name = "GFX_CSD_Zack_Taylor"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Zack_Taylor.dds"
+	}
+	spriteType = {
+		name = "GFX_CSD_Billy_Cranston"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Billy_Cranston.dds"
+	}
+	spriteType = {
+		name = "GFX_CSD_Kimberly_Ann_Hart"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Kimberly_Ann_Hart.dds"
+	}
+	spriteType = {
+		name = "GFX_CSD_Trini_Kwan"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Trini_Kwan.dds"
+	}
+	spriteType = {
+		name = "GFX_CSD_Rocky_De_Santos"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Rocky_De_Santos.dds"
+	}
 	spriteType = {
 		name = "GFX_CSD_Adam_Park"
 		textureFile = "gfx/leaders/CSD/Portrait_CSD_Adam_Park.dds"
+	}
+	spriteType = {
+		name = "GFX_CSD_Aisha_Campbell"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Aisha_Campbell.dds"
+	}
+	spriteType = {
+		name = "GFX_CSD_Katherine_Hillard"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Katherine_Hillard.dds"
+	}
+	spriteType = {
+		name = "GFX_CSD_Tanya_Sloan"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Tanya_Sloan.dds"
+	}
+	spriteType = {
+		name = "GFX_CSD_Theodore_Jarvis_Johsnon"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Theodore_Jarvis_Johsnon.dds"
+	}
+	spriteType = {
+		name = "GFX_CSD_Ashley_Hammond"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Ashley_Hammond.dds"
+	}
+	spriteType = {
+		name = "GFX_CSD_Cassie_Chan"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Cassie_Chan.dds"
+	}
+	spriteType = {
+		name = "GFX_CSD_Carlos_Vallerte"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Carlos_Vallerte.dds"
 	}
 
 }

@@ -2,12 +2,14 @@
 CAL_foi_chrysler = {
     name = CAL_foi_chrysler
     icon = GFX_idea_foi_chrysler
+    
 }
 
 ### Naval Military-Industrial Organizations ###
 
 
 ### Air Military-Industrial Organizations ###
+CAL
 
 
 ### Equipment Military-Industrial Organizations ###
