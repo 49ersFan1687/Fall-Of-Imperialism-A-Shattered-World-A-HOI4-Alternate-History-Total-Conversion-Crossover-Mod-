@@ -70,6 +70,18 @@ spriteTypes = {
 		name = "GFX_Sydney_Novak_MCH"
 		textureFile = "gfx/leaders/MCH/SydneyNovak.png"
 	}
+	spriteType = {
+		name = "GFX_Harry_Crerar_MCH"
+		textureFile = "gfx/leaders/MCH/HarryCrerar.png"
+	}
+	spriteType = {
+		name = "GFX_John_Turner_MCH"
+		textureFile = "gfx/leaders/MCH/JohnTurner.png"
+	}
+	spriteType = {
+		name = "GFX_Mennen_Williams_MCH"
+		textureFile = "gfx/leaders/MCH/GMennenWilliams.png"
+	}
 
 	# California #
 	spriteType = {
