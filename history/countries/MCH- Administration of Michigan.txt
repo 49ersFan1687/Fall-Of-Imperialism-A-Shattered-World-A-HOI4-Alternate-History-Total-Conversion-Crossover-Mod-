@@ -51,7 +51,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Sydney Novak"
-	picture = GFX_fish
+	picture = GFX_Sydney_Novak_MCH
 	expire = "1995.1.1"
 	ideology = democratic_socialism_ideology
 	traits = {
