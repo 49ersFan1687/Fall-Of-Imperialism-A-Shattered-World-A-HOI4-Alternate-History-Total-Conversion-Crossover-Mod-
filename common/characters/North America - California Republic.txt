@@ -440,6 +440,7 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 3
 		}
+		gender = female
 	}
 
 	CAL_william_childs_westmoreland = {
@@ -736,6 +737,29 @@ characters = {
 		}
 	}
 
+	CAL_daring_do = {
+		name = CAL_daring_do
+		desc = 
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Daring_Do.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				recon_expert
+				trait_reckless
+				commando
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		gender = female
+	}
+
 	CAL_james_cordie_dozier = {
 		name = CAL_james_cordie_dozier
 		desc = 
@@ -746,7 +770,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				infantry_officer
+				skilled_staffer
 				infantry_leader
 				infantry_expert
 				trait_cautious
@@ -779,6 +803,7 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 2
 		}
+		gender = female
 	}
 
 	CAL_charity_edna_adams_earley = {
@@ -800,6 +825,7 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 2
 		}
+		gender = female
 	}
 
 	# Admirals #
@@ -1011,5 +1037,5 @@ characters = {
 
 	# Operatives #
 
-	
+
 }
