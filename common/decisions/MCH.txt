@@ -1,0 +1,245 @@
+MCH_problems_in_arcadia_category = {
+	MCH_Militia_Power_Ticker = {
+
+		icon = GFX_decision_generic_chess_knight_rook_bishop_pawn
+
+		allowed = {
+			tag = MCH
+		}
+
+		activation = {
+			always = no
+		}
+
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		cancel_trigger = {
+       			NOT = {
+				has_country_flag = MCH_Militia_Problems
+			}
+    		}
+
+		cancel_if_not_visible = yes
+
+		days_mission_timeout = 14
+
+		timeout_effect = {
+			MCH_Militia_Power_Increase_Average = yes
+			hidden_effect = {
+				activate_mission = MCH_Militia_Power_Ticker
+			}
+	
+			
+		}
+	}
+	MCH_combat_communist_militias = {
+		icon = GFX_decision_generic_political_rally 
+
+		visible = {
+			has_completed_focus = MCH_Deal_With_The_Militia_Issue
+			has_country_flag = MCH_Militia_Problems
+		}
+		available = {
+			has_country_flag = MCH_Militia_Problems
+		}
+
+
+		cost = 25
+
+		days_remove = 20
+
+		days_re_enable = 15
+
+		remove_effect = {
+			MCH_Militia_Power_Decrease_Average = yes
+			add_popularity = {
+			ideology = communism
+			popularity = -0.03
+			}
+		}
+
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+	MCH_combat_nazi_militias = {
+		icon = GFX_decision_generic_political_rally 
+
+		visible = {
+			has_completed_focus = MCH_Deal_With_The_Militia_Issue
+		}
+		available = {
+			has_country_flag = MCH_Militia_Problems
+		}
+
+
+		cost = 25
+
+		days_remove = 20
+
+		days_re_enable = 15
+
+		remove_effect = {
+			MCH_Militia_Power_Decrease_Average = yes
+			add_popularity = {
+			ideology = national_socialism
+			popularity = -0.03
+			}
+		}
+
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+	MCH_raid_militia_strongholds = {
+		icon = GFX_decision_generic_political_rally 
+
+		visible = {
+			has_completed_focus = MCH_Raid_Militias
+		}
+		available = {
+			has_country_flag = MCH_Militia_Problems
+		}
+
+
+		cost = 55
+
+		days_remove = 30
+
+		days_re_enable = 25
+
+		remove_effect = {
+			MCH_Militia_Power_Decrease_Massive = yes
+			add_equipment_to_stockpile = {
+   			type = infantry_equipment
+    			amount = -55
+    			roducer = MCH
+			}
+		}
+
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+	MCH_issue_propaganda = {
+		icon = GFX_decision_generic_political_rally 
+
+		visible = {
+			has_completed_focus = MCH_Deal_With_The_Militia_Issue
+		}
+		available = {
+			has_country_flag = MCH_Militia_Problems
+		}
+
+
+		cost = 5
+
+		days_remove = 7
+
+		days_re_enable = 30
+
+		remove_effect = {
+			add_political_power = 15
+		}
+
+		ai_will_do = {
+
+			base = 1
+
+		}
+	}
+	MCH_Urban_Renewal = {
+		icon = GFX_decision_generic_political_rally 
+
+		visible = {
+			has_completed_focus = MCH_Invest_In_Detroit
+		}
+		available = {
+			has_country_flag = MCH_Economic_Issues
+		}
+
+
+		cost = 50
+
+		days_remove = 15
+
+		days_re_enable = 30
+
+		remove_effect = {
+			MCH_Economic_Stability_Increase = yes
+		}
+
+		ai_will_do = {
+			base = 1
+
+
+		}
+	}
+
+	MCH_Economic_Investment = {
+		icon = GFX_decision_generic_political_rally 
+
+		visible = {
+			has_completed_focus = MCH_Utilise_Canadian_Aid
+		}
+		available = {
+			has_country_flag = MCH_Economic_Issues
+		}
+
+
+		cost = 25
+
+		days_remove = 15
+
+		days_re_enable = 15
+
+		remove_effect = {
+			MCH_Economic_Stability_Increase_Small = yes
+		}
+
+		ai_will_do = {
+
+			base = 1
+
+		}
+	}
+	MCH_Petition_For_Aid = {
+		icon = GFX_decision_generic_political_rally 
+
+		visible = {
+			has_completed_focus = MCH_Utilise_Canadian_Aid
+		}
+		available = {
+			has_country_flag = MCH_Economic_Issues
+		}
+
+
+		cost = 5
+
+		days_remove = 25
+
+		days_re_enable = 30
+
+		remove_effect = {
+			MCH_Economic_Stability_Increase_Small = yes
+			add_political_power = 10
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+	
+
+
+}

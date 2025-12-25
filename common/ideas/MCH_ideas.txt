@@ -1,0 +1,301 @@
+ideas = {
+    ### Country Ideas - Michigan ###
+    country = {
+     MCH_Canadian_Garrison = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		stability_factor = 0.05
+		consumer_goods_factor = -0.05
+		resistance_activity = -0.15
+            }
+	}
+      
+     MCH_Militia_Strength_1 = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		communism_drift = 0.01
+		national_socialism_drift = 0.01
+		stability_factor = -0.05
+		war_support_factor = -0.04
+		monthly_population = -0.03
+                production_speed_buildings_factor = -0.03
+            }
+	}
+     MCH_Militia_Strength_2 = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		communism_drift = 0.01
+		national_socialism_drift = 0.01
+		stability_factor = -0.08
+		war_support_factor = -0.10
+		monthly_population = -0.06
+                production_speed_buildings_factor = -0.09
+            }
+	}
+     MCH_Militia_Strength_3 = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		communism_drift = 0.02
+		national_socialism_drift = 0.02
+		stability_factor = -0.13
+		war_support_factor = -0.15
+		monthly_population = -0.09
+                production_speed_buildings_factor = -0.13
+            }
+	}
+     MCH_Militia_Strength_4 = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		communism_drift = 0.03
+		national_socialism_drift = 0.03
+		stability_factor = -0.19
+		war_support_factor = -0.21
+		monthly_population = -0.11
+                production_speed_buildings_factor = -0.17
+            }
+	}
+     MCH_Militia_Strength_5 = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		communism_drift = 0.03
+		national_socialism_drift = 0.03
+		stability_factor = -0.23
+		war_support_factor = -0.25
+		monthly_population = -0.13
+                production_speed_buildings_factor = -0.19
+            }
+	}
+     MCH_Militia_Strength_6 = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		communism_drift = 0.03
+		national_socialism_drift = 0.03
+		stability_factor = -0.27
+		war_support_factor = -0.29
+		monthly_population = -0.16
+                production_speed_buildings_factor = -0.23
+            }
+	}
+     MCH_Militia_Strength_7 = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		communism_drift = 0.04
+		national_socialism_drift = 0.04
+		stability_factor = -0.31
+		war_support_factor = -0.34
+		monthly_population = -0.19
+                production_speed_buildings_factor = -0.25
+            }
+	}
+     MCH_Militia_Strength_8 = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		communism_drift = 0.05
+		national_socialism_drift = 0.05
+		stability_factor = -0.35
+		war_support_factor = -0.38
+		monthly_population = -0.24
+                production_speed_buildings_factor = -0.31
+            }
+	}
+     MCH_Militia_Strength_9 = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		communism_drift = 0.07
+		national_socialism_drift = 0.07
+		stability_factor = -0.38
+		war_support_factor = -0.41
+		monthly_population = -0.28
+                production_speed_buildings_factor = -0.36
+            }
+	}
+
+
+     MCH_Economic_1 = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		consumer_goods_factor = 0.5
+		industrial_capacity_factory = -0.35
+		industrial_capacity_dockyard = -0.15
+		production_speed_buildings_factor = -0.23
+            }
+	}
+     MCH_Economic_2 = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		consumer_goods_factor = 0.36
+		industrial_capacity_factory = -0.24
+		industrial_capacity_dockyard = -0.09
+		production_speed_buildings_factor = -0.19
+            }
+	}
+     MCH_Economic_3 = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		consumer_goods_factor = 0.3
+		industrial_capacity_factory = -0.2
+		industrial_capacity_dockyard = -0.07
+		production_speed_buildings_factor = -0.14
+            }
+	}
+     MCH_Economic_4 = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		consumer_goods_factor = 0.2
+		industrial_capacity_factory = -0.14
+		industrial_capacity_dockyard = -0.03
+		production_speed_buildings_factor = -0.07
+            }
+	}
+     MCH_Economic_5 = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		consumer_goods_factor = 0.1
+		industrial_capacity_factory = -0.06
+		industrial_capacity_dockyard = -0.01
+		production_speed_buildings_factor = -0.03
+            }
+	}
+
+     MCH_Outdoor_Relief = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		consumer_goods_factor = 0.05
+		stability_factor = 0.07
+		monthly_population = 0.12
+		industrial_capacity_factory = 0.08
+		
+            }
+	}
+    MCH_Outdoor_Relief_2 = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		consumer_goods_factor = 0.09
+		stability_factor = 0.1
+		monthly_population = 0.16
+		industrial_capacity_factory = 0.11
+		
+            }
+	}
+     MCH_Workhouses = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		consumer_goods_factor = -0.13
+		stability_factor = -0.09
+		monthly_population = -0.12
+		industrial_capacity_factory = 0.08
+		
+            }
+	}
+   	MCH_Protectionist_Policy = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		industrial_capacity_factory = 0.09
+		production_speed_buildings_factor = 0.11
+		trade_opinion_factor = -0.13
+		min_export = -0.15
+		
+            }
+	}
+  	MCH_Socialist_Michigan = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		consumer_goods_factor = 0.05
+		stability_factor = 0.15
+		socialism_drift = 0.03
+		
+            }
+	}
+  	MCH_Liberal_Michigan = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		consumer_goods_factor = -0.05
+		war_support = 0.05
+		stability = 0.05
+		democratic_drift = 0.03
+		
+            }
+	}
+  	MCH_Canadian_Michigan = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		conservatism_drift = 0.05
+		war_support_factor = 0.1
+            }
+	}
+  	MCH_Bill_Of_Rights = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		stability_factor = 0.1
+		war_support_factor = 0.05
+		political_power_gain = 0.15
+            }
+	}
+  	MCH_Strong_Police = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		stability = -0.07
+		consumer_goods_factor = -0.09
+            }
+	}
+  	MCH_Professional_Army = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		experience_gain_army = 0.15
+		training_time_army_factor = 0.15
+		army_org_factor = 0.1
+            }
+	}
+  	MCH_Tally_Ho_Lads = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		army_morale_factor = 0.1
+		breakthrough_factor = 0.13
+		coordination_bonus = 0.17
+            }
+	}
+  	MCH_Keep_Calm_Carry_On = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		army_morale_factor = 0.23
+		breakthrough_factor = 0.21
+		coordination_bonus = 0.2
+            }
+	}
+ 	MCH_Green_Water_Navy_Idea = { 
+             allowed = { always = no }
+             picture = GFX_fish
+             modifier = {
+		army_defence_against_major_factor = 0.24
+		army_attack_speed_factor = 0.13
+		acclimatization_cold_climate_gain_factor = 0.09
+            }
+	}
+}

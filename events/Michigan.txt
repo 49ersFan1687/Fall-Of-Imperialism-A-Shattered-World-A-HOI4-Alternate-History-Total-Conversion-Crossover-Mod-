@@ -19,3 +19,342 @@ country_event = {
 	 		
 	}			
 }
+country_event = {
+	id = michigan.2
+	title = michigan.2.t
+	desc = michigan.2.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = michigan.2.a
+		add_political_power = 5
+	 		
+	}			
+}
+country_event = {
+	id = michigan.3
+	title = michigan.3.t
+	desc = michigan.3.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = michigan.3.a
+		CAN = {
+			set_autonomy = {
+    				target = MCH
+    				autonomous_state = autonomy_free
+    				end_wars = no
+    				end_civil_wars = no
+	 		
+				}
+		}
+		remove_ideas = MCH_Canadian_Garrison
+		set_cosmetic_tag = MCH_Free
+	}			
+}
+country_event = {
+	id = michigan.4
+	title = michigan.4.t
+	desc = michigan.4.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = michigan.4.a
+		add_stability = -0.05
+	 		
+	}			
+}
+country_event = {
+	id = michigan.5
+	title = michigan.5.t
+	desc = michigan.5.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = michigan.5.a
+		clr_country_flag = MCH_Militia_Problems
+		add_stability = 0.15
+		hidden_effect = {
+		remove_ideas = MCH_Militia_Strength_1
+		remove_ideas = MCH_Militia_Strength_2
+		remove_ideas = MCH_Militia_Strength_3
+		remove_ideas = MCH_Militia_Strength_4
+		remove_ideas = MCH_Militia_Strength_5
+		remove_ideas = MCH_Militia_Strength_6
+		remove_ideas = MCH_Militia_Strength_7
+		remove_ideas = MCH_Militia_Strength_8
+		remove_ideas = MCH_Militia_Strength_9
+		}
+	 		
+	}			
+}
+country_event = {
+	id = michigan.6
+	title = michigan.6.t
+	desc = michigan.6.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = michigan.6.a
+
+		activate_mission = MCH_Militia_Power_Ticker
+		set_country_flag = MCH_Militia_Problems
+		set_country_flag = MCH_Economic_Issues
+		hidden_effect = {
+		MCH_Check_Militia_Power = yes
+		MCH_Check_Economic = yes
+		}
+	 		
+	}			
+}
+country_event = {
+	id = michigan.7
+	title = michigan.7.t
+	desc = michigan.7.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = michigan.7.a
+	 	add_political_power = 50	
+	}			
+}
+country_event = {
+	id = michigan.8
+	title = michigan.8.t
+	desc = michigan.8.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = michigan.8.a
+	 		
+	}			
+}
+country_event = {
+	id = michigan.9
+	title = michigan.9.t
+	desc = michigan.9.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = michigan.9.a
+		swap_ideas = {
+			remove_idea = MCH_Outdoor_Relief
+			add_idea = MCH_Workhouses
+		}
+	 		
+	}
+	option = {
+		name = michigan.9.b
+		swap_ideas = {
+			remove_idea = MCH_Outdoor_Relief
+			add_idea = MCH_Outdoor_Relief_2
+		}
+	 		
+	}				
+}
+country_event = {
+	id = michigan.10
+	title = michigan.10.t
+	desc = michigan.10.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = michigan.10.a
+		add_popularity = {
+				ideology = socialism
+				popularity = 0.05
+		}
+	 		
+	}			
+}
+country_event = {
+	id = michigan.11
+	title = michigan.11.t
+	desc = michigan.11.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = michigan.11.a
+	 	clr_country_flag = MCH_Economic_Issues
+		add_stability = 0.15
+		hidden_effect = {
+		remove_ideas = MCH_Economic_1
+		remove_ideas = MCH_Economic_2
+		remove_ideas = MCH_Economic_3
+		remove_ideas = MCH_Economic_4
+		remove_ideas = MCH_Economic_5
+		}
+	}			
+}
+country_event = {
+	id = michigan.12
+	title = michigan.12.t
+	desc = michigan.12.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = michigan.12.a
+			add_popularity = {
+				ideology = paternal_autocrat
+				popularity = -0.25
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = -0.25
+			}
+			add_popularity = {
+				ideology = national_socialism
+				popularity = -0.25
+			}
+	 		
+	}			
+}
+country_event = {
+	id = michigan.13
+	title = michigan.13.t
+	desc = michigan.13.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = michigan.13.a
+			set_politics = {
+				ruling_party = socialism
+       				elections_allowed = yes
+        			last_election = 1950.01.01
+			}
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.23
+			}
+			set_country_flag = MCH_Snap_Elections_Held
+	 		
+	}
+	option = {
+		name = michigan.13.b
+			set_politics = {
+				ruling_party = conservatism
+       				elections_allowed = yes
+        			last_election = 1950.01.01
+			}
+			add_popularity = {
+				ideology = conservatism
+				popularity = 0.25
+			}
+			set_country_flag = MCH_Snap_Elections_Held
+	}
+	option = {
+		name = michigan.13.c
+			set_politics = {
+				ruling_party = democratic
+       				elections_allowed = yes
+        			last_election = 1950.01.01
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.25
+			}
+			set_country_flag = MCH_Snap_Elections_Held
+	 		
+	}			
+}
+country_event = {
+	id = michigan.14
+	title = michigan.14.t
+	desc = michigan.14.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = michigan.14.a
+		add_political_power = 50
+		add_stability = 0.14
+	 		
+	}			
+}
+country_event = {
+	id = michigan.15
+	title = michigan.15.t
+	desc = michigan.15.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = michigan.15.a
+			add_ideas = MCH_Bill_Of_Rights
+	}			
+}
+country_event = {
+	id = michigan.16
+	title = michigan.16.t
+	desc = michigan.16.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = michigan.16.a
+	 		CAN = {
+				add_state_core = 393
+				annex_country = {
+					target = MCH
+					transfer_troops = yes
+				}
+			}
+	 		
+	}			
+}
+country_event = {
+	id = michigan.17
+	title = michigan.17.t
+	desc = michigan.17.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = michigan.17.a
+	 		
+	}			
+}

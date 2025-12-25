@@ -12,10 +12,13 @@ set_politics = {
 	elections_allowed = no
 }
 add_ideas = AMR_the_end_of_the_american_experiment
+add_ideas = MCH_Canadian_Garrison
 set_popularities = {
 	neutrality = 25
-	democratic = 20
-	conservatism = 20
+	democratic = 18
+	communism = 2
+	conservatism = 18
+	national_socialism = 2
 	social_democracy = 10
 	paternal_autocrat = 15
 	socialism = 10
