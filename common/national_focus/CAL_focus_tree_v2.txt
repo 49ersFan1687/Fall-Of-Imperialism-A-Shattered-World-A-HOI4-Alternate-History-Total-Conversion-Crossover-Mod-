@@ -1039,7 +1039,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_arms_companies_subsidiaries
+    id = CAL_arms_companies_subsidies
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -1053,12 +1053,12 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_establishing_a_military_focused_economy
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_arms_companies_subsidiaries"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_arms_companies_subsidies"
     }
 }
 
 shared_focus = {
-    id = CAL_dealing_with_labor_shortage
+    id = CAL_dealing_with_labor_shortages
     icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -1072,7 +1072,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_establishing_a_military_focused_economy
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_dealing_with_labor_shortage"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_dealing_with_labor_shortages"
     }
 }
 
@@ -1360,11 +1360,11 @@ shared_focus = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_arms_companies_subsidiaries
+        focus = CAL_arms_companies_subsidies
     }
     x = 0
 	y = 1
-	relative_position_id = CAL_arms_companies_subsidiaries
+	relative_position_id = CAL_arms_companies_subsidies
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_create_the_war_research_department"
     }
@@ -1379,11 +1379,11 @@ shared_focus = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_dealing_with_labor_shortage
+        focus = CAL_dealing_with_labor_shortages
     }
     x = 0
 	y = 1
-	relative_position_id = CAL_dealing_with_labor_shortage
+	relative_position_id = CAL_dealing_with_labor_shortages
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_place_factories_under_military_oversight"
     }
