@@ -1,23 +1,305 @@
 MCH_Militia_Power_Increase_Small = {
 	custom_effect_tooltip = MCH_Militia_Power_Increase_Small_TT
 	add_to_variable = { MCH_Militia_Power = 2 }
+	hidden_effect = {
+	MCH_Check_Militia_Power = yes
+	}
 }
 MCH_Militia_Power_Increase_Average = {
 	custom_effect_tooltip = MCH_Militia_Power_Increase_TT
 	add_to_variable = { MCH_Militia_Power = 6 }
+	hidden_effect = {
+	MCH_Check_Militia_Power = yes
+	}
 }
 MCH_Militia_Power_Increase_Massive = {
 	custom_effect_tooltip = MCH_Militia_Power_Increase_Massive_TT
 	add_to_variable = { MCH_Militia_Power = 15 }
+	hidden_effect = {
+	MCH_Check_Militia_Power = yes
+	}
+}
+MCH_Militia_Power_Decrease_Small = {
+	custom_effect_tooltip = MCH_Militia_Power_Decrease_Small_TT
+	add_to_variable = { MCH_Militia_Power = -2 }
+	hidden_effect = {
+	MCH_Check_Militia_Power = yes
+	}
 }
 MCH_Militia_Power_Decrease_Average = {
 	custom_effect_tooltip = MCH_Militia_Power_Decrease_TT
 	add_to_variable = { MCH_Militia_Power = -6 }
+	hidden_effect = {
+	MCH_Check_Militia_Power = yes
+	}
 }
 MCH_Militia_Power_Decrease_Massive = {
 	custom_effect_tooltip = MCH_Militia_Power_Decrease_Massive_TT
 	add_to_variable = { MCH_Militia_Power = -15 }
+	hidden_effect = {
+	MCH_Check_Militia_Power = yes
+	}
 }
+MCH_Check_Militia_Power = {
+	if = { 
+		limit = {
+			NOT = {
+				has_idea = MCH_Militia_Strength_1
+			}
+			check_variable = { MCH_Militia_Power < 10 }
+		}
+	remove_ideas = MCH_Militia_Strength_2
+	remove_ideas = MCH_Militia_Strength_3
+	remove_ideas = MCH_Militia_Strength_4
+	remove_ideas = MCH_Militia_Strength_5
+	remove_ideas = MCH_Militia_Strength_6
+	remove_ideas = MCH_Militia_Strength_7
+	remove_ideas = MCH_Militia_Strength_8
+	remove_ideas = MCH_Militia_Strength_9
+	add_ideas = MCH_Militia_Strength_1
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_idea = MCH_Militia_Strength_2
+			}
+			check_variable = { MCH_Militia_Power < 20 }
+			check_variable = { MCH_Militia_Power > 9 }
+		}
+	remove_ideas = MCH_Militia_Strength_1
+	remove_ideas = MCH_Militia_Strength_3
+	remove_ideas = MCH_Militia_Strength_4
+	remove_ideas = MCH_Militia_Strength_5
+	remove_ideas = MCH_Militia_Strength_6
+	remove_ideas = MCH_Militia_Strength_7
+	remove_ideas = MCH_Militia_Strength_8
+	remove_ideas = MCH_Militia_Strength_9
+	add_ideas = MCH_Militia_Strength_2
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_idea = MCH_Militia_Strength_3
+			}
+			check_variable = { MCH_Militia_Power < 30 }
+			check_variable = { MCH_Militia_Power > 19 }
+		}
+	remove_ideas = MCH_Militia_Strength_1
+	remove_ideas = MCH_Militia_Strength_2
+	remove_ideas = MCH_Militia_Strength_4
+	remove_ideas = MCH_Militia_Strength_5
+	remove_ideas = MCH_Militia_Strength_6
+	remove_ideas = MCH_Militia_Strength_7
+	remove_ideas = MCH_Militia_Strength_8
+	remove_ideas = MCH_Militia_Strength_9
+	add_ideas = MCH_Militia_Strength_3
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_idea = MCH_Militia_Strength_4
+			}
+			check_variable = { MCH_Militia_Power < 40 }
+			check_variable = { MCH_Militia_Power > 29 }
+		}
+	remove_ideas = MCH_Militia_Strength_1
+	remove_ideas = MCH_Militia_Strength_3
+	remove_ideas = MCH_Militia_Strength_2
+	remove_ideas = MCH_Militia_Strength_5
+	remove_ideas = MCH_Militia_Strength_6
+	remove_ideas = MCH_Militia_Strength_7
+	remove_ideas = MCH_Militia_Strength_8
+	remove_ideas = MCH_Militia_Strength_9
+	add_ideas = MCH_Militia_Strength_4
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_idea = MCH_Militia_Strength_5
+			}
+			check_variable = { MCH_Militia_Power < 50 }
+			check_variable = { MCH_Militia_Power > 39 }
+		}
+	remove_ideas = MCH_Militia_Strength_1
+	remove_ideas = MCH_Militia_Strength_3
+	remove_ideas = MCH_Militia_Strength_4
+	remove_ideas = MCH_Militia_Strength_2
+	remove_ideas = MCH_Militia_Strength_6
+	remove_ideas = MCH_Militia_Strength_7
+	remove_ideas = MCH_Militia_Strength_8
+	remove_ideas = MCH_Militia_Strength_9
+	add_ideas = MCH_Militia_Strength_5
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_idea = MCH_Militia_Strength_6
+			}
+			check_variable = { MCH_Militia_Power < 60 }
+			check_variable = { MCH_Militia_Power > 49 }
+		}
+	remove_ideas = MCH_Militia_Strength_1
+	remove_ideas = MCH_Militia_Strength_3
+	remove_ideas = MCH_Militia_Strength_4
+	remove_ideas = MCH_Militia_Strength_5
+	remove_ideas = MCH_Militia_Strength_2
+	remove_ideas = MCH_Militia_Strength_7
+	remove_ideas = MCH_Militia_Strength_8
+	remove_ideas = MCH_Militia_Strength_9
+	add_ideas = MCH_Militia_Strength_6
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_idea = MCH_Militia_Strength_7
+			}
+			check_variable = { MCH_Militia_Power < 70 }
+			check_variable = { MCH_Militia_Power > 59 }
+		}
+	remove_ideas = MCH_Militia_Strength_1
+	remove_ideas = MCH_Militia_Strength_3
+	remove_ideas = MCH_Militia_Strength_4
+	remove_ideas = MCH_Militia_Strength_5
+	remove_ideas = MCH_Militia_Strength_6
+	remove_ideas = MCH_Militia_Strength_2
+	remove_ideas = MCH_Militia_Strength_8
+	remove_ideas = MCH_Militia_Strength_9
+	add_ideas = MCH_Militia_Strength_7
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_idea = MCH_Militia_Strength_8
+			}
+			check_variable = { MCH_Militia_Power < 80 }
+			check_variable = { MCH_Militia_Power > 69 }
+		}
+	remove_ideas = MCH_Militia_Strength_1
+	remove_ideas = MCH_Militia_Strength_3
+	remove_ideas = MCH_Militia_Strength_4
+	remove_ideas = MCH_Militia_Strength_5
+	remove_ideas = MCH_Militia_Strength_6
+	remove_ideas = MCH_Militia_Strength_7
+	remove_ideas = MCH_Militia_Strength_2
+	remove_ideas = MCH_Militia_Strength_9
+	add_ideas = MCH_Militia_Strength_8
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_idea = MCH_Militia_Strength_9
+			}
+			check_variable = { MCH_Militia_Power < 90 }
+			check_variable = { MCH_Militia_Power > 79 }
+		}
+	remove_ideas = MCH_Militia_Strength_1
+	remove_ideas = MCH_Militia_Strength_3
+	remove_ideas = MCH_Militia_Strength_4
+	remove_ideas = MCH_Militia_Strength_5
+	remove_ideas = MCH_Militia_Strength_6
+	remove_ideas = MCH_Militia_Strength_7
+	remove_ideas = MCH_Militia_Strength_8
+	remove_ideas = MCH_Militia_Strength_2
+	add_ideas = MCH_Militia_Strength_9
+	}
+}
+MCH_Economic_Stability_Increase_Small = {
+	custom_effect_tooltip = MCH_Economic_Stability_Increase_Small_TT
+	add_to_variable = { MCH_Economic_Stability = 2 }
+	hidden_effect = {
+	MCH_Check_Economic = yes
+	}
+}
+MCH_Economic_Stability_Increase = {
+	custom_effect_tooltip = MCH_Economic_Stability_Increase_TT
+	add_to_variable = { MCH_Economic_Stability = 5 }
+	hidden_effect = {
+	MCH_Check_Economic = yes
+	}
+}
+MCH_Economic_Stability_Increase_Large = {
+	custom_effect_tooltip = MCH_Economic_Stability_Increase_Large_TT
+	add_to_variable = { MCH_Economic_Stability = 8 }
+	hidden_effect = {
+	MCH_Check_Economic = yes
+	}
+}
+MCH_Economic_Stability_Decrease = {
+	custom_effect_tooltip = MCH_Economic_Stability_Decrease_TT
+	add_to_variable = { MCH_Economic_Stability = -5 }
+	hidden_effect = {
+	MCH_Check_Economic = yes
+	}
+}
+MCH_Check_Economic = {
+	if = { 
+		limit = {
+			NOT = {
+				has_idea = MCH_Economic_1
+			}
+			check_variable = { MCH_Economic_Stability < 20 }
+		}
+	remove_ideas = MCH_Economic_2
+	remove_ideas = MCH_Economic_3
+	remove_ideas = MCH_Economic_4
+	remove_ideas = MCH_Economic_5
+	add_ideas = MCH_Economic_1
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_idea = MCH_Economic_2
+			}
+			check_variable = { MCH_Economic_Stability < 40 }
+			check_variable = { MCH_Economic_Stability > 19 }
+		}
+	remove_ideas = MCH_Economic_1
+	remove_ideas = MCH_Economic_3
+	remove_ideas = MCH_Economic_4
+	remove_ideas = MCH_Economic_5
+	add_ideas = MCH_Economic_2
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_idea = MCH_Economic_3
+			}
+			check_variable = { MCH_Economic_Stability < 60 }
+			check_variable = { MCH_Economic_Stability > 39 }
+		}
+	remove_ideas = MCH_Economic_1
+	remove_ideas = MCH_Economic_2
+	remove_ideas = MCH_Economic_4
+	remove_ideas = MCH_Economic_5
+	add_ideas = MCH_Economic_3
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_idea = MCH_Economic_4
+			}
+			check_variable = { MCH_Economic_Stability < 80 }
+			check_variable = { MCH_Economic_Stability > 59 }
+		}
+	remove_ideas = MCH_Economic_1
+	remove_ideas = MCH_Economic_2
+	remove_ideas = MCH_Economic_3
+	remove_ideas = MCH_Economic_5
+	add_ideas = MCH_Economic_4
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_idea = MCH_Economic_5
+			}
+			check_variable = { MCH_Economic_Stability > 79 }
+		}
+	remove_ideas = MCH_Economic_1
+	remove_ideas = MCH_Economic_2
+	remove_ideas = MCH_Economic_4
+	remove_ideas = MCH_Economic_3
+	add_ideas = MCH_Economic_5
+	}
 
-
+}
 

@@ -22,21 +22,47 @@ shared_focus = {
 	id = MCH_Suspend_The_National_Parliament
 	icon = GFX_fish
 	prerequisite = { focus = MCH_Announce_A_State_Of_Emergency }	
-	cost = 2
+	cost = 1
 	x = 6
 	y = 1
 	completion_reward = {
-
+		political_power = -50
+		add_stability = -0.05
+			set_politics = {
+				ruling_party = paternal_autocrat
+       				elections_allowed = no
+        			last_election = 0001.01.01
+			}
+			add_popularity = {
+				ideology = paternal_autocrat
+				popularity = 0.19
+			}
+		country_event = { id = michigan.2 }
 	}
 }
 shared_focus = {
 	id = MCH_An_Equal_Partnership
 	icon = GFX_fish
+	available = {
+		OR = {
+			has_government = socialism
+			has_government = democratic
+		}
+	}
 	prerequisite = { focus = MCH_Announce_A_State_Of_Emergency }	
 	cost = 10
 	x = 8
 	y = 1
 	completion_reward = {
+		country_event = { id = michigan.3 }
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.06
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.06
+		}
 
 	}
 }
@@ -44,11 +70,22 @@ shared_focus = {
 	id = MCH_Deal_With_The_Militia_Issue
 	icon = GFX_fish
 	prerequisite = { focus = MCH_Suspend_The_National_Parliament }	
-	cost = 3
+	cost = 1
 	x = 5
 	y = 2
 	completion_reward = {
-
+		MCH_Militia_Power_Decrease_Small = yes
+		add_equipment_to_stockpile = {
+   			type = infantry_equipment
+    			amount = 250
+    			roducer = MCH
+		}
+		add_equipment_to_stockpile = {
+   			type = support_equipment
+    			amount = 100
+    			roducer = MCH
+		}
+		custom_effect_tooltip = MCH_Militia_Decisions_1
 	}
 }
 shared_focus = {
@@ -60,6 +97,17 @@ shared_focus = {
 	x = 4
 	y = 3
 	completion_reward = {
+		MCH_Militia_Power_Decrease_Small = yes
+		add_popularity = {
+			ideology = national_socialism
+			popularity = -0.04
+		}
+		add_political_power = 50
+		add_equipment_to_stockpile = {
+   			type = infantry_equipment
+    			amount = 115
+    			roducer = MCH
+		}
 
 	}
 }
@@ -72,7 +120,17 @@ shared_focus = {
 	x = 6
 	y = 3
 	completion_reward = {
-
+		MCH_Militia_Power_Decrease_Small = yes
+		add_popularity = {
+			ideology = communism
+			popularity = -0.04
+		}
+		add_political_power = 25
+		add_equipment_to_stockpile = {
+   			type = infantry_equipment
+    			amount = 225
+    			roducer = MCH
+		}
 	}
 }
 shared_focus = {
@@ -83,7 +141,16 @@ shared_focus = {
 	x = 5
 	y = 4
 	completion_reward = {
-
+		add_popularity = {
+			ideology = communism
+			popularity = -0.09
+		}
+		add_popularity = {
+			ideology = national_socialism
+			popularity = -0.09
+		}
+		add_political_power = 75
+		country_event = { id = michigan.4 }
 	}
 }
 shared_focus = {
@@ -94,18 +161,38 @@ shared_focus = {
 	x = 5
 	y = 5
 	completion_reward = {
-
+		add_war_support = 0.08
+		custom_effect_tooltip = MCH_Militia_Decisions_2
+		add_equipment_to_stockpile = {
+   			type = infantry_equipment
+    			amount = 60
+    			roducer = MCH
+		}
+		add_equipment_to_stockpile = {
+   			type = support_equipment
+    			amount = 10
+    			roducer = MCH
+		}
 	}
 }
 shared_focus = {
 	id = MCH_End_The_State_Of_Emergency
 	icon = GFX_fish
+	available = {
+		OR = {
+			has_idea = MCH_Militia_Strength_3
+			has_idea = MCH_Militia_Strength_2
+			has_idea = MCH_Militia_Strength_1
+		}
+	}
 	prerequisite = { focus = MCH_Raid_Militias }
 	cost = 3
 	x = 6
 	y = 6
 	completion_reward = {
-
+		add_stability = 0.15
+		country_event = { id = michigan.5 }
+		
 	}
 }
 #Economic Help
@@ -117,7 +204,9 @@ shared_focus = {
 	x = 9
 	y = 2
 	completion_reward = {
-
+		MCH_Economic_Stability_Increase_Large = yes
+		country_event = { id = michigan.7 }
+		custom_effect_tooltip = MCH_Economic_Decisions_1
 	}
 }
 shared_focus = {
@@ -128,7 +217,8 @@ shared_focus = {
 	x = 8
 	y = 3
 	completion_reward = {
-
+		country_event = { id = michigan.8 }
+		custom_effect_tooltip = MCH_Economic_Decisions_2
 	}
 }
 shared_focus = {
@@ -139,7 +229,8 @@ shared_focus = {
 	x = 8
 	y = 4
 	completion_reward = {
-
+		MCH_Economic_Stability_Decrease = yes
+		add_ideas = MCH_Protectionist_Policy
 	}
 }
 shared_focus = {
@@ -150,7 +241,7 @@ shared_focus = {
 	x = 10
 	y = 3
 	completion_reward = {
-
+		add_ideas = MCH_Outdoor_Relief
 	}
 }
 shared_focus = {
@@ -161,7 +252,9 @@ shared_focus = {
 	x = 10
 	y = 4
 	completion_reward = {
-
+		MCH_Economic_Stability_Increase_Small = yes
+		add_stability = -0.06
+		country_event = { id = michigan.9 }
 	}
 }
 shared_focus = {
@@ -173,18 +266,24 @@ shared_focus = {
 	x = 9
 	y = 5
 	completion_reward = {
-
+		country_event = { id = michigan.10 }
 	}
 }
 shared_focus = {
 	id = MCH_Fix_The_Economy
 	icon = GFX_fish
+	available = {
+		OR = {
+			has_idea = MCH_Economic_4
+			has_idea = MCH_Economic_5
+		}
+	}
 	prerequisite = { focus = MCH_Right_To_Work }
 	cost = 6
 	x = 9
 	y = 6
 	completion_reward = {
-
+		country_event = { id = michigan.11 }
 	}
 }
 shared_focus = {
@@ -196,7 +295,7 @@ shared_focus = {
 	x = 8
 	y = 7
 	completion_reward = {
-
+		country_event = { id = michigan.12 }
 	}
 }
 shared_focus = {
@@ -207,12 +306,16 @@ shared_focus = {
 	x = 8
 	y = 8
 	completion_reward = {
-
+		country_event = { id = michigan.13 }
 	}
 }
 #Elections#
 shared_focus = {
 	id = MCH_Victory_Of_The_Socialists
+	available = {
+		has_government = socialism
+		has_country_flag = MCH_Snap_Elections_Held
+	}
 	mutually_exclusive = { focus = MCH_A_Liberal_Michigan }
 	mutually_exclusive = { focus = MCH_A_British_Legacy }
 	icon = GFX_fish
@@ -220,18 +323,23 @@ shared_focus = {
 	x = 15
 	y = 2
 	completion_reward = {
-
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.15
+			}
+			add_political_power = 50
+			add_ideas = MCH_Socialist_Michigan
 	}
 }
 shared_focus = {
-	id = MCH_Nationalistion_Of_Corporate_Property
+	id = MCH_Nationalisation_Of_Corporate_Property
 	prerequisite = { focus = MCH_Victory_Of_The_Socialists }
 	icon = GFX_fish
 	cost = 5
 	x = 14
 	y = 3
 	completion_reward = {
-
+		country_event = { id = michigan.14 }
 	}
 }
 shared_focus = {
@@ -242,11 +350,15 @@ shared_focus = {
 	x = 16
 	y = 3
 	completion_reward = {
-
+		country_event = { id = michigan.15 }
 	}
 }
 shared_focus = {
 	id = MCH_A_Liberal_Michigan
+	available = {
+		has_government = democratic
+		has_country_flag = MCH_Snap_Elections_Held
+	}
 	mutually_exclusive = { focus = MCH_Victory_Of_The_Socialists }
 	mutually_exclusive = { focus = MCH_A_British_Legacy }
 	icon = GFX_fish
@@ -254,22 +366,32 @@ shared_focus = {
 	x = 17
 	y = 2
 	completion_reward = {
-
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
+			add_political_power = 50
+			add_ideas = MCH_Liberal_Michigan
+		
 	}
 }
 shared_focus = {
-	id = MCH_Teach_Adam_Smith
+	id = MCH_Fund_The_Police
 	prerequisite = { focus = MCH_A_British_Legacy focus = MCH_A_Liberal_Michigan }
 	icon = GFX_fish
 	cost = 5
 	x = 18
 	y = 3
 	completion_reward = {
-
+		add_ideas = MCH_Strong_Police
 	}
 }
 shared_focus = {
 	id = MCH_A_British_Legacy
+	available = {
+		has_government = conservatism
+		has_country_flag = MCH_Snap_Elections_Held
+	}
 	mutually_exclusive = { focus = MCH_A_Liberal_Michigan }
 	mutually_exclusive = { focus = MCH_Victory_Of_The_Socialists }
 	icon = GFX_fish
@@ -277,7 +399,12 @@ shared_focus = {
 	x = 19
 	y = 2
 	completion_reward = {
-
+			add_popularity = {
+				ideology = conservatism
+				popularity = 0.08
+			}
+			add_political_power = 50
+			add_ideas = MCH_Canadian_Michigan
 	}
 }
 shared_focus = {
@@ -288,7 +415,7 @@ shared_focus = {
 	x = 20
 	y = 3
 	completion_reward = {
-
+		country_event = { id = michigan.16 }
 	}
 }
 #Army Tree
@@ -299,7 +426,15 @@ shared_focus = {
 	x = 14
 	y = 5
 	completion_reward = {
-
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.5
+			uses = 2
+			category = land_doctrine
+		}
+		add_breakthrough_points = {
+  			specialization = specialization_land
+			value = 1
+		}
 	}
 }
 shared_focus = {
@@ -310,7 +445,12 @@ shared_focus = {
 	x = 13
 	y = 6
 	completion_reward = {
-
+		add_tech_bonus = {
+    			bonus = 0.5
+    			uses = 1
+    			category = infantry_tech
+		}
+		army_experience = 25
 	}
 }
 shared_focus = {
@@ -321,18 +461,18 @@ shared_focus = {
 	x = 13
 	y = 7
 	completion_reward = {
-
+		add_ideas = MCH_Professional_Army
 	}
 }
 shared_focus = {
-	id = MCH_Tally_Ho #Gives Idea 'tally ho lads'
+	id = MCH_Tally_Ho 
 	icon = GFX_fish
 	prerequisite = { focus = MCH_The_British_Doctrine }
 	cost = 7
 	x = 17
 	y = 6
 	completion_reward = {
-
+		add_ideas = MCH_Tally_Ho_Lads
 	}
 }
 shared_focus = {
@@ -343,7 +483,10 @@ shared_focus = {
 	x = 17
 	y = 7
 	completion_reward = {
-
+		swap_ideas = {
+			remove_idea = MCH_Tally_Ho_Lads
+			add_idea = MCH_Keep_Calm_Carry_On
+		}
 	}
 }
 shared_focus = {
@@ -354,7 +497,7 @@ shared_focus = {
 	x = 15
 	y = 6
 	completion_reward = {
-
+		add_ideas = MCH_Green_Water_Navy_Idea
 	}
 }
 shared_focus = {
@@ -366,6 +509,6 @@ shared_focus = {
 	x = 15
 	y = 8
 	completion_reward = {
-
+		country_event = { id = michigan.17 }
 	}
 }

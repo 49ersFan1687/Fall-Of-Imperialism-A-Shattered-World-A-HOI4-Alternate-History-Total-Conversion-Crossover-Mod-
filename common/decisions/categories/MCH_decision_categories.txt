@@ -1,0 +1,14 @@
+MCH_problems_in_arcadia_category = {
+    icon = GFX_fish
+    priority = 35
+    visible_when_empty = yes
+    allowed = {
+        original_tag = MCH
+    }
+    visible = {
+	OR = {
+         has_country_flag = MCH_Militia_Problems
+	 has_country_flag = MCH_Economic_Issues
+	}
+    }
+}

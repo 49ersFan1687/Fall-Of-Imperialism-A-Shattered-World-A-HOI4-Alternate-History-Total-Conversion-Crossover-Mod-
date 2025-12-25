@@ -1,3 +1,7 @@
 on_actions = {
-
+    on_startup = {
+        effect = {
+            MCH = { country_event = { id = michigan.6 } days = 0 }
+        }
+    }
 }
