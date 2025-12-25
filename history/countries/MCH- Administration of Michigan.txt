@@ -33,7 +33,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Harry Crerar"
-	picture = GFX_fish
+	picture = GFX_Harry_Crerar_MCH
 	expire = "1995.1.1"
 	ideology = military_junta_ideology
 	traits = {
@@ -59,8 +59,17 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
+	name = "Sydney Novak"
+	picture = GFX_Sydney_Novak_MCH
+	expire = "1995.1.1"
+	ideology = social_democracy_ideology
+	traits = {
+		
+	}
+}
+create_country_leader = {
 	name = "G. Mennen Williams"
-	picture = GFX_fish
+	picture = GFX_Mennen_Williams_MCH
 	expire = "1995.1.1"
 	ideology = classical_liberalism_ideology
 	traits = {
@@ -69,7 +78,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "John Turner"
-	picture = GFX_fish
+	picture = GFX_John_Turner_MCH
 	expire = "1995.1.1"
 	ideology = conservatism_liberal_conservatism_ideology
 	traits = {
