@@ -465,10 +465,10 @@ characters = {
 			logistics_skill = 4
 		}
 		advisior = {
-		cost = 200
-		slot = theorist
-		idea_token = william_childs_westmoreland
-		ledger = army
+			cost = 200
+			slot = theorist
+			idea_token = william_childs_westmoreland
+			ledger = army
 			allowed = {
 				original_tag = CAL
 			}
@@ -530,6 +530,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Henry_Harley_Arnold.dds"
+				small = 
 			}
 		}
 		corps_commander = {
@@ -544,6 +545,17 @@ characters = {
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 3
+		}
+		advisior = {
+			cost = 200
+			slot = air_chief
+			idea_token = henry_harley_arnold
+			allowed = {
+				original_tag = CAL
+			}
+			traits = {
+				air_chief_reform_3
+			}
 		}
 	}
 
@@ -895,11 +907,11 @@ characters = {
 		advisior = {
 			cost = 150
 			slot = navy_chief
-			idea_token = 
+			idea_token = chester_william_nimitz
 			ledger = navy
 			allowed = { original_tag = CAL }
 			traits = {
-
+				navy_chief_commerce_raiding_2
 			}
 		 }
 	}
@@ -1004,7 +1016,12 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {  }
+			traits = {
+				old_guard_navy
+				bold
+				fleet_protector
+				superior_tactician
+			}
 			skill = 
 			attack_skill = 
 			defense_skill = 
@@ -1023,7 +1040,11 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = { blockade_runner bold fleet_protector }
+			traits = {
+				blockade_runner
+				bold
+				fleet_protector
+			}
 			skill = 3
 			attack_skill = 3
 			defense_skill = 2
