@@ -13,7 +13,7 @@ sub_units = {
 		active = yes
 
 		type = {
-			motorized
+			infantry
 			anti_air
 		}
 		
@@ -35,16 +35,10 @@ sub_units = {
 		training_time = 120
 		weight = 0.5
 		
-		supply_consumption = 0.15
-		transport = motorized_equipment
-
-		essential = {
-			motorized_equipment
-		}
+		supply_consumption = 0.1
 
 		need = {
-			anti_air_equipment = 30
-			motorized_equipment = 50
+			anti_air_equipment = 36
 		}
 
 		forest = {
@@ -77,10 +71,11 @@ sub_units = {
 		map_icon_category = infantry
 		priority = 301
 		ai_priority = 10
-		active = no
+		active = yes
 
 		type = {
-			artillery
+			motorized
+			anti_air
 		}
 		
 		group = mobile_combat_support
@@ -109,8 +104,8 @@ sub_units = {
 		}
 
 		need = {
-			anti_air_equipment = 30
-			motorized_equipment = 50
+			anti_air_equipment = 36
+			motorized_equipment = 36
 		}
 
 		forest = {

@@ -77,6 +77,7 @@ bookmarks = {
 			}
 		}
 		CSD = {
+			minor = yes
 			history = CSD_HISTORY_DESC
 			ideology = neutrality
 			ideas = {
@@ -85,6 +86,25 @@ bookmarks = {
 			}
 		}
 		RDI = {
+			minor = yes
+			history = RDI_HISTORY_DESC
+			ideology = paternal_autocrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		MCH = {
+			minor = yes
+			history = RDI_HISTORY_DESC
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		CHI = {
+			minor = yes
 			history = RDI_HISTORY_DESC
 			ideology = paternal_autocrat
 			ideas = {
@@ -93,6 +113,7 @@ bookmarks = {
 			}
 		}
 		ENG = {
+			minor = yes
 			history = ENG_HISTORY_DESC
 			ideology = fascism
 			ideas = {

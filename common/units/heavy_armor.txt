@@ -6,7 +6,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 2503
 		ai_priority = 2503
-		active = no
+		active = yes
 		training_time = 180
 
 		type = {

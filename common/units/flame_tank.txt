@@ -136,7 +136,7 @@ sub_units = {
 		armor_value = -0.7
 
 		need = {
-			mbt_flame_chassis = 15
+			medium_tank_flame_chassis = 15
 		}
 
 		forest = {
