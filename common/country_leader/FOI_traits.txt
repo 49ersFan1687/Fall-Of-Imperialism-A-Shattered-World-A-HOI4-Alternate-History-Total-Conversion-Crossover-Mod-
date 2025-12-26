@@ -1,4 +1,89 @@
 leader_traits = {
+	### Generic Traits ###
+	GEN_socialist_activist = {
+		sprite = 13
+		socialism_drift = 0.1
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	GEN_syndicalist_unionist = {
+		sprite = 13
+		syndicalism_drift = 0.1
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	GEN_social_democratic_crusader = {
+		sprite = 13
+		social_democracy_drift = 0.1
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	GEN_liberal_reformer = {
+		sprite = 13
+		democratic_drift = 0.1
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	GEN_conservative_realist = {
+		sprite = 13
+		conservatism_drift = 0.1
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	GEN_hardline_nationalist = {
+		sprite = 13
+		neutrality_drift = 0.1
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	GEN_paternal_imperialist = {
+		sprite = 13
+		paternal_autocrat_drift = 0.1
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	GEN_accelerationist_creative = {
+		sprite = 13
+		accelerationism_drift = 0.1
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	GEN_ultranationalist_firebrand = {
+		sprite = 13
+		ultranationalism_drift = 0.1
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	GEN_fascist_militarist = {
+		sprite = 13
+		fascism_drift = 0.1
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	GEN_nazi_hardhat = {
+		sprite = 13
+		national_socialism_drift = 0.1
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	GEN_occultist_theorist = {
+		sprite = 13
+		esotericism_drift = 0.1
+		ai_will_do = {
+			factor = 2
+		}
+	}
 	### Rhode Island Leader Traits ###
 	RDI_divided_congress = {
 		sprite = 13

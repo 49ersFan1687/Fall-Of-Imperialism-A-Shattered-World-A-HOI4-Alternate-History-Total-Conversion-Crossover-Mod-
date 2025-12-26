@@ -1,4 +1,17 @@
 ﻿l_english:
+### Generic Ideology Traits ###
+GEN_socialist_activist: "Socialist Activist"
+GEN_syndicalist_unionist: "Syndicalist Unionist"
+GEN_social_democratic_crusader: "Social Democratic Crusader"
+GEN_liberal_reformer: "Liberal Reformer"
+GEN_conservative_realist: "Conservative Realist"
+GEN_hardline_nationalist: "Hardline Nationalist"
+GEN_paternal_imperialist: "Paternal Imperialist"
+GEN_accelerationist_creative: "Accelerationist Creative"
+GEN_ultranationalist_firebrand: "Ultranationalist Firebrand"
+GEN_fascist_militarist: "Fascist Militarist"
+GEN_nazi_hardhat: "Nazi Hardhat"
+GEN_occultist_theorist: "Occultist Theorist"
 
 ### Ideology Types ###
  communism: "Communist"
