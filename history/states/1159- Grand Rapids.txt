@@ -1,0 +1,29 @@
+state = {
+	id = 1159
+	name = "STATE_1159"
+	manpower = 981304
+	
+	state_category = city
+
+	history = {
+
+		owner = MCH
+		add_core_of = MCH
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+		victory_points = {
+			11685 5 # Grand Rapids
+		}
+
+	}
+
+	provinces = {
+		11641 695 691 9684 11685
+	}
+
+	local_supplies = 0.0 
+}
