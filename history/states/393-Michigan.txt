@@ -18,6 +18,9 @@ state={
 
 		}
 		add_core_of = MCH
+		add_core_of = SMC
+		add_core_of = CMC
+		add_core_of = FMC
 		victory_points = {
 			6710 20 # Detriot
 		}

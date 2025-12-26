@@ -8,6 +8,16 @@
  MCH: "Republic of Michigan"
  MCH_DEF: "Republic of Michigan"
 
+ SMC: "State of Michigan"
+ SMC_DEF: "State of Michigan"
+ SMC_ADJ: "Michigander"
+ CMC: "People's Republic of Michigan"
+ CMC_DEF: "People's Republic of Michigan"
+ CMC_ADJ: "Michigander"
+ FMC: "Michigan People's State"
+ FMC_DEF: "Michigan People's State"
+ FMC_ADJ: "Michigander"
+
  MCH_ADJ: "Michigander"
 
 #Political Parties

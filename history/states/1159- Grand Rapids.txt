@@ -9,6 +9,9 @@ state = {
 
 		owner = MCH
 		add_core_of = MCH
+		add_core_of = SMC
+		add_core_of = CMC
+		add_core_of = FMC
 
 		buildings = {
 			infrastructure = 3
