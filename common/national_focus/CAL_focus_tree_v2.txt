@@ -4201,6 +4201,453 @@ shared_focus = {
 	}
 }
 
+shared_focus = {
+	id = CAL_improving_rural_roads
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expanding_cattle_ranching
+	}
+    prerequisite = {
+		focus = CAL_rebuilding_light_industry
+	}
+	x = -1 
+	y = 1
+	relative_position_id = CAL_rebuilding_light_industry
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_improving_rural_roads"
+	}
+}
+
+shared_focus = {
+	id = CAL_improve_irrigation_systems
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expanding_nut_exports
+	}
+	x = -1 
+	y = 1
+	relative_position_id = CAL_expanding_nut_exports
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_improve_irrigation_systems"
+	}
+}
+
+shared_focus = {
+	id = CAL_investing_in_the_lumber_industry
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expanding_nut_exports
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_expanding_nut_exports
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_investing_in_the_lumber_industry"
+	}	
+}
+
+shared_focus = {
+	id = CAL_importing_much_needed_resources
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_bermuda_accord_trade
+	}
+    prerequisite = {
+		focus = CAL_expanding_canned_goods_industry
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_bermuda_accord_trade
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_importing_much_needed_resources"
+	}	
+}
+
+shared_focus = {
+	id = CAL_exporting_grain
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expanding_canned_goods_industry
+	}
+    prerequisite = {
+		focus = CAL_deals_with_the_unions
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_expanding_canned_goods_industry
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_exporting_grain"
+	}	
+}
+
+shared_focus = {
+	id = CAL_pow_labor_program
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expand_heavy_industrial_complexes
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_expand_heavy_industrial_complexes
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_pow_labor_program"
+	}	
+}
+
+shared_focus = {
+	id = CAL_the_new_military_industrial_complex
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expand_heavy_industrial_complexes
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_expand_heavy_industrial_complexes
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_new_military_industrial_complex"
+	}	
+}
+
+shared_focus = {
+	id = CAL_saf_chromium_imports
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_hydroelectric_dam_construction
+	}
+	prerequisite = {
+		focus = CAL_expand_domestic_rubber_production
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_hydroelectric_dam_construction
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_saf_chromium_imports"
+	}	
+}
+
+shared_focus = {
+	id = CAL_better_payment_for_farmworkers
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_improving_rural_roads
+	}
+	x = 1 
+	y = 1
+	relative_position_id = CAL_improving_rural_roads
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_better_payment_for_farmworkers"
+	}
+}
+
+shared_focus = {
+	id = CAL_improve_famine_protection
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_improve_irrigation_systems
+	}
+    prerequisite = {
+		focus = CAL_investing_in_the_lumber_industry
+	}
+	x = 1 
+	y = 1
+	relative_position_id = CAL_improve_irrigation_systems
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_improve_famine_protection"
+	}
+}
+
+shared_focus = {
+	id = CAL_improve_famine_protection
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_improve_irrigation_systems
+	}
+    prerequisite = {
+		focus = CAL_investing_in_the_lumber_industry
+	}
+	x = 1 
+	y = 1
+	relative_position_id = CAL_improve_irrigation_systems
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_improve_famine_protection"
+	}
+}
+
+shared_focus = {
+    id = CAL_synthetic_oil_production
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_investing_in_the_lumber_industry
+	}
+    prerequisite = {
+		focus = CAL_importing_much_needed_resources
+	}
+	x = 1 
+	y = 1
+	relative_position_id = CAL_investing_in_the_lumber_industry
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_synthetic_oil_production"
+	}
+}
+
+shared_focus = {
+	id = CAL_enlist_union_pacific
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_importing_much_needed_resources
+	}
+    prerequisite = {
+        focus = CAL_exporting_grain
+    }
+	x = 1
+	y = 1
+	relative_position_id = CAL_importing_much_needed_resources
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_enlist_union_pacific"
+	}	
+}
+
+shared_focus = {
+	id = CAL_expanded_job_market
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_exporting_grain
+	}
+    prerequisite = {
+        focus = CAL_pow_labor_program
+    }
+	x = 1
+	y = 1
+	relative_position_id = CAL_exporting_grain
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expanded_job_market"
+	}	
+}
+
+shared_focus = {
+	id = CAL_accelerate_heavy_industry_buildup
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_pow_labor_program
+	}
+	prerequisite = {
+		focus = CAL_the_new_military_industrial_complex
+	}
+	x = 1 
+	y = 1
+	relative_position_id = CAL_pow_labor_program
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_accelerate_heavy_industry_buildup"
+	}
+}
+
+shared_focus = {
+	id = CAL_rubber_from_brazil
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_saf_chromium_imports
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_saf_chromium_imports
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rubber_from_brazil"
+	}	
+}
+
+shared_focus = {
+	id = CAL_revitalized_light_industry
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_better_payment_for_farmworkers
+	}
+	prerequisite = {
+		focus = CAL_improve_famine_protection
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_better_payment_for_farmworkers
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_revitalized_light_industry"
+	}
+}
+
+shared_focus = {
+	id = CAL_san_francisco_gateway_to_the_pacific
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_synthetic_oil_production
+	}
+	prerequisite = {
+		focus = CAL_enlist_union_pacific
+	}
+    prerequisite = {
+		focus = CAL_expanded_job_market
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_enlist_union_pacific
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_san_francisco_gateway_to_the_pacific"
+	}
+}
+
+shared_focus = {
+	id = CAL_the_new_arsenal_of_democracy
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_accelerate_heavy_industry_buildup
+	}
+	prerequisite = {
+		focus = CAL_rubber_from_brazil
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_accelerate_heavy_industry_buildup
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_new_arsenal_of_democracy"
+	}
+}
+
+shared_focus = {
+	id = CAL_the_giant_awakens_once_more
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_revitalized_light_industry
+	}
+	prerequisite = {
+		focus = CAL_san_francisco_gateway_to_the_pacific
+	}
+	x = 0
+	y = 3
+	relative_position_id = CAL_investing_in_the_lumber_industry
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_giant_awakens_once_more"
+	}
+}
+
+shared_focus = {
+	id = CAL_reestablish_the_war_production_board
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_san_francisco_gateway_to_the_pacific
+	}
+	prerequisite = {
+		focus = CAL_the_new_arsenal_of_democracy
+	}
+	x = 0
+	y = 3
+	relative_position_id = CAL_pow_labor_program
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reestablish_the_war_production_board"
+	}
+}
+
 ### Focus Tree - Regional Stage: Shared Military Reform Focus Tree ###
 shared_focus = {
 	id = CAL_begin_the_total_overhaul_of_the_psa_military
