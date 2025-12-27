@@ -43,7 +43,7 @@ focus_tree = {
         }
 	}
     default = no
-    shared_focus = CAL_the_formation_of_the_pacific_states_of_america
+    shared_focus = CAL_birth_of_the_pacific_junta
     shared_focus = CAL_begin_the_total_overhaul_of_the_psa_military
     shared_focus = CAL_the_economy_of_the_pacific_states_of_america
     continuous_focus_position = { x = 450 y = 200 }
@@ -59,6 +59,7 @@ focus_tree = {
         }
     }
     default = no
+    shared_focus = CAL_the_formation_of_the_pacific_states_of_america
     shared_focus = CAL_begin_the_total_overhaul_of_the_psa_military
     shared_focus = CAL_the_economy_of_the_pacific_states_of_america
     continuous_focus_position = { x = 450 y = 200 }
@@ -3655,17 +3656,17 @@ shared_focus = {
 
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) ###
 shared_focus = {
-	id = CAL_the_formation_of_the_pacific_states_of_america
+	id = CAL_birth_of_the_pacific_junta
 	icon = GFX
 	cost = 3
 	available_if_capitulated = no
 	ai_will_do = {
 		factor = 1
 	}
-	x = 21
+	x = 25
 	y = 0
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_formation_of_the_pacific_states_of_america"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_birth_of_the_pacific_junta"
 	}
 }
 
@@ -3678,18 +3679,31 @@ shared_focus = {
         factor = 1
     }
     prerequisite = {
-        focus = CAL_the_formation_of_the_pacific_states_of_america
+        focus = CAL_birth_of_the_pacific_junta
     }
     x = 0
     y = 1
-    relative_position_id = CAL_the_formation_of_the_pacific_states_of_america
+    relative_position_id = CAL_birth_of_the_pacific_junta
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_the_problems_within_our_government"
     }
 }
 
 ### Focus Tree - Regional Stage: Political Focus Tree (Civillian-Aligned Democracy) ###
-
+shared_focus = {
+	id = CAL_the_formation_of_the_pacific_states_of_america
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 20
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_formation_of_the_pacific_states_of_america"
+	}
+}
 
 ### Focus Tree - Regional Stage: Shared Economy/Industrial Focus Tree ###
 
@@ -3701,7 +3715,7 @@ shared_focus = {
     ai_will_do = {
         factor = 1
     }
-    x = 5
+    x = 0
     y = 5
     completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_economy_of_the_pacific_states_of_america"
@@ -4657,7 +4671,7 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-	x = 45
+	x = 55
 	y = 0
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_the_total_overhaul_of_the_psa_military"
@@ -4695,7 +4709,7 @@ shared_focus = {
     prerequisite = {
         focus = CAL_addressing_each_military_branch
     }
-    x = -15
+    x = -13
     y = 1
     relative_position_id = CAL_addressing_each_military_branch
     completion_reward = {
@@ -4733,7 +4747,7 @@ shared_focus = {
     prerequisite = {
         focus = CAL_addressing_each_military_branch
     }
-    x = 15
+    x = 13
     y = 1
     relative_position_id = CAL_addressing_each_military_branch
     completion_reward = {
@@ -4742,24 +4756,265 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_the_pacific_states_marine_corps
+    id = CAL_a_versatile_air_force
     icon = GFX
     cost = 3
     available_if_capitulated = no
     ai_will_do = {
         factor = 1
     }
-    prerequisite = {
-        focus = CAL_addressing_each_military_branch
+    mutually_exclusive = {
+        focus = CAL_combined_arms_air_dominance
+        focus = CAL_unending_rain_of_destruction
     }
-    x = 30
+    prerequisite = {
+        focus = CAL_the_pacific_states_air_force
+    }
+    x = -4
     y = 1
-    relative_position_id = CAL_addressing_each_military_branch
+    relative_position_id = CAL_the_pacific_states_air_force
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_pacific_states_marine_corps"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_versatile_air_force"
     }
 }
 
+shared_focus = {
+    id = CAL_combined_arms_air_dominance
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_a_versatile_air_force
+        focus = CAL_unending_rain_of_destruction
+    }
+    prerequisite = {
+        focus = CAL_the_pacific_states_air_force
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_pacific_states_air_force
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_combined_arms_air_dominance"
+    }
+}
 
+shared_focus = {
+    id = CAL_unending_rain_of_destruction
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_a_versatile_air_force
+        focus = CAL_combined_arms_air_dominance
+    }
+    prerequisite = {
+        focus = CAL_the_pacific_states_air_force
+    }
+    x = 4
+    y = 1
+    relative_position_id = CAL_the_pacific_states_air_force
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_unending_rain_of_destruction"
+    }
+}
+
+shared_focus = {
+	id = CAL_eisenhowers_doctrine_return_to_form
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_the_pacific_states_army
+	}
+	mutually_exclusive = {
+		focus = CAL_pattons_doctrine_army_of_the_future
+		focus = CAL_marshalls_doctrine_modern_minuteman
+		focus = CAL_westmorelands_doctrine_brute_force
+	}
+	x = -6
+	y = 1
+	relative_position_id = CAL_the_pacific_states_army
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_eisenhowers_doctrine_return_to_form"
+		add_ideas = CAL_Eisenhowers_vision1
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_pattons_doctrine_army_of_the_future
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_the_pacific_states_army
+	}
+	mutually_exclusive = {
+		focus = CAL_eisenhowers_doctrine_return_to_form
+		focus = CAL_marshalls_doctrine_modern_minuteman
+		focus = CAL_westmorelands_doctrine_brute_force
+	}
+	x = -2
+	y = 1
+	relative_position_id = CAL_the_pacific_states_army
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_pattons_doctrine_army_of_the_future"
+		add_ideas = CAL_Pattons_vision1
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}	
+}
+
+shared_focus = {
+	id = CAL_marshalls_doctrine_modern_minuteman
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_the_pacific_states_army
+	}
+	mutually_exclusive = {
+		focus = CAL_eisenhowers_doctrine_return_to_form
+		focus = CAL_pattons_doctrine_army_of_the_future
+		focus = CAL_westmorelands_doctrine_brute_force
+	}
+	x = 2.5
+	y = 1
+	relative_position_id = CAL_the_pacific_states_army
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_marshall_modern_minuteman"
+		add_ideas = CAL_marshalls_vision1
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}	
+}
+
+shared_focus = {
+	id = CAL_westmorelands_doctrine_brute_force
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_the_pacific_states_army
+	}
+	mutually_exclusive = {
+		focus = CAL_patton_army_of_the_future
+		focus = CAL_marshall_modern_minuteman
+		focus = CAL_eisenhower_return_to_form
+	}
+	x = 6
+	y = 1
+	relative_position_id = CAL_the_pacific_states_army
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_westmorelands_doctrine_brute_force"
+		add_ideas = CAL_westmorelands_vision1
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}	
+}
+
+shared_focus = {
+    id = CAL_coastal_defense_fleet
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_revive_the_great_white_fleet
+        focus = CAL_rain_down_destruction_from_afar
+    }
+    prerequisite = {
+        focus = CAL_the_pacific_states_navy
+    }
+    x = -4
+    y = 1
+    relative_position_id = CAL_the_pacific_states_navy
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_coastal_defense_fleet"
+    }
+}
+
+shared_focus = {
+    id = CAL_revive_the_great_white_fleet
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_coastal_defense_fleet
+        focus = CAL_rain_down_destruction_from_afar
+    }
+    prerequisite = {
+        focus = CAL_the_pacific_states_navy
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_pacific_states_navy
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_revive_the_great_white_fleet"
+    }
+}
+
+shared_focus = {
+    id = CAL_rain_down_destruction_from_afar
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_coastal_defense_fleet
+        focus = CAL_revive_the_great_white_fleet
+    }
+    prerequisite = {
+        focus = CAL_the_pacific_states_navy
+    }
+    x = 4
+    y = 1
+    relative_position_id = CAL_the_pacific_states_navy
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_rain_down_destruction_from_afar"
+    }
+}
 
 ### Focus Tree - Regional Stage: Foreign Policy Focus Tree ###
