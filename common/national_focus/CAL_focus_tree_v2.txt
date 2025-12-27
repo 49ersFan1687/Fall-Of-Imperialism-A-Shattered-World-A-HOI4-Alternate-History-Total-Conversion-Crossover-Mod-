@@ -29,7 +29,7 @@ focus_tree = {
     shared_focus = CAL_dealing_with_regionalists
     shared_focus = CAL_handling_the_political_system
     shared_focus = CAL_expanding_the_california_military_into_something_more_than_a_local_force
-    shared_focus = CAL_unknown_focus_2
+    shared_focus = CAL_the_west_coast_under_one_flag
     continuous_focus_position = { x = 450 y = 200 }
 }
 
@@ -45,6 +45,7 @@ focus_tree = {
     default = no
     shared_focus = CAL_the_formation_of_the_pacific_states_of_america
     shared_focus = CAL_begin_the_total_overhaul_of_the_psa_military
+    shared_focus = CAL_address_the_economy_of_the_pacific_states_of_america
     continuous_focus_position = { x = 450 y = 200 }
 }
 
@@ -59,6 +60,7 @@ focus_tree = {
     }
     default = no
     shared_focus = CAL_begin_the_total_overhaul_of_the_psa_military
+    shared_focus = CAL_address_the_economy_of_the_pacific_states_of_america
     continuous_focus_position = { x = 450 y = 200 }
 }
 
@@ -3577,19 +3579,77 @@ shared_focus = {
     }
 }
 
-### Focus Tree - Unknown as of Now Two ###
+### Focus Tree - Pre-Regional Unification Tree ###
 shared_focus = {
-    id = CAL_unknown_focus_1
+    id = CAL_the_west_coast_under_one_flag
     icon = GFX
     cost = 3
     available_if_capitulated = no
     ai_will_do = {
         factor = 1
     }
-    x = 41
-    y = 1
+    x = 0
+    y = 2
+    relative_position_id = CAL_the_birth_of_the_psa_military
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_integrating_generals_from_other_warlords"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_west_coast_under_one_flag"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_role_of_the_president
+     icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_west_coast_under_one_flag
+    }
+    x = -5
+    y = 1
+    relative_position_id = CAL_the_west_coast_under_one_flag
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_role_of_the_president"
+    }
+}
+
+shared_focus = {
+    id = CAL_creating_a_unified_bureaucracy
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_west_coast_under_one_flag
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_west_coast_under_one_flag
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_creating_a_unified_bureaucracy"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_role_of_the_judiciary
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_west_coast_under_one_flag
+    }
+    x = 5
+    y = 1
+    relative_position_id = CAL_the_west_coast_under_one_flag
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_role_of_the_judiciary"
     }
 }
 
@@ -3631,8 +3691,196 @@ shared_focus = {
 ### Focus Tree - Regional Stage: Political Focus Tree (Civillian-Aligned Democracy) ###
 
 
-### Focus Tree - Regional Stage: Shared Economy Focus Tree ###
+### Focus Tree - Regional Stage: Shared Economy/Industrial Focus Tree ###
 
+shared_focus = {
+    id = CAL_address_the_economy_of_the_pacific_states_of_america
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    x = 7
+    y = 5
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_address_the_economy_of_the_pacific_states_of_america"
+	}
+}
+
+shared_focus = {
+    id = CAL_address_the_civilian_sector
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_address_the_economy_of_the_pacific_states_of_america
+    }
+    x = -5
+    y = 1
+    relative_position_id = CAL_address_the_economy_of_the_pacific_states_of_america
+     completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_address_the_civilian_sector"
+	}
+}
+
+shared_focus = {
+    id = CAL_address_the_military_sector
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_address_the_economy_of_the_pacific_states_of_america
+    }
+    x = 5
+    y = 1
+    relative_position_id = CAL_address_the_economy_of_the_pacific_states_of_america
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_address_the_military_sector"
+	}
+}
+
+shared_focus = {
+    id = CAL_agricultural_investments
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_address_the_civilian_sector
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_address_the_civilian_sector
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_agricultural_investments"
+	}
+}
+
+shared_focus = {
+    id = CAL_help_out_small_buisnesses
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_address_the_civilian_sector
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_address_the_civilian_sector
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_help_out_small_buisnesses"
+	}
+}
+
+shared_focus = {
+    id = CAL_expand_los_angeles_and_san_francisco_ports
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_address_the_civilian_sector
+    }
+    prerequisite = {
+        focus = CAL_address_the_military_sector
+    }
+    x = 0
+    y = 2
+    relative_position_id = CAL_address_the_economy_of_the_pacific_states_of_america
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_help_out_small_buisnesses"
+	}
+}
+
+shared_focus = {
+	id = CAL_import_canadian_heavy_machinery
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_address_the_military_sector
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_address_the_military_sector
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_import_canadian_heavy_machinery"
+	}
+}
+
+shared_focus = {
+	id = CAL_import_canadian_heavy_machinery
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_address_the_military_sector
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_address_the_military_sector
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_import_canadian_heavy_machinery"
+	}
+}
+
+shared_focus = {
+	id = CAL_beginning_resource_surverys
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_address_the_military_sector
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_address_the_military_sector
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_beginning_resource_surverys"
+	}	
+}
+
+shared_focus = {
+    id = CAL_expand_steel_mills_in_sacramento
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_agricultural_investments
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_agricultural_investments
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_steel_mills_in_sacramento"
+	}
+}
 
 ### Focus Tree - Regional Stage: Shared Military Reform Focus Tree ###
 shared_focus = {
