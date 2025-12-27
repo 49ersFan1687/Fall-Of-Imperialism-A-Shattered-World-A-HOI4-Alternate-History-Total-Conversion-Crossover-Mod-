@@ -18,24 +18,20 @@ state={
 
 		}
 		add_core_of = MCH
+		add_core_of = SMC
+		add_core_of = CMC
+		add_core_of = FMC
 		victory_points = {
 			6710 20 # Detriot
 		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 7
-				6710 = {
-					land_facility = 1 # Detroit Arsenal
-				}
-			}
-		}
+		
 
 	}
 
 	provinces={
-		691 695 3766 6710 6769 6782 7420 9684 9724 9746 9747 10233 10303 11641 11656 11669 11685 11714 11731 13155 13199 13200 13201 
+		6710 6769 9724 9746 11656 11669 13199 13200 13201 
 	}
-	manpower= 3678911
+	manpower= 2091029
 	buildings_max_level_factor=1.000
 
 	local_supplies=0.0 

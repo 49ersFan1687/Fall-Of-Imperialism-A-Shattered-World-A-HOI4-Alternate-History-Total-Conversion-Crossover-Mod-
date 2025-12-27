@@ -1,0 +1,29 @@
+state = {
+	id = 1160
+	name = "STATE_1160"
+	manpower = 512303
+	
+	state_category = city
+
+	history = {
+
+		owner = MCH
+		add_core_of = MCH
+		add_core_of = SMC
+		add_core_of = CMC
+		add_core_of = FMC
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces = {
+		13155 10233 10303 7420 11731 3766 9747 11714 6782
+	}
+
+	local_supplies = 0.0 
+}

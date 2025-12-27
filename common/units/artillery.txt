@@ -8,6 +8,7 @@ sub_units = {
 		ai_priority = 0
 		active = yes
 		affects_speed = no
+		is_artillery_brigade = yes
 
 		type = {
 			infantry
@@ -56,6 +57,7 @@ sub_units = {
 		ai_priority = 0
 		active = yes
 		affects_speed = no
+		is_artillery_brigade = yes
 		
 		type = {
 			infantry
@@ -69,6 +71,7 @@ sub_units = {
 			category_army
 			category_artillery
 			category_support_artillery
+			category_rocket_artillery
 		}		
 
 		combat_width = 0
@@ -102,8 +105,9 @@ sub_units = {
 		map_icon_category = infantry
 		priority = 0
 		ai_priority = 0
-		active = no
+		active = yes
 		affects_speed = yes
+		is_artillery_brigade = yes
 
 		type = {
 			infantry
@@ -140,7 +144,7 @@ sub_units = {
 
 		can_be_parachuted = no
 
-		same_support_type = super_heavy_artillery # TODO_Manu: Need code support to add a new type super_heavy_artillery
+		same_support_type = super_heavy_artillery
 	}
 
 	self_propelled_super_heavy_artillery = {
@@ -149,8 +153,9 @@ sub_units = {
 		map_icon_category = infantry
 		priority = 0
 		ai_priority = 0
-		active = no
+		active = yes
 		affects_speed = no
+		is_artillery_brigade = yes
 
 		type = {
 			infantry
@@ -188,6 +193,6 @@ sub_units = {
 
 		can_be_parachuted = no
 
-		same_support_type = super_heavy_artillery # TODO_Manu: Need code support to add a new type super_heavy_artillery
+		same_support_type = super_heavy_artillery
 	}
 }

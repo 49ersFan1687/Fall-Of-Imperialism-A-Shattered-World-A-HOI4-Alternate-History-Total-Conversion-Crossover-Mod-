@@ -271,9 +271,8 @@ sub_units = {
 		affects_speed = no
 
 		type = {
-			infantry
+			armor
 			support
-			flame
 		}
 		
 		group = support
@@ -281,6 +280,8 @@ sub_units = {
 		categories = {
 			category_front_line
 			category_support_battalions
+			category_tanks
+			category_all_armor
 			category_army
 		}
 
@@ -317,11 +318,11 @@ sub_units = {
 
 		essential = {
 			support_equipment
-			infantry_at_equipment
+			armored_support_vehicle
 		}
 
 		need = {
-			infantry_at_equipment = 20
+			armored_support_vehicle = 20
 			support_equipment = 20
 		}
 

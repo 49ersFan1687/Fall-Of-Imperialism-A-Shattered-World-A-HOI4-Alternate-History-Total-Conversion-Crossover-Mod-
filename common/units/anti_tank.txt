@@ -20,20 +20,15 @@ sub_units = {
 			category_front_line
 			category_support_battalions
 			category_army
+			category_anti_tank
+			category_mobile_anti_tank
 		}
 
 
 		combat_width = 0
 
-		transport = motorized_equipment
-
-		essential = {
-			motorized_equipment
-		}
-
 		need = {
 			anti_tank_equipment = 24
-			motorized_equipment = 24
 		}
 		manpower = 300
 		max_organisation = 0

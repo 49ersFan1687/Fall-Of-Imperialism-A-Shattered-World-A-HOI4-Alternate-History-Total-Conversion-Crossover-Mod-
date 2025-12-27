@@ -9,7 +9,7 @@ sub_units = {
 		active = yes
 		
 		type = {
-			motorized
+			infantry
 			anti_tank
 		}
 		
@@ -19,17 +19,13 @@ sub_units = {
 			category_front_line
 			category_army
 			category_line_artillery
+			category_anti_tank
 		}		
 		
 		combat_width = 1
-		transport = motorized_equipment
 
-		essential = {
-			motorized_equipment
-		}
 		need = {
 			anti_tank_equipment = 36
-			motorized_equipment = 50
 		}
 		manpower = 500
 		max_organisation = 0
@@ -38,7 +34,7 @@ sub_units = {
 		training_time = 120
 		weight = 0.5
 
-		supply_consumption = 0.15
+		supply_consumption = 0.1
 
 		forest = {
 			attack = -0.2
@@ -82,7 +78,7 @@ sub_units = {
 		map_icon_category = infantry
 		priority = 1197
 		ai_priority = 100
-		active = no
+		active = yes
 		
 		type = {
 			motorized
@@ -96,6 +92,8 @@ sub_units = {
 			category_army
 			category_line_artillery
 			category_mobile_and_mobile_combat_sup
+			category_anti_tank
+			category_mobile_anti_tank
 		}		
 		
 		combat_width = 1
@@ -106,7 +104,7 @@ sub_units = {
 		}
 		need = {
 			anti_tank_equipment = 36
-			motorized_equipment = 50
+			motorized_equipment = 36
 		}
 		manpower = 500
 		max_organisation = 0

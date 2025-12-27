@@ -1675,6 +1675,18 @@ POO = {
 	color = rgb { 51 35 24 }
 	color_ui = rgb { 170  125  80 }
 }
+SMC = {
+	color = rgb { 46 87 125 }
+	color_ui = rgb { 170  125  80 }
+}
+FMC = {
+	color = rgb { 87 45 21 }
+	color_ui = rgb { 170  125  80 }
+}
+CMC = {
+	color = rgb { 102 12 53 }
+	color_ui = rgb { 170  125  80 }
+}
 
 
 
