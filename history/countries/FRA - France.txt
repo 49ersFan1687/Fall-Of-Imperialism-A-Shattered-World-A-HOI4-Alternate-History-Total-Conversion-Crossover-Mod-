@@ -23,9 +23,18 @@ set_popularities = {
 	national_socialism = 1
 }
 create_country_leader = {
+	name = "Pierre Laval"
+	desc = ""
+	picture = GFX_Laval_FRA
+	ideology = french_fascism_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
 	name = "Philippe Pétain"
 	desc = ""
-	picture = GFX_fish
+	picture = GFX_Petain_FRA
 	ideology = french_fascism_ideology
 	traits = {
 		#

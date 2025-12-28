@@ -4,6 +4,15 @@ spriteTypes = {
 		name = "GFX_SDNL_Tukhachevsky"
 		textureFile = "gfx/leaders/SDL/Portrait_SDL_mikhail_nikolayevich_tukhachevsky.dds"
 	}
+	# Russia #
+	spriteType = {
+		name = "GFX_Lazar_WSS"
+		textureFile = "gfx/leaders/Russia/LazarKaganovich.png"
+	}
+	spriteType = {
+		name = "GFX_Suslov_WSS"
+		textureFile = "gfx/leaders/Russia/MikhailSuslov.png"
+	}
 	# Bermuda Accords #
 	spriteType = {
 		name = "GFX_Dickens_BAT"
@@ -99,12 +108,28 @@ spriteTypes = {
 		name = "GFX_H_H_Lewis_MCH"
 		textureFile = "gfx/leaders/MCH/HHLewis.png"
 	}
-	#American National Republic #
+	# American National Republic #
 	spriteType = {
 		name = "GFX_Coughlin_ANR"
 		textureFile = "gfx/leaders/ANR/CharlesCoughlin.png"
 	}
-
+	spriteType = {
+		name = "GFX_Strom_ANR"
+		textureFile = "gfx/leaders/ANR/StromThurmonds.png"
+	}
+	spriteType = {
+		name = "GFX_Wallace_White_ANR"
+		textureFile = "gfx/leaders/ANR/WallaceWhite.png"
+	}
+	# France #
+	spriteType = {
+		name = "GFX_Petain_FRA"
+		textureFile = "gfx/leaders/France/PhilippePetain.png"
+	}
+	spriteType = {
+		name = "GFX_Laval_FRA"
+		textureFile = "gfx/leaders/France/PierreLaval.png"
+	}
 	# California #
 	spriteType = {
 		name = "GFX_CAL_Benjamin_Oliver_Davis_Sr"
