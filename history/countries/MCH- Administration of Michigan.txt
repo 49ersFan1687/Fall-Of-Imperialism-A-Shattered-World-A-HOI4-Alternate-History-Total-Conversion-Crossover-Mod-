@@ -45,7 +45,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "H. H. Lewis"
-	picture = GFX_fish
+	picture = GFX_H_H_Lewis_MCH
 	expire = "1995.1.1"
 	ideology = national_communism_ideology
 	traits = {
@@ -89,10 +89,10 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Jane Anderson"
+	name = ""
 	picture = GFX_fish
 	expire = "1995.1.1"
-	ideology = stratocratic_nazism_ideology
+	ideology = clerical_fascism_ideology
 	traits = {
 		
 	}

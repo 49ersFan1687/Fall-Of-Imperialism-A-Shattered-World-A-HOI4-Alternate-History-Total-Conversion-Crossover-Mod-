@@ -24,3 +24,12 @@ set_popularities = {
 }
 
 recruit_character = ELI_murray_boochkin
+create_country_leader = {
+	name = "Murray Boochkin"
+	picture = GFX_Boochkin_ELI
+	expire = "1995.1.1"
+	ideology = eco_socialism_ideology
+	traits = {
+		
+	}
+}

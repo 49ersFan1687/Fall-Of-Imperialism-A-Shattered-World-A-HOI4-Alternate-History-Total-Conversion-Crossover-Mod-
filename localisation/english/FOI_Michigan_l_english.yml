@@ -49,6 +49,28 @@ MCH_esotericism_party_long: "§RN/A§!"
 MCH_national_socialism_party: "NWM"
 MCH_national_socialism_party_long: "§YNational Workers' Movement§!"
 
+CMC_communism_party: "Lewis' Red Army"
+CMC_communism_party_long: "§YLewis' Red Army§!"
+CMC_socialism_party: "DSP"
+CMC_socialism_party_long: "§YDemocratic Socialist Party§!"
+
+FMC_national_socialism_party: "NWM"
+FMC_national_socialism_party_long: "§YNational Workers' Movement§!"
+FMC_fascism_party: "NWM"
+FMC_fascism_party_long: "§YNational Workers' Movement§!"
+FMC_ultranationalism_party: "NWM"
+FMC_ultranationalism_party_long: "§YNational Workers' Movement§!"
+
+SMC_neutrality_party: "MSP"
+SMC_neutrality_party_long: "§YMichigan State Parliament§!"
+SMC_paternal_autocrat_party: "MSA"
+SMC_paternal_autocrat_party_long: "§YMichigan State Army§!"
+SMC_conservatism_party: "Unionists"
+SMC_conservatism_party_long: "§YUnionist Party§!"
+SMC_democratic_party: "Liberals"
+SMC_democratic_party_long: "§YLiberal Party§!"
+
+
 
 
 
@@ -116,7 +138,7 @@ MCH_Snap_Elections_Held: "§YSnap Elections Have Been Held§!"
 
 ### Decisions ###
 MCH_problems_in_arcadia_category: "Problems In Arcadia"
-MCH_problems_in_arcadia_category_desc: "When America Collapsed, Canadian forces marched into Detroit, setting up their own collaborationist regime. Since that time, resistance to the Canadian annexation has only grew...\n\nTo the left is §RH. H. Lewis' Red Army§!, a milita force wanting the expelling of Canadian Forces and the establishment of an Americanist Vanguard State.\nTo the right is §BThe National Workers' Movement§!, a Nazi group funded by the Germans which wants to 'get rid' of the Canadians in charge.\nOn Top of the political resistance, massive economic problems plague the nation. Unemployment is soaring, and average national income is at a record low.\n\nCurrent Militia Power: (§R[?MCH_Militia_Power]§!)\n§RIf Militia Power gets too high then the Administration will collapse§!\n\nOur Economic Stability: (§R[?MCH_Economic_Stability]§!)\n\n\n\n"
+MCH_problems_in_arcadia_category_desc: "When America Collapsed, Canadian forces marched into Detroit, setting up their own collaborationist regime. Since that time, resistance to the Canadian annexation has only grew...\n\nTo the left is §RH. H. Lewis' Red Army§!, a milita force wanting the expelling of Canadian Forces and the establishment of an Americanist Vanguard State.\nTo the right is §BThe National Workers' Movement§!, a Nazi group funded by the Germans which wants to 'get rid' of the Canadians in charge.\nOn Top of the political resistance, massive economic problems plague the nation. Unemployment is soaring, and average national income is at a record low.\n\nCurrent Militia Power: (§R[?MCH_Militia_Power]§!)\n\nOur Economic Stability: (§R[?MCH_Economic_Stability]§!)\n\n\n\n"
 
 MCH_combat_communist_militias: "Combat Communist Militias"
 MCH_combat_nazi_militias: "Combat Nazi Militias"
