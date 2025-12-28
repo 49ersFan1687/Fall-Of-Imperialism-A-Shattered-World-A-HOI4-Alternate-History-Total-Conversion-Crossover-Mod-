@@ -96,33 +96,54 @@ division_template = {
     support = {}
 }
 
+division_template = {
+    name = "Second Continental Army Motorized Infantry Division"
+
+    division_names_group = CAL_MOT_01
+
+    regiments = {}
+    support = {}
+}
+
 units = {
     division = {
-        name = 
+        name = {
+            is_name_ordered = yes
+            name_order = 
+        } 
         location = 
         division_template = "Second Continental Army Infantry Division"
-        start_equipment_factor = 
+        start_equipment_factor = 0.85
     }
 
     division = {
-        name = 
+        name = {
+            is_name_ordered = yes
+            name_order = 
+        } 
         location = 
         division_template = "Second Continental Army Infantry Division"
-        start_equipment_factor =
+        start_equipment_factor = 0.85
     }
 
     division = {
-        name = 
+        name = {
+            is_name_ordered = yes
+            name_order = 
+        }
         location = 
         division_template = "Second Continental Army Infantry Division"
-        start_equipment_factor =
+        start_equipment_factor = 0.85
     }
 
     division = {
-        name = 
+        name = {
+            is_name_ordered = yes
+            name_order = 
+        } 
         location = 
         division_template = "Second Continental Army Infantry Division"
-        start_equipment_factor =
+        start_equipment_factor = 0.85
     }
 
     division = {
