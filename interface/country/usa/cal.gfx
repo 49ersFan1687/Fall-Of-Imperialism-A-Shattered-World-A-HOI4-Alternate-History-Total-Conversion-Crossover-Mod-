@@ -1,6 +1,6 @@
 spriteTypes = {
     spriteType = {
-        name = "GFX_focus_CAL_the_dead_march_west"
+        name = "GFX_focus_CAL_the_long_dead_march_west"
         name = "gfx/interface/goals/CAL/GFX_focus_CAL_the_long_retreat_west.dds"
     }
 }
