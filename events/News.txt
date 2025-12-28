@@ -5,14 +5,14 @@
 add_namespace = foinews
 
 news_event = {
-    id = foinews.1
+    id = foinews.1#Michigan Collapse
     title = {
         text = foinews.1.t
     }
     desc = {
         text = foinews.1.desc
     }
-    picture = GFX_my_news_event_picture 
+    picture = GFX_fish
     is_triggered_only = yes
     major = yes    
  	option = {
@@ -20,3 +20,36 @@ news_event = {
     }
 
 }
+news_event = {
+    id = foinews.2#Indian Reunification
+    title = {
+        text = foinews.2.t
+    }
+    desc = {
+        text = foinews.2.desc
+    }
+    picture = GFX_fish
+    is_triggered_only = yes
+    major = yes    
+ 	option = {
+        name = foinews.2.a
+    }
+
+}
+news_event = {
+    id = foinews.3#Death of Petain
+    title = {
+        text = foinews.3.t
+    }
+    desc = {
+        text = foinews.3.desc
+    }
+    picture = GFX_fish
+    is_triggered_only = yes
+    major = yes    
+ 	option = {
+        name = foinews.3.a
+    }
+
+}
+
