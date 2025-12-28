@@ -255,6 +255,7 @@ shared_focus = {
     relative_position_id = CAL_re_affirm_the_treaty_of_guadalupe_hidalgo
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_volunteer_militias"
+        add_manpower = 10000
         hidden_effect = {
             load_oob = "CAL_volunteer_militias"
         }
@@ -277,6 +278,7 @@ shared_focus = {
     relative_position_id = CAL_a_dangerous_game
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_mercenary_gunmen_for_hire"
+        add_manpower = 10000
         hidden_effect = {
             load_oob = "CAL_mercenary_gunmen"
         }
@@ -655,6 +657,10 @@ shared_focus = {
     relative_position_id = CAL_dealing_with_the_anarchy_in_our_state
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_reform_the_federal_bureau_of_investigation"
+        create_intelligence_agency = {
+            name = "Federal Bureau of Investigation"
+            icon = ""
+        }
     }
 }
 
