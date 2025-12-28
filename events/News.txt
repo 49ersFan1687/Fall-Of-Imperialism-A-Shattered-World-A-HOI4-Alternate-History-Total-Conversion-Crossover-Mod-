@@ -1,0 +1,22 @@
+###########################
+# News Events
+###########################
+
+add_namespace = foinews
+
+news_event = {
+    id = foinews.1
+    title = {
+        text = foinews.1.t
+    }
+    desc = {
+        text = foinews.1.desc
+    }
+    picture = GFX_my_news_event_picture 
+    is_triggered_only = yes
+    major = yes    
+ 	option = {
+        name = foinews.1.a
+    }
+
+}

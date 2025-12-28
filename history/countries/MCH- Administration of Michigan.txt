@@ -97,5 +97,5 @@ create_country_leader = {
 		
 	}
 }
-set_variable = { MCH_Militia_Power = 83 }
+set_variable = { MCH_Militia_Power = 78 }
 set_variable = { MCH_Economic_Stability = 13 }

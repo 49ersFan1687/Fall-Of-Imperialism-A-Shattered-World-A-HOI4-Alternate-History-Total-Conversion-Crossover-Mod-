@@ -358,3 +358,27 @@ country_event = {
 	 		
 	}			
 }
+country_event = {
+	id = michigan.18
+	title = michigan.18.t
+	desc = michigan.18.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = michigan.18.a
+	SMC = {
+	transfer_state = 393
+	}
+	CMC = {
+	transfer_state = 1159
+	}
+	FMC = {
+	transfer_state = 1160
+	}
+	news_event = foinews.1
+	 		
+	}			
+}

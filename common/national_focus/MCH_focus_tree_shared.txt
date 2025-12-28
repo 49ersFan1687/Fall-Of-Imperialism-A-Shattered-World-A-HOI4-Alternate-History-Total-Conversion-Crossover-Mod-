@@ -501,6 +501,18 @@ shared_focus = {
 	}
 }
 shared_focus = {
+	id = MCH_Naval_Defence_Exercises
+	icon = GFX_fish
+	prerequisite = { focus = MCH_Green_Water_Navy }
+	cost = 5
+	x = 15
+	y = 7
+	completion_reward = {
+		navy_experience = 15
+		
+	}
+}
+shared_focus = {
 	id = MCH_Grand_Army
 	icon = GFX_fish
 	prerequisite = { focus = MCH_Keep_Calm_And_Carry_On }
