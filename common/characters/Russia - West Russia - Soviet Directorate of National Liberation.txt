@@ -425,7 +425,11 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { engineer panzer_leader combined_arms_leader }
+			traits = {
+				engineer
+				panzer_leader
+				combined_arms_leader
+			}
 			skill = 4
 			attack_skill = 5
 			defense_skill = 3
@@ -457,6 +461,27 @@ characters = {
 	# Red Navy Admirals #
 	SDL_nikolay_gerasimovich_kuznetsov = {
 		name = SDL_nikolay_gerasimovich_kuznetsov
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			navy = {
+				large = GFX_fish
+			}
+		}
+		navy_leader = {
+            desc =
+            traits = {  }
+            skill =
+            attack_skill =
+            defense_skill =
+            maneuvering_skill =
+            coordination_skill =
+        }
+	}
+
+	SDL_ivan_stepanovich_yumashev = {
+		name = SDL_ivan_stepanovich_yumashev
 		portraits = {
 			civilian = {
 				large = GFX_fish
