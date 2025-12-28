@@ -168,8 +168,8 @@ characters = {
         }
     }
 
-    NCA_joseph_lawton_collins = {
-        name = NCA_joseph_lawton_collins
+    NCA_earle_gilmore_wheeler = {
+        name = NCA_earle_gilmore_wheeler
         portraits = {
             civilian = {
                 large = GFX_fish
