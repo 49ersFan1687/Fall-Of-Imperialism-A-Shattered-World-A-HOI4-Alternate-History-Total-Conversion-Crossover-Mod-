@@ -18,3 +18,12 @@ set_popularities = {
 	democratic = 40
 	neutrality = 10
 }
+create_country_leader = {
+	name = "Leslie C Arends"
+	desc = ""
+	picture = GFX_Leslie_Arends_ILL
+	ideology = conservatism_liberal_conservatism_ideology
+	traits = {
+		#
+	}
+}

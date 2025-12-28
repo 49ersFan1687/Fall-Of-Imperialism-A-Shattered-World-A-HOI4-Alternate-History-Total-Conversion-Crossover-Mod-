@@ -268,7 +268,6 @@
  PCD_socialism_party: "CPP"
  PCD_socialism_party_long: "§YCascadian People's Party§!"
 
- #Pennsylvania
  PEN_communism_party: "PCP"
  PEN_communism_party_long: "§YPennsylvania Communist Party§!"
  PEN_syndicalism_party: "PS"
@@ -296,7 +295,6 @@
  PEN_esotericism_party: "§RBANNED§!"
  PEN_esotericism_party_long: "§RBANNED§!"
 
- #Earth Liberation Society
  ELI_communism_party: "ELS [J]"
  ELI_communism_party_long: "§YEarth Liberation Society [Jacobins]§!"
  ELI_syndicalism_party: "ELS [U]"
@@ -324,7 +322,6 @@
  ELI_esotericism_party: "§RN/A§!"
  ELI_esotericism_party_long: "§RN/A§!"
  
- #Washington Government
  WGP_communism_party: "WCP"
  WGP_communism_party_long: "§YWashington Communist Party§!"
  WGP_syndicalism_party: "WCP"
@@ -351,6 +348,23 @@
  WGP_national_socialism_party_long: "§YThe Lodge§!"
  WGP_esotericism_party: "The Lodge"
  WGP_esotericism_party_long: "§YThe Lodge§!"
+
+ MMG_ultranationalism_party: "ACA"
+ MMG_ultranationalism_party_long: "§YAnti-Communist Action§!"
+ MMG_paternal_autocrat_party: "MMC"
+ MMG_paternal_autocrat_party_long: "§YMissouri Military Clique§!"
+
+ ILL_conservatism_party: "Illinois Republicans"
+ ILL_conservatism_party_long: "§YIllinois Republican Party§!"
+ ILL_democratic_party: "Illinois Democrats"
+ ILL_democratic_party_long: "§YIllinois Democrat Party§!"
+ ILL_neutrality_party: "INP"
+ ILL_neutrality_party_long: "§YIllinois National Party§!"
+
+ IOS_communism_party: "ECIS"
+ IOS_communism_party_long: "§YExecutive Commitee of The Iowa Soviets§!"
+ IOS_socialism_party: "Independents"
+ IOS_socialism_party_long: "§YIndependent Soviets§!"
  
 
 

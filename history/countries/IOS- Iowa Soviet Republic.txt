@@ -19,3 +19,12 @@ set_popularities = {
 	
 	
 }
+create_country_leader = {
+	name = "Woody Guthrie"
+	desc = ""
+	picture = GFX_Woody_IOS
+	ideology = marxism_ideology
+	traits = {
+		#
+	}
+}
