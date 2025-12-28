@@ -285,12 +285,17 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = {
+				brilliant_strategist
+				career_officer
+				trait_reckless
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 2
 		}
 	}
 
@@ -305,7 +310,14 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
+			traits = {
+				panzer_leader
+				career_officer
+				brilliant_strategist
+				trickster
+				expert_improviser
+				ranger
+			}
 			skill = 
 			attack_skill = 
 			defense_skill = 
@@ -325,12 +337,18 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = {
+				politically_connected
+				skilled_staffer
+				expert_delegator
+				logistics_wizard
+				organizer
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
 		}
 	}
 
@@ -345,12 +363,18 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = {
+				infantry_officer
+				trait_cautious
+				career_officer
+				infantry_leader
+				ambusher
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 
@@ -365,12 +389,17 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = {
+				inflexible_strategist
+				cavalry_officer
+				cavalry_leader
+				combined_arms_leader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 
@@ -385,12 +414,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = {
+				politically_connected
+				harsh_leader
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}
 
@@ -405,12 +437,16 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			traits = {
+				inflexible_strategist
+				career_officer
+				winter_specialist
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 5
 		}
 	}
 

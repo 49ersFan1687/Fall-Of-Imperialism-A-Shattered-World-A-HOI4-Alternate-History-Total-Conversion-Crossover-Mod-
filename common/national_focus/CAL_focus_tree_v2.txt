@@ -1,5 +1,5 @@
 #### CALIFORNIA REPUBLIC FOCUS TREE By Aide of General Eisenhower ####
-
+#!gfx:interface/country/north_america/CAL_focus.gfx
 focus_tree = {
     id = CAL_starting_focus_tree
     country = {
