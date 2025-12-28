@@ -1,10 +1,10 @@
 spriteTypes = {
     spriteType = {
-        name = "GFX_CAL_the_long_retreat_west"
-        texturefile = "gfx/interface/goals/CAL/GFX_focus_CAL_the_long_retreat_west.dds"
+        name = "GFX_CAL_the_long_retreat_west_shine"
+        texturefile = "gfx/interface/goals/CAL/CAL_the_long_retreat_west.dds"
         effectFile = "gfx/FX/buttonstate.lua"
         animation = {
-            animationmaskfile = "gfx/interface/goals/CAL/GFX_focus_CAL_the_long_retreat_west.dds"
+            animationmaskfile = "gfx/interface/goals/CAL/CAL_the_long_retreat_west.dds"
             animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
             animationrotation = -90.0
             animationlooping = no
@@ -17,7 +17,7 @@ spriteTypes = {
         }
 
         animation = {
-            animationmaskfile = "gfx/interface/goals/CAL/GFX_focus_CAL_the_long_retreat_west.dds"
+            animationmaskfile = "gfx/interface/goals/CAL/CAL_the_long_retreat_west.dds"
             animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
             animationrotation = 90.0
             animationlooping = no
