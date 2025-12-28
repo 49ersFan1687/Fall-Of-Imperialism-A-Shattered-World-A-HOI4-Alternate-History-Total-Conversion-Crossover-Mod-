@@ -1,7 +1,7 @@
 spriteTypes = {
     spriteType = {
         name = "GFX_focus_CAL_the_long_dead_march_west_shine"
-        texturefile = "gfx/interface/goals/CAL/CAL_the_long_retreat_west.dds"
+        texturefile = "gfx/interface/goals/CAL/CAL_the_long_dead_march_west.dds"
         effectFile = "gfx/FX/buttonstate.lua"
         animation = {
             animationmaskfile = "gfx/interface/goals/CAL/CAL_the_long_dead_march_west.dds"
