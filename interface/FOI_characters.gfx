@@ -62,6 +62,7 @@ spriteTypes = {
 		name = "GFX_AVD_Isaac_Asimov"
 		textureFile = "gfx/leaders/America/Isaac_Asimov.png"
 	}
+	# Michigan #
 	spriteType = {
 		name = "GFX_Lombardo_MCH"
 		textureFile = "gfx/leaders/MCH/GaetanoAlbertoLombardo.png"
@@ -81,6 +82,15 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Mennen_Williams_MCH"
 		textureFile = "gfx/leaders/MCH/GMennenWilliams.png"
+	}
+	spriteType = {
+		name = "GFX_H_H_Lewis_MCH"
+		textureFile = "gfx/leaders/MCH/HHLewis.png"
+	}
+	#American National Republic #
+	spriteType = {
+		name = "GFX_Coughlin_ANR"
+		textureFile = "gfx/leaders/ANR/CharlesCoughlin.png"
 	}
 
 	# California #
