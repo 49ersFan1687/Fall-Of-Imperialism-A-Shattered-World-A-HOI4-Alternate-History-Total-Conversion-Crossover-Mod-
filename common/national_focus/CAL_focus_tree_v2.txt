@@ -1,4 +1,4 @@
-#!gfx:interface/country/north_america/CAL_focus.gfx
+#!gfx:interface/country/usa/CAL_focus.gfx
 #### CALIFORNIA REPUBLIC FOCUS TREE By Aide of General Eisenhower ####
 focus_tree = {
     id = CAL_starting_focus_tree
@@ -133,7 +133,7 @@ focus_tree = {
 ### Initial Focus Tree - Warlord State ###
 shared_focus = {
     id = CAL_the_long_dead_march_west
-    icon = GFX_focus_the_long_retreat_west
+    icon = GFX_focus_CAL_the_long_retreat_west
 	cost = 1
 	available_if_capitulated = no
 	ai_will_do = {
