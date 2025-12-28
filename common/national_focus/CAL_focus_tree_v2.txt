@@ -3654,6 +3654,10 @@ shared_focus = {
     }
 }
 
+shared_focus = {
+    id = CAL_
+}
+
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) ###
 shared_focus = {
 	id = CAL_birth_of_the_pacific_junta
