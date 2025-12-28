@@ -17,3 +17,12 @@ set_popularities = {
 	ultranationalism = 80
 	paternal_autocrat = 20
 }
+create_country_leader = {
+	name = "Richard Howard Ichord Jr."
+	picture = GFX_Howard_Ichord_MMG
+	expire = "1995.1.1"
+	ideology = stratocratic_nationalism_ideology
+	traits = {
+		
+	}
+}

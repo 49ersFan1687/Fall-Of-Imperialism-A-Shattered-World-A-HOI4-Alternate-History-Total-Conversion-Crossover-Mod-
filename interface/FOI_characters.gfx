@@ -62,6 +62,18 @@ spriteTypes = {
 		name = "GFX_AVD_Isaac_Asimov"
 		textureFile = "gfx/leaders/America/Isaac_Asimov.png"
 	}
+	spriteType = {
+		name = "GFX_Howard_Ichord_MMG"
+		textureFile = "gfx/leaders/America/RichardHowardIchordJr.png"
+	}
+	spriteType = {
+		name = "GFX_Woody_IOS"
+		textureFile = "gfx/leaders/America/WoodyGuthrie.png"
+	}
+	spriteType = {
+		name = "GFX_Leslie_Arends_ILL"
+		textureFile = "gfx/leaders/America/LeslieCArends.png"
+	}
 	# Michigan #
 	spriteType = {
 		name = "GFX_Lombardo_MCH"
