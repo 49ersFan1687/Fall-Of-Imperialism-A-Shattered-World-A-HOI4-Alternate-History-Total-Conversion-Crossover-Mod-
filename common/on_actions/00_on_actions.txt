@@ -1,9 +1,28 @@
 on_actions = {
     on_startup = {
         effect = {
-            MCH = { country_event = { id = michigan.6 } days = 2 }
-	    RAJ = { country_event = { id = generic.1 } days = 211 }
-	    FRA = { country_event = { id = generic.2 } days = 765 }
+  
+ 	    MCH = {
+                country_event = { 
+                    id = michigan.6
+                    days = 2  
+                    random_days = 1
+                }
+            }
+	    RAJ = {
+                country_event = { 
+                    id = generic.1
+                    days = 275
+                    random_days = 15
+                }
+            }
+	    FRA = {
+                country_event = { 
+                    id = generic.2
+                    days = 709
+                    random_days = 15
+                }
+            }
         }
     }
 }
