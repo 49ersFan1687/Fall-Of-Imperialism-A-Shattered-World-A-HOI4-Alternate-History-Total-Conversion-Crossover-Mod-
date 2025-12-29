@@ -3569,7 +3569,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_the_role_of_the_president
+    id = CAL_the_wallace_administration
      icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -3579,16 +3579,19 @@ shared_focus = {
     prerequisite = {
         focus = CAL_the_west_coast_under_one_flag
     }
-    x = -5
+    mutually_exclusive = {
+        focus = CAL_the_second_continental_army_administration
+    }
+    x = -4
     y = 1
     relative_position_id = CAL_the_west_coast_under_one_flag
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_role_of_the_president"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_wallace_administration"
     }
 }
 
 shared_focus = {
-    id = CAL_creating_a_unified_bureaucracy
+    id = CAL_the_second_continental_army_administration
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -3598,30 +3601,14 @@ shared_focus = {
     prerequisite = {
         focus = CAL_the_west_coast_under_one_flag
     }
-    x = 0
+    mutually_exclusive = {
+        focus = CAL_the_wallace_administration
+    }
+    x = 4
     y = 1
     relative_position_id = CAL_the_west_coast_under_one_flag
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_creating_a_unified_bureaucracy"
-    }
-}
-
-shared_focus = {
-    id = CAL_the_role_of_the_judiciary
-    icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_the_west_coast_under_one_flag
-    }
-    x = 5
-    y = 1
-    relative_position_id = CAL_the_west_coast_under_one_flag
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_role_of_the_judiciary"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_second_continental_army_administration"
     }
 }
 
