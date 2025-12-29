@@ -2609,7 +2609,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_begin_the_creation_of_a_modern_national_air_force
+    id = CAL_desegregate_the_army
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -2619,16 +2619,16 @@ shared_focus = {
     prerequisite = {
         focus = CAL_expanding_the_california_military_into_something_more_than_a_local_force
     }
-    x = -4
+    x = -3
     y = 1
     relative_position_id = CAL_expanding_the_california_military_into_something_more_than_a_local_force
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_the_creation_of_a_modern_national_air_force"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_desegregate_the_army"
     }
 }
 
 shared_focus = {
-    id = CAL_further_expansion_and_modernization_of_the_army
+    id = CAL_going_across_the_rockies
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -2642,12 +2642,15 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_expanding_the_california_military_into_something_more_than_a_local_force
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_further_expansion_and_modernization_of_the_army"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_going_across_the_rockies"
+        hidden_effect = {
+            load_oob = "CAL_tenth_mountain"
+        }
     }
 }
 
 shared_focus = {
-    id = CAL_rebuild_the_united_states_coast_guard
+    id = CAL_remembering_pearl_harbor
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -2657,7 +2660,7 @@ shared_focus = {
     prerequisite = {
         focus = CAL_expanding_the_california_military_into_something_more_than_a_local_force
     }
-    x = 4
+    x = 3
     y = 1
     relative_position_id = CAL_expanding_the_california_military_into_something_more_than_a_local_force
     completion_reward = {
@@ -2666,7 +2669,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_expand_santa_ana_air_base
+    id = CAL_expand_motorization_efforts
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -2674,18 +2677,18 @@ shared_focus = {
         factor = 1
     }
     prerequisite = {
-        focus = CAL_begin_the_creation_of_a_modern_national_air_force
+        focus = CAL_desegregate_the_army
     }
     x = -1
     y = 1
-    relative_position_id = CAL_begin_the_creation_of_a_modern_national_air_force
+    relative_position_id = CAL_desegregate_the_army
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_santa_ana_air_base"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_motorization_efforts"
     }
 }
 
 shared_focus = {
-    id = CAL_salvage_destroyed_airframes
+    id = CAL_national_guard_integration
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -2693,13 +2696,153 @@ shared_focus = {
         factor = 1
     }
     prerequisite = {
-        focus = CAL_begin_the_creation_of_a_modern_national_air_force
+        focus = CAL_desegregate_the_army
     }
     x = 1
     y = 1
-    relative_position_id = CAL_begin_the_creation_of_a_modern_national_air_force
+    relative_position_id = CAL_desegregate_the_army
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_salvage_destroyed_airframes"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_national_guard_integration"
+    }
+}
+
+shared_focus = {
+    id = CAL_training_in_great_basin_and_mojave
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_going_across_the_rockies
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_going_across_the_rockies
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_training_in_great_basin_and_mojave"
+    }
+}
+
+shared_focus = {
+    id = CAL_shipbuilding_industry
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_land_warfare_redirection
+    }
+    prerequisite = {
+        focus = CAL_remembering_pearl_harbor
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_remembering_pearl_harbor
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_shipbuilding_industry"
+    }
+}
+
+shared_focus = {
+    id = CAL_land_warfare_redirection
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_shipbuilding_industry
+    }
+    prerequisite = {
+        focus = CAL_remembering_pearl_harbor
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_remembering_pearl_harbor
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_land_warfare_redirection"
+    }
+}
+
+shared_focus = {
+    id = CAL_new_armored_divisions
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_expand_motorization_efforts
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_expand_motorization_efforts
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_new_armored_divisions"
+    }
+}
+
+shared_focus = {
+    id = CAL_expanded_infantry_support
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_national_guard_integration
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_national_guard_integration
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_expanded_infantry_support"
+    }
+}
+
+shared_focus = {
+    id = CAL_new_supply_convoys
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_training_in_great_basin_and_mojave
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_training_in_great_basin_and_mojave
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_new_supply_convoys"
+    }
+}
+
+shared_focus = {
+    id = CAL_form_the_psa_air_force
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_shipbuilding_industry
+        focus = CAL_land_warfare_redirection
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_shipbuilding_industry
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_form_the_psa_air_force"
         add_equipment_to_stockpile = {
 			type = small_plane_cas_airframe
 			amount = 120
@@ -2714,7 +2857,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_desert_training_exercises
+    id = CAL_army_air_wing
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -2722,187 +2865,14 @@ shared_focus = {
         factor = 1
     }
     prerequisite = {
-        focus = CAL_further_expansion_and_modernization_of_the_army
-    }
-    x = -1
-    y = 1
-    relative_position_id = CAL_further_expansion_and_modernization_of_the_army
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_desert_training_exercises"
-    }
-}
-
-shared_focus = {
-    id = CAL_training_in_the_sierra_nevada
-    icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_further_expansion_and_modernization_of_the_army
-    }
-    x = 1
-    y = 1
-    relative_position_id = CAL_further_expansion_and_modernization_of_the_army
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_training_in_the_sierra_nevada"
-    }
-}
-
-shared_focus = {
-    id = CAL_invasion_protection_tactics
-    icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_rebuild_the_united_states_coast_guard
-    }
-    x = -1
-    y = 1
-    relative_position_id = CAL_rebuild_the_united_states_coast_guard
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_invasion_protection_tactics"
-    }
-}
-
-shared_focus = {
-    id = CAL_integrate_navy_task_forces
-    icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_rebuild_the_united_states_coast_guard
-    }
-    x = 1
-    y = 1
-    relative_position_id = CAL_rebuild_the_united_states_coast_guard
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_integrate_navy_task_forces"
-    }
-}
-
-shared_focus = {
-    id = CAL_expand_moffett_airfield
-    icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_expand_santa_ana_air_base
+        focus = CAL_shipbuilding_industry
+        focus = CAL_land_warfare_redirection
     }
     x = 0
     y = 1
-    relative_position_id = CAL_expand_santa_ana_air_base
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_moffett_airfield"
-    }
-}
-
-shared_focus = {
-    id = CAL_expand_seattle_boeing_works
-    icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_salvage_destroyed_airframes
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_salvage_destroyed_airframes
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_seattle_boeing_works"
-    }
-}
-
-shared_focus = {
-    id = CAL_new_armored_divisions
-    icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_desert_training_exercises
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_desert_training_exercises
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_new_armored_divisions"
-    }
-}
-
-shared_focus = {
-    id = CAL_reactivate_the_tenth_mountain
-    icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_training_in_the_sierra_nevada
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_training_in_the_sierra_nevada
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reactivate_the_tenth_mountain"
-        hidden_effect = {
-            load_oob = "CAL_tenth_mountain"
-        }
-    }
-}
-
-shared_focus = {
-    id = CAL_build_coastal_fortifications
-    icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_invasion_protection_tactics
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_invasion_protection_tactics
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_build_coastal_fortifications"
-    }
-}
-
-shared_focus = {
-    id = CAL_littorial_combat_ship_production
-    icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_integrate_navy_task_forces
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_integrate_navy_task_forces
+    relative_position_id = CAL_land_warfare_redirection
      completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_littorial_combat_ship_production"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_army_air_wing"
     }
 }
 
@@ -2915,22 +2885,17 @@ shared_focus = {
         factor = 1
     }
     prerequisite = {
-        focus = CAL_expand_moffett_airfield
-    }
-    prerequisite = {
-        focus = CAL_expand_seattle_boeing_works
-    }
-    prerequisite = {
         focus = CAL_new_armored_divisions
     }
     prerequisite = {
-        focus = CAL_reactivate_the_tenth_mountain
+        focus = CAL_expanded_infantry_support
     }
     prerequisite = {
-        focus = CAL_build_coastal_fortifications
+        focus = CAL_new_supply_convoys
     }
     prerequisite = {
-        focus = CAL_littorial_combat_ship_production
+        focus = CAL_form_the_psa_air_force
+        focus = CAL_army_air_wing
     }
     x = 0
     y = 4
