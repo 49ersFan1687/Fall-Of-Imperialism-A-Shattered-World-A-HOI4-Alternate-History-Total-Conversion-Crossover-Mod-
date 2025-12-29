@@ -23,6 +23,13 @@ on_actions = {
                     random_days = 15
                 }
             }
+	    TXM = {
+                country_event = { 
+                    id = generic.3
+                    days = 513
+                    random_days = 25
+                }
+            }
         }
     }
 }

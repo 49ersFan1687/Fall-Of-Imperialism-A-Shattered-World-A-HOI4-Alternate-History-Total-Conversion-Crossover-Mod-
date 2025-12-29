@@ -32,7 +32,7 @@ country_event = {
 	}			
 }
 country_event = {
-	id = generic.2
+	id = generic.2#Petain Death
 	title = generic.2.t
 	desc = generic.2.d
 	picture = GFX_report_event_generic_funeral
@@ -46,5 +46,152 @@ country_event = {
 		retire_country_leader = yes
 		}
 		news_event = foinews.3
+	}			
+}
+country_event = {
+	id = generic.3#Texas Wars
+	title = generic.3.t
+	desc = generic.3.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+	
+	option = {
+		name = generic.3.a
+		TXM = {
+			declare_war_on = {
+    				target = TXR
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = TXS
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = RGR
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = TXS
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = FTG
+    				type = annex_everything
+			}
+		}
+		TXR = {
+			declare_war_on = {
+    				target = TXM
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = TXS
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = RGR
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = TXS
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = FTG
+    				type = annex_everything
+			}
+		}
+		TXS = {
+			declare_war_on = {
+    				target = TXR
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = TXM
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = RGR
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = TXS
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = FTG
+    				type = annex_everything
+			}
+		}
+		RGR = {
+			declare_war_on = {
+    				target = TXR
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = TXS
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = TXM
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = TXS
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = FTG
+    				type = annex_everything
+			}
+		}
+		TXS = {
+			declare_war_on = {
+    				target = TXR
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = TXS
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = RGR
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = TXM
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = FTG
+    				type = annex_everything
+			}
+		}
+		FTG = {
+			declare_war_on = {
+    				target = TXR
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = TXS
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = RGR
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = TXS
+    				type = annex_everything
+			}
+			declare_war_on = {
+    				target = TXM
+    				type = annex_everything
+			}
+		}
+
+		news_event = foinews.4
 	}			
 }
