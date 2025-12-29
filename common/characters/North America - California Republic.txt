@@ -221,7 +221,7 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 3
 		}
-		advisior = {
+		advisor = {
 			cost = 200
 			slot = theorist
 			idea_token = dwight_david_eisenhower
@@ -260,7 +260,7 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 4
 		}
-		advisior = {
+		advisor = {
 			cost = 200
 			slot = theorist
 			idea_token = george_catlett_marshall
@@ -285,7 +285,7 @@ characters = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Omar_Nelson_Bradley.dds"
 			}
 		}
-		advisior = {
+		advisor = {
 			cost = 100
 			slot = army_chief
 			idea_token = omar_nelson_bradley
@@ -323,7 +323,7 @@ characters = {
 				large = 
 			}
 		}
-		field_marshal={
+		field_marshal= {
 			traits= {
 				media_personality
 			}
@@ -359,7 +359,7 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 3 
 		}
-		advisior = {
+		advisor = {
 			cost = 200
 			slot = theorist
 			idea_token = george_smith_patton_jr
@@ -467,7 +467,7 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 4
 		}
-		advisior = {
+		advisor = {
 			cost = 200
 			slot = theorist
 			idea_token = william_childs_westmoreland
@@ -549,7 +549,7 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 3
 		}
-		advisior = {
+		advisor = {
 			cost = 200
 			slot = air_chief
 			idea_token = henry_harley_arnold
@@ -630,7 +630,7 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 3
 		}
-		advisior = {
+		advisor = {
 			cost = 100
 			slot = army_chief
 			idea_token = leonard_townsend_gerow
@@ -869,7 +869,7 @@ characters = {
 			maneuvering_skill = 3
 			coordination_skill = 6
 		}
-		advisior = {
+		advisor = {
 			cost = 150 
 			slot = navy_chief
 			idea_token = 
@@ -907,7 +907,7 @@ characters = {
 			maneuvering_skill = 5
 			coordination_skill = 5
 		}
-		advisior = {
+		advisor = {
 			cost = 150
 			slot = navy_chief
 			idea_token = chester_william_nimitz
@@ -942,7 +942,7 @@ characters = {
 			maneuvering_skill = 3
 			coordination_skill = 4
 		}
-		advisior = { 
+		advisor = { 
 			slot = 
 			idea_token = 
 			ledger = navy
@@ -979,7 +979,7 @@ characters = {
 			maneuvering_skill = 3
 			coordination_skill = 2
 		}
-		advisior = { 
+		advisor = { 
 			slot = 
 			idea_token = 
 			ledger = navy
