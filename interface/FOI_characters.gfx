@@ -4,11 +4,17 @@ spriteTypes = {
 		name = "GFX_SDNL_Tukhachevsky"
 		textureFile = "gfx/leaders/SDL/Portrait_SDL_mikhail_nikolayevich_tukhachevsky.dds"
 	}
+	spriteType = {
+		name = "GFX_SDNL_Zhukov"
+		textureFile = "gfx/leaders/SDL/Portrait_SDL_georgy_konstantinovich_zhukov.dds"
+	}
+
 	# German Faction #
 	spriteType = {
 		name = "GFX_ROM_Antonescu"
 		textureFile = "gfx/leaders/GER_FACTION/IonAntonescu.png"
 	}
+
 	# Russia #
 	spriteType = {
 		name = "GFX_Lazar_WSS"
