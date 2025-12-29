@@ -14,6 +14,10 @@ spriteTypes = {
 		name = "GFX_ROM_Antonescu"
 		textureFile = "gfx/leaders/GER_FACTION/IonAntonescu.png"
 	}
+	spriteType = {
+		name = "GFX_IRE_Valera"
+		textureFile = "gfx/leaders/GER_FACTION/EamonDeValera.png"
+	}
 
 	# Russia #
 	spriteType = {

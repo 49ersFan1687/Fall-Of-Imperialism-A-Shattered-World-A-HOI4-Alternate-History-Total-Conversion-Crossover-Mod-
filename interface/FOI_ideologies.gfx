@@ -90,7 +90,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/american_fascism_ideology.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_irish_national_catholicism"
+		name = "GFX_ideology_irish_national_catholicism_ideology"
 		texturefile = "gfx/interface/ideologies/irish_national_catholicism.png"
 	}
 	spriteType = {
