@@ -18,7 +18,7 @@ characters = {
     }
 
     WSS_mikhail_andreyevich_suslov = {
-        name = CAL_henry_agard_wallaceWSS_mikhail_andreyevich_suslov
+        name = WSS_mikhail_andreyevich_suslov
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/CAL/Portrait_WSS_Mikhail_Andreyevich_Suslov.dds"
@@ -34,5 +34,7 @@ characters = {
 		}
     }
 
-    
+    WSS_ivan_stepanovich_konev = {
+        name = 
+    }
 }
