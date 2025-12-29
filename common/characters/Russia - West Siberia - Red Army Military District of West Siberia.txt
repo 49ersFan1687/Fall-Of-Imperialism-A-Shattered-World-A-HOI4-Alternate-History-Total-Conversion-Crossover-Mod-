@@ -1,0 +1,36 @@
+characters = {
+    # country leaders #
+    WSS_lazar_moiseyevich_kaganovich = {
+        name = WSS_lazar_moiseyevich_kaganovich
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WSS/Portrait_WSS_Lazar_Moiseyevich_Kaganovich.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_LAZAR_KAGANOVICH_DESC"
+			expire = "1994.4.20"
+			ideology = stalinism_ideology
+			traits = {
+
+			}
+		}
+    }
+
+    WSS_mikhail_andreyevich_suslov = {
+        name = CAL_henry_agard_wallaceWSS_mikhail_andreyevich_suslov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAL/Portrait_WSS_Mikhail_Andreyevich_Suslov.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MIKHAIL_SUSLOV_DESC"
+			expire = "1994.4.20"
+			ideology = stalinism_ideology
+			traits = {
+
+			}
+		}
+    }
+}

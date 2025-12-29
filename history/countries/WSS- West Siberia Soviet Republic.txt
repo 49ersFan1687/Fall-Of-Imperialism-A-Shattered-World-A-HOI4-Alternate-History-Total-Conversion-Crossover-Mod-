@@ -27,20 +27,7 @@ set_popularities = {
 	communism = 85
 	socialism = 15
 }
-create_country_leader = {
-	name = "Mikhail Suslov"
-	picture = GFX_Suslov_WSS
-	expire = "1995.1.1"
-	ideology = stalinism_ideology
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Lazar Kaganovich"
-	picture = GFX_Lazar_WSS
-	expire = "1995.1.1"
-	ideology = stalinism_ideology
-	traits = {
-	}
-}
 
+### Country Leader ###
+recruit_character = WSS_lazar_moiseyevich_kaganovich
+recruit_character = WSS_mikhail_andreyevich_suslov
