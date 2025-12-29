@@ -52,4 +52,20 @@ news_event = {
     }
 
 }
+news_event = {
+    id = foinews.4#Texas Wars
+    title = {
+        text = foinews.4.t
+    }
+    desc = {
+        text = foinews.4.desc
+    }
+    picture = GFX_fish
+    is_triggered_only = yes
+    major = yes    
+ 	option = {
+        name = foinews.4.a
+    }
+
+}
 
