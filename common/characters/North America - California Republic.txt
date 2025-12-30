@@ -226,9 +226,6 @@ characters = {
 			slot = theorist
 			idea_token = dwight_david_eisenhower
 			ledger = army
-			allowed = {
-				original_tag = CAL
-			}
 			traits = {
 				superior_firepower_expert
 			}
@@ -265,9 +262,6 @@ characters = {
 			slot = theorist
 			idea_token = george_catlett_marshall
 			ledger = army
-			allowed = {
-				original_tag = CAL
-			}
 			traits = {
 				grand_battleplan_expert
 			}
@@ -324,7 +318,7 @@ characters = {
 			}
 		}
 		field_marshal= {
-			traits= {
+			traits = {
 				media_personality
 			}
 			skill = 4
@@ -342,6 +336,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_George_Smith_Patton_Jr.dds"
+				small = 
 			}
 		}
 		corps_commander = {
@@ -360,13 +355,10 @@ characters = {
 			logistics_skill = 3 
 		}
 		advisor = {
-			cost = 200
+			cost = 100
 			slot = theorist
 			idea_token = george_smith_patton_jr
 			ledger = army
-			allowed = {
-				original_tag = CAL
-			}
 			traits = {
 				mobile_warfare_expert
 			}
@@ -472,9 +464,6 @@ characters = {
 			slot = theorist
 			idea_token = william_childs_westmoreland
 			ledger = army
-			allowed = {
-				original_tag = CAL
-			}
 			traits = {
 				mass_assault_expert
 			}
@@ -553,9 +542,6 @@ characters = {
 			cost = 200
 			slot = air_chief
 			idea_token = henry_harley_arnold
-			allowed = {
-				original_tag = CAL
-			}
 			traits = {
 				air_chief_reform_3
 			}
@@ -583,6 +569,13 @@ characters = {
 			defense_skill = 3
 			planning_skill = 2
 			logistics_skill = 2
+		}
+		advisor = {
+			slot = high_command
+			cost = 100
+			idea_token = jacob_loucks_devers
+			traits = { army_armored_2 }
+			can_be_fired = yes
 		}
 	}
 
@@ -874,7 +867,6 @@ characters = {
 			slot = navy_chief
 			idea_token = 
 			ledger = navy
-			allowed = { original_tag = CAL }
 			traits = {
 
 			}
@@ -912,7 +904,6 @@ characters = {
 			slot = navy_chief
 			idea_token = chester_william_nimitz
 			ledger = navy
-			allowed = { original_tag = CAL }
 			traits = {
 				navy_chief_commerce_raiding_2
 			}
@@ -983,7 +974,6 @@ characters = {
 			slot = 
 			idea_token = 
 			ledger = navy
-			allowed = { original_tag = CAL }
 			traits = {
 
 			}
