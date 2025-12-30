@@ -42,12 +42,13 @@ set_popularities = {
 	national_socialism = 30
 	paternal_autocrat = 5
 	neutrality = 10
-	esotericism = 5
+	conservatism = 4
+	socialism = 1
 }
 create_country_leader = {
 	name = "Oswald Mosley"
 	desc = ""
-	picture = GFX_fish
+	picture = GFX_ENG_Mosley
 	ideology = british_fascism_ideology
 	traits = {
 		#

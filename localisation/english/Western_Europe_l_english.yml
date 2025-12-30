@@ -51,6 +51,36 @@
  IRE_DEF: "Ireland"
  IRE_ADJ: "Ireland"
 
+ #Parties#
+ ENG_communism_party: "BRF"
+ ENG_communism_party_long: "§YBritish Resistance Front§!"
+ ENG_syndicalism_party: "BRF"
+ ENG_syndicalism_party_long: "§YBritish Resistance Front§!"
+ ENG_socialism_party: "BRF"
+ ENG_socialism_party_long: "§YBritish Resistance Front§!"
+ ENG_social_democracy_party: "BRF"
+ ENG_social_democracy_party_long: "§YBritish Resistance Front§!"
+ ENG_democratic_party: "BRF"
+ ENG_democratic_party_long: "§YBritish Resistance Front§!"
+ ENG_conservatism_party: "Conservatives"
+ ENG_conservatism_party_long: "§YConservative Party§!"
+ ENG_neutrality_party: "Conservatives"
+ ENG_neutrality_party_long: "§YConservative Party§!"
+ ENG_paternal_autocrat_party: "Royalists"
+ ENG_paternal_autocrat_party_long: "§YRoyalist Party§!"
+ ENG_accelerationism_party: "BRF"
+ ENG_accelerationism_party_long: "§YBritish Resistance Front§!"
+ ENG_ultranationalism_party: "BUF"
+ ENG_ultranationalism_party_long: "§YBritish Union of Fascists§!"
+ ENG_fascism_party: "BUF"
+ ENG_fascism_party_long: "§YBritish Union of Fascists§!"
+ ENG_national_socialism_party: "NSBWP"
+ ENG_national_socialism_party_long: "§YNational Socialist British Worker's Party§!"
+ ENG_esotericism_party: "HOGD"
+ ENG_esotericism_party_long: "§YHermetic Order of The Golden Dawn§!"
+
+
+
  # Localisation for France #
 
  #Country Names#
