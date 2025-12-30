@@ -1,0 +1,45 @@
+capital = 111
+
+set_research_slots = 3
+
+
+
+
+
+
+
+
+add_ideas = {
+	limited_conscription
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_trucks = 1
+	gw_artillery = 1			
+	interwar_antiair = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	basic_train = 1
+}
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1931.3.2"
+	election_frequency = 72
+	elections_allowed = yes
+}
+set_popularities = {
+	neutrality = 30
+	paternal_autocrat = 20
+	democratic = 10
+	conservatism = 20
+	social_democracy = 10
+	national_socialism = 10
+	
+}
+
+
