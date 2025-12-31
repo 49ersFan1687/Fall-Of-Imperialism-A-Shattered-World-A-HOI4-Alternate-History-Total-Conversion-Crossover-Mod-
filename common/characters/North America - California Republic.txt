@@ -1015,11 +1015,11 @@ characters = {
 				fleet_protector
 				superior_tactician
 			}
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			maneuvering_skill = 
-			coordination_skill =
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 4
 		}
 	}
 
