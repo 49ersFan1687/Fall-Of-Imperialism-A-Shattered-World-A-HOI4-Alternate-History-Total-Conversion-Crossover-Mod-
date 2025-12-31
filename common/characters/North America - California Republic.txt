@@ -205,6 +205,7 @@ characters = {
 			}
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Dwight_David_Eisenhower.dds"
+				small = 
 			}
 		}
 		field_marshal = {
@@ -241,6 +242,7 @@ characters = {
 			}
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_George_Catlett_Marshall.dds"
+				small = 
 			}
 		}
 		field_marshal = {
@@ -277,6 +279,7 @@ characters = {
 			}
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Omar_Nelson_Bradley.dds"
+				small = 
 			}
 		}
 		advisor = {
@@ -310,11 +313,9 @@ characters = {
 		name = CAL_spitfire
 		desc =
 		portraits = {
-			civilian = {
-				large = 
-			}
 			army = {
-				large = 
+				large =
+				small = 
 			}
 		}
 		field_marshal= {
@@ -334,6 +335,9 @@ characters = {
 		name = CAL_george_smith_patton_jr
 		desc = 
 		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAL/Portrait_CAL_George_Smith_Patton_Jr.dds"
+			}
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_George_Smith_Patton_Jr.dds"
 				small = 
@@ -865,7 +869,7 @@ characters = {
 		advisor = {
 			cost = 150 
 			slot = navy_chief
-			idea_token = 
+			idea_token = ernest_joseph_king
 			ledger = navy
 			traits = {
 
@@ -935,13 +939,13 @@ characters = {
 		}
 		advisor = { 
 			slot = 
-			idea_token = 
+			idea_token = william_daniel_leahy
 			ledger = navy
 			allowed = { original_tag = CAL }
 			traits = {
 
 			}
-		 }
+		}
 	}
 
 	CAL_william_fredrick_halsey_jr = {
@@ -951,10 +955,6 @@ characters = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_William_Fredrick_Halsey_Jr.dds"
 				small = "gfx/leaders/CAL/Portrait_William_Fredrick_Halsey_Jr.dds"
-			}
-			civilian = {
-				large = 
-				small = 
 			}
 		}
 		navy_leader = {
