@@ -30,8 +30,8 @@ focus_tree = {
     shared_focus = CAL_handling_the_political_system
     shared_focus = CAL_expanding_the_california_military_into_something_more_than_a_local_force
     shared_focus = CAL_the_west_coast_under_one_flag
-    shared_focus = CAL_the_wallace_administration
-    shared_focus = CAL_the_second_continental_army_administration
+    shared_focus = CAL_the_west_coast_under_the_wallace_administration
+    shared_focus = CAL__the_west_coast_under_the_second_continental_army
     continuous_focus_position = { x = 450 y = 200 }
 }
 
@@ -3556,28 +3556,7 @@ shared_focus = {
 ### Focus Tree - Pre-Regional Unification Tree - Civilian ###
 
 shared_focus = {
-    id = CAL_the_wallace_administration
-     icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    mutually_exclusive = {
-        focus = CAL_the_second_continental_army_administration
-    }
-    x = -3
-    y = 2
-    relative_position_id = CAL_the_birth_of_the_psa_military
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_wallace_administration"
-    }
-}
-
-### Focus Tree - Pre-Regional Unification Tree - Military ###
-
-shared_focus = {
-    id = CAL_the_second_continental_army_administration
+    id = CAL_the_west_coast_under_the_wallace_administration
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -3585,13 +3564,227 @@ shared_focus = {
         factor = 1
     }
     mutually_exclusive = {
-        focus = CAL_the_wallace_administration
+        focus = CAL__the_west_coast_under_the_second_continental_army
+    }
+    x = -3
+    y = 2
+    relative_position_id = CAL_the_birth_of_the_psa_military
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_west_coast_under_the_wallace_administration"
+    }
+}
+
+shared_focus = {
+    id = CAL_get_butlers_support
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_west_coast_under_the_wallace_administration
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_west_coast_under_the_wallace_administration
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_get_butlers_support"
+    }
+}
+
+shared_focus = {
+    id = CAL_get_the_support_of_the_navy_and_marine_corps
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_get_butlers_support
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_get_butlers_support
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_get_the_support_of_the_navy_and_marine_corps"
+    }
+}
+
+shared_focus = {
+    id = CAL_reimplement_the_first_amendment
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_get_the_support_of_the_navy_and_marine_corps
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_get_the_support_of_the_navy_and_marine_corps
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reimplement_the_first_amendment"
+    }
+}
+
+shared_focus = {
+    id = CAL_legalize_non_extremist_parties
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_get_the_support_of_the_navy_and_marine_corps
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_get_the_support_of_the_navy_and_marine_corps
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_legalize_non_extremist_parties"
+    }
+}
+
+shared_focus = {
+    id = CAL_create_the_huac
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_reimplement_the_first_amendment
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_reimplement_the_first_amendment
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_create_the_huac"
+    }
+}
+
+shared_focus = {
+    id = CAL_negitiations_with_trade_unions
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_legalize_non_extremist_parties
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_legalize_non_extremist_parties
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_negitiations_with_trade_unions"
+    }
+}
+
+shared_focus = {
+    id = CAL_new_congressional_acts
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_create_the_huac
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_create_the_huac
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_new_congressional_acts"
+    }
+}
+
+shared_focus = {
+    id = CAL_hear_new_court_cases
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_negitiations_with_trade_unions
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_negitiations_with_trade_unions
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_hear_new_court_cases"
+    }
+}
+
+shared_focus = {
+    id = CAL_limiting_presidential_powers
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_new_congressional_acts
+    }
+    prerequisite = {
+        focus = CAL_hear_new_court_cases
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_new_congressional_acts
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_limiting_presidential_powers"
+    }
+}
+
+shared_focus = {
+    id = CAL_american_democracy_stabilized
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_limiting_presidential_powers
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_limiting_presidential_powers
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_american_democracy_stabilized"
+    }
+}
+
+### Focus Tree - Pre-Regional Unification Tree - Military ###
+
+shared_focus = {
+    id = CAL__the_west_coast_under_the_second_continental_army
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_the_west_coast_under_the_wallace_administration
     }
     x = 3
     y = 2
     relative_position_id = CAL_the_birth_of_the_psa_military
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_second_continental_army_administration"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL__the_west_coast_under_the_second_continental_army"
     }
 }
 
@@ -3604,11 +3797,11 @@ shared_focus = {
         factor = 1
     }
     prerequisite = {
-        focus = CAL_the_second_continental_army_administration
+        focus = CAL__the_west_coast_under_the_second_continental_army
     }
     x = 0
     y = 1
-    relative_position_id = CAL_the_second_continental_army_administration
+    relative_position_id = CAL__the_west_coast_under_the_second_continental_army
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_secure_preferential_elections"
     }
