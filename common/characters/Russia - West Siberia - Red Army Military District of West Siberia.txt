@@ -44,6 +44,7 @@ characters = {
 			}
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Ivan_Stepanovich_Konev.dds"
+				small = 
 			}
 		}
         field_marshal = {
@@ -61,5 +62,7 @@ characters = {
         }
     }
 
-    WSS_
+    WSS_konstantin_konstantinovich_rokkosovsky = {
+		name = WSS_konstantin_konstantinovich_rokkosovsky
+	}
 }
