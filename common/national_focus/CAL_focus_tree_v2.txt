@@ -81,6 +81,19 @@ focus_tree = {
 }
 
 focus_tree = {
+    id = CAL_superregional_stage_cavalier_faction_focus_tree
+    country = {
+		factor = 0
+		modifier = { 
+            add = 10
+            tag = CAL
+        }
+	}
+    default = no
+    continuous_focus_position = { x = 450 y = 200 }
+}
+
+focus_tree = {
     id = CAL_superregional_stage_civilian_democracy_focus_tree
     country = {
 		factor = 0
