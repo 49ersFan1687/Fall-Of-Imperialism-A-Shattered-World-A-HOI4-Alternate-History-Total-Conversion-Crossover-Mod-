@@ -1524,7 +1524,7 @@ KCH = {
 	color_ui = rgb { 222 247 198 }
 }
 FES = {
-	color = rgb { 110 49 62 }
+	color = rgb { 87 85 83 }
 	color_ui = rgb { 222 247 198 }
 }
 KYR = {
