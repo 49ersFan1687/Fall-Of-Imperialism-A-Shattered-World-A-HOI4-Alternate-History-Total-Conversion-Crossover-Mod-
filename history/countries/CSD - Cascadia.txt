@@ -116,7 +116,7 @@ recruit_character = CSD_elmenhilde_karnstein
 recruit_character = CSD_ingvild_leviathan
 recruit_character = CSD_yasaka
 
-# Second Continentn Army Cascadian Branch - Hope's Peak Academy Generals (Dream on, forever!) #
+# Second Continental Army Cascadian Branch - Hope's Peak Academy Generals (Dream on, forever!) #
 recruit_character = CSD_makoto_naegi
 recruit_character = 
 
