@@ -39,7 +39,7 @@ guiTypes = {
 
 			iconType = {
 				name = "diplo_flag_frame"
-				position = { x = 14 y = -10 }
+				position = { x = 13 y = 24 }
 				spriteType = "GFX_diplo_flag_frame"
 				alwaystransparent = yes
 			}
