@@ -4023,7 +4023,7 @@ shared_focus = {
     }
 }
 
-### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) - Start ###
+### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) - Starting Focuses ###
 shared_focus = {
 	id = CAL_birth_of_the_pacific_junta
 	icon = GFX
@@ -4158,6 +4158,544 @@ shared_focus = {
     relative_position_id = CAL_the_cascadian_new_guard
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_call_the_washigtonian_congress"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_armys_best
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_wallaces_voice_in_the_congress
+    }
+    prerequisite = {
+        focus = CAL_call_the_washigtonian_congress
+    }
+    x = -5
+    y = 1
+    relative_position_id = CAL_call_the_washigtonian_congress
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_shaky_army_coalition"
+    }
+}
+
+shared_focus = {
+    id = CAL_wallaces_voice_in_the_congress
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_the_armys_best
+    }
+    prerequisite = {
+        focus = CAL_call_the_washigtonian_congress
+    }
+    x = -3
+    y = 1
+    relative_position_id = CAL_call_the_washigtonian_congress
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_shaky_army_coalition"
+    }
+}
+
+shared_focus = {
+    id = CAL_unlikely_allies_from_cascadia
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_call_the_washigtonian_congress
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_call_the_washigtonian_congress
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_unlikely_allies_from_cascadia"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_navys_liberals
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_pattons_patriots
+    }
+    prerequisite = {
+        focus = CAL_call_the_washigtonian_congress
+    }
+    x = 3
+    y = 1
+    relative_position_id = CAL_call_the_washigtonian_congress
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_navys_liberals"
+    }
+}
+
+shared_focus = {
+    id = CAL_pattons_patriots
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_the_navys_liberals
+    }
+    prerequisite = {
+        focus = CAL_call_the_washigtonian_congress
+    }
+    x = 5
+    y = 1
+    relative_position_id = CAL_call_the_washigtonian_congress
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_shaky_army_coalition"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_presidency_secured
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_armys_best
+        focus = CAL_wallaces_voice_in_the_congress
+    }
+    prerequisite = {
+        focus = CAL_unlikely_allies_from_cascadia
+    }
+    prerequisite = {
+        focus = CAL_the_navys_liberals
+        focus = CAL_pattons_patriots
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_unlikely_allies_from_cascadia
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_presidency_secured"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_early_thaw
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_the_military_unchained
+    }
+    prerequisite = {
+        focus = CAL_the_presidency_secured
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_the_presidency_secured
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_early_thaw"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_military_unchained
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_the_early_thaw
+    }
+    prerequisite = {
+        focus = CAL_the_presidency_secured
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_the_presidency_secured
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_general_butlers_protests"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_foundations_for_a_civilian_congress
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_early_thaw
+    }
+    x = -4
+    y = 1
+    relative_position_id = CAL_the_early_thaw
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_foundations_for_a_civilian_congress"
+    }
+}
+
+shared_focus = {
+    id = CAL_lighten_curfews
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_early_thaw
+    }
+    x = -2
+    y = 1
+    relative_position_id = CAL_the_early_thaw
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_lighten_curfews"
+    }
+}
+
+shared_focus = {
+    id = CAL_push_wallace_as_a_figurehead
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_early_thaw
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_early_thaw
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_push_wallace_as_a_figurehead"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_chief_stays
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_military_unchained
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_military_unchained
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_chief_stays"
+    }
+}
+
+shared_focus = {
+    id = CAL_maintain_the_stern_stance
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_military_unchained
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_the_military_unchained
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_maintain_the_stern_stance"
+    }
+}
+
+shared_focus = {
+    id = CAL_define_the_line_between_civilian_and_citizen
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_military_unchained
+    }
+    x = 4
+    y = 1
+    relative_position_id = CAL_the_military_unchained
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_define_the_line_between_civilian_and_citizen"
+    }
+}
+
+shared_focus = {
+    id = CAL_mild_civilian_oversight
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_lighten_curfews
+    }
+    prerequisite = {
+        focus = CAL_the_foundations_for_a_civilian_congress
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_the_foundations_for_a_civilian_congress
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_mild_civilian_oversight"
+    }
+}
+
+shared_focus = {
+    id = CAL_put_the_hardliners_in_check
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_lighten_curfews
+    }
+    prerequisite = {
+        focus = CAL_push_wallace_as_a_figurehead
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_lighten_curfews
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_put_the_hardliners_in_check"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_dark_horse_strengthened
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_presidency_secured
+    }
+    x = 0
+    y = 3
+    relative_position_id = CAL_the_presidency_secured
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_general_butlers_protests"
+    }
+}
+
+shared_focus = {
+    id = CAL_a_military_huac
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_chief_stays
+    }
+    prerequisite = {
+        focus = CAL_maintain_the_stern_stance
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_the_chief_stays
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_military_huac"
+    }
+}
+
+shared_focus = {
+    id = CAL_addressing_general_butlers_fate
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_maintain_the_stern_stance
+    }
+    prerequisite = {
+        focus = CAL_define_the_line_between_civilian_and_citizen
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_maintain_the_stern_stance
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_general_butlers_fate"
+    }
+}
+
+shared_focus = {
+    id = CAL_wallaces_defiance
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_mild_civilian_oversight
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_mild_civilian_oversight
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_wallaces_defiance"
+    }
+}
+
+shared_focus = {
+    id = CAL_ensure_states_rights
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_put_the_hardliners_in_check
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_put_the_hardliners_in_check
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_ensure_states_rights"
+    }
+}
+
+shared_focus = {
+    id = CAL_but_not_won
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_dark_horse_strengthened
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_dark_horse_strengthened
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_but_not_won"
+    }
+}
+
+shared_focus = {
+    id = CAL_tribunal_for_bay_area_communists
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_military_huac
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_a_military_huac
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_tribunal_for_bay_area_communists"
+    }
+}
+
+shared_focus = {
+    id = CAL_clear_up_the_marine_corps_place
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_addressing_general_butlers_fate
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_addressing_general_butlers_fate
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_clear_up_the_marine_corps_place"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_beginning_of_the_long_road
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_wallaces_defiance
+    }
+    prerequisite = {
+        focus = CAL_ensure_states_rights
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_wallaces_defiance
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_beginning_of_the_long_road"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_state_secured
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_tribunal_for_bay_area_communists
+    }
+    prerequisite = {
+        focus = CAL_clear_up_the_marine_corps_place
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_tribunal_for_bay_area_communists
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_state_secured"
     }
 }
 
