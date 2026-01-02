@@ -107,7 +107,33 @@ focus_tree = {
 }
 
 focus_tree = {
-    id = CAL_post_unification_focus_tree
+    id = CAL_civilian_democracy_post_unification_focus_tree
+    country = {
+		factor = 0
+		modifier = { 
+            add = 10
+            tag = CAL
+        }
+	}
+    default = no
+    continuous_focus_position = { x = 450 y = 200 }
+}
+
+focus_tree = {
+    id = CAL_military_democracy_post_unification_focus_tree
+    country = {
+		factor = 0
+		modifier = { 
+            add = 10
+            tag = CAL
+        }
+	}
+    default = no
+    continuous_focus_position = { x = 450 y = 200 }
+}
+
+focus_tree = {
+    id = CAL_cavalier_faction_post_unification_focus_tree
     country = {
 		factor = 0
 		modifier = { 
