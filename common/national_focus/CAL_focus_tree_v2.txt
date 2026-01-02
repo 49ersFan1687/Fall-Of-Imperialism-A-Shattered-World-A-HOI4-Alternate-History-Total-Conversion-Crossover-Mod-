@@ -4699,6 +4699,9 @@ shared_focus = {
     }
 }
 
+### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch -  ###
+
+
 ### Focus Tree - Regional Stage: Political Focus Tree (Civillian-Aligned Democracy) ###
 shared_focus = {
 	id = CAL_the_formation_of_the_pacific_states_of_america
