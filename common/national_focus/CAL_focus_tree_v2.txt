@@ -1711,7 +1711,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_the_state_secured
+    id = CAL_purge_those_bastards
      icon = GFX
     cost = 2
     available_if_capitulated = no
@@ -1725,7 +1725,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_begin_arresting_extremists
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_state_secured"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_purge_those_bastards"
     }
 }
 
@@ -1813,7 +1813,7 @@ shared_focus = {
         focus = CAL_what_are_we_truly
     }
     prerequisite = {
-        focus = CAL_the_state_secured
+        focus = CAL_purge_those_bastards
     }
     prerequisite = {
         focus = CAL_an_army_ready_for_war
@@ -4032,8 +4032,8 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-	x = 25
-	y = 0
+	x = 35
+	y = 1
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_birth_of_the_pacific_junta"
 	}
@@ -4058,6 +4058,7 @@ shared_focus = {
     }
 }
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch -  ###
+
 
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch - Political Stage ###
 shared_focus = {
@@ -5684,8 +5685,8 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-	x = 55
-	y = 0
+	x = 75
+	y = 1
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_the_total_overhaul_of_the_psa_military"
 		army_experience = 50
