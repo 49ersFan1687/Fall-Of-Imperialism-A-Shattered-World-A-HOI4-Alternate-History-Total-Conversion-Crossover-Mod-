@@ -4058,7 +4058,24 @@ shared_focus = {
     }
 }
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch -  ###
-
+shared_focus = {
+    id = CAL
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_addressing_the_problems_within_our_government
+    }
+    x = -15
+    y = 1
+    relative_position_id = CAL_addressing_the_problems_within_our_government
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_the_problems_within_our_government"
+    }
+}
 
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch - Political Stage ###
 shared_focus = {
@@ -4701,7 +4718,24 @@ shared_focus = {
 }
 
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch -  ###
-
+shared_focus = {
+    id = CAL_2
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_addressing_the_problems_within_our_government
+    }
+    x = 15
+    y = 1
+    relative_position_id = CAL_addressing_the_problems_within_our_government
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_the_problems_within_our_government"
+    }
+}
 
 ### Focus Tree - Regional Stage: Political Focus Tree (Civillian-Aligned Democracy) ###
 shared_focus = {
