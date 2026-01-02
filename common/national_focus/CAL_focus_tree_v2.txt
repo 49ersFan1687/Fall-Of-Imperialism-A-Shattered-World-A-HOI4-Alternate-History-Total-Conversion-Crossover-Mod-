@@ -4023,7 +4023,7 @@ shared_focus = {
     }
 }
 
-### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) ###
+### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) - Start ###
 shared_focus = {
 	id = CAL_birth_of_the_pacific_junta
 	icon = GFX
@@ -4055,6 +4055,109 @@ shared_focus = {
     relative_position_id = CAL_birth_of_the_pacific_junta
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_the_problems_within_our_government"
+    }
+}
+### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch -  ###
+
+### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch - Political Stage ###
+shared_focus = {
+    id = CAL_a_fragile_political_stage
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_addressing_the_problems_within_our_government
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_addressing_the_problems_within_our_government
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_fragile_political_stage"
+    }
+}
+
+shared_focus = {
+    id = CAL_general_butlers_protests
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_fragile_political_stage
+    }
+    x = -3
+    y = 1
+    relative_position_id = CAL_a_fragile_political_stage
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_general_butlers_protests"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_cascadian_new_guard
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_fragile_political_stage
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_a_fragile_political_stage
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_cascadian_new_guard"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_shaky_army_coalition
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_fragile_political_stage
+    }
+    x = 3
+    y = 1
+    relative_position_id = CAL_a_fragile_political_stage
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_shaky_army_coalition"
+    }
+}
+
+shared_focus = {
+    id = CAL_call_the_washigtonian_congress
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_general_butlers_protests
+    }
+    prerequisite = {
+        focus = CAL_the_cascadian_new_guard
+    }
+    prerequisite = {
+        focus = CAL_the_shaky_army_coalition
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_cascadian_new_guard
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_call_the_washigtonian_congress"
     }
 }
 
