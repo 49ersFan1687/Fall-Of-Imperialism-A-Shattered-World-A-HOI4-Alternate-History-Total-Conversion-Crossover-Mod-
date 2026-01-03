@@ -2984,7 +2984,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_demobilize_the_militias
+    id = CAL_beginning_the_transition
      icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -2998,7 +2998,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_begin_assembling_a_professional_army
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_demobilize_the_militias"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_beginning_the_transition"
     }
 }
 
@@ -3049,7 +3049,7 @@ shared_focus = {
         factor = 1
     }
     prerequisite = {
-        focus = CAL_demobilize_the_militias
+        focus = CAL_beginning_the_transition
     }
     prerequisite = {
         focus = CAL_the_american_frontier_spirit
@@ -4059,7 +4059,7 @@ shared_focus = {
 }
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch -  ###
 shared_focus = {
-    id = CAL
+    id = CAL_an_overbloated_military
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -4073,7 +4073,288 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_addressing_the_problems_within_our_government
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_the_problems_within_our_government"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_an_overbloated_military"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_army_census
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_an_overbloated_military
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_an_overbloated_military
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_army_census"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_navys_report
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_an_overbloated_military
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_an_overbloated_military
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_navys_report"
+    }
+}
+
+shared_focus = {
+    id = CAL_an_audit_from_the_washingtonian_budget_office
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_army_census
+    }
+    prerequisite = {
+        focus = CAL_the_navys_report
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_the_army_census
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_an_audit_from_the_washingtonian_budget_office"
+    }
+}
+
+shared_focus = {
+    id = CAL_demobilize_the_militias
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_an_audit_from_the_washingtonian_budget_office
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_an_audit_from_the_washingtonian_budget_office
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_demobilize_the_militias"
+    }
+}
+
+shared_focus = {
+    id = CAL_restructure_the_army_divisions
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_an_audit_from_the_washingtonian_budget_office
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_an_audit_from_the_washingtonian_budget_office
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_restructure_the_army_divisions"
+    }
+}
+
+shared_focus = {
+    id = CAL_discharge_the_slackers
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_demobilize_the_militias
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_demobilize_the_militias
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_discharge_the_slackers"
+    }
+}
+
+shared_focus = {
+    id = CAL_merge_undermanned_divisions_together
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_restructure_the_army_divisions
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_restructure_the_army_divisions
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_merge_undermanned_divisions_together"
+    }
+}
+
+shared_focus = {
+    id = CAL_demobilize_outdated_air_fleets
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_discharge_the_slackers
+    }
+    prerequisite = {
+        focus = CAL_merge_undermanned_divisions_together
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_discharge_the_slackers
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_demobilize_outdated_air_fleets"
+    }
+}
+
+shared_focus = {
+    id = CAL_sell_off_old_aircraft
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_demobilize_outdated_air_fleets
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_demobilize_outdated_air_fleets
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_sell_off_old_aircraft"
+    }
+}
+
+shared_focus = {
+    id = CAL_primacy_of_the_national_guard
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_minimize_army_downsizing
+    }
+    prerequisite = {
+        focus = CAL_sell_off_old_aircraft
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_sell_off_old_aircraft
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_primacy_of_the_national_guard"
+    }
+}
+
+shared_focus = {
+    id = CAL_minimize_army_downsizing
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_primacy_of_the_national_guard
+    }
+    prerequisite = {
+        focus = CAL_sell_off_old_aircraft
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_sell_off_old_aircraft
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_minimize_army_downsizing"
+    }
+}
+
+shared_focus = {
+    id = CAL_keep_butlers_boys_on_alert
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_primacy_of_the_national_guard
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_primacy_of_the_national_guard
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_keep_butlers_boys_on_alert"
+    }
+}
+
+shared_focus = {
+    id = CAL_leave_the_navy_to_the_wolves
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_minimize_army_downsizing
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_minimize_army_downsizing
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_leave_the_navy_to_the_wolves"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_army_situation_solved
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_keep_butlers_boys_on_alert
+    }
+    prerequisite = {
+        focus = CAL_leave_the_navy_to_the_wolves
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_keep_butlers_boys_on_alert
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_army_situation_solved"
     }
 }
 
