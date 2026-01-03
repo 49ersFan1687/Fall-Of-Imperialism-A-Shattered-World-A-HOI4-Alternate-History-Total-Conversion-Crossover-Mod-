@@ -4069,7 +4069,7 @@ shared_focus = {
     prerequisite = {
         focus = CAL_addressing_the_problems_within_our_government
     }
-    x = -15
+    x = -14
     y = 1
     relative_position_id = CAL_addressing_the_problems_within_our_government
     completion_reward = {
@@ -4359,6 +4359,280 @@ shared_focus = {
 }
 
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch -  ###
+shared_focus = {
+    id = CAL_dealing_with_the_food_shortage
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_addressing_the_problems_within_our_government
+    }
+    x = -9
+    y = 1
+    relative_position_id = CAL_addressing_the_problems_within_our_government
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_dealing_with_the_food_shortage"
+    }
+}
+
+shared_focus = {
+    id = CAL_taking_stock
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_dealing_with_the_food_shortage
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_dealing_with_the_food_shortage
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_taking_stock"
+    }
+}
+
+shared_focus = {
+    id = CAL_account_for_recent_harvests
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_taking_stock
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_taking_stock
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_account_for_recent_harvests"
+    }
+}
+
+shared_focus = {
+    id = CAL_not_out_of_the_storm
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_account_for_recent_harvests
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_account_for_recent_harvests
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_not_out_of_the_storm"
+    }
+}
+
+shared_focus = {
+    id = CAL_a_deal_with_the_samurai
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_not_out_of_the_storm
+    }
+    x = -2
+    y = 1
+    relative_position_id = CAL_not_out_of_the_storm
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_deal_with_the_samurai"
+    }
+}
+
+shared_focus = {
+    id = CAL_help_from_the_great_humanitarian
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_not_out_of_the_storm
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_not_out_of_the_storm
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_help_from_the_great_humanitarian"
+    }
+}
+
+shared_focus = {
+    id = CAL_calling_on_old_friends
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_not_out_of_the_storm
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_not_out_of_the_storm
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_calling_on_old_friends"
+    }
+}
+
+shared_focus = {
+    id = CAL_increase_central_valley_grain_yields
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_deal_with_the_samurai
+    }
+    prerequisite = {
+        focus = CAL_help_from_the_great_humanitarian
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_a_deal_with_the_samurai
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_increase_central_valley_grain_yields"
+    }
+}
+
+shared_focus = {
+    id = CAL_corn_from_mexico
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_help_from_the_great_humanitarian
+    }
+    prerequisite = {
+        focus = CAL_calling_on_old_friends
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_help_from_the_great_humanitarian
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_corn_from_mexico"
+    }
+}
+
+shared_focus = {
+    id = CAL_a_japanese_deal
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_increase_central_valley_grain_yields
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_increase_central_valley_grain_yields
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_japanese_deal"
+    }
+}
+
+shared_focus = {
+    id = CAL_canadian_cod_imports
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_corn_from_mexico
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_corn_from_mexico
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_canadian_cod_imports"
+    }
+}
+
+shared_focus = {
+    id = CAL_lighten_the_austerity_measures
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_japanese_deal
+    }
+    prerequisite = {
+        focus = CAL_canadian_cod_imports
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_a_japanese_deal
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_calling_on_old_friends"
+    }
+}
+
+shared_focus = {
+    id = CAL_an_unfortunate_lack_of_booze
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_lighten_the_austerity_measures
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_lighten_the_austerity_measures
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_an_unfortunate_lack_of_booze"
+    }
+}
+
+shared_focus = {
+    id = CAL_but_stocks_are_full
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_an_unfortunate_lack_of_booze
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_an_unfortunate_lack_of_booze
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_but_stocks_are_full"
+    }
+}
 
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch - Political Stage ###
 shared_focus = {
