@@ -4077,6 +4077,8 @@ shared_focus = {
     }
 }
 
+### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch -  ###
+
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch - Political Stage ###
 shared_focus = {
     id = CAL_a_fragile_political_stage
