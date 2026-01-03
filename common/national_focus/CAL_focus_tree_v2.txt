@@ -4032,7 +4032,7 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-	x = 35
+	x = 26
 	y = 1
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_birth_of_the_pacific_junta"
@@ -4057,7 +4057,7 @@ shared_focus = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_the_problems_within_our_government"
     }
 }
-### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch -  ###
+### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch - Army Demobilization ###
 shared_focus = {
     id = CAL_an_overbloated_military
     icon = GFX
@@ -4358,7 +4358,7 @@ shared_focus = {
     }
 }
 
-### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch -  ###
+### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch - Food Shortage ###
 shared_focus = {
     id = CAL_dealing_with_the_food_shortage
     icon = GFX
@@ -5273,6 +5273,8 @@ shared_focus = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_the_state_secured"
     }
 }
+
+### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch -  ###
 
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch -  ###
 shared_focus = {
