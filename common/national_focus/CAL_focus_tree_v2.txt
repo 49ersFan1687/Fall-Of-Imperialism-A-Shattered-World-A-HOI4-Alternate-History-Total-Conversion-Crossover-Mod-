@@ -4032,7 +4032,7 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-	x = 26
+	x = 16
 	y = 1
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_birth_of_the_pacific_junta"
@@ -5275,6 +5275,24 @@ shared_focus = {
 }
 
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch -  ###
+shared_focus = {
+    id = CAL_1
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_addressing_the_problems_within_our_government
+    }
+    x = 14
+    y = 1
+    relative_position_id = CAL_addressing_the_problems_within_our_government
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_the_problems_within_our_government"
+    }
+}
 
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch -  ###
 shared_focus = {
@@ -5288,7 +5306,7 @@ shared_focus = {
     prerequisite = {
         focus = CAL_addressing_the_problems_within_our_government
     }
-    x = 15
+    x = 9
     y = 1
     relative_position_id = CAL_addressing_the_problems_within_our_government
     completion_reward = {
@@ -5322,7 +5340,7 @@ shared_focus = {
     ai_will_do = {
         factor = 1
     }
-    x = 0
+    x = -10
     y = 5
     completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_economy_of_the_pacific_states_of_america"
@@ -6278,8 +6296,8 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-	x = 75
-	y = 1
+	x = -1
+	y = 15
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_the_total_overhaul_of_the_psa_military"
 		army_experience = 50
