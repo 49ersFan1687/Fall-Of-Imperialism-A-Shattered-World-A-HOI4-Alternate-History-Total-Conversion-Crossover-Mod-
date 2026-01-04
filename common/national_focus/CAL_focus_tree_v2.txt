@@ -4033,7 +4033,7 @@ shared_focus = {
 		factor = 1
 	}
 	x = 18
-	y = 1
+	y = 2
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_birth_of_the_pacific_junta"
 	}
