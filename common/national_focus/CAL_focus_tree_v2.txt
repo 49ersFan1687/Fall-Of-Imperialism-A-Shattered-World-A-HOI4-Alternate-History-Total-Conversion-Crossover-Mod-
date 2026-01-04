@@ -4032,7 +4032,7 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-	x = 16
+	x = 18
 	y = 1
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_birth_of_the_pacific_junta"
@@ -4069,7 +4069,7 @@ shared_focus = {
     prerequisite = {
         focus = CAL_addressing_the_problems_within_our_government
     }
-    x = -14
+    x = -15
     y = 1
     relative_position_id = CAL_addressing_the_problems_within_our_government
     completion_reward = {
@@ -5274,29 +5274,9 @@ shared_focus = {
     }
 }
 
-### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch -  ###
+### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch - Governance ###
 shared_focus = {
-    id = CAL_1
-    icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_addressing_the_problems_within_our_government
-    }
-    x = 14
-    y = 1
-    relative_position_id = CAL_addressing_the_problems_within_our_government
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_the_problems_within_our_government"
-    }
-}
-
-### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch -  ###
-shared_focus = {
-    id = CAL_2
+    id = CAL_the_issue_of_governance
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -5310,7 +5290,669 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_addressing_the_problems_within_our_government
     completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_issue_of_governance"
+    }
+}
+
+shared_focus = {
+    id = CAL_a_dismal_executive
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_issue_of_governance
+    }
+    x = -2
+    y = 1
+    relative_position_id = CAL_the_issue_of_governance
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_dismal_executive"
+    }
+}
+
+shared_focus = {
+    id = CAL_an_overburdened_tax_code
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_issue_of_governance
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_issue_of_governance
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_an_overburdened_tax_code"
+    }
+}
+
+shared_focus = {
+    id = CAL_an_understaffed_department_of_justice
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_issue_of_governance
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_the_issue_of_governance
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_an_understaffed_department_of_justice"
+    }
+}
+
+shared_focus = {
+    id = CAL_a_dearth_of_judges
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_dismal_executive
+    }
+    prerequisite = {
+        focus = CAL_an_overburdened_tax_code
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_a_dismal_executive
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_dearth_of_judges"
+    }
+}
+
+shared_focus = {
+    id = CAL_a_lack_of_educated_workers
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_an_overburdened_tax_code
+    }
+    prerequisite = {
+        focus = CAL_an_understaffed_department_of_justice
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_an_overburdened_tax_code
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_lack_of_educated_workers"
+    }
+}
+
+shared_focus = {
+    id = CAL_fast_track_officers_to_judges
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_dearth_of_judges
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_a_dearth_of_judges
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_fast_track_officers_to_judges"
+    }
+}
+
+shared_focus = {
+    id = CAL_reopen_more_universities
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_lack_of_educated_workers
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_a_lack_of_educated_workers
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reopen_more_universities"
+    }
+}
+
+shared_focus = {
+    id = CAL_push_demobilized_troops_to_be_civil_servents
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_fast_track_officers_to_judges
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_fast_track_officers_to_judges
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_push_demobilized_troops_to_be_civil_servents"
+    }
+}
+
+shared_focus = {
+    id = CAL_begin_integrating_the_bureaucracy
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_reopen_more_universities
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_reopen_more_universities
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_integrating_the_bureaucracy"
+    }
+}
+
+shared_focus = {
+    id = CAL_a_jury_rigged_government
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_push_demobilized_troops_to_be_civil_servents
+    }
+    prerequisite = {
+        focus = CAL_begin_integrating_the_bureaucracy
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_push_demobilized_troops_to_be_civil_servents
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_jury_rigged_government"
+    }
+}
+
+shared_focus = {
+    id = CAL_addressing_the_local_problem
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_jury_rigged_government
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_a_jury_rigged_government
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_the_local_problem"
+    }
+}
+
+shared_focus = {
+    id = CAL_democracy_at_the_lower_level
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_appointed_administrators
+    }
+    prerequisite = {
+        focus = CAL_addressing_the_local_problem
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_addressing_the_local_problem
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_democracy_at_the_lower_level"
+    }
+}
+
+shared_focus = {
+    id = CAL_appointed_administrators
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_democracy_at_the_lower_level
+    }
+    prerequisite = {
+        focus = CAL_addressing_the_local_problem
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_addressing_the_local_problem
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_appointed_administrators"
+    }
+}
+
+shared_focus = {
+    id = CAL_local_officers
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_democracy_at_the_lower_level
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_democracy_at_the_lower_level
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_local_officers"
+    }
+}
+
+shared_focus = {
+    id = CAL_military_police
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_appointed_administrators
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_appointed_administrators
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_military_police"
+    }
+}
+
+shared_focus = {
+    id = CAL_tommorows_problems_left_for_tommorow
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_local_officers
+        focus = CAL_military_police
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_local_officers
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_military_police"
+    }
+}
+
+### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch -  ###
+shared_focus = {
+    id = CAL_the_problem_of_foreign_agents
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_addressing_the_problems_within_our_government
+    }
+    x = 15
+    y = 1
+    relative_position_id = CAL_addressing_the_problems_within_our_government
+    completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_the_problems_within_our_government"
+    }
+}
+
+shared_focus = {
+    id = CAL_expand_fbi_funding
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_problem_of_foreign_agents
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_the_problem_of_foreign_agents
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_fbi_funding"
+    }
+}
+
+shared_focus = {
+    id = CAL_using_hoovers_remnants
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_problem_of_foreign_agents
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_the_problem_of_foreign_agents
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_using_hoovers_remnants"
+    }
+}
+
+shared_focus = {
+    id = CAL_a_washingtonian_huac
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_expand_fbi_funding
+    }
+    prerequisite = {
+        focus = CAL_using_hoovers_remnants
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_expand_fbi_funding
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_washingtonian_huac"
+    }
+}
+
+shared_focus = {
+    id = CAL_dealing_with_anti_government_partisans
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_washingtonian_huac
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_a_washingtonian_huac
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_dealing_with_anti_government_partisans"
+    }
+}
+
+shared_focus = {
+    id = CAL_them_tankies_stink
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_cull_the_brown_scum
+    }
+    prerequisite = {
+        focus = CAL_dealing_with_anti_government_partisans
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_dealing_with_anti_government_partisans
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_democracy_at_the_lower_level"
+    }
+}
+
+shared_focus = {
+    id = CAL_cull_the_brown_scum
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_them_tankies_stink
+    }
+    prerequisite = {
+        focus = CAL_dealing_with_anti_government_partisans
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_dealing_with_anti_government_partisans
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_cull_the_brown_scum"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_white_terror_in_san_francisco
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_them_tankies_stink
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_them_tankies_stink
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_white_terror_in_san_francisco"
+    }
+}
+
+shared_focus = {
+    id = CAL_northern_hunting
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_cull_the_brown_scum
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_cull_the_brown_scum
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_northern_hunting"
+    }
+}
+
+shared_focus = {
+    id = CAL_coordinate_with_the_mounties_and_the_mexicans
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_white_terror_in_san_francisco
+    }
+    prerequisite = {
+        focus = CAL_northern_hunting
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_the_white_terror_in_san_francisco
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_coordinate_with_the_mounties_and_the_mexicans"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_curious_case_of_joe_okada
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_coordinate_with_the_mounties_and_the_mexicans
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_coordinate_with_the_mounties_and_the_mexicans
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_curious_case_of_joe_okada"
+    }
+}
+
+shared_focus = {
+    id = CAL_let_the_pass_boil
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_maintain_suspicion
+    }
+    prerequisite = {
+        focus = CAL_the_curious_case_of_joe_okada
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_the_curious_case_of_joe_okada
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_let_the_pass_boil"
+    }
+}
+
+shared_focus = {
+    id = CAL_maintain_suspicion
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_let_the_pass_boil
+    }
+    prerequisite = {
+        focus = CAL_the_curious_case_of_joe_okada
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_the_curious_case_of_joe_okada
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_maintain_suspicion"
+    }
+}
+
+shared_focus = {
+    id = CAL_tokyos_recognition
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_let_the_pass_boil
+    }
+    x = -2
+    y = 1
+    relative_position_id = CAL_let_the_pass_boil
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_tokyos_recognition"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_nomura_deal
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_let_the_pass_boil
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_let_the_pass_boil
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_nomura_deal"
+    }
+}
+
+shared_focus = {
+    id = CAL_expand_canadian_deals
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_maintain_suspicion
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_maintain_suspicion
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_canadian_deals"
+    }
+}
+
+shared_focus = {
+    id = CAL_mexican_recognition
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_maintain_suspicion
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_maintain_suspicion
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_mexican_recognition"
     }
 }
 
@@ -5442,25 +6084,6 @@ shared_focus = {
     relative_position_id = CAL_the_economy_of_the_pacific_states_of_america
     completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_help_out_small_buisnesses"
-	}
-}
-
-shared_focus = {
-	id = CAL_import_canadian_heavy_machinery
-	icon = GFX
-	cost = 3
-	available_if_capitulated = no
-	ai_will_do = {
-		factor = 1
-	}
-	prerequisite = {
-		focus = CAL_address_the_military_sector
-	}
-	x = -1
-	y = 1
-	relative_position_id = CAL_address_the_military_sector
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_import_canadian_heavy_machinery"
 	}
 }
 
@@ -6020,28 +6643,6 @@ shared_focus = {
 	relative_position_id = CAL_improving_rural_roads
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_better_payment_for_farmworkers"
-	}
-}
-
-shared_focus = {
-	id = CAL_improve_famine_protection
-	icon = GFX
-	cost = 3
-	available_if_capitulated = no
-	ai_will_do = {
-		factor = 1
-	}
-	prerequisite = {
-		focus = CAL_improve_irrigation_systems
-	}
-    prerequisite = {
-		focus = CAL_investing_in_the_lumber_industry
-	}
-	x = 1 
-	y = 1
-	relative_position_id = CAL_improve_irrigation_systems
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_improve_famine_protection"
 	}
 }
 
