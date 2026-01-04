@@ -796,6 +796,29 @@ characters = {
 		}
 	}
 
+	CAL_john_lesesne_dewitt = {
+		name = CAL_john_lesesne_dewitt
+		desc = 
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_John_Lesesne_DeWwitt.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_leader
+				infantry_expert
+				career_officer
+				logistics_wizard
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 5
+		}
+	}
+
 	CAL_elizabeth_coleman = {
 		name = CAL_elizabeth_coleman
 		desc = 

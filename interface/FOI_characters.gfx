@@ -244,7 +244,15 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_CAL_James_Cordie_Dozier"
-		textureFile = "gfx/leaders/CAL/Portrait_James_Cordie_Dozier.dds" 
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_James_Cordie_Dozier.dds" 
+	}
+	spriteType = {
+		name = "GFX_CAL_John_Lesesne_DeWitt"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_John_Lesesne_DeWitt.dds" 
+	}
+	spriteType = {
+		name = "GFX_CAL_Daring_Do"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Daring_Do.dds" 
 	}
 
 	# Cascadia - Power Rangers Characters #
