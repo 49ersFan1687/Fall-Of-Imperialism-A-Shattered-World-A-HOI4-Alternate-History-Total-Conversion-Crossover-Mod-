@@ -5614,7 +5614,7 @@ shared_focus = {
     }
 }
 
-### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch -  ###
+### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch - Foreign Agents ###
 shared_focus = {
     id = CAL_the_problem_of_foreign_agents
     icon = GFX
@@ -6888,7 +6888,7 @@ shared_focus = {
 	}
 }
 
-### Focus Tree - Regional Stage: Shared Military Reform Focus Tree ###
+### Focus Tree - Regional Stage: Shared Military Reform Focus Tree - Start ###
 shared_focus = {
 	id = CAL_begin_the_total_overhaul_of_the_psa_military
 	icon = GFX
@@ -6924,6 +6924,7 @@ shared_focus = {
     }
 }
 
+### Focus Tree - Regional Stage: Military Focus Tree Subranch - Air Force ###
 shared_focus = {
     id = CAL_the_pacific_states_air_force
     icon = GFX
@@ -6940,44 +6941,6 @@ shared_focus = {
     relative_position_id = CAL_addressing_each_military_branch
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_the_pacific_states_air_force"
-    }
-}
-
-shared_focus = {
-    id = CAL_the_pacific_states_army
-    icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_addressing_each_military_branch
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_addressing_each_military_branch
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_pacific_states_army"
-    }
-}
-
-shared_focus = {
-    id = CAL_the_pacific_states_navy
-    icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_addressing_each_military_branch
-    }
-    x = 13
-    y = 1
-    relative_position_id = CAL_addressing_each_military_branch
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_pacific_states_navy"
     }
 }
 
@@ -7047,6 +7010,26 @@ shared_focus = {
     relative_position_id = CAL_the_pacific_states_air_force
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_unending_rain_of_destruction"
+    }
+}
+
+### Focus Tree - Regional Stage: Military Focus Tree Subranch - Army ###
+shared_focus = {
+    id = CAL_the_pacific_states_army
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_addressing_each_military_branch
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_addressing_each_military_branch
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_pacific_states_army"
     }
 }
 
@@ -7172,6 +7155,26 @@ shared_focus = {
 			category = land_doctrine
 		}
 	}	
+}
+
+### Focus Tree - Regional Stage: Military Focus Tree Subranch - Navy ###
+shared_focus = {
+    id = CAL_the_pacific_states_navy
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_addressing_each_military_branch
+    }
+    x = 13
+    y = 1
+    relative_position_id = CAL_addressing_each_military_branch
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_pacific_states_navy"
+    }
 }
 
 shared_focus = {
