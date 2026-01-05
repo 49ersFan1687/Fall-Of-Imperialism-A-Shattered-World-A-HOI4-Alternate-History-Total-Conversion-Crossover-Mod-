@@ -4073,6 +4073,7 @@ shared_focus = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_the_problems_within_our_government"
     }
 }
+
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch - Army Demobilization ###
 shared_focus = {
     id = CAL_an_overbloated_military
@@ -5986,6 +5987,25 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_formation_of_the_pacific_states_of_america"
 	}
+}
+
+shared_focus = {
+    id = CAL_forming_a_legitimate_government
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_formation_of_the_pacific_states_of_america
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_formation_of_the_pacific_states_of_america
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_forming_a_legitimate_government"
+    }
 }
 
 ### Focus Tree - Regional Stage: Shared Economy/Industrial Focus Tree ###
