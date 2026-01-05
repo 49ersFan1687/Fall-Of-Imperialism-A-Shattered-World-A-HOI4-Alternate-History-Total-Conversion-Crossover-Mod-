@@ -333,10 +333,11 @@ characters = {
         name = GER_felix_martin_julius_steiner
         portraits = {
             civilian = {
-                large = GFX_fish
+                large = "gfx/leaders/GER/Portrait_GER_Heinz_Wilhelm_Guderian.dds"
             }
             army = {
-                large = GFX_fish
+                large = "gfx/leaders/GER/Portrait_GER_Heinz_Wilhelm_Guderian.dds"
+                small = 
             }
         }
         field_marshal = {
