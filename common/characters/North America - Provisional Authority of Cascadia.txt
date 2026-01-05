@@ -489,7 +489,13 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { ranger commando infantry_officer infatry_leader brilliant_strategist }
+			traits = {
+				ranger
+				commando
+				infantry_officer
+				infatry_leader
+				brilliant_strategist
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 3
@@ -509,7 +515,13 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { ranger commando infantry_leader trait_reckless trickster }
+			traits = {
+				ranger
+				commando
+				infantry_leader
+				trait_reckless
+				trickster
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 1
@@ -529,7 +541,11 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { ranger commando engineer }
+			traits = {
+				ranger
+				commando
+				engineer 
+			}
 			skill = 4
 			attack_skill = 3
 			defense_skill = 2
@@ -549,7 +565,12 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { ranger commando offensive_doctrine career_officer }
+			traits = {
+				ranger 
+				commando 
+				offensive_doctrine 
+				career_officer 
+			}
 			skill = 5
 			attack_skill = 5
 			defense_skill = 4
@@ -571,7 +592,13 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando infantry_officer infantry_leader infantry_expert}
+			traits = {
+				ranger 
+				commando 
+				infantry_officer 
+				infantry_leader 
+				infantry_expert
+			}
 			skill = 3
 			attack_skill = 6
 			defense_skill = 3
@@ -592,7 +619,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando infantry_leader brilliant_strategist}
+			traits = { 
+				ranger 
+				commando 
+				infantry_leader 
+				brilliant_strategist
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 3
@@ -613,7 +645,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando brilliant_strategist infantry_leader}
+			traits = { 
+				ranger 
+				commando 
+				brilliant_strategist 
+				infantry_leader
+			}
 			skill = 3
 			attack_skill = 5
 			defense_skill = 2
@@ -633,7 +670,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando carreer_officer inflexible_strategist }
+			traits = {
+				ranger 
+				commando 
+				carreer_officer 
+				inflexible_strategist 
+			}
 			skill = 4
 			attack_skill = 3
 			defense_skill = 5
@@ -653,7 +695,13 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando brilliant_strategist infantry_leader infantry_expert }
+			traits = {
+				ranger 
+				commando 
+				brilliant_strategist 
+				infantry_leader 
+				infantry_expert 
+			}
 			skill = 4
 			attack_skill = 5
 			defense_skill = 2
@@ -673,7 +721,13 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando engineer winter_specialist brilliant_strategist }
+			traits = { 
+				ranger 
+				commando 
+				engineer 
+				winter_specialist 
+				brilliant_strategist 
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 4
@@ -694,7 +748,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando infantry_leader inflexible_strategist }
+			traits = { 
+				ranger 
+				commando 
+				infantry_leader 
+				inflexible_strategist 
+			}
 			skill = 3
 			attack_skill = 4
 			defense_skill = 3
@@ -735,7 +794,13 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando trickster swamp_fox infantry_leader }
+			traits = {
+				ranger 
+				commando 
+				trickster 
+				swamp_fox 
+				infantry_leader 
+			}
 			skill = 3
 			attack_skill = 4
 			defense_skill = 3
@@ -755,7 +820,13 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando trickster swamp_fox infantry_leader }
+			traits = {
+				ranger
+				commando
+				trickster
+				swamp_fox
+				infantry_leader
+			}
 			skill = 3
 			attack_skill = 4
 			defense_skill = 2
@@ -776,7 +847,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando trickster swamp_fox }
+			traits = {
+				ranger
+				commando
+				trickster
+				swamp_fox
+			}
 			skill = 3
 			attack_skill = 3
 			defense_skill = 3
@@ -797,7 +873,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { ranger commando trickster swamp_fox }
+			traits = {
+				ranger
+				commando
+				trickster
+				swamp_fox
+			}
 			skill = 3
 			attack_skill = 4
 			defense_skill = 2
@@ -819,7 +900,12 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { inspirational_leader brilliant_strategist winter_specialist skilled_staffer }
+			traits = {
+				inspirational_leader
+				brilliant_strategist
+				winter_specialist
+				skilled_staffer
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 4
@@ -840,7 +926,12 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { trait_reckless offensive_doctrine fortress_buster panzer_leader }
+			traits = {
+				trait_reckless
+				offensive_doctrine
+				fortress_buster
+				panzer_leader
+			}
 			skill = 4
 			attack_skill = 6
 			defense_skill = 3
@@ -968,7 +1059,9 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { fast_planner }
+			traits = {
+				fast_planner
+			}
 			skill = 4
 			attack_skill = 6
 			defense_skill = 3
@@ -1010,7 +1103,11 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { inflexible_strategist ranger mountaineer }
+			traits = {
+				inflexible_strategist
+				ranger
+				mountaineer
+			}
 			skill = 4
 			attack_skill = 3
 			defense_skill = 5
