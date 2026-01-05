@@ -50,11 +50,13 @@ spriteTypes = {
 		name = "GFX_Leopold_SEN"
 		textureFile = "gfx/leaders/Africa/LeopoldSenegal.png"
 	}
+
 	# Washington Provisional Government #
 	spriteType = {
 		name = "GFX_D_Milford_WGP"
 		textureFile = "gfx/leaders/WGP/WGP_dwayne_milford.dds"
 	}
+
 	# Rhode Island #
 	spriteType = {
 		name = "GFX_Congress_Of_Providence_RDI"
@@ -68,6 +70,7 @@ spriteTypes = {
 		name = "GFX_Barlow_RDI"
 		textureFile = "gfx/leaders/RDI/RDI_r_h_barlow.png"
 	}
+
 	#Asia
 	spriteType = {
 		name = "GFX_Abdukerim_Abbasov_SIK"
@@ -102,6 +105,7 @@ spriteTypes = {
 		name = "GFX_Leslie_Arends_ILL"
 		textureFile = "gfx/leaders/America/LeslieCArends.png"
 	}
+
 	# Michigan #
 	spriteType = {
 		name = "GFX_Lombardo_MCH"
@@ -140,6 +144,7 @@ spriteTypes = {
 		name = "GFX_Wallace_White_ANR"
 		textureFile = "gfx/leaders/ANR/WallaceWhite.png"
 	}
+
 	# France #
 	spriteType = {
 		name = "GFX_Petain_FRA"
@@ -149,6 +154,7 @@ spriteTypes = {
 		name = "GFX_Laval_FRA"
 		textureFile = "gfx/leaders/France/PierreLaval.png"
 	}
+
 	# California #
 	spriteType = {
 		name = "GFX_CAL_Benjamin_Oliver_Davis_Sr"
