@@ -31,7 +31,7 @@ focus_tree = {
     shared_focus = CAL_expanding_the_california_military_into_something_more_than_a_local_force
     shared_focus = CAL_the_west_coast_under_one_flag
     shared_focus = CAL_the_west_coast_under_the_wallace_administration
-    shared_focus = CAL__the_west_coast_under_the_second_continental_army
+    shared_focus = CAL_the_west_coast_under_the_second_continental_army
     continuous_focus_position = { x = 450 y = 200 }
 }
 
@@ -3598,6 +3598,13 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_the_west_coast_under_the_wallace_administration
+    available = {
+		has_completed_focus = CAL_the_bear_roars_yet_again
+        has_completed_focus = CAL_sacramento_up_and_running
+        has_completed_focus = CAL_a_silent_reflection
+        has_completed_focus = CAL_why_we_fight
+        has_completed_focus = CAL_the_birth_of_the_psa_military
+	}
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -3605,7 +3612,7 @@ shared_focus = {
         factor = 1
     }
     mutually_exclusive = {
-        focus = CAL__the_west_coast_under_the_second_continental_army
+        focus = CAL_the_west_coast_under_the_second_continental_army
     }
     x = -3
     y = 2
@@ -3811,7 +3818,14 @@ shared_focus = {
 ### Focus Tree - Pre-Regional Unification Tree - Military ###
 
 shared_focus = {
-    id = CAL__the_west_coast_under_the_second_continental_army
+    id = CAL_the_west_coast_under_the_second_continental_army
+    available = {
+		has_completed_focus = CAL_the_bear_roars_yet_again
+        has_completed_focus = CAL_sacramento_up_and_running
+        has_completed_focus = CAL_a_silent_reflection
+        has_completed_focus = CAL_why_we_fight
+        has_completed_focus = CAL_the_birth_of_the_psa_military
+	}
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -3838,11 +3852,11 @@ shared_focus = {
         factor = 1
     }
     prerequisite = {
-        focus = CAL__the_west_coast_under_the_second_continental_army
+        focus = CAL_the_west_coast_under_the_second_continental_army
     }
     x = 0
     y = 1
-    relative_position_id = CAL__the_west_coast_under_the_second_continental_army
+    relative_position_id = CAL_the_west_coast_under_the_second_continental_army
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_secure_preferential_elections"
     }
@@ -7257,7 +7271,7 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-	x = 30
+	x = 32
 	y = 16
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_utilize_the_secretary_of_state_office"
