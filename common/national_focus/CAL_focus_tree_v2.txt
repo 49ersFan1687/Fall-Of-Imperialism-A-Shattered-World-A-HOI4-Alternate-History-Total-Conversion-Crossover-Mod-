@@ -48,6 +48,7 @@ focus_tree = {
     shared_focus = CAL_birth_of_the_pacific_junta
     shared_focus = CAL_begin_the_total_overhaul_of_the_psa_military
     shared_focus = CAL_the_economy_of_the_pacific_states_of_america
+    shared_focus = CAL_utilize_the_secretary_of_state_office
     continuous_focus_position = { x = 450 y = 200 }
 }
 
@@ -64,6 +65,7 @@ focus_tree = {
     shared_focus = CAL_the_formation_of_the_pacific_states_of_america
     shared_focus = CAL_begin_the_total_overhaul_of_the_psa_military
     shared_focus = CAL_the_economy_of_the_pacific_states_of_america
+    shared_focus = CAL_utilize_the_secretary_of_state_office
     continuous_focus_position = { x = 450 y = 200 }
 }
 
@@ -7247,3 +7249,17 @@ shared_focus = {
 }
 
 ### Focus Tree - Regional Stage: Foreign Policy Focus Tree ###
+shared_focus = {
+	id = CAL_utilize_the_secretary_of_state_office
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 30
+	y = 16
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_utilize_the_secretary_of_state_office"
+	}
+}
