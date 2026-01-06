@@ -64,6 +64,14 @@ ideas = {
         }
 
 #### DEALING WITH THE DEPRESSION IDEAS ####
+        CAL_the_greater_depression1 = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_greater_depression1" }
+            allowed = { always = no }
+            picture = CAL_greater_depression
+            modifier = {
+                
+            }
+        }
 
 #### WAR PREPARATION IDEAS ###
         CAL_uncertain_junta = {
