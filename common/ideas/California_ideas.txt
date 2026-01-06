@@ -9,7 +9,7 @@ ideas = {
             allowed = { always = no }
             picture = CAL_long_retreat
             modifier = {
-
+                
             }
         }
 
@@ -62,6 +62,8 @@ ideas = {
                 
             }
         }
+
+#### DEALING WITH THE DEPRESSION IDEAS ####
 
 #### WAR PREPARATION IDEAS ###
         CAL_uncertain_junta = {
