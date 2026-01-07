@@ -95,8 +95,8 @@ CAL_issac_campbell_kidd_sr: "Issac Campbell Kidd Sr."
 CAL_the_long_march_west:0 "The Long March West"
 CAL_the_long_march_west_desc:0
 
-CAL_the_greater_depression:0 "The Greater Depression"
-CAL_the_greater_depression_desc:0
+CAL_the_greater_depression: "The Greater Depression"
+CAL_the_greater_depression_desc: ""
 
 CAL_a_shattered_army:0 "A Shattered Army"
 CAL_a_shattered_army_desc:0
