@@ -92,266 +92,266 @@ CAL_issac_campbell_kidd_sr: "Issac Campbell Kidd Sr."
 
 ### Ideas ###
 
-CAL_the_long_march_west:0 "The Long March West"
+CAL_the_long_march_west: "The Long March West"
 CAL_the_long_march_west_desc:0
 
 CAL_the_greater_depression: "The Greater Depression"
 CAL_the_greater_depression_desc: ""
 
-CAL_a_shattered_army:0 "A Shattered Army"
-CAL_a_shattered_army_desc:0
+CAL_a_shattered_army: "A Shattered Army"
+CAL_a_shattered_army_desc: ""
 
-CAL_an_outdated_air_force:0 "An Outdated Airforce"
-CAL_an_outdated_air_force_desc:0
+CAL_an_outdated_air_force: "An Outdated Airforce"
+CAL_an_outdated_air_force_desc: ""
 
-CAL_the_mothballed_navy:0 "The Mothballed Navy"
-CAL_the_mothballed_navy_desc:0
+CAL_the_mothballed_navy: "The Mothballed Navy"
+CAL_the_mothballed_navy_desc: ""
 
-CAL_the_failure_of_democracy:0 "The Failure of Democracy"
-CAL_the_failure_of_democracy_desc:0
+CAL_the_failure_of_democracy: "The Failure of Democracy"
+CAL_the_failure_of_democracy_desc: ""
 
 ### National Focuses Localisation - Starting Tree ###
 
-CAL_the_long_dead_march_west:0 "The Long, Dead, March West"
-CAL_the_long_dead_march_west_desc:0
+CAL_the_long_dead_march_west: "The Long, Dead, March West"
+CAL_the_long_dead_march_west_desc:""
 
-CAL_reaffirm_the_treaty_of_guadalupe_hidalgo:0 "Reaffirm the Treaty of Guadalupe Hidalgo"
-CAL_reaffirm_the_treaty_of_guadalupe_hidalgo_desc:0
+CAL_reaffirm_the_treaty_of_guadalupe_hidalgo: "Reaffirm the Treaty of Guadalupe Hidalgo"
+CAL_reaffirm_the_treaty_of_guadalupe_hidalgo_desc:""
 
-CAL_a_dangerous_game:0 "A Dangerous Game"
-CAL_a_dangerous_game_desc:0
+CAL_a_dangerous_game: "A Dangerous Game"
+CAL_a_dangerous_game_desc: ""
 
-CAL_tighten_border_patrol:0 "Tighten Border Patrol"
-CAL_tighten_border_patrol_desc:0
+CAL_tighten_border_patrol: "Tighten Border Patrol"
+CAL_tighten_border_patrol_desc: ""
 
-CAL_expand_the_volunteer_militias:0 "Expand the Volunteer Militias"
-CAL_expand_the_volunteer_militias_desc:0
+CAL_expand_the_volunteer_militias: "Expand the Volunteer Militias"
+CAL_expand_the_volunteer_militias_desc: ""
 
-CAL_control_the_sixth_army:0 "Control the Sixth Army"
-CAL_control_the_sixth_army_desc:0
+CAL_control_the_sixth_army: "Control the Sixth Army"
+CAL_control_the_sixth_army_desc: ""
 
-CAL_mercenary_gunmen_for_hire:0 "Mercenary Gunmen for Hire"
-CAL_mercenary_gunmen_for_hire_desc:0
+CAL_mercenary_gunmen_for_hire: "Mercenary Gunmen for Hire"
+CAL_mercenary_gunmen_for_hire_desc: ""
 
-CAL_the_mexican_connection:0 "The Mexican Connection"
-CAL_the_mexican_connection_desc:0
+CAL_the_mexican_connection: "The Mexican Connection"
+CAL_the_mexican_connection_desc: ""
 
-CAL_a_pioneer_republic:0 "A Pioneer Republic"
-CAL_a_pioneer_republic_desc:0
+CAL_a_pioneer_republic: "A Pioneer Republic"
+CAL_a_pioneer_republic_desc: ""
 
-CAL_san_diego_fleet_command:0 "San Diego Fleet Command"
-CAL_san_diego_fleet_command_desc:0
+CAL_san_diego_fleet_command: "San Diego Fleet Command"
+CAL_san_diego_fleet_command_desc: ""
 
-CAL_march_air_force_base:0 "March Air Force Base"
-CAL_march_air_force_base_desc:0
+CAL_march_air_force_base: "March Air Force Base"
+CAL_march_air_force_base_desc:
 
-CAL_the_pacific_coast_economy_line:0 "The Pacific Coast Economy Line"
-CAL_the_pacific_coast_economy_line_desc:0
+CAL_the_pacific_coast_economy_line: "The Pacific Coast Economy Line"
+CAL_the_pacific_coast_economy_line_desc: ""
 
-CAL_summon_the_general_staff:0 "Summon the General Staff"
-CAL_summon_the_general_staff_desc:0
+CAL_summon_the_general_staff: "Summon the General Staff"
+CAL_summon_the_general_staff_desc: ""
 
-CAL_begin_preparations_for_war:0 "Begin Preparations for War"
-CAL_begin_preparations_for_war_desc:0
+CAL_begin_preparations_for_war: "Begin Preparations for War"
+CAL_begin_preparations_for_war_desc: ""
 
-CAL_the_second_continentaal_army_junta:0 "The Second Continental Army Junta"
-CAL_the_second_continentaal_army_junta_desc:0
+CAL_the_second_continentaal_army_junta: "The Second Continental Army Junta"
+CAL_the_second_continentaal_army_junta_desc: ""
 
-CAL_dealing_with_the_anarchy_in_our_state:0 "Dealing with the Anarchy in Our State"
-CAL_dealing_with_the_anarchy_in_our_state_desc:0
+CAL_dealing_with_the_anarchy_in_our_state: "Dealing with the Anarchy in Our State"
+CAL_dealing_with_the_anarchy_in_our_state_desc: ""
 
-CAL_expand_the_california_national_guard:0 "Expand the California National Guard"
-CAL_expand_the_california_national_guard_desc:0
+CAL_expand_the_california_national_guard: "Expand the California National Guard"
+CAL_expand_the_california_national_guard_desc: ""
 
-CAL_negotiations_with_the_canadians:0 "Negotiations with the Canadians"
-CAL_negotiations_with_the_canadians_desc:0
+CAL_negotiations_with_the_canadians: "Negotiations with the Canadians"
+CAL_negotiations_with_the_canadians_desc: ""
 
-CAL_rebuilding_south_california_industry:0 "Rebuilding South California Industry"
-CAL_rebuilding_south_california_industry_desc:0
+CAL_rebuilding_south_california_industry: "Rebuilding South California Industry"
+CAL_rebuilding_south_california_industry_desc: ""
 
-CAL_memories_of_the_old_republic:0 "Memories of the Old Republic"
-CAL_memories_of_the_old_republic_desc:0
+CAL_memories_of_the_old_republic: "Memories of the Old Republic"
+CAL_memories_of_the_old_republic_desc: ""
 
-CAL_reform_the_federal_bureau_of_investigation:0 "Reform the Federal Bureau of Investigation"
-CAL_reform_the_federal_bureau_of_investigation_desc:0
+CAL_reform_the_federal_bureau_of_investigation: "Reform the Federal Bureau of Investigation"
+CAL_reform_the_federal_bureau_of_investigation_desc: ""
 
-CAL_expand_the_military_police:0 "Expand the Military Police"
-CAL_expand_the_military_police_desc:0
+CAL_expand_the_military_police: "Expand the Military Police"
+CAL_expand_the_military_police_desc: ""
 
-CAL_improved_rifle_designs:0 "Improved Rifle Designs"
-CAL_improved_rifle_designs_desc:0
+CAL_improved_rifle_designs: "Improved Rifle Designs"
+CAL_improved_rifle_designs_desc: ""
 
-CAL_form_the_fortieth_armored_division:0 "Form the Fortieth Armored Division"
-CAL_form_the_fortieth_armored_division_desc:0
+CAL_form_the_fortieth_armored_division: "Form the Fortieth Armored Division"
+CAL_form_the_fortieth_armored_division_desc: ""
 
-CAL_new_artillery_designs:0 "New Artillery Designs"
-CAL_new_artillery_designs_desc:0
+CAL_new_artillery_designs: "New Artillery Designs"
+CAL_new_artillery_designs_desc: ""
 
-CAL_solving_the_manpower_problem:0 "Solving the Manpower Problem"
-CAL_solving_the_manpower_problem_desc:0
+CAL_solving_the_manpower_problem: "Solving the Manpower Problem"
+CAL_solving_the_manpower_problem_desc: ""
 
-CAL_welcoming_general_alexander:0 "Welcoming General Alexander"
-CAL_welcoming_general_alexander_desc:0
+CAL_welcoming_general_alexander: "Welcoming General Alexander"
+CAL_welcoming_general_alexander_desc: ""
 
-CAL_establishing_a_military_based_economy:0 "Establishing a Military-Based Economy"
-CAL_establishing_a_military_based_economy_desc:0
+CAL_establishing_a_military_based_economy: "Establishing a Military-Based Economy"
+CAL_establishing_a_military_based_economy_desc: ""
 
-CAL_question_of_law:0 "The Question of Law"
-CAL_question_of_law_desc:0
+CAL_question_of_law: "The Question of Law"
+CAL_question_of_law_desc: ""
 
-CAL_question_of_the_ballot:0 "The Question of the Ballot"
-CAL_question_of_the_ballot_desc:0
+CAL_question_of_the_ballot: "The Question of the Ballot"
+CAL_question_of_the_ballot_desc: ""
 
-CAL_question_of_civil_liberties:0 "The Question of Civil Liberties"
-CAL_question_of_civil_liberties_desc:0
+CAL_question_of_civil_liberties: "The Question of Civil Liberties"
+CAL_question_of_civil_liberties_desc: ""
 
-CAL_dealL_with_communist_guerrillas:0 "Dealing with Communist Guerrillas"
-CAL_dealL_with_communist_guerrillas_desc:0
+CAL_dealL_with_communist_guerrillas: "Dealing with Communist Guerrillas"
+CAL_dealL_with_communist_guerrillas_desc: ""
 
-CAL_deal_with_fascist_insurgents:0 "Dealing with Fascist Insurgents"
-CAL_deal_with_fascist_insurgents_desc:0
+CAL_deal_with_fascist_insurgents: "Dealing with Fascist Insurgents"
+CAL_deal_with_fascist_insurgents_desc: ""
 
-CAL_american_gendarmerie:0 "American Gendarmerie"
-CAL_american_gendarmerie_desc:0
+CAL_american_gendarmerie: "American Gendarmerie"
+CAL_american_gendarmerie_desc: ""
 
-CAL_militarize_civil_police:0 "Militarize Civil Police"
-CAL_militarize_civil_police_desc:0
+CAL_militarize_civil_police: "Militarize Civil Police"
+CAL_militarize_civil_police_desc: ""
 
-CAL_initial_motorization_effforts:0 "Initial Motorization Efforts"
-CAL_initial_motorization_effforts_desc:0
+CAL_initial_motorization_effforts: "Initial Motorization Efforts"
+CAL_initial_motorization_effforts_desc: ""
 
-CAL_new_tank_research:0 "New Tank Research"
-CAL_new_tank_research_desc:0
+CAL_new_tank_research: "New Tank Research"
+CAL_new_tank_research_desc: ""
 
-CAL_anti_air_research:0 "Anti-Air Research"
-CAL_anti_air_research_desc:0
+CAL_anti_air_research: "Anti-Air Research"
+CAL_anti_air_research_desc: ""
 
-CAL_revive_the_minutemen:0 "Revive the Minutemen"
-CAL_revive_the_minutemen_desc:0
+CAL_revive_the_minutemen: "Revive the Minutemen"
+CAL_revive_the_minutemen_desc: ""
 
-CAL_reimplement_conscription:0 "Reimplement Conscription"
-CAL_reimplement_conscription_desc:0
+CAL_reimplement_conscription: "Reimplement Conscription"
+CAL_reimplement_conscription_desc: ""
 
-CAL_general_simmonds_advice:0 "General Simmonds's Advice"
-CAL_general_simmonds_advice_desc:0
+CAL_general_simmonds_advice: "General Simmonds's Advice"
+CAL_general_simmonds_advice_desc: ""
 
-CAL_general_alexanders_advice:0 "General Alexander's Advice"
-CAL_general_alexanders_advice_desc:0
+CAL_general_alexanders_advice: "General Alexander's Advice"
+CAL_general_alexanders_advice_desc: ""
 
-CAL_general_moncels_advice:0 "General Moncel's Advice"
-CAL_general_moncels_advice_desc:0
+CAL_general_moncels_advice: "General Moncel's Advice"
+CAL_general_moncels_advice_desc: ""
 
-CAL_farmlands_of_california:0 "Farmlands of California"
-CAL_farmlands_of_california_desc:0
+CAL_farmlands_of_california: "Farmlands of California"
+CAL_farmlands_of_california_desc: ""
 
-CAL_arms_company_subsidies:0 "Arms Company Subsidies"
-CAL_arms_company_subsidies_desc:0
+CAL_arms_company_subsidies: "Arms Company Subsidies"
+CAL_arms_company_subsidies_desc: ""
 
-CAL_dealing_with_labor_shortages:0 "Dealing with Labor Shortages"
-CAL_dealing_with_labor_shortages_desc:0
+CAL_dealing_with_labor_shortages: "Dealing with Labor Shortages"
+CAL_dealing_with_labor_shortages_desc: ""
 
-CAL_state_matters:0 "State Matters"
-CAL_state_matters_desc:0
+CAL_state_matters: "State Matters"
+CAL_state_matters_desc: ""
 
-CAL_wiretap_their_meetings:0 "Wiretap Their Meetings"
-CAL_wiretap_their_meetings_desc:0
+CAL_wiretap_their_meetings: "Wiretap Their Meetings"
+CAL_wiretap_their_meetings_desc: ""
 
-CAL_infiltrate_their_rallies:0 "Infiltrate Their Rallies"
-CAL_infiltrate_their_rallies_desc:0
+CAL_infiltrate_their_rallies: "Infiltrate Their Rallies"
+CAL_infiltrate_their_rallies_desc: ""
 
-CAL_centralized_mp_command:0 "Centralized M.P. Command"
-CAL_centralized_mp_command_desc:0
+CAL_centralized_mp_command: "Centralized M.P. Command"
+CAL_centralized_mp_command_desc: ""
 
-CAL_military_police_signal_corps:0 "Military Police Signal Corps"
-CAL_military_police_signal_corps_desc:0
+CAL_military_police_signal_corps: "Military Police Signal Corps"
+CAL_military_police_signal_corps_desc: ""
 
-CAL_initial_mechanization_efforts:0 "Initial Mechanization Efforts"
-CAL_initial_mechanization_efforts_desc:0
+CAL_initial_mechanization_efforts: "Initial Mechanization Efforts"
+CAL_initial_mechanization_efforts_desc: ""
 
-CAL_military_logistic_corps:0 "Military Logistic Corps"
-CAL_military_logistic_corps_desc:0
+CAL_military_logistic_corps: "Military Logistic Corps"
+CAL_military_logistic_corps_desc: ""
 
-CAL_anti_tank_research:0 "Anti-Tank Research"
-CAL_anti_tank_research_desc:0
+CAL_anti_tank_research: "Anti-Tank Research"
+CAL_anti_tank_research_desc: ""
 
-CAL_well_relegated_minutemen:0 "Well-Relegated Minutemen"
-CAL_well_relegated_minutemen_desc:0
+CAL_well_relegated_minutemen: "Well-Relegated Minutemen"
+CAL_well_relegated_minutemen_desc: ""
 
-CAL_an_expanded_army_reserve:0 "An Expanded Army Reserve"
-CAL_an_expanded_army_reserve_desc:0
+CAL_an_expanded_army_reserve: "An Expanded Army Reserve"
+CAL_an_expanded_army_reserve_desc: ""
 
-CAL_a_permanent_liason_to_california:0 "A Permanent Liaison to California"
-CAL_a_permanent_liason_to_california_desc:0
+CAL_a_permanent_liason_to_california: "A Permanent Liaison to California"
+CAL_a_permanent_liason_to_california_desc: ""
 
-CAL_canadian_funded_factories:0 "Canadian-Funded Factories"
-CAL_canadian_funded_factories_desc:0
+CAL_canadian_funded_factories: "Canadian-Funded Factories"
+CAL_canadian_funded_factories_desc: ""
 
-CAL_ramp_up_ration_production:0 "Ramp Up Ration Production"
-CAL_ramp_up_ration_production_desc:0
+CAL_ramp_up_ration_production: "Ramp Up Ration Production"
+CAL_ramp_up_ration_production_desc: ""
 
-CAL_create_the_war_research_board:0 "Create the War Research Board"
-CAL_create_the_war_research_board_desc:0
+CAL_create_the_war_research_board: "Create the War Research Board"
+CAL_create_the_war_research_board_desc: ""
 
-CAL_place_factories_under_military_oversight:0 "Place Factories Under Military Oversight"
-CAL_place_factories_under_military_oversight_desc:0
+CAL_place_factories_under_military_oversight: "Place Factories Under Military Oversight"
+CAL_place_factories_under_military_oversight_desc: ""
 
-CAL_the_protesting_democrats:0 "The Protesting Democrats"
-CAL_the_protesting_democrats_desc:0
+CAL_the_protesting_democrats: "The Protesting Democrats"
+CAL_the_protesting_democrats_desc: ""
 
-CAL_the_nationalists:0 "The Nationalists"
-CAL_the_nationalists_desc:0
+CAL_the_nationalists: "The Nationalists"
+CAL_the_nationalists_desc: ""
 
-CAL_too_many_reds:0 "Too Many Reds"
-CAL_too_many_reds_desc:0
+CAL_too_many_reds: "Too Many Reds"
+CAL_too_many_reds_desc: ""
 
-CAL_begin_arresting_extremists:0 "Begin Arresting Extremists"
-CAL_begin_arresting_extremists_desc:0
+CAL_begin_arresting_extremists: "Begin Arresting Extremists"
+CAL_begin_arresting_extremists_desc: ""
 
-CAL_the_new_american_military_policeman:0 "The New American Military Policeman"
-CAL_the_new_american_military_policeman_desc:0
+CAL_the_new_american_military_policeman: "The New American Military Policeman"
+CAL_the_new_american_military_policeman_desc: ""
 
-CAL_reactivate_destroyed_divisions:0 "Reactivate Destroyed Divisions"
-CAL_reactivate_destroyed_divisions_desc:0
+CAL_reactivate_destroyed_divisions: "Reactivate Destroyed Divisions"
+CAL_reactivate_destroyed_divisions_desc: ""
 
-CAL_revitalized_military_medical_infrastructure:0 "Revitalized Military-Medical Infrastructure"
-CAL_revitalized_military_medical_infrastructure_desc:0
+CAL_revitalized_military_medical_infrastructure: "Revitalized Military-Medical Infrastructure"
+CAL_revitalized_military_medical_infrastructure_desc: ""
 
-CAL_export_canadian_equipment:0 "Export Canadian Equipment"
-CAL_export_canadian_equipment_desc:0
+CAL_export_canadian_equipment: "Export Canadian Equipment"
+CAL_export_canadian_equipment_desc: ""
 
-CAL_improving_trade_relations:0 "Improving Trade Relations"
-CAL_improving_trade_relations_desc:0
+CAL_improving_trade_relations: "Improving Trade Relations"
+CAL_improving_trade_relations_desc: ""
 
-CAL_rebuilding_civilian_industry:0 "Rebuilding Civilian Industry"
-CAL_rebuilding_civilian_industry_desc:0
+CAL_rebuilding_civilian_industry: "Rebuilding Civilian Industry"
+CAL_rebuilding_civilian_industry_desc: ""
 
-CAL_rebuilding_destroyed_arms_factories:0 "Rebuilding Destroyed Arms Factories"
-CAL_rebuilding_destroyed_arms_factories_desc:0
+CAL_rebuilding_destroyed_arms_factories: "Rebuilding Destroyed Arms Factories"
+CAL_rebuilding_destroyed_arms_factories_desc: ""
 
-CAL_forming_a_reconstruction_corps:0 "Forming a Reconstruction Corps"
-CAL_forming_a_reconstruction_corps_desc:0
+CAL_forming_a_reconstruction_corps: "Forming a Reconstruction Corps"
+CAL_forming_a_reconstruction_corps_desc: ""
 
-CAL_what_are_we_truly:0 "What Are We Truly?"
-CAL_what_are_we_truly_desc:0
+CAL_what_are_we_truly: "What Are We Truly?"
+CAL_what_are_we_truly_desc: ""
 
-CAL_purge_those_bastards:0 "Purge Those Bastards"
-CAL_purge_those_bastards:0
+CAL_purge_those_bastards: "Purge Those Bastards"
+CAL_purge_those_bastards: ""
 
-CAL_an_army_ready_for_war:0 "An Army Ready for War"
-CAL_an_army_ready_for_war_desc:0
+CAL_an_army_ready_for_war: "An Army Ready for War"
+CAL_an_army_ready_for_war_desc: ""
 
-CAL_the_beaver_and_the_eagle_march_together:0 "The Beaver and the Eagle March Together"
-CAL_the_beaver_and_the_eagle_march_together_desc:0
+CAL_the_beaver_and_the_eagle_march_together: "The Beaver and the Eagle March Together"
+CAL_the_beaver_and_the_eagle_march_together_desc: ""
 
-CAL_a_proper_war_economy:0 "A Proper War Economy"
-CAL_a_proper_war_economy_desc:0
+CAL_a_proper_war_economy: "A Proper War Economy"
+CAL_a_proper_war_economy_desc: ""
 
-CAL_final_preparations:0 "Final Preparations"
-CAL_final_preparations_desc:0
+CAL_final_preparations: "Final Preparations"
+CAL_final_preparations_desc: ""
 
-CAL_set_the_war_plans_in_motion:0 "Set the War Plans in Motion"
-CAL_set_the_war_plans_in_motion_desc:0
+CAL_set_the_war_plans_in_motion: "Set the War Plans in Motion"
+CAL_set_the_war_plans_in_motion_desc: ""
 
 ### National Focuses Localisation - Pre-Regional Tree ###
-CAL_beginning_the_california_reunfication_war:0 "Beginning the California Reunification War"
-CAL_beginning_the_california_reunfication_war_desc:0
+CAL_beginning_the_california_reunfication_war: "Beginning the California Reunification War"
+CAL_beginning_the_california_reunfication_war_desc: ""
