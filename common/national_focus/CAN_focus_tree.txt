@@ -12,3 +12,13 @@ focus_tree = {
 
     continuous_focus_position = { x = 6000 y = 2000 }
 }
+
+shared_focus = {
+    id = CAN_the_final_bastion_of_the_british_empire
+    icon = GFX
+	cost = 5
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+}
