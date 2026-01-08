@@ -48,7 +48,7 @@ focus_tree = {
     shared_focus = CAL_birth_of_the_pacific_junta
     shared_focus = CAL_begin_the_total_overhaul_of_the_psa_military
     shared_focus = CAL_the_economy_of_the_pacific_states_of_america
-    shared_focus = CAL_foreign_policy_deals_beyond_our_borders
+    shared_focus = CAL_form_the_armed_forces_diplomatic_corps
     continuous_focus_position = { x = 450 y = 200 }
 }
 
@@ -6933,7 +6933,7 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-	x = -1
+	x = -3
 	y = 15
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_the_total_overhaul_of_the_psa_military"
@@ -6972,7 +6972,7 @@ shared_focus = {
     prerequisite = {
         focus = CAL_addressing_each_military_branch
     }
-    x = -13
+    x = -15
     y = 1
     relative_position_id = CAL_addressing_each_military_branch
     completion_reward = {
@@ -7101,6 +7101,37 @@ shared_focus = {
 }
 
 shared_focus = {
+	id = CAL_westmorelands_doctrine_brute_force
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_the_pacific_states_army
+	}
+	mutually_exclusive = {
+		focus = CAL_patton_army_of_the_future
+		focus = CAL_marshall_modern_minuteman
+		focus = CAL_eisenhower_return_to_form
+	}
+	x = -2
+	y = 1
+	relative_position_id = CAL_the_pacific_states_army
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_westmorelands_doctrine_brute_force"
+		add_ideas = CAL_westmorelands_vision1
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}	
+}
+
+shared_focus = {
 	id = CAL_pattons_doctrine_army_of_the_future
 	icon = GFX
 	cost = 3
@@ -7116,7 +7147,7 @@ shared_focus = {
 		focus = CAL_marshalls_doctrine_modern_minuteman
 		focus = CAL_westmorelands_doctrine_brute_force
 	}
-	x = -2
+	x = 2
 	y = 1
 	relative_position_id = CAL_the_pacific_states_army
 	completion_reward = {
@@ -7147,7 +7178,7 @@ shared_focus = {
 		focus = CAL_pattons_doctrine_army_of_the_future
 		focus = CAL_westmorelands_doctrine_brute_force
 	}
-	x = 2.5
+	x = 6
 	y = 1
 	relative_position_id = CAL_the_pacific_states_army
 	completion_reward = {
@@ -7163,7 +7194,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_westmorelands_doctrine_brute_force
+	id = CAL_implement_new_firearm_designs
 	icon = GFX
 	cost = 3
 	available_if_capitulated = no
@@ -7171,26 +7202,870 @@ shared_focus = {
 		factor = 2
 	}
 	prerequisite = {
-		focus = CAL_the_pacific_states_army
+		focus = CAL_eisenhowers_doctrine_return_to_form
 	}
-	mutually_exclusive = {
-		focus = CAL_patton_army_of_the_future
-		focus = CAL_marshall_modern_minuteman
-		focus = CAL_eisenhower_return_to_form
-	}
-	x = 6
+	x = 0
 	y = 1
+	relative_position_id = CAL_eisenhowers_doctrine_return_to_form
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_implement_new_firearm_designs"
+		swap_ideas = {
+			remove_idea = CAL_Eisenhowers_vision1
+			add_idea = CAL_Eisenhowers_vision2
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_new_military_industrial_complex
+	icon = GFX_focus_generic_tank_production
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_eisenhowers_doctrine_return_to_form
+		focus = CAL_pattons_doctrine_army_of_the_future
+		focus = CAL_marshalls_doctrine_modern_minuteman
+		focus = CAL_westmorelands_doctrine_brute_force
+	}
+	x = 2
+	y = 1
+	relative_position_id = CAL_eisenhowers_doctrine_return_to_form
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_new_military_industrial_complex"
+		add_ideas = CAL_a_new_military_industrial_complex
+	}
+}
+
+shared_focus = {
+	id = CAL_advice_from_soviet_emigre_officers
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_westmorelands_doctrine_brute_force
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_westmorelands_doctrine_brute_force
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_advice_from_soviet_emigre_officers"
+		swap_ideas = {
+			remove_idea = CAL_westmorelands_vision1
+			add_idea = CAL_westmorelands_vision2
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_rangers_lead_the_way
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_eisenhowers_doctrine_return_to_form
+		focus = CAL_pattons_doctrine_army_of_the_future
+		focus = CAL_marshalls_doctrine_modern_minuteman
+		focus = CAL_westmorelands_doctrine_brute_force
+	}
+	x = 0
+	y = 2
 	relative_position_id = CAL_the_pacific_states_army
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_westmorelands_doctrine_brute_force"
-		add_ideas = CAL_westmorelands_vision1
-		add_doctrine_cost_reduction = {
-			name = land_doc_bonus
-			cost_reduction = 0.5
-			uses = 1
-			category = land_doctrine
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rangers_lead_the_way"
+		add_potential_special_forces_tree = yes
+		army_experience = 40
+		add_manpower = 4000
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 2
+			category = cat_special_forces_generic
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_implement_mission_style_tactics
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_pattons_doctrine_army_of_the_future
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_pattons_doctrine_army_of_the_future
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_implement_mission_style_tactics"
+		swap_ideas = {
+			remove_idea = CAL_Pattons_vision1
+			add_idea = CAL_Pattons_vision2
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_pershings_legacy
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_eisenhowers_doctrine_return_to_form
+		focus = CAL_pattons_doctrine_army_of_the_future
+		focus = CAL_marshalls_doctrine_modern_minuteman
+		focus = CAL_westmorelands_doctrine_brute_force
+	}
+	x = 2
+	y = 1
+	relative_position_id = CAL_pattons_doctrine_army_of_the_future
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_pershings_legacy"
+		add_war_support = 0.025
+		add_stability = 0.005
+		add_ideas = CAL_pershings_legacy
+	}
+}
+
+shared_focus = {
+	id = CAL_expanded_national_guard_requirements
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_marshalls_doctrine_modern_minuteman
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_marshalls_doctrine_modern_minuteman
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expanded_national_guard_requirements"
+		swap_ideas = {
+			remove_idea = CAL_marshalls_vision1
+			add_idea = CAL_marshalls_vision2
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_begin_rebuilding_the_air_force
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_implement_new_firearm_designs
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_implement_new_firearm_designs
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_rebuilding_the_air_force"
+	}
+}
+shared_focus = {
+	id = CAL_emphasize_the_numbers_advantage
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_implement_new_firearm_designs
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_implement_new_firearm_designs
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_emphasize_the_numbers_advantage"
+		swap_ideas = {
+			remove_idea = CAL_Eisenhowers_vision2
+			add_idea = CAL_Eisenhowers_vision3
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_cheaper_firearms
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_advice_from_soviet_emigre_officers
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_advice_from_soviet_emigre_officers
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_cheaper_firearms"
+	}	
+}
+
+shared_focus = {
+	id = CAL_flooding_the_front_lines
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_advice_from_soviet_emigre_officers
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_advice_from_soviet_emigre_officers
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_flooding_the_front_lines"
+        swap_ideas = {
+			remove_idea = CAL_westmorelands_vision2
+			add_idea = CAL_westmorelands_vision3
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_begin_replacing_halftracks
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_implement_mission_style_tactics
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_implement_mission_style_tactics
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_replacing_halftracks"
+	}	
+}
+
+shared_focus = {
+	id = CAL_an_expanded_tank_force
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_implement_mission_style_tactics
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_implement_mission_style_tactics
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_an_expanded_tank_force"
+        swap_ideas = {
+			remove_idea = CAL_Pattons_vision2
+			add_idea = CAL_Pattons_vision3
 		}
 	}	
+}
+
+shared_focus = {
+	id = CAL_a_rifle_behind_every_blade
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_expanded_national_guard_requirements
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_expanded_national_guard_requirements
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_rifle_behind_every_blade"
+	}
+}
+
+shared_focus = {
+	id = CAL_begin_guard_modernization
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_expanded_national_guard_requirements
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_expanded_national_guard_requirements
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_look_into_strategic_depth"
+        swap_ideas = {
+			remove_idea = CAL_marshalls_vision2
+			add_idea = CAL_marshalls_vision3
+		}
+	}	
+}
+
+shared_focus = {
+	id = CAL_using_navy_surplus
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_begin_rebuilding_the_air_force
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_begin_rebuilding_the_air_force
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_using_navy_surplus"
+	}
+}
+
+shared_focus = {
+	id = CAL_establishing_seattle_arms_factories
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_emphasize_the_numbers_advantage
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_emphasize_the_numbers_advantage
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_establishing_seattle_arms_factories"
+        swap_ideas = {
+			remove_idea = CAL_Eisenhowers_vision3
+			add_idea = CAL_Eisenhowers_vision4
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_reintroduce_the_springifield
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_cheaper_firearms
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_cheaper_firearms
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reintroduce_the_springifield"
+	}
+}
+
+shared_focus = {
+	id = CAL_expand_the_armys_size
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_flooding_the_front_lines
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_flooding_the_front_lines
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_armys_size"
+		swap_ideas = {
+			remove_idea = CAL_westmorelands_vision3
+			add_idea = CAL_westmorelands_vision4
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_divert_navy_steel_deliveries
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_begin_replacing_halftracks
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_begin_replacing_halftracks
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_divert_navy_steel_deliveries"
+	}	
+}
+
+shared_focus = {
+	id = CAL_the_afv_idea
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_an_expanded_tank_force
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_an_expanded_tank_force
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_afv_idea"
+        swap_ideas = {
+			remove_idea = CAL_Pattons_vision3
+			add_idea = CAL_Pattons_vision4
+		}
+	}	
+}
+
+shared_focus = {
+	id = CAL_form_the_civil_air_corps
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_a_rifle_behind_every_blade
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_a_rifle_behind_every_blade
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_form_the_civil_air_corps"
+	}
+}
+
+shared_focus = {
+	id = CAL_a_backbone_to_a_weary_west
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_begin_guard_modernization
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_begin_guard_modernization
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_backbone_to_a_weary_west"
+        swap_ideas = {
+			remove_idea = CAL_marshalls_vision3
+			add_idea = CAL_marshalls_vision4
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_promoting_new_generals
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_using_navy_surplus
+	}
+	prerequisite = {
+		focus = CAL_establishing_seattle_arms_factories
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_using_navy_surplus
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_promoting_new_generals"
+		swap_ideas = {
+			remove_idea = CAL_Eisenhowers_vision4
+			add_idea = CAL_Eisenhowers_vision5
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_the_union_service_act
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_reintroduce_the_springifield
+	}
+	prerequisite = {
+		focus = CAL_expand_the_armys_size
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_reintroduce_the_springifield
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_union_service_act"
+		swap_ideas = {
+			remove_idea = CAL_westmorelands_vision4
+			add_idea = CAL_westmorelands_vision5
+		}
+	}	
+}
+
+shared_focus = {
+	id = CAL_learn_from_the_german_blitzkrieg
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_divert_navy_steel_deliveries
+	}
+	prerequisite = {
+		focus = CAL_the_afv_idea
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_divert_navy_steel_deliveries
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_learn_from_the_german_blitzkrieg"
+		swap_ideas = {
+			remove_idea = CAL_Pattons_vision4
+			add_idea = CAL_Pattons_vision5
+		}
+	}	
+}
+
+shared_focus = {
+	id = CAL_the_national_protection_act
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_form_the_civil_air_corps
+	}
+	prerequisite = {
+		focus = CAL_a_backbone_to_a_weary_west
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_form_the_civil_air_corps
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_national_protection_act"
+		swap_ideas = {
+			remove_idea = CAL_marshalls_vision4
+			add_idea = CAL_marshalls_vision5
+		}
+	}	
+}
+
+shared_focus = {
+	id = CAL_a_joint_command_structure
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_promoting_new_generals
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_promoting_new_generals
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_joint_command_structure"
+		swap_ideas = {
+			remove_idea = CAL_Eisenhowers_vision5
+			add_idea = CAL_Eisenhowers_vision6
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_an_american_form_of_deep_battle
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_the_union_service_act
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_the_union_service_act
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_epxansive_squad_level_tactics"
+		swap_ideas = {
+			remove_idea = CAL_westmorelands_vision5
+			add_idea = CAL_westmorelands_vision6
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_epxansive_squad_level_tactics
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_learn_from_the_german_blitzkrieg
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_learn_from_the_german_blitzkrieg
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_epxansive_squad_level_tactics"
+		swap_ideas = {
+			remove_idea = CAL_Pattons_vision5
+			add_idea = CAL_Pattons_vision6
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_just_as_the_founding_fathers_intended
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_the_national_protection_act
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_the_national_protection_act
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_just_as_the_founding_fathers_intended"
+		swap_ideas = {
+			remove_idea = CAL_marshalls_vision5
+			add_idea = CAL_marshalls_vision6
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_expanded_engineer_corps
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_a_joint_command_structure
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_a_joint_command_structure
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_joint_command_structure"
+		swap_ideas = {
+			remove_idea = CAL_Eisenhowers_vision6
+			add_idea = CAL_Eisenhowers_vision7
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_attack_attack_attack
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_an_american_form_of_deep_battle
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_an_american_form_of_deep_battle
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_an_american_form_of_deep_battle"
+		swap_ideas = {
+			remove_idea = CAL_westmorelands_vision6
+			add_idea = CAL_westmorelands_vision7
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_a_drive_towards_a_fully_mechanized_and_motorized_army
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_epxansive_squad_level_tactics
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_epxansive_squad_level_tactics
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_epxansive_squad_level_tactics"
+		swap_ideas = {
+			remove_idea = CAL_Pattons_vision6
+			add_idea = CAL_Pattons_vision7
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_expanding_the_us_special_forces
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_just_as_the_founding_fathers_intended
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_just_as_the_founding_fathers_intended
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expanding_the_us_special_forces"
+		swap_ideas = {
+			remove_idea = CAL_marshalls_vision6
+			add_idea = CAL_marshalls_vision7
+		}
+	}	
+}
+
+shared_focus = {
+	id = CAL_walkie_talkies_for_the_troops
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_expanded_engineer_corps
+		focus = CAL_attack_attack_attack
+		focus = CAL_a_drive_towards_a_fully_mechanized_and_motorized_army
+		focus = CAL_expanding_the_us_special_forces
+	}
+	x = 2
+	y = 1
+	relative_position_id = CAL_expanded_engineer_corps
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_walkie_talkies_for_the_troops"
+	}
+}
+
+shared_focus = {
+	id = CAL_the_caisons_go_marching_along
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_expanded_engineer_corps
+		focus = CAL_attack_attack_attack
+		focus = CAL_a_drive_towards_a_fully_mechanized_and_motorized_army
+		focus = CAL_expanding_the_us_special_forces
+	}
+	x = 2
+	y = 1
+	relative_position_id = CAL_attack_attack_attack
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_caisons_go_marching_along"
+	}
+}
+
+shared_focus = {
+	id = CAL_the_renewed_west_point_spirit
+	icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 2
+	}
+	prerequisite = {
+		focus = CAL_expanded_engineer_corps
+		focus = CAL_attack_attack_attack
+		focus = CAL_a_drive_towards_a_fully_mechanized_and_motorized_army
+		focus = CAL_expanding_the_us_special_forces
+	}
+	x = 2
+	y = 1
+	relative_position_id = CAL_a_drive_towards_a_fully_mechanized_and_motorized_army
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_renewed_west_point_spirit"
+		every_unit_leader = {
+			add_attack = 1
+			add_defense = 1
+			add_logistics = 1
+			add_planning = 1
+		}
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = infantry_weapons
+		}
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = artillery
+		}
+	}
 }
 
 ### Focus Tree - Regional Stage: Military Focus Tree Subranch - Navy ###
@@ -7205,7 +8080,7 @@ shared_focus = {
     prerequisite = {
         focus = CAL_addressing_each_military_branch
     }
-    x = 13
+    x = 15
     y = 1
     relative_position_id = CAL_addressing_each_military_branch
     completion_reward = {
@@ -7214,7 +8089,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_coastal_defense_fleet
+    id = CAL_create_a_coastal_defense_fleet
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -7232,7 +8107,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_the_pacific_states_navy
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_coastal_defense_fleet"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_create_a_coastal_defense_fleet"
     }
 }
 
@@ -7245,7 +8120,7 @@ shared_focus = {
         factor = 1
     }
     mutually_exclusive = {
-        focus = CAL_coastal_defense_fleet
+        focus = CAL_create_a_coastal_defense_fleet
         focus = CAL_rain_down_destruction_from_afar
     }
     prerequisite = {
@@ -7268,7 +8143,7 @@ shared_focus = {
         factor = 1
     }
     mutually_exclusive = {
-        focus = CAL_coastal_defense_fleet
+        focus = CAL_create_a_coastal_defense_fleet
         focus = CAL_revive_the_great_white_fleet
     }
     prerequisite = {
@@ -7284,17 +8159,74 @@ shared_focus = {
 
 ### Focus Tree - Regional Stage: Militry Democracy - Foreign Policy Focus Tree ###
 shared_focus = {
-	id = CAL_foreign_policy_deals_beyond_our_borders
+	id = CAL_form_the_armed_forces_diplomatic_corps
 	icon = GFX
 	cost = 3
 	available_if_capitulated = no
 	ai_will_do = {
 		factor = 1
 	}
-	x = 32
+	x = 35
 	y = 16
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_foreign_policy_deals_beyond_our_borders"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_form_the_armed_forces_diplomatic_corps"
+	}
+}
+
+shared_focus = {
+    id = CAL_dealings_with_the_samurai
+    icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_form_the_armed_forces_diplomatic_corps
+    }
+    x = -9
+    y = 1
+    relative_position_id = CAL_form_the_armed_forces_diplomatic_corps
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_dealings_with_the_samurai"
+	}
+}
+
+shared_focus = {
+    id = CAL_a_talk_with_the_cannucks
+    icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_form_the_armed_forces_diplomatic_corps
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_form_the_armed_forces_diplomatic_corps
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_talk_with_the_cannucks"
+	}
+}
+
+shared_focus = {
+    id = CAL_diplomacy_with_the_reichsordung_pact
+    icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_form_the_armed_forces_diplomatic_corps
+    }
+    x = 9
+    y = 1
+    relative_position_id = CAL_form_the_armed_forces_diplomatic_corps
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_dealings_with_the_samurai"
 	}
 }
 
