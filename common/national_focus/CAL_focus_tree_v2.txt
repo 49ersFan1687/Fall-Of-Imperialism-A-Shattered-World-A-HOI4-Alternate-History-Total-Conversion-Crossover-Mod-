@@ -8157,6 +8157,8 @@ shared_focus = {
     }
 }
 
+### Focus Tree - Regional Stage: Shared Military Reform Focus Tree - End ###
+
 ### Focus Tree - Regional Stage: Militry Democracy - Foreign Policy Focus Tree ###
 shared_focus = {
 	id = CAL_form_the_armed_forces_diplomatic_corps
