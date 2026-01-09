@@ -1,7 +1,7 @@
 capital = 378
 
 ### Orders of Battle ###
-oob = "CAL_1936"
+oob = "CAL_1950"
 set_naval_oob =
 set_air_oob = 
 
