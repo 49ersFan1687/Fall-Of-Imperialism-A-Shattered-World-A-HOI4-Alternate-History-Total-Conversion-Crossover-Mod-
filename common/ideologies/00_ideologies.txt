@@ -17,6 +17,7 @@ ideologies = {
 			autonomous_communism_ideology = { }
 			autocratic_marxism_ideology = { }
 			communism_broad_communism_ideology = { }
+			securocratic_communism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 117 20 13 }
