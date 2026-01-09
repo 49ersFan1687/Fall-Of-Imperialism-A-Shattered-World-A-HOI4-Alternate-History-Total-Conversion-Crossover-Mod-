@@ -6,7 +6,10 @@ add_namespace = CAL_military_regional
 add_namespace = CAL_civilian_regional
 add_namespace = CAL_military_superregional
 add_namespace = CAL_civilian_superregional
-add_namespace = CAL_post_unification
+add_namespace = CAL_cavalier_superregional
+add_namespace = CAL_post_unification_cavalier
+add_namespace = CAL_post_unification_civilian
+add_namespace = CAL_post_unification_military
 add_namespace = CAL_final_battle
 add_namespace = CAL_reconstruction
 
