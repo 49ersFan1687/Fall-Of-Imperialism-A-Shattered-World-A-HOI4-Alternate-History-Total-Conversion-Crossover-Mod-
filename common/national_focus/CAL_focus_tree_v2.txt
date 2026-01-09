@@ -8158,6 +8158,24 @@ shared_focus = {
 }
 
 ### Focus Tree - Regional Stage: Shared Military Reform Focus Tree - End ###
+shared_focus = {
+    id = CAL_putting_on_the_finishing_touches
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_caisons_go_marching_along
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_caisons_go_marching_along
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_putting_on_the_finishing_touches"
+    }
+}
 
 ### Focus Tree - Regional Stage: Militry Democracy - Foreign Policy Focus Tree ###
 shared_focus = {
