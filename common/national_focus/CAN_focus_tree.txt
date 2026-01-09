@@ -10,7 +10,7 @@ focus_tree = {
     default = no
 	shared_focus = CAN_the_final_bastion_of_the_british_empire
 
-    continuous_focus_position = { x = 6000 y = 2000 }
+    continuous_focus_position = { x = 450 y = 200 }
 }
 
 shared_focus = {
@@ -21,4 +21,6 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
+    x = 10
+	y = 0
 }
