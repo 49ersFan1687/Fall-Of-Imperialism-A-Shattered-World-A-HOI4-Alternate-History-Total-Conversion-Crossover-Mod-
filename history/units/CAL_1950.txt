@@ -85,12 +85,32 @@ division_template = {
 }
 
 division_template = {
-    name = "Second Continental Army Mountain Division"
+    name = "Second Continental Army Mountaineer Infantry Division"
     
     division_names_group = CAL_MTN_01
 
-    regiments = {}
-    support = {}
+    regiments = {
+        mountaineers = { x = 0 y = 0 }
+        mountaineers = { x = 0 y = 1 }
+        mountaineers = { x = 0 y = 2 }
+        mountaineers = { x = 1 y = 0 }
+        mountaineers = { x = 1 y = 1 }
+        mountaineers = { x = 1 y = 2 }
+        mountaineers = { x = 2 y = 0 }
+        mountaineers = { x = 2 y = 1 }
+        mountaineers = { x = 2 y = 2 }
+        artillery_brigade = { x = 3 x = 0 }
+        artillery_brigade = { x = 3 x = 1 }
+        artillery_brigade = { x = 3 x = 2 }
+        artillery_brigade = { x = 3 x = 3 }
+    }
+    support = {
+        artillery = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        field_hospital = { x = 0 y = 2 }
+        logistics_company = { x = 0 y = 3 }
+        anti_air = { x = 0 y = 4 }
+    }
 }
 
 division_template = {
@@ -178,9 +198,28 @@ units = {
     division = {
         name = {
             is_name_ordered = yes
-            name_order = 
+            name_order = 3
+        }
+        location = 986
+        division_template = "Second Continental Army Armored Division"
+        start_equipment_factor = 0.85
+    }
+
+    division = {
+        name = {
+            is_name_ordered = yes
+            name_order = 25
         } 
         location = 986
+        division_template = "Second Continental Army Infantry Division"
+        start_equipment_factor = 0.85
+    }
+    division = {
+        name = {
+            is_name_ordered = yes
+            name_order = 26
+        }
+        location = 6699
         division_template = "Second Continental Army Infantry Division"
         start_equipment_factor = 0.85
     }
@@ -188,40 +227,110 @@ units = {
     division = {
         name = {
             is_name_ordered = yes
-            name_order = 
+            name_order = 27
         }
-        location = 
+        location = 6699
         division_template = "Second Continental Army Infantry Division"
-        start_equipment_factor =
+        start_equipment_factor = 0.85
     }
 
     division = {
         name = {
             is_name_ordered = yes
-            name_order = 
+            name_order = 28
         }
-        location = 
+        location = 11795
         division_template = "Second Continental Army Infantry Division"
-        start_equipment_factor =
+        start_equipment_factor = 0.85
     }
 
     division = {
         name = {
             is_name_ordered = yes
-            name_order = 
+            name_order = 33
         }
-        location = 
-        division_template = "Second Continental Army Marine Division"
-        start_equipment_factor =
+        location = 11795
+        division_template = "Second Continental Army Infantry Division"
+        start_equipment_factor = 0.85
     }
 
     division = {
         name = {
             is_name_ordered = yes
-            name_order = 
+            name_order = 37
         }
-        location = 
+        location = 6881
+        division_template = "Second Continental Army Infantry Division"
+        start_equipment_factor = 0.85
+    }
+
+    division = {
+        name = {
+            is_name_ordered = yes
+            name_order = 87
+        }
+        location = 6881
+        division_template = "Second Continental Army Infantry Division"
+        start_equipment_factor = 0.85
+    }
+
+    division = {
+        name = {
+            is_name_ordered = yes
+            name_order = 104
+        }
+        location = 10483
+        division_template = "Second Continental Army Infantry Division"
+        start_equipment_factor = 0.85
+    }
+
+    division = {
+        name = {
+            is_name_ordered = yes
+            name_order = 89
+        }
+        location = 10483
+        division_template = "Second Continental Army Infantry Division"
+        start_equipment_factor = 0.85
+    }
+
+    division = {
+        name = {
+            is_name_ordered = yes
+            name_order = 93
+        }
+        location = 1562
+        division_template = "Second Continental Army Infantry Division"
+        start_equipment_factor = 0.85
+    }
+    
+    division = {
+        name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+        location = 9814
         division_template = "Second Continental Army Marine Division"
-        start_equipment_factor =
+        start_equipment_factor = 0.85
+    }
+
+    division = {
+        name = {
+            is_name_ordered = yes
+            name_order = 2
+        }
+        location = 9814
+        division_template = "Second Continental Army Marine Division"
+        start_equipment_factor = 0.85
+    }
+
+    division = {
+        name = {
+            is_name_ordered = yes
+            name_order = 10
+        }
+        location = 9814
+        division_template = "Second Continental Army Mountaineer Infantry Division"
+        start_equipment_factor = 0.85
     }
 }
