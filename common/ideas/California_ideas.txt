@@ -19,16 +19,7 @@ ideas = {
             allowed = { always = no }
             picture = CAL_greater_depression
             modifier = {
-                consumer_goods_factor = 0.7
-                industrial_capacity_factory = -0.30
-                industrial_capacity_dockyard = -0.30
-                production_factory_max_efficiency_factor = -0.20
-                production_factory_efficiency_gain_factor = -0.20
-                production_speed_buildings_factor = -0.20
-                production_speed_industrial_complex_factor = -0.15
-                production_speed_arms_factory_factor = -0.15
-                production_speed_dockyard_factor = -0.15
-                stability_factor = -0.1
+                
             }
         }
 
@@ -38,23 +29,7 @@ ideas = {
             allowed = { always = no }
             picture = CAL_a_shattered_army
             modifier = {
-                army_speed_factor = -0.10
-                training_time_army_factor = 0.2
-                army_org_factor = -0.15
-                army_morale_factor = -0.15
-                dig_in_speed_factor = -0.20
-                max_dig_in_factor = -0.20
-                war_support_factor = -0.20
-                army_attack_factor = -0.20
-                army_defence_factor = -0.20
-                supply_consumption_factor = 0.20
-                planning_speed = -0.50
-                max_planning = -0.20
-                breakthrough_factor = -0.20
-                max_command_power = -60
-                command_power_gain = -0.1
-                conscription_factor = -0.3
-                experience_gain_army = -0.04
+
             }
         }
 
@@ -132,27 +107,7 @@ ideas = {
             allowed = { always = no }
             picture = eisenhower_plan
             modifier = {
-                max_planning = 0.025
-                planning_speed = 0.025
-                supply_consumption_factor = -0.025
-                out_of_supply_factor = 0.015
-                army_org_Factor = 0.025
-                max_command_power = 20
-                army_attack_factor = 0.005
-                conscription_factor = 0.02
-            }
-            equipment_bonus = {
-                artillery_equipment = {
-                    soft_attack = 0.025
-                    breakthrough = 0.025
-                    build_cost_ic = -0.05
-                    instant = yes
-                }
-                infantry_equipment = {
-                    soft_attack = 0.01
-                    build_cost_ic = -0.025
-                    instant = yes
-                }
+
             }
         }
         
@@ -161,30 +116,7 @@ ideas = {
             allowed = { always = no }
             picture = eisenhower_plan
             modifier = {
-                max_planning = 0.030
-                planning_speed = 0.030
-                supply_consumption_factor = -0.020
-                out_of_supply_factor = 0.020
-                army_org_Factor = 0.028
-                max_command_power = 20
-                army_attack_factor = 0.015
-                conscription_factor = 0.025
-                army_artillery_attack_factor = 0.025
-				army_artillery_defence_factor = 0.025
-                max_dig_in_factor = 0.025
-            }
-            equipment_bonus = {
-                artillery_equipment = {
-                    soft_attack = 0.025
-                    breakthrough = 0.025
-                    build_cost_ic = -0.05
-                    instant = yes
-                }
-                infantry_equipment = {
-                    soft_attack = 0.01
-                    build_cost_ic = -0.03
-                    instant = yes
-                }
+                
             }
         }
 
@@ -193,32 +125,7 @@ ideas = {
             allowed = { always = no }
             picture = eisenhower_plan
             modifier = {
-                max_planning = 0.033
-                planning_speed = 0.033
-                supply_consumption_factor = -0.023
-                out_of_supply_factor = 0.025
-                army_org_Factor = 0.03
-                max_command_power = 25
-                army_attack_factor = 0.02
-                conscription_factor = 0.03
-                army_artillery_attack_factor = 0.03
-				army_artillery_defence_factor = 0.03
-                max_dig_in_factor = 0.03   
-            }
-            equipment_bonus = {
-                artillery_equipment = {
-                    soft_attack = 0.025
-                    breakthrough = 0.025
-                    build_cost_ic = -0.05
-                    reliability = 0.01
-                    instant = yes
-                }
-                infantry_equipment = {
-                    soft_attack = 0.01
-                    build_cost_ic = -0.03
-                    reliability = 0.01
-                    instant = yes
-                }
+                  
             }
         }
 
@@ -304,19 +211,7 @@ ideas = {
             allowed = { always = no }
             picture = patton_plan
             modifier = {
-            	army_morale_factor = -0.15
-				army_speed_factor = 0.025
-				army_armor_attack_factor = 0.025
-				army_armor_defence_factor = 0.025
-				army_armor_speed_factor = 0.025
-            }
-            equipment_bonus = {
-                armor = {
-                    build_cost_ic = -0.05
-					maximum_speed = 0.05
-					reliability = -0.05
-					instant = yes
-                }
+            	
             }
         }
 
