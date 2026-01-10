@@ -118,6 +118,20 @@ recruit_character = CSD_yasaka
 
 # Second Continental Army Cascadian Branch - Hope's Peak Academy Generals (Dream on, forever!) #
 recruit_character = CSD_makoto_naegi
-recruit_character = 
+recruit_character = CSD_junko_enoshima
+recruit_character = CSD_kyoko_kirigiri
+recruit_character = CSD_byakuya_togami
+recruit_character = CSD_mukuro_ikusaba
+recruit_character = CSD_aoi_asahina
+recruit_character = CSD_sakura_ogami
+recruit_character = CSD_leon_kuwata
+recruit_character = CSD_hifumi_yamada
+recruit_character = CSD_toko_fukawa
+recruit_character = CSD_mondo_owada
+recruit_character = CSD_kiyota_ishimaru
+recruit_character = CSD_chihiro_fujisaki
+recruit_character = CSD_celestia_ludenberg
+recruit_character = CSD_yasuhiro_hagakure
+recruit_character = CSD_sayaka_maizono 
 
 # Second Continental Army Cascadian Branch - U.A. High School Generals (Plus Ultra!) #
