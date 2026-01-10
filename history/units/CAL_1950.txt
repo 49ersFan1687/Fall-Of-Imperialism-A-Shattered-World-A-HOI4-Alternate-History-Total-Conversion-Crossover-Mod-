@@ -127,8 +127,28 @@ division_template = {
 
     division_names_group = CAL_MEC_01
 
-    regiments = {}
-    support = {}
+    regiments = {
+        mechanized = { x = 0 y = 0 }
+        mechanized = { x = 0 y = 1 }
+        mechanized = { x = 0 y = 2 }
+        mechanized = { x = 1 y = 0 }
+        mechanized = { x = 1 y = 1 }
+        mechanized = { x = 1 y = 2 }
+        mechanized = { x = 2 y = 0 }
+        mechanized = { x = 2 y = 1 }
+        mechanized = { x = 2 y = 2 }
+        mot_artillery_brigade = { x = 3 y = 0 }
+		mot_artillery_brigade = { x = 3 y = 1 }
+		mot_artillery_brigade = { x = 3 y = 2 }
+		mot_artillery_brigade  = { x = 3 y = 3 }
+		medium_armor = { x = 4 y = 0 }
+    }
+    support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+	}
 }
 
 division_template = {
@@ -136,8 +156,28 @@ division_template = {
 
     division_names_group = CAL_MOT_01
 
-    regiments = {}
-    support = {}
+    regiments = {
+		motorised_infantry = { x = 0 y = 0 }
+		motorised_infantry = { x = 0 y = 1 }
+		motorised_infantry = { x = 0 y = 2 }
+		motorised_infantry = { x = 1 y = 0 }
+		motorised_infantry = { x = 1 y = 1 }
+		motorised_infantry = { x = 1 y = 2 }
+		motorised_infantry = { x = 2 y = 0 }
+		motorised_infantry = { x = 2 y = 1 }
+		motorised_infantry = { x = 2 y = 2 }
+		mot_artillery_brigade = { x = 3 y = 0 }
+		mot_artillery_brigade = { x = 3 y = 1 }
+		mot_artillery_brigade = { x = 3 y = 2 }
+		mot_artillery_brigade  = { x = 3 y = 3 }
+		medium_armor = { x = 4 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        field_hospital = { x = 0 y = 2 }
+        logistics_company = { x = 0 y = 3 }
+	}
 }
 
 division_template = {
