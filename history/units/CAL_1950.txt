@@ -37,12 +37,14 @@ division_template = {
         medium_armor = { x = 0 y = 1 }
         medium_armor = { x = 0 y = 2 }
         medium_armor = { x = 1 y = 0 }
-        medium_armor = { x = 1 y = 1 }
-        medium_armor = { x = 1 y = 2 }
-        mechanized = { x = 2 y = 0 }
-		mechanized = { x = 2 y = 1 }
-		mechanized = { x = 2 y = 2 }
-		mechanized = { x = 2 y = 3 }
+        mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 1 y = 3 }
+        medium_sp_artillery_brigade = { x = 2 y = 0 }
+        medium_sp_artillery_brigade = { x = 2 y = 1 }
+        medium_sp_artillery_brigade = { x = 2 y = 2 }
+        medium_sp_anti_air_brigade = { x = 2 y = 3 }
     }
     support = {
         recon = { x = 0 y = 0 }
@@ -116,24 +118,47 @@ division_template = {
     support = {}
 }
 
+division_template = {
+    name = "Second Continental Army Airborne Infantry Division"
+
+    division_names_group = CAL_PAR_01
+
+    regiments = {
+        paratrooper = { x = 0 y = 0 }
+        paratrooper = { x = 0 y = 1 }
+        paratrooper = { x = 0 y = 2 }
+        paratrooper = { x = 0 y = 3 }
+        paratrooper = { x = 1 y = 0 }
+        paratrooper = { x = 1 y = 1 }
+        paratrooper = { x = 1 y = 2 }
+        paratrooper = { x = 1 y = 3 }
+    }
+    support = {
+        field_hospital = { x = 0 y = 0 }
+        anti_air = { x = 0 y = 1 }
+        engineer = { x = 0 y = 2 }
+        maintenance_company = { x = 0 y = 3 }
+    }
+}
+
 units = {
     division = {
         name = {
             is_name_ordered = yes
-            name_order = 
+            name_order = 82
         } 
         location = 9637
-        division_template = "Second Continental Army Infantry Division"
+        division_template = "Second Continental Army Airborne Infantry Division"
         start_equipment_factor = 0.85
     }
 
     division = {
         name = {
             is_name_ordered = yes
-            name_order = 
+            name_order = 101
         } 
         location = 9637
-        division_template = "Second Continental Army Infantry Division"
+        division_template = "Second Continental Army Airborne Infantry Division"
         start_equipment_factor = 0.85
     }
 
