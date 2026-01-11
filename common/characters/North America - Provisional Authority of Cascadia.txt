@@ -32,6 +32,7 @@ characters = {
 
 	CSD_yuko_oshima = {
 		name = CSD_yuko_oshima
+		desc =
 		portraits = {
 			civilian = {
 				large = 
@@ -53,6 +54,7 @@ characters = {
 
 	CSD_minami_takahashi = {
 		name = CSD_minami_takahashi
+		desc =
 		portraits = {
 			civilian = {
 				large =
@@ -74,6 +76,7 @@ characters = {
 
 	CSD_mariko_shinoda = {
 		name = CSD_mariko_shinoda
+		desc =
 		portraits = {
 			civilian = {
 				large =
@@ -90,10 +93,12 @@ characters = {
 			planning_skill =
 			logistics_skill =
 		}
+		gender = female
 	}
 
 	CSD_aki_takajo = {
 		name = CSD_aki_takajo
+		desc =
 		portraits = {
 			civilian = {
 				large =
@@ -116,6 +121,7 @@ characters = {
 	# AKB Clique - Generals #
 	CSD_yuki_kashiwagi = {
 		name = CSD_yuki_kashiwagi
+		desc =
 		portraits = {
 			civilian = {
 				large = 
@@ -137,6 +143,7 @@ characters = {
 
 	CSD_sae_miyazawa = {
 		name = CSD_sae_miyazawa
+		desc =
 		portraits = {
 			civilian = {
 				large = 
@@ -158,6 +165,7 @@ characters = {
 
 	CSD_rie_kitahara = {
 		name = CSD_rie_kitahara
+		desc =
 		portraits = {
 			civilian = {
 				large = 
@@ -179,6 +187,7 @@ characters = {
 
 	CSD_tomomi_kasai = {
 		name = CSD_tomomi_kasai
+		desc =
 		portraits = {
 			civilian = {
 				large = 
@@ -200,6 +209,7 @@ characters = {
 
 	CSD_minami_minegishi = {
 		name = CSD_minami_minegishi
+		desc =
 		portraits = {
 			civilian = {
 				large = 
@@ -221,6 +231,7 @@ characters = {
 
 	CSD_jurina_matsui = {
 		name = CSD_jurina_matsui
+		desc =
 		portraits = {
 			civilian = {
 				large = 
@@ -242,6 +253,7 @@ characters = {
 
 	CSD_sayaka_akimoto = {
 		name = CSD_sayaka_akimoto
+		desc =
 		portraits = {
 			civilian = {
 				large = 
@@ -263,6 +275,7 @@ characters = {
 
 	CSD_rino_sashihara = {
 		name = CSD_rino_sashihara
+		desc =
 		portraits = {
 			civilian = {
 				large = 
@@ -284,6 +297,7 @@ characters = {
 
 	CSD_asuka_kuramochi = {
 		name = CSD_asuka_kuramochi
+		desc =
 		portraits = {
 			civilian = {
 				large = 
@@ -305,6 +319,7 @@ characters = {
 	
 	CSD_miho_miyazaki = {
 		name = CSD_miho_miyazaki
+		desc =
 		portraits = {
 			civilian = {
 				large = 
@@ -348,6 +363,7 @@ characters = {
 	# AKB Clique - Admirals #
 	CSD_mayu_watanabe = {
 		name = CSD_mayu_watanabe
+		desc =
 		portraits = {
 			army = {
 				large = 
@@ -381,6 +397,7 @@ characters = {
 
 	CSD_tomomi_itano = {
 		name = CSD_tomomi_itano
+		desc =
 		portraits = {
 			army = {
 				large = 
@@ -414,6 +431,7 @@ characters = {
 
 	CSD_haruna_kojima = {
 		name = CSD_haruna_kojima
+		desc =
 		portraits = {
 			army = {
 				large = 
@@ -447,6 +465,7 @@ characters = {
 
 	CSD_rena_matsui = {
 		name = CSD_rena_matsui
+		desc =
 		portraits = {
 			army = {
 				large =
