@@ -260,6 +260,14 @@ spriteTypes = {
 		name = "GFX_CAL_Daring_Do"
 		textureFile = "gfx/leaders/CAL/Portrait_CAL_Daring_Do.dds" 
 	}
+	spriteType = {
+		name = "GFX_CAL_Elizabeth_Coleman"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Elizabeth_Coleman.dds" 
+	}
+	spriteType = {
+		name = "GFX_CAL_Hayes_Kroner"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Hayes_Adlai_Ashby_Clarke_Kroner.dds" 
+	}
 
 	# Cascadia - Power Rangers Characters #
 

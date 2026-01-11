@@ -83,7 +83,7 @@ characters = {
         country_leader = {
             desc = "POLITICS_JAMES_STROM_THURMOND_DESC"
             expire = "1995.6.30"
-            ideology = moderate_dixiecrat_ideology
+            ideology = christian_democracy_ideology
             traits = {
                 
             }

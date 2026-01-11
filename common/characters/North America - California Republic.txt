@@ -660,6 +660,28 @@ characters = {
 		}
 	}
 
+	CAL_hayes_adlai_ashby_clarke_kroner = {
+		name = CAL_hayes_adlai_ashby_clarke_kroner
+		desc = 
+		portraits = {
+			army = {
+				large = GFX_fish
+				small = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_cautious
+				inflexible_strategist
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+
 	CAL_ulysses_simpson_grant_iii = {
 		name = CAL_ulysses_simpson_grant_iii
 		desc = 
