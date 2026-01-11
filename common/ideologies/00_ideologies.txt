@@ -33,6 +33,7 @@ ideologies = {
 			syndicalism_broad_communism_ideology = { }
 			syndicalism_zhdanovshchina_ideology = { }
 			red_junta_syndicalism_ideology = { }
+			democratic_syndicalism_ideology = { }
 		}
 		dynamic_faction_names = { }
 		color = { 255 0 0 }
@@ -70,13 +71,14 @@ ideologies = {
     social_democracy = {
         types = {
 			social_democracy_ideology = { } #Generic
-			social_democratic_progressive_democracy_ideology = { } 
+			social_democracy_progressive_democracy_ideology = { } 
 			nordic_model_ideology = { }
 			narodnikism_ideology = { }
 			longism_ideology = { }
 			peronism_ideology = { }
 			internationalist_social_democracy_ideology = { }
 			liberal_feminist_socialism_ideology = { }
+			national_progressivism_ideology = { }
 		}
 		dynamic_faction_names = { }
 		color = { 148 80 142 }
@@ -98,6 +100,7 @@ ideologies = {
 			technocratic_liberalism_ideology = { }
 			liberal_statism_ideology = { }
 			stratocratic_liberalism_ideology = { }
+			liberal_national_progressivism_ideology = { }
 		}
 		dynamic_faction_names = { }
 		color = { 31 121 181 }
