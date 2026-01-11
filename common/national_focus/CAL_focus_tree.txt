@@ -7218,7 +7218,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CAL_new_military_industrial_complex
-	icon = GFX_focus_generic_tank_production
+	icon = GFX
 	cost = 3
 	available_if_capitulated = no
 	ai_will_do = {
