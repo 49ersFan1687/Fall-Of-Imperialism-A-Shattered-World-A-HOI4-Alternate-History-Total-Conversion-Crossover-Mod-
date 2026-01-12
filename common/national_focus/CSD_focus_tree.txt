@@ -1,7 +1,7 @@
 ## Intro ##
 
 focus_tree = {
-    id = CSD_focus_tree
+    id = CSD_starting_focus_tree
     country = {
 		factor = 0
 		modifier = { 
@@ -25,4 +25,171 @@ focus_tree = {
         }
     }
     default = no
+}
+
+### Initial Focus Tree - Warlord State ###
+shared_focus = {
+	id = CSD_sunrise_on_the_shattered_pacific
+	icon = GFX_fish
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 15
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CSD_sunrise_on_the_shattered_pacific_northwest"
+		add_stability = 0.05
+		add_war_support = 0.05
+		country_event = {
+			id = CSD_event.1
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = CSD_the_many_faces_of_cascadia
+	icon = GFX_fish
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CSD_sunrise_on_the_shattered_pacific
+	}
+	x = 0
+	y = 1
+	relative_position_id = CSD_sunrise_on_the_shattered_pacific
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CSD_the_many_faces_of_cascadia"
+	}
+}
+
+shared_focus = {
+	id = CSD_twilights_progressive_officer_clique
+	icon = GFX_fish
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CSD_the_many_faces_of_cascadia
+	}
+	x = -5
+	y = 1
+	relative_position_id = CSD_the_many_faces_of_cascadia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CSD_twilights_progressive_officer_clique"
+	}
+}
+
+shared_focus = {
+	id = CSD_rubys_militarist_officer_clique
+	icon = GFX_fish
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CSD_the_many_faces_of_cascadia
+	}
+	x = -2.5
+	y = 1
+	relative_position_id = CSD_the_many_faces_of_cascadia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CSD_rubys_militarist_officer_clique"
+	}
+}
+
+shared_focus = {
+	id = CSD_sonas_conservative_officer_clique
+	icon = GFX_fish
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CSD_the_many_faces_of_cascadia 
+	}
+	x = 0
+	y = 1
+	relative_position_id = CSD_the_many_faces_of_cascadia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CSD_sonas_conservative_officer_clique"
+	}
+}
+
+shared_focus = {
+	id = CSD_mihos_moderate_officer_clique
+	icon = GFX_fish
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CSD_the_many_faces_of_cascadia 
+	}
+	x = 2.5
+	y = 1
+	relative_position_id = CSD_the_many_faces_of_cascadia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CSD_mihos_moderate_officer_clique"
+	}
+}
+
+shared_focus = {
+	id = CSD_makotos_corporatist_officer_clique
+	icon = GFX_fish
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CSD_the_many_faces_of_cascadia 
+	}
+	x = 5
+	y = 1
+	relative_position_id = CSD_the_many_faces_of_cascadia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CSD_makotos_corporatist_officer_clique"
+	}
+}
+
+shared_focus = {
+	id = CSD_the_second_continental_army_controls_all
+	icon = GFX_fish
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CSD_twilights_progressive_officer_clique
+	}
+	prerequisite = {
+		focus = CSD_rubys_militarist_officer_clique
+	}
+	prerequisite = {
+		focus = CSD_sonas_conservative_officer_clique
+	}
+	prerequisite = {
+		focus = CSD_mihos_moderate_officer_clique
+	}
+	prerequisite = {
+		focus = CSD_makotos_corporatist_officer_clique
+	}
+	x = 0
+	y = 1
+	relative_position_id = CSD_sonas_conservative_officer_clique
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CSD_the_second_continental_army_controls_all"
+	}
 }
