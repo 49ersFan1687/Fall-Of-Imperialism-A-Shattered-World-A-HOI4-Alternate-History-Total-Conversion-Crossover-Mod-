@@ -15,7 +15,7 @@ focus_tree = {
 }
 
 focus_tree = {
-    id = CSD_economy_tree
+    id = CSD_west_coast_reunification_and_reconstruction_focus_tree
     country = {
         factor = 0
         modifier = {
