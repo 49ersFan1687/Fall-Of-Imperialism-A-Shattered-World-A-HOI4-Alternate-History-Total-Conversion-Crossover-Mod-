@@ -11,8 +11,7 @@ focus_tree = {
 	}
     default = no
 	shared_focus = CSD_sunshine_on_the_shattered_pacific
-
-    continuous_focus_position = { x = 2500 y = 50 }
+    continuous_focus_position = { x = 450 y = 200 }
 }
 
 focus_tree = {
