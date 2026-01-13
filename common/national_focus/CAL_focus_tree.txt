@@ -2393,7 +2393,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_resolving_the_water_problem
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_the_university_of_california_campuses"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_uc_california"
         add_research_slot = 1
     }
 }
@@ -8156,6 +8156,8 @@ shared_focus = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_rain_down_destruction_from_afar"
     }
 }
+
+
 
 ### Focus Tree - Regional Stage: Shared Military Reform Focus Tree - End ###
 shared_focus = {
