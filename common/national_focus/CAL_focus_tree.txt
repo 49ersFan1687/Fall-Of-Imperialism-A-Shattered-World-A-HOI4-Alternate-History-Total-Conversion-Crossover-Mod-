@@ -2571,7 +2571,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_refit_ship_manufactories
-     icon = GFX
+    icon = GFX
     cost = 3
     available_if_capitulated = no
     ai_will_do = {
@@ -2584,7 +2584,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_merge_car_manufacturers
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_merge_car_manufacturers"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_refit_ship_manufactories"
     }
 }
 
