@@ -2565,7 +2565,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_increase_funding_for_union_pacific
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_agricultural_self_sufficiency"
     }
 }
 
