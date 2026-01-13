@@ -193,3 +193,22 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CSD_the_second_continental_army_controls_all"
 	}
 }
+
+shared_focus = {
+    id = CSD_addressing_the_problems_in_our_administration
+    icon = GFX_fish
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+        focus = CSD_the_second_continental_army_controls_all
+    }
+    x = 0
+    y = 1
+    relative_position_id = CSD_the_second_continental_army_controls_all
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CSD_addressing_the_problems_in_our_administration"
+	}
+}
