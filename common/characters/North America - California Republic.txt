@@ -972,7 +972,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				
+				politically_connected
 			}
 			skill = 2
 			attack_skill = 2
