@@ -1,7 +1,17 @@
 capital = 361
 
+### Orders of Battle ###
+oob = "ANR_1950"
+set_naval_oob = 
+set_air_oob
+
 set_war_support = 0.5
 set_stability = 0.3
+set_convoys = 50
+set_research_slots = 3
+
+load_focus_tree = ANR_starting_focus_tree
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
