@@ -148,6 +148,45 @@ focus_tree = {
 }
 
 focus_tree = {
+    id = CAL_civilian_democracy_pre_final_battle_tree
+    country = {
+        factor = 0
+        modifier = { 
+            add = 10
+            tag = CAL
+        }
+    }
+    default = no
+    continuous_focus_position = { x = 450 y = 200 }
+}
+
+focus_tree = {
+    id = CAL_military_democracy_pre_final_battle_tree
+    country = {
+        factor = 0
+        modifier = { 
+            add = 10
+            tag = CAL
+        }
+    }
+    default = no
+    continuous_focus_position = { x = 450 y = 200 }
+}
+
+focus_tree = {
+    id = CAL_cavalier_faction_pre_final_battle_tree
+    country = {
+        factor = 0
+        modifier = { 
+            add = 10
+            tag = CAL
+        }
+    }
+    default = no
+    continuous_focus_position = { x = 450 y = 200 }
+}
+
+focus_tree = {
     id = CAL_final_battle_against_evil_focus_tree
     country = {
         factor = 0
@@ -161,7 +200,33 @@ focus_tree = {
 }
 
 focus_tree = {
-    id = CAL_post_war_reconstruction
+    id = CAL_civilian_democracy_post_war_reconstruction
+    country = {
+        factor = 0
+        modifier = { 
+            add = 10
+            tag = CAL
+        }
+    }
+    default = no
+    continuous_focus_position = { x = 450 y = 200 }
+}
+
+focus_tree = {
+    id = CAL_military_democracy_post_war_reconstruction
+    country = {
+        factor = 0
+        modifier = { 
+            add = 10
+            tag = CAL
+        }
+    }
+    default = no
+    continuous_focus_position = { x = 450 y = 200 }
+}
+
+focus_tree = {
+    id = CAL_cavalier_faction_post_war_reconstruction
     country = {
         factor = 0
         modifier = { 
