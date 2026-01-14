@@ -1,14 +1,411 @@
-focus_tree = {
-    id = SLO_starting_focus_tree
-    country = {
-		factor = 0
-		modifier = { 
-            add = 10 
-            tag = SLO
-        }
-	}
-    default = no
-	shared_focus = SLO_Our_Humble_Beginnings
+# Slovak Starting Focus Tree
 
-    continuous_focus_position = { x = 2500 y = 50 }
+shared_focus = {
+	id = SLO_Our_Humble_Beginnings
+	icon = GFX_
+	cost = 1
+	x = 0
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_Our_Humble_Beginnings"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.1 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SLO_and_our_Damned_Reality
+	icon = GFX_
+	cost = 1
+	prerequisite = {
+		focus = SLO_Our_Humble_Beginnings
+	}	
+    x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_and_our_Damned_Reality"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.2 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SLO_Status_of_our_People
+	icon = GFX_
+	cost = 2
+	prerequisite = {
+		focus = SLO_and_our_Damned_Reality
+	}	
+    x = -1
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_Our_Humble_Beginnings"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.3 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SLO_Status_of_our_Military
+	icon = GFX_
+	cost = 2
+	prerequisite = {
+		focus = SLO_and_our_Damned_Reality
+	}
+	x = 1
+	y = 2
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_Status_of_our_Military"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.4 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SLO_and_death_of_Tiso
+	icon = GFX_
+	cost = 1
+	prerequisite = {
+		focus = SLO_Status_of_our_People
+	}
+ 	prerequisite = {
+		focus = SLO_Status_of_our_Military
+	}   
+	x = 0
+	y = 3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_and_death_of_Tiso"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.5 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SLO_Who_is_gonna_replace_him
+	icon = GFX_
+	cost = 2
+	prerequisite = {
+		focus = SLO_and_death_of_Tiso
+	}	
+    x = 0
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_Who_is_gonna_replace_him"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.6 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SLO_Bratislava_Accords_of_1950
+	icon = GFX_
+	cost = 5
+	prerequisite = {
+		focus = SLO_Who_is_gonna_replace_him
+	}	
+    x = 0
+	y = 5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_Our_Humble_Beginnings"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.7 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SLO_Status_Quo_continues
+	icon = GFX_
+	cost = 4
+	prerequisite = {
+		focus = SLO_Bratislava_Accords_of_1950
+	}	
+	mutually_exclusive = { focus = SLO_Slovak_National_Party_Prevails }
+    x = -3
+	y = 6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_Status_Quo_continues"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.8 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SLO_Clerics_get_more_power
+	icon = GFX_
+	cost = 4
+	prerequisite = {
+		focus = SLO_Status_Quo_continues
+	}	
+    x = -4
+	y = 7
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_Clerics_get_more_power"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.9 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SLO_thus_Catholic_Church_gets_more_power
+	icon = GFX_
+	cost = 4
+	prerequisite = {
+		focus = SLO_Clerics_get_more_power
+	}	
+    x = -4
+	y = 8
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_thus_Catholic_Church_gets_more_power"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.10 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SLO_Attempting_to_capture_more_partisans
+	icon = GFX_
+	cost = 4
+	prerequisite = {
+		focus = SLO_Status_Quo_continues
+	}	
+    x = -2
+	y = 7
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_Attempting_to_capture_more_partisans"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.11 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SLO_but_its_in_vain
+	icon = GFX_
+	cost = 4
+	prerequisite = {
+		focus = SLO_Attempting_to_capture_more_partisans
+	}	
+    x = -2
+	y = 8
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_thus_Catholic_Church_gets_more_power"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.12 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SLO_Slovak_Nationalists_will_feel_our_Dominance
+	icon = GFX_
+	cost = 4
+	prerequisite = {
+		focus = SLO_thus_Catholic_Church_gets_more_power
+	}	
+   	prerequisite = {
+		focus = SLO_but_its_in_vain
+	} 
+    x = -3
+	y = 9
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_Slovak_Nationalists_will_feel_our_Dominance"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.13 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SLO_Slovak_National_Party_Prevails
+	icon = GFX_
+	cost = 4
+	prerequisite = {
+		focus = SLO_Bratislava_Accords_of_1950
+	}	
+	mutually_exclusive = { focus = SLO_Status_Quo_continues }
+    x = 3
+	y = 6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_Slovak_National_Party_Prevails"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.14 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SLO_We_would_celebrate
+	icon = GFX_
+	cost = 4
+	prerequisite = {
+		focus = SLO_Slovak_National_Party_Prevails
+	}	
+    x = 2
+	y = 7
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_Clerics_get_more_power"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.15 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SLO_as_our_National_Pride_returns
+	icon = GFX_
+	cost = 4
+	prerequisite = {
+		focus = SLO_We_would_celebrate
+	}	
+    x = 2
+	y = 8
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_as_our_National_Pride_returns"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.16 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SLO_Slow_reconciliation_with_SNR
+	icon = GFX_
+	cost = 4
+	prerequisite = {
+		focus = SLO_Slovak_National_Party_Prevails
+	}	
+    x = 4
+	y = 7
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_Slow_reconciliation_with_SNR"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.17 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SLO_thus_our_secret_work_with_Partisans_continue
+	icon = GFX_
+	cost = 4
+	prerequisite = {
+		focus = SLO_thus_our_secret_work_with_Partisans_continue
+	}	
+    x = 4
+	y = 8
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_thus_our_secret_work_with_Partisans_continue"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.18 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SLO_Taking_down_HSLS_dominance
+	icon = GFX_
+	cost = 4
+	prerequisite = {
+		focus = SLO_as_our_National_Pride_returns
+	}	
+   	prerequisite = {
+		focus = SLO_thus_our_secret_work_with_Partisans_continue
+	} 
+    x = 3
+	y = 9
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_Taking_down_HSLS_dominance"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.19 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SLO_and_our_Stability_returns_but
+	icon = GFX_
+	cost = 3
+	prerequisite = {
+		focus = SLO_Slovak_Nationalists_will_feel_our_Dominance
+	}	
+   	prerequisite = {
+		focus = SLO_Taking_down_HSLS_dominance
+	} 
+    x = 0
+	y = 10
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_and_our_Stability_returns_but"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.20 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SLO_the_Storm_is_slowly_coming
+	icon = GFX_
+	cost = 3
+   	prerequisite = {
+		focus = SLO_Taking_down_HSLS_dominance
+	} 
+    x = 0
+	y = 11
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SLO_the_Storm_is_slowly_coming"
+        hidden_effect = {
+			SLO = {
+				country_event = { id = SLO.21 }
+			}
+		}
+	}
 }
