@@ -637,6 +637,8 @@ characters = {
 		}
 	}
 
+	CAL_
+
 	CAL_benjamin_oliver_davis_sr = {
 		name = CAL_benjamin_oliver_davis_sr
 		desc = 
