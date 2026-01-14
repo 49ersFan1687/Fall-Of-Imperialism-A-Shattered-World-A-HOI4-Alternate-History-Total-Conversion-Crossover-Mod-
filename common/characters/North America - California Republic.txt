@@ -282,17 +282,6 @@ characters = {
 				small = GFX_fish
 			}
 		}
-		advisor = {
-			cost = 100
-			slot = army_chief
-			idea_token = omar_nelson_bradley
-			allowed = {
-				original_tag = CAL
-			}
-			traits = {
-				
-			}
-		}
 		field_marshal = {
 			traits = {
 				trait_engineer
@@ -306,6 +295,17 @@ characters = {
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 3
+		}
+		advisor = {
+			cost = 100
+			slot = army_chief
+			idea_token = omar_nelson_bradley
+			allowed = {
+				original_tag = CAL
+			}
+			traits = {
+				
+			}
 		}
 	}
 
