@@ -205,7 +205,7 @@ characters = {
 			}
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Dwight_David_Eisenhower.dds"
-				small = 
+				small = GFX_fish
 			}
 		}
 		field_marshal = {
@@ -242,7 +242,7 @@ characters = {
 			}
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_George_Catlett_Marshall.dds"
-				small = 
+				small = GFX_fish
 			}
 		}
 		field_marshal = {
@@ -279,7 +279,7 @@ characters = {
 			}
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Omar_Nelson_Bradley.dds"
-				small = 
+				small = GFX_fish
 			}
 		}
 		advisor = {
@@ -448,6 +448,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_William_Childs_Westmoreland.dds"
+				small = GFX_fish
 			}
 		}
 		corps_commander = {
@@ -526,7 +527,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Henry_Harley_Arnold.dds"
-				small = 
+				small = GFX_fish
 			}
 		}
 		corps_commander = {
@@ -558,6 +559,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Jacob_Loucks_Devers.dds"
+				small = GFX_fish
 			}
 		}
 		corps_commander = {
@@ -612,6 +614,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Leonard_Townsend_gerow.dds"
+				small = GFX_fish
 			}
 		}
 		corps_commander = { 
@@ -637,7 +640,46 @@ characters = {
 		}
 	}
 
-	CAL_
+	CAL_joseph_may_swing = {
+		name = CAL_joseph_may_swing
+		desc = 
+		portraits = {
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {
+
+			}
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+
+	CAL_james_harold_doolittle = {
+		name = CAL_james_harold_doolittle
+		desc = 
+		portraits = {
+			army = {
+				large = GFX_fish
+				small = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {
+
+			}
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
 
 	CAL_benjamin_oliver_davis_sr = {
 		name = CAL_benjamin_oliver_davis_sr
@@ -667,7 +709,7 @@ characters = {
 		desc = 
 		portraits = {
 			army = {
-				large = GFX_fish
+				large = "gfx/leaders/CAL/Portrait_CAL_Hayes_Adlai_Ashby_Clarke_Kroner.dds"
 				small = GFX_fish
 			}
 		}
@@ -690,6 +732,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Ulysses_Simpson_grant_III.dds"
+				small = GFX_fish
 			}
 		}
 		corps_commander = {
@@ -885,6 +928,26 @@ characters = {
 			logistics_skill = 2
 		}
 		gender = female
+	}
+
+	CAL_john_fujio_aiso = {
+		name = CAL_john_fujio_aiso
+		desc =
+		portraits = {
+			army = { 
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {
+				
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
 	}
 
 	# Admirals #
@@ -1090,6 +1153,27 @@ characters = {
 			defense_skill = 2
 			maneuvering_skill = 3
 			coordination_skill = 3
+		}
+	}
+
+	CAL_felix_budwell_stump = {
+		name = CAL_felix_budwell_stump
+		desc = 
+		portraits = {
+			army = {
+				large = 
+				small =
+			}
+		}
+		navy_leader = {
+			traits = {
+				
+			}
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			maneuvering_skill = 
+			coordination_skill = 
 		}
 	}
 
