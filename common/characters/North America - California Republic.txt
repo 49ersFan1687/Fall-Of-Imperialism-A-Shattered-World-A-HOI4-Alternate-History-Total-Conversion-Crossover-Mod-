@@ -318,9 +318,10 @@ characters = {
 				small = 
 			}
 		}
-		field_marshal= {
+		field_marshal = {
 			traits = {
 				media_personality
+				air_commander
 			}
 			skill = 4
 			attack_skill = 3
@@ -536,6 +537,7 @@ characters = {
 				politically_connected
 				inspirational_leader
 				organizer
+				air_commander
 			}
 			skill = 4
 			attack_skill = 4
@@ -650,13 +652,39 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-
+				career_officer
+				artillery_officer
+				artillery_specialist
+				paratrooper
 			}
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 3
+		}
+	}
+
+	CAL_lewis_burwell_puller = {
+		name = CAL_lewis_burwell_puller
+		desc = 
+		portraits = {
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {
+				harsh_leader
+				career_officer
+				commando
+				naval_invader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
 		}
 	}
 
@@ -671,13 +699,15 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-
+				career_officer
+				trickster
+				air_commander
 			}
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
 		}
 	}
 
@@ -762,6 +792,7 @@ characters = {
 			traits = {
 				cautious
 				career_officer
+				air_commander
 			}
 			skill = 3 
 			attack_skill = 2
@@ -891,13 +922,14 @@ characters = {
 		desc = 
 		portraits = {
 			army = {
-				large = 
+				large = "gfx/leaders/CAL/Portrait_CAL_Elizabeth_Coleman.dds"
 			}
 		}
 		corps_commander = {
 			traits = {
 				engineer
 				trait_reckless
+				air_commander
 			}
 			skill = 2
 			attack_skill = 3
@@ -1169,11 +1201,11 @@ characters = {
 			traits = {
 				
 			}
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			maneuvering_skill = 
-			coordination_skill = 
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 3
 		}
 	}
 
