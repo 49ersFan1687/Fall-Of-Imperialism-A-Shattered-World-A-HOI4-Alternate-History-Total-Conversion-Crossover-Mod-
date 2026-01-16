@@ -11,6 +11,7 @@ focus_tree = {
 	shared_focus = ANR_the_bastard_of_the_american_collapse
     shared_focus = ANR_american_threat_commission_assessments
     shared_focus = ANR_an_industry_paralyzed
+    shared_focus = ANR_the_garrisons_requests
     continuous_focus_position = { x = 450 y = 200 }
 }
 
@@ -748,5 +749,519 @@ shared_focus = {
     relative_position_id = ANR_maryland_steel_and_coal
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: completed focus ANR_the_suprising_revival"
+    }
+}
+
+### Initial Focus Tree - Starting Military Tree ###
+shared_focus = {
+	id = ANR_the_garrisons_requests
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		has_completed_focus = ANR_election_season
+	}
+	x = 0
+	y = 2
+	relative_position_id = ANR_the_other_hoover
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ANR_the_garrisons_requests"
+
+	}
+}
+
+shared_focus = {
+    id = ANR_more_booze
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_the_garrisons_requests
+    }
+    x = -1
+    y = 1
+    relative_position_id = ANR_the_garrisons_requests
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_more_booze"
+    }
+}
+
+shared_focus = {
+    id = ANR_more_ammo
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_the_garrisons_requests
+    }
+    x = 1
+    y = 1
+    relative_position_id = ANR_the_garrisons_requests
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_more_ammo"
+    }
+}
+
+shared_focus = {
+    id = ANR_a_plea_for_help
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_more_booze
+    }
+    prerequisite = {
+        focus = ANR_more_ammo
+    }
+    x = 1
+    y = 1
+    relative_position_id = ANR_more_booze
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_a_plea_for_help"
+    }
+}
+
+shared_focus = {
+    id = ANR_when_you_want_something_done_right
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_a_plea_for_help
+    }
+    x = 0
+    y = 1
+    relative_position_id = ANR_a_plea_for_help
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_when_you_want_something_done_right"
+    }
+}
+
+shared_focus = {
+    id = ANR_do_it_yourself
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_when_you_want_something_done_right
+    }
+    x = 0
+    y = 1
+    relative_position_id = ANR_when_you_want_something_done_right
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_do_it_yourself"
+    }
+}
+
+shared_focus = {
+    id = ANR_the_anti_federalist_ideal
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = ANR_listen_to_lindbergh
+        focus = ANR_follow_the_german_line
+    }
+    prerequisite = {
+        focus = ANR_do_it_yourself
+    }
+    x = -4
+    y = 1
+    relative_position_id = ANR_do_it_yourself
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_the_anti_federalist_ideal"
+    }
+}
+
+shared_focus = {
+    id = ANR_listen_to_lindbergh
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = ANR_the_anti_federalist_ideal
+        focus = ANR_follow_the_german_line
+    }
+    prerequisite = {
+        focus = ANR_do_it_yourself
+    }
+    x = 0
+    y = 1
+    relative_position_id = ANR_do_it_yourself
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_listen_to_lindbergh"
+    }
+}
+
+shared_focus = {
+    id = ANR_follow_the_german_line
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = ANR_the_anti_federalist_ideal
+        focus = ANR_listen_to_lindbergh
+    }
+    prerequisite = {
+        focus = ANR_do_it_yourself
+    }
+    x = 4
+    y = 1
+    relative_position_id = ANR_do_it_yourself
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_follow_the_german_line"
+    }
+}
+
+shared_focus = {
+    id = ANR_expand_national_guard_formations
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+
+    prerequisite = {
+        focus = ANR_the_anti_federalist_ideal
+    }
+    x = 0
+    y = 1
+    relative_position_id = ANR_the_anti_federalist_ideal
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_expand_national_guard_formations"
+    }
+}
+
+shared_focus = {
+    id = ANR_tighten_training_requirements
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_listen_to_lindbergh
+    }
+    x = 0
+    y = 1
+    relative_position_id = ANR_listen_to_lindbergh
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_tighten_training_requirements"
+    }
+}
+
+shared_focus = {
+    id = ANR_reorganize_along_german_lines
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_follow_the_german_line
+    }
+    x = 0
+    y = 1
+    relative_position_id = ANR_follow_the_german_line
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_reorganize_along_german_lines"
+    }
+}
+
+shared_focus = {
+    id = ANR_set_the_states_to_a_minimum
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_expand_national_guard_formations
+    }
+    x = -1
+    y = 1
+    relative_position_id = ANR_expand_national_guard_formations
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_set_the_states_to_a_minimum"
+    }
+}
+
+shared_focus = {
+    id = ANR_designate_specialized_formations
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_expand_national_guard_formations
+    }
+    x = 1
+    y = 1
+    relative_position_id = ANR_expand_national_guard_formations
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_designate_specialized_formations"
+    }
+}
+
+shared_focus = {
+    id = ANR_encourage_our_soldiers
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_tighten_training_requirements
+    }
+    x = -1
+    y = 1
+    relative_position_id = ANR_tighten_training_requirements
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_encourage_our_soldiers"
+    }
+}
+
+shared_focus = {
+    id = ANR_learning_from_47
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_tighten_training_requirements
+    }
+    x = 1
+    y = 1
+    relative_position_id = ANR_tighten_training_requirements
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_learning_from_47"
+    }
+}
+
+shared_focus = {
+    id = ANR_borrowing_surplus
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_reorganize_along_german_lines
+    }
+    x = -1
+    y = 1
+    relative_position_id = ANR_reorganize_along_german_lines
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_borrowing_surplus"
+    }
+}
+
+shared_focus = {
+    id = ANR_stealing_the_armys_old_notes
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_reorganize_along_german_lines
+    }
+    x = 1
+    y = 1
+    relative_position_id = ANR_reorganize_along_german_lines
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_stealing_the_armys_old_notes"
+    }
+}
+
+shared_focus = {
+    id = ANR_the_question_of_the_air_force
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_set_the_states_to_a_minimum
+    }
+    prerequisite = {
+        focus = ANR_designate_specialized_formations
+    }
+    x = 1
+    y = 1
+    relative_position_id = ANR_set_the_states_to_a_minimum
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_the_question_of_the_air_force"
+    }
+}
+
+shared_focus = {
+    id = ANR_an_all_american_air_force
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_encourage_our_soldiers
+    }
+    prerequisite = {
+        focus = ANR_learning_from_47
+    }
+    x = 1
+    y = 1
+    relative_position_id = ANR_encourage_our_soldiers
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_an_all_american_air_force"
+    }
+}
+
+shared_focus = {
+    id = ANR_leftover_stopgaps
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_borrowing_surplus
+    }
+    prerequisite = {
+        focus = ANR_stealing_the_armys_old_notes
+    }
+    x = 1
+    y = 1
+    relative_position_id = ANR_borrowing_surplus
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_leftover_stopgaps"
+    }
+}
+
+shared_focus = {
+    id = ANR_the_conscription_debate
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_the_question_of_the_air_force
+        focus = ANR_an_all_american_air_force
+        focus = ANR_leftover_stopgaps
+    }
+    x = 2
+    y = 1
+    relative_position_id = ANR_the_question_of_the_air_force
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_the_conscription_debate"
+    }
+}
+
+shared_focus = {
+    id = ANR_the_sparse_navy
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+   prerequisite = {
+        focus = ANR_the_question_of_the_air_force
+        focus = ANR_an_all_american_air_force
+        focus = ANR_leftover_stopgaps
+    }
+    x = 0
+    y = 1
+    relative_position_id = ANR_an_all_american_air_force
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_the_sparse_navy"
+    }
+}
+
+shared_focus = {
+    id = ANR_the_issue_of_political_militia
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_the_question_of_the_air_force
+        focus = ANR_an_all_american_air_force
+        focus = ANR_leftover_stopgaps
+    }
+    x = -2
+    y = 1
+    relative_position_id = ANR_leftover_stopgaps
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_the_issue_of_political_militia"
+    }
+}
+
+shared_focus = {
+    id = ANR_the_first_step_towards_a_united_america
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_the_conscription_debate
+    }
+    prerequisite = {
+        focus = ANR_the_sparse_navy
+    }
+    prerequisite = {
+        focus = ANR_the_issue_of_political_militia
+    }
+    x = 0
+    y = 1
+    relative_position_id = ANR_the_sparse_navy
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_the_first_step_towards_a_united_america"
     }
 }
