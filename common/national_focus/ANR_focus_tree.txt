@@ -9,6 +9,8 @@ focus_tree = {
 	}
     default = no
 	shared_focus = ANR_the_bastard_of_the_american_collapse
+    shared_focus = ANR_american_threat_commission_assessments
+    shared_focus = ANR_an_industry_paralyzed
     continuous_focus_position = { x = 450 y = 200 }
 }
 
@@ -35,7 +37,7 @@ shared_focus = {
     ai_will_do = {
         factor = 1
     }
-    x = 18
+    x = 17
     y = 0
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: completed focus ANR_the_bastard_of_the_american_collapse"
@@ -214,5 +216,537 @@ shared_focus = {
     relative_position_id = ANR_a_final_goodbye
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: completed focus ANR_the_election_season"
+    }
+}
+
+### Initial Focus Tree - Threat Assessment Tree ###
+shared_focus = {
+	id = ANR_american_threat_commission_assessments
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		has_completed_focus = ANR_election_season
+	}
+	x = 8
+	y = 0
+	relative_position_id = ANR_the_bastard_of_the_american_collapse
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ANR_american_threat_commission_assessments completed"
+
+	}
+}
+
+shared_focus = {
+    id = ANR_reds_in_new_york
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_american_threat_commission_assessments
+    }
+    x = -1.5
+    y = 1
+    relative_position_id = ANR_american_threat_commission_assessments
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_reds_in_new_york"
+    }
+}
+
+shared_focus = {
+    id = ANR_pennsylvanian_traitors
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_american_threat_commission_assessments
+    }
+    x = 1.5
+    y = 1
+    relative_position_id = ANR_american_threat_commission_assessments
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_pennsylvanian_traitors"
+    }
+}
+
+shared_focus = {
+    id = ANR_kentuckys_commision
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_american_threat_commission_assessments
+    }
+    x = 0
+    y = 2
+    relative_position_id = ANR_american_threat_commission_assessments
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_kentuckys_commision"
+    }
+}
+
+shared_focus = {
+    id = ANR_the_new_england_cesspit
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_reds_in_new_york
+    }
+    x = 0
+    y = 2
+    relative_position_id = ANR_reds_in_new_york
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_the_new_england_cesspit"
+    }
+}
+
+shared_focus = {
+    id = ANR_georgia_blues_and_florida_reds
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_kentuckys_commision
+    }
+    x = 0
+    y = 2
+    relative_position_id = ANR_kentuckys_commision
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_georgia_blues_and_florida_reds"
+    }
+}
+
+shared_focus = {
+    id = ANR_a_loyal_silent_new_jersey
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_pennsylvanian_traitors
+    }
+    x = 0
+    y = 2
+    relative_position_id = ANR_pennsylvanian_traitors
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_a_loyal_silent_new_jersey"
+    }
+}
+
+shared_focus = {
+    id = ANR_george_wallaces_fiefdom
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_the_new_england_cesspit
+        focus = ANR_georgia_blues_and_florida_reds
+        focus = ANR_a_loyal_silent_new_jersey
+    }
+    x = 0
+    y = 1
+    relative_position_id = ANR_georgia_blues_and_florida_reds
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_george_wallaces_fiefdom"
+    }
+}
+
+shared_focus = {
+    id = ANR_the_other_hoover
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_george_wallaces_fiefdom
+    }
+    x = 0
+    y = 1
+    relative_position_id = ANR_george_wallaces_fiefdom
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_the_other_hoover"
+    }
+}
+
+### Initial Focus Tree - Starting Industry Tree ###
+shared_focus = {
+	id = ANR_an_industry_paralyzed
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		has_completed_focus = ANR_election_season
+	}
+	x = 8
+	y = 0
+	relative_position_id = ANR_american_threat_commission_assessments
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ANR_an_industry_paralyzed"
+
+	}
+}
+
+shared_focus = {
+    id = ANR_a_plan_to_fix_what_was_lost
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_an_industry_paralyzed
+    }
+    x = 0
+    y = 1
+    relative_position_id = ANR_an_industry_paralyzed
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_a_plan_to_fix_what_was_lost"
+    }
+}
+
+shared_focus = {
+    id = ANR_in_roosevelts_footsteps
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = ANR_the_new_jersey_approach
+        focus = ANR_a_page_from_speer
+    }
+    prerequisite = {
+        focus = ANR_a_plan_to_fix_what_was_lost
+    }
+    x = -2
+    y = 1
+    relative_position_id = ANR_a_plan_to_fix_what_was_lost
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_in_roosevelts_footsteps"
+    }
+}
+
+shared_focus = {
+    id = ANR_the_new_jersey_approach
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = ANR_in_roosevelts_footsteps
+        focus = ANR_a_page_from_speer
+    }
+    prerequisite = {
+        focus = ANR_a_plan_to_fix_what_was_lost
+    }
+    x = 0
+    y = 1
+    relative_position_id = ANR_a_plan_to_fix_what_was_lost
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_the_new_jersey_approach"
+    }
+}
+
+shared_focus = {
+    id = ANR_a_page_from_speer
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = ANR_in_roosevelts_footsteps
+        focus = ANR_the_new_jersey_approach
+    }
+    prerequisite = {
+        focus = ANR_a_plan_to_fix_what_was_lost
+    }
+    x = 2
+    y = 1
+    relative_position_id = ANR_a_plan_to_fix_what_was_lost
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_a_page_from_speer"
+    }
+}
+
+shared_focus = {
+    id = ANR_the_anrs_starting_deal
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_in_roosevelts_footsteps
+    }
+    x = 0
+    y = 1
+    relative_position_id = ANR_in_roosevelts_footsteps
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_the_anrs_starting_deal"
+    }
+}
+
+shared_focus = {
+    id = ANR_bring_in_the_experts
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_the_new_jersey_approach
+    }
+    x = 0
+    y = 1
+    relative_position_id = ANR_the_new_jersey_approach
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_bring_in_the_experts"
+    }
+}
+
+shared_focus = {
+    id = ANR_a_call_to_berlin
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_a_page_from_speer
+    }
+    x = 0
+    y = 1
+    relative_position_id = ANR_a_page_from_speer
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_a_call_to_berlin"
+    }
+}
+
+shared_focus = {
+    id = ANR_curb_unhelpful_monopolies
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = ANR_invite_the_megacorps
+    }
+    prerequisite = {
+        focus = ANR_the_anrs_starting_deal
+    }
+    x = 0
+    y = 1
+    relative_position_id = ANR_the_anrs_starting_deal
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_curb_unhelpful_monopolies"
+    }
+}
+
+shared_focus = {
+    id = ANR_restart_newport_news
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_the_anrs_starting_deal
+        focus = ANR_bring_in_the_experts
+        focus = ANR_a_call_to_berlin
+    }
+    x = 0
+    y = 1
+    relative_position_id = ANR_bring_in_the_experts
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_restart_newport_news"
+    }
+}
+
+shared_focus = {
+    id = ANR_invite_the_megacorps
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = ANR_curb_unhelpful_monopolies
+    }
+    prerequisite = {
+        focus = ANR_a_call_to_berlin
+    }
+    x = 0
+    y = 1
+    relative_position_id = ANR_a_call_to_berlin
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_invite_the_megacorps"
+    }
+}
+
+shared_focus = {
+    id = ANR_aid_to_farmers
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_the_anrs_starting_deal
+        focus = ANR_bring_in_the_experts
+        focus = ANR_a_call_to_berlin
+    }
+    x = 1
+    y = 2
+    relative_position_id = ANR_the_anrs_starting_deal
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_aid_to_farmers"
+    }
+}
+
+shared_focus = {
+    id = ANR_economic_deregulation
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_the_anrs_starting_deal
+        focus = ANR_bring_in_the_experts
+        focus = ANR_a_call_to_berlin
+    }
+    x = -1
+    y = 2
+    relative_position_id = ANR_a_call_to_berlin
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_curb_unhelpful_monopolies"
+    }
+}
+
+shared_focus = {
+    id = ANR_the_state_knows_best
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_curb_unhelpful_monopolies
+    }
+    x = 0
+    y = 2
+    relative_position_id = ANR_curb_unhelpful_monopolies
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_the_state_knows_best"
+    }
+}
+
+shared_focus = {
+    id = ANR_maryland_steel_and_coal
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_restart_newport_news
+    }
+    x = 0
+    y = 2
+    relative_position_id = ANR_restart_newport_news
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_maryland_steel_and_coal"
+    }
+}
+
+shared_focus = {
+    id = ANR_the_labor_they_need
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_invite_the_megacorps
+    }
+    x = 0
+    y = 2
+    relative_position_id = ANR_invite_the_megacorps
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_the_labor_they_need"
+    }
+}
+
+shared_focus = {
+    id = ANR_the_suprising_revival
+    icon = GFX
+    cost = 5
+    available_if_capitualted = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = ANR_the_state_knows_best
+        focus = ANR_the_labor_they_need
+    }
+    prerequisite = {
+        focus = ANR_aid_to_farmers
+    }
+    prerequisite = {
+        focus = ANR_economic_deregulation
+    }
+    prerequisite
+    x = 0
+    y = 1
+    relative_position_id = ANR_maryland_steel_and_coal
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: completed focus ANR_the_suprising_revival"
     }
 }
