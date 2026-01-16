@@ -1062,7 +1062,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_William_Daniel_Leahy.dds"
-				small = "gfx/leaders/CAL/Portrait_William_Daniel_Leahy.dds"
+				small = "gfx/leaders/CAL/small/Portrait_William_Daniel_Leahy_small.dds"
 			}
 			civilian = {
 				small = 
@@ -1096,7 +1096,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_William_Fredrick_Halsey_Jr.dds"
-				small = "gfx/leaders/CAL/Portrait_William_Fredrick_Halsey_Jr.dds"
+				small = "gfx/leaders/CAL/small/Portrait_William_Fredrick_Halsey_Jr_small.dds"
 			}
 		}
 		navy_leader = {
@@ -1171,7 +1171,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Issac_Campbell_Kidd_Sr.dds"
-				small = "gfx/leaders/CAL/Portrait_CAL_Issac_Campbell_Kidd_Sr.dds"
+				small = "gfx/leaders/CAL/small/Portrait_CAL_Issac_Campbell_Kidd_Sr_small.dds"
 			}
 		}
 		navy_leader = {
