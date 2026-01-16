@@ -989,7 +989,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Ernest_Joseph_King.dds"
-				small = "gfx/leaders/CAL/Portrait_CAL_Ernest_Joseph_King.dds"
+				small = "gfx/leaders/CAL/Portrait_CAL_Ernest_Joseph_King_small.dds"
 			}
 			civilian = {
 				small = 
@@ -1025,7 +1025,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_Chester_William_Nimitz.dds"
-				small = "gfx/leaders/CAL/Portrait_Chester_William_Nimitz.dds"
+				small = "gfx/leaders/CAL/Portrait_Chester_William_Nimitz_small.dds"
 			}
 			civilian = {
 				small = 
@@ -1193,13 +1193,14 @@ characters = {
 		desc = 
 		portraits = {
 			army = {
-				large = 
-				small =
+				large = "gfx/leaders/CAL/Portrait_CAL_Felix_Budwell_Stump.dds"
+				small = "gfx/leaders/CAL/Portrait_CAL_Felix_Budwell_Stump_small.dds"
 			}
 		}
 		navy_leader = {
 			traits = {
-				
+				superior_tactician
+				blue_water_expert
 			}
 			skill = 3
 			attack_skill = 3

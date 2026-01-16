@@ -272,6 +272,10 @@ spriteTypes = {
 		name = "GFX_CAL_Jimmy_Doolittle"
 		textureFile = "gfx/leaders/CAL/Portrait_CAL_James_Harold_Doolittle.dds" 
 	}
+	spriteType = {
+		name = "GFX_CAL_Felix_Stump"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Felix_Budwell_Stump.dds" 
+	}
 
 	# Cascadia - Power Rangers Characters #
 

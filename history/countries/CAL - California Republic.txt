@@ -84,6 +84,7 @@ recruit_character = CAL_hobart_raymond_gay
 recruit_character = CAL_james_cordie_dozier
 recruit_character = CAL_john_lesesne_dewitt
 recruit_character = CAL_hayes_adlai_ashby_clarke_kroner
+recruit_character = CAL_james_harold_doolittle
 
 ## US Navy ##
 
@@ -94,6 +95,7 @@ recruit_character = CAL_william_fredrick_halsey_jr
 recruit_character = CAL_william_daniel_leahy
 recruit_character = CAL_issac_campbell_kidd_sr
 recruit_character = CAL_arleigh_albert_burke
+recruit_character = CAL_felix_budwell_stump
 
 ### Operatives ###
 
