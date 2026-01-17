@@ -2,6 +2,8 @@
 
 CAL:0 "California Focus Tree"
 
+### Events - California Republic ###
+
 ### Political Parties - California Republic ###
 CAL_communism_party: "CPUSA"
 CAL_communism_party_long: "§YCommunist Party of the United States of America§!"
@@ -30,10 +32,12 @@ CAL_esotericism_party_long: "§YSilver Legion of America (Pelleyites)§!"
 CAL_accelerationism_party: "CAA"
 CAL_accelerationism_party_long: "§YCalifornia Artist Association§!"
 
-#Decisions
-
+### Decisions ###
 CAL_warlord_generals_integration_category: "Integrate Warlord Generals"
 CAL_warlord_generals_integration_category_desc: "Many of the American Warlords had generals who could prove of some use to us. If we offer them certain benefits, they may join us."
+
+### Names ###
+
 
 ### Character Localization - Leaders ###
 CAL_henry_agard_wallace: "Henry Agard Wallace"

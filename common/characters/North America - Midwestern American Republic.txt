@@ -304,6 +304,8 @@ characters = {
         }
     }
 
+    MAR_
+
     # Admirals #
     MAR_Elmo_Russell_Zumwalt_Jr = {
         name = MAR_Elmo_Russell_Zumwalt_Jr
