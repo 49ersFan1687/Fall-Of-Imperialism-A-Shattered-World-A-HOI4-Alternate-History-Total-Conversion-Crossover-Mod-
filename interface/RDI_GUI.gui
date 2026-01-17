@@ -1,0 +1,47 @@
+guiTypes = {
+	
+
+	containerWindowType = {
+		name = "RDI_Madness_Window"
+		size = { width = 0 height = 465 }
+		position = { x = 0 y = 0 }
+
+		iconType = {
+			name = "RDI_Info"
+			spriteType = "GFX_fish"
+			position = { x = 440 y = -7 }
+			pdx_tooltip = RDI_Madness_Info_TT
+		}
+		iconType = {
+				name = "RDI_Madness_Image"
+				spriteType = "GFX_RDI_Madness_Image"
+				position = { x = 50 y = 10 }
+				scale = 1.00
+				Orientation = "CENTER"
+		}
+		instantTextBoxType = {
+				name = "category_description"
+				position = { x = 0 y = 340 }
+				maxWidth = 482
+				maxHeight = 2000
+				format = left
+				font = "hoi4_18_outline"
+				text = RDI_Madness_Description_TT
+				alwaystransparent = yes
+		}
+		containerWindowType = {
+			name = "power_bar"
+			position = { x = x = 100 y = 10 }
+
+			iconType = {
+				name = "RDI_Power_Bar"
+				spriteType = "GFX_RDI_Power_Bar"
+				position = { x = 90 y = 230 }
+				frame = 25
+			}
+
+
+		}
+
+	}
+}

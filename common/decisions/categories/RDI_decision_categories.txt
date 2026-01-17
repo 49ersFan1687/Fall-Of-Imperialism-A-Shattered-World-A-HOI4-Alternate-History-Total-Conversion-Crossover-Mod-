@@ -23,7 +23,22 @@ RDI_Annex_New_England_category = {
 	}
 
 	visible = {
-		#has_country_flag = 
+		has_country_flag = RDI_NEACU
 	}
+}
+RDI_Delay_The_Madness = {
+	icon = GFX_fish
+	scripted_gui = RDI_Scripted_GUI_Madness
+	priority = 85
+	picture = GFX_fish
+	visible_when_empty = no	
+	allowed = {
+		original_tag = RDI
+	}
+
+	visible = {
+		has_country_flag = RDI_Madness_Unlock
+	}
+	visible_when_empty = yes
 }
 

@@ -1,0 +1,20 @@
+scripted_gui = {
+
+	RDI_Scripted_GUI_Madness = {
+		context_type = decision_category
+		window_name = "RDI_Madness_Window"
+		parent_window_token = decision_tab
+		visible = { always = yes }
+
+		properties = {
+			
+			RDI_Power_Bar = {
+				frame = RDI_cultist_power
+			}
+		}
+		effects = {
+
+		}
+
+	}
+}

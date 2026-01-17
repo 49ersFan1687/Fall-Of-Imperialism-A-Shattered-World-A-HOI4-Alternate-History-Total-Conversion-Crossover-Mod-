@@ -65,6 +65,11 @@ RDI_Ode_To_Aztecs: "Ode To Aztecs"
 RDI_the_proleteriat_reigns_supreme: "The Proleteriat Reigns Supreme"
 RDI_State_Capitalism: "State Capitalism"
 
+RDI_offensive_CNT: "Offensive"
+RDI_offensive_MSC: "Offensive"
+RDI_offensive_VRM: "Offensive"
+RDI_offensive_ANN: "Offensive"
+
 ### Tooltips & Flags ###
 RDI_Racist_Victory: "The Right Wing of The Lovecraftians Has Won"
 RDI_August_Is_Leader: "August Dereleth Has Won The Leadership Struggle"
@@ -104,7 +109,17 @@ RDI_Construction_Effort: "Construction Effort"
 RDI_First_3_Year_Plan: "First 3 Year Plan"
 
 RDI_Annex_New_England_category: "The Submittion Of New England"
-RDI_Annex_New_England_category_desc: "We will send ultimatums to those states in New England who require our §Cprotection§!"
+RDI_Annex_New_England_category_desc: "We will send demands to other Warlord states in New England, so they get a choice before we destroy them."
+RDI_Demand_Conneticut_Annexation: "Demand Conneticut Annexation"
+RDI_Demand_Massachusetts_Annexation: "Demand Massachusetts Annexation"
+RDI_Demand_Vermont_Annexation: "Demand Vermont Annexation"
+RDI_Demand_New_York_Annexation: "Demand New York Annexation"
+
+RDI_Delay_The_Madness: "Delay The Madness"
+RDI_Delay_The_Madness_desc: ""
+RDI_Madness_Description_TT: "Obed Marshes Cultists are readying themselves for an uprising. With their connections to the dreamlands we will not be able to stop them. However if we can delay them long enough, perhaps we can be prepared enough to defeat them."
+RDI_Madness_Info_TT: "§YIf Cultist Power Reaches§! §R100§! §YThen They Will Rise Up Against Us§!"
+
 
 ### Events ###
 

@@ -121,3 +121,9 @@ create_country_leader = {
 }
 
 set_variable = { RDI_Industrialisation_Score = 0 }
+set_variable = { RDI_cultist_power = 13 }
+clamp_variable = {
+    var = RDI_cultist_power
+    min = 0
+    max = 100
+}
