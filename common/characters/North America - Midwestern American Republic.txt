@@ -292,6 +292,7 @@ characters = {
             }
             army = {
                 large = GFX_fish
+                small = GFX_fish
             }
         }
         corps_commander = {
