@@ -31,3 +31,8 @@ set_popularities = {
 ### Country Leader ###
 recruit_character = WSS_lazar_moiseyevich_kaganovich
 recruit_character = WSS_mikhail_andreyevich_suslov
+
+
+### Field Marshals ###
+recruit_character = WSS_ivan_stepanovich_konev
+recruit_character = WSS_konstantin_konstantinovich_rokkosovsky

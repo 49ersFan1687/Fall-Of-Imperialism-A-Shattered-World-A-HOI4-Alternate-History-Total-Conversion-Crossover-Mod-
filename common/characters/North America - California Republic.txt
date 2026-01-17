@@ -27,7 +27,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_HUEY_LONg_DESC"
+			desc = "POLITICS_HUEY_LONG_DESC"
 			expire = "1994.4.20"
 			ideology = longism_ideology
 			traits = {
@@ -671,6 +671,7 @@ characters = {
 		portraits = {
 			army = {
 				large = GFX_fish
+				small = 
 			}
 		}
 		corps_commander = {
@@ -973,6 +974,7 @@ characters = {
 		corps_commander = {
 			traits = {
 				politically_connected
+				trickster
 			}
 			skill = 2
 			attack_skill = 2

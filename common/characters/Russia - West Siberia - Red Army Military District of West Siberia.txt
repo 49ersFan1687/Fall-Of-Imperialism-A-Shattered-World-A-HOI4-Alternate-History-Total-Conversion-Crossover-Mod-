@@ -39,11 +39,8 @@ characters = {
     WSS_ivan_stepanovich_konev = {
         name = WSS_ivan_stepanovich_konev
         portraits = {
-			civilian = {
-				large = "gfx/leaders/CAL/Portrait_WSS_Ivan_Stepanovich_Konev.dds"
-			}
 			army = {
-				large = "gfx/leaders/CAL/Portrait_CAL_Ivan_Stepanovich_Konev.dds"
+				large = "gfx/leaders/WSS/Portrait_WSS_Ivan_Stepanovich_Konev.dds"
 				small = 
 			}
 		}
@@ -53,16 +50,39 @@ characters = {
                 aggressive_assaulter
 				career_officer
 				panzer_leader
+				politically_connected
+				harsh_leader
             }
-            skill = 4
-            attack_skill = 4
-            defense_skill = 3
-            planning_skill = 2
+            skill = 5
+            attack_skill = 5
+            defense_skill = 5
+            planning_skill = 3
             logistics_skill = 5
         }
     }
 
     WSS_konstantin_konstantinovich_rokkosovsky = {
 		name = WSS_konstantin_konstantinovich_rokkosovsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/WSS/Portrait_WSS_Konstantin_Konstantinovich_Rokkosovsky.dds"
+				small = 
+			}
+		}
+		field_marshal = {
+            traits = {
+                trait_cautious
+				armor_officer
+				organizer
+				brilliant_strategist
+				inspirational_leader
+				war_hero
+            }
+            skill = 5
+            attack_skill = 5
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 3
+        }
 	}
 }
