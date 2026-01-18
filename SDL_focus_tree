@@ -1,0 +1,14 @@
+focus_tree = {
+    id = SDL_starting_focus_tree
+    country = {
+		factor = 0
+		modifier = { 
+            add = 10 
+            tag = SDL
+        }
+	}
+    default = no
+	shared_focus = SDL_The_Last_Bastion_of_Bolshevism
+
+    continuous_focus_position = { x = 2500 y = 50 }
+}
