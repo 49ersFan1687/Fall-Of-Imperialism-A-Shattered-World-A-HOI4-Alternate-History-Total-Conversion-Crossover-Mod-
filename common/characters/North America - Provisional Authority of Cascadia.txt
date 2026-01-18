@@ -1065,12 +1065,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill = 
+			traits = { 
+				cautious
+				
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 3
 		}
 		gender = female
 	}

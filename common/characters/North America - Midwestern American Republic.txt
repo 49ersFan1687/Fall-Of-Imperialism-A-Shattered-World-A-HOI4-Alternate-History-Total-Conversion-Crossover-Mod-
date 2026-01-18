@@ -292,6 +292,7 @@ characters = {
             }
             army = {
                 large = GFX_fish
+                small = GFX_fish
             }
         }
         corps_commander = {
@@ -303,6 +304,8 @@ characters = {
             logistics_skill =
         }
     }
+
+    MAR_
 
     # Admirals #
     MAR_Elmo_Russell_Zumwalt_Jr = {
@@ -390,6 +393,27 @@ characters = {
 
     MAR_james_youngblood_nance = {
         name = MAR_james_youngblood_nance
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        navy_leader = {
+            desc =
+            traits = {  }
+            skill =
+            attack_skill =
+            defense_skill =
+            maneuvering_skill =
+            coordination_skill =
+        }
+    }
+
+    MAR_grace_murray_hopper = {
+        name = MAR_grace_murray_hopper
         portraits = {
             civilian = {
                 large = GFX_fish
