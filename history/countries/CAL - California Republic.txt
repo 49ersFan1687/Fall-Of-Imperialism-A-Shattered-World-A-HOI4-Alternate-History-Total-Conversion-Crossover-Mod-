@@ -85,6 +85,7 @@ recruit_character = CAL_james_cordie_dozier
 recruit_character = CAL_john_lesesne_dewitt
 recruit_character = CAL_hayes_adlai_ashby_clarke_kroner
 recruit_character = CAL_james_harold_doolittle
+recruit_character = CAL_lewis_burwell_puller
 
 ## US Navy ##
 

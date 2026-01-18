@@ -7072,7 +7072,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_a_versatile_air_force
+    id = CAL_legacy_of_the_usaaf
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -7080,8 +7080,8 @@ shared_focus = {
         factor = 1
     }
     mutually_exclusive = {
-        focus = CAL_combined_arms_air_dominance
-        focus = CAL_unending_rain_of_destruction
+        focus = CAL_a_versatile_air_fleet
+        focus = CAL_going_with_lemays_reform_plan
     }
     prerequisite = {
         focus = CAL_the_pacific_states_air_force
@@ -7090,12 +7090,13 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_the_pacific_states_air_force
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_versatile_air_force"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_legacy_of_the_usaaf"
+        add_idea = CAL_chennault_reform_plan1
     }
 }
 
 shared_focus = {
-    id = CAL_combined_arms_air_dominance
+    id = CAL_a_versatile_air_fleet
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -7103,8 +7104,8 @@ shared_focus = {
         factor = 1
     }
     mutually_exclusive = {
-        focus = CAL_a_versatile_air_force
-        focus = CAL_unending_rain_of_destruction
+        focus = CAL_legacy_of_the_usaaf
+        focus = CAL_going_with_lemays_reform_plan
     }
     prerequisite = {
         focus = CAL_the_pacific_states_air_force
@@ -7113,12 +7114,13 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_the_pacific_states_air_force
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_combined_arms_air_dominance"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_versatile_air_fleet"
+        add_idea = CAL_arnold_reform_plan1
     }
 }
 
 shared_focus = {
-    id = CAL_unending_rain_of_destruction
+    id = CAL_going_with_lemays_reform_plan
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -7126,8 +7128,8 @@ shared_focus = {
         factor = 1
     }
     mutually_exclusive = {
-        focus = CAL_a_versatile_air_force
-        focus = CAL_combined_arms_air_dominance
+        focus = CAL_legacy_of_the_usaaf
+        focus = CAL_a_versatile_air_fleet
     }
     prerequisite = {
         focus = CAL_the_pacific_states_air_force
@@ -7136,8 +7138,181 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_the_pacific_states_air_force
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_unending_rain_of_destruction"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_going_with_lemays_reform_plan"
+        add_idea = CAL_lemay_reform_plan1
     }
+}
+
+shared_focus = {
+    id = CAL_reaccquire_lend_lease_aircraft
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_legacy_of_the_usaaf
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_legacy_of_the_usaaf
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reaccquire_lend_lease_aircraft"
+    }
+}
+
+shared_focus = {
+    id = CAL_institute_northrop_aircraft_program
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_legacy_of_the_usaaf
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_legacy_of_the_usaaf
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_institute_northrop_aircraft_program"
+        swap_ideas = {
+            old_idea = CAL_chennault_reform_plan1
+            new_idea = CAL_chennault_reform_plan2
+        }
+    }
+}
+
+shared_focus = {
+    id = CAL_sieze_unused_aircraft
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_versatile_air_fleet
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_a_versatile_air_fleet
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_sieze_unused_aircraft"
+    }
+}
+
+shared_focus = {
+    id = CAL_kickstart_c_124_production
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_versatile_air_fleet
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_a_versatile_air_fleet
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_kickstart_c_124_production"
+        swap_ideas = {
+            old_idea = CAL_arnold_reform_plan1
+            new_idea = CAL_arnold_reform_plan2
+        }
+    }
+}
+
+shared_focus = {
+    id = CAL_expand_boeing_manufacturing
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_going_with_lemays_reform_plan
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_going_with_lemays_reform_plan
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_boeing_manufacturing"
+    }
+}
+
+shared_focus = {
+    id = CAL_expand_b_29_production
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_going_with_lemays_reform_plan
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_going_with_lemays_reform_plan
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_b_29_production"
+        swap_ideas = {
+            old_idea = CAL_lemay_reform_plan1
+            new_idea = CAL_lemay_reform_plan2
+        }
+    }
+}
+
+shared_focus = {
+    id = CAL_study_rcaf_fighter_designs
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_reaccquire_lend_lease_aircraft
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_reaccquire_lend_lease_aircraft
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_study_rcaf_fighter_designs"
+    }
+}
+
+shared_focus = {
+    id = CAL_standardize_two_way_radios
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_institute_northrop_aircraft_program
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_institute_northrop_aircraft_program
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_standardize_two_way_radios"
+        swap_ideas = {
+            old_idea = CAL_chennault_reform_plan2
+            new_idea = CAL_chennault_reform_plan3
+        }
+    }
+}
+
+shared_focus = {
+    
 }
 
 ### Focus Tree - Regional Stage: Military Focus Tree Subranch - Army ###
