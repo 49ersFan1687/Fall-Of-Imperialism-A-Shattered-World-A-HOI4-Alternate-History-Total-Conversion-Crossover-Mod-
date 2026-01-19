@@ -79,6 +79,7 @@ ideologies = {
 			internationalist_social_democracy_ideology = { }
 			liberal_feminist_socialism_ideology = { }
 			national_progressivism_ideology = { }
+			social_democratic_junta_ideology = { }
 		}
 		dynamic_faction_names = { }
 		color = { 148 80 142 }
@@ -118,6 +119,10 @@ ideologies = {
 			christian_democracy_ideology = { }
 			progressive_conservatism_ideology = { }
 			batistaism_ideology = { }
+			gaulism_ideology = { }
+			stratocratic_conservatism_ideology = { }
+			moderate_authoritarianism_ideology = { }
+			whigism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 22 37 138 }
@@ -138,6 +143,8 @@ ideologies = {
 			democratic_stratocracy_ideology = { }
 			irish_national_catholicism_ideology = { }
 			kemalism_ideology = { }
+			authoritarian_democracy_jacksonian_democracy_ideology = { }
+			authoritarian_democracy_bonapartism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 135 135 140 }
@@ -176,6 +183,8 @@ ideologies = {
 			autocratic_marxism_paternal_ideology = { }
 			horthyism_ideology = { }
 			lovecraftism_ideology = { }
+			paternal_autocrats_jacksonian_democracy_ideology = { }
+			paternal_autocrat_bonapartism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 54 54 54 }
@@ -196,6 +205,7 @@ ideologies = {
 			british_fascism_ideology = { }
 			french_fascism_ideology = { }
 			american_fascism_ideology = { }
+			rexism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 92 58 20 }
