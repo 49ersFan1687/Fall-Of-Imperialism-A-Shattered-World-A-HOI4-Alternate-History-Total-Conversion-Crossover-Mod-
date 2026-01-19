@@ -628,13 +628,145 @@ ideas = {
 
             }
         }
-    }
+
 ### AIR FORCE REFORM IDEAS - SHARED IDEAS ###
 
-### Navy Reform Ideas ###
-}
 
+### NAVY REFORM IDEAS - ADMIRAL-SPECIFIC IDEAS ###        
+        
+        ### Navy Reform Ideas - William Daniel Leahy ###
+        CAL_leahy_reform_plan1 = { # Leahy's Navy Reform Plan - Coastal Defense Fleet - Part One
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_leahy_reform_plan1" }
+            allowed = { always = no }
+            picture = leahy_plan
+            modifier = {
 
+            }
+        }
+
+        CAL_leahy_reform_plan2 = { # Leahy's Navy Reform Plan - Coastal Defense Fleet - Part Two
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_leahy_reform_plan2" }
+            allowed = { always = no }
+            picture = leahy_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_leahy_reform_plan3 = { # Leahy's Navy Reform Plan - Coastal Defense Fleet - Part Three
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_leahy_reform_plan3" }
+            allowed = { always = no }
+            picture = leahy_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_leahy_reform_plan4 = { # Leahy's Navy Reform Plan - Coastal Defense Fleet - Part Four
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_leahy_reform_plan4" }
+            allowed = { always = no }
+            picture = leahy_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_leahy_reform_plan5 = { # Leahy's Navy Reform Plan - Coastal Defense Fleet - Part Five
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_leahy_reform_plan5" }
+            allowed = { always = no }
+            picture = leahy_plan
+            modifier = {
+
+            }
+        }
+
+        ### Navy Reform Ideas - Chester William Nimitz and Ernest Joseph King ###
+        CAL_nimitz_king_reform_plan1 = { # Nimitz and King's Navy Reform Plan - Grand Fleet - Part One
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_nimitz_king_reform_plan1" }
+            allowed = { always = no }
+            picture = nimitz_king_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_nimitz_king_reform_plan2 = { # Nimitz and King's Navy Reform Plan - Grand Fleet - Part Two
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_nimitz_king_reform_plan2" }
+            allowed = { always = no }
+            picture = nimitz_king_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_nimitz_king_reform_plan3 = { # Nimitz and King's Navy Reform Plan - Grand Fleet - Part Three
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_nimitz_king_reform_plan3" }
+            allowed = { always = no }
+            picture = nimitz_king_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_nimitz_king_reform_plan4 = { # Nimitz and King's Navy Reform Plan - Grand Fleet - Part Four
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_nimitz_king_reform_plan4" }
+            allowed = { always = no }
+            picture = nimitz_king_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_nimitz_king_reform_plan5 = { # Nimitz and King's Navy Reform Plan - Grand Fleet - Part Five
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_nimitz_king_reform_plan5" }
+            allowed = { always = no }
+            picture = nimitz_king_plan
+            modifier = {
+
+            }
+        }
+
+### NAVY REFORM IDEAS - SHARED IDEAS ###
+        CAL_the_puller_plan1 = { # The Puller Plan - Part One
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_puller_plan1" }
+            allowed = { always = no }
+            picture = puller_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_the_puller_plan2 = { # The Puller Plan - Part Two
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_puller_plan2" }
+            allowed = { always = no }
+            picture = puller_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_the_puller_plan3 = { # The Puller Plan - Part Three
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_puller_plan3" }
+            allowed = { always = no }
+            picture = puller_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_the_puller_plan4 = { # The Puller Plan - Part Four
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_puller_plan4" }
+            allowed = { always = no }
+            picture = puller_plan
+            modifier = {
+
+            }
+        }
 
 ### Military Industrial Complex Ideas ###
+    }
+
+
+
+
 ### Industrial Companies ###
