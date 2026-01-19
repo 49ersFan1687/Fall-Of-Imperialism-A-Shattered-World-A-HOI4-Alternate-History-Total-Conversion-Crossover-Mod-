@@ -7556,11 +7556,7 @@ shared_focus = {
     }
     prerequisite = {
         focus = CAL_the_armys_ace_in_the_hole
-    }
-    prerequisite = {
         focus = CAL_the_neutral_modernizer
-    }
-    prerequisite = {
         focus = CAL_a_power_hungry_air_force
     }
     x = 2
@@ -7581,11 +7577,7 @@ shared_focus = {
     }
     prerequisite = {
         focus = CAL_the_armys_ace_in_the_hole
-    }
-    prerequisite = {
         focus = CAL_the_neutral_modernizer
-    }
-    prerequisite = {
         focus = CAL_a_power_hungry_air_force
     }
     x = 0
@@ -7606,11 +7598,7 @@ shared_focus = {
     }
     prerequisite = {
         focus = CAL_the_armys_ace_in_the_hole
-    }
-    prerequisite = {
         focus = CAL_the_neutral_modernizer
-    }
-    prerequisite = {
         focus = CAL_a_power_hungry_air_force
     }
     x = -2
@@ -9259,7 +9247,7 @@ shared_focus = {
 
 ### Focus Tree - Regional Stage: Shared Military Reform Focus Tree - End ###
 shared_focus = {
-    id = CAL_putting_on_the_finishing_touches
+    id = CAL_the_new_look_for_the_pacific_states_military
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -9279,7 +9267,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_the_caisons_go_marching_along
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_putting_on_the_finishing_touches"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_new_look_for_the_pacific_states_military"
     }
 }
 
