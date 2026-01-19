@@ -276,6 +276,10 @@ spriteTypes = {
 		name = "GFX_CAL_Felix_Stump"
 		textureFile = "gfx/leaders/CAL/Portrait_CAL_Felix_Budwell_Stump.dds" 
 	}
+	spriteType = {
+		name = "GFX_CAL_Chesty_Puller"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Lewis_Burwell_Puller.dds"
+	}
 
 	# Cascadia - Power Rangers Characters #
 
