@@ -168,6 +168,8 @@ ideas = {
             }
         }
 
+### ECONOMIC TREE IDEAS ###
+
 #### ARMY REFORM IDEAS - GENERAL-SPECIFIC REFORM PLAN IDEAS ###
 
         ### Army Reform Ideas - Dwight David Eisenhower ###
@@ -762,10 +764,8 @@ ideas = {
 
             }
         }
-
-### Military Industrial Complex Ideas ###
     }
-
+}
 
 
 
