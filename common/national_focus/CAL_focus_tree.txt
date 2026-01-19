@@ -7163,7 +7163,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_institute_northrop_aircraft_program
+    id = CAL_apply_chennaults_experience
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -7177,7 +7177,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_legacy_of_the_usaaf
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_institute_northrop_aircraft_program"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_apply_chennaults_experience"
         swap_ideas = {
             old_idea = CAL_chennault_reform_plan1
             new_idea = CAL_chennault_reform_plan2
@@ -7205,7 +7205,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_kickstart_c_124_production
+    id = CAL_return_to_the_p38_idea
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -7219,30 +7219,11 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_a_versatile_air_fleet
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_kickstart_c_124_production"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_return_to_the_p38_idea"
         swap_ideas = {
             old_idea = CAL_arnold_reform_plan1
             new_idea = CAL_arnold_reform_plan2
         }
-    }
-}
-
-shared_focus = {
-    id = CAL_expand_boeing_manufacturing
-    icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_going_with_lemays_reform_plan
-    }
-    x = -1
-    y = 1
-    relative_position_id = CAL_going_with_lemays_reform_plan
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_boeing_manufacturing"
     }
 }
 
@@ -7257,7 +7238,7 @@ shared_focus = {
     prerequisite = {
         focus = CAL_going_with_lemays_reform_plan
     }
-    x = 1
+    x = -1
     y = 1
     relative_position_id = CAL_going_with_lemays_reform_plan
     completion_reward = {
@@ -7270,7 +7251,30 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_study_rcaf_fighter_designs
+    id = CAL_the_theory_of_protracted_aerial_warfare
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_going_with_lemays_reform_plan
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_going_with_lemays_reform_plan
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_theory_of_protracted_aerial_warfare"
+        swap_ideas = {
+            old_idea = CAL_lemay_reform_plan1
+            new_idea = CAL_lemay_reform_plan2
+        }
+    }
+}
+
+shared_focus = {
+    id = CAL_institute_the_northrop_plan
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -7284,12 +7288,12 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_reaccquire_lend_lease_aircraft
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_study_rcaf_fighter_designs"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_institute_the_northrop_plan"
     }
 }
 
 shared_focus = {
-    id = CAL_standardize_two_way_radios
+    id = CAL_form_usaaf_training_academies
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -7297,13 +7301,13 @@ shared_focus = {
         factor = 1
     }
     prerequisite = {
-        focus = CAL_institute_northrop_aircraft_program
+        focus = CAL_apply_chennaults_experience
     }
     x = 0
     y = 1
-    relative_position_id = CAL_institute_northrop_aircraft_program
+    relative_position_id = CAL_apply_chennaults_experience
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_standardize_two_way_radios"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_form_usaaf_training_academies"
         swap_ideas = {
             old_idea = CAL_chennault_reform_plan2
             new_idea = CAL_chennault_reform_plan3
@@ -7312,7 +7316,353 @@ shared_focus = {
 }
 
 shared_focus = {
-    
+    id = CAL_kickstart_c57_production
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_sieze_unused_aircraft
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_sieze_unused_aircraft
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_kickstart_c57_production"
+    }
+}
+
+shared_focus = {
+    id = CAL_retired_bombers_modern_skies
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_return_to_the_p38_idea
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_return_to_the_p38_idea
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_retired_bombers_modern_skies"
+        swap_ideas = {
+            old_idea = CAL_arnold_reform_plan2
+            new_idea = CAL_arnold_reform_plan3
+        }
+    }
+}
+
+shared_focus = {
+    id = CAL_boeings_expertise
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_expand_b_29_production
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_expand_b_29_production
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_boeings_expertise"
+    }
+}
+
+shared_focus = {
+    id = CAL_institute_day_and_night_training_programs
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_theory_of_protracted_aerial_warfare
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_theory_of_protracted_aerial_warfare
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_institute_day_and_night_training_programs"
+        swap_ideas = {
+            old_idea = CAL_lemay_reform_plan2
+            new_idea = CAL_lemay_reform_plan3
+        }
+    }
+}
+
+shared_focus = {
+    id = CAL_standardize_issuing_of_two_way_radios
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_institute_the_northrop_plan
+    }
+    prerequisite = {
+        focus = CAL_form_usaaf_training_academies
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_institute_the_northrop_plan
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_standardize_issuing_of_two_way_radios"
+        swap_ideas = {
+            old_idea = CAL_chennault_reform_plan3
+            new_idea = CAL_chennault_reform_plan4
+        }
+    }
+}
+
+shared_focus = {
+    id = CAL_begin_new_aircaft_prototype_trials
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_kickstart_c57_production
+    }
+    prerequisite = {
+        focus = CAL_retired_bombers_modern_skies
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_kickstart_c57_production
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_new_aircaft_prototype_trials"
+        swap_ideas = {
+            old_idea = CAL_arnold_reform_plan3
+            new_idea = CAL_arnold_reform_plan4
+        }
+    }
+}
+
+shared_focus = {
+    id = CAL_begin_the_b_52_project
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_boeings_expertise
+    }
+    prerequisite = {
+        focus = CAL_institute_day_and_night_training_programs
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_boeings_expertise
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_the_b_52_project"
+        swap_ideas = {
+            old_idea = CAL_lemay_reform_plan3
+            new_idea = CAL_lemay_reform_plan4
+        }
+    }
+}
+
+shared_focus = {
+    id = CAL_the_armys_ace_in_the_hole
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_standardize_issuing_of_two_way_radios
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_standardize_issuing_of_two_way_radios
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_armys_ace_in_the_hole"
+        swap_ideas = {
+            old_idea = CAL_chennault_reform_plan4
+            new_idea = CAL_chennault_reform_plan5
+        }
+    }
+}
+
+shared_focus = {
+    id = CAL_the_neutral_modernizer
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_begin_new_aircaft_prototype_trials
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_begin_new_aircaft_prototype_trials
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_neutral_modernizer"
+        swap_ideas = {
+            old_idea = CAL_arnold_reform_plan4
+            new_idea = CAL_arnold_reform_plan5
+        }
+    }
+}
+
+shared_focus = {
+    id = CAL_a_power_hungry_air_force
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_begin_the_b_52_project
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_begin_the_b_52_project
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_power_hungry_air_force"
+        swap_ideas = {
+            old_idea = CAL_lemay_reform_plan4
+            new_idea = CAL_lemay_reform_plan5
+        }
+    }
+}
+
+shared_focus = {
+    id = CAL_expand_our_air_bases
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_armys_ace_in_the_hole
+    }
+    prerequisite = {
+        focus = CAL_the_neutral_modernizer
+    }
+    prerequisite = {
+        focus = CAL_a_power_hungry_air_force
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_the_armys_ace_in_the_hole
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_our_air_bases"
+    }
+}
+
+shared_focus = {
+    id = CAL_institute_a_civilian_air_training_program
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_armys_ace_in_the_hole
+    }
+    prerequisite = {
+        focus = CAL_the_neutral_modernizer
+    }
+    prerequisite = {
+        focus = CAL_a_power_hungry_air_force
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_neutral_modernizer
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_institute_a_civilian_air_training_program"
+    }
+}
+
+shared_focus = {
+    id = CAL_reintroduce_jet_prototype_testing
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_armys_ace_in_the_hole
+    }
+    prerequisite = {
+        focus = CAL_the_neutral_modernizer
+    }
+    prerequisite = {
+        focus = CAL_a_power_hungry_air_force
+    }
+    x = -2
+    y = 1
+    relative_position_id = CAL_a_power_hungry_air_force
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reintroduce_jet_prototype_testing"
+    }
+}
+
+shared_focus = {
+    id = CAL_expand_aircraft_production_capabilities
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_expand_our_air_bases
+    }
+    prerequisite = {
+        focus = CAL_institute_a_civilian_air_training_program
+    }
+    prerequisite = {
+        focus = CAL_reintroduce_jet_prototype_testing
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_institute_a_civilian_air_training_program
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_aircraft_production_capabilities"
+    }
+}
+
+shared_focus = {
+    id = CAL_nothing_can_stop_the_american_air_force
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_expand_aircraft_production_capabilities
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_expand_aircraft_production_capabilities
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_nothing_can_stop_the_american_air_force"
+    }
 }
 
 ### Focus Tree - Regional Stage: Military Focus Tree Subranch - Army ###
