@@ -489,11 +489,152 @@ ideas = {
             }    
         }
 
-        
-    }
+### AIR FORCE REFORM IDEAS - GENERAL-SPECIFIC REFORM PLAN IDEAS ###
+
+        ### Air Force Reform Ideas - Henry "Hap" Arnold ###
+        CAL_arnold_reform_plan1 = { # Arnold's Air Force Reform Plan - Versatile Air Force - Part One
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_arnold_reform_plan1" }
+            allowed = { always = no }
+            picture = arnold_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_arnold_reform_plan2 = { # Arnold's Air Force Reform Plan - Versatile Air Force - Part Two
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_arnold_reform_plan2" }
+            allowed = { always = no }
+            picture = arnold_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_arnold_reform_plan3 = { # Arnold's Air Force Reform Plan - Versatile Air Force - Part Three
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_arnold_reform_plan3" }
+            allowed = { always = no }
+            picture = arnold_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_arnold_reform_plan4 = { # Arnold's Air Force Reform Plan - Versatile Air Force - Part Four
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_arnold_reform_plan4" }
+            allowed = { always = no }
+            picture = arnold_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_arnold_reform_plan5 = { # Arnold's Air Force Reform Plan - Versatile Air Force - Part Five
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_arnold_reform_plan5" }
+            allowed = { always = no }
+            picture = arnold_plan
+            modifier = {
+
+            }
+        }
+
+        ### Air Force Reform Ideas - Claire Lee Chennault ###
+        CAL_chennault_reform_plan1 = { # Chennault's Air Force Reform Plan - Army Supported-Air Force - Part One
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_chennault_reform_plan1" }
+            allowed = { always = no }
+            picture = chennault_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_chennault_reform_plan2 = { # Chennault's Air Force Reform Plan - Army Supported-Air Force - Part Two
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_chennault_reform_plan2" }
+            allowed = { always = no }
+            picture = chennault_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_chennault_reform_plan3 = { # Chennault's Air Force Reform Plan - Army Supported-Air Force - Part Three
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_chennault_reform_plan3" }
+            allowed = { always = no }
+            picture = chennault_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_chennault_reform_plan4 = { # Chennault's Air Force Reform Plan - Army Supported-Air Force - Part Four
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_chennault_reform_plan4" }
+            allowed = { always = no }
+            picture = chennault_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_chennault_reform_plan5 = { # Chennault's Air Force Reform Plan - Army Supported-Air Force - Part Five
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_chennault_reform_plan5" }
+            allowed = { always = no }
+            picture = chennault_plan
+            modifier = {
+
+            }
+        }
+
+        ### Air Force Reform Ideas - Curtis Emerson LeMay ###
+        CAL_lemay_reform_plan1 = { # LeMay's Air Force Reform Plan - Strategic Air Force - Part One
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_lemay_reform_plan1" }
+            allowed = { always = no }
+            picture = lemay_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_lemay_reform_plan2 = { # LeMay's Air Force Reform Plan - Strategic Air Force - Part Two
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_lemay_reform_plan2" }
+            allowed = { always = no }
+            picture = lemay_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_lemay_reform_plan3 = { # LeMay's Air Force Reform Plan - Strategic Air Force - Part Three
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_lemay_reform_plan3" }
+            allowed = { always = no }
+            picture = lemay_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_lemay_reform_plan4 = { # LeMay's Air Force Reform Plan - Strategic Air Force - Part Four
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_lemay_reform_plan4" }
+            allowed = { always = no }
+            picture = lemay_plan
+            modifier = {
+
+            }
+        }
+
+        CAL_lemay_reform_plan5 = { # LeMay's Air Force Reform Plan - Strategic Air Force - Part Five
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_lemay_reform_plan5" }
+            allowed = { always = no }
+            picture = lemay_plan
+            modifier = {
+
+            }
+        }
+
+### AIR FORCE REFORM IDEAS - SHARED IDEAS ###
+
+### Navy Reform Ideas ###
 }
 
-### Air Force Reform Ideas ###
-### Navy Reform Ideas ###
+
+
 ### Military Industrial Complex Ideas ###
 ### Industrial Companies ###
