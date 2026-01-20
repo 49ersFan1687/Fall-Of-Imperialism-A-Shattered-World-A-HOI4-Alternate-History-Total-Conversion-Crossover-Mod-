@@ -101,6 +101,34 @@ CSD_ciel_soleil: "Ciel Soleil"
 CSD_melanie_malachite: "Melanie Malachite"
 CSD_milita_malachite: "Milita Malachite"
 
+### Character Localization - Cascadian Second Continental Army - Conservative Faction Generals (High School DxD Characters) ###
+CSD_sona_sitri: "Sona Sitri"
+CSD_rias_gremory: "Rias Gremory"
+CSD_akeno_himejima: "Akeno Himejima"
+CSD_tsubaki_shinra: "Tsubaki Shinra"
+CSD_issei_hyoudou: "Issei Hyoudou"
+CSD_rossweisse: "Rossweisse"
+CSD_gasper_vladi: "Gasper Vladi"
+CSD_kiba_yuuto: "Kiba Yuuto"
+CSD_koneko_toujou: "Koneko Toujou"
+CSD_tsubasa_yura: "Tsubasa Yura"
+CSD_momo_hanakai: "Momo Hanakai"
+CSD_reya_kusaka: "Reya Kusaka"
+CSD_tomoe_meguri: "Tomoe Meguri"
+CSD_genshirou_saji: "Genshirou Saji"
+CSD_asia_argento: "Asia Argento"
+CSD_xenovia_quarta: "Xenovia Quarta"
+CSD_loup_garou: "Loup Garou"
+CSD_ruruko_nimura: "Ruruko Nimura"
+CSD_irina_shidou: "Irina Shidou"
+CSD_ravel_phenex: "Ravel Phenex"
+CSD_le_fay_pendragon: "Le Fay Pendragon"
+CSD_elmenhilde_karnstein: "Elmenhilde Karnstein"
+CSD_ingvild_leviathan: "Ingvild Leviathan"
+CSD_yasaka: "Yasaka"
+
+### Character Localization - Cascadian Second Continental Army - Moderate Faction Generals (Girls Und Panzer Characters) ###
+
 ### Leader Bios ###
 ## Provisional Authority of Cascadia ##
 
