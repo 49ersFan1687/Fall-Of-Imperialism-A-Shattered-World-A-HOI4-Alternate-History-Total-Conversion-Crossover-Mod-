@@ -9247,7 +9247,7 @@ shared_focus = {
 
 ### Focus Tree - Regional Stage: Shared Military Reform Focus Tree - End ###
 shared_focus = {
-    id = CAL_the_new_look_for_the_pacific_states_military
+    id = CAL_adding_the_finishing_touches
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -9267,7 +9267,228 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_the_caisons_go_marching_along
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_new_look_for_the_pacific_states_military"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_adding_the_finishing_touches"
+    }
+}
+
+shared_focus = {
+    id = CAL_rapid_equipment_modernization
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_adding_the_finishing_touches
+    }
+    x = -4
+    y = 1
+    relative_position_id = CAL_adding_the_finishing_touches
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_rapid_equipment_modernization"
+    }
+}
+
+shared_focus = {
+    id = CAL_increased_defense_budget
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_adding_the_finishing_touches
+    }
+    x = -2
+    y = 1
+    relative_position_id = CAL_adding_the_finishing_touches
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_increased_defense_budget"
+    }
+}
+
+shared_focus = {
+    id = CAL_new_airborne_forces_doctrine
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_adding_the_finishing_touches
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_adding_the_finishing_touches
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_new_airborne_forces_doctrine"
+    }
+}
+
+shared_focus = {
+    id = CAL_implement_flame_tanks
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_adding_the_finishing_touches
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_adding_the_finishing_touches
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_implement_flame_tanks"
+    }
+}
+
+shared_focus = {
+    id = CAL_mechanize_the_scout_units
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_adding_the_finishing_touches
+    }
+    x = 4
+    y = 1
+    relative_position_id = CAL_adding_the_finishing_touches
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_mechanize_the_scout_units"
+    }
+}
+
+shared_focus = {
+    id = CAL_expanded_automotive_manufacturing
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_rapid_equipment_modernization
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_rapid_equipment_modernization
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_expanded_automotive_manufacturing"
+    }
+}
+
+shared_focus = {
+    id = CAL_issue_war_bonds
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_increased_defense_budget
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_increased_defense_budget
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_issue_war_bonds"
+    }
+}
+
+shared_focus = {
+    id = CAL_integrate_the_helicopter_into_the_army
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_new_airborne_forces_doctrine
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_new_airborne_forces_doctrine
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_integrate_the_helicopter_into_the_army"
+    }
+}
+
+shared_focus = {
+    id = CAL_improving_our_support_units
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_implement_flame_tanks
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_implement_flame_tanks
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_improving_our_support_units"
+    }
+}
+
+shared_focus = {
+    id = CAL_legacy_of_the_zouaves
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_mechanize_the_scout_units
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_mechanize_the_scout_units
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_legacy_of_the_zouaves"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_new_armed_forces_of_america
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_expanded_automotive_manufacturing
+    }
+    prerequisite = {
+        focus = CAL_issue_war_bonds
+    }
+    prerequisite = {
+        focus = CAL_integrate_the_helicopter_into_the_army
+    }
+    prerequisite = {
+        focus = CAL_improving_our_support_units
+    }
+    prerequisite = {
+        focus = CAL_legacy_of_the_zouaves
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_integrate_the_helicopter_into_the_army
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_new_armed_forces_of_america"
     }
 }
 
