@@ -9492,7 +9492,7 @@ shared_focus = {
     }
 }
 
-### Focus Tree - Regional Stage: Militry Democracy - Foreign Policy Focus Tree ###
+### Focus Tree - Regional Stage: Military Democracy - Foreign Policy Focus Tree ###
 shared_focus = {
 	id = CAL_form_the_armed_forces_diplomatic_corps
 	icon = GFX
@@ -9501,13 +9501,14 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-	x = 35
+	x = 28
 	y = 16
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_form_the_armed_forces_diplomatic_corps"
 	}
 }
 
+### Focus Tree - Regional Stage: Military Democracy - Foreign Policy Focus Tree - Japan ###
 shared_focus = {
     id = CAL_dealings_with_the_samurai
     icon = GFX
@@ -9519,7 +9520,7 @@ shared_focus = {
     prerequisite = {
         focus = CAL_form_the_armed_forces_diplomatic_corps
     }
-    x = -9
+    x = -5
     y = 1
     relative_position_id = CAL_form_the_armed_forces_diplomatic_corps
     completion_reward = {
@@ -9527,6 +9528,263 @@ shared_focus = {
 	}
 }
 
+shared_focus = {
+    id = CAL_a_softening_of_hostilities
+    icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_dealings_with_the_samurai
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_dealings_with_the_samurai
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_softening_of_hostilities"
+	}
+}
+
+shared_focus = {
+    id = CAL_keeping_our_stance_clear
+    icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_dealings_with_the_samurai
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_dealings_with_the_samurai
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_keeping_our_stance_clear"
+	}
+}
+
+shared_focus = {
+    id = CAL_yesterdays_enemy_tommorows_friend
+    icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_a_softening_of_hostilities
+    }
+    prerequisite = {
+        focus = CAL_keeping_our_stance_clear
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_a_softening_of_hostilities
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_keeping_our_stance_clear"
+	}
+}
+
+shared_focus = {
+    id = CAL_keeping_an_open_eye
+    icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_yesterdays_enemy_tommorows_friend
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_yesterdays_enemy_tommorows_friend
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_keeping_an_open_eye"
+	}
+}
+
+shared_focus = {
+    id = CAL_expanding_japanese_cooperation
+    icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_yesterdays_enemy_tommorows_friend
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_yesterdays_enemy_tommorows_friend
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expanding_japanese_cooperation"
+	}
+}
+
+shared_focus = {
+    id = CAL_keeping_it_clear_for_the_kempeitai
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_keeping_an_open_eye
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_keeping_an_open_eye
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_keeping_it_clear_for_the_kempeitai"
+    }
+}
+
+shared_focus = {
+    id = CAL_making_up_for_canadian_diassapointment
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_expanding_japanese_cooperation
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_expanding_japanese_cooperation
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_making_up_for_canadian_diassapointment"
+    }
+}
+
+shared_focus = {
+    id = CAL_let_the_embers_fade
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_keeping_it_clear_for_the_kempeitai
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_keeping_it_clear_for_the_kempeitai
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_let_the_embers_fade"
+    }
+}
+
+shared_focus = {
+    id = CAL_rescind_executive_order_9066
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_making_up_for_canadian_diassapointment
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_making_up_for_canadian_diassapointment
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_rescind_executive_order_9066"
+    }
+}
+
+shared_focus = {
+    id = CAL_but_not_burn_out
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_let_the_embers_fade
+    }
+    prerequisite = {
+        focus = CAL_rescind_executive_order_9066
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_let_the_embers_fade
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_but_not_burn_out"
+    }
+}
+
+shared_focus = {
+    id = CAL_giving_the_filipinos_a_blank_check
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_but_not_burn_out
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_but_not_burn_out
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_giving_the_filipinos_a_blank_check"
+    }
+}
+
+shared_focus = {
+    id = CAL_deals_with_sun_fo
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_but_not_burn_out
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_but_not_burn_out
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_deals_with_sun_fo"
+    }
+}
+
+shared_focus = {
+    id = CAL_wounds_not_forgotten_silenced_by_a_smile
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_giving_the_filipinos_a_blank_check
+    }
+    prerequisite = {
+        focus = CAL_deals_with_sun_fo
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_giving_the_filipinos_a_blank_check
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_wounds_not_forgotten_silenced_by_a_smile"
+    }
+}
+
+### Focus Tree - Regional Stage: Military Democracy - Foreign Policy Focus Tree - Bermuda Accord ###
 shared_focus = {
     id = CAL_a_talk_with_the_cannucks
     icon = GFX
@@ -9547,7 +9805,289 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_diplomacy_with_the_reichsordung_pact
+    id = CAL_the_empowered_mexico
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_talk_with_the_cannucks
+    }
+    x = -2
+    y = 1
+    relative_position_id = CAL_a_talk_with_the_cannucks
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_empowered_mexico"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_old_ally
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_talk_with_the_cannucks
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_a_talk_with_the_cannucks
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_old_ally"
+    }
+}
+
+shared_focus = {
+    id = CAL_australias_horse_in_the_race
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_talk_with_the_cannucks
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_a_talk_with_the_cannucks
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_australias_horse_in_the_race"
+    }
+}
+
+shared_focus = {
+    id = CAL_appeal_to_become_an_accord_associate
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_empowered_mexico
+    }
+    prerequisite = {
+        focus = CAL_the_old_ally
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_the_empowered_mexico
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_appeal_to_become_an_accord_associate"
+    }
+}
+
+shared_focus = {
+    id = CAL_use_the_legacy_of_the_us_navy
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_old_ally
+    }
+    prerequisite = {
+        focus = CAL_australias_horse_in_the_race
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_the_old_ally
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_use_the_legacy_of_the_us_navy"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_columbia_summit
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_appeal_to_become_an_accord_associate
+    }
+    prerequisite = {
+        focus = CAL_use_the_legacy_of_the_us_navy
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_appeal_to_become_an_accord_associate
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_columbia_summit"
+    }
+}
+
+shared_focus = {
+    id = CAL_accord_aid
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_columbia_summit
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_the_columbia_summit
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_accord_aid"
+    }
+}
+
+shared_focus = {
+    id = CAL_a_letter_of_recognition
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_columbia_summit
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_the_columbia_summit
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_letter_of_recognition"
+    }
+}
+
+shared_focus = {
+    id = CAL_with_some_caveats
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_accord_aid
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_accord_aid
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_with_some_caveats"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_remnants_of_the_raj
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_letter_of_recognition
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_a_letter_of_recognition
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_remnants_of_the_raj"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_beginning_of_recognition
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_with_some_caveats
+    }
+    prerequisite = {
+        focus = CAL_the_remnants_of_the_raj
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_with_some_caveats
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_beginning_of_recognition"
+    }
+}
+
+shared_focus = {
+    id = CAL_canadian_outcry
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_beginning_of_recognition
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_the_beginning_of_recognition
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_local_officers"
+    }
+}
+
+shared_focus = {
+    id = CAL_mexican_cheers
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_beginning_of_recognition
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_the_beginning_of_recognition
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_mexican_cheers"
+    }
+}
+
+shared_focus = {
+    id = CAL_a_grand_california
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_canadian_outcry
+    }
+    prerequisite = {
+        focus = CAL_mexican_cheers
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_canadian_outcry
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_grand_california"
+    }
+}
+
+### Focus Tree - Regional Stage: Military Democracy - Foreign Policy Focus Tree - Germany ###
+shared_focus = {
+    id = CAL_addressing_the_nazi_sphere
     icon = GFX
 	cost = 3
 	available_if_capitulated = no
@@ -9557,12 +10097,224 @@ shared_focus = {
     prerequisite = {
         focus = CAL_form_the_armed_forces_diplomatic_corps
     }
-    x = 9
+    x = 5
     y = 1
     relative_position_id = CAL_form_the_armed_forces_diplomatic_corps
     completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_dealings_with_the_samurai"
 	}
+}
+
+shared_focus = {
+    id = CAL_aiding_american_patriots
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_addressing_the_nazi_sphere
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_addressing_the_nazi_sphere
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_aiding_american_patriots"
+    }
+}
+
+shared_focus = {
+    id = CAL_bartering_with_union_pacific
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_aiding_american_patriots
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_aiding_american_patriots
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_bartering_with_union_pacific"
+    }
+}
+
+shared_focus = {
+    id = CAL_what_we_left_behind
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_bartering_with_union_pacific
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_bartering_with_union_pacific
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_what_we_left_behind"
+    }
+}
+
+shared_focus = {
+    id = CAL_batistas_apparent_shift
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_bartering_with_union_pacific
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_bartering_with_union_pacific
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_batistas_apparent_shift"
+    }
+}
+
+shared_focus = {
+    id = CAL_memories_of_lost_brothers
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_what_we_left_behind
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_what_we_left_behind
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_memories_of_lost_brothers"
+    }
+}
+
+shared_focus = {
+    id = CAL_dominicas_domination
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_batistas_apparent_shift
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_batistas_apparent_shift
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_dominicas_domination"
+    }
+}
+
+shared_focus = {
+    id = CAL_a_kindly_letter_to_the_bootlickers
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_memories_of_lost_brothers
+    }
+    prerequisite = {
+        focus = CAL_dominicas_domination
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_memories_of_lost_brothers
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_kindly_letter_to_the_bootlickers"
+    }
+}
+
+shared_focus = {
+    id = CAL_a_look_around_us
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_kindly_letter_to_the_bootlickers
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_a_kindly_letter_to_the_bootlickers
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_look_around_us"
+    }
+}
+
+shared_focus = {
+    id = CAL_expand_huac_guidelines
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_look_around_us
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_a_look_around_us
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_huac_guidelines"
+    }
+}
+
+shared_focus = {
+    id = CAL_nazism_is_just_as_bad_as_bolshevism
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_expand_huac_guidelines
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_expand_huac_guidelines
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_nazism_is_just_as_bad_as_bolshevism"
+    }
+}
+
+shared_focus = {
+    id = CAL_pattons_social_nationalism
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_expand_huac_guidelines
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_expand_huac_guidelines
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_pattons_social_nationalism"
+    }
 }
 
 
