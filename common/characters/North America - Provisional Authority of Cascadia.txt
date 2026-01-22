@@ -2467,19 +2467,19 @@ characters = {
 		name = CSD_kay
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Kay.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Kay.dds"
 			}
 		}
 		field_marshal = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill = 
+			traits = { media_personality panzer_leader cavalry_leader combined_arms_expert }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 5 
 		}
 	}
 
