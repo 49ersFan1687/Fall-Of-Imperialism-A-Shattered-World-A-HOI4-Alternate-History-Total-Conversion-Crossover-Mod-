@@ -162,25 +162,6 @@ characters = {
         }
     }
 
-    NCA_creighton_williams_abrams_jr = {
-        name = NCA_creighton_williams_abrams_jr
-        portraits = {
-            civilian = {
-                large = GFX_fish
-            }
-            army = {
-                large = GFX_fish
-            }
-        }
-        corps_commander = {
-            traits = { }
-            attack_skill = 
-            defense_skill =
-            planning_skill = 
-            logistics_skill = 
-        }
-    }
-
     NCA_earle_gilmore_wheeler = {
         name = NCA_earle_gilmore_wheeler
         portraits = {
@@ -240,25 +221,6 @@ characters = {
 
     NCA_edmund_bristol_gregory = {
         name = NCA_edmund_bristol_gregory
-        portraits = {
-            civilian = {
-                large = GFX_fish
-            }
-            army = {
-                large = GFX_fish
-            }
-        }
-        corps_commander = {
-            traits = { }
-            attack_skill = 
-            defense_skill =
-            planning_skill = 
-            logistics_skill = 
-        }
-    }
-
-    NCA_simon_bolivar_buckner_jr = {
-        name = NCA_simon_bolivar_buckner_jr
         portraits = {
             civilian = {
                 large = GFX_fish

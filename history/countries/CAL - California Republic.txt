@@ -86,6 +86,9 @@ recruit_character = CAL_john_lesesne_dewitt
 recruit_character = CAL_hayes_adlai_ashby_clarke_kroner
 recruit_character = CAL_james_harold_doolittle
 recruit_character = CAL_lewis_burwell_puller
+recruit_character = CAL_john_fujio_aiso
+recruit_character = CAL_simon_bolivar_buckner_jr
+recruit_character = CAL_charles_hartwell_bonesteel_iii
 
 ## US Navy ##
 
