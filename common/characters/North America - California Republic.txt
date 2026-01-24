@@ -365,10 +365,11 @@ characters = {
         name = NCA_creighton_williams_abrams_jr
         portraits = {
             civilian = {
-                large = GFX_fish
+                large = "gfx/leaders/CAL/Portrait_CAL_Crieghton_Williams_Abrams_Jr.dds"
             }
             army = {
-                large = GFX_fish
+                large = "gfx/leaders/CAL/Portrait_CAL_Crieghton_Williams_Abrams_Jr.dds"
+				small = 
             }
         }
         corps_commander = {
