@@ -702,10 +702,10 @@ characters = {
         name = CAL_charles_hartwell_bonesteel_iii
         portraits = {
             civilian = {
-                large = GFX_fish
+                large = "gfx/leaders/CAL/Portrait_CAL_Charles_Hartwell_Bonesteel_III.dds"
             }
             army = {
-                large = GFX_fish
+                large = "gfx/leaders/CAL/Portrait_CAL_Charles_Hartwell_Bonesteel_III.dds"
             }
         }
         corps_commander = {

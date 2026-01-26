@@ -214,7 +214,13 @@ ideas = {
             allowed = { always = no }
             picture = eisenhower_plan
             modifier = {
-
+                political_power_gain = 0.10
+                stability_factor = 0.05
+                war_support_factor = 0.05
+                recruitable_population_factor = 0.10
+                manpower_gain = 0.10
+                training_time_army_factor = -0.05
+                
             }
         }
         
