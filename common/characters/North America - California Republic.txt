@@ -1071,9 +1071,9 @@ characters = {
 		}
 	}
 
-	
-
-	# Admirals #
+	#############################
+	### Admirals - Level Five ###
+	#############################
 	CAL_ernest_joseph_king = {
 		name = CAL_ernest_joseph_king
 		desc = 
@@ -1109,7 +1109,7 @@ characters = {
 			}
 		 }
 	}
-
+	
 	CAL_chester_william_nimitz = {
 		name = CAL_chester_william_nimitz
 		desc = 
@@ -1146,7 +1146,10 @@ characters = {
 			}
 		 }
 	}
-	
+
+	#############################
+	### Admirals - Level Four ###
+	#############################
 	CAL_william_daniel_Leahy = {
 		name = CAL_william_daniel_Leahy
 		desc = 
@@ -1212,26 +1215,7 @@ characters = {
 			}
 		 }
 	}
-
-	CAL_samuel_Lee_gravely_jr = {
-		name = CAL = CAL_samuel_Lee_gravely_jr
-		desc = 
-		portraits = {
-			army = {
-				large = 
-				small =
-			}
-		}
-		navy_leader = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			maneuvering_skill = 
-			coordination_skill =
-		}
-	}
-
+	
 	CAL_arleigh_albert_burke = {
 		name = CAL = CAL_arleigh_albert_burke
 		desc = 
@@ -1253,6 +1237,33 @@ characters = {
 			defense_skill = 3
 			maneuvering_skill = 3
 			coordination_skill = 4
+		}
+	}
+
+	##############################
+	### Admirals - Level Three ###
+	##############################
+	CAL_samuel_Lee_gravely_jr = {
+		name = CAL = CAL_samuel_Lee_gravely_jr
+		desc = 
+		portraits = {
+			army = {
+				large = 
+				small =
+			}
+		}
+		navy_leader = {
+			traits = { 
+				superior_tactician
+				spotter
+				bold
+				ironside
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 4
+			coordination_skill = 2
 		}
 	}
 
@@ -1300,6 +1311,15 @@ characters = {
 			coordination_skill = 3
 		}
 	}
+
+	############################
+	### Admirals - Level Two ###
+	############################
+
+
+	############################
+	### Admirals - Level One ###
+	############################
 
 	# Scientists #
 	

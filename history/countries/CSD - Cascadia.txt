@@ -63,6 +63,9 @@ recruit_character = CSD_carlos_vallerte
 
 # Second Continental Army Cascadian Branch - U.A. High School Generals (Plus Ultra!) #
 
+
 # Second Continental Army Cascadian Branch - Sensha-Do Students (Panzer Vor!) #
 recruit_character = CSD_kay
 recruit_character = CSD_darjeeling
+
+# Second Continental Army Cascaian Branch - 
