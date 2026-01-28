@@ -206,6 +206,7 @@ ideologies = {
 			french_fascism_ideology = { }
 			american_fascism_ideology = { }
 			rexism_ideology = { }
+			fascism_enlightened_nazism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 92 58 20 }
@@ -230,7 +231,7 @@ ideologies = {
     national_socialism = {
         types = {
 			nazism_ideology = { } # Generic #
-			enlightened_nazism_ideology = { }
+			national_socialism_enlightened_nazism_ideology = { }
 			technocratic_nazism_ideology = { }
 			stratocratic_nazism_ideology = { }
 			esoteric_nazism_ideology = { }
