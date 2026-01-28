@@ -51,7 +51,7 @@ recruit_character = CAL_henry_agard_wallace
 
 ### Advsiors ###
 recruit_character = CAL_huey_pierce_long_jr
-recruit_character = CAL_earl_earren
+recruit_character = CAL_earl_warren
 recruit_character = CAL_john_edgar_hoover
 recruit_character = CAL_thomas_edmund_dewey
 recruit_character = CAL_walter_elias_disney

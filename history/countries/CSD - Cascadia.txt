@@ -30,7 +30,7 @@ set_popularities = {
 }
 
 # Second Continental Army Cascadian Branch - AKB Clique Members (AKB...48!) #
-recruit_character = CSD_atsuko_maeda
+
 
 # Second Continental Army Cascadian Branch - United States Army Rangers (It's morphin' time!) #
 recruit_character = CSD_jason_lee_scott
