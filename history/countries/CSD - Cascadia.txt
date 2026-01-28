@@ -50,88 +50,19 @@ recruit_character = CSD_cassie_chan
 recruit_character = CSD_carlos_vallerte
 
 # Second Continental Army Cascadian Branch - Equestrian Generals (Friendship is Magic!) #
-recruit_character = CSD_twilight_sparkle
-recruit_character = CSD_pinkie_pie
-recruit_character = CSD_starlight_glimmer
-recruit_character = CSD_rainbow_dash
-recruit_character = CSD_mi_amore_cadenza
-recruit_character = CSD_rarity
-recruit_character = CSD_fluttershy
-recruit_character = CSD_sunset_shimmer
-recruit_character = CSD_trixie_lulamoon
-recruit_character = CSD_applejack
-recruit_character = CSD_radiant_hope
-recruit_character = CSD_arctic_lilly
-recruit_character = CSD_shining_shield
-recruit_character = CSD_quick_march
-recruit_character = CSD_quarter_pounder
-recruit_character = CSD_thunderboom
-recruit_character = CSD_sweetie_belle
-recruit_character = CSD_scootaloo
-recruit_character = CSD_apple_bloom
+
 
 # Second Continental Army Cascadian Branch - Vytalian Generals (Together for Remmnant!) #
-recruit_character = CSD_oscar_pine
-recruit_character = CSD_jaune_arc
-recruit_character = CSD_weiss_schnee
-recruit_character = CSD_ruby_rose
-recruit_character = CSD_coco_adel
-recruit_character = CSD_velvet_scarlatina
-recruit_character = CSD_yang_xiao_long
-recruit_character = CSD_blake_belladonna
-recruit_character = CSD_pyrrha_nikos
-recruit_character = CSD_nora_valkyrie
-recruit_character = CSD_lie_ren
-recruit_character = CSD_fox_alistair
-recruit_character = CSD_yatsuhashi_daichi
-recruit_character = CSD_cardin_winchester
-recruit_character = CSD_russel_thursh
-recruit_character = CSD_dove_bronzewing
-recruit_character = CSD_sky_lark
-recruit_character = CSD_penny_polendina
+
 
 # Second Continental Army Cascadian Branch - Kuoh Academy Generals (By the eyes of the Pentagram!) #
-recruit_character = CSD_sona_sitri
-recruit_character = CSD_rias_gremory
-recruit_character = CSD_akeno_himejima
-recruit_character = CSD_tsubaki_shinra
-recruit_character = CSD_issei_hyoudou
-recruit_character = CSD_rossweisse
-recruit_character = CSD_gasper_vladi
-recruit_character = CSD_kiba_yuuto
-recruit_character = CSD_koneko_toujou
-recruit_character = CSD_tsubasa_yura
-recruit_character = CSD_momo_hanakai
-recruit_character = CSD_reya_kusaka
-recruit_character = CSD_tomoe_meguri 
-recruit_character = CSD_genshirou_saji
-recruit_character = CSD_asia_argento
-recruit_character = CSD_xenovia_quarta
-recruit_character = CSD_loup_garou
-recruit_character = CSD_ruruko_nimura
-recruit_character = CSD_irina_shidou 
-recruit_character = CSD_ravel_phenex
-recruit_character = CSD_le_fay_pendragon
-recruit_character = CSD_elmenhilde_karnstein
-recruit_character = CSD_ingvild_leviathan
-recruit_character = CSD_yasaka
+
 
 # Second Continental Army Cascadian Branch - Hope's Peak Academy Generals (Dream on, forever!) #
-recruit_character = CSD_makoto_naegi
-recruit_character = CSD_junko_enoshima
-recruit_character = CSD_kyoko_kirigiri
-recruit_character = CSD_byakuya_togami
-recruit_character = CSD_mukuro_ikusaba
-recruit_character = CSD_aoi_asahina
-recruit_character = CSD_sakura_ogami
-recruit_character = CSD_leon_kuwata
-recruit_character = CSD_hifumi_yamada
-recruit_character = CSD_toko_fukawa
-recruit_character = CSD_mondo_owada
-recruit_character = CSD_kiyota_ishimaru
-recruit_character = CSD_chihiro_fujisaki
-recruit_character = CSD_celestia_ludenberg
-recruit_character = CSD_yasuhiro_hagakure
-recruit_character = CSD_sayaka_maizono 
+ 
 
 # Second Continental Army Cascadian Branch - U.A. High School Generals (Plus Ultra!) #
+
+# Second Continental Army Cascadian Branch - Sensha-Do Students (Panzer Vor!) #
+recruit_character = CSD_kay
+recruit_character = CSD_darjeeling
