@@ -29,9 +29,8 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_HUEY_LONG_DESC"
 			expire = "1994.4.20"
-			ideology = longism_ideology
+			ideology = social_democratic_longism_ideology
 			traits = {
-
 			}
 		}
         advisor = {
