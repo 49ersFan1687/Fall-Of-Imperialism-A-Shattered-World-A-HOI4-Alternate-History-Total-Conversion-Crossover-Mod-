@@ -1,5 +1,7 @@
 characters = {
-    # Country Leaders #
+    #######################
+    ### Country Leaders ###
+    #######################
     NCA_curtis_emerson_lemay = {
         name = NCA_curtis_emerson_lemay
         portraits = {
@@ -32,7 +34,40 @@ characters = {
         }
     }
 
-    # Field Marshals #
+    ########################
+	### Country Advisors ###
+	########################
+
+
+
+    #################################################################
+    ### Northern Second Continental Army Command - Field Marshals ###
+	#################################################################
+    NCA_matthew_bunker_ridgeway = {
+        name = NCA_matthew_bunker_ridgeway
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        } 
+        field_marshal = {
+            traits = {
+                logistics_wizard
+                paratrooper
+                commando
+                offensive_doctrine
+            }
+            skill = 4
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 3
+
+        }
+    }
 
     NCA_alexander_mccarell_patch = {
         name = NCA_alexander_mccarell_patch
@@ -59,52 +94,33 @@ characters = {
         }
     }
 
-    NCA_matthew_bunker_ridgeway = {
-        name = NCA_alexander_mccarell_patch
-        portraits = {
-            civilian = {
-                large = GFX_fish
-            }
-            army = {
-                large = GFX_fish
-            }
-        } 
-        field_marshal = {
-            traits = {
-                logistics_wizard
-                paratrooper
-                commando
-                offensive_doctrine
-            }
-            skill = 4
-            attack_skill = 4
-            defense_skill = 3
-            planning_skill = 2
-            logistics_skill = 3
+    #############################
+	### Generals - Level Five ###
+	#############################
 
-        }
-    }
 
-    # Generals #
 
-    NCA_joseph_warren_stillwell = {
-        name = NCA_joseph_warren_stillwell
-        portraits = {
-            civilian = {
-                large = GFX_fish
-            }
-            army = {
-                large = GFX_fish
-            }
-        }
-        corps_commander = {
-            traits = { }
-            attack_skill = 
-            defense_skill =
-            planning_skill = 
-            logistics_skill = 
-        }
-    }
+    #############################
+	### Generals - Level Four ###
+	#############################
+
+
+
+    ##############################
+	### Generals - Level Three ###
+	##############################
+
+
+
+    ############################
+	### Generals - Level Two ###
+	############################
+
+
+
+    ############################
+	### Generals - Level One ###
+	############################
 
     NCA_andrew_pick_omeara = {
         name = NCA_andrew_pick_omeara

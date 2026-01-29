@@ -6,10 +6,10 @@ characters = {
         name = CSD_atsuko_maeda
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Atsuko_Maeda.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Atsuko_Maeda.dds"
 			}
 		}
 		country_leader = {
@@ -20,12 +20,18 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { career_officer  }
-			skill =
-			attack_skill = 
-			defense_skill =
-			planning_skill = 
-			logistics_skill =
+			traits = {
+				career_officer
+				armor_officer
+				skilled_staffer
+				organizer
+				panzer_leader
+			}
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 6
+			logistics_skill = 5
 		}
 		gender = female
     }
@@ -118,7 +124,33 @@ characters = {
 		gender = female
 	}
 
-	# AKB Clique - Generals #
+	################################################################
+	### Second Continental Army/AKB Clique Generals - Level Five ###
+	################################################################
+
+
+
+    ################################################################
+	### Second Continental Army/AKB Clique Generals - Level Four ###
+	################################################################
+
+
+
+    #################################################################
+	### Second Continental Army/AKB Clique Generals - Level Three ###
+	#################################################################
+
+
+
+    ###############################################################
+	### Second Continental Army/AKB Clique Generals - Level Two ###
+	###############################################################
+
+
+
+    ###############################################################
+	### Second Continental Army/AKB Clique Generals - Level One ###
+	###############################################################
 	CSD_yuki_kashiwagi = {
 		name = CSD_yuki_kashiwagi
 		desc =
@@ -374,8 +406,6 @@ characters = {
 			}
 		}
 		naval_leader = {
-			desc = 
-			expire = "1994.4.20"
 			traits = {  }
 			skill = 
 			attack_skill = 
@@ -408,8 +438,6 @@ characters = {
 			}
 		}
 		naval_leader = {
-			desc =
-			expire = "1994.4.20"
 			traits = {  }
 			skill =
 			attack_skill =
@@ -442,8 +470,6 @@ characters = {
 			}
 		}
 		naval_leader = {
-			desc =
-			expire = "1994.4.20"
 			traits = {  }
 			skill =
 			attack_skill =
@@ -476,8 +502,6 @@ characters = {
 			}
 		}
 		naval_leader = {
-			desc =
-			expire = "1994.4.20"
 			traits = {  }
 			skill =
 			attack_skill =
