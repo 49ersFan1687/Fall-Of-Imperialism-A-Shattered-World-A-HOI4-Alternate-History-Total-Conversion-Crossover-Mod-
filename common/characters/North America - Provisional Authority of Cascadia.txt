@@ -1,7 +1,7 @@
 characters = {
-
-    # Second Continental Army/AKB Clique - Field Marshals #
-
+	###########################################################
+    ### Second Continental Army/AKB Clique - Field Marshals ###
+	###########################################################
     CSD_atsuko_maeda = {
         name = CSD_atsuko_maeda
 		portraits = {
@@ -906,8 +906,10 @@ characters = {
 		}
 	}
 
-    # Crystal Prep Clique - The Progressives (Field Marshals) #
-	
+	###############################################################
+	### Crystal Prep Clique - The Progressives (Field Marshals) ###
+	###############################################################
+
 	CSD_twilight_sparkle = {
 		name = CSD_twilight_sparkle
 		portraits = {
@@ -921,15 +923,16 @@ characters = {
 		field_marshal = {
 			traits = {
 				inspirational_leader
+				organizer
+				thorough_planner
 				brilliant_strategist
-				winter_specialist
 				skilled_staffer
 			}
 			skill = 4
 			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			defense_skill = 2
+			planning_skill = 6
+			logistics_skill = 5
 		}
 		gender = female
 	}
@@ -946,17 +949,17 @@ characters = {
 		}
 		field_marshal = {
 			traits = {
-				trait_reckless
+				politically_connected
 				offensive_doctrine
 				fortress_buster
 				panzer_leader
 				cavalry_leader
 			}
 			skill = 4
-			attack_skill = 6
-			defense_skill = 3
-			planning_skill = 1
-			logistics_skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
 		}
 		gender = female
 	}
@@ -976,10 +979,10 @@ characters = {
 				brilliant_strategist
 
 			}
-			skill = 6
+			skill = 4
 			attack_skill = 4 
-			defense_skill = 5
-			planning_skill = 5
+			defense_skill = 2
+			planning_skill = 4
 			logistics_skill = 5
 		}
 		gender = female
@@ -999,13 +1002,14 @@ characters = {
 			traits = {
 				air_commander
 				trait_reckless
-				expert_improviser
+				offensive_doctrine
+				aggressive_assaulter
 			}
-			skill =
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 		gender = female
 	}
@@ -1030,77 +1034,15 @@ characters = {
 		}
 		gender = female
 	}
+	
+	####################################################################
+	### Crystal Prep Clique - The Progressives - Level Five Generals ###
+	####################################################################
 
-	# Crystal Prep Clique - The Progressives (Generals) #
-	
-	CSD_rarity = {
-		name = CSD_rarity
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill = 
-		}
-		gender = female
-	}
 
-	CSD_fluttershy = {
-		name = CSD_fluttershy
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-		corps_commander = {
-			traits = { 
-				cautious
-				
-			}
-			skill = 3
-			attack_skill = 2
-			defense_skill = 5
-			planning_skill = 4
-			logistics_skill = 3
-		}
-		gender = female
-	}
-	
-	CSD_sunset_shimmer = {
-		name = CSD_sunset_shimmer
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-		corps_commander = {
-			traits = {
-				fast_planner
-			}
-			skill = 4
-			attack_skill = 6
-			defense_skill = 3
-			planning_skill = 1
-			logistics_skill = 3
-		}
-		gender = female
-	}
-	
+	####################################################################
+	### Crystal Prep Clique - The Progressives - Level Four Generals ###
+	####################################################################
 	CSD_trixie_lulamoon = {
 		name = CSD_trixie_lulamoon
 		portraits = {
@@ -1119,15 +1061,72 @@ characters = {
 				trickster
 				expert_improviser
 			}
-			skill = 6
-			attack_skill = 5
-			defense_skill = 5
-			planning_skill = 5
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		gender = female
+	}
+
+	#####################################################################
+	### Crystal Prep Clique - The Progressives - Level Three Generals ###
+	#####################################################################
+	CSD_rarity = {
+		name = CSD_rarity
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = { 
+				politically_connected
+				media_personality
+				trickster
+				infantry_officer
+			 }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+		}
+		gender = female
+	}
+	
+	CSD_sunset_shimmer = {
+		name = CSD_sunset_shimmer
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {
+				fast_planner
+				trickster
+				brilliant_strategist
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
 			logistics_skill = 4
 		}
 		gender = female
 	}
 
+	###################################################################
+	### Crystal Prep Clique - The Progressives - Level Two Generals ###
+	###################################################################
 	CSD_applejack = {
 		name = CSD_applejack
 		portraits = {
@@ -1144,11 +1143,110 @@ characters = {
 				ranger
 				mountaineer
 			}
-			skill = 4
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		gender = female
+	}
+	
+	CSD_scootaloo = {
+		name = CSD_scootaloo
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = { 
+				ranger
+				reckless
+				commando
+			}
+			skill = 2
 			attack_skill = 3
-			defense_skill = 5
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		gender = female
+	}
+	
+	CSD_sweetie_belle = {
+		name = CSD_sweetie_belle
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = { 
+				inflexible_strategist
+				infantry_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
 			planning_skill = 2
-			logistics_skill = 4
+			logistics_skill = 3
+		}
+		gender = female
+	}
+
+	CSD_apple_bloom = {
+		name = CSD_apple_bloom
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {
+				organizer
+			}
+			skill = 
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		gender = female
+	}
+
+	###################################################################
+	### Crystal Prep Clique - The Progressives - Level One Generals ###
+	###################################################################
+	CSD_fluttershy = {
+		name = CSD_fluttershy
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = { 
+				cautious
+				infantry_officer
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 		gender = female
 	}
@@ -1271,69 +1369,6 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
-	}
-	
-	CSD_sweetie_belle = {
-		name = CSD_sweetie_belle
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill = 
-		}
-		gender = female
-	}
-
-	CSD_scootaloo = {
-		name = CSD_scootaloo
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill = 
-		}
-		gender = female
-	}
-
-	CSD_apple_bloom = {
-		name = CSD_apple_bloom
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill = 
-		}
-		gender = female
 	}
 
 	# Vytal Clique - The Militarists (Field Marshals) #

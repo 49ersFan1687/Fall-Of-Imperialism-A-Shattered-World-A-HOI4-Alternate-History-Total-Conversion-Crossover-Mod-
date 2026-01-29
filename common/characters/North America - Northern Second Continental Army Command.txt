@@ -22,6 +22,7 @@ characters = {
             traits = {
                 politically_connected
                 trait_reckless
+                air_commander
             }
             skill = 3
             attack_skill = 3

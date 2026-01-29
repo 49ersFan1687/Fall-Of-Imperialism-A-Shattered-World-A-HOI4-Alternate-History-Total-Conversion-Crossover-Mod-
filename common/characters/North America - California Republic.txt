@@ -1,5 +1,7 @@
 characters = {
-    # country leaders #
+    #######################
+    ### Country Leaders ###
+    #######################
     CAL_henry_agard_wallace = {
         name = CAL_henry_agard_wallace
 		portraits = {
@@ -17,8 +19,9 @@ characters = {
 		}
     }
 
-	# Advisors #
-
+	########################
+	### Country Advisors ###
+	########################
     CAL_huey_pierce_long_jr = {
         name = CAL_huey_pierce_long_jr
         portraits = {
@@ -194,7 +197,10 @@ characters = {
 		}
 	}
 
-    ### Field Marshals ###
+	############################################
+    ### California Republic - Field Marshals ###
+	############################################
+
 	CAL_dwight_david_eisenhower = {
 		name = CAL_dwight_david_eisenhower
 		desc = 
