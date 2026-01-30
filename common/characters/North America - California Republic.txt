@@ -825,7 +825,7 @@ characters = {
 		desc = 
 		portraits = {
 			army = {
-				large = GFX_fish
+				large = "gfx/leaders/CAL/Portrait_CAL_Joseph_May_Swing.dds"
 			}
 		}
 		corps_commander = {
@@ -1326,10 +1326,16 @@ characters = {
 	### Admirals - Level One ###
 	############################
 
-	# Scientists #
+
+
+	##################
+	### Scientists ###
+	##################
+
+
 	
-
-	# Operatives #
-
+	##################
+	### Operatives ###
+	##################
 
 }

@@ -237,7 +237,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CSD_sonas_conservative_officer_clique
+	id = CSD_isseis_conservative_officer_clique
 	icon = GFX_fish
 	cost = 3
 	available_if_capitulated = no
@@ -251,7 +251,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CSD_the_many_faces_of_cascadia
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CSD_sonas_conservative_officer_clique"
+		log = "[GetDateText]: [Root.GetName]: Focus CSD_isseis_conservative_officer_clique"
 	}
 }
 
@@ -275,7 +275,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CSD_makotos_corporatist_officer_clique
+	id = CSD_makoto_and_junkos_corporatist_officer_clique
 	icon = GFX_fish
 	cost = 3
 	available_if_capitulated = no
@@ -308,17 +308,17 @@ shared_focus = {
 		focus = CSD_rubys_militarist_officer_clique
 	}
 	prerequisite = {
-		focus = CSD_sonas_conservative_officer_clique
+		focus = CSD_isseis_conservative_officer_clique
 	}
 	prerequisite = {
 		focus = CSD_mihos_moderate_officer_clique
 	}
 	prerequisite = {
-		focus = CSD_makotos_corporatist_officer_clique
+		focus = CSD_makoto_and_junkos_corporatist_officer_clique
 	}
 	x = 0
 	y = 1
-	relative_position_id = CSD_sonas_conservative_officer_clique
+	relative_position_id = CSD_isseis_conservative_officer_clique
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CSD_the_second_continental_army_controls_all"
 	}
