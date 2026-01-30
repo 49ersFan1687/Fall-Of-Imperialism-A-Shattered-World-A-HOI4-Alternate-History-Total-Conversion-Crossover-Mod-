@@ -1001,7 +1001,7 @@ characters = {
 		field_marshal = {
 			traits = {
 				brilliant_strategist
-
+				charismatic
 			}
 			skill = 4
 			attack_skill = 4 
@@ -1049,7 +1049,9 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = {  }
+			traits = { 
+
+			}
 			skill =
 			attack_skill =
 			defense_skill =
