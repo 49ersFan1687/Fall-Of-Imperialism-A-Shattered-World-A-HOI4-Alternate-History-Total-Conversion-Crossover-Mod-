@@ -730,12 +730,4 @@ characters = {
 			logistics_skill = 
 		}
 	}
-
-	# Oregon Vytal Clique - The Militarists (Field Marshals) #
-
-
-	# Oregon Vytal Clique - The Militarists (Generals) #
-
-
-	# Oregon Vytal Clique - The Militarists (Generals) #
 }
