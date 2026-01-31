@@ -1331,7 +1331,23 @@ characters = {
 	##################
 	### Scientists ###
 	##################
-
+	CAL_niels_henrik_david_bohr = {
+		portraits = {
+			army = {
+				large = GFX_fish
+				small = GFX_fish
+			}
+		}
+		scientist = {
+			traits = {
+				scientist_trait_nuclear_specialist
+				scientist_trait_bright
+			}
+			skills = {
+				specialization_nuclear = 1
+			}
+		}
+	}
 
 	
 	##################
