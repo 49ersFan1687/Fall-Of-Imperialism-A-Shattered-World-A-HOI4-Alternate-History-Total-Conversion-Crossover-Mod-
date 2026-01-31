@@ -20,7 +20,8 @@ ideologies = {
 			communism_broad_communism_ideology = { }
 			securocratic_communism_ideology = { }
 			juche_ideology = { }
-			communism_spartakism = { }
+			communism_spartakism_ideology = { }
+			stratocratic_communism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 117 20 13 }
@@ -38,7 +39,8 @@ ideologies = {
 			red_junta_syndicalism_ideology = { }
 			democratic_syndicalism_ideology = { }
 			syndicalism_labor_zionism_ideology = { }
-			syndicalism_spartakism = { }
+			syndicalism_spartakism_ideology = { }
+			stratocratic_syndicalism_ideology = { }
 		}
 		dynamic_faction_names = { }
 		color = { 255 0 0 }
@@ -66,7 +68,8 @@ ideologies = {
 			christian_socialism_ideology = { }
 			socialism_zhdanovshchina_ideology = { }
 			socialism_zionism_ideology = { }
-			socialism_spartakism = { }
+			socialism_spartakism_ideology = { }
+			stratocratic_socialism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 209 0 0 }
