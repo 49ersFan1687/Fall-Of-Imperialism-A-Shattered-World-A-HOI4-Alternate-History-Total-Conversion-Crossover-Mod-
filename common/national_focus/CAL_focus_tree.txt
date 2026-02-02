@@ -264,7 +264,9 @@ focus_tree = {
     continuous_focus_position = { x = 450 y = 200 }
 }
 
+##########################################
 ### Initial Focus Tree - Warlord State ###
+##########################################
 shared_focus = {
     id = CAL_the_long_dead_march_west
     icon = GFX_focus_CAL_the_long_dead_march_west
@@ -1944,7 +1946,9 @@ shared_focus = {
     }
 }
 
+##########################################################
 ### Focus Tree - West Coast Reunification (California) ###
+##########################################################
 shared_focus = {
     id = CAL_beginning_the_california_reunfication_war
     icon = GFX
@@ -2453,7 +2457,9 @@ shared_focus = {
     }
 }
 
+##############################################
 ### Focus Tree - West Coast Reconstruction ###
+##############################################
 shared_focus = {
     id = CAL_resolving_the_water_problem
     icon = GFX
@@ -2726,7 +2732,9 @@ shared_focus = {
     }
 }
 
+###############################################
 ### Focus Tree - Pre-Regional Military Tree ###
+###############################################
 shared_focus = {
     id = CAL_expanding_the_california_military_into_something_more_than_a_local_force
     icon = GFX
@@ -3039,8 +3047,9 @@ shared_focus = {
     }
 }
 
+############################################################
 ### Focus Tree - West Coast Resistance and Consolidation ###
-
+############################################################
 shared_focus = {
     id = CAL_dealing_with_regionalists
     icon = GFX
@@ -3177,8 +3186,9 @@ shared_focus = {
     }
 }
 
+################################################
 ### Focus Tree - Pre-Regional Political Tree ###
-
+################################################
 shared_focus = {
     id = CAL_handling_the_political_system
     icon = GFX
@@ -3431,9 +3441,9 @@ shared_focus = {
         factor = 1
     }
     mutually_exclusive = {
-        focus = CAL_marshall_s_boys_return_to_service
-        focus = CAL_eisenhower_s_triumph
-        focus = CAL_patton_s_cheers
+        focus = CAL_marshalls_boys_return_to_service
+        focus = CAL_eisenhowers_triumph
+        focus = CAL_pattons_cheers
     }
     prerequisite = {
         focus = CAL_service_guarantees_citizenship
@@ -3444,11 +3454,18 @@ shared_focus = {
     relative_position_id = CAL_service_guarantees_citizenship
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_bradleys_calling"
+        add_country_leader_role = {
+            character = CAL_omar_nelson_bradley
+            promote_leader = yes
+            country_leader = {
+                ideology = democratic_stratocracy_ideology
+            }
+        }
     }
 }
 
 shared_focus = {
-    id = CAL_marshall_s_boys_return_to_service
+    id = CAL_marshalls_boys_return_to_service
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -3457,8 +3474,8 @@ shared_focus = {
     }
     prerequisite_exclusive = {
         focus = CAL_bradleys_calling
-        focus = CAL_eisenhower_s_triumph
-        focus = CAL_patton_s_cheers
+        focus = CAL_eisenhowers_triumph
+        focus = CAL_pattons_cheers
     }
     prerequisite = {
         focus = CAL_service_guarantees_citizenship
@@ -3468,12 +3485,19 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_service_guarantees_citizenship
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_marshall_s_boys_return_to_service"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_marshalls_boys_return_to_service"
+        add_country_leader_role = {
+            character = CAL_george_catlett_marshall
+            promote_leader = yes
+            country_leader = {
+                ideology = democratic_stratocracy_ideology
+            }
+        }
     }
 }
 
 shared_focus = {
-    id = CAL_eisenhower_s_triumph
+    id = CAL_eisenhowers_triumph
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -3482,8 +3506,8 @@ shared_focus = {
     }
     prerequisite_exclusive = {
         focus = CAL_bradleys_calling
-        focus = CAL_marshall_s_boys_return_to_service
-        focus = CAL_patton_s_cheers
+        focus = CAL_marshalls_boys_return_to_service
+        focus = CAL_pattons_cheers
     }
     prerequisite = {
         focus = CAL_service_guarantees_citizenship
@@ -3493,12 +3517,12 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_service_guarantees_citizenship
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_eisenhower_s_triumph"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_eisenhowers_triumph"
     }
 }
 
 shared_focus = {
-    id = CAL_patton_s_cheers
+    id = CAL_pattons_cheers
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -3507,8 +3531,8 @@ shared_focus = {
     }
     prerequisite_exclusive = {
         focus = CAL_bradleys_calling
-        focus = CAL_marshall_s_boys_return_to_service
-        focus = CAL_eisenhower_s_triumph
+        focus = CAL_marshalls_boys_return_to_service
+        focus = CAL_eisenhowers_triumph
     }
     prerequisite = {
         focus = CAL_service_guarantees_citizenship
@@ -3518,7 +3542,14 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_service_guarantees_citizenship
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_patton_s_cheers"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_pattons_cheers"
+        add_country_leader_role = {
+            character = CAL_george_smith_patton_jr
+            promote_leader = yes
+            country_leader = {
+                ideology = democratic_stratocracy_ideology
+            }
+        }
     }
 }
 
@@ -3570,13 +3601,13 @@ shared_focus = {
     }
     prerequisite = {
         focus = CAL_bradleys_calling
-        focus = CAL_marshall_s_boys_return_to_service
-        focus = CAL_eisenhower_s_triumph
-        focus = CAL_patton_s_cheers
+        focus = CAL_marshalls_boys_return_to_service
+        focus = CAL_eisenhowers_triumph
+        focus = CAL_pattons_cheers
     }
     x = 0
     y = 1
-    relative_position_id = CAL_marshall_s_boys_return_to_service
+    relative_position_id = CAL_marshalls_boys_return_to_service
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_reopen_the_gi_bill"
     }
@@ -3592,13 +3623,13 @@ shared_focus = {
     }
     prerequisite = {
         focus = CAL_bradleys_calling
-        focus = CAL_marshall_s_boys_return_to_service
-        focus = CAL_eisenhower_s_triumph
-        focus = CAL_patton_s_cheers
+        focus = CAL_marshalls_boys_return_to_service
+        focus = CAL_eisenhowers_triumph
+        focus = CAL_pattons_cheers
     }
     x = 0
     y = 1
-    relative_position_id = CAL_eisenhower_s_triumph
+    relative_position_id = CAL_eisenhowers_triumph
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_for_people_of_the_state"
     }
@@ -3685,8 +3716,9 @@ shared_focus = {
     }
 }
 
+#############################################################
 ### Focus Tree - Pre-Regional Unification Tree - Civilian ###
-
+#############################################################
 shared_focus = {
     id = CAL_the_west_coast_under_the_wallace_administration
     available = {
@@ -3906,8 +3938,9 @@ shared_focus = {
     }
 }
 
+#############################################################
 ### Focus Tree - Pre-Regional Unification Tree - Military ###
-
+#############################################################
 shared_focus = {
     id = CAL_the_west_coast_under_the_second_continental_army
     available = {
@@ -4130,7 +4163,9 @@ shared_focus = {
     }
 }
 
+#########################################################################################################
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) - Starting Focuses ###
+#########################################################################################################
 shared_focus = {
 	id = CAL_birth_of_the_pacific_junta
 	icon = GFX
@@ -4165,7 +4200,9 @@ shared_focus = {
     }
 }
 
+#####################################################################################################################
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch - Army Demobilization ###
+#####################################################################################################################
 shared_focus = {
     id = CAL_an_overbloated_military
     icon = GFX
@@ -4466,7 +4503,9 @@ shared_focus = {
     }
 }
 
+###############################################################################################################
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch - Food Shortage ###
+###############################################################################################################
 shared_focus = {
     id = CAL_dealing_with_the_food_shortage
     icon = GFX
@@ -4742,7 +4781,9 @@ shared_focus = {
     }
 }
 
+#################################################################################################################
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch - Political Stage ###
+#################################################################################################################
 shared_focus = {
     id = CAL_a_fragile_political_stage
     icon = GFX
@@ -5382,7 +5423,9 @@ shared_focus = {
     }
 }
 
+############################################################################################################
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch - Governance ###
+############################################################################################################
 shared_focus = {
     id = CAL_the_issue_of_governance
     icon = GFX
@@ -5722,7 +5765,9 @@ shared_focus = {
     }
 }
 
+################################################################################################################
 ### Focus Tree - Regional Stage: Political Focus Tree (Military-Aligned Democracy) Subranch - Foreign Agents ###
+################################################################################################################
 shared_focus = {
     id = CAL_the_problem_of_foreign_agents
     icon = GFX
@@ -6064,7 +6109,9 @@ shared_focus = {
     }
 }
 
+#######################################################################################
 ### Focus Tree - Regional Stage: Political Focus Tree (Civillian-Aligned Democracy) ###
+#######################################################################################
 shared_focus = {
 	id = CAL_the_formation_of_the_pacific_states_of_america
 	icon = GFX
@@ -6099,7 +6146,521 @@ shared_focus = {
     }
 }
 
+#############################################################################################################
+### Focus Tree - Regional Stage: Political Focus Tree (Civilian Democracy) Subranch - Army Demobilization ###
+#############################################################################################################
+shared_focus = {
+    id = CAL_the_demobilization_of_the_military
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_forming_a_legitimate_government
+    }
+    x = -15
+    y = 1
+    relative_position_id = CAL_forming_a_legitimate_government
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_demobilization_of_the_military"
+    }
+}
+
+shared_focus = {
+    id = CAL_order_an_omb_audit
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_demobilization_of_the_military
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_demobilization_of_the_military
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_order_an_omb_audit"
+    }
+}
+
+shared_focus = {
+    id = CAL_question_army_expenditures
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_order_an_omb_audit
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_order_an_omb_audit
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_question_army_expenditures"
+    }
+}
+
+shared_focus = {
+    id = CAL_cut_the_bloated_numbers
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_question_army_expenditures
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_question_army_expenditures
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_cut_the_bloated_numbers"
+    }
+}
+
+shared_focus = {
+    id = CAL_rein_in_army_corruption
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_question_army_expenditures
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_question_army_expenditures
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_rein_in_army_corruption"
+    }
+}
+
+shared_focus = {
+    id = CAL_and_send_them_to_work
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_cut_the_bloated_numbers
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_cut_the_bloated_numbers
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_and_send_them_to_work"
+    }
+}
+
+shared_focus = {
+    id = CAL_push_for_air_force_examinations
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_rein_in_army_corruption
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_rein_in_army_corruption
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_push_for_air_force_examinations"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_question_of_the_army_unions
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_and_send_them_to_work
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_and_send_them_to_work
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_question_of_the_army_unions"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_clean_navy_and_marine_corps
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_push_for_air_force_examinations
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_push_for_air_force_examinations
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_clean_navy_and_marine_corps"
+    }
+}
+
+shared_focus = {
+    id = CAL_raise_a_new_class_of_constitutional_officers
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_question_of_the_army_unions
+    }
+    prerequisite = {
+        focus = CAL_the_clean_navy_and_marine_corps
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_the_question_of_the_army_unions
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_raise_a_new_class_of_constitutional_officers"
+    }
+}
+
+shared_focus = {
+    id = CAL_empower_the_marine_corps
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_raise_a_new_class_of_constitutional_officers
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_raise_a_new_class_of_constitutional_officers
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_empower_the_marine_corps"
+    }
+}
+
+shared_focus = {
+    id = CAL_butlers_suggestion
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_empower_the_marine_corps
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_empower_the_marine_corps
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_butlers_suggestion"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_first_senatorial_guard
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_butlers_suggestion
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_butlers_suggestion
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_first_senatorial_guard"
+    }
+}
+
+#######################################################################################################
+### Focus Tree - Regional Stage: Political Focus Tree (Civilian Democracy) Subranch - Food Shortage ###
+#######################################################################################################
+shared_focus = {
+    id = CAL_a_barren_food_stock
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_forming_a_legitimate_government
+    }
+    x = -9
+    y = 1
+    relative_position_id = CAL_forming_a_legitimate_government
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_barren_food_stock"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_survey
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_barren_food_stock
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_a_barren_food_stock
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_survey"
+    }
+}
+
+shared_focus = {
+    id = CAL_mathematically_fucked
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_survey
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_survey
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_mathematically_fucked"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_tijuana_agreement
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_mathematically_fucked
+    }
+    x = -2
+    y = 1
+    relative_position_id = CAL_mathematically_fucked
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_tijuana_agreement"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_great_humanitarians_aid
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_mathematically_fucked
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_mathematically_fucked
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_great_humanitarians_aid"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_seattle_agreement
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_mathematically_fucked
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_mathematically_fucked
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_seattle_agreement"
+    }
+}
+
+shared_focus = {
+    id = CAL_deals_with_our_southern_neighbors
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_tijuana_agreement
+    }
+    prerequisite = {
+        focus = CAL_the_great_humanitarians_aid
+    }
+    prerequisite = {
+        focus = CAL_the_seattle_agreement
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_great_humanitarians_aid
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_deals_with_our_southern_neighbors"
+    }
+}
+
+shared_focus = {
+    id = CAL_peruvian_rice_imports
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_deals_with_our_southern_neighbors
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_deals_with_our_southern_neighbors
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_peruvian_rice_imports"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_fisheries_of_oregon
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_peruvian_rice_imports
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_peruvian_rice_imports
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_fisheries_of_oregon"
+    }
+}
+
+shared_focus = {
+    id = CAL_california_fruit_farms
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_peruvian_rice_imports
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_peruvian_rice_imports
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_merge_undermanned_divisions_together"
+    }
+}
+
+shared_focus = {
+    id = CAL_encourage_the_planting_of_victory_gardens
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_fisheries_of_oregon
+    }
+    prerequisite = {
+        focus = CAL_california_fruit_farms
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_the_fisheries_of_oregon
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_encourage_the_planting_of_victory_gardens"
+    }
+}
+
+shared_focus = {
+    id = CAL_calming_the_austerity_measures
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_encourage_the_planting_of_victory_gardens
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_encourage_the_planting_of_victory_gardens
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_calming_the_austerity_measures"
+    }
+}
+
+shared_focus = {
+    id = CAL_stabilized_food_stocks
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_calming_the_austerity_measures
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_calming_the_austerity_measures
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_stabilized_food_stocks"
+    }
+}
+
+########################################################################################################
 ### Focus Tree - Regional Stage: Political Focus Tree (Cvilian Democracy) Subranch - Political Stage ###
+########################################################################################################
 shared_focus = {
     id = CAL_the_armys_caveat
     icon = GFX
@@ -6671,8 +7232,518 @@ shared_focus = {
     }
 }
 
-### Focus Tree - Regional Stage: Shared Economy/Industrial Focus Tree ###
+####################################################################################################
+### Focus Tree - Regional Stage: Political Focus Tree (Civilian Democracy) Subranch - Governance ###
+####################################################################################################
+shared_focus = {
+    id = CAL_a_lacking_civil_service
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_forming_a_legitimate_government
+    }
+    x = 9
+    y = 1
+    relative_position_id = CAL_forming_a_legitimate_government
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_lacking_civil_service"
+    }
+}
 
+shared_focus = {
+    id = CAL_reevaluate_requirements
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_lacking_civil_service
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_a_lacking_civil_service
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reevaluate_requirements"
+    }
+}
+
+shared_focus = {
+    id = CAL_reopen_the_public_schools
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_reevaluate_requirements
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_reevaluate_requirements
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reopen_the_public_schools"
+    }
+}
+
+shared_focus = {
+    id = CAL_expand_universities_on_the_pacific
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_reopen_the_public_schools
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_reopen_the_public_schools
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_universities_on_the_pacific"
+    }
+}
+
+shared_focus = {
+    id = CAL_offer_bonuses
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_reopen_the_public_schools
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_reopen_the_public_schools
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_offer_bonuses"
+    }
+}
+
+shared_focus = {
+    id = CAL_train_demobilized_soldiers_in_civil_service
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_expand_universities_on_the_pacific
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_expand_universities_on_the_pacific
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_train_demobilized_soldiers_in_civil_service"
+    }
+}
+
+shared_focus = {
+    id = CAL_offer_government_housing
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_offer_bonuses
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_offer_bonuses
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_offer_government_housing"
+    }
+}
+
+shared_focus = {
+    id = CAL_establish_the_civil_service_corps
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_train_demobilized_soldiers_in_civil_service
+    }
+    prerequisite = {
+        focus = CAL_offer_government_housing
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_train_demobilized_soldiers_in_civil_service
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_establish_the_civil_service_corps"
+    }
+}
+
+shared_focus = {
+    id = CAL_call_on_the_state_servants
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_establish_the_civil_service_corps
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_establish_the_civil_service_corps
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_call_on_the_state_servants"
+    }
+}
+
+shared_focus = {
+    id = CAL_a_deal_from_one_mr_holms
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_establish_the_civil_service_corps
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_establish_the_civil_service_corps
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_deal_from_one_mr_holms"
+    }
+}
+
+shared_focus = {
+    id = CAL_unify_federal_and_state_bureaus
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_call_on_the_state_servants
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_call_on_the_state_servants
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_unify_federal_and_state_bureaus"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_man_in_the_deserts_academy
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_deal_from_one_mr_holms
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_a_deal_from_one_mr_holms
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_man_in_the_deserts_academy"
+    }
+}
+
+shared_focus = {
+    id = CAL_rebuilding_the_new_deal
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_unify_federal_and_state_bureaus
+    }
+    prerequisite = {
+        focus = CAL_the_man_in_the_deserts_academy
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_unify_federal_and_state_bureaus
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_the_new_deal"
+    }
+}
+
+shared_focus = {
+    id = CAL_a_reconstructed_civil_service
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_rebuilding_the_new_deal
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_rebuilding_the_new_deal
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_reconstructed_civil_service"
+    }
+}
+
+#################################################################################################
+### Focus Tree - Regional Stage: Political Focus Tree (Civilian Democracy) Subranch - Culture ###
+#################################################################################################
+shared_focus = {
+    id = CAL_the_issue_of_culture
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_forming_a_legitimate_government
+    }
+    x = 15
+    y = 1
+    relative_position_id = CAL_forming_a_legitimate_government
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_issue_of_culture"
+    }
+}
+
+shared_focus = {
+    id = CAL_what_is_an_american
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_issue_of_culture
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_issue_of_culture
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_what_is_an_american"
+    }
+}
+
+shared_focus = {
+    id = CAL_it_is_not_ones_race_that_decides
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_what_is_an_american
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_what_is_an_american
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_it_is_not_ones_race_that_decides"
+    }
+}
+
+shared_focus = {
+    id = CAL_nor_ones_religion
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_it_is_not_ones_race_that_decides
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_it_is_not_ones_race_that_decides
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_nor_ones_religion"
+    }
+}
+
+shared_focus = {
+    id = CAL_an_american_is
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_nor_ones_religion
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_nor_ones_religion
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_an_american_is"
+    }
+}
+
+shared_focus = {
+    id = CAL_one_with_loyalty_to_the_union
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_an_american_is
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_an_american_is
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_one_with_loyalty_to_the_union"
+    }
+}
+
+shared_focus = {
+    id = CAL_one_who_lives_in_america
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_an_american_is
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_an_american_is
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_one_who_lives_in_america"
+    }
+}
+
+shared_focus = {
+    id = CAL_it_matters_not_his_forbearers
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_one_with_loyalty_to_the_union
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_one_with_loyalty_to_the_union
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_it_matters_not_his_forbearers"
+    }
+}
+
+shared_focus = {
+    id = CAL_nor_his_sons
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_one_who_lives_in_america
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_one_who_lives_in_america
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_nor_his_sons"
+    }
+}
+
+shared_focus = {
+    id = CAL_be_they_japanese
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_it_matters_not_his_forbearers
+    }
+    prerequisite = {
+        focus = CAL_nor_his_sons
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_it_matters_not_his_forbearers
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_be_they_japanese"
+    }
+}
+
+shared_focus = {
+    id = CAL_or_german
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_be_they_japanese
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_be_they_japanese
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_or_german"
+    }
+}
+
+shared_focus = {
+    id = CAL_all_are_american
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_or_german
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_or_german
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_all_are_american"
+    }
+}
+
+#########################################################################
+### Focus Tree - Regional Stage: Shared Economy/Industrial Focus Tree ###
+#########################################################################
 shared_focus = {
     id = CAL_the_economy_of_the_pacific_states_of_america
     icon = GFX
@@ -7587,7 +8658,9 @@ shared_focus = {
 	}
 }
 
+##############################################################################
 ### Focus Tree - Regional Stage: Shared Military Reform Focus Tree - Start ###
+##############################################################################
 shared_focus = {
 	id = CAL_begin_the_total_overhaul_of_the_psa_military
 	icon = GFX
@@ -7623,7 +8696,9 @@ shared_focus = {
     }
 }
 
+#############################################################################
 ### Focus Tree - Regional Stage: Military Focus Tree Subranch - Air Force ###
+#############################################################################
 shared_focus = {
     id = CAL_the_pacific_states_air_force
     icon = GFX
@@ -8221,7 +9296,9 @@ shared_focus = {
     }
 }
 
+########################################################################
 ### Focus Tree - Regional Stage: Military Focus Tree Subranch - Army ###
+########################################################################
 shared_focus = {
     id = CAL_the_pacific_states_army
     icon = GFX
@@ -9240,7 +10317,9 @@ shared_focus = {
 	}
 }
 
+########################################################################
 ### Focus Tree - Regional Stage: Military Focus Tree Subranch - Navy ###
+########################################################################
 shared_focus = {
     id = CAL_the_pacific_states_navy
     icon = GFX
@@ -9813,7 +10892,9 @@ shared_focus = {
     }
 }
 
+############################################################################
 ### Focus Tree - Regional Stage: Shared Military Reform Focus Tree - End ###
+############################################################################
 shared_focus = {
     id = CAL_adding_the_finishing_touches
     icon = GFX
@@ -10060,7 +11141,9 @@ shared_focus = {
     }
 }
 
+###################################################################################
 ### Focus Tree - Regional Stage: Military Democracy - Foreign Policy Focus Tree ###
+###################################################################################
 shared_focus = {
 	id = CAL_form_the_armed_forces_diplomatic_corps
 	icon = GFX
@@ -10076,7 +11159,9 @@ shared_focus = {
 	}
 }
 
+###########################################################################################
 ### Focus Tree - Regional Stage: Military Democracy - Foreign Policy Focus Tree - Japan ###
+###########################################################################################
 shared_focus = {
     id = CAL_dealings_with_the_samurai
     icon = GFX
@@ -10352,7 +11437,9 @@ shared_focus = {
     }
 }
 
+####################################################################################################
 ### Focus Tree - Regional Stage: Military Democracy - Foreign Policy Focus Tree - Bermuda Accord ###
+####################################################################################################
 shared_focus = {
     id = CAL_a_talk_with_the_cannucks
     icon = GFX
@@ -10653,7 +11740,9 @@ shared_focus = {
     }
 }
 
+#############################################################################################
 ### Focus Tree - Regional Stage: Military Democracy - Foreign Policy Focus Tree - Germany ###
+#############################################################################################
 shared_focus = {
     id = CAL_addressing_the_nazi_sphere
     icon = GFX
