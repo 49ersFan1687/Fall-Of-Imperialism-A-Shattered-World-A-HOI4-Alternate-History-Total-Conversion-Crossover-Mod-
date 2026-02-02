@@ -11974,8 +11974,9 @@ shared_focus = {
     }
 }
 
-
-### Focus Tree - Regional Stage: Militry Democracy -  Policy Focus Tree ###
+####################################################################################
+### Focus Tree - Regional Stage: Civilian Democracy -  Foreign Policy Focus Tree ###
+####################################################################################
 shared_focus = {
 	id = CAL_utilize_the_secretary_of_state_office
 	icon = GFX
