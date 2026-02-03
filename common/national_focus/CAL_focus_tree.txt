@@ -3935,6 +3935,7 @@ shared_focus = {
     relative_position_id = CAL_limiting_presidential_powers
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_american_democracy_stabilized"
+        load_focus_tree = CAL_regional_stage_civilian_democracy_focus_tree
     }
 }
 
@@ -4160,6 +4161,7 @@ shared_focus = {
     relative_position_id = CAL_purge_fascist_symphatizers
      completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_the_junta_secures_its_grip"
+        load_focus_tree = CAL_regional_stage_military_aligned_democracy_focus_tree
     }
 }
 

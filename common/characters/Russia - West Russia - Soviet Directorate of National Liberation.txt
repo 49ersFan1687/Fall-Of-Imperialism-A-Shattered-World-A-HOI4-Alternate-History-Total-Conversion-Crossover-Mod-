@@ -1,6 +1,8 @@
 characters = {
-    # Country Leaders #
-	SDL_semyon_mikhailovich_budyonny = {
+	#######################
+    ### Country Leaders ###
+    #######################
+    SDL_semyon_mikhailovich_budyonny = {
 		name = SDL_semyon_mikhailovich_budyonny
 		portraits = {
 			civilian = {
@@ -34,8 +36,42 @@ characters = {
 			logistics_skill = 3
 		}
 	}
-
-    SDL_mikhail_vasilievich_frunze = { 
+	
+	SDL_mikhail_nikolayevich_tukhachevsky = {
+		name = SDL_mikhail_nikolayevich_tukhachevsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SDL/Portrait_SDL_mikhail_nikolayevich_tukhachevsky"
+			}
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_mikhail_nikolayevich_tukhachevsky"
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			desc = "POLITICS_MIKHAIL_TUKHACHEVSKY_DESC"
+			ideology = leninism_ideology
+			traits = {
+				SDL_the_red_bonaparte
+			}
+		}
+		field_marshal = {
+			traits = {
+				offensive_doctrine
+				career_officer
+				panzer_leader
+				aggressive_assaulter
+				cavalry_leader
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	
+	SDL_mikhail_vasilievich_frunze = { 
 		name = SDL_mikhail_vasilievich_frunze
 		portraits = {
 			civilian = {
@@ -52,7 +88,6 @@ characters = {
             traits = {
 				SDL_the_hero_of_the_civil_war
             }
-			id = -1
 		}
 		field_marshal = {
 			traits = {
@@ -87,7 +122,6 @@ characters = {
 			traits = {
 				SDL_the_peoples_marshal
 			}
-			id = -1
 		}
 		field_marshal = {
 			traits = {
@@ -106,41 +140,15 @@ characters = {
 		}
     }
 
-    SDL_mikhail_nikolayevich_tukhachevsky = {
-		name = SDL_mikhail_nikolayevich_tukhachevsky
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/SDL/Portrait_SDL_mikhail_nikolayevich_tukhachevsky"
-			}
-			army = {
-				large = "gfx/leaders/SDL/Portrait_SDL_mikhail_nikolayevich_tukhachevsky"
-			}
-		}
-		country_leader = {
-			expire = "1999.1.1"
-			desc = "POLITICS_MIKHAIL_TUKHACHEVSKY_DESC"
-			ideology = leninism_ideology
-			traits = {
-				SDL_the_red_bonaparte
-			}
-			id = -1
-		}
-		field_marshal = {
-			traits = {
-				offensive_doctrine
-				career_officer
-				panzer_leader
-				aggressive_assaulter
-				cavalry_leader
-			}
-			skill = 5
-			attack_skill = 5
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 4
-		}
-	}
+    ########################
+	### Country Advisors ###
+	########################
 
+
+
+    ##################################################################
+    ### Soviet Directorate of National Liberation - Field Marshals ###
+	##################################################################
 	SDL_nestor_nunin = {
 		name = SDL_nestor_nunin
 		portraits = {
@@ -152,19 +160,31 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = {  }
+			traits = {
+				brilliant_strategist
+				career_officer
+				armor_officer
+				panzer_leader
+				skilled_staffer
+			}
 			skill = 5
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 5
 		}
 	}
 
-	# Advisors #
+
+    #############################
+	### Generals - Level Five ###
+	#############################
 
 
-	# Red Army Generals #
+
+    #############################
+	### Generals - Level Four ###
+	#############################
 	SDL_vasily_danilovich_sokolovsky = {
 		name = SDL_vasily_danilovich_sokolovsky
 		portraits = {
@@ -213,7 +233,355 @@ characters = {
 			logistics_skill = 2
 		}
 	}
+	
+	SDL_dimitry_fyodorovich_ustinov = {
+		name = SDL_dimitry_fyodorovich_ustinov
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				skilled_staffer
+				expert_delegator
+				logistics_wizard
+				organizer
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	
+	SDL_veronika_krasnova = {
+		name = SDL_veronika_krasnova
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {
+				engineer
+				panzer_leader
+				combined_arms_leader
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	
+	SDL_sergey_fyodorovich_akhromeyev = {
+		name = SDL_sergey_fyodorovich_akhromeyev
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				trait_cautious
+				career_officer
+				infantry_leader
+				ambusher
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	
+	SDL_andrei_antonovich_grechko = {
+		name = SDL_andrei_antonovich_grechko
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				trait_reckless
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 2
+		}
+	}
+	
+	SDL_alexander_terentyevich_altunin = {
+		name = SDL_alexander_terentyevich_altunin
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {
+				inflexible_strategist
+				career_officer
+				winter_specialist
+			}
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 5
+		}
+	}
+	
+	SDL_vinous_kostyelev = {
+		name = SDL_vinous_kostyelev
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {
+				inspirational_leader
+				politically_connected
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
 
+
+    ##############################
+	### Generals - Level Three ###
+	##############################
+	SDL_pavel_semyonovich_rybalko = {
+		name = SDL_pavel_semyonovich_rybalko
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {
+				inflexible_strategist
+				cavalry_officer
+				cavalry_leader
+				combined_arms_leader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
+	SDL_vasily_ivanovich_chuikov = {
+		name = SDL_vasily_ivanovich_chuikov
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {
+				panzer_leader
+				career_officer
+				brilliant_strategist
+				expert_improviser
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+
+
+
+    ############################
+	### Generals - Level Two ###
+	############################
+	SDL_konstantin_fedorovich_telegin = {
+		name = SDL_konstantin_fedorovich_telegin
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				harsh_leader
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+
+
+
+    ############################
+	### Generals - Level One ###
+	############################
+
+
+
+	#############################
+	### Admirals - Level Five ###
+	#############################
+
+
+
+	#############################
+	### Admirals - Level Four ###
+	#############################
+	SDL_furious_glory = {
+		name = SDL_furious_glory
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			navy = {
+				large = GFX_fish
+			}
+		}
+		navy_leader = {
+            desc =
+            traits = {
+				bold
+				fleet_protector
+				cruiser_captain
+			}
+            skill = 4
+            attack_skill = 4
+            defense_skill = 3
+            maneuvering_skill = 4
+            coordination_skill = 2
+        }
+	}
+	
+	SDL_grey_gorshkov = {
+		name = SDL_grey_gorshkov
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			navy = {
+				large = GFX_fish
+			}
+		}
+		navy_leader = {
+            desc =
+            traits = {
+				gentlemanly
+				seawolf
+				blockade_runner
+			}
+            skill = 4
+            attack_skill = 4
+            defense_skill = 2
+            maneuvering_skill = 3
+            coordination_skill = 4
+        }
+	}
+
+	##############################
+	### Admirals - Level Three ###
+	##############################
+	SDL_karina = {
+		name = SDL_karina
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			navy = {
+				large = GFX_fish
+			}
+		}
+		navy_leader = {
+            desc =
+            traits = {
+				battleship_adherent
+				inshore_fighter
+			}
+            skill = 3
+            attack_skill = 2
+            defense_skill = 3
+            maneuvering_skill = 2
+            coordination_skill = 3
+        }
+	}
+
+
+	############################
+	### Admirals - Level Two ###
+	############################
+	
+
+
+	############################
+	### Admirals - Level One ###
+	############################
+	
+
+
+	##################
+	### Scientists ###
+	##################
+
+
+	
+	##################
+	### Operatives ###
+	##################
+
+	
 	SDL_iona_emmanuilovich_yakir = {
 		name = SDL_iona_emmanuilovich_yakir
 		portraits = {
@@ -273,227 +641,7 @@ characters = {
 			logistics_skill =
 		}
 	}
-
-	SDL_andrei_antonovich_grechko = {
-		name = SDL_andrei_antonovich_grechko
-		portraits = {
-			civilian = {
-				large = GFX_fish
-			}
-			army = {
-				large = GFX_fish
-			}
-		}
-		corps_commander = {
-			traits = {
-				brilliant_strategist
-				career_officer
-				trait_reckless
-				infantry_leader
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 5
-			logistics_skill = 2
-		}
-	}
-
-	SDL_vasily_ivanovich_chuikov = {
-		name = SDL_vasily_ivanovich_chuikov
-		portraits = {
-			civilian = {
-				large = GFX_fish
-			}
-			army = {
-				large = GFX_fish
-			}
-		}
-		corps_commander = {
-			traits = {
-				panzer_leader
-				career_officer
-				brilliant_strategist
-				trickster
-				expert_improviser
-				ranger
-			}
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
-		}
-	}
-
-	SDL_dimitry_fyodorovich_ustinov = {
-		name = SDL_dimitry_fyodorovich_ustinov
-		portraits = {
-			civilian = {
-				large = GFX_fish
-			}
-			army = {
-				large = GFX_fish
-			}
-		}
-		corps_commander = {
-			traits = {
-				politically_connected
-				skilled_staffer
-				expert_delegator
-				logistics_wizard
-				organizer
-			}
-			skill = 2
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 2
-		}
-	}
-
-	SDL_sergey_fyodorovich_akhromeyev = {
-		name = SDL_sergey_fyodorovich_akhromeyev
-		portraits = {
-			civilian = {
-				large = GFX_fish
-			}
-			army = {
-				large = GFX_fish
-			}
-		}
-		corps_commander = {
-			traits = {
-				infantry_officer
-				trait_cautious
-				career_officer
-				infantry_leader
-				ambusher
-			}
-			skill = 4
-			attack_skill = 3
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-
-	SDL_pavel_semyonovich_rybalko = {
-		name = SDL_pavel_semyonovich_rybalko
-		portraits = {
-			civilian = {
-				large = GFX_fish
-			}
-			army = {
-				large = GFX_fish
-			}
-		}
-		corps_commander = {
-			traits = {
-				inflexible_strategist
-				cavalry_officer
-				cavalry_leader
-				combined_arms_leader
-			}
-			skill = 3
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 3
-		}
-	}
-
-	SDL_konstantin_fedorovich_telegin = {
-		name = SDL_konstantin_fedorovich_telegin
-		portraits = {
-			civilian = {
-				large = GFX_fish
-			}
-			army = {
-				large = GFX_fish
-			}
-		}
-		corps_commander = {
-			traits = {
-				politically_connected
-				harsh_leader
-			}
-			skill = 2
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 1
-		}
-	}
-
-	SDL_alexander_terentyevich_altunin = {
-		name = SDL_alexander_terentyevich_altunin
-		portraits = {
-			civilian = {
-				large = GFX_fish
-			}
-			army = {
-				large = GFX_fish
-			}
-		}
-		corps_commander = {
-			traits = {
-				inflexible_strategist
-				career_officer
-				winter_specialist
-			}
-			skill = 4
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 5
-		}
-	}
-
-	SDL_veronika_krasnova = {
-		name = SDL_veronika_krasnova
-		portraits = {
-			civilian = {
-				large = GFX_fish
-			}
-			army = {
-				large = GFX_fish
-			}
-		}
-		corps_commander = {
-			traits = {
-				engineer
-				panzer_leader
-				combined_arms_leader
-			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 3
-		}
-	}
-
-	SDL_vinous_kostyelev = {
-		name = SDL_vinous_kostyelev
-		portraits = {
-			civilian = {
-				large = GFX_fish
-			}
-			army = {
-				large = GFX_fish
-			}
-		}
-		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill =
-		}
-	}
-
+	
 	# Red Navy Admirals #
 	SDL_nikolay_gerasimovich_kuznetsov = {
 		name = SDL_nikolay_gerasimovich_kuznetsov
@@ -528,28 +676,9 @@ characters = {
 		}
 		navy_leader = {
             desc =
-            traits = {  }
-            skill =
-            attack_skill =
-            defense_skill =
-            maneuvering_skill =
-            coordination_skill =
-        }
-	}
-
-	SDL_furious_glory = {
-		name = SDL_furious_glory
-		portraits = {
-			civilian = {
-				large = GFX_fish
+            traits = {
+				
 			}
-			navy = {
-				large = GFX_fish
-			}
-		}
-		navy_leader = {
-            desc =
-            traits = {  }
             skill =
             attack_skill =
             defense_skill =
@@ -558,46 +687,6 @@ characters = {
         }
 	}
 	
-	SDL_grey_gorshkov = {
-		name = SDL_grey_gorshkov
-		portraits = {
-			civilian = {
-				large = GFX_fish
-			}
-			navy = {
-				large = GFX_fish
-			}
-		}
-		navy_leader = {
-            desc =
-            traits = {  }
-            skill =
-            attack_skill =
-            defense_skill =
-            maneuvering_skill =
-            coordination_skill =
-        }
-	}
 	
-	SDL_karina = {
-		name = SDL_karina
-		portraits = {
-			civilian = {
-				large = GFX_fish
-			}
-			navy = {
-				large = GFX_fish
-			}
-		}
-		navy_leader = {
-            desc =
-            traits = {  }
-            skill =
-            attack_skill =
-            defense_skill =
-            maneuvering_skill =
-            coordination_skill =
-        }
-	}
 }
 
