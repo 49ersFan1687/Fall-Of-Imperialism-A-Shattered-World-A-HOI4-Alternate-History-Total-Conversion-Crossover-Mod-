@@ -41,6 +41,7 @@ ideologies = {
 			syndicalism_labor_zionism_ideology = { }
 			syndicalism_spartakism_ideology = { }
 			stratocratic_syndicalism_ideology = { }
+			syndicalism_bellamyism_ideology = { }
 		}
 		dynamic_faction_names = { }
 		color = { 255 0 0 }
@@ -70,6 +71,7 @@ ideologies = {
 			socialism_zionism_ideology = { }
 			socialism_spartakism_ideology = { }
 			stratocratic_socialism_ideology = { }
+			socialism_bellamyism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 209 0 0 }
@@ -90,6 +92,7 @@ ideologies = {
 			liberal_feminist_socialism_ideology = { }
 			national_progressivism_ideology = { }
 			social_democratic_junta_ideology = { }
+			social_democracy_jeffersonian_democracy_ideology = { }
 		}
 		dynamic_faction_names = { }
 		color = { 148 80 142 }
@@ -112,8 +115,10 @@ ideologies = {
 			liberal_statism_ideology = { }
 			stratocratic_liberalism_ideology = { }
 			liberal_national_progressivism_ideology = { }
-			social_liberalism_ideology= { }
+			social_liberalism_ideology = { }
 			liberal_longism_ideology = { }
+			libertarianism_ideology = { }
+			liberalism_jeffersonian_democracy_ideology = { }
 		}
 		dynamic_faction_names = { }
 		color = { 31 121 181 }
@@ -136,6 +141,8 @@ ideologies = {
 			moderate_authoritarianism_ideology = { }
 			whigism_ideology = { }
 			conservative_longism_ideology = { }
+			conservative_oligarchy_ideology = { }
+			conservatism_hamiltonian_democracy_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 22 37 138 }
@@ -161,6 +168,8 @@ ideologies = {
 			authoritarian_democracy_oligarchy_ideology = { }
 			moderate_dixiecrat_ideology = { }
 			social_authoritarianism_ideology = { }
+			authoritarian_democracy_police_state_ideology = { }
+			authoritarian_democracy_democracy_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 135 135 140 }
@@ -176,6 +185,7 @@ ideologies = {
 			cosmicism_ideology = { }
 			surrealism_ideology = { }
 			avante_garde_lovecraftism_ideology = { }
+			futurism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 198 192 207 }
@@ -202,6 +212,7 @@ ideologies = {
 			paternal_autocrats_jacksonian_democracy_ideology = { }
 			paternal_autocrat_bonapartism_ideology = { }
 			paternal_autocrat_oligarchy_ideology = { }
+			paternal_autocrat_police_state_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 54 54 54 }
@@ -237,6 +248,7 @@ ideologies = {
 			ultranationalism_ideology = { } #Generic
 			stratocratic_nationalism_ideology = { }
 			iron_guard_ideology = { }
+			ultranationalism_klan_nationalism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 32 43 39 }
@@ -256,6 +268,7 @@ ideologies = {
 			clerical_fascism_ideology = { }
 			true_believers_ideology = { }
 			strasserism_ideology = { }
+			national_socialism_klan_nationalism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 41 33 22 }

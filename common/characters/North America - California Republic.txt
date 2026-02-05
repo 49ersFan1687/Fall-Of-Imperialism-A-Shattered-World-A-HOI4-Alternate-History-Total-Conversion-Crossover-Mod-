@@ -197,6 +197,27 @@ characters = {
 		}
 	}
 
+	CAL_dean_gooderham_acherson = {
+		name = CAL_dean_gooderham_acherson
+		portraits = {
+			civillian = {
+				small = GFX_fish
+			}
+		}
+		advisor = {
+			slot = 
+			idea_token = CAL_dean_gooderham_acherson_hog
+			allowed = { original_tag = CAL }
+			traits = {
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = yes
+			ai_will_do = { factor = 0 }
+		}
+	}
+
 	############################################
     ### California Republic - Field Marshals ###
 	############################################

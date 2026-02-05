@@ -1,5 +1,7 @@
 characters = {
-    # German Reichskommissars #
+    ##############################
+    ### German Reichskommisars ###
+    ##############################
     ANR_fritz_julius_kuhn = {
         name = ANR_fritz_julius_kuhn
         portraits = {
@@ -48,8 +50,11 @@ characters = {
         }
     }
 
-    # Country Leaders #
 
+
+    #######################
+    ### Country Leaders ###
+    #######################
     ANR_richard_milhous_nixon = {
         name = ANR_richard_milhous_nixon
         portraits = {
@@ -170,14 +175,58 @@ characters = {
         }
     }
 
-    # Advisors #
+    ########################
+	### Country Advisors ###
+	########################
 
-    # Field Marshals #
 
-    # Generals #
+
+    ##################################################
+    ### Far-Eastern Russian State - Field Marshals ###
+	##################################################
+
+
+
+    #############################
+	### Generals - Level Five ###
+	#############################
+
+
+
+    #############################
+	### Generals - Level Four ###
+	#############################
+    ANR_sumter_de_leon_lowry_jr = {
+        name = ANR_sumter_de_leon_lowry_jr
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = {
+                organizer
+                career_officer
+                politically_connected
+                ANR_klan_afiliated_leader
+            }
+            skill = 4
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 5
+            logistics_skill = 4
+        }
+    }
+
+    ##############################
+	### Generals - Level Three ###
+	##############################
     ANR_wycliffe_preston_draper = {
         name = ANR_wycliffe_preston_draper
-         portraits = {
+        portraits = {
             civilian = {
                 large = GFX_fish
             }
@@ -190,15 +239,90 @@ characters = {
 				trickster
 				career_officer
 				cavalry_officer
+                cavalry_leader
 				ANR_klan_afiliated_leader
 			}
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill = 
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
     }
 
-    # Admirals #
+    ANR_edward_mallory_almond = {
+        name = ANR_edward_mallory_almond
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = {
+                career_officer
+                trait_cautious
+                commando
+            }
+            skill = 3
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 3
+        }
+    }
+    
+    ############################
+	### Generals - Level Two ###
+	############################
+    
+
+
+    ############################
+	### Generals - Level One ###
+	############################
+
+
+
+	#############################
+	### Admirals - Level Five ###
+	#############################
+
+
+
+	#############################
+	### Admirals - Level Four ###
+	#############################
+
+
+
+	##############################
+	### Admirals - Level Three ###
+	##############################
+
+
+	############################
+	### Admirals - Level Two ###
+	############################
+
+
+	############################
+	### Admirals - Level One ###
+	############################
+	
+
+
+	##################
+	### Scientists ###
+	##################
+
+
+	
+	##################
+	### Operatives ###
+	##################
+
+
 }

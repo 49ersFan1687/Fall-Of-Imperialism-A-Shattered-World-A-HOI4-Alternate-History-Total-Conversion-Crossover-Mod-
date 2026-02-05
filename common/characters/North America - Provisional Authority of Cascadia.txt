@@ -1,4 +1,6 @@
 characters = {
+############################################## AKB48 Members ##############################################
+
 	###########################################################
     ### Second Continental Army/AKB Clique - Field Marshals ###
 	###########################################################
@@ -519,7 +521,35 @@ characters = {
 		gender = female
 	}
 
-	# Cascadian Army Rangers - The Power Rangers (Field Marshals) #
+############################################## Power Rangers Characters ##############################################
+
+	################################################################
+    ### Second Continental Army/US Army Rangers - Field Marshals ###
+	################################################################
+	CSD_tommy_oliver = {
+		name = CSD_tommy_oliver
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Tommy_Oliver.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Tommy_Oliver.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				ranger 
+				commando
+				brilliant_strategist
+				career_officer 
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 3
+		}
+	}
 
 	CSD_jason_lee_scott = {
 		name = CSD_jason_lee_scott
@@ -537,16 +567,15 @@ characters = {
 				commando
 				infantry_officer
 				infatry_leader
-				brilliant_strategist
 			}
-			skill = 4
+			skill = 3
 			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
+			defense_skill = 2
+			planning_skill = 3
 			logistics_skill = 3
 		}
 	}
-
+	
 	CSD_zack_taylor = {
 		name = CSD_zack_taylor
 		portraits = {
@@ -572,7 +601,7 @@ characters = {
 			logistics_skill = 2
 		}
 	}
-
+	
 	CSD_billy_cranston = {
 		name = CSD_billy_cranston
 		portraits = {
@@ -587,9 +616,10 @@ characters = {
 			traits = {
 				ranger
 				commando
-				engineer 
+				engineer
+				scavenger
 			}
-			skill = 4
+			skill = 3
 			attack_skill = 3
 			defense_skill = 2
 			planning_skill = 5
@@ -597,33 +627,119 @@ characters = {
 		}
 	}
 
-	CSD_tommy_oliver = {
-		name = CSD_tommy_oliver
+	#####################################################################
+	### Second Continental Army/US Army Rangers Generals - Level Five ###
+	#####################################################################
+	CSD_adam_park = {
+		name = CSD_adam_park
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/CSD/Portrait_CSD_Tommy_Oliver.dds"
+				large = "gfx/leaders/CSD/Portrait_CSD_Adam_Park.dds"
 			}
 			army = {
-				large = "gfx/leaders/CSD/Portrait_CSD_Tommy_Oliver.dds"
+				large = "gfx/leaders/CSD/Portrait_CSD_Adam_Park.dds"
 			}
 		}
-		field_marshal = {
+		corps_commander = {
 			traits = {
 				ranger 
 				commando 
-				offensive_doctrine 
-				career_officer 
+				carreer_officer 
+				winter_expert
+				brilliant_strategist 
 			}
 			skill = 5
-			attack_skill = 5
-			defense_skill = 4
+			attack_skill = 4
+			defense_skill = 5
 			planning_skill = 4
 			logistics_skill = 4
 		}
 	}
 
-	# Cascadian Army Rangers - The Power Rangers (Generals) #
+    #####################################################################
+	### Second Continental Army/US Army Rangers Generals - Level Four ###
+	#####################################################################
+	CSD_trini_kwan = {
+		name = CSD_trini_kwan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Trini_Kwan.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Trini_Kwan.dds"
+			}
+		}
+		corps_commander = {
+			traits = { 
+				ranger 
+				commando 
+				trickster
+				winter_expert
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+		}
+		gender = female
+	}
+	
+	CSD_ashley_hammond = {
+		name = CSD_ashley_hammond
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Ashley_Hammond.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Ashley_Hammond.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				ranger
+				commando
+				trickster
+				swamp_fox
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		gender = female
+	}
 
+    ######################################################################
+	### Second Continental Army/US Army Rangers Generals - Level Three ###
+	######################################################################
+	CSD_tanya_sloan = {
+		name = CSD_tanya_sloan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Tanya_Sloan.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Tanya_Sloan.dds"
+			}
+		}
+		corps_commander = {
+			traits = { 
+				ranger 
+				commando 
+				infantry_leader 
+				inflexible_strategist 
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		gender = female
+	}
+	
 	CSD_kimberly_ann_hart = {
 		name = CSD_kimberly_ann_hart
 		portraits = {
@@ -643,189 +759,14 @@ characters = {
 				infantry_expert
 			}
 			skill = 3
-			attack_skill = 6
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 2
-		}
-		gender = female
-	}
-
-	CSD_trini_kwan = {
-		name = CSD_trini_kwan
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/CSD/Portrait_CSD_Trini_Kwan.dds"
-			}
-			army = {
-				large = "gfx/leaders/CSD/Portrait_CSD_Trini_Kwan.dds"
-			}
-		}
-		corps_commander = {
-			traits = { 
-				ranger 
-				commando 
-				infantry_leader 
-				brilliant_strategist
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 3
-		}
-		gender = female
-	}
-
-	CSD_rocky_de_santos = {
-		name = CSD_rocky_de_santos
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/CSD/Portrait_CSD_Rocky_De_Santos.dds"
-			}
-			army = {
-				large = "gfx/leaders/CSD/Portrait_CSD_Rocky_De_Santos.dds"
-			}
-		}
-		corps_commander = {
-			traits = { 
-				ranger 
-				commando 
-				brilliant_strategist 
-				infantry_leader
-			}
-			skill = 3
-			attack_skill = 5
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-
-	CSD_adam_park = {
-		name = CSD_adam_park
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/CSD/Portrait_CSD_Adam_Park.dds"
-			}
-			army = {
-				large = "gfx/leaders/CSD/Portrait_CSD_Adam_Park.dds"
-			}
-		}
-		corps_commander = {
-			traits = {
-				ranger 
-				commando 
-				carreer_officer 
-				inflexible_strategist 
-			}
-			skill = 4
 			attack_skill = 3
-			defense_skill = 5
-			planning_skill = 2
-			logistics_skill = 3
-		}
-	}
-
-	CSD_aisha_campbell = {
-		name = CSD_aisha_campbell
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/CSD/Portrait_CSD_Aisha_Campbell.dds"
-			}
-			army = {
-				large = "gfx/leaders/CSD/Portrait_CSD_Aisha_Campbell.dds"
-			}
-		}
-		corps_commander = {
-			traits = {
-				ranger 
-				commando 
-				brilliant_strategist 
-				infantry_leader 
-				infantry_expert 
-			}
-			skill = 4
-			attack_skill = 5
 			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-
-	CSD_katherine_hillard = {
-		name = CSD_katherine_hillard
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/CSD/Portrait_CSD_Katherine_Hillard.dds"
-			}
-			army = {
-				large = "gfx/leaders/CSD/Portrait_CSD_Katherine_Hillard.dds"
-			}
-		}
-		corps_commander = {
-			traits = { 
-				ranger 
-				commando 
-				engineer 
-				winter_specialist 
-				brilliant_strategist 
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
+			planning_skill = 5
 			logistics_skill = 2
 		}
 		gender = female
 	}
-
-	CSD_tanya_sloan = {
-		name = CSD_tanya_sloan
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/CSD/Portrait_CSD_Tanya_Sloan.dds"
-			}
-			army = {
-				large = "gfx/leaders/CSD/Portrait_CSD_Tanya_Sloan.dds"
-			}
-		}
-		corps_commander = {
-			traits = { 
-				ranger 
-				commando 
-				infantry_leader 
-				inflexible_strategist 
-			}
-			skill = 3
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
-		}
-		gender = female
-	}
-
-	CSD_trey_of_triforia = {
-		name = CSD_trey_of_triforia
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-		corps_commander = {
-			traits = { ranger commando }
-			skill =
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
-		}
-	}
-
+	
 	CSD_theodore_jarvis_johnson = {
 		name = CSD_theodore_jarvis_johnson
 		portraits = {
@@ -845,66 +786,13 @@ characters = {
 				infantry_leader 
 			}
 			skill = 3
-			attack_skill = 4
+			attack_skill = 3
 			defense_skill = 3
 			planning_skill = 2
 			logistics_skill = 2
 		}
 	}
-
-	CSD_ashley_hammond = {
-		name = CSD_ashley_hammond
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/CSD/Portrait_CSD_Ashley_Hammond.dds"
-			}
-			army = {
-				large = "gfx/leaders/CSD/Portrait_CSD_Ashley_Hammond.dds"
-			}
-		}
-		corps_commander = {
-			traits = {
-				ranger
-				commando
-				trickster
-				swamp_fox
-				infantry_leader
-			}
-			skill = 3
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
-		}
-		gender = female
-	}
-
-	CSD_cassie_chan = {
-		name = CSD_cassie_chan
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/CSD/Portrait_CSD_Cassie_Chan.dds"
-			}
-			army = {
-				large = "gfx/leaders/CSD/Portrait_CSD_Cassie_Chan.dds"
-			}
-		}
-		corps_commander = {
-			traits = {
-				ranger
-				commando
-				trickster
-				swamp_fox
-			}
-			skill = 3
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 4
-		}
-		gender = female
-	}
-
+	
 	CSD_carlos_vallerte = {
 		name = CSD_carlos_vallerte
 		portraits = {
@@ -929,6 +817,119 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+	
+	CSD_rocky_de_santos = {
+		name = CSD_rocky_de_santos
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Rocky_De_Santos.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Rocky_De_Santos.dds"
+			}
+		}
+		corps_commander = {
+			traits = { 
+				ranger 
+				commando 
+				brilliant_strategist 
+				infantry_leader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	
+	CSD_katherine_hillard = {
+		name = CSD_katherine_hillard
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Katherine_Hillard.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Katherine_Hillard.dds"
+			}
+		}
+		corps_commander = {
+			traits = { 
+				ranger 
+				commando 
+				engineer 
+				winter_specialist 
+				brilliant_strategist 
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		gender = female
+	}
+
+    ####################################################################
+	### Second Continental Army/US Army Rangers Generals - Level Two ###
+	####################################################################
+	CSD_cassie_chan = {
+		name = CSD_cassie_chan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Cassie_Chan.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Cassie_Chan.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				ranger
+				commando
+				trickster
+				swamp_fox
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		gender = female
+	}
+	
+	CSD_aisha_campbell = {
+		name = CSD_aisha_campbell
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Aisha_Campbell.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Aisha_Campbell.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				ranger 
+				commando 
+				brilliant_strategist 
+				infantry_leader 
+				infantry_expert 
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+
+    ####################################################################
+	### Second Continental Army/US Army Rangers Generals - Level One ###
+	####################################################################
+	
+############################################## My Little Pony Characters ##############################################
 
 	###############################################################
 	### Crystal Prep Clique - The Progressives (Field Marshals) ###
@@ -1396,6 +1397,8 @@ characters = {
 			logistics_skill = 
 		}
 	}
+
+############################################## RWBY Characters ##############################################
 
 	# Vytal Clique - The Militarists (Field Marshals) #
 

@@ -166,6 +166,7 @@ characters = {
             traits = {
                 trait_reckless
                 thorough_planner
+
             }
             skill =
             attack_skill =
@@ -209,16 +210,108 @@ characters = {
             logistics_skill = 3
         }
     }
+    
+    MAR_courtney_hicks_hodges = {
+        name = MAR_courtney_hicks_hodges
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = {
+                panzer_leader
+                career_officer
+                infantry_officer
+            }
+            skill =
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 4
+        }
+    }
 
     ##############################
 	### Generals - Level Three ###
 	##############################
-
-
+    MAR_terry_de_la_mesa_allen_sr = {
+        name = MAR_terry_de_la_mesa_allen_sr
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = {
+                trait_reckless
+                commando
+                brilliant_strategist
+            }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 3
+        }
+    }
+    
+    MAR_joseph_lawton_collins = {
+        name = MAR_joseph_lawton_collins
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = {
+                artillery_officer
+                artillery_specialist
+            }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 2
+        }
+    }
 
     ############################
 	### Generals - Level Two ###
 	############################
+    MAR_ernest_nason_harmon = {
+        name = MAR_ernest_nason_harmon
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+                small = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = {
+                armor_officer
+                panzer_leader
+                war_hero
+            }
+            skill = 2
+            attack_skill = 4
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
 
 
 
@@ -248,30 +341,7 @@ characters = {
 	############################
 	### Admirals - Level Two ###
 	############################
-    MAR_ernest_nason_harmon = {
-        name = MAR_ernest_nason_harmon
-        portraits = {
-            civilian = {
-                large = GFX_fish
-            }
-            army = {
-                large = GFX_fish
-                small = GFX_fish
-            }
-        }
-        corps_commander = {
-            traits = {
-                armor_officer
-                panzer_leader
-                war_hero
-            }
-            skill = 2
-            attack_skill = 4
-            defense_skill = 2
-            planning_skill = 2
-            logistics_skill = 2
-        }
-    }
+    
 
 
 	############################
@@ -312,85 +382,7 @@ characters = {
         }
     }
 
-    MAR_terry_de_la_mesa_allen_sr = {
-        name = MAR_terry_de_la_mesa_allen_sr
-        portraits = {
-            civilian = {
-                large = GFX_fish
-            }
-            army = {
-                large = GFX_fish
-            }
-        }
-        corps_commander = {
-            traits = {  }
-            skill =
-            attack_skill =
-            defense_skill =
-            planning_skill =
-            logistics_skill =
-        }
-    }
-
-    MAR_courtney_hicks_hodges = {
-        name = MAR_courtney_hicks_hodges
-        portraits = {
-            civilian = {
-                large = GFX_fish
-            }
-            army = {
-                large = GFX_fish
-            }
-        }
-        corps_commander = {
-            traits = {  }
-            skill =
-            attack_skill =
-            defense_skill =
-            planning_skill =
-            logistics_skill =
-        }
-    }
-
-    MAR_joseph_lawton_collins = {
-        name = MAR_joseph_lawton_collins
-        portraits = {
-            civilian = {
-                large = GFX_fish
-            }
-            army = {
-                large = GFX_fish
-            }
-        }
-        corps_commander = {
-            traits = {  }
-            skill =
-            attack_skill =
-            defense_skill =
-            planning_skill =
-            logistics_skill =
-        }
-    }
-
-    MAR_sumter_de_leon_lowry_jr = {
-        name = MAR_sumter_de_leon_lowry_jr
-        portraits = {
-            civilian = {
-                large = GFX_fish
-            }
-            army = {
-                large = GFX_fish
-            }
-        }
-        corps_commander = {
-            traits = {  }
-            skill =
-            attack_skill =
-            defense_skill =
-            planning_skill =
-            logistics_skill =
-        }
-    }
+    
 
     
 

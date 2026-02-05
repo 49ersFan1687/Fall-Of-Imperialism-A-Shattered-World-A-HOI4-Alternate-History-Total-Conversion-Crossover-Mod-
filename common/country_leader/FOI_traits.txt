@@ -152,6 +152,8 @@ leader_traits = {
 
 	SDL_the_hero_of_the_civil_war = {
 		random = no
+		stability_factor = 0.05
+		war_support_factor = 0.05	
 	}
 
 	### Provisional Authority of Cascadia Leader Traits ###
