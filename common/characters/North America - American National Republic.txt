@@ -181,10 +181,85 @@ characters = {
 
 
 
-    ##################################################
-    ### Far-Eastern Russian State - Field Marshals ###
-	##################################################
+    ###################################################
+    ### American National Republic - Field Marshals ###
+	###################################################
+    ANR_george_van_horn_moseley = {
+        name = ANR_george_van_horn_moseley
+         portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            desc = 
+            traits = {
+                brilliant_strategist
+                politically_connected
+                ANR_klan_afiliated_leader
+                artillery_officer
+            }
+            skill = 4
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 4
+            logistics_skill = 4
+        }
+    }
 
+    ANR_ernst_bernhard_wilhelm_busch = {
+        name = ANR_ernst_bernhard_wilhelm_busch
+         portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        field_marshal = {
+            desc = 
+            traits = {
+                winter_specialist
+                infantry_officer
+                defensive_doctrine
+                war_hero
+            }
+            skill = 4
+            attack_skill = 3
+            defense_skill = 4
+            planning_skill = 2
+            logistics_skill = 3
+        }
+    }
+
+    ANR_william_hood_simpson = {
+        name = ANR_william_hood_simpson
+         portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        field_marshal = {
+            desc = 
+            traits = {
+                infantry_officer
+                defensive_doctrine
+                infantry_leader
+            }
+            skill = 
+            attack_skill = 3
+            defense_skill = 5
+            planning_skill = 3
+            logistics_skill = 3
+        }
+    }
 
 
     #############################
@@ -207,6 +282,7 @@ characters = {
             }
         }
         corps_commander = {
+            desc = 
             traits = {
                 organizer
                 career_officer
@@ -235,6 +311,7 @@ characters = {
             }
         }
         corps_commander = {
+            desc = 
 			traits = {
 				trickster
 				career_officer
@@ -261,13 +338,15 @@ characters = {
             }
         }
         corps_commander = {
+            desc = 
             traits = {
                 career_officer
                 trait_cautious
                 commando
+                harsh_leader
             }
             skill = 3
-            attack_skill = 2
+            attack_skill = 5
             defense_skill = 2
             planning_skill = 3
             logistics_skill = 3

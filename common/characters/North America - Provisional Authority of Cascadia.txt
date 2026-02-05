@@ -934,7 +934,6 @@ characters = {
 	###############################################################
 	### Crystal Prep Clique - The Progressives (Field Marshals) ###
 	###############################################################
-
 	CSD_twilight_sparkle = {
 		name = CSD_twilight_sparkle
 		portraits = {
@@ -1017,10 +1016,10 @@ characters = {
 		name = CSD_rainbow_dash
 		portraits = {
 			civilian = {
-				large = 
+				large = GFX_fish
 			}
 			army = {
-				large = 
+				large = GFX_fish
 			}
 		}
 		field_marshal = {
@@ -1043,10 +1042,10 @@ characters = {
 		name = CSD_mi_amore_cadenza
 		portraits = {
 			civilian = {
-				large = 
+				large = GFX_fish
 			}
 			army = {
-				large = 
+				large = GFX_fish
 			}
 		}
 		field_marshal = {
@@ -1074,10 +1073,10 @@ characters = {
 		name = CSD_trixie_lulamoon
 		portraits = {
 			civilian = {
-				large = 
+				large = GFX_fish
 			}
 			army = {
-				large = 
+				large = GFX_fish
 			}
 		}
 		corps_commander = {
@@ -2505,25 +2504,35 @@ characters = {
 		gender = female
 	}
 
-	# Sensha-Do Clique - The Moderates (Field Marshals) #
+############################################## Girls und Panzer Characters ##############################################
 
+	#########################################################
+	### Sensha-Do Clique - The Moderates (Field Marshals) ###
+	#########################################################
 	CSD_miho_nishizumi = {
 		name = CSD_miho_nishizumi
 		portraits = {
 			civilian = {
-				large = 
+				large = GFX_fish
 			}
 			army = {
-				large = 
+				large = GFX_fish
 			}
 		}
 		field_marshal = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill = 
+			traits = {
+				panzer_leader
+				armor_officer
+				offensive_doctrine
+				cavalry_leader
+				brilliant_strategist
+				trickster
+			}
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
 		}
 	}
 
@@ -2577,7 +2586,35 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+	
+	#################################################################
+	### Sensha-Do Clique - Moderate Faction Generals - Level Five ###
+	#################################################################
 
+
+
+    #################################################################
+	### Sensha-Do Clique - Moderate Faction Generals - Level Four ###
+	#################################################################
+	
+
+
+
+    ##################################################################
+	### Sensha-Do Clique - Moderate Faction Generals - Level Three ###
+	##################################################################
+
+
+
+    ################################################################
+	### Sensha-Do Clique - Moderate Faction Generals - Level Two ###
+	################################################################
+
+
+
+    ################################################################
+	### Sensha-Do Clique - Moderate Faction Generals - Level One ###
+	################################################################
 	CSD_katyusha = {
 		name = CSD_katyusha
 		portraits = {

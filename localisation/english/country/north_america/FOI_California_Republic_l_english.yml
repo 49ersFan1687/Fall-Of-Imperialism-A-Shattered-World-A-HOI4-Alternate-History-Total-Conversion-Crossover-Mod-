@@ -2,7 +2,9 @@
 
 CAL:0 "California Focus Tree"
 
+####################################
 ### Events - California Republic ###
+####################################
 
 ### Political Parties - California Republic ###
 CAL_communism_party: "CPUSA"
@@ -48,7 +50,9 @@ CAL_earl_warren: "Earl Warren"
 CAL_walter_elias_disney: "Walter Elias Disney"
 CAL_thomas_edmund_dewey: "Thomas Edmund Dewey"
 
+#########################################
 ### Character Localization - Generals ###
+#########################################
 CAL_dwight_david_eisenhower: "Dwight David Eisenhower"
 CAL_omar_nelson_bradley: "Omar Nelson Bradley"
 CAL_george_catlett_marshall: "George Catlett Marshall"
@@ -81,7 +85,9 @@ CAL_john_fujio_aiso: "John Fujio Aiso"
 CAL_simon_bolivar_buckner_jr: "Simon Bolivar Buckner Jr."
 CAL_charles_hartwell_bonesteel_iii: "Charles Hartwell Bonesteel III"
 
+#########################################
 ### Character Localization - Admirals ###
+#########################################
 CAL_ernest_joseph_king: "Ernest Joseph King"
 CAL_chester_william_nimitz: "Chester William Nimitz"
 CAL_william_daniel_leahy: "William Daniel Leahy"
@@ -91,17 +97,27 @@ CAL_arleigh_albert_burke: "Arleigh Albert Burke"
 CAL_issac_campbell_kidd_sr: "Issac Campbell Kidd Sr."
 CAL_felix_budwell_stump: "Felix Budwell Stump"
 
+###########################################
 ### Character Localization - Scientists ###
+###########################################
 
 
+###########################################
 ### Character Localization - Operatives ###
+###########################################
+
+#########################################
+### Leader Bios - California Republic ###
+#########################################
 
 
-### Leader Bios ###
-## California Republic ##
+######################################################
+### General and Admiral Bios - California Republic ###
+######################################################
 
-### Ideas ###
-
+######################
+### Starting Ideas ###
+######################
 CAL_the_long_march_west: "The Long March West"
 CAL_the_long_march_west_desc: ""
 
@@ -120,8 +136,9 @@ CAL_the_mothballed_navy_desc: ""
 CAL_the_failure_of_democracy: "The Failure of Democracy"
 CAL_the_failure_of_democracy_desc: ""
 
+#####################################################
 ### National Focuses Localisation - Starting Tree ###
-
+#####################################################
 CAL_the_long_dead_march_west: "The Long, Dead, March West"
 CAL_the_long_dead_march_west_desc: ""
 

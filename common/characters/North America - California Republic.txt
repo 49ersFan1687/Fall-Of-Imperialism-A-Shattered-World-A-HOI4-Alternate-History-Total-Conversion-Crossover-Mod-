@@ -224,7 +224,6 @@ characters = {
 
 	CAL_dwight_david_eisenhower = {
 		name = CAL_dwight_david_eisenhower
-		desc = 
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Dwight_David_Eisenhower.dds"
@@ -235,6 +234,7 @@ characters = {
 			}
 		}
 		field_marshal = {
+			desc =
 			traits = {
 				logistics_wizard
 				offensive_doctrine
@@ -261,7 +261,6 @@ characters = {
 
 	CAL_george_catlett_marshall = {
 		name = CAL_george_catlett_marshall
-		desc = 
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/CAL/Portrait_CAL_George_Catlett_Marshall.dds"
@@ -272,6 +271,7 @@ characters = {
 			}
 		}
 		field_marshal = {
+			desc =
 			traits = {
 				career_officer
 				politically_connected
@@ -298,7 +298,6 @@ characters = {
 	
 	CAL_omar_nelson_bradley = {
 		name = CAL_omar_nelson_bradley
-		desc = 
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Omar_Nelson_Bradley.dds"
@@ -309,6 +308,7 @@ characters = {
 			}
 		}
 		field_marshal = {
+			desc =
 			traits = {
 				trait_engineer
 				cautious
@@ -326,7 +326,6 @@ characters = {
 
 	CAL_spitfire = {
 		name = CAL_spitfire
-		desc =
 		portraits = {
 			army = {
 				large =
@@ -334,9 +333,11 @@ characters = {
 			}
 		}
 		field_marshal = {
+			desc =
 			traits = {
 				media_personality
 				air_commander
+				artillery_officer
 			}
 			skill = 4
 			attack_skill = 3
@@ -351,7 +352,6 @@ characters = {
 	#############################
 	CAL_george_smith_patton_jr = {
 		name = CAL_george_smith_patton_jr
-		desc = 
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/CAL/Portrait_CAL_George_Smith_Patton_Jr.dds"
@@ -362,6 +362,7 @@ characters = {
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				offensive_doctrine
 				trait_reckless
@@ -399,6 +400,7 @@ characters = {
             }
         }
         corps_commander = {
+			desc = 
             traits = { 
 				panzer_leader
 				organizer
@@ -418,8 +420,7 @@ characters = {
 	### Generals - Level Four ###
 	#############################
 	CAL_william_childs_westmoreland = {
-		name = CAL_william_childs_westmoreland
-		desc = 
+		name = CAL_william_childs_westmoreland 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_William_Childs_Westmoreland.dds"
@@ -427,6 +428,7 @@ characters = {
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				brilliant_strategist
 				organizer
@@ -452,7 +454,6 @@ characters = {
 	
 	CAL_jacob_loucks_devers = {
 		name = CAL_jacob_loucks_devers
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Jacob_Loucks_Devers.dds"
@@ -460,6 +461,7 @@ characters = {
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				panzer_leader
 				cavalry_leader
@@ -485,7 +487,6 @@ characters = {
 	
 	CAL_henry_harley_arnold = {
 		name = CAL_henry_harley_arnold
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Henry_Harley_Arnold.dds"
@@ -493,6 +494,7 @@ characters = {
 			}
 		}
 		corps_commander = {
+			desc = 
 			traits = {
 				career_officer
 				politically_connected
@@ -518,13 +520,13 @@ characters = {
 	
 	CAL_walton_harris_walker = {
 		name = CAL_walton_harris_walker
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Walton_Harris_Walker.dds"
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				panzer_leader
 				armor_officer
@@ -551,13 +553,13 @@ characters = {
 	
 	CAL_glynda_goodwitch = {
 		name = CAL_glynda_goodwitch
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Glynda_Goodwitch.dds"
 			}
 		}
 		corps_commander = {
+			desc = 
 			traits = {
 				brilliant_strategist
 				ranger
@@ -586,7 +588,6 @@ characters = {
 	
 	CAL_smedley_darlington_butler = {
 		name = CAL_smedley_darlington_butler
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Smedley_Darlington_Butler.dds"
@@ -594,6 +595,7 @@ characters = {
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				brilliant_strategist
 				inspirational_leader
@@ -611,13 +613,13 @@ characters = {
 	
 	CAL_maxwell_davenport_taylor = {
 		name = CAL_maxwell_davenport_taylor
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Maxewell_Davenport_Taylor.dds"
 			}
 		}
 		corps_commander = {
+			desc = 
 			traits = {
 				paratrooper
 				brilliant_strategist
@@ -635,13 +637,13 @@ characters = {
 	
 	CAL_lucian_king_truscott = {
 		name = CAL_lucian_king_truscott
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Lucian_King_Truscott.dds"
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				trait_engineer
 				commando
@@ -657,7 +659,6 @@ characters = {
 	
 	CAL_lewis_burwell_puller = {
 		name = CAL_lewis_burwell_puller
-		desc = 
 		portraits = {
 			army = {
 				large = GFX_fish
@@ -665,6 +666,7 @@ characters = {
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				harsh_leader
 				career_officer
@@ -681,13 +683,13 @@ characters = {
 	
 	CAL_benjamin_oliver_davis_sr = {
 		name = CAL_benjamin_oliver_davis_sr
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Benjamin_Oliver_davis_Sr.dds"
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				career_officer
 				organizer
@@ -704,13 +706,13 @@ characters = {
 	
 	CAL_hobart_raymond_gay = {
 		name = CAL_hobart_raymond_gay
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Hobart_Raymond_Gay.dds"
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				panzer_leader
 				armor_officer
@@ -735,6 +737,7 @@ characters = {
             }
         }
         corps_commander = {
+			desc = 
             traits = {
 				infantry_leader
 				infantry_expert
@@ -754,13 +757,13 @@ characters = {
 	##############################
 	CAL_john_daniel_lavelle = {
 		name = CAL_john_daniel_lavelle
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_John_Daniel_Lavelle.dds"
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				commando
 				paratrooper
@@ -776,7 +779,6 @@ characters = {
 	
 	CAL_james_harold_doolittle = {
 		name = CAL_james_harold_doolittle
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_James_Harold_Doolittle.dds"
@@ -784,6 +786,7 @@ characters = {
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				career_officer
 				trickster
@@ -799,13 +802,13 @@ characters = {
 	
 	CAL_mark_wayne_clark = {
 		name = CAL_mark_wayne_clark
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Mark_Wayne_Clark.dds"
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				reckless
 				infantry_officer
@@ -821,13 +824,13 @@ characters = {
 	
 	CAL_claire_lee_chennault = {
 		name = CAL_claire_lee_chennault
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Claire_Lee_Chennault.dds"
 			}
 		}
 		corps_commander = {
+			desc = 
 			traits = {
 				cautious
 				career_officer
@@ -843,13 +846,13 @@ characters = {
 	
 	CAL_joseph_may_swing = {
 		name = CAL_joseph_may_swing
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Joseph_May_Swing.dds"
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				career_officer
 				artillery_officer
@@ -866,13 +869,13 @@ characters = {
 	
 	CAL_john_lesesne_dewitt = {
 		name = CAL_john_lesesne_dewitt
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_John_Lesesne_DeWwitt.dds"
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				inflexible_strategist
 				cautious
@@ -888,14 +891,14 @@ characters = {
 	
 	CAL_leonard_townsend_gerow = {
 		name = CAL_leonard_townsend_gerow
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Leonard_Townsend_gerow.dds"
 				small = GFX_fish
 			}
 		}
-		corps_commander = { 
+		corps_commander = {
+			desc =  
 			traits = {
 				armor_officer
 				panzer_leader
@@ -910,7 +913,6 @@ characters = {
 	
 	CAL_ulysses_simpson_grant_iii = {
 		name = CAL_ulysses_simpson_grant_iii
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Ulysses_Simpson_grant_III.dds"
@@ -918,6 +920,7 @@ characters = {
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				infantry_leader
 				media_personality
@@ -943,6 +946,7 @@ characters = {
             }
         }
         corps_commander = {
+			desc = 
             traits = {
 				organizer
 				trait_reckless
@@ -961,13 +965,13 @@ characters = {
 	############################
 	CAL_charity_edna_adams_earley = {
 		name = CAL_charity_edna_adams_earley
-		desc = 
 		portraits = {
 			army = { 
 				large = "gfx/leaders/CAL/Portrait_CAL_Charity_Edna_Adams_Earley.dds"
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				reckless
 				media_personality
@@ -983,13 +987,13 @@ characters = {
 	
 	CAL_elizabeth_coleman = {
 		name = CAL_elizabeth_coleman
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Elizabeth_Coleman.dds"
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				engineer
 				trait_reckless
@@ -1006,13 +1010,13 @@ characters = {
 	
 	CAL_james_cordie_dozier = {
 		name = CAL_james_cordie_dozier
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_James_Cordie_Dozier.dds"
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				skilled_staffer
 				infantry_leader
@@ -1030,7 +1034,6 @@ characters = {
 	
 	CAL_hayes_adlai_ashby_clarke_kroner = {
 		name = CAL_hayes_adlai_ashby_clarke_kroner
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Hayes_Adlai_Ashby_Clarke_Kroner.dds"
@@ -1038,6 +1041,7 @@ characters = {
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				trait_cautious
 				inflexible_strategist
@@ -1052,13 +1056,13 @@ characters = {
 	
 	CAL_daring_do = {
 		name = CAL_daring_do
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Daring_Do.dds"
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				recon_expert
 				trait_reckless
@@ -1078,13 +1082,13 @@ characters = {
 	############################
 	CAL_john_fujio_aiso = {
 		name = CAL_john_fujio_aiso
-		desc =
 		portraits = {
 			army = { 
 				large = GFX_fish
 			}
 		}
 		corps_commander = {
+			desc =
 			traits = {
 				politically_connected
 				trickster
@@ -1102,7 +1106,6 @@ characters = {
 	#############################
 	CAL_ernest_joseph_king = {
 		name = CAL_ernest_joseph_king
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Ernest_Joseph_King.dds"
@@ -1113,6 +1116,7 @@ characters = {
 			}
 		}
 		navy_leader = {
+			desc =
 			traits = { 
 				superior_tactician
 				aviation_enthusiast
@@ -1138,7 +1142,6 @@ characters = {
 	
 	CAL_chester_william_nimitz = {
 		name = CAL_chester_william_nimitz
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_Chester_William_Nimitz.dds"
@@ -1149,6 +1152,7 @@ characters = {
 			}
 		}
 		navy_leader = {
+			desc =
 			traits = {
 				gentlemanly
 				naval_lineage
@@ -1178,7 +1182,6 @@ characters = {
 	#############################
 	CAL_william_daniel_Leahy = {
 		name = CAL_william_daniel_Leahy
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_William_Daniel_Leahy.dds"
@@ -1189,6 +1192,7 @@ characters = {
 			}
 		}
 		navy_leader = {
+			desc = 
 			traits = {
 				ironside
 				superior_tactician 
@@ -1212,7 +1216,6 @@ characters = {
 
 	CAL_william_fredrick_halsey_jr = {
 		name = CAL_william_fredrick_halsey_jr
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_William_Fredrick_Halsey_Jr.dds"
@@ -1220,6 +1223,7 @@ characters = {
 			}
 		}
 		navy_leader = {
+			desc = 
 			traits = {
 				bold
 				aviation_enthusiast
@@ -1244,7 +1248,6 @@ characters = {
 	
 	CAL_arleigh_albert_burke = {
 		name = CAL = CAL_arleigh_albert_burke
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Arleigh_Albert_Burke.dds"
@@ -1252,6 +1255,7 @@ characters = {
 			}
 		}
 		navy_leader = {
+			desc =
 			traits = {
 				old_guard_navy
 				bold
@@ -1271,7 +1275,6 @@ characters = {
 	##############################
 	CAL_samuel_Lee_gravely_jr = {
 		name = CAL = CAL_samuel_Lee_gravely_jr
-		desc = 
 		portraits = {
 			army = {
 				large = 
@@ -1279,6 +1282,7 @@ characters = {
 			}
 		}
 		navy_leader = {
+			desc = 
 			traits = { 
 				superior_tactician
 				spotter
@@ -1295,7 +1299,6 @@ characters = {
 
 	CAL_issac_campbell_kidd_sr = {
 		name = CAL_issac_campbell_kidd_sr
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Issac_Campbell_Kidd_Sr.dds"
@@ -1303,6 +1306,7 @@ characters = {
 			}
 		}
 		navy_leader = {
+			desc =
 			traits = {
 				blockade_runner
 				bold
@@ -1318,7 +1322,6 @@ characters = {
 
 	CAL_felix_budwell_stump = {
 		name = CAL_felix_budwell_stump
-		desc = 
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Felix_Budwell_Stump.dds"
@@ -1326,6 +1329,7 @@ characters = {
 			}
 		}
 		navy_leader = {
+			desc =
 			traits = {
 				superior_tactician
 				blue_water_expert

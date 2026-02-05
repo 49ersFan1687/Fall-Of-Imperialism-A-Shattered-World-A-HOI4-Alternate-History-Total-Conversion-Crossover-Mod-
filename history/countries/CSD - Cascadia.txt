@@ -68,4 +68,4 @@ recruit_character = CSD_carlos_vallerte
 recruit_character = CSD_kay
 recruit_character = CSD_darjeeling
 
-# Second Continental Army Cascaian Branch - 
+# Second Continental Army Cascaian Branch - Death Weapon Meister Academy Generals () #

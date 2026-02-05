@@ -179,9 +179,9 @@ characters = {
             }
             skill = 4
             attack_skill = 4
-            defense_skill = 4
-            planning_skill = 2
-            logistics_skill = 1
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 3
         }
     }
 
