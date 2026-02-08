@@ -65,7 +65,7 @@ focus_tree = {
     shared_focus = CAL_the_formation_of_the_pacific_states_of_america
     shared_focus = CAL_begin_the_total_overhaul_of_the_psa_military
     shared_focus = CAL_the_economy_of_the_pacific_states_of_america
-    shared_focus = CAL_utilize_the_secretary_of_state_office
+    shared_focus = CAL_achesons_department_of_state
     continuous_focus_position = { x = 450 y = 200 }
 }
 
@@ -11980,7 +11980,7 @@ shared_focus = {
 ### Focus Tree - Regional Stage: Civilian Democracy -  Foreign Policy Focus Tree ###
 ####################################################################################
 shared_focus = {
-	id = CAL_utilize_the_secretary_of_state_office
+	id = CAL_achesons_department_of_state
 	icon = GFX
 	cost = 3
 	available_if_capitulated = no
@@ -11990,6 +11990,113 @@ shared_focus = {
 	x = 32
 	y = 16
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_utilize_the_secretary_of_state_office"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_achesons_department_of_state"
 	}
 }
+
+###########################################################################################
+### Focus Tree - Regional Stage: Civilian Democracy - Foreign Policy Focus Tree - Japan ###
+###########################################################################################
+shared_focus = {
+    id = CAL_looking_towards_the_setting_sun
+    icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_achesons_department_of_state
+    }
+    x = -5
+    y = 1
+    relative_position_id = CAL_achesons_department_of_state
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_looking_towards_the_setting_sun"
+	}
+}
+
+
+
+############################################################################################
+### Focus Tree - Regional Stage: Civilian Democracy - Foreign Policy Focus Tree - Canada ###
+############################################################################################
+shared_focus = {
+    id = CAL_vancouver_sitdowns
+    icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_achesons_department_of_state
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_achesons_department_of_state
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_vancouver_sitdowns"
+	}
+}
+
+
+
+#############################################################################################
+### Focus Tree - Regional Stage: Civilian Democracy - Foreign Policy Focus Tree - Germany ###
+#############################################################################################
+shared_focus = {
+    id = CAL_peering_east
+    icon = GFX
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_achesons_department_of_state
+    }
+    x = 5
+    y = 1
+    relative_position_id = CAL_achesons_department_of_state
+    completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_peering_east"
+	}
+}
+
+
+############################################################################################
+### Focus Tree - Superregional Stage: Civilian Democracy -  Initial Political Focus Tree ###
+############################################################################################
+
+
+
+############################################################################################
+### Focus Tree - Superregional Stage: Military Democracy -  Initial Political Focus Tree ###
+############################################################################################
+
+
+
+###############################################################################################
+### Focus Tree - Superregional Stage: Cavalier Faction Coup -  Initial Political Focus Tree ###
+###############################################################################################
+
+
+
+#########################################################################################
+### Focus Tree - Post-Unification: Civilian Democracy -  Initial Political Focus Tree ###
+#########################################################################################
+
+
+
+#########################################################################################
+### Focus Tree - Post-Unification: Military Democracy -  Initial Political Focus Tree ###
+#########################################################################################
+
+
+
+############################################################################################
+### Focus Tree - Post-Unification: Cavalier Faction Coup -  Initial Political Focus Tree ###
+############################################################################################
+
+

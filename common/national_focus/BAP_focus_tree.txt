@@ -337,7 +337,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = BAP_begin_the_american_socialist_experiment
+    id = BAP_preparations_for_the_american_socialist_experiment
     icon = GFX
     cost = 5
     available_if_capitualted = no
@@ -357,7 +357,6 @@ shared_focus = {
     y = 2
     relative_position_id = BAP_socialist_rifle_administration_militias
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: completed focus BAP_begin_the_american_socialist_experiment"
-        mark_focus_tree_layout_dirty = yes
+        log = "[GetDateText]: [Root.GetName]: completed focus BAP_preparations_for_the_american_socialist_experiment"
     }
 }

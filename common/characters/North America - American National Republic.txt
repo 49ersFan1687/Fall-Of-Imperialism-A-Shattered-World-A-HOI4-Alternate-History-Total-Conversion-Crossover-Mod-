@@ -1,6 +1,6 @@
 characters = {
     ##############################
-    ### German Reichskommisars ###
+    ### German Reichskommissars ###
     ##############################
     ANR_fritz_julius_kuhn = {
         name = ANR_fritz_julius_kuhn
@@ -49,8 +49,6 @@ characters = {
             logistics_skill =
         }
     }
-
-
 
     #######################
     ### Country Leaders ###
@@ -296,6 +294,29 @@ characters = {
             logistics_skill = 4
         }
     }
+    
+    ANR_charles_augustus_lindbergh = {
+        name = ANR_charles_augustus_lindbergh
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            desc = 
+            traits = {
+
+            }
+            skill = 4
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 2
+        }
+    }
 
     ##############################
 	### Generals - Level Three ###
@@ -353,6 +374,31 @@ characters = {
         }
     }
     
+    ANR_edwin_anderson_walker = {
+        name = ANR_edwin_anderson_walker
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            desc = 
+            traits = {
+                air_commander
+                artillery_officer
+                politically_connected
+            }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 5
+            logistics_skill = 2
+        }
+    }
+    
     ############################
 	### Generals - Level Two ###
 	############################
@@ -403,5 +449,7 @@ characters = {
 	### Operatives ###
 	##################
 
+    
 
+    
 }
