@@ -166,11 +166,12 @@ characters = {
 				armor_officer
 				panzer_leader
 				skilled_staffer
+				offensive_doctrine
 			}
 			skill = 5
-			attack_skill = 4
+			attack_skill = 6
 			defense_skill = 4
-			planning_skill = 3
+			planning_skill = 4
 			logistics_skill = 5
 		}
 	}
