@@ -108,8 +108,8 @@ characters = {
     #####################################################
     ### Midwestern American Republic - Field Marshals ###
 	#####################################################
-    MAR_Douglas_Macarthur = {
-        name = MAR_Douglas_Macarthur
+    MAR_douglas_macarthur = {
+        name = MAR_douglas_macarthur
         portraits = {
             army = {
                 large = GFX_fish
@@ -159,14 +159,14 @@ characters = {
                 large = GFX_fish
             }
             army = {
-                large = GFX_fish
+                large = "gfx/leaders/MAR/Portrait_MAR_Joseph_Taggart_Mcnarney.dds"
             }
         }
         field_marshal = {
             traits = {
                 trait_reckless
                 thorough_planner
-
+                artillery_officer
             }
             skill =
             attack_skill =
