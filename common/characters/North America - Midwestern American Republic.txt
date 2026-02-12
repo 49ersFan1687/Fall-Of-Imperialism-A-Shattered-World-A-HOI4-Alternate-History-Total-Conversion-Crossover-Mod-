@@ -189,10 +189,11 @@ characters = {
         name = MAR_alexander_archer_vandegrift
         portraits = {
             civilian = {
-                large = GFX_fish
+                large = "gfx/leaders/MAR/Portrait_MAR_Alexander_Archer_Vandegrift.dds"
+                small = GFX_fish
             }
             army = {
-                large = GFX_fish
+                large = "gfx/leaders/MAR/Portrait_MAR_Alexander_Archer_Vandegrift.dds"
             }
         }
         corps_commander = {

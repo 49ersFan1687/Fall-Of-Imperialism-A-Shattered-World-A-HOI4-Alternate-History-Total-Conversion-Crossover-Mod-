@@ -1251,7 +1251,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/CAL/Portrait_CAL_Arleigh_Albert_Burke.dds"
-				small =
+				small = GFX_fish
 			}
 		}
 		navy_leader = {
@@ -1277,8 +1277,8 @@ characters = {
 		name = CAL = CAL_samuel_Lee_gravely_jr
 		portraits = {
 			army = {
-				large = 
-				small =
+				large = GFX_fish
+				small = GFX_fish
 			}
 		}
 		navy_leader = {

@@ -2590,15 +2590,113 @@ characters = {
 	#################################################################
 	### Sensha-Do Clique - Moderate Faction Generals - Level Five ###
 	#################################################################
+	CSD_maho_nishizumi = {
+		name = CSD_maho_nishizumi
+		portraits = {
+		    civilian = {
+				small = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+				small = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = { 
+				brilliant_strategist
+				artillery_officer
+				panzer_leader
+				trickster
+				media_personality
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
 
-
+	
 
     #################################################################
 	### Sensha-Do Clique - Moderate Faction Generals - Level Four ###
 	#################################################################
+	CSD_katyusha = {
+		name = CSD_katyusha
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {
+				harsh_leader
+				panzer_leader
+				winter_specialist
+				trickster
+			}
+			skill = 
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
 	
-
-
+	CSD_nonna = {
+		name = CSD_nonna
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {
+				panzer_leader
+				winter_specialist
+				trickster
+				politically_connected
+				armor_officer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	
+	CSD_anchovy = {
+		name = CSD_anchovy
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				media_personality
+				panzer_leader
+				armor_officer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
 
     ##################################################################
 	### Sensha-Do Clique - Moderate Faction Generals - Level Three ###
@@ -2615,45 +2713,9 @@ characters = {
     ################################################################
 	### Sensha-Do Clique - Moderate Faction Generals - Level One ###
 	################################################################
-	CSD_katyusha = {
-		name = CSD_katyusha
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-		field_marshal = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill = 
-		}
-	}
+	
 
-	CSD_nonna = {
-		name = CSD_nonna
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-		field_marshal = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill = 
-		}
-	}
+	
 
 	# Sensha-Do Clique - The Moderates (Generals) #
 	CSD_yukari_akiyama = {

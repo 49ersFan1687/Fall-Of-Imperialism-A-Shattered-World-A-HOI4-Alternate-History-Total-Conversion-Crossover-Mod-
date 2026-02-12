@@ -1,6 +1,7 @@
 characters = {
-
-    # Country Leaders #
+    #######################
+    ### Country Leaders ###
+    #######################
     CAN_Louis_Stephen_St_Laurent = {
         name = CAN_Louis_Stephen_St_Laurent
         portraits = {
@@ -52,16 +53,16 @@ characters = {
         }
     }
 
-    # Advisors #
+
+    ########################
+	### Country Advisors ###
+	########################
 
 
-    # Canadian Field Marshals #
-    
 
-    # Canadian Generals #
-
-
-    # British Exiles Field Marshals #
+    #######################################
+    ### British Exiles - Field Marshals ###
+	#######################################
     CAN_Bernard_Law_Montgomery = {
         name = CAN_Bernard_Law_Montgomery
         portraits = {
@@ -102,7 +103,9 @@ characters = {
         }
     }
 
-    # British Exiles Generals #
+    ##############################################
+	### British Exiles - Generals - Level Five ###
+	##############################################
     CAN_alan_gordon_cunningham = {
         name = CAN_alan_gordon_cunningham
          portraits = {
@@ -124,6 +127,73 @@ characters = {
 			logistics_skill = 
 		}
     }
+
+
+    ##############################################
+	### British Exiles - Generals - Level Four ###
+	##############################################
+
+
+
+    ###############################################
+	### British Exiles - Generals - Level Three ###
+	###############################################
+
+
+
+    #############################################
+	### British Exiles - Generals - Level Two ###
+	#############################################
+
+
+
+    #############################################
+	### British Exiles - Generals - Level One ###
+	#############################################
+
+
+
+	##############################################
+	### British Exiles - Admirals - Level Five ###
+	##############################################
+
+
+
+	##############################################
+	### British Exiles - Admirals - Level Four ###
+	##############################################
+
+
+
+	###############################################
+	### British Exiles - Admirals - Level Three ###
+	###############################################
+
+
+	#############################################
+	### British Exiles - Admirals - Level Two ###
+	#############################################
+
+
+	#############################################
+	### British Exiles - Admirals - Level One ###
+	#############################################
+	
+
+
+	##################
+	### Scientists ###
+	##################
+
+
+	
+	##################
+	### Operatives ###
+	##################
+    
+
+    # British Exiles Generals #
+    
 
 
     # Royal Navy Admirals #
