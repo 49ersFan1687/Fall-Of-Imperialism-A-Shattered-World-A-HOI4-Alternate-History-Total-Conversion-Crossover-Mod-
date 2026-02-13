@@ -104,7 +104,9 @@ leader_traits = {
 		}
 	}
 
+	##############################################
 	### Oregon Military District Leader Traits ###
+	##############################################
 	OPM_beat_the_odds = {
 		sprite = 13
 		war_support_factor = 0.15
@@ -122,6 +124,7 @@ leader_traits = {
 			factor = 2
 		}
 	}
+
 	### American Warlord Traits ###
 	ELI_eco_anarchist = {
 		sprite = 13
@@ -132,29 +135,39 @@ leader_traits = {
 			factor = 2
 		}
 	}
+
+	###############################################################
 	### Soviet Directorate of National Liberation Leader Traits ###
-	SDL_the_old_warhorse = {
+	###############################################################
+	SDL_the_old_warhorse = { ### Budyonny ###
 		random = no
 
 	}
 
-	SDL_the_peoples_marshal = {
+	SDL_the_peoples_marshal = { ### Zhukov ###
 		random = no
 		
 	}
 
-	SDL_the_red_bonaparte = {
+	SDL_the_red_bonaparte = { ### Tukhachevsky ###
 		random = no
 		army_org_factor = 0.05
 		army_attack_factor = 0.06
 		army_defence_factor = 0.06
 	}
 
-	SDL_the_hero_of_the_civil_war = {
+	SDL_the_hero_of_the_civil_war = { ### Frunze ###
 		random = no
 		stability_factor = 0.05
 		war_support_factor = 0.05	
 	}
 
+	#######################################################
 	### Provisional Authority of Cascadia Leader Traits ###
+	#######################################################
+	CSD_the_iron_mare = {
+		random = no
+		army_recovery_factor = 0.05
+		army_attack_factor = 0.05
+	}
 }

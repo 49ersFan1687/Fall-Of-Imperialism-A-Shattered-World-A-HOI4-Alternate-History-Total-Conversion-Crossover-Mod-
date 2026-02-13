@@ -1135,7 +1135,7 @@ characters = {
 			idea_token = ernest_joseph_king
 			ledger = navy
 			traits = {
-
+				navy_chief_decisive_battle_3
 			}
 		 }
 	}
@@ -1204,7 +1204,7 @@ characters = {
 			coordination_skill = 4
 		}
 		advisor = { 
-			slot = 
+			slot = high_command
 			idea_token = william_daniel_leahy
 			ledger = navy
 			allowed = { original_tag = CAL }
@@ -1237,8 +1237,8 @@ characters = {
 			coordination_skill = 2
 		}
 		advisor = { 
-			slot = 
-			idea_token = 
+			slot = high_command
+			idea_token = william_fredrick_halsey_jr
 			ledger = navy
 			traits = {
 

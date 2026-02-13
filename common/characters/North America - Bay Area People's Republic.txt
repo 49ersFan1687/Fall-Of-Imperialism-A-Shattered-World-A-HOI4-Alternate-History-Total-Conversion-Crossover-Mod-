@@ -96,6 +96,7 @@ characters = {
 				panzer_leader
 				trickster
 			}
+			skill = 4
             attack_skill = 3
             defense_skill = 2
             planning_skill = 3
