@@ -20,7 +20,11 @@ characters = {
             }
         }
         field_marshal = {
-            traits = { invader }
+            traits = {
+                invader
+                commando
+                
+            }
             skill = 
             attack_skill = 
             defense_skill = 

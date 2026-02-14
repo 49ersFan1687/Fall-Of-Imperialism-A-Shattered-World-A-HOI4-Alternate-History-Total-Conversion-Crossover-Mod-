@@ -939,10 +939,10 @@ characters = {
 		name = CSD_twilight_sparkle
 		portraits = {
 			civilian = {
-				large = 
+				large = GFX_fish
 			}
 			army = {
-				large = 
+				large = GFX_fish
 			}
 		}
 		field_marshal = {
@@ -1092,6 +1092,27 @@ characters = {
 			attack_skill = 4
 			defense_skill = 2
 			planning_skill = 4
+			logistics_skill = 3
+		}
+		gender = female
+	}
+	
+	CSD_gilda = {
+		name = CSD_gilda
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
 			logistics_skill = 3
 		}
 		gender = female
@@ -1276,26 +1297,6 @@ characters = {
 			logistics_skill = 2
 		}
 		gender = female
-	}
-
-	CSD_radiant_hope = {
-		name = CSD_radiant_hope
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill = 
-		}
 	}
 
 	CSD_arctic_lilly = {

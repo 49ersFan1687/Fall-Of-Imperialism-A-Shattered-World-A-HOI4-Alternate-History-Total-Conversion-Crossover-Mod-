@@ -1,5 +1,9 @@
 #!gfx:interface/country/usa/CAL_focus.gfx
+
+####################################################################################################################################
 #### CALIFORNIA REPUBLIC FOCUS TREE By Aide of General Eisenhower, with Suggestions from Ike, Charcoalkat, LilBro08, and Emilia ####
+####################################################################################################################################
+
 focus_tree = {
     id = CAL_starting_focus_tree
     country = {
