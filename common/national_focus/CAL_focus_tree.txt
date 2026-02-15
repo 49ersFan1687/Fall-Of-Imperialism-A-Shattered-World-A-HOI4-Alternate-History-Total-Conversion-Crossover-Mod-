@@ -74,6 +74,20 @@ focus_tree = {
 }
 
 focus_tree = {
+    id = CAL_superregional_stage_civilian_democracy_focus_tree
+    country = {
+		factor = 0
+		modifier = { 
+            add = 10
+            tag = CAL
+        }
+	}
+    default = no
+    continuous_focus_position = { x = 450 y = 200 }
+    shared_focus = CAL_
+}
+
+focus_tree = {
     id = CAL_superregional_stage_military_aligned_democracy_focus_tree
     country = {
 		factor = 0
@@ -88,19 +102,6 @@ focus_tree = {
 
 focus_tree = {
     id = CAL_superregional_stage_cavalier_faction_focus_tree
-    country = {
-		factor = 0
-		modifier = { 
-            add = 10
-            tag = CAL
-        }
-	}
-    default = no
-    continuous_focus_position = { x = 450 y = 200 }
-}
-
-focus_tree = {
-    id = CAL_superregional_stage_civilian_democracy_focus_tree
     country = {
 		factor = 0
 		modifier = { 
@@ -12690,7 +12691,20 @@ shared_focus = {
 ############################################################################################
 ### Focus Tree - Superregional Stage: Civilian Democracy -  Initial Political Focus Tree ###
 ############################################################################################
-
+shared_focus = {
+    id = CAL_
+    icon = GFX_
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    x = 25
+	y = 0
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_against_tyranny_in_all_forms"
+    }
+}
 
 
 ############################################################################################

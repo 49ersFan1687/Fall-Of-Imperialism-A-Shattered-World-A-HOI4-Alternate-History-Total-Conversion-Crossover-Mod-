@@ -1,7 +1,9 @@
 ideas = {
-### Country Ideas - California Republic ###
+### Country Ideas - California Republic - Made by Aide of General Eisenhower, Giga-Cube ###
 
+#######################
 #### STARTING IDEAS ###
+#######################
     country = {
         ### Starting Ideas - The Long March West ###
         CAL_the_long_march_west = {
@@ -149,7 +151,9 @@ ideas = {
             }
         }
 
+###########################################
 #### DEALING WITH THE DEPRESSION IDEAS ####
+###########################################
         CAL_the_greater_depression1 = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_greater_depression1" }
             allowed = { always = no }
@@ -206,7 +210,9 @@ ideas = {
 
 ### ECONOMIC TREE IDEAS ###
 
+###############################################################
 #### ARMY REFORM IDEAS - GENERAL-SPECIFIC REFORM PLAN IDEAS ###
+###############################################################
 
         ### Army Reform Ideas - Dwight David Eisenhower ###
         CAL_Eisenhowers_vision1 = { # Eisenhower's Army Reform Plan - Return to Form - Part One
@@ -470,7 +476,9 @@ ideas = {
             }
         }
 
+###########################################################################
 ### ARMY REFORM IDEAS - SHARED IDEAS - ADVICE FROM THE MILITARY MISSION ###
+###########################################################################
 
         ### Canadian Military Mission ####
         CAL_alexander_advice = { # General Alexander has been chosen to help Improve the Second Continental Army #
@@ -501,8 +509,9 @@ ideas = {
             }
         }
 
+##############################################################
 ### ARMY REFORM IDEAS - SHARED IDEAS - LIASON IMPROVEMENTS ###
-
+##############################################################
         CAL_the_permanant_canadian_liason1 = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_permanant_canadian_liason" }
             allowed = { always = no }
@@ -513,15 +522,36 @@ ideas = {
             }
         }
 
+##################################################################################
 ### ARMY REFORM IDEAS - SHARED IDEAS - UPGRADES FOR THE SECOND CONTIENTAL ARMY ###
+##################################################################################
 
         CAL_a_new_military_industrial_complex = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_new_military_industrial_complex" }
             allowed = { always = no }
             picture = new_military_industrial_complex
             modifier = {
-
-            }    
+                political_power_gain = 0.15
+                production_factory_start_efficiency_factor = 0.15
+                production_factory_efficiency_gain_factor = 0.15
+                industrial_capacity_factory = 0.1
+				party_popularity_stability_factor = 0.2
+				research_speed_factor = 0.10
+            }
+            equipment_bonus = {
+                infantry_equipment = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				motorized_equipment = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+                armor = {
+                    build_cost_ic = -0.15
+                    instant = yes
+                }
+			}    
         }
 
         CAL_pershings_legacy = {
@@ -533,7 +563,9 @@ ideas = {
            }    
         }
 
+###################################################################
 ### AIR FORCE REFORM IDEAS - GENERAL-SPECIFIC REFORM PLAN IDEAS ###
+###################################################################
 
         ### Air Force Reform Ideas - Henry "Hap" Arnold ###
         CAL_arnold_reform_plan1 = { # Arnold's Air Force Reform Plan - Versatile Air Force - Part One
@@ -673,11 +705,17 @@ ideas = {
             }
         }
 
+#############################################
 ### AIR FORCE REFORM IDEAS - SHARED IDEAS ###
+#############################################
+        CAL_
 
 
+
+##################################################
 ### NAVY REFORM IDEAS - ADMIRAL-SPECIFIC IDEAS ###        
-        
+##################################################
+
         ### Navy Reform Ideas - William Daniel Leahy ###
         CAL_leahy_reform_plan1 = { # Leahy's Navy Reform Plan - Coastal Defense Fleet - Part One
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_leahy_reform_plan1" }
@@ -770,7 +808,9 @@ ideas = {
             }
         }
 
+########################################
 ### NAVY REFORM IDEAS - SHARED IDEAS ###
+########################################
         CAL_the_puller_plan1 = { # The Puller Plan - Part One
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_puller_plan1" }
             allowed = { always = no }
@@ -807,8 +847,46 @@ ideas = {
             }
         }
     }
+
+################################################
+### Industrial Companies/Industrial Concerns ###
+################################################
+    induststrial_concern = {
+
+    }
+
+
+
+#############################
+### Weapons Manufacturers ###
+#############################
+    tank_manufacturer = {
+		
+	}
+
+##########################
+### Tank Manufacturers ###
+##########################
+    tank_manufacturer = {
+
+		
+	}
+
+###########################
+### Naval Manufacturers ###
+###########################
+    naval_manufacturer = {
+		designer = yes
+		
+		
+	}
+
+
+##############################
+### Aircraft Manufacturers ###
+##############################
+    aircraft_manufacturer = {
+        designer = yes
+    }
 }
 
-
-
-### Industrial Companies ###
