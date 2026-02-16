@@ -8700,6 +8700,17 @@ shared_focus = {
     relative_position_id = CAL_begin_the_total_overhaul_of_the_psa_military
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_addressing_each_military_branch"
+        swap_ideas = {
+            remove_idea = CAL_a_shattered_army
+            add_idea = CAL_a_shattered_army1
+        }
+        swap_ideas = {
+            remove_idea = CAL_an_outdated_air_force
+            add_idea = CAL_an_outdated_air_force1
+        }
+        army_experience = 20
+        air_force_experience = 20
+        navy_experience = 20
     }
 }
 
@@ -8722,6 +8733,10 @@ shared_focus = {
     relative_position_id = CAL_addressing_each_military_branch
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_the_pacific_states_air_force"
+        swap_ideas = {
+            remove_idea = CAL_an_outdated_air_force1
+            add_idea = CAL_an_outdated_air_force2
+        }
     }
 }
 
@@ -8745,7 +8760,10 @@ shared_focus = {
     relative_position_id = CAL_the_pacific_states_air_force
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_legacy_of_the_usaaf"
-        add_idea = CAL_chennault_reform_plan1
+        swap_ideas = {
+            remove_idea = CAL_an_outdated_air_force2
+            add_idea = CAL_chennault_reform_plan1
+        }
     }
 }
 
@@ -8769,7 +8787,10 @@ shared_focus = {
     relative_position_id = CAL_the_pacific_states_air_force
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_a_versatile_air_fleet"
-        add_idea = CAL_arnold_reform_plan1
+        swap_ideas = {
+            remove_idea = CAL_an_outdated_air_force2
+            add_idea = CAL_arnold_reform_plan1
+        }
     }
 }
 
@@ -8793,7 +8814,10 @@ shared_focus = {
     relative_position_id = CAL_the_pacific_states_air_force
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_going_with_lemays_reform_plan"
-        add_idea = CAL_lemay_reform_plan1
+        swap_ideas = {
+            remove_idea = CAL_an_outdated_air_force2
+            add_idea = CAL_lemay_reform_plan1
+        }
     }
 }
 
@@ -9322,6 +9346,10 @@ shared_focus = {
     relative_position_id = CAL_addressing_each_military_branch
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_the_pacific_states_army"
+        swap_ideas = {
+            remove_idea = CAL_a_shattered_army1
+            add_idea = CAL_a_shattered_army2
+        }
     }
 }
 
@@ -9346,7 +9374,10 @@ shared_focus = {
 	relative_position_id = CAL_the_pacific_states_army
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_eisenhowers_doctrine_return_to_form"
-		add_ideas = CAL_Eisenhowers_vision1
+        swap_ideas = {
+            remove_idea = CAL_a_shattered_army2
+            add_idea = CAL_Eisenhowers_vision1
+        }
 		add_doctrine_cost_reduction = {
 			name = land_doc_bonus
 			cost_reduction = 0.5
@@ -9377,7 +9408,10 @@ shared_focus = {
 	relative_position_id = CAL_the_pacific_states_army
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_westmorelands_doctrine_brute_force"
-		add_ideas = CAL_westmorelands_vision1
+        swap_ideas = {
+            remove_idea = CAL_a_shattered_army2
+            add_idea = CAL_westmorelands_vision1
+        }
 		add_doctrine_cost_reduction = {
 			name = land_doc_bonus
 			cost_reduction = 0.5
@@ -9408,7 +9442,10 @@ shared_focus = {
 	relative_position_id = CAL_the_pacific_states_army
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_pattons_doctrine_army_of_the_future"
-		add_ideas = CAL_Pattons_vision1
+        swap_ideas = {
+            remove_idea = CAL_a_shattered_army2
+            add_idea = CAL_Pattons_vision1
+        }
 		add_doctrine_cost_reduction = {
 			name = land_doc_bonus
 			cost_reduction = 0.5
@@ -9439,7 +9476,10 @@ shared_focus = {
 	relative_position_id = CAL_the_pacific_states_army
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_marshall_modern_minuteman"
-		add_ideas = CAL_marshalls_vision1
+        swap_ideas = {
+            remove_idea = CAL_a_shattered_army2
+            add_idea = CAL_marshalls_vision1
+        }
 		add_doctrine_cost_reduction = {
 			name = land_doc_bonus
 			cost_reduction = 0.5
@@ -10305,10 +10345,10 @@ shared_focus = {
 	relative_position_id = CAL_a_drive_towards_a_fully_mechanized_and_motorized_army
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_renewed_west_point_spirit"
+        add_ideas = CAL_new_west_point_spirit
 		every_unit_leader = {
 			add_attack = 1
 			add_defense = 1
-			add_logistics = 1
 			add_planning = 1
 		}
 		add_tech_bonus = {
