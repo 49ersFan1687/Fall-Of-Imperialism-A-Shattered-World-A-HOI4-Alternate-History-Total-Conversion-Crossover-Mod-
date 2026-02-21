@@ -2,8 +2,8 @@ characters = {
     #######################
     ### Country Leaders ###
     #######################
-    NCA_curtis_emerson_lemay = {
-        name = NCA_curtis_emerson_lemay
+    NCA_yugi_moto = {
+        name = NCA_yugi_moto
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -13,7 +13,7 @@ characters = {
             }
         }
         country_leader = {
-            desc = "POLITICS_CURTIS_LEMAY_DESC"
+            desc = "POLITICS_YUGI_MOTO_DESC"
             expire = "1995.8.20"
             ideology = democratic_stratocracy_ideology
             traits = {
@@ -23,15 +23,16 @@ characters = {
         field_marshal = {
             traits = {
                 politically_connected
-                trait_reckless
-                air_commander
+                infantry_officer
+                infantry_leader
+                infantry_expert
             }
-            skill = 3
-            attack_skill = 3
-            defense_skill = 3
-            planning_skill = 3
-            logistics_skill = 3
         }
+        skill = 3
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 4
+            logistics_skill = 3
     }
 
     ########################

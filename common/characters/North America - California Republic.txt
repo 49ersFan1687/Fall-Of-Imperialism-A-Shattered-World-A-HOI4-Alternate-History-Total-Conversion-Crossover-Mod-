@@ -328,8 +328,7 @@ characters = {
 		name = CAL_spitfire
 		portraits = {
 			army = {
-				large =
-				small = 
+				large = GFX_fish
 			}
 		}
 		field_marshal = {
@@ -346,6 +345,39 @@ characters = {
 			logistics_skill = 4
         }
 	}
+
+	CAL_curtis_emerson_lemay = {
+        name = CAL_curtis_emerson_lemay
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/CAL/Portrait_CAL_Curtis_Emerson_Lemay.dds"
+            }
+            army = {
+                large = "gfx/leaders/CAL/Portrait_CAL_Curtis_Emerson_Lemay.dds"
+				small = GFX_fish
+            }
+        }
+        field_marshal = {
+            traits = {
+                politically_connected
+                trait_reckless
+                air_commander
+            }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 3
+        }
+		advisor = {
+			cost = 200
+			slot = air_chief
+			idea_token = curtis_emerson_lemay
+			traits = {
+				air_chief_reform_3
+			}
+		}
+    }
 
 	#############################
 	### Generals - Level Five ###

@@ -8708,6 +8708,10 @@ shared_focus = {
             remove_idea = CAL_an_outdated_air_force
             add_idea = CAL_an_outdated_air_force1
         }
+        swap_ideas = {
+            remove_idea = CAL_the_mothballed_navy
+            add_idea = CAL_the_mothballed_navy1
+        }
         army_experience = 20
         air_force_experience = 20
         navy_experience = 20
@@ -10383,6 +10387,10 @@ shared_focus = {
     relative_position_id = CAL_addressing_each_military_branch
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_the_pacific_states_navy"
+        swap_ideas = {
+            remove_idea = CAL_the_mothballed_navy1
+            add_idea = CAL_the_mothballed_navy2
+        }
     }
 }
 
@@ -10402,6 +10410,10 @@ shared_focus = {
     relative_position_id = CAL_the_pacific_states_navy
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_the_first_new_naval_budget"
+        swap_ideas = {
+            remove_idea = CAL_the_mothballed_navy2
+            add_idea = CAL_the_mothballed_navy3
+        }
     }
 }
 
@@ -10424,7 +10436,10 @@ shared_focus = {
     relative_position_id = CAL_the_first_new_naval_budget
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_admiral_leahys_model"
-        add_ideas = CAL_leahy_reform_plan1
+        swap_ideas = {
+            remove_idea = CAL_the_mothballed_navy3
+            add_idea = CAL_leahy_reform_plan1
+        }
     }
 }
 
@@ -10447,7 +10462,10 @@ shared_focus = {
     relative_position_id = CAL_the_first_new_naval_budget
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_follow_nimitz_and_kings_reform_plan"
-        add_ideas = CAL_nimitz_king_reform_plan1
+        swap_ideas = {
+            remove_idea = CAL_the_mothballed_navy3
+            add_idea = CAL_nimitz_king_reform_plan1
+        }    
     }
 }
 

@@ -22,6 +22,7 @@ ideologies = {
 			juche_ideology = { }
 			communism_spartakism_ideology = { }
 			stratocratic_communism_ideology = { }
+			communism_market_leninism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 117 20 13 }
@@ -42,6 +43,7 @@ ideologies = {
 			syndicalism_spartakism_ideology = { }
 			stratocratic_syndicalism_ideology = { }
 			syndicalism_bellamyism_ideology = { }
+			syndicalism_market_leninism_ideology = { }
 		}
 		dynamic_faction_names = { }
 		color = { 255 0 0 }
@@ -72,6 +74,7 @@ ideologies = {
 			socialism_spartakism_ideology = { }
 			stratocratic_socialism_ideology = { }
 			socialism_bellamyism_ideology = { }
+			socialism_market_leninism_ideology = { }
         }
 		dynamic_faction_names = { }
 		color = { 209 0 0 }

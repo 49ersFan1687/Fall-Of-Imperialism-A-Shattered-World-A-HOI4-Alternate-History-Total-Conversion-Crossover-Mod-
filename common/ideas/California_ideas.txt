@@ -114,7 +114,7 @@ ideas = {
                 navy_org_factor = -0.20
                 naval_morale = -0.15
                 naval_speed_factor = -0.10
-                naval_fuel_consumption_factor = -0.25
+                naval_fuel_consumption_factor = 0.25
                 dockyard_output = -0.15
                 production_efficiency_cap = -0.05
                 spotting_chance = -0.25
@@ -895,6 +895,79 @@ ideas = {
 ########################################
 ### NAVY REFORM IDEAS - SHARED IDEAS ###
 ########################################
+        CAL_the_mothballed_navy1 = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_mothballed_navy" }
+            allowed = { always = no }
+            picture = CAL_the_mothballed_navy
+            modifier = {
+                navy_org_factor = -0.10
+                naval_morale = -0.10
+                naval_speed_factor = -0.05
+                naval_fuel_consumption_factor = -0.10
+                dockyard_output = -0.10
+                spotting_chance = -0.15
+                navy_submarine_detection_factor = -0.10
+                naval_hit_chance = -0.05
+                naval_coordination = -0.05
+                naval_retreat_chance = -0.10
+                ships_at_battle_start = -0.10
+                navy_capital_ship_attack_factor = -0.10
+                navy_screen_attack_factor = -0.05
+                navy_carrier_air_attack_factor = -0.10
+                navy_anti_air_attack_factor = -0.10
+                production_speed_dockyard_factor = -0.15
+                experience_gain_navy_factor = -0.15
+                convoy_escort_efficiency = -0.10
+                convoy_raiding_efficiency_factor = -0.10
+                industry_repair_factor = -0.10
+            }
+        }
+
+        CAL_the_mothballed_navy2 = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_mothballed_navy" }
+            allowed = { always = no }
+            picture = CAL_the_mothballed_navy
+            modifier = {
+                navy_org_factor = -0.05
+                naval_morale = -0.05
+                naval_fuel_consumption_factor = -0.15
+                dockyard_output = -0.05
+                spotting_chance = -0.10
+                navy_submarine_detection_factor = -0.05
+                naval_retreat_chance = -0.05
+                ships_at_battle_start = -0.05
+                navy_capital_ship_attack_factor = -0.05
+                navy_carrier_air_attack_factor = -0.05
+                navy_anti_air_attack_factor = -0.05
+                production_speed_dockyard_factor = -0.10
+                experience_gain_navy_factor = -0.10
+                convoy_escort_efficiency = -0.05
+                convoy_raiding_efficiency_factor = -0.05
+                industry_repair_factor = -0.05
+            }
+        }
+
+        CAL_the_mothballed_navy3 = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_mothballed_navy" }
+            allowed = { always = no }
+            picture = CAL_the_mothballed_navy
+            modifier = {
+                naval_morale = -0.05
+                naval_fuel_consumption_factor = -0.20
+                dockyard_output = -0.05
+                spotting_chance = -0.05
+                navy_submarine_detection_factor = -0.05
+                navy_capital_ship_attack_factor = -0.05
+                navy_carrier_air_attack_factor = -0.05
+                navy_anti_air_attack_factor = -0.05
+                production_speed_dockyard_factor = -0.05
+                experience_gain_navy_factor = -0.05
+                convoy_escort_efficiency = -0.05
+                convoy_raiding_efficiency_factor = -0.05
+                industry_repair_factor = -0.05
+            }
+        }
+
         CAL_the_puller_plan1 = { # The Puller Plan - Part One
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_puller_plan1" }
             allowed = { always = no }

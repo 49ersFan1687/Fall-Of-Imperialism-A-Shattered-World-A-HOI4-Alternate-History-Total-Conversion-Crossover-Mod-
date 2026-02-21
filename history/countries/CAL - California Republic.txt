@@ -46,21 +46,27 @@ add_ideas = {
 	AMR_the_end_of_the_american_experiment
 }
 
+######################
 ### Country Leader ###
+######################
 recruit_character = CAL_henry_agard_wallace
 
+################
 ### Advsiors ###
+################
 recruit_character = CAL_huey_pierce_long_jr
 recruit_character = CAL_earl_warren
 recruit_character = CAL_john_edgar_hoover
 recruit_character = CAL_thomas_edmund_dewey
 recruit_character = CAL_walter_elias_disney
 
+#############################
 ## Second Continental Army ##
-
+#############################
 recruit_character = CAL_dwight_david_eisenhower
 recruit_character = CAL_omar_nelson_bradley
 recruit_character = CAL_george_catlett_marshall
+recruit_character = CAL_curtis_emerson_lemay
 recruit_character = CAL_spitfire
 recruit_character = CAL_daring_do
 recruit_character = CAL_george_smith_patton_jr
@@ -90,8 +96,9 @@ recruit_character = CAL_john_fujio_aiso
 recruit_character = CAL_simon_bolivar_buckner_jr
 recruit_character = CAL_charles_hartwell_bonesteel_iii
 
+#############
 ## US Navy ##
-
+#############
 recruit_character = CAL_ernest_joseph_king
 recruit_character = CAL_chester_william_nimitz
 recruit_character = CAL_samuel_lee_gravely_Jr
@@ -101,7 +108,9 @@ recruit_character = CAL_issac_campbell_kidd_sr
 recruit_character = CAL_arleigh_albert_burke
 recruit_character = CAL_felix_budwell_stump
 
+##################
 ### Operatives ###
+##################
 
 
 ### Scientists ###
