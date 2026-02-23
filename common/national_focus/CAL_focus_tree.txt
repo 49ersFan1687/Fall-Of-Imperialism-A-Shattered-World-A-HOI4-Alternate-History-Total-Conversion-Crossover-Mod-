@@ -2477,6 +2477,10 @@ shared_focus = {
     y = 1
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_resolving_the_water_problem"
+        swap_ideas = {
+            remove_idea = CAL_the_greater_depression
+            add_idea = CAL_the_greater_depression1
+        }
     }
 }
 
@@ -2507,6 +2511,9 @@ shared_focus = {
     available_if_capitulated = no
     ai_will_do = {
         factor = 1
+    }
+    available = {
+        has_completed_focus = CAL_shockley_semiconductors
     }
     prerequisite = {
         focus = CAL_resolving_the_water_problem
@@ -2649,6 +2656,10 @@ shared_focus = {
     relative_position_id = CAL_nationalize_hewlett_packard
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_shockley_semiconductors"
+        swap_ideas = {
+            remove_idea = CAL_the_greater_depression1
+            add_idea = CAL_the_greater_depression2
+        }
     }
 }
 
@@ -2668,6 +2679,10 @@ shared_focus = {
     relative_position_id = CAL_increase_funding_for_union_pacific
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_agricultural_self_sufficiency"
+        swap_ideas = {
+            remove_idea = CAL_the_greater_depression2
+            add_idea = CAL_the_greater_depression3
+        }
     }
 }
 
@@ -2687,6 +2702,10 @@ shared_focus = {
     relative_position_id = CAL_merge_car_manufacturers
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_refit_ship_manufactories"
+        swap_ideas = {
+            remove_idea = CAL_the_greater_depression3
+            add_idea = CAL_the_greater_depression4
+        }
     }
 }
 
@@ -2706,6 +2725,10 @@ shared_focus = {
     relative_position_id = CAL_retool_automobile_factories_for_tanks
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_california_aviation_industry"
+        swap_ideas = {
+            remove_idea = CAL_the_greater_depression4
+            add_idea = CAL_the_greater_depression5
+        }
     }
 }
 
@@ -2734,6 +2757,7 @@ shared_focus = {
     relative_position_id = CAL_resolving_the_water_problem
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_reconstruction_1"
+        remove_idea = CAL_the_greater_depression5
     }
 }
 
