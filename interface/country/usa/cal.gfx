@@ -3,4 +3,14 @@ spriteTypes = {
         name = "GFX_focus_CAL_the_long_dead_march_west"
         textureFile = "gfx/interface/goals/CAL/CAL_the_long_dead_march_west.dds"
     }
+
+    spriteType = {
+        name = GFX_focus_CAL_the_second_continental_army_junta
+        textureFile = "gfx/interface/goals/CAL/CAL_the_second_contnental_army_junta.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_expand_the_california_national_guard
+        textureFile = "gfx/interface/goals/CAL/CAL_expand_the_california_national_guard.dds"
+    }
 }

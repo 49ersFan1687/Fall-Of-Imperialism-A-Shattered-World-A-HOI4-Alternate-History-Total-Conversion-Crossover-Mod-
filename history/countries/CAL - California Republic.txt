@@ -34,8 +34,9 @@ set_popularities = {
 	communism = 2
 }
 
+######################
 ### Starting Ideas ###
-
+######################
 add_ideas = {
 	CAL_the_long_march_west
 	CAL_the_greater_depression
@@ -45,6 +46,28 @@ add_ideas = {
 	CAL_the_failure_of_democracy
 	AMR_the_end_of_the_american_experiment
 }
+
+#########################
+### Dynamic Modifiers ###
+#########################
+
+### New American Economy ###
+set_variable = { CAL_the_new_american_economy_consumer_goods_factor value = 0.75 }
+set_variable = { CAL_the_new_american_economy_production_speed_arms_factory_factor value = -0.25 }
+set_variable = { CAL_the_new_american_economy_production_speed_dockyard_factor value = -0.25 }
+set_variable = { CAL_the_new_american_economy_industrial_capacity_factory value = -0.30 }
+set_variable = { CAL_the_new_american_economy_industrial_capacity_dockyard value = -0.30 }
+set_variable = { CAL_the_new_american_economy_production_lack_of_resource_penalty_factor value = 0 }
+set_variable = { CAL_the_new_american_economy_conversion_cost_civ_to_mil_factor value = -0.30 }
+set_variable = { CAL_the_new_american_economy_local_resources_factor value = -0.25 }
+set_variable = { CAL_the_new_american_economy_production_speed_buildings_factor value = -0.15 }
+set_variable = { CAL_the_new_american_economy_research_speed_factor value = -0.30 }
+set_variable = { CAL_the_new_american_economy_production_factory_max_efficiency_factor value = -0.15 }
+set_variable = { CAL_the_new_american_economy_production_factory_efficiency_gain_factor value = -0.15 }
+set_variable = { CAL_the_new_american_economy_production_factory_start_efficiency_factor value = -0.15 }
+add_dynamic_modifier = { modifier = CAL_the_new_american_economy_modifier }
+
+### 
 
 ######################
 ### Country Leader ###
@@ -112,5 +135,6 @@ recruit_character = CAL_felix_budwell_stump
 ### Operatives ###
 ##################
 
-
+##################
 ### Scientists ###
+##################

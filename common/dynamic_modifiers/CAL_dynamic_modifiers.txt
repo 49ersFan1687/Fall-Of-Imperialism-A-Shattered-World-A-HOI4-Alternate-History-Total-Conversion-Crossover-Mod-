@@ -1,1 +1,29 @@
-CAL_
+CAL_the_new_american_economy_modifier = {
+    enable { always = yes }
+    icon = GFX_idea_CAL_the_new_american_economy
+    consumer_goods_factor = CAL_the_new_american_economy_consumer_goods_factor
+	production_speed_arms_factory_factor = CAL_the_new_american_economy_production_speed_arms_factory_factor
+	production_speed_dockyard_factor = CAL_the_new_american_economy_production_speed_dockyard_factor
+	industrial_capacity_factory = CAL_the_new_american_economy_industrial_capacity_factory
+	industrial_capacity_dockyard = CAL_the_new_american_economy_industrial_capacity_dockyard
+	production_lack_of_resource_penalty_factor = CAL_the_new_american_economy_production_lack_of_resource_penalty_factor
+	conversion_cost_civ_to_mil_factor = CAL_the_new_american_economy_conversion_cost_civ_to_mil_factor
+	local_resources_factor = GER_recovering_economy_modifier_local_resources_factor
+	production_speed_buildings_factor = CAL_the_new_american_economy_production_speed_buildings_factor
+	research_speed_factor = CAL_the_new_american_economy_research_speed_factor
+	production_factory_max_efficiency_factor = CAL_the_new_american_economy_production_factory_max_efficiency_factor
+	production_factory_efficiency_gain_factor = CAL_the_new_american_economy_production_factory_efficiency_gain_factor
+	production_factory_start_efficiency_factor = CAL_the_new_american_economy_production_factory_start_efficiency_factor
+}
+
+CAL_a_more_regulated_military_industrial_complex = {
+	enable { always = yes }
+}
+
+CAL_restored_civilian_government = {
+	enable { always = yes }
+}
+
+CAL_a_democracy_under_the_army = {
+	enable { always = yes }
+}

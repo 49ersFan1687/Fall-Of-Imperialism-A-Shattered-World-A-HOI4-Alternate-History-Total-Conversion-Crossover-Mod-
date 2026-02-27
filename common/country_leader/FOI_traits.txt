@@ -161,15 +161,4 @@ leader_traits = {
 		stability_factor = 0.05
 		war_support_factor = 0.05	
 	}
-
-	#######################################################
-	### Provisional Authority of Cascadia Leader Traits ###
-	#######################################################
-	CSD_the_iron_mare_of_cascadia = {
-		random = no
-		army_recovery_factor = 0.05
-		army_attack_factor = 0.05
-		army_defence_factor = 0.05
-		war_support_factor = 0.15
-	}
 }

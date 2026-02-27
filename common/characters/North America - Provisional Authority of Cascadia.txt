@@ -1408,8 +1408,9 @@ characters = {
 
 ############################################## RWBY Characters ##############################################
 
-	# Vytal Clique - The Militarists (Field Marshals) #
-
+	#######################################################
+	### Vytal Clique - The Militarists (Field Marshals) ###
+	#######################################################
 	CSD_oscar_pine = {
 		name = CSD_oscar_pine
 		portraits = {
@@ -1449,6 +1450,55 @@ characters = {
 			logistics_skill =
 		}
 	}
+
+	############################################################
+	### Vytal Clique - The Militarists - Level Five Generals ###
+	############################################################
+
+
+
+	############################################################
+	### Vytal Clique - The Militarists - Level Four Generals ###
+	############################################################
+
+
+
+
+	#############################################################
+	### Vytal Clique - The Militarists - Level Three Generals ###
+	#############################################################
+	CSD_velvet_scarlatina = {
+		name = CSD_velvet_scarlatina
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
+			logistics_skill =
+		}
+		gender = female
+	}
+
+	###########################################################
+	### Vytal Clique - The Militarists - Level Two Generals ###
+	###########################################################
+
+
+
+	###########################################################
+	### Vytal Clique - The Militarists - Level One Generals ###
+	###########################################################
+	
+	
 	
 	CSD_weiss_schnee = {
 		name = CSD_weiss_schnee
@@ -1513,26 +1563,7 @@ characters = {
 		gender = female
 	}
 
-	CSD_velvet_scarlatina = {
-		name = CSD_velvet_scarlatina
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-		field_marshal = {
-			traits = {  }
-			skill =
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
-		}
-		gender = female
-	}
+	
 
 	CSD_arslan_atlan = {
 		name = CSD_arslan_atlan
@@ -2626,8 +2657,9 @@ characters = {
 		}
 	}
 
-	
 
+
+	
     #################################################################
 	### Sensha-Do Clique - Moderate Faction Generals - Level Four ###
 	#################################################################

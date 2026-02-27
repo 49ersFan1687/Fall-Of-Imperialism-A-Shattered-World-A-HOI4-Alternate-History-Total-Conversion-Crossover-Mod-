@@ -58,7 +58,7 @@ CAL_omar_nelson_bradley: "Omar Nelson Bradley"
 CAL_george_catlett_marshall: "George Catlett Marshall"
 CAL_spitfire: "Spitfire"
 CAL_daring_do: "Daring Do"
-CAL_curtis_emerson_lemay = "Curtis Emerson Lemay"
+CAL_curtis_emerson_lemay: "Curtis Emerson Lemay"
 CAL_george_smith_patton_jr: "George Smith Patton Jr"
 CAL_walton_harris_walker: "Walton Harris Walker"
 CAL_smedley_darlington_butler: "Smedley Darlington Butler"
@@ -136,6 +136,9 @@ CAL_the_mothballed_navy_desc: ""
 
 CAL_the_failure_of_democracy: "The Failure of Democracy"
 CAL_the_failure_of_democracy_desc: ""
+
+CAL_the_new_american_economy_modifier: "The New American Economy"
+CAL_the_new_american_economy_modifier_desc: ""
 
 #####################################################
 ### National Focuses Localisation - Starting Tree ###

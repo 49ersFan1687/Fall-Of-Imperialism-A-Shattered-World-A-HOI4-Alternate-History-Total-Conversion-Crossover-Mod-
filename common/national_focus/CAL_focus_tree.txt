@@ -569,7 +569,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_expand_the_california_national_guard
-    icon = GFX
+    icon = GFX_focus_CAL_Expand_the_california_national_guard
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -607,7 +607,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_the_second_continental_army_junta
-    icon = GFX
+    icon = GFX_focus_CAL_the_second_continental_army_junta
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -7787,6 +7787,9 @@ shared_focus = {
     y = 5
     completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_economy_of_the_pacific_states_of_america"
+        add_dynamic_modifier = {
+            modifier = CAL_the_new_american_economy_modifier
+        }
 	}
 }
 
