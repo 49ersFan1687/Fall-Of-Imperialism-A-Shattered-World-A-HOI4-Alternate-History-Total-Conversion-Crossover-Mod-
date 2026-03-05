@@ -84,7 +84,7 @@ focus_tree = {
 	}
     default = no
     continuous_focus_position = { x = 450 y = 200 }
-    shared_focus = CAL_
+    shared_focus = CAL_with_liberty_and_justice_for_all
 }
 
 focus_tree = {
@@ -98,6 +98,7 @@ focus_tree = {
 	}
     default = no
     continuous_focus_position = { x = 450 y = 200 }
+    shared_focus = CAL_what_path_shall_the_washingtonian_congress_take
 }
 
 focus_tree = {
@@ -111,6 +112,7 @@ focus_tree = {
 	}
     default = no
     continuous_focus_position = { x = 450 y = 200 }
+    shared_focus = CAL_the_triumph_of_the_cavalier_faction
 }
 
 focus_tree = {
@@ -278,7 +280,7 @@ shared_focus = {
 	cost = 1
 	available_if_capitulated = no
 	ai_will_do = {
-		factor = 1
+		factor = 4000
 	}
     x = 10
 	y = 0
@@ -569,7 +571,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_expand_the_california_national_guard
-    icon = GFX_focus_CAL_Expand_the_california_national_guard
+    icon = GFX_focus_CAL_expand_the_california_national_guard
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -1012,6 +1014,11 @@ shared_focus = {
     relative_position_id = CAL_improved_rifle_designs
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_initial_motorization_efforts"
+        add_tech_bonus = {
+			bonus = 1
+			uses = 1
+			category = motorized_equipment
+		}
     }
 }
 
@@ -7809,6 +7816,9 @@ shared_focus = {
     relative_position_id = CAL_the_economy_of_the_pacific_states_of_america
      completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_address_the_civilian_sector"
+        add_to_variable = {
+
+        }
 	}
 }
 
@@ -12777,7 +12787,7 @@ shared_focus = {
 ### Focus Tree - Superregional Stage: Civilian Democracy -  Initial Political Focus Tree ###
 ############################################################################################
 shared_focus = {
-    id = CAL_
+    id = CAL_with_liberty_and_justice_for_all
     icon = GFX_
     cost = 2
     available_if_capitulated = no
@@ -12787,21 +12797,70 @@ shared_focus = {
     x = 25
 	y = 0
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_against_tyranny_in_all_forms"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_with_liberty_and_justice_for_all"
     }
 }
+
+
+
+###################################################################################
+### Focus Tree - Superregional Stage: Civilian Democracy -  Military Focus Tree ###
+###################################################################################
+
+
 
 
 ############################################################################################
 ### Focus Tree - Superregional Stage: Military Democracy -  Initial Political Focus Tree ###
 ############################################################################################
+shared_focus = {
+    id = CAL_what_path_shall_the_washingtonian_congress_take
+    icon = GFX_
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    x = 25
+	y = 0
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_what_path_shall_the_washingtonian_congress_take"
+    }
+}
+
+
+
+###################################################################################
+### Focus Tree - Superregional Stage: Military Democracy -  Military Focus Tree ###
+###################################################################################
+
+
 
 
 
 ###############################################################################################
 ### Focus Tree - Superregional Stage: Cavalier Faction Coup -  Initial Political Focus Tree ###
 ###############################################################################################
+shared_focus = {
+    id = CAL_the_triumph_of_the_cavalier_faction
+    icon = GFX_
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    x = 25
+	y = 0
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_triumph_of_the_cavalier_faction"
+    }
+}
 
+
+
+######################################################################################
+### Focus Tree - Superregional Stage: Cavalier Faction Coup -  Military Focus Tree ###
+######################################################################################
 
 
 #########################################################################################

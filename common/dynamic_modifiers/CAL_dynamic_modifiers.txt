@@ -1,6 +1,8 @@
 CAL_the_new_american_economy_modifier = {
     enable { always = yes }
     icon = GFX_idea_CAL_the_new_american_economy
+	stability_factor = CAL_the_new_american_economy_stability_factor
+	monthly_population = CAL_the_new_american_economy_monthly_population_factor
     consumer_goods_factor = CAL_the_new_american_economy_consumer_goods_factor
 	production_speed_arms_factory_factor = CAL_the_new_american_economy_production_speed_arms_factory_factor
 	production_speed_dockyard_factor = CAL_the_new_american_economy_production_speed_dockyard_factor
