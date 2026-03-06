@@ -34,14 +34,15 @@ characters = {
 		}
     }
 
-    ### Field Marshals ###
-
+    ##################################################################
+    ### Soviet Directorate of National Liberation - Field Marshals ###
+	##################################################################
     WSS_ivan_stepanovich_konev = {
         name = WSS_ivan_stepanovich_konev
         portraits = {
 			army = {
 				large = "gfx/leaders/WSS/Portrait_WSS_Ivan_Stepanovich_Konev.dds"
-				small = 
+				small = GFX_fish
 			}
 		}
         field_marshal = {
@@ -83,6 +84,26 @@ characters = {
             defense_skill = 5
             planning_skill = 4
             logistics_skill = 3
+        }
+	}
+
+	WSS_alexander_mikhailovich_vasilevsky = {
+		name = WSS_alexander_mikhailovich_vasilevsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/WSS/Portrait_Alexander_Mikhailovich_Vasilevsky.dds"
+				small = 
+			}
+		}
+		field_marshal = {
+            traits = {
+                
+            }
+            skill = 
+            attack_skill = 
+            defense_skill = 
+            planning_skill = 
+            logistics_skill = 
         }
 	}
 }

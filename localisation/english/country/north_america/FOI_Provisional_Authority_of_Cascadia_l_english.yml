@@ -28,9 +28,11 @@ CSD_national_socialism_party_long: "§YNational Socialist Cascadian Worker's Par
 CSD_esotericism_party: "WW"
 CSD_esotericism_party_long: "§YWind in The Woods§!"
 
-### Character Localization - Second Continental Army Main Generals (AKB48 members) ###
+### Character Localization - Second Continental Army Characters (AKB48 members) ###
 CSD_atsuko_maeda: "Atsuko Maeda"
 CSD_yuko_oshima: "Yuko Oshima"
+CSD_minami_takahashi: "Minami Takahashi"
+CSD_mariko_shinoda: "Mariko Shinoda"
 
 ### Character Localization - Cascadian Army Rangers (Power Rangers Characters) ###
 CSD_jason_lee_scott: "Jason Lee Scott"

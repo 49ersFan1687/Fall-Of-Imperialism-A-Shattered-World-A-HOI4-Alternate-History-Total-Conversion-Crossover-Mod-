@@ -13,4 +13,9 @@ spriteTypes = {
         name = GFX_focus_CAL_expand_the_california_national_guard
         textureFile = "gfx/interface/goals/CAL/CAL_expand_the_california_national_guard.dds"
     }
+
+    spriteType = {
+        name = GFX_focus_CAL_form_the_fortieth_armored_division
+        textureFile = "gfx/interface/goals/CAL/CAL_form_the_fortieth_armored_division.dds"
+    }
 }

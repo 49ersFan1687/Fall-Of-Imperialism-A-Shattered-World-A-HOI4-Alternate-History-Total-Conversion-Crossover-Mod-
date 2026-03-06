@@ -73,19 +73,26 @@ characters = {
 		desc =
 		portraits = {
 			civilian = {
-				large =
+				large = "gfx/leaders/CSD/Portrait_CSD_Minami_Takahashi.dds"
 			}
 			army = {
-				large =
+				large = "gfx/leaders/CSD/Portrait_CSD_Minami_Takahashi.dds"
+				small = 
 			}
 		}
 		field_marshal = {
-			traits = {  }
-			skill =
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			traits = {
+				cavalry_leader
+				trait_unpredictable
+				inflexible_strategist
+				skilled_staffer
+				war_hero
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 6
+			logistics_skill = 2
 		}
 		gender = female
 	}
@@ -95,41 +102,25 @@ characters = {
 		desc =
 		portraits = {
 			civilian = {
-				large =
+				large = "gfx/leaders/CSD/Portrait_CSD_Mariko_Shinoda.dds"
 			}
 			army = {
-				large =
+				large = "gfx/leaders/CSD/Portrait_CSD_Mariko_Shinoda.dds"
 			}
 		}
 		field_marshal = {
-			traits = {  }
-			skill =
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
-		}
-		gender = female
-	}
-
-	CSD_aki_takajo = {
-		name = CSD_aki_takajo
-		desc =
-		portraits = {
-			civilian = {
-				large =
+			traits = { 
+				inflexible_strategist
+				trait_cautious
+				infantry_officer
+				infantry_leader
+				politically_connected
 			}
-			army = {
-				large =
-			}
-		}
-		field_marshal = {
-			traits = {  }
-			skill =
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			skill = 3
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 3
 		}
 		gender = female
 	}
@@ -397,6 +388,28 @@ characters = {
 			attack_skill = 
 			defense_skill =
 			planning_skill = 
+			logistics_skill =
+		}
+		gender = female
+	}
+	
+	CSD_aki_takajo = {
+		name = CSD_aki_takajo
+		desc =
+		portraits = {
+			civilian = {
+				large =
+			}
+			army = {
+				large =
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill =
+			attack_skill =
+			defense_skill =
+			planning_skill =
 			logistics_skill =
 		}
 		gender = female

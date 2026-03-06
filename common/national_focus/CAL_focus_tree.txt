@@ -705,7 +705,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_form_the_fortieth_armored_division
-    icon = GFX
+    icon = GFX_focus_CAL_form_the_fortieth_armored_division
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {

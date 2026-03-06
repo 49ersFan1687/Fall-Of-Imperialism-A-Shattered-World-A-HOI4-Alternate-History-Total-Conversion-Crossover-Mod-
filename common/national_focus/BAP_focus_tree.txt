@@ -13,7 +13,9 @@ focus_tree = {
     continuous_focus_position = { x = 450 y = 200 }
 }
 
+##########################################
 ### Initial Focus Tree - Warlord State ###
+##########################################
 shared_focus = {
     id = BAP_the_collapse
     icon = GFX
