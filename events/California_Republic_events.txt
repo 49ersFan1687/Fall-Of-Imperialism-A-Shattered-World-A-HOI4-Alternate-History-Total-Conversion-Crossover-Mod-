@@ -15,8 +15,9 @@ add_namespace = CAL_reconstruction
 
 #### INTRO EVENTS ###
 
-#### California intro ####
-
+#################################
+#### California Intro Events ####
+#################################
 country_event = {
     id = CAL_start.1
     title = CAL_start.1.t
@@ -30,3 +31,7 @@ country_event = {
         name = CAL_start.1.a
     }
 }
+
+########################################
+#### California Pre-Regional Events ####
+########################################

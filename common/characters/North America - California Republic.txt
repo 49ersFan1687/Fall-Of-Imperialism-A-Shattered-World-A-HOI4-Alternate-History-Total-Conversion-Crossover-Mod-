@@ -512,6 +512,7 @@ characters = {
 			slot = high_command
 			cost = 100
 			idea_token = jacob_loucks_devers
+			ledger = army
 			traits = { army_armored_2 }
 			can_be_fired = yes
 		}
@@ -1237,12 +1238,10 @@ characters = {
 		}
 		advisor = { 
 			slot = high_command
+			cost = 100
 			idea_token = william_daniel_leahy
 			ledger = navy
-			allowed = { original_tag = CAL }
-			traits = {
-
-			}
+			traits = { navy_capital_ship_3 }
 		}
 	}
 
@@ -1270,12 +1269,11 @@ characters = {
 		}
 		advisor = { 
 			slot = high_command
+			cost = 100
 			idea_token = william_fredrick_halsey_jr
 			ledger = navy
-			traits = {
-
-			}
-		 }
+			traits = { navy_carrier_3 }
+		}
 	}
 	
 	CAL_arleigh_albert_burke = {

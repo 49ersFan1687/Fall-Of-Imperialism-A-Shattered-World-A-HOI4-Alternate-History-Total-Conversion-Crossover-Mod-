@@ -415,67 +415,76 @@ characters = {
 		gender = female
 	}
 
-	# AKB Clique - Admirals #
+	################################################################
+	### Second Continental Army/AKB Clique Admirals - Level Five ###
+	################################################################
+
+
+
+	################################################################
+	### Second Continental Army/AKB Clique Admirals - Level Four ###
+	################################################################
 	CSD_mayu_watanabe = {
 		name = CSD_mayu_watanabe
 		desc =
 		portraits = {
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Mayu_Watanabe.dds"
 				small =
 			}
 			civilian = {
-				large =
+				large = "gfx/leaders/CSD/Portrait_CSD_Mayu_Watanabe.dds"
 			}
 		}
 		naval_leader = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			maneuvering_skill = 
-			coordination_skill =
+			traits = { 
+				
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 5
+			coordination_skill = 2
 		}
 		advisior = { 
-			slot = 
-			idea_token = 
+			slot = navy_chief
+			cost = 100
+			idea_token = mayu_watanabe
 			ledger = navy
-			allowed = { original_tag = CAL }
-			traits = {
-
-			}
+			traits = { navy_chief_decisive_battle_2 }
 		}
 		gender = female
 	}
 
+	#################################################################
+	### Second Continental Army/AKB Clique Admirals - Level Three ###
+	#################################################################
 	CSD_tomomi_itano = {
 		name = CSD_tomomi_itano
 		desc =
 		portraits = {
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Tomomi_Itano.dds"
 				small =
 			}
 			civilian = {
-				large =
+				large = "gfx/leaders/CSD/Portrait_CSD_Tomomi_Itano.dds"
 			}
 		}
 		naval_leader = {
 			traits = {  }
-			skill =
+			skill = 3
 			attack_skill =
 			defense_skill =
 			maneuvering_skill =
-			coordination_skill =
+			coordination_skill = 
 		}
 		advisior = { 
-			slot = 
-			idea_token = 
+			slot = high_command
+			cost = 100
+			idea_token = tomomi_itano
 			ledger = navy
-			allowed = { original_tag = CAL }
-			traits = {
-
-			}
+			traits = { navy_screen_3 }
 		}
 		gender = female
 	}
@@ -485,32 +494,45 @@ characters = {
 		desc =
 		portraits = {
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Haurna_Kojima.dds"
 				small =
 			}
 			civilian = {
-				large =
+				large = "gfx/leaders/CSD/Portrait_CSD_Haruna_Kojima.dds"
 			}
 		}
 		naval_leader = {
 			traits = {  }
-			skill =
-			attack_skill =
-			defense_skill =
-			maneuvering_skill =
-			coordination_skill =
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
 		}
 		advisior = { 
-			slot = 
-			idea_token = 
+			slot = high_command
+			cost = 100
+			idea_token = mayu_watanabe
 			ledger = navy
-			allowed = { original_tag = CAL }
-			traits = {
-
-			}
+			traits = { navy_carrier_2 }
 		}
 		gender = female
 	}
+
+
+	###############################################################
+	### Second Continental Army/AKB Clique Admirals - Level Two ###
+	###############################################################
+
+
+	###############################################################
+	### Second Continental Army/AKB Clique Admirals - Level One ###
+	###############################################################
+
+	# AKB Clique - Admirals #
+	
+
+	
 
 	CSD_rena_matsui = {
 		name = CSD_rena_matsui

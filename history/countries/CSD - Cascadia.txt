@@ -34,6 +34,9 @@ recruit_character = CSD_atsuko_maeda
 recruit_character = CSD_yuko_oshima
 recruit_character = CSD_minami_takahashi
 recruit_character = CSD_mariko_shinoda
+recruit_character = CSD_mayu_watanabe
+recruit_character = CSD_tomomi_itano
+recruit_character = CSD_haruna_kojima
 
 # Second Continental Army Cascadian Branch - United States Army Rangers (It's morphin' time!) #
 recruit_character = CSD_jason_lee_scott
