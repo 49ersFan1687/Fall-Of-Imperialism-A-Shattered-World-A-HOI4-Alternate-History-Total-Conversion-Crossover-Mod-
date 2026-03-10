@@ -1089,7 +1089,7 @@ ideas = {
 ### Industrial Companies/Industrial Concerns ###
 ################################################
     induststrial_concern = {
-
+        
     }
 
 
@@ -1097,7 +1097,7 @@ ideas = {
 #############################
 ### Weapons Manufacturers ###
 #############################
-    tank_manufacturer = {
+    materiel_manufacturer = {
 		
 	}
 

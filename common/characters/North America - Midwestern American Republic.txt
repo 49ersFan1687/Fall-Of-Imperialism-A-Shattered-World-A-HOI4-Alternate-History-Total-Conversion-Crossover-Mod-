@@ -385,9 +385,226 @@ characters = {
         }
     }
 
-    
+    NCA_matthew_bunker_ridgeway = {
+        name = NCA_matthew_bunker_ridgeway
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        } 
+        field_marshal = {
+            traits = {
+                logistics_wizard
+                paratrooper
+                commando
+                offensive_doctrine
+            }
+            skill = 4
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 3
+        }
+    }
 
+    NCA_alexander_mccarell_patch = {
+        name = NCA_alexander_mccarell_patch
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        } 
+        field_marshal = {
+            traits = {
+                commando
+                infantry_officer
+                offensive_doctrine
+                infantry_leader
+            }
+            skill = 4
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 4
+        }
+    }
     
+    NCA_andrew_pick_omeara = {
+        name = NCA_andrew_pick_omeara
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
+
+    NCA_john_knight_waters = {
+        name = NCA_john_knight_waters
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
+
+    NCA_barksdale_hamlett_jr = {
+        name = NCA_barksdale_hamlett_jr
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
+
+    NCA_earle_gilmore_wheeler = {
+        name = NCA_earle_gilmore_wheeler
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
+
+    NCA_walter_kreuger = {
+        name = NCA_walter_kreuger
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
+
+    NCA_albert_coady_wedemeyer = {
+        name = NCA_albert_coady_wedemeyer
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
+
+    NCA_edmund_bristol_gregory = {
+        name = NCA_edmund_bristol_gregory
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
+
+    NCA_james_alward_van_fleet = {
+        name = NCA_james_alward_van_fleet
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
+
+    NCA_george_edward_stratemeyer = {
+        name = NCA_george_edward_stratemeyer
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = { }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
 
     MAR_
 
@@ -514,6 +731,72 @@ characters = {
             defense_skill =
             maneuvering_skill =
             coordination_skill =
+        }
+    }
+
+    NCA_Willis_Augustus_Lee = {
+        name = NCA_Willis_Augustus_Lee
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        navy_leader = {
+            desc = 
+            traits = {  }
+            skill = 
+            attack_skill = 
+            defense_skill = 
+            maneuvering_skill = 
+            coordination_skill =
+
+        }
+    }
+
+    NCA_arthur_schuyler_carpender = {
+        name = NCA_arthur_schuyler_carpender
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        navy_leader = {
+            desc = 
+            traits = {  }
+            skill = 
+            attack_skill = 
+            defense_skill = 
+            maneuvering_skill = 
+            coordination_skill =
+
+        }
+    }
+
+    NCA_hugh_nathaniel_mulzac = {
+        name = NCA_hugh_nathaniel_mulzac
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        navy_leader = {
+            desc = 
+            traits = {  }
+            skill = 
+            attack_skill = 
+            defense_skill = 
+            maneuvering_skill = 
+            coordination_skill =
+
         }
     }
 }

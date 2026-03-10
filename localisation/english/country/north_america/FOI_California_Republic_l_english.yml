@@ -40,12 +40,15 @@ CAL_warlord_generals_integration_category_desc: "Many of the American Warlords h
 
 ### Names ###
 
-
+########################################
 ### Character Localization - Leaders ###
+########################################
 CAL_henry_agard_wallace: "Henry Agard Wallace"
 CAL_huey_pierce_long_jr: "Huey Pierce Long Jr."
 
+##########################################
 ### Character Localization - Adivisors ###
+##########################################
 CAL_earl_warren: "Earl Warren"
 CAL_walter_elias_disney: "Walter Elias Disney"
 CAL_thomas_edmund_dewey: "Thomas Edmund Dewey"
@@ -146,7 +149,7 @@ CAL_the_new_american_economy_modifier_desc: ""
 CAL_the_long_dead_march_west: "The Long, Dead, March West"
 CAL_the_long_dead_march_west_desc: ""
 
-CAL_reaffirm_the_treaty_of_guadalupe_hidalgo: "Reaffirm the Treaty of Guadalupe Hidalgo"
+CAL_reaffirm_the_treaty_of_guadalupe_hidalgo: "Reaffirm the Treaty of Guadalupe-Hidalgo"
 CAL_reaffirm_the_treaty_of_guadalupe_hidalgo_desc: ""
 
 CAL_a_dangerous_game: "A Dangerous Game"
@@ -383,7 +386,9 @@ CAL_final_preparations_desc: ""
 CAL_set_the_war_plans_in_motion: "Set the War Plans in Motion"
 CAL_set_the_war_plans_in_motion_desc: ""
 
+####################################################################
 ### National Focuses Localisation - Pre-Regional Tree - Part One ###
+####################################################################
 CAL_beginning_the_california_reunfication_war: "Beginning the California Reunification War"
 CAL_beginning_the_california_reunfication_war_desc: ""
 
@@ -462,7 +467,9 @@ CAL_stability_ensured_desc: ""
 CAL_a_silent_reflection: "A Silent Reflection"
 CAL_a_silent_reflection_desc: ""
 
+####################################################################
 ### National Focuses Localisation - Pre-Regional Tree - Part Two ###
+####################################################################
 CAL_resolving_the_water_problem: "Resolving the Water Problem"
 CAL_resolving_the_water_problem_desc: ""
 

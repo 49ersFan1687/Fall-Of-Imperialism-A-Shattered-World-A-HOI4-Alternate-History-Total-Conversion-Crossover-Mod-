@@ -27,13 +27,37 @@ characters = {
                 infantry_leader
                 infantry_expert
                 commando
+                young_leader
             }
-        }
-        skill = 3
-            attack_skill = 4
+            skill = 3
+            attack_skill = 3
             defense_skill = 3
             planning_skill = 4
             logistics_skill = 3
+        }
+    }
+
+    NCA_seto_kaiba = {
+        name = NCA_seto_kaiba
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        field_marshal = {
+            traits = {
+                media_personality
+                young_leader
+            }
+            skill = 
+            attack_skill
+            defense_skill
+            planning_skill
+            logistics_skill
+        }
     }
 
     ########################
@@ -45,55 +69,7 @@ characters = {
     #################################################################
     ### Northern Second Continental Army Command - Field Marshals ###
 	#################################################################
-    NCA_matthew_bunker_ridgeway = {
-        name = NCA_matthew_bunker_ridgeway
-        portraits = {
-            civilian = {
-                large = GFX_fish
-            }
-            army = {
-                large = GFX_fish
-            }
-        } 
-        field_marshal = {
-            traits = {
-                logistics_wizard
-                paratrooper
-                commando
-                offensive_doctrine
-            }
-            skill = 4
-            attack_skill = 4
-            defense_skill = 3
-            planning_skill = 2
-            logistics_skill = 3
-        }
-    }
-
-    NCA_alexander_mccarell_patch = {
-        name = NCA_alexander_mccarell_patch
-        portraits = {
-            civilian = {
-                large = GFX_fish
-            }
-            army = {
-                large = GFX_fish
-            }
-        } 
-        field_marshal = {
-            traits = {
-                commando
-                infantry_officer
-                offensive_doctrine
-                infantry_leader
-            }
-            skill = 4
-            attack_skill = 4
-            defense_skill = 3
-            planning_skill = 3
-            logistics_skill = 4
-        }
-    }
+    
 
     #############################
 	### Generals - Level Five ###
