@@ -37,6 +37,12 @@ set_popularities = {
 ### Country Leader ###
 recruit_character = CAN_Louis_Stephen_St_Laurent
 
+
+###############################
+### British Exiles Generals ###
+###############################
+recruit_character = CAN_bernard_law_montgomery
+
 create_faction = "Bermuda Accords"
 add_to_faction = FFR
 add_to_faction = AST

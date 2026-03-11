@@ -436,9 +436,12 @@ characters = {
 				large = "gfx/leaders/CSD/Portrait_CSD_Mayu_Watanabe.dds"
 			}
 		}
-		naval_leader = {
+		navy_leader = {
 			traits = { 
-				
+				green_water_expert
+				fleet_protector
+				bold
+				ironside
 			}
 			skill = 4
 			attack_skill = 3
@@ -471,8 +474,11 @@ characters = {
 				large = "gfx/leaders/CSD/Portrait_CSD_Tomomi_Itano.dds"
 			}
 		}
-		naval_leader = {
-			traits = {  }
+		navy_leader = {
+			traits = {
+				superior_tactician
+				spotter
+			}
 			skill = 3
 			attack_skill =
 			defense_skill =
@@ -501,7 +507,7 @@ characters = {
 				large = "gfx/leaders/CSD/Portrait_CSD_Haruna_Kojima.dds"
 			}
 		}
-		naval_leader = {
+		navy_leader = {
 			traits = {  }
 			skill = 3
 			attack_skill = 4
@@ -529,11 +535,6 @@ characters = {
 	### Second Continental Army/AKB Clique Admirals - Level One ###
 	###############################################################
 
-	# AKB Clique - Admirals #
-	
-
-	
-
 	CSD_rena_matsui = {
 		name = CSD_rena_matsui
 		desc =
@@ -546,7 +547,7 @@ characters = {
 				large =
 			}
 		}
-		naval_leader = {
+		navy_leader = {
 			traits = {  }
 			skill =
 			attack_skill =

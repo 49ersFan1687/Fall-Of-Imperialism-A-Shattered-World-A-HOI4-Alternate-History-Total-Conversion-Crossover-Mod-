@@ -63,23 +63,30 @@ characters = {
     #######################################
     ### British Exiles - Field Marshals ###
 	#######################################
-    CAN_Bernard_Law_Montgomery = {
-        name = CAN_Bernard_Law_Montgomery
+    CAN_bernard_law_montgomery = {
+        name = CAN_bernard_law_montgomery
         portraits = {
             civilian = {
-                large = GFX_fish
+                large = "gfx/leaders/CAL/Portrait_CAN_Bernard_Law_Montgomery.dds"
             }
             army = {
-                large = GFX_fish
+                large = "gfx/leaders/CAL/Portrait_CAN_Bernard_Law_Montgomery.dds"
             }
         }
         field_marshal = {
-            traits = {  }
-            skill = 
-            attack_skill =
-            defense_skill =
-            planning_skill =
-            logistics_skill =
+            traits = {
+                inflexible_strategist
+                cautious
+                media_personality
+                organizer
+                logistics_wizard
+                offensive_doctrine
+            }
+            skill = 4
+            attack_skill = 3
+            defense_skill = 5
+            planning_skill = 3
+            logistics_skill = 5
         }
     }
 
