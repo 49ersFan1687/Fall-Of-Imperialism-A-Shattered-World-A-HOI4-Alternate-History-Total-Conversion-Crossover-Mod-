@@ -1,0 +1,35 @@
+leader_traits = {
+    CAL_sca_old_guard_leader = {
+        type = land
+        trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+        modifier = {
+
+        }
+        ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+    }
+
+    CAL_sca_cavalier_faction_leader = {
+        type = land
+        trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+        modifier = {
+            
+        }
+        ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+    }
+}
