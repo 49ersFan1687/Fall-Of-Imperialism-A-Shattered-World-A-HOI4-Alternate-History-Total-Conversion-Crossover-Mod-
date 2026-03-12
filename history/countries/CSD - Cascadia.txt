@@ -59,6 +59,10 @@ recruit_character = CSD_carlos_vallerte
 
 
 # Second Continental Army Cascadian Branch - Vytalian Generals (Together for Remmnant!) #
+recruit_character = CSD_ruby_rose
+recruit_character = CSD_weiss_schnee
+recruit_character = CSD_blake_belladonna
+recruit_character = CSD_yang_xiao_long
 
 
 # Second Continental Army Cascadian Branch - Kuoh Academy Generals (By the eyes of the Pentagram!) #
