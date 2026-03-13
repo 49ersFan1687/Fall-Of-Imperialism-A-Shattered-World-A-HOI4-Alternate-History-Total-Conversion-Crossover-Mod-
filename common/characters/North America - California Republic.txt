@@ -37,7 +37,7 @@ characters = {
 			}
 		}
         advisor = {
-			slot = 
+			slot = hog
 			idea_token = CAL_huey_pierce_long_jr_hog
 			allowed = { original_tag = CAL }
 			traits = {
@@ -49,27 +49,6 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
     }
-
-	CAL_john_edgar_hoover = {
-		name = CAL_john_edgar_hoover
-		portraits = {
-			civillian = {
-
-			}
-		}
-		advisor = {
-			slot = 
-			idea_token = CAL_john_edgar_hoover_hog
-			allowed = { original_tag = CAL }
-			traits = {
-				
-			}
-			ledger = civilian
-			cost = -1
-			can_be_fired = yes
-			ai_will_do = { factor = 0 }
-		}
-	}
 
 	CAL_earl_warren = {
 		name = CAL_earl_warren
@@ -205,7 +184,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = 
+			slot = foreign_minister
 			idea_token = CAL_dean_gooderham_acherson_hog
 			allowed = { original_tag = CAL }
 			traits = {

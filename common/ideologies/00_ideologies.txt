@@ -26,6 +26,13 @@ ideologies = {
         }
 		dynamic_faction_names = { }
 		color = { 117 20 13 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
 		ai_neutral = yes
 		can_be_boosted = no
     }
@@ -47,6 +54,13 @@ ideologies = {
 		}
 		dynamic_faction_names = { }
 		color = { 255 0 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
 		ai_neutral = yes
 		can_be_boosted = no
 	}
@@ -78,6 +92,13 @@ ideologies = {
         }
 		dynamic_faction_names = { }
 		color = { 209 0 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
 		ai_neutral = yes
 		can_be_boosted = no
     }
@@ -99,6 +120,14 @@ ideologies = {
 		}
 		dynamic_faction_names = { }
 		color = { 148 80 142 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
 		ai_neutral = yes
 		can_be_boosted = no
     }
@@ -125,6 +154,14 @@ ideologies = {
 		}
 		dynamic_faction_names = { }
 		color = { 31 121 181 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
 		ai_neutral = yes
 		can_be_boosted = no
     }
@@ -150,6 +187,14 @@ ideologies = {
         }
 		dynamic_faction_names = { }
 		color = { 22 37 138 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
 		ai_neutral = yes
 		can_be_boosted = no
     }
@@ -178,6 +223,14 @@ ideologies = {
         }
 		dynamic_faction_names = { }
 		color = { 135 135 140 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
 		ai_neutral = yes
 		can_be_boosted = no
     }
@@ -194,6 +247,13 @@ ideologies = {
         }
 		dynamic_faction_names = { }
 		color = { 198 192 207 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
 		ai_neutral = yes
 		can_be_boosted = no
     }
@@ -221,6 +281,13 @@ ideologies = {
         }
 		dynamic_faction_names = { }
 		color = { 54 54 54 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
 		ai_neutral = yes
 		can_be_boosted = no
     }
@@ -243,6 +310,13 @@ ideologies = {
         }
 		dynamic_faction_names = { }
 		color = { 92 58 20 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
 		ai_neutral = yes
 		can_be_boosted = no
     }
@@ -257,6 +331,13 @@ ideologies = {
         }
 		dynamic_faction_names = { }
 		color = { 32 43 39 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
 		ai_neutral = yes
 		can_be_boosted = no
     }
@@ -277,6 +358,13 @@ ideologies = {
         }
 		dynamic_faction_names = { }
 		color = { 41 33 22 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
 		ai_neutral = yes
 		can_be_boosted = no
     }
@@ -293,6 +381,13 @@ ideologies = {
         }
 		dynamic_faction_names = { }
 		color = { 49 24 71 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
 		ai_neutral = yes
 		can_be_boosted = no
     }
