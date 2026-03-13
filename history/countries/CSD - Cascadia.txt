@@ -63,6 +63,10 @@ recruit_character = CSD_ruby_rose
 recruit_character = CSD_weiss_schnee
 recruit_character = CSD_blake_belladonna
 recruit_character = CSD_yang_xiao_long
+recruit_character = CSD_jaune_arc
+recruit_character = CSD_nora_valkyrie
+recruit_character = CSD_pyrrha_nikos
+recruit_character = CSD_lie_ren
 
 
 # Second Continental Army Cascadian Branch - Kuoh Academy Generals (By the eyes of the Pentagram!) #

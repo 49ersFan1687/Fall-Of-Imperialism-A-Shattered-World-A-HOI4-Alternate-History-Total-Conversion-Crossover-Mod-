@@ -3,3 +3,7 @@ MCH_Free = {
     color_ui = rgb { 255 73 121 }
 }
 
+CAL_PSA_Civ = {}
+
+CAL_PSA_Mil = {}
+

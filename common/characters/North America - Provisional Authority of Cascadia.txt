@@ -1471,19 +1471,26 @@ characters = {
 		name = CSD_jaune_arc
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Jaune_Arc.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/CSD/Portrait_CSD_Jaune_Arc.dds"
 			}
 		}
 		field_marshal = {
-			traits = {  }
-			skill =
-			attack_skill =
-			defense_skill =
-			planning_skill =
-			logistics_skill =
+			traits = {
+				offensive_doctrine
+				brilliant_strategist
+				panzer_leader
+				cavalry_leader
+				combined_arms_expert
+				young_leader
+			}
+			skill = 5
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 4
 		}
 	}
 	
@@ -1548,8 +1555,32 @@ characters = {
 	############################################################
 	### Vytal Clique - The Militarists - Level Five Generals ###
 	############################################################
-
-
+	CSD_lie_ren = {
+		name = CSD_lie_ren
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Lie_Ren.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Lie_Ren.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				commando
+				cautious
+				young_leader
+				ranger
+				infantry_leader
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
 
 	############################################################
 	### Vytal Clique - The Militarists - Level Four Generals ###
@@ -1572,12 +1603,21 @@ characters = {
 				young_leader
 				artillery_officer
 				panzer_leader
+				young_leader
 			 }
 			skill = 4
 			attack_skill = 6
 			defense_skill = 3
 			planning_skill = 4
 			logistics_skill = 4
+		}
+		advisor = {
+			slot = high_command
+			cost = 100
+			idea_token = yang_xiao_long
+			ledger = army
+			traits = { army_armored_1 }
+			can_be_fired = yes
 		}
 		gender = female
 	}
@@ -1606,6 +1646,80 @@ characters = {
 			defense_skill = 3
 			planning_skill = 6
 			logistics_skill = 3
+		}
+
+		gender = female
+	}
+	
+	CSD_pyrrha_nikos = {
+		name = CSD_pyrrha_nikos
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Pyrrha_Nikos.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Pyrrha_Nikos.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				media_personality
+				infantry_officer
+				ranger
+				artillery_officer
+				young_leader
+			 }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = pyrrha_nikos
+			ledger = army
+			traits = { 
+				army_chief_offensive_3
+			}
+		}
+		gender = female
+	}
+	
+	CSD_nora_valkyrie = {
+		name = CSD_nora_valkyrie
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Nora_Valkyrie.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Nora_Valkyrie.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				artillery_specialist
+				trait_reckless
+				trait_engineer
+				infantry_leader
+				infantry_expert
+				young_leader
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = high_command
+			cost = 100
+			idea_token = nora_valkyrie
+			ledger = army
+			traits = { army_artillery_1 }
+			can_be_fired = yes
 		}
 		gender = female
 	}
@@ -1669,14 +1783,6 @@ characters = {
 	###########################################################
 	
 	
-	
-	
-
-	
-
-	
-	
-
 	CSD_arslan_atlan = {
 		name = CSD_arslan_atlan
 		portraits = {
@@ -1737,72 +1843,12 @@ characters = {
 	}
 
 	# Vytal Clique - The Militarists (Generals) #
-	
-	
 
 	
 
-	CSD_pyrrha_nikos = {
-		name = CSD_pyrrha_nikos
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill = 
-		}
-		gender = female
-	}
+	
 
-	CSD_nora_valkyrie = {
-		name = CSD_nora_valkyrie
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill = 
-		}
-		gender = female
-	}
-
-	CSD_lie_ren = {
-		name = CSD_lie_ren
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-		corps_commander = {
-			traits = {  }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill = 
-		}
-	}
+	
 
 	CSD_fox_alistair = {
 		name = CSD_fox_alistair

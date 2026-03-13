@@ -428,7 +428,7 @@ characters = {
             }
             army = {
                 large = "gfx/leaders/CAL/Portrait_CAL_Crieghton_Williams_Abrams_Jr.dds"
-				small = 
+				small = GFX_fish
             }
         }
         corps_commander = {
