@@ -1,0 +1,9 @@
+leader_traits = {
+    #########################################
+	### California Republic Leader Traits ###
+	#########################################
+    CAL_the_kingfish = {
+        random = no
+        
+    }
+}

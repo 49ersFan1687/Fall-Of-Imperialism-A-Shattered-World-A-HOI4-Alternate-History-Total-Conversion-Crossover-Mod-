@@ -1014,8 +1014,13 @@ shared_focus = {
     relative_position_id = CAL_improved_rifle_designs
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_initial_motorization_efforts"
+        add_equipment_to_stockpile = {
+            type = motorized_equipment
+            amount = 700
+            producer = CAL
+        }
         add_tech_bonus = {
-			bonus = 1
+			bonus = 0.5
 			uses = 1
 			category = motorized_equipment
 		}

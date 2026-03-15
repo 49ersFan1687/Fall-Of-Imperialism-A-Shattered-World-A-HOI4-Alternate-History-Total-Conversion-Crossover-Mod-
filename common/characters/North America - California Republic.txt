@@ -19,9 +19,9 @@ characters = {
 		}
     }
 
-	########################
-	### Country Advisors ###
-	########################
+	##############################################
+	### Country Advisors - Heads of Government ###
+	##############################################
     CAL_huey_pierce_long_jr = {
         name = CAL_huey_pierce_long_jr
         portraits = {
@@ -37,7 +37,7 @@ characters = {
 			}
 		}
         advisor = {
-			slot = hog
+			slot = slot_hog
 			idea_token = CAL_huey_pierce_long_jr_hog
 			allowed = { original_tag = CAL }
 			traits = {
@@ -229,7 +229,7 @@ characters = {
 		}
 		advisor = {
 			cost = 200
-			slot = theorist
+			slot = army_theorist
 			idea_token = dwight_david_eisenhower
 			ledger = army
 			traits = {
@@ -266,7 +266,7 @@ characters = {
 		}
 		advisor = {
 			cost = 200
-			slot = theorist
+			slot = army_theorist
 			idea_token = george_catlett_marshall
 			ledger = army
 			traits = {
@@ -390,7 +390,7 @@ characters = {
 		}
 		advisor = {
 			cost = 100
-			slot = theorist
+			slot = army_theorist
 			idea_token = george_smith_patton_jr
 			ledger = army
 			traits = {
@@ -454,7 +454,7 @@ characters = {
 		}
 		advisor = {
 			cost = 200
-			slot = theorist
+			slot = army_theorist
 			idea_token = william_childs_westmoreland
 			ledger = army
 			traits = {
