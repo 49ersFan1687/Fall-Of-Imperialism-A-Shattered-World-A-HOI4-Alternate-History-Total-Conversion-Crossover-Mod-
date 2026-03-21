@@ -27,3 +27,7 @@ patton_reform_plan_operations_subdoctrine = {
     ### DOCTRINE EFFECTS ###
     ########################
 }
+
+patton_reform_plan_armor_subdoctrine = {}
+patton_reform_plan_support_subdoctrine = {}
+patton_reform_plan_infantry_subdoctrine = {}
