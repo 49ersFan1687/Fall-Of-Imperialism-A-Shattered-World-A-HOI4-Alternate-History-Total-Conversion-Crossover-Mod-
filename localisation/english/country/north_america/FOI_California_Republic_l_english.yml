@@ -5,6 +5,14 @@ CAL:0 "California Focus Tree"
 ####################################
 ### Events - California Republic ###
 ####################################
+CAL_start.1.t: "The Fall of the American Republic"
+CAL_start.1.d: "It was that day again. Jamison was at the Fresno City Hall as he climbed the ladder and got near the US flag. Everything that happened flashed before him - the nuke on D.C., the surrender to the Nazis. It all happened so fast. \n\n The orders from the colonel, a once bombastic man who was all army logic, were clear - America was dead. He had to tear down the flag and report back to base for his last salutations and orders from the general. \n\n Jamison then closed his eyes, as he began humming When Johnny Comes Marching Home, as he got out an machete and aimed it at the mast of the flag, lowering his head as tears fell out of it. \n\n SWISH! FLOOP! \n\n The flag feel towards the tiled rooftop as it slid over the concrete street below, as Jamison removed his helmet."
+CAL_start.1.a: ""Semper Fi, America. May you rest in peace.""
+
+CAL_start.2.t: ""
+CAL_start.2.d: ""
+CAL_start.2.a: ""
+
 
 ### Political Parties - California Republic ###
 CAL_communism_party: "CPUSA"

@@ -1,0 +1,29 @@
+patton_reform_plan_operations_subdoctrine = {
+    track = operations
+    name = patton_reform_plan_subdoctrine_name
+    description = patton_reform_plan_subdoctrine_desc
+    icon = GFX_idea_generic_officer
+
+    xp_cost = 120
+	xp_type = army
+
+    ai_will_do = {
+		base = 2
+		modifier = {
+			factor = 20
+			tag = CAL
+		}
+	}
+
+    visible = { tag = CAL }
+	available = {
+		OR = {
+            has_completed_focus = CAL_pattons_doctrine_army_of_the_future
+            has_doctrine = new_mobile_warfare
+		}
+	}
+
+    ########################
+    ### DOCTRINE EFFECTS ###
+    ########################
+}

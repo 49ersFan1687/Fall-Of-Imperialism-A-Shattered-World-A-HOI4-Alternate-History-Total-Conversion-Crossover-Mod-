@@ -5,6 +5,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = GFX_focus_CAL_control_the_sixth_army
+        textureFile = "gfx/interface/goals/CAL/CAL_control_the_sixth_army.dds"
+    }
+
+    spriteType = {
         name = GFX_focus_CAL_the_second_continental_army_junta
         textureFile = "gfx/interface/goals/CAL/CAL_the_second_contnental_army_junta.dds"
     }
@@ -15,7 +20,22 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = GFX_focus_CAL_negotiations_with_the_canadians
+        textureFile = "gfx/interface/goals/CAL/CAL_negotiations_with_the_canadians.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_expand_the_military_police
+        textureFile = "gfx/interface/goals/CAL/CAL_expand_the_military_police.dds"
+    }
+
+    spriteType = {
         name = GFX_focus_CAL_form_the_fortieth_armored_division
         textureFile = "gfx/interface/goals/CAL/CAL_form_the_fortieth_armored_division.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_create_the_war_research_department
+        textureFile = "gfx/interface/goals/CAL/CAL_create_the_war_research_department.dds"
     }
 }

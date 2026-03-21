@@ -32,6 +32,20 @@ country_event = {
     }
 }
 
+country_event = {
+    id = CAL_start.2
+    title = CAL_start.2.t
+    desc = CAL_start.2.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = CAL_start.2.a
+    }
+}
+
 ########################################
 #### California Pre-Regional Events ####
 ########################################

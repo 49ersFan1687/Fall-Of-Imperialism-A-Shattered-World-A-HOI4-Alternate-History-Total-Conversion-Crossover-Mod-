@@ -3,7 +3,7 @@ characters = {
     ### Country Leaders ###
     #######################
     NCA_yugi_moto = {
-        name = NCA_yugi_moto
+        name = NCA_yugi_muto
         portraits = {
             civilian = {
                 large = GFX_fish
@@ -13,7 +13,7 @@ characters = {
             }
         }
         country_leader = {
-            desc = "POLITICS_YUGI_MOTO_DESC"
+            desc = "POLITICS_YUGI_MUTO_DESC"
             expire = "1995.8.20"
             ideology = democratic_stratocracy_ideology
             traits = {
@@ -37,6 +37,15 @@ characters = {
         }
     }
 
+    ########################
+	### Country Advisors ###
+	########################
+
+
+
+    #################################################################
+    ### Northern Second Continental Army Command - Field Marshals ###
+	#################################################################
     NCA_seto_kaiba = {
         name = NCA_seto_kaiba
         portraits = {
@@ -51,25 +60,17 @@ characters = {
             traits = {
                 media_personality
                 young_leader
+                briliant_strategist
+                offensive_doctrine
+                infantry_leader
             }
-            skill = 
-            attack_skill
-            defense_skill
-            planning_skill
-            logistics_skill
+            skill = 3
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 5
+            logistics_skill = 5
         }
     }
-
-    ########################
-	### Country Advisors ###
-	########################
-
-
-
-    #################################################################
-    ### Northern Second Continental Army Command - Field Marshals ###
-	#################################################################
-    
 
     #############################
 	### Generals - Level Five ###
@@ -86,7 +87,26 @@ characters = {
     ##############################
 	### Generals - Level Three ###
 	##############################
-
+     NCA_joey_wheeler = {
+        name = NCA_joey_wheeler
+        portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+            traits = {
+                
+            }
+            attack_skill = 
+            defense_skill =
+            planning_skill = 
+            logistics_skill = 
+        }
+    }
 
 
     ############################
@@ -98,25 +118,6 @@ characters = {
     ############################
 	### Generals - Level One ###
 	############################
-
-    NCA_andrew_pick_omeara = {
-        name = NCA_andrew_pick_omeara
-        portraits = {
-            civilian = {
-                large = GFX_fish
-            }
-            army = {
-                large = GFX_fish
-            }
-        }
-        corps_commander = {
-            traits = { }
-            attack_skill = 
-            defense_skill =
-            planning_skill = 
-            logistics_skill = 
-        }
-    }
 
     NCA_john_knight_waters = {
         name = NCA_john_knight_waters

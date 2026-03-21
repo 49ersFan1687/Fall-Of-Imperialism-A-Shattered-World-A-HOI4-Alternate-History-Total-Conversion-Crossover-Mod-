@@ -32,7 +32,39 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_focus_CAL_the_second_contnental_army_junta"
+        name = "GFX_focus_CAL_control_the_sixth_army_shine"
+        texturefile = "gfx/interface/goals/CAL/CAL_control_the_sixth_army.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/CAL/CAL_control_the_sixth_army.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/CAL/CAL_control_the_sixth_army.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+
+    spriteType = {
+        name = "GFX_focus_CAL_the_second_contnental_army_junta_shine"
         texturefile = "gfx/interface/goals/CAL/CAL_the_second_contnental_army_junta.dds"
         effectFile = "gfx/FX/buttonstate.lua"
         animation = {
@@ -64,7 +96,7 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_focus_CAL_expand_the_california_national_guard"
+        name = "GFX_focus_CAL_expand_the_california_national_guard_shine"
         texturefile = "gfx/interface/goals/CAL/CAL_expand_the_california_national_guard.dds"
         effectFile = "gfx/FX/buttonstate.lua"
         animation = {
@@ -96,7 +128,71 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_focus_CAL_form_the_fortieth_armored_division"
+        name = "GFX_focus_CAL_negotiations_with_the_canadians_shine"
+        texturefile = "gfx/interface/goals/CAL/CAL_negotiations_with_the_canadians.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/CAL/CAL_negotiations_with_the_canadians.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/CAL/CAL_negotiations_with_the_canadians.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+
+    spriteType = {
+        name = "GFX_focus_CAL_expand_the_military_police_shine"
+        texturefile = "gfx/interface/goals/CAL/CAL_expand_the_military_policen.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/CAL/CAL_expand_the_military_police.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/CAL/CAL_form_the_fortieth_armored_division.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+
+    spriteType = {
+        name = "GFX_focus_CAL_form_the_fortieth_armored_division_shine"
         texturefile = "gfx/interface/goals/CAL/CAL_form_the_fortieth_armored_division.dds"
         effectFile = "gfx/FX/buttonstate.lua"
         animation = {
@@ -114,6 +210,38 @@ spriteTypes = {
 
         animation = {
             animationmaskfile = "gfx/interface/goals/CAL/CAL_form_the_fortieth_armored_division.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+
+    spriteType = {
+        name = "GFX_focus_CAL_create_the_war_research_department_shine"
+        texturefile = "gfx/interface/goals/CAL/CAL_create_the_war_research_department.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/CAL/CAL_create_the_war_research_department.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/CAL/CAL_create_the_war_research_department.dds"
             animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
             animationrotation = 90.0
             animationlooping = no
