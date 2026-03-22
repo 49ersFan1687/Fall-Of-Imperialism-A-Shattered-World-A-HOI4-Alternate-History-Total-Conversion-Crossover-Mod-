@@ -84,7 +84,9 @@ focus_tree = {
 	}
     default = no
     continuous_focus_position = { x = 450 y = 200 }
-    shared_focus = CAL_an_export_orientated_economy
+    shared_focus = CAL_taking_care_of_our_economic_situation
+    shared_focus = CAL_scavaging_through_the_manhattan_project
+    shared_focus = CAL_finding_international_recognition
 }
 
 focus_tree = {
@@ -4029,7 +4031,10 @@ shared_focus = {
     relative_position_id = CAL_limiting_presidential_powers
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_american_democracy_stabilized"
-        load_focus_tree = CAL_regional_stage_civilian_democracy_focus_tree
+        hidden_effect = {
+            load_focus_tree = CAL_regional_stage_civilian_democracy_focus_tree
+            set_country_flag = SCA_civilian
+        } 
     }
 }
 
@@ -4255,7 +4260,10 @@ shared_focus = {
     relative_position_id = CAL_purge_fascist_symphatizers
      completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_the_junta_secures_its_grip"
-        load_focus_tree = CAL_regional_stage_military_aligned_democracy_focus_tree
+        hidden_effect = {
+            load_focus_tree = CAL_regional_stage_military_aligned_democracy_focus_tree
+            set_country_flag = SCA_junta
+        }
     }
 }
 
@@ -4270,6 +4278,9 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
+    available = {
+        has_country_flag = SCA_junta
+    }
 	x = 18
 	y = 2
 	completion_reward = {
@@ -6216,6 +6227,9 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
+    available = {
+        has_country_flag = SCA_civilian
+    }
 	x = 20
 	y = 0
 	completion_reward = {
@@ -7848,6 +7862,10 @@ shared_focus = {
     ai_will_do = {
         factor = 1
     }
+    available = {
+        has_country_flag = SCA_civilian
+        has_country_flag = SCA_junta
+    }
     x = -10
     y = 5
     completion_reward = {
@@ -8771,6 +8789,10 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
+    available = {
+        has_country_flag = SCA_civilian
+        has_country_flag = SCA_junta
+    }
 	x = -3
 	y = 15
 	completion_reward = {
@@ -11312,6 +11334,9 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
+    available = {
+        has_country_flag = SCA_junta
+    }
 	x = 28
 	y = 16
 	completion_reward = {
@@ -12145,6 +12170,9 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
+    available = {
+        has_country_flag = SCA_civilian
+    }
 	x = 32
 	y = 16
 	completion_reward = {
@@ -12853,10 +12881,620 @@ shared_focus = {
 		factor = 1
 	}
     x = 22
-	y = 9
+	y = 10
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_a_washingtonian_america"
     }
+}
+
+shared_focus = {
+	id = CAL_membership_in_the_bermuda_accord
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    mutually_exclusive = {
+        focus = CAL_membership_in_the_bermuda_accord
+    }
+    available = {
+        has_country_flag = SCA_civilian
+    }
+    prerequisite = { 
+		focus = CAL_finding_international_recognition
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_finding_international_recognition
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_improved_canadian_american_relations
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    mutually_exclusive = {
+        focus = CAL_improved_canadian_american_relations
+    }
+    available = {
+        has_country_flag = SCA_junta
+    }
+    prerequisite = { 
+		focus = CAL_finding_international_recognition
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_finding_international_recognition
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_unmilitarize_the_canadian_border
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+		focus = CAL_membership_in_the_bermuda_accord
+	}	
+	x = -1
+    y = 1
+    relative_position_id = CAL_membership_in_the_bermuda_accord
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_restarting_lend_lease
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+		focus = CAL_improved_canadian_american_relations
+	}	
+	x = 1
+    y = 1
+    relative_position_id = CAL_improved_canadian_american_relations
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_utilizing_the_northwest_passage
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+		focus = CAL_unmilitarize_the_canadian_border
+	}	
+	x = -4
+    y = 1
+    relative_position_id = CAL_unmilitarize_the_canadian_border
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_joint_training_excercises_with_canada
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+		focus = CAL_unmilitarize_the_canadian_border
+	}	
+	x = -2
+    y = 1
+    relative_position_id = CAL_unmilitarize_the_canadian_border
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_the_alaskan_question
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+		focus = CAL_unmilitarize_the_canadian_border
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_unmilitarize_the_canadian_border
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_sowing_the_seeds_for_something_bigger
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+		focus = CAL_unmilitarize_the_canadian_border
+        focus = CAL_restarting_lend_lease
+	}	
+	x = 2
+    y = 1
+    relative_position_id = CAL_unmilitarize_the_canadian_border
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_demand_alaska
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_restarting_lend_lease
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_restarting_lend_lease
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_forming_a_design_sharing_committee
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_restarting_lend_lease
+	}	
+	x = 2
+    y = 1
+    relative_position_id = CAL_restarting_lend_lease
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_restarting_the_resource_trade
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_restarting_lend_lease
+	}	
+	x = 4
+    y = 1
+    relative_position_id = CAL_restarting_lend_lease
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_nz_american_industrial_experts
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_the_alaskan_question
+	}	
+	x = -4
+    y = 1
+    relative_position_id = CAL_the_alaskan_question
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_sa_american_industrial_experts
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_the_alaskan_question
+	}	
+	x = -2
+    y = 1
+    relative_position_id = CAL_the_alaskan_question
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_aus_american_industrial_experts
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_the_alaskan_question
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_the_alaskan_question
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_advice_from_canadian_industrial_experts
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_sowing_the_seeds_for_something_bigger
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_sowing_the_seeds_for_something_bigger
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_american_military_advisors_nz
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_demand_alaska
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_demand_alaska
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_american_military_advisors_aus
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_demand_alaska
+	}	
+	x = 2
+    y = 1
+    relative_position_id = CAL_demand_alaska
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_american_military_advisors_ffra
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_demand_alaska
+	}	
+	x = 4
+    y = 1
+    relative_position_id = CAL_demand_alaska
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_negotations_with_the_japanese
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_aus_american_industrial_experts
+	}	
+	x = -4
+    y = 1
+    relative_position_id = CAL_aus_american_industrial_experts
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_the_hawaii_question
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_demand_alaska
+	}	
+	x = 4
+    y = 1
+    relative_position_id = CAL_demand_alaska
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_japanese_american_pow_exchange
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_aus_american_industrial_experts
+	}	
+	x = -2
+    y = 1
+    relative_position_id = CAL_aus_american_industrial_experts
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_the_honolulu_conference
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_aus_american_industrial_experts
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_aus_american_industrial_experts
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_preparations_for_operation_homecoming
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_advice_from_canadian_industrial_experts
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_advice_from_canadian_industrial_experts
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_demand_hawaii
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_american_military_advisors_nz
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_american_military_advisors_nz
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_fund_american_guerillas
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_american_military_advisors_nz
+	}	
+	x = 2
+    y = 1
+    relative_position_id = CAL_american_military_advisors_nz
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_utilize_the_cia
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_american_military_advisors_nz
+	}	
+	x = 4
+    y = 1
+    relative_position_id = CAL_american_military_advisors_nz
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_acepting_bermuda_accord_membership
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_the_honolulu_conference
+	}	
+	x = -2
+    y = 1
+    relative_position_id = CAL_the_honolulu_conference
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_the_stormclouds_clear_away
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_the_honolulu_conference
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_the_honolulu_conference
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_plans_for_going_over_the_atlantic
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_demand_hawaii
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_demand_hawaii
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_rejoining_the_alliance
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+		focus = CAL_demand_hawaii
+	}	
+	x = 2
+    y = 1
+    relative_position_id = CAL_demand_hawaii
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = {
+	id = CAL_onward_to_victory
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = {
+        focus = CAL_acepting_bermuda_accord_membership
+        focus = CAL_the_stormclouds_clear_away
+    }
+	prerequisite = { 
+        focus = CAL_preparations_for_operation_homecoming
+	}
+    prerequisite = {
+        focus = CAL_plans_for_going_over_the_atlantic
+        focsu = CAL_rejoining_the_alliance
+    }	
+	x = 0
+    y = 2
+    relative_position_id = CAL_preparations_for_operation_homecoming
+	completion_reward = {
+			
+	}
 }
 
 
