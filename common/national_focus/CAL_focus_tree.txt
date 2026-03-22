@@ -13623,12 +13623,32 @@ shared_focus = {
     prerequisite = {
         focus = CAL_congresss_desctruction
     }
-    x = 1
+    x = 0
     y = 1
     relative_position_id = CAL_congresss_desctruction
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_bonesteels_america"
         set_country_flag = CAL_bonesteel_takes_control
+    }
+}
+
+shared_focus = {
+    id = CAL_pattons_america
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_legalize_the_patriots
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_legalize_the_patriots
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_bonesteels_america"
+        set_country_flag = CAL_patton_takes_command
     }
 }
 
