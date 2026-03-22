@@ -12883,7 +12883,7 @@ shared_focus = {
     x = 22
 	y = 10
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_washingtonian_america"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_finding_international_recognition"
     }
 }
 
@@ -12908,7 +12908,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_finding_international_recognition
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_membership_in_the_bermuda_accord"			
 	}
 }
 
@@ -12933,7 +12933,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_finding_international_recognition
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_improved_canadian_american_relations"			
 	}
 }
 
@@ -12952,7 +12952,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_membership_in_the_bermuda_accord
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_unmilitarize_the_canadian_border"			
 	}
 }
 
@@ -12971,7 +12971,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_improved_canadian_american_relations
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_restarting_lend_lease"			
 	}
 }
 
@@ -12990,7 +12990,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_unmilitarize_the_canadian_border
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_utilizing_the_northwest_passage"			
 	}
 }
 
@@ -13009,7 +13009,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_unmilitarize_the_canadian_border
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_joint_training_excercises_with_canada"			
 	}
 }
 
@@ -13028,7 +13028,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_unmilitarize_the_canadian_border
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_alaskan_question"			
 	}
 }
 
@@ -13048,7 +13048,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_unmilitarize_the_canadian_border
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_sowing_the_seeds_for_something_bigger"			
 	}
 }
 
@@ -13067,7 +13067,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_restarting_lend_lease
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_demand_alaska"			
 	}
 }
 
@@ -13086,7 +13086,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_restarting_lend_lease
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_forming_a_design_sharing_committee"			
 	}
 }
 
@@ -13105,7 +13105,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_restarting_lend_lease
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_restarting_the_resource_trade"			
 	}
 }
 
@@ -13124,7 +13124,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_the_alaskan_question
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_nz_american_industrial_experts"			
 	}
 }
 
@@ -13143,7 +13143,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_the_alaskan_question
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_sa_american_industrial_experts"			
 	}
 }
 
@@ -13162,7 +13162,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_the_alaskan_question
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_aus_american_industrial_experts"			
 	}
 }
 
@@ -13181,7 +13181,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_sowing_the_seeds_for_something_bigger
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_advice_from_canadian_industrial_experts"			
 	}
 }
 
@@ -13200,7 +13200,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_demand_alaska
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_american_military_advisors_nz"			
 	}
 }
 
@@ -13219,7 +13219,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_demand_alaska
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_american_military_advisors_aus"			
 	}
 }
 
@@ -13238,7 +13238,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_demand_alaska
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_american_military_advisors_ffra"			
 	}
 }
 
@@ -13257,7 +13257,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_aus_american_industrial_experts
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_negotations_with_the_japanese"			
 	}
 }
 
@@ -13276,7 +13276,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_demand_alaska
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_hawaii_question"			
 	}
 }
 
@@ -13295,7 +13295,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_aus_american_industrial_experts
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_japanese_american_pow_exchange"			
 	}
 }
 
@@ -13314,7 +13314,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_aus_american_industrial_experts
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_honolulu_conference"			
 	}
 }
 
@@ -13333,7 +13333,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_advice_from_canadian_industrial_experts
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_preparations_for_operation_homecoming"			
 	}
 }
 
@@ -13352,7 +13352,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_american_military_advisors_nz
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_demand_hawaii"			
 	}
 }
 
@@ -13371,7 +13371,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_american_military_advisors_nz
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_fund_american_guerillas"			
 	}
 }
 
@@ -13390,7 +13390,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_american_military_advisors_nz
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_utilize_the_cia"			
 	}
 }
 
@@ -13409,7 +13409,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_the_honolulu_conference
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_acepting_bermuda_accord_membership"			
 	}
 }
 
@@ -13428,7 +13428,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_the_honolulu_conference
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_stormclouds_clear_away"			
 	}
 }
 
@@ -13447,7 +13447,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_demand_hawaii
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_plans_for_going_over_the_atlantic"			
 	}
 }
 
@@ -13466,7 +13466,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_demand_hawaii
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rejoining_the_alliance"			
 	}
 }
 
@@ -13493,11 +13493,9 @@ shared_focus = {
     y = 2
     relative_position_id = CAL_preparations_for_operation_homecoming
 	completion_reward = {
-			
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_onward_to_victory"
 	}
 }
-
-
 
 #####################################################################
 ### Focus Tree - Superregional Stage -  Shared Nuclear Focus Tree ###
