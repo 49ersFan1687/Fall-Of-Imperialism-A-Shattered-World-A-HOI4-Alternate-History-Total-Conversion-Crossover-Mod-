@@ -157,16 +157,52 @@ spriteTypes = {
 
 	# California #
 	spriteType = {
+		name = "GFX_CAL_Arleigh_Albert_Burke"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Arleigh_Albert_Burke.dds"
+	}
+	spriteType = {
 		name = "GFX_CAL_Benjamin_Oliver_Davis_Sr"
 		textureFile = "gfx/leaders/CAL/Portrait_CAL_Benjamin_Oliver_Davis_Sr.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Charity_Edna_Adams_Earley"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Charity_Edna_Adams_Earley.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Charles_Hartwell_Bonesteel_III"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Charles_Hartwell_Bonesteel_III.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Chester_William_Nimitz"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Chester_William_Nimitz.dds"
 	}
 	spriteType = {
 		name = "GFX_CAL_Claire_Lee_Chennault"
 		textureFile = "gfx/leaders/CAL/Portrait_CAL_Claire_Lee_Chennault.dds"
 	}
 	spriteType = {
+		name = "GFX_CAL_Creighton_Williams_Abrams_Jr"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Creighton_Williams_Abrams_Jr.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Curtis_Emerson_Lemay"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Curtis_Emerson_Lemay.dds"
+	}
+	spriteType = {
 		name = "GFX_CAL_Dwight_David_Eisenhower"
 		textureFile = "gfx/leaders/CAL/Portrait_CAL_Dwight_David_Eisenhower.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Elizabeth_Coleman"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Elizabeth_Coleman.dds" 
+	}
+	spriteType = {
+		name = "GFX_CAL_Ernest_Joseph_King"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Ernest_Joseph_King.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Felix_Budwell_Stump"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Felix_Budwell_Stump.dds"
 	}
 	spriteType = {
 		name = "GFX_CAL_George_Catlett_Marshall"
@@ -181,76 +217,104 @@ spriteTypes = {
 		textureFile = "gfx/leaders/CAL/Portrait_CAL_Glynda_Goodwitch.dds"
 	}
 	spriteType = {
+		name = "GFX_CAL_Hayes_Kroner"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Hayes_Adlai_Ashby_Clarke_Kroner.dds" 
+	}
+	spriteType = {
 		name = "GFX_CAL_Henry_Agard_Wallace"
 		textureFile = "gfx/leaders/CAL/Portrait_CAL_Henry_Agard_Wallace.dds"
-	}
-	spriteType = {
-		name = "GFX_CAL_William_Childs_Westmoreland"
-		textureFile = "gfx/leaders/CAL/Portrait_CAL_William_Childs_Westmoreland.dds"
-	}
-	spriteType = {
-		name = "GFX_CAL_Maxwell_Devenport_Taylor"
-		textureFile = "gfx/leaders/CAL/Portrait_CAL_Maxewell_Davenport_Taylor.dds"
-	}
-	spriteType = {
-		name = "GFX_CAL_Omar_Nelson_Bradley"
-		textureFile = "gfx/leaders/CAL/Portrait_CAL_Omar_Nelson_Bradley.dds"
-	}
-	spriteType = {
-		name = "GFX_CAL_Walton_Harris_Walker"
-		textureFile = "gfx/leaders/CAL/Portrait_Walton_Harris_Walker.dds"
-	}
-	spriteType = {
-		name = "GFX_CAL_Chester_William_Nimitz"
-		textureFile = "gfx/leaders/CAL/Portrait_Chester_William_Nimitz.dds"
-	}
-	spriteType = {
-		name = "GFX_CAL_Ernest_Joseph_King"
-		textureFile = "gfx/leaders/CAL/Portrait_CAL_Ernest_Joseph_King.dds"
-	}
-	spriteType = {
-		name = "GFX_CAL_William_Daniel_Leahy"
-		textureFile = "gfx/leaders/CAL/Portrait_William_Daniel_Leahy.dds"
-	}
-	spriteType = {
-		name = "GFX_CAL_William_Fredrick_Halsey_Jr"
-		textureFile = "gfx/leaders/CAL/Portrait_William_Fredrick_Halsey_Jr.dds"
-	}
-	spriteType = {
-		name = "GFX_CAL_Smedley_Darlington_Butler"
-		textureFile = "gfx/leaders/CAL/Portrait_CAL_Smedley_Darlington_Butler.dds"
-	}
-	spriteType = {
-		name = "GFX_CAL_Mark_Wayne_Clark"
-		textureFile = "gfx/leaders/CAL/Portrait_CAL_Mark_Wayne_Clark.dds"
-	}
-	spriteType = {
-		name = "GFX_CAL_Jacob_Loucks_Devers"
-		textureFile = "gfx/leaders/CAL/Portrait_CAL_Jacob_Loucks_Devers.dds"
-	}
-	spriteType = {
-		name = "GFX_CAL_John_Daniel_Lavelle"
-		textureFile = "gfx/leaders/CAL/Portrait_CAL_John_Daniel_Lavelle.dds"
-	}
-	spriteType = {
-		name = "GFX_CAL_Charity_Edna_Adams_Earley"
-		textureFile = "gfx/leaders/CAL/Portrait_CAL_Charity_Edna_Adams_Earley.dds"
-	}
-	spriteType = {
-		name = "GFX_CAL_Hobart_Raymond_Gay"
-		textureFile = "gfx/leaders/CAL/Portrait_CAL_Hobart_Raymond_Gay.dds"
-	}
-	spriteType = {
-		name = "GFX_CAL_Issac_Campbell_Kidd_Sr"
-		textureFile = "gfx/leaders/CAL/Portrait_CAL_Issac_Campbell_Kidd_Sr.dds"
 	}
 	spriteType = {
 		name = "GFX_CAL_Henry_Harley_Arnold"
 		textureFile = "gfx/leaders/CAL/Portrait_CAL_Henry_Harley_Arnold.dds"
 	}
 	spriteType = {
+		name = "GFX_CAL_Hobart_Raymond_Gay"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Hobart_Raymond_Gay.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Huey_Pierce_Long_Jr"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Huey_Pierce_Long_Jr.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Issac_Campbell_Kidd_Sr"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Issac_Campbell_Kidd_Sr.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Jacob_Loucks_Devers"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Jacob_Loucks_Devers.dds"
+	}
+	spriteType = {
 		name = "GFX_CAL_James_Cordie_Dozier"
 		textureFile = "gfx/leaders/CAL/Portrait_CAL_James_Cordie_Dozier.dds" 
+	}
+	spriteType = {
+		name = "GFX_CAL_James_Harold_Doolittle"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_James_Harold_Doolittle.dds" 
+	}
+	spriteType = {
+		name = "GFX_CAL_John_Daniel_Lavelle"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_John_Daniel_Lavelle.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Joseph_May_Swing"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Joseph_May_Swing.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Leonard_Townsend_Gerow"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Leonard_Townsend_Gerow.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Chesty_Puller"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Lewis_Burwell_Puller.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Lucian_King_Truscott"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Lucian_King_Truscott.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Mark_Wayne_Clark"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Mark_Wayne_Clark.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Maxwell_Davenport_Taylor"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Maxwell_Davenport_Taylor.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Omar_Nelson_Bradley"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Omar_Nelson_Bradley.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Samuel_Lee_Gravely_Jr"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Samuel_Lee_Gravely_Jr.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Simon_Bolivar_Buckner_Jr"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Simon_Bolivar_Buckner_Jr.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Smedley_Darlington_Butler"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Smedley_Darlington_Butler.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_Ulysses_Simpson_Grant_III"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Ulysses_Simpson_Grant_III"
+	}
+	spriteType = {
+		name = "GFX_CAL_Walton_Harris_Walker"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Walton_Harris_Walker.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_William_Childs_Westmoreland"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_William_Childs_Westmoreland.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_William_Daniel_Leahy"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_William_Daniel_Leahy.dds"
+	}
+	spriteType = {
+		name = "GFX_CAL_William_Fredrick_Halsey_Jr"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_William_Fredrick_Halsey_Jr.dds"
 	}
 	spriteType = {
 		name = "GFX_CAL_John_Lesesne_DeWitt"
@@ -260,32 +324,12 @@ spriteTypes = {
 		name = "GFX_CAL_Daring_Do"
 		textureFile = "gfx/leaders/CAL/Portrait_CAL_Daring_Do.dds" 
 	}
-	spriteType = {
-		name = "GFX_CAL_Elizabeth_Coleman"
-		textureFile = "gfx/leaders/CAL/Portrait_CAL_Elizabeth_Coleman.dds" 
-	}
-	spriteType = {
-		name = "GFX_CAL_Hayes_Kroner"
-		textureFile = "gfx/leaders/CAL/Portrait_CAL_Hayes_Adlai_Ashby_Clarke_Kroner.dds" 
-	}
-	spriteType = {
-		name = "GFX_CAL_Jimmy_Doolittle"
-		textureFile = "gfx/leaders/CAL/Portrait_CAL_James_Harold_Doolittle.dds" 
-	}
-	spriteType = {
-		name = "GFX_CAL_Felix_Stump"
-		textureFile = "gfx/leaders/CAL/Portrait_CAL_Felix_Budwell_Stump.dds" 
-	}
-	spriteType = {
-		name = "GFX_CAL_Chesty_Puller"
-		textureFile = "gfx/leaders/CAL/Portrait_CAL_Lewis_Burwell_Puller.dds"
-	}
 
 	# Cascadia - Power Rangers Characters #
 
 	spriteType = {
-		name = "GFX_CSD_Jason_Lee Scott"
-		textureFile = "gfx/leaders/CSD/Portrait_CSD_Jason_Lee Scott.dds"
+		name = "GFX_CSD_Jason_Lee_Scott"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Jason_Lee_Scott.dds"
 	}
 	spriteType = {
 		name = "GFX_CSD_Tommy_Oliver"
@@ -328,8 +372,8 @@ spriteTypes = {
 		textureFile = "gfx/leaders/CSD/Portrait_CSD_Tanya_Sloan.dds"
 	}
 	spriteType = {
-		name = "GFX_CSD_Theodore_Jarvis_Johsnon"
-		textureFile = "gfx/leaders/CSD/Portrait_CSD_Theodore_Jarvis_Johsnon.dds"
+		name = "GFX_CSD_Theodore_Jarvis_Johnson"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Theodore_Jarvis_Johnson.dds"
 	}
 	spriteType = {
 		name = "GFX_CSD_Ashley_Hammond"
@@ -344,4 +388,21 @@ spriteTypes = {
 		textureFile = "gfx/leaders/CSD/Portrait_CSD_Carlos_Vallerte.dds"
 	}
 
+	# Cascadia - RWBY Characters #
+	spriteType = {
+		name = "GFX_CSD_Ruby_Rose"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Ruby_Rose.dds"
+	}
+	spriteType = {
+		name = "GFX_CSD_Weiss_Schnee"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Weiss_Schnee.dds"
+	}
+	spriteType = {
+		name = "GFX_CSD_Blake_Belladonna"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Blake_Belladonna.dds"
+	}
+	spriteType = {
+		name = "GFX_CSD_Yang_Xiao_Long"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Yang_Xiao_Long.dds"
+	}
 }
