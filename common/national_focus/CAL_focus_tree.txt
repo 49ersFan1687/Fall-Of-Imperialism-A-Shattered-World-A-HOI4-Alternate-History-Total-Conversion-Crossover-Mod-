@@ -13487,7 +13487,7 @@ shared_focus = {
 	}
     prerequisite = {
         focus = CAL_plans_for_going_over_the_atlantic
-        focsu = CAL_rejoining_the_alliance
+        focus = CAL_rejoining_the_alliance
     }	
 	x = 0
     y = 2
