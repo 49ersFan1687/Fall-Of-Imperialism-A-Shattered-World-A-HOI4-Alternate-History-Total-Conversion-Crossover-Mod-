@@ -99,6 +99,9 @@ focus_tree = {
     default = no
     continuous_focus_position = { x = 450 y = 200 }
     shared_focus = CAL_a_washingtonian_america
+    shared_focus = CAL_taking_care_of_our_economic_situation
+    shared_focus = CAL_scavaging_through_the_manhattan_project
+    shared_focus = CAL_finding_international_recognition
 }
 
 focus_tree = {
@@ -12838,24 +12841,63 @@ shared_focus = {
     }
 }
 
-###########################################################################################
-### Focus Tree - Superregional Stage: Civilian Democracy -  Initial Economic Focus Tree ###
-###########################################################################################
+#####################################################################
+### Focus Tree - Superregional Stage -  Shared Foreign Focus Tree ###
+#####################################################################
+shared_focus = {
+    id = CAL_finding_international_recognition
+    icon = GFX_
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    x = 22
+	y = 9
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_washingtonian_america"
+    }
+}
 
 
 
-##################################################################################################
-### Focus Tree - Superregional Stage: Civilian Democracy -  Initial Countrybuilding Focus Tree ###
-##################################################################################################
+#####################################################################
+### Focus Tree - Superregional Stage -  Shared Nuclear Focus Tree ###
+#####################################################################
+shared_focus = {
+    id = CAL_scavaging_through_the_manhattan_project
+    icon = GFX_
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    x = 43
+    y = 5
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_scavaging_through_the_manhattan_project"
+    }
+}
 
 
 
-
-###################################################################################
-### Focus Tree - Superregional Stage: Civilian Democracy -  Military Focus Tree ###
-###################################################################################
-
-
+#################################################################################
+### Focus Tree - Superregional Stage: Civilian Democracy -  Shared Focus Tree ###
+#################################################################################
+shared_focus = {
+    id = CAL_taking_care_of_our_economic_situation
+    icon = GFX_
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    x = 3
+    y = 5
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_taking_care_of_our_economic_situation"
+    }
+}
 
 
 #############################################################################################
@@ -12961,31 +13003,6 @@ shared_focus = {
     relative_position_id = CAL_fires_in_the_congress
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_patton_takes_charge"
-    }
-}
-
-shared_focus = {
-    id = CAL_eisenhowers_ascent
-    icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    mutually_exclusive = {
-        focus = CAL_the_supreme_council
-        focus = CAL_patton_takes_charge
-        focus = CAL_the_foreigners_judgement
-        focus = CAL_the_butlerite_revival
-    }
-    prerequisite = {
-        focus = CAL_fires_in_the_congress
-    }
-    x = 0
-    y = 1
-    relative_position_id = CAL_fires_in_the_congress
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_eisenhowers_ascent"
     }
 }
 
@@ -13144,7 +13161,6 @@ shared_focus = {
         factor = 1
     }
     prerequisite = {
-        focus = CAL_patton_takes_charge
         focus = CAL_eisenhowers_ascent
     }
     x = 2
@@ -13171,6 +13187,25 @@ shared_focus = {
     relative_position_id = CAL_eisenhowers_ascent
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_cleaning_up_pattons_blackshirts"
+    }
+}
+
+shared_focus = {
+    id = CAL_striking_a_deal_with_the_other_side
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_eisenhowers_ascent
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_eisenhowers_ascent
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_striking_a_deal_with_the_other_side"
     }
 }
 
@@ -13233,7 +13268,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_unknown_focus
+    id = CAL_new_checks_and_balances
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -13247,7 +13282,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_readying_for_unification
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_councils_disbandment"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_new_checks_and_balances"
     }
 }
 
@@ -13271,7 +13306,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_eisnehowers_mishap
+    id = CAL_eisenhowers_mishap
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -13285,12 +13320,12 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_patton_solidifies_his_grip
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_eisnehowers_mishap"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_eisenhowers_mishap"
     }
 }
 
 shared_focus = {
-    id = CAL_eisnehowers_mishap
+    id = CAL_combine_the_civlian_and_military_apparatuses
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -13298,13 +13333,371 @@ shared_focus = {
         factor = 1
     }
     prerequisite = {
-        focus = CAL_patton_solidifies_his_grip
+        focus = CAL_handling_wallaces_remnants
     }
     x = 0
     y = 1
-    relative_position_id = CAL_patton_solidifies_his_grip
+    relative_position_id = CAL_handling_wallaces_remnants
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_eisnehowers_mishap"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_combine_the_civlian_and_military_apparatuses"
+    }
+}
+
+shared_focus = {
+    id = CAL_eisenhower_the_american_bonaparte
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_cleaning_up_pattons_blackshirts
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_cleaning_up_pattons_blackshirts
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_eisenhower_the_american_bonaparte"
+    }
+}
+
+shared_focus = {
+    id = CAL_taking_the_other_sides_ideals_into_mind
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_striking_a_deal_with_the_other_side
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_striking_a_deal_with_the_other_side
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_taking_the_other_sides_ideals_into_mind"
+    }
+}
+
+shared_focus = {
+    id = CAL_empower_the_american_cavalier_society
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_create_the_cavalier_congress
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_create_the_cavalier_congress
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_empower_the_american_cavalier_society"
+    }
+}
+
+shared_focus = {
+    id = CAL_creating_a_refined_command_structure
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_opening_commands_closets
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_opening_commands_closets
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_creating_a_refined_command_structure"
+    }
+}
+
+shared_focus = {
+    id = CAL_war_is_a_racket
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_to_prevent_another_buisness_plot
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_to_prevent_another_buisness_plot
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_war_is_a_racket"
+    }
+}
+
+shared_focus = {
+    id = CAL_congress_of_the_wise_men
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_new_checks_and_balances
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_new_checks_and_balances
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_congress_of_the_wise_men"
+    }
+}
+
+shared_focus = {
+    id = CAL_congresss_desctruction
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_councils_disbandment
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_councils_disbandment
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_congresss_desctruction"
+    }
+}
+
+shared_focus = {
+    id = CAL_legalize_the_patriots
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_eisenhowers_mishap
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_eisenhowers_mishap
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_legalize_the_patriots"
+    }
+}
+
+shared_focus = {
+    id = CAL_united_in_liberty
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_combine_the_civlian_and_military_apparatuses
+        focus = CAL_eisenhower_the_american_bonaparte
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_eisenhower_the_american_bonaparte
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_united_in_liberty"
+    }
+}
+
+shared_focus = {
+    id = CAL_appointing_cavalier_faction_officals
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_eisenhower_the_american_bonaparte
+        focus = CAL_taking_the_other_sides_ideals_into_mind
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_taking_the_other_sides_ideals_into_mind
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_appointing_cavalier_faction_officals"
+    }
+}
+
+shared_focus = {
+    id = CAL_legalize_the_lancers
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_empower_the_american_cavalier_society
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_empower_the_american_cavalier_society
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_legalize_the_lancers"
+    }
+}
+
+shared_focus = {
+    id = CAL_appointing_new_commanders
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_creating_a_refined_command_structure
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_creating_a_refined_command_structure
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_appointing_new_commanders"
+    }
+}
+
+shared_focus = {
+    id = CAL_war_is_hell
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_war_is_a_racket
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_war_is_a_racket
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_war_is_hell"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_councils_america
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_congress_of_the_wise_men
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_congress_of_the_wise_men
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_councils_conggress"
+        set_country_flag = CAL_supreme_council_controlled
+    }
+}
+
+shared_focus = {
+    id = CAL_bonesteels_america
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_congresss_desctruction
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_congresss_desctruction
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_bonesteels_america"
+        set_country_flag = CAL_bonesteel_takes_control
+    }
+}
+
+shared_focus = {
+    id = CAL_eisenhowers_america
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_united_in_liberty
+    }
+    prerequisite = {
+        focus = CAL_appointing_cavalier_faction_officals
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_united_in_liberty
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_war_is_hell"
+        set_country_flag = CAL_eisenhower_retains_control
+    }
+}
+
+shared_focus = {
+    id = CAL_the_cavaiers_america
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_legalize_the_lancers
+    }
+    prerequisite = {
+        focus = CAL_appointing_new_commanders
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_legalize_the_lancers
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_war_is_hell"
+        set_country_flag = CAL_cavalier_faction_america
+    }
+}
+
+shared_focus = {
+    id = CAL_butlers_dream_realized
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_appointing_new_commanders
+    }
+    prerequisite = {
+        focus = CAL_war_is_hell
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_appointing_new_commanders
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_war_is_hell"
+        set_country_flag = CAL_butlerite_america
     }
 }
 

@@ -26,8 +26,38 @@ patton_reform_plan_operations_subdoctrine = {
     ########################
     ### DOCTRINE EFFECTS ###
     ########################
+    planning_speed = 
+
+    rewards = {
+        patton_reform_plan_operations_subdoctrine1 = {
+
+        }
+        patton_reform_plan_operations_subdoctrine2 = {
+
+        }
+        patton_reform_plan_operations_subdoctrine3 = {
+
+        }
+        patton_reform_plan_operations_subdoctrine4 = {
+
+        }
+        patton_reform_plan_operations_subdoctrine5 = {
+            
+        }
+    }
 }
 
-patton_reform_plan_armor_subdoctrine = {}
-patton_reform_plan_support_subdoctrine = {}
-patton_reform_plan_infantry_subdoctrine = {}
+patton_reform_plan_armor_subdoctrine = {
+    track = armor
+    name = patton_reform_plan_armor_subdoctrine_name
+}
+
+patton_reform_plan_support_subdoctrine = {
+    track = support
+    name = patton_reform_plan_support_subdoctrine_name
+}
+
+patton_reform_plan_infantry_subdoctrine = {
+    track = infantry
+    name = patton_reform_plan_infantry_subdoctrine_name
+}
