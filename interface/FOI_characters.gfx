@@ -298,7 +298,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_CAL_Ulysses_Simpson_Grant_III"
-		textureFile = "gfx/leaders/CAL/Portrait_CAL_Ulysses_Simpson_Grant_III"
+		textureFile = "gfx/leaders/CAL/Portrait_CAL_Ulysses_Simpson_Grant_III.dds"
 	}
 	spriteType = {
 		name = "GFX_CAL_Walton_Harris_Walker"
@@ -404,5 +404,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_CSD_Yang_Xiao_Long"
 		textureFile = "gfx/leaders/CSD/Portrait_CSD_Yang_Xiao_Long.dds"
+	}
+	spriteType = {
+		name = "GFX_CSD_Jaune_Arc"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Jaune_Arc.dds"
+	}
+	spriteType = {
+		name = "GFX_CSD_Nora_Valkyrie"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Nora_Valkyrie.dds"
+	}
+	spriteType = {
+		name = "GFX_CSD_Pyrrha_Nikos"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Pyrrha_Nikos.dds"
+	}
+	spriteType = {
+		name = "GFX_CSD_Lie_Ren"
+		textureFile = "gfx/leaders/CSD/Portrait_CSD_Lie_Ren.dds"
 	}
 }
