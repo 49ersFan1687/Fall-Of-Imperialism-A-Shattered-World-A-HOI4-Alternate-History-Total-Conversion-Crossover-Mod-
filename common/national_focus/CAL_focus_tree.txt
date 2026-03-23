@@ -13508,14 +13508,413 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-    x = 43
+    x = 37
     y = 5
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_scavaging_through_the_manhattan_project"
     }
 }
 
+shared_focus = {
+    id = CAL_advice_from_oppenheimer
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_scavaging_through_the_manhattan_project
+    }
+    x = -2
+    y = 1
+    relative_position_id = CAL_scavaging_through_the_manhattan_project
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_advice_from_oppenheimer"
+    }
+}
 
+shared_focus = {
+    id = CAL_rebuild_los_alamos
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_scavaging_through_the_manhattan_project
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_scavaging_through_the_manhattan_project
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_los_alamos"
+    }
+}
+
+shared_focus = {
+    id = CAL_rebuilding_old_nuclear_reactors
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_scavaging_through_the_manhattan_project
+    }
+    x = 2
+    y = 1
+    relative_position_id = CAL_scavaging_through_the_manhattan_project
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuilding_old_nuclear_reactors"
+    }
+}
+
+shared_focus = {
+    id = CAL_beginning_the_american_nuclear_program
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_advice_from_oppenheimer
+    }
+    prerequisite = {
+        focus = CAL_rebuild_los_alamos
+    }
+    prerequisite = {
+        focus = CAL_rebuilding_old_nuclear_reactors
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_rebuild_los_alamos
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_construct_norad"
+    }
+}
+
+shared_focus = {
+    id = CAL_construct_norad
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_advice_from_oppenheimer
+    }
+    prerequisite = {
+        focus = CAL_rebuild_los_alamos
+    }
+    prerequisite = {
+        focus = CAL_rebuilding_old_nuclear_reactors
+    }
+    x = -4
+    y = 1
+    relative_position_id = CAL_advice_from_oppenheimer
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_construct_norad"
+    }
+}
+
+shared_focus = {
+    id = CAL_alternate_uses_for_nuclear_reactors
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_beginning_the_american_nuclear_program
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_beginning_the_american_nuclear_program
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_alternate_uses_for_nuclear_reactors"
+    }
+}
+
+shared_focus = {
+    id = CAL_nuclear_rocket_research
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_beginning_the_american_nuclear_program
+    }
+    x = 4
+    y = 1
+    relative_position_id = CAL_beginning_the_american_nuclear_program
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_nuclear_rocket_research"
+    }
+}
+
+shared_focus = {
+    id = CAL_construct_norad
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_beginning_the_american_nuclear_program
+    }
+    x = -4
+    y = 1
+    relative_position_id = CAL_beginning_the_american_nuclear_program
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_construct_norad"
+    }
+}
+
+shared_focus = {
+	id = CAL_expanding_the_american_radar_network
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = { 
+		focus = CAL_construct_norad
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_construct_norad
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expanding_the_american_radar_network"			
+	}
+}
+
+shared_focus = {
+	id = CAL_atoms_for_peace
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = { 
+		focus = CAL_alternate_uses_for_nuclear_reactors
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_alternate_uses_for_nuclear_reactors
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_atoms_for_peace"			
+	}
+}
+
+shared_focus = {
+	id = CAL_missile_site_construction
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = { 
+		focus = CAL_nuclear_rocket_research
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_nuclear_rocket_research
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_missile_site_construction"			
+	}
+}
+
+shared_focus = {
+	id = CAL_sam_site_construction
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = { 
+		focus = CAL_expanding_the_american_radar_network
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_expanding_the_american_radar_network
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_sam_site_construction"			
+	}
+}
+
+shared_focus = {
+	id = CAL_improved_interceptor_designs
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = { 
+		focus = CAL_expanding_the_american_radar_network
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_expanding_the_american_radar_network
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_improved_interceptor_designs"			
+	}
+}
+
+shared_focus = {
+	id = CAL_nuclear_power_plants
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = { 
+		focus = CAL_atoms_for_peace
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_atoms_for_peace
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_nuclear_power_plants"			
+	}
+}
+
+shared_focus = {
+	id = CAL_a_new_age_for_research
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = { 
+		focus = CAL_atoms_for_peace
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_atoms_for_peace
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_new_age_for_research"			
+	}
+}
+
+shared_focus = {
+	id = CAL_american_icbm_designs
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = { 
+		focus = CAL_missile_site_construction
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_missile_site_construction
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_american_icbm_designs"			
+	}
+}
+
+shared_focus = {
+	id = CAL_nuclear_capable_bomber_designs
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = { 
+		focus = CAL_missile_site_construction
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_missile_site_construction
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_nuclear_capable_bomber_designs"			
+	}
+}
+
+shared_focus = {
+	id = CAL_form_the_civil_defense_administration
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = { 
+		focus = CAL_sam_site_construction
+	}
+    prerequisite = { 
+		focus = CAL_improved_interceptor_designs
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_sam_site_construction
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_form_the_civil_defense_administration"			
+	}
+}
+
+shared_focus = {
+	id = CAL_uranium_fever
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = { 
+		focus = CAL_nuclear_power_plants
+	}
+    prerequisite = { 
+		focus = CAL_a_new_age_for_research
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_nuclear_power_plants
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_uranium_fever"			
+	}
+}
+
+shared_focus = {
+	id = CAL_nuclear_capable_submarine_designs
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = { 
+		focus = CAL_american_icbm_designs
+	}
+    prerequisite = { 
+		focus = CAL_nuclear_capable_bomber_designs
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_american_icbm_designs
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_nuclear_capable_submarine_designs"			
+	}
+}
 
 #################################################################################
 ### Focus Tree - Superregional Stage: Civilian Democracy -  Shared Focus Tree ###
@@ -13534,7 +13933,6 @@ shared_focus = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_taking_care_of_our_economic_situation"
     }
 }
-
 
 #############################################################################################
 ### Focus Tree - Superregional Stage: Military Democracy -  Factional Disputes Focus Tree ###
