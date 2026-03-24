@@ -4033,7 +4033,7 @@ shared_focus = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_american_democracy_stabilized"
         hidden_effect = {
             load_focus_tree = CAL_regional_stage_civilian_democracy_focus_tree
-            set_country_flag = SCA_civilian
+            set_country_flag = CAL_sca_civilian
         } 
     }
 }
@@ -4262,7 +4262,7 @@ shared_focus = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_the_junta_secures_its_grip"
         hidden_effect = {
             load_focus_tree = CAL_regional_stage_military_aligned_democracy_focus_tree
-            set_country_flag = SCA_junta
+            set_country_flag = CAL_sca_junta
         }
     }
 }
@@ -4279,7 +4279,7 @@ shared_focus = {
 		factor = 1
 	}
     available = {
-        has_country_flag = SCA_junta
+        has_country_flag = CAL_sca_junta
     }
 	x = 18
 	y = 2
@@ -6228,7 +6228,7 @@ shared_focus = {
 		factor = 1
 	}
     available = {
-        has_country_flag = SCA_civilian
+        has_country_flag = CAL_sca_civilian
     }
 	x = 20
 	y = 0
@@ -7863,8 +7863,8 @@ shared_focus = {
         factor = 1
     }
     available = {
-        has_country_flag = SCA_civilian
-        has_country_flag = SCA_junta
+        has_country_flag = CAL_sca_civilian
+        has_country_flag = CAL_sca_junta
     }
     x = -10
     y = 5
@@ -8790,8 +8790,8 @@ shared_focus = {
 		factor = 1
 	}
     available = {
-        has_country_flag = SCA_civilian
-        has_country_flag = SCA_junta
+        has_country_flag = CAL_sca_civilian
+        has_country_flag = CAL_sca_junta
     }
 	x = -3
 	y = 15
@@ -11335,7 +11335,7 @@ shared_focus = {
 		factor = 1
 	}
     available = {
-        has_country_flag = SCA_junta
+        has_country_flag = CAL_sca_junta
     }
 	x = 28
 	y = 16
@@ -12171,7 +12171,7 @@ shared_focus = {
 		factor = 1
 	}
     available = {
-        has_country_flag = SCA_civilian
+        has_country_flag = CAL_sca_civilian
     }
 	x = 32
 	y = 16
@@ -12880,8 +12880,12 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
+    available = {
+        has_country_flag = CAL_sca_civilian
+        has_country_flag = CAL_sca_junta
+    }
     x = 22
-	y = 10
+	y = 9
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_finding_international_recognition"
     }
@@ -12899,7 +12903,7 @@ shared_focus = {
         focus = CAL_membership_in_the_bermuda_accord
     }
     available = {
-        has_country_flag = SCA_civilian
+        has_country_flag = CAL_sca_civilian
     }
     prerequisite = { 
 		focus = CAL_finding_international_recognition
@@ -12924,7 +12928,7 @@ shared_focus = {
         focus = CAL_improved_canadian_american_relations
     }
     available = {
-        has_country_flag = SCA_junta
+        has_country_flag = CAL_sca_junta
     }
     prerequisite = { 
 		focus = CAL_finding_international_recognition
@@ -13508,6 +13512,10 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
+    available = {
+        has_country_flag = CAL_sca_civilian
+        has_country_flag = CAL_sca_junta
+    }
     x = 37
     y = 5
     completion_reward = {
@@ -13927,10 +13935,566 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-    x = 3
+    available = {
+        has_country_flag = CAL_sca_civilian
+        has_country_flag = CAL_sca_junta
+    }
+    x = 6
     y = 5
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_taking_care_of_our_economic_situation"
+    }
+}
+
+shared_focus = {
+    id = CAL_farm_subsidiaries
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_taking_care_of_our_economic_situation
+    }
+    x = -4
+    y = 1
+    relative_position_id = CAL_taking_care_of_our_economic_situation
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_farm_subsidiaries"
+    }
+}
+
+shared_focus = {
+    id = CAL_implementing_monetary_reform
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_taking_care_of_our_economic_situation
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_taking_care_of_our_economic_situation
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_implementing_monetary_reform"
+    }
+}
+
+
+shared_focus = {
+    id = CAL_reinstate_the_department_of_transportation
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_taking_care_of_our_economic_situation
+    }
+    x = 4
+    y = 1
+    relative_position_id = CAL_taking_care_of_our_economic_situation
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reinstate_the_department_of_transportation"
+    }
+}
+
+shared_focus = {
+    id = CAL_looking_towards_food_security
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_looking_towards_cash_crops
+    }
+    prerequisite = {
+        focus = CAL_farm_subsidiaries
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_farm_subsidiaries
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_looking_towards_food_security"
+    }
+}
+
+shared_focus = {
+    id = CAL_looking_towards_cash_crops
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_looking_towards_food_security
+    }
+    prerequisite = {
+        focus = CAL_farm_subsidiaries
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_farm_subsidiaries
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_looking_towards_cash_crops"
+    }
+}
+
+shared_focus = {
+    id = CAL_free_enterprises
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_nationalized_buisnesses
+    }
+    prerequisite = {
+        focus = CAL_implementing_monetary_reform
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_implementing_monetary_reform
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_free_enterprises"
+    }
+}
+
+shared_focus = {
+    id = CAL_private_property
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    mutually_exclusive = {
+        focus = CAL_free_enterprises
+    }
+    prerequisite = {
+        focus = CAL_implementing_monetary_reform
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_implementing_monetary_reform
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_private_property"
+    }
+}
+
+shared_focus = {
+    id = CAL_rebuild_the_transcontinental_railroad
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_taking_care_of_our_economic_situation
+    }
+    x = 3
+    y = 1
+    relative_position_id = CAL_taking_care_of_our_economic_situation
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_the_transcontinental_railroad"
+    }
+}
+
+shared_focus = {
+    id = CAL_rebuild_the_transcontinental_railroad
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_reinstate_the_department_of_transportation
+    }
+    x = -1
+    y = 1
+    relative_position_id = CAL_reinstate_the_department_of_transportation
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_the_transcontinental_railroad"
+    }
+}
+
+shared_focus = {
+    id = CAL_begin_the_us_interstate_project
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_reinstate_the_department_of_transportation
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_reinstate_the_department_of_transportation
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_the_us_interstate_project"
+    }
+}
+
+shared_focus = {
+    id = CAL_wheat_exports
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_looking_towards_food_security
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_looking_towards_food_security
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_looking_towards_food_security"
+    }
+}
+
+shared_focus = {
+    id = CAL_avocado_exports
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_looking_towards_cash_crops
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_looking_towards_cash_crops
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_avocado_exports"
+    }
+}
+
+shared_focus = {
+    id = CAL_a_more_sustainable_military_industrial_complex
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_free_enterprises
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_free_enterprises
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_more_sustainable_military_industrial_complex"
+    }
+}
+
+shared_focus = {
+    id = CAL_the_army_can_sustain_itself
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_private_property
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_private_property
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_army_can_sustain_itself"
+    }
+}
+
+shared_focus = {
+    id = CAL_union_pacfic_modernization
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_rebuild_the_transcontinental_railroad
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_rebuild_the_transcontinental_railroad
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_union_pacfic_modernization"
+    }
+}
+
+shared_focus = {
+    id = CAL_full_infastructure_revival
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_begin_the_us_interstate_project
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_begin_the_us_interstate_project
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_full_infastructure_revival"
+    }
+}
+
+shared_focus = {
+    id = CAL_expand_the_department_of_agriculture
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_wheat_exports
+        focus = CAL_avocado_exports
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_wheat_exports
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_department_of_agriculture"
+    }
+}
+
+shared_focus = {
+    id = CAL_capable_hands
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_a_more_sustainable_military_industrial_complex
+    }
+    prerequisite = {
+        focus = CAL_the_army_can_sustain_itself
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_a_more_sustainable_military_industrial_complex
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_capable_hands"
+    }
+}
+
+shared_focus = {
+    id = CAL_ores_in_steel_out
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_union_pacfic_modernization
+    }
+    prerequisite = {
+        focus = CAL_full_infastructure_revival
+    }
+    x = 1
+    y = 1
+    relative_position_id = CAL_union_pacfic_modernization
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_ores_in_steel_out"
+    }
+}
+
+shared_focus = {
+    id = CAL_putting_our_hand_on_the_holster
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_expand_the_department_of_agriculture
+    }
+    prerequisite = {
+        focus = CAL_full_infastructure_revival
+    }
+    prerequisite = {
+        focus = CAL_ores_in_steel_out
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_capable_hands
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_ores_in_steel_out"
+        add_ideas = partial_economic_mobilisation
+        add_equipment_to_stockpile = {
+            type = infantry_equipment
+            amount = 5000
+            producer = CAL
+        }
+    }
+}
+
+shared_focus = {
+    id = CAL_prioritize_duel_use_products
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_putting_our_hand_on_the_holster
+    }
+    x = -3
+    y = 1
+    relative_position_id = CAL_putting_our_hand_on_the_holster
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_farm_subsidiaries"
+    }
+}
+
+shared_focus = {
+    id = CAL_implement_food_rationing
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_putting_our_hand_on_the_holster
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_putting_our_hand_on_the_holster
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_implement_food_rationing"
+    }
+}
+
+
+shared_focus = {
+    id = CAL_reviving_rosie_the_rivieter
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_putting_our_hand_on_the_holster
+    }
+    x = 3
+    y = 1
+    relative_position_id = CAL_putting_our_hand_on_the_holster
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_reviving_rosie_the_rivieter"
+    }
+}
+
+shared_focus = {
+    id = CAL_standardized_production_methods
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_prioritize_duel_use_products
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_prioritize_duel_use_products
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_standardized_production_methods"
+    }
+}
+
+shared_focus = {
+    id = CAL_a_well_fed_army_is_a_strong_army
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_implement_food_rationing
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_implement_food_rationing
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_a_well_fed_army_is_a_strong_army"
+    }
+}
+
+shared_focus = {
+    id = CAL_freeing_up_manpower
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_reviving_rosie_the_rivieter
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_reviving_rosie_the_rivieter
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_freeing_up_manpower"
+    }
+}
+
+shared_focus = {
+    id = CAL_made_in_america
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_standardized_production_methods
+    }
+    prerequisite = {
+        focus = CAL_a_well_fed_army_is_a_strong_army
+    }
+    prerequisite = {
+        focus = CAL_freeing_up_manpower
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_a_well_fed_army_is_a_strong_army
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_made_in_america"
     }
 }
 
@@ -13945,6 +14509,9 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
+    available = {
+        has_country_flag = CAL_sca_junta
+    }
     x = 22
 	y = 0
     completion_reward = {
