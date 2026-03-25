@@ -97,11 +97,11 @@ characters = {
 				politically_connected
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 4
+			skill = 5
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 7
+			logistics_skill = 2
 		}
 	}
 
@@ -134,8 +134,8 @@ characters = {
 			}
 			skill = 5
 			attack_skill = 5
-			defense_skill = 2
-			planning_skill = 4
+			defense_skill = 5
+			planning_skill = 6
 			logistics_skill = 5
 		}
     }
@@ -201,6 +201,8 @@ characters = {
 				organizer
 				war_hero
 				infantry_expert
+				infantry_leader
+				trait_engineer
 			}
 			skill = 4
 			attack_skill = 4

@@ -1,4 +1,4 @@
-#!gfx:interface/country/usa/CAL_focus.gfx
+#!gfx:interface/country/north_america/CAL.gfx
 
 ####################################################################################################################################
 #### CALIFORNIA REPUBLIC FOCUS TREE By Aide of General Eisenhower, with Suggestions from Ike, Charcoalkat, LilBro08, and Emilia ####
@@ -107,20 +107,6 @@ focus_tree = {
 }
 
 focus_tree = {
-    id = CAL_superregional_stage_cavalier_faction_focus_tree
-    country = {
-		factor = 0
-		modifier = { 
-            add = 10
-            tag = CAL
-        }
-	}
-    default = no
-    continuous_focus_position = { x = 450 y = 200 }
-    shared_focus = CAL_the_triumph_of_the_cavalier_faction
-}
-
-focus_tree = {
     id = CAL_civilian_democracy_post_unification_focus_tree
     country = {
 		factor = 0
@@ -134,7 +120,46 @@ focus_tree = {
 }
 
 focus_tree = {
-    id = CAL_military_democracy_post_unification_focus_tree
+    id = CAL_military_democracy_supreme_council_post_unification_focus_tree
+    country = {
+		factor = 0
+		modifier = { 
+            add = 10
+            tag = CAL
+        }
+	}
+    default = no
+    continuous_focus_position = { x = 450 y = 200 }
+}
+
+focus_tree = {
+    id = CAL_military_democracy_bonesteel_post_unification_focus_tree
+    country = {
+		factor = 0
+		modifier = { 
+            add = 10
+            tag = CAL
+        }
+	}
+    default = no
+    continuous_focus_position = { x = 450 y = 200 }
+}
+
+focus_tree = {
+    id = CAL_military_democracy_patton_post_unification_focus_tree
+    country = {
+		factor = 0
+		modifier = { 
+            add = 10
+            tag = CAL
+        }
+	}
+    default = no
+    continuous_focus_position = { x = 450 y = 200 }
+}
+
+focus_tree = {
+    id = CAL_military_democracy_eisenhower_post_unification_focus_tree
     country = {
 		factor = 0
 		modifier = { 
@@ -148,6 +173,19 @@ focus_tree = {
 
 focus_tree = {
     id = CAL_cavalier_faction_post_unification_focus_tree
+    country = {
+		factor = 0
+		modifier = { 
+            add = 10
+            tag = CAL
+        }
+	}
+    default = no
+    continuous_focus_position = { x = 450 y = 200 }
+}
+
+focus_tree = {
+    id = CAL_military_democracy_butlerlite_post_unification_focus_tree
     country = {
 		factor = 0
 		modifier = { 
@@ -13924,9 +13962,9 @@ shared_focus = {
 	}
 }
 
-#################################################################################
-### Focus Tree - Superregional Stage: Civilian Democracy -  Shared Focus Tree ###
-#################################################################################
+###################################################################
+### Focus Tree - Superregional Stage: Shared Economy Focus Tree ###
+###################################################################
 shared_focus = {
     id = CAL_taking_care_of_our_economic_situation
     icon = GFX_
@@ -15322,50 +15360,12 @@ shared_focus = {
     }
 }
 
-###################################################################################
-### Focus Tree - Superregional Stage: Military Democracy -  Military Focus Tree ###
-###################################################################################
-
-
-
-############################################################################################
-### Focus Tree - Superregional Stage: Cavalier Faction Coup -  Foreign Policy Focus Tree ###
-############################################################################################
-
-
-
-
-
-###############################################################################################
-### Focus Tree - Superregional Stage: Cavalier Faction Coup -  Initial Political Focus Tree ###
-###############################################################################################
+#########################################################################################
+### Focus Tree - Superregional Stage: Civilian Democracy -  Nationbuilding Focus Tree ###
+#########################################################################################
 shared_focus = {
-    id = CAL_the_triumph_of_the_cavalier_faction
-    icon = GFX_
-    cost = 2
-    available_if_capitulated = no
-	ai_will_do = {
-		factor = 1
-	}
-    x = 25
-	y = 0
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_triumph_of_the_cavalier_faction"
-    }
+    
 }
-
-
-
-######################################################################################
-### Focus Tree - Superregional Stage: Cavalier Faction Coup -  Military Focus Tree ###
-######################################################################################
-
-
-
-#############################################################################################
-### Focus Tree - Superregional Stage: Cavalier Faction Coup -  Foreign Policy Focus Tree ####
-#############################################################################################
-
 
 
 #########################################################################################
