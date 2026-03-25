@@ -15130,7 +15130,12 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_eisenhowers_mishap
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_legalize_the_patriots"
+        add_ideas = CAL_the_patriots
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_legalize_the_lancers"
+        custom_effect_tooltip = CAL_legalize_the_patriots_tt
+        hidden_effect = {
+
+        }
     }
 }
 
@@ -15189,7 +15194,12 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_empower_the_american_cavalier_society
     completion_reward = {
+        add_ideas = CAL_the_lancers
         log = "[GetDateText]: [Root.GetName]: Focus CAL_legalize_the_lancers"
+        custom_effect_tooltip = CAL_legalize_the_lancers_tt
+        hidden_effect = {
+
+        }
     }
 }
 
@@ -15315,7 +15325,7 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_the_cavaiers_america
+    id = CAL_the_cavaliers_america
     icon = GFX
     cost = 3
     available_if_capitulated = no
@@ -15332,7 +15342,7 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_legalize_the_lancers
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_war_is_hell"
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_cavaliers_america"
         set_country_flag = CAL_cavalier_faction_america
     }
 }
