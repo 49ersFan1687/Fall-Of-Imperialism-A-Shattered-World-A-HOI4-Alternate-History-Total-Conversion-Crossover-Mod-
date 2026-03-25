@@ -84,6 +84,7 @@ focus_tree = {
 	}
     default = no
     continuous_focus_position = { x = 450 y = 200 }
+    shared_focus = CAL_building_up_a_nation
     shared_focus = CAL_taking_care_of_our_economic_situation
     shared_focus = CAL_scavaging_through_the_manhattan_project
     shared_focus = CAL_finding_international_recognition
@@ -143,6 +144,7 @@ focus_tree = {
 	}
     default = no
     continuous_focus_position = { x = 450 y = 200 }
+    shared_focus = CAL_the_american_casear_takes_his_seat
 }
 
 focus_tree = {
@@ -13652,17 +13654,11 @@ shared_focus = {
         factor = 1
     }
     prerequisite = {
-        focus = CAL_advice_from_oppenheimer
-    }
-    prerequisite = {
-        focus = CAL_rebuild_los_alamos
-    }
-    prerequisite = {
-        focus = CAL_rebuilding_old_nuclear_reactors
+        focus = CAL_beginning_the_american_nuclear_program
     }
     x = -4
     y = 1
-    relative_position_id = CAL_advice_from_oppenheimer
+    relative_position_id = CAL_beginning_the_american_nuclear_program
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_construct_norad"
     }
@@ -13703,25 +13699,6 @@ shared_focus = {
     relative_position_id = CAL_beginning_the_american_nuclear_program
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_nuclear_rocket_research"
-    }
-}
-
-shared_focus = {
-    id = CAL_construct_norad
-    icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
-        focus = CAL_beginning_the_american_nuclear_program
-    }
-    x = -4
-    y = 1
-    relative_position_id = CAL_beginning_the_american_nuclear_program
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_construct_norad"
     }
 }
 
@@ -14139,25 +14116,6 @@ shared_focus = {
         factor = 1
     }
     prerequisite = {
-        focus = CAL_taking_care_of_our_economic_situation
-    }
-    x = 3
-    y = 1
-    relative_position_id = CAL_taking_care_of_our_economic_situation
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_the_transcontinental_railroad"
-    }
-}
-
-shared_focus = {
-    id = CAL_rebuild_the_transcontinental_railroad
-    icon = GFX
-    cost = 3
-    available_if_capitulated = no
-    ai_will_do = {
-        factor = 1
-    }
-    prerequisite = {
         focus = CAL_reinstate_the_department_of_transportation
     }
     x = -1
@@ -14377,7 +14335,7 @@ shared_focus = {
         focus = CAL_expand_the_department_of_agriculture
     }
     prerequisite = {
-        focus = CAL_full_infastructure_revival
+        focus = CAL_capable_hands
     }
     prerequisite = {
         focus = CAL_ores_in_steel_out
@@ -15134,7 +15092,7 @@ shared_focus = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_legalize_the_lancers"
         custom_effect_tooltip = CAL_legalize_the_patriots_tt
         hidden_effect = {
-
+            
         }
     }
 }
@@ -15374,14 +15332,566 @@ shared_focus = {
 ### Focus Tree - Superregional Stage: Civilian Democracy -  Nationbuilding Focus Tree ###
 #########################################################################################
 shared_focus = {
-    
+    id = CAL_building_up_a_nation
+    icon = GFX_
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    available = {
+        has_country_flag = CAL_sca_civilian
+    }
+    x = 22
+    y = 1
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_building_up_a_nation"
+    }
 }
 
+shared_focus = {
+	id = CAL_the_legislative_branch
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = { 
+		focus = CAL_building_up_a_nation
+	}
+	x = -2
+	y = 1
+	relative_position_id = CAL_building_up_a_nation
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_legislative_branch"			
+	}
+}
 
-#########################################################################################
-### Focus Tree - Post-Unification: Civilian Democracy -  Initial Political Focus Tree ###
-#########################################################################################
+shared_focus = {
+	id = CAL_the_judicial_branch
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = { 
+		focus = CAL_building_up_a_nation
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_building_up_a_nation
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_judicial_branch"			
+	}
+}
 
+shared_focus = {
+	id = CAL_the_executive_branch
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    prerequisite = { 
+		focus = CAL_building_up_a_nation
+	}
+	x = 2
+	y = 1
+	relative_position_id = CAL_building_up_a_nation
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_executive_branch"			
+	}
+}
+
+shared_focus = {
+	id = CAL_empowering_congress
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_the_legislative_branch
+	}	
+	x = -3
+    y = 1
+    relative_position_id = CAL_the_legislative_branch
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_empowering_congress"			
+	}
+}
+
+shared_focus = {
+	id = CAL_appointing_a_new_chief_justice
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_the_judicial_branch
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_the_judicial_branch
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_appointing_a_new_chief_justice"			
+	}
+}
+
+shared_focus = {
+	id = CAL_reoutlining_presidential_powers
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_the_executive_branch
+	}	
+	x = 3
+    y = 1
+    relative_position_id = CAL_the_executive_branch
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_outlining_presidential_powers"			
+	}
+}
+
+shared_focus = {
+	id = CAL_a_new_house_of_representatives
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_empowering_congress
+	}	
+	x = -2
+    y = 1
+    relative_position_id = CAL_empowering_congress
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_new_house_of_representatives"			
+	}
+}
+
+shared_focus = {
+	id = CAL_congressional_watchdogs
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_empowering_congress
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_empowering_congress
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_congressional_watchdogs"			
+	}
+}
+
+shared_focus = {
+	id = CAL_a_new_senate
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_empowering_congress
+	}	
+	x = 2
+    y = 1
+    relative_position_id = CAL_empowering_congress
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_new_senate"			
+	}
+}
+
+shared_focus = {
+	id = CAL_gradual_court_expansion
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    mutually_exclusive = {
+        focus = CAL_stacking_the_court
+    }
+	prerequisite = { 
+        focus = CAL_appointing_a_new_chief_justice
+	}	
+	x = -1
+    y = 1
+    relative_position_id = CAL_appointing_a_new_chief_justice
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_gradual_court_expansion"			
+	}
+}
+
+shared_focus = {
+	id = CAL_stacking_the_court
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    mutually_exclusive = {
+
+    }
+	prerequisite = { 
+        focus = CAL_appointing_a_new_chief_justice
+	}	
+	x = 1
+    y = 1
+    relative_position_id = CAL_appointing_a_new_chief_justice
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_stacking_the_court"			
+	}
+}
+
+shared_focus = {
+	id = CAL_what_the_president_can_do
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_reoutlining_presidential_powers
+	}	
+	x = -2
+    y = 1
+    relative_position_id = CAL_reoutlining_presidential_powers
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_outlining_presidential_powers"			
+	}
+}
+
+shared_focus = {
+	id = CAL_presidential_watchdogs
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_reoutlining_presidential_powers
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_reoutlining_presidential_powers
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_presidential_watchdogs"			
+	}
+}
+
+shared_focus = {
+	id = CAL_what_the_president_cannot_do
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_reoutlining_presidential_powers
+	}	
+	x = 2
+    y = 1
+    relative_position_id = CAL_reoutlining_presidential_powers
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_what_the_president_cannot_do"			
+	}
+}
+
+shared_focus = {
+	id = CAL_choosing_a_new_house_speaker
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_a_new_house_of_representatives
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_a_new_house_of_representatives
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_choosing_a_new_house_speaker"			
+	}
+}
+
+shared_focus = {
+	id = CAL_fair_congressional_elections
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_congressional_watchdogs
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_congressional_watchdogs
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_fair_congressional_elections"			
+	}
+}
+
+shared_focus = {
+	id = CAL_the_vice_presidents_role
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_a_new_senate
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_a_new_senate
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_vice_presidents_role"			
+	}
+}
+
+shared_focus = {
+	id = CAL_judicial_watchogs
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_gradual_court_expansion
+        focus = CAL_stacking_the_court
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_gradual_court_expansion
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_judicial_watchogs"			
+	}
+}
+
+shared_focus = {
+	id = CAL_a_new_or_an_old_court_system
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_gradual_court_expansion
+        focus = CAL_stacking_the_court
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_stacking_the_court
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_new_or_an_old_court_system"			
+	}
+}
+
+shared_focus = {
+	id = CAL_slight_decentralization
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_what_the_president_can_do
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_what_the_president_can_do
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_slight_decentralization"			
+	}
+}
+
+shared_focus = {
+	id = CAL_abolishing_the_electoral_college
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_presidential_watchdogs
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_presidential_watchdogs
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_abolishing_the_electoral_college"			
+	}
+}
+
+shared_focus = {
+	id = CAL_limiting_executive_oversight
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_what_the_president_cannot_do
+	}	
+	x = 0
+    y = 1
+    relative_position_id = CAL_what_the_president_cannot_do
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_limiting_executive_oversight"			
+	}
+}
+
+shared_focus = {
+	id = CAL_the_renewed_american_congress
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_choosing_a_new_house_speaker
+	}
+    prerequisite = {
+        focus = CAL_fair_congressional_elections
+    }
+    prerequisite = {
+        focus = CAL_the_vice_presidents_role
+    }
+	x = 0
+    y = 1
+    relative_position_id = CAL_fair_congressional_elections
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_renewed_american_congress"			
+	}
+}
+
+shared_focus = {
+	id = CAL_supreme_court_reformed
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_judicial_watchogs
+	}
+    prerequisite = {
+        focus = CAL_a_new_or_an_old_court_system
+    }
+	x = 1
+    y = 1
+    relative_position_id = CAL_judicial_watchogs
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_supreme_court_reformed"			
+	}
+}
+
+shared_focus = {
+	id = CAL_a_more_trustworthy_executive
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_slight_decentralization
+	}
+    prerequisite = {
+        focus = CAL_abolishing_the_electoral_college
+    }
+    prerequisite = {
+        focsu = CAL_limiting_executive_oversight
+    }
+	x = 0
+    y = 1
+    relative_position_id = CAL_abolishing_the_electoral_college
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_more_trustworthy_executive"			
+	}
+}
+
+shared_focus = {
+	id = CAL_towards_a_brighter_future
+	icon = GFX_
+    cost = 3
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = { 
+        focus = CAL_the_renewed_american_congress
+	}
+    prerequisite = {
+        focus = CAL_supreme_court_reformed
+    }
+    prerequisite = {
+        focus = CAL_a_more_trustworthy_executive
+    }
+	x = 0
+    y = 1
+    relative_position_id = CAL_supreme_court_reformed
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_towards_a_brighter_future"			
+	}
+}
+
+##########################################################################################################################
+### Focus Tree - Post-Unification: Military Democracy - Charles Hartwell Bonesteel III -  Initial Political Focus Tree ###
+##########################################################################################################################
+shared_focus = {
+    id = CAL_the_american_casear_takes_his_seat
+    icon = GFX_
+    cost = 2
+    available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+    available = {
+        has_country_flag = CAL_bonesteels_america
+    }
+    x = 22
+    y = 0
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_the_american_casear_takes_his_seat"
+    }
+}
 
 
 #########################################################################################

@@ -260,6 +260,7 @@ CAL_INF_01 = {
 		370 = { "%dth Infantry Division" }
     }
 }
+
 CAL_CAV_01 = {
     name = "Cavalry Divisions"
 	for_countries = { CAL }
