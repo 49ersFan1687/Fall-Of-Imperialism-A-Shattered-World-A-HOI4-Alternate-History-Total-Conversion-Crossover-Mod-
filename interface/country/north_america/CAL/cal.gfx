@@ -35,7 +35,107 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = GFX_focus_CAL_rebuilding_south_california_industry
+        textureFile = "gfx/interface/goals/CAL/CAL_rebuilding_south_california_industry.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_welcoming_general_alexander
+        textureFile = "gfx/interface/goals/CAL/CAL_welcoming_general_alexander.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_establishing_a_military_focused_economy
+        textureFile = "gfx/interface/goals/CAL/CAL_establishing_a_military_focused_economy.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_general_simonds_advice
+        textureFile = "gfx/interface/goals/CAL/CAL_general_simonds_advice.dds"
+    }
+    
+    spriteType = {
+        name = GFX_focus_CAL_general_alexanders_advice
+        textureFile = "gfx/interface/goals/CAL/CAL_general_alexanders_advice.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_general_moncels_advice
+        textureFile = "gfx/interface/goals/CAL/CAL_general_moncels_advice.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_farmlands_of_california
+        textureFile = "gfx/interface/goals/CAL/CAL_farmlands_of_california.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_arms_companies_subsides
+        textureFile = "gfx/interface/goals/CAL/CAL_arms_companies_subsides.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_dealing_with_labor_shortages
+        textureFile = "gfx/interface/goals/CAL/CAL_arms_dealing_with_labor_shortages.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_a_permanent_liason_to_california
+        textureFile = "gfx/interface/goals/CAL/CAL_a_permanent_liason_to_california.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_canadian_funded_factories
+        textureFile = "gfx/interface/goals/CAL/CAL_canadian_funded_factories.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_ramp_up_ration_production
+        textureFile = "gfx/interface/goals/CAL/CAL_ramp_up_ration_production.dds"
+    }
+
+    spriteType = {
         name = GFX_focus_CAL_create_the_war_research_department
         textureFile = "gfx/interface/goals/CAL/CAL_create_the_war_research_department.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_factories_under_military_oversight
+        textureFile = "gfx/interface/goals/CAL/CAL_factories_under_military_oversight.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_export_canadian_equipment
+        textureFile = "gfx/interface/goals/CAL/CAL_export_canadian_equipment.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_improving_trade_relations
+        textureFile = "gfx/interface/goals/CAL/CAL_improving_trade_relations.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_rebuilding_civilian_industry
+        textureFile = "gfx/interface/goals/CAL/CAL_rebuilding_civilian_industry.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_rebuilding_destroyed_arms_factories
+        textureFile = "gfx/interface/goals/CAL/CAL_rebuilding_destroyed_arms_factories.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_forming_a_reconstruction_corps
+        textureFile = "gfx/interface/goals/CAL/CAL_forming_a_reconstruction_corps.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_the_beaver_and_the_eagle_march_together
+        textureFile = "gfx/interface/goals/CAL/CAL_the_beaver_and_the_eagle_march_together.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_a_proper_war_economy
+        textureFile = "gfx/interface/goals/CAL/CAL_a_proper_war_economy.dds"
     }
 }
