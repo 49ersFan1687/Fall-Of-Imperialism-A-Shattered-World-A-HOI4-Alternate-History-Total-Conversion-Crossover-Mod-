@@ -41,7 +41,6 @@ characters = {
 
 	CSD_yuko_oshima = {
 		name = CSD_yuko_oshima
-		desc =
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/CSD/Portrait_CSD_Yuko_Oshima.dds"
@@ -70,7 +69,6 @@ characters = {
 
 	CSD_minami_takahashi = {
 		name = CSD_minami_takahashi
-		desc =
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/CSD/Portrait_CSD_Minami_Takahashi.dds"
@@ -81,6 +79,7 @@ characters = {
 			}
 		}
 		field_marshal = {
+			desc =
 			traits = {
 				cavalry_leader
 				trait_unpredictable
@@ -99,7 +98,7 @@ characters = {
 
 	CSD_mariko_shinoda = {
 		name = CSD_mariko_shinoda
-		desc =
+		
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/CSD/Portrait_CSD_Mariko_Shinoda.dds"
@@ -109,6 +108,7 @@ characters = {
 			}
 		}
 		field_marshal = {
+			desc =
 			traits = { 
 				inflexible_strategist
 				trait_cautious
@@ -128,18 +128,151 @@ characters = {
 	################################################################
 	### Second Continental Army/AKB Clique Generals - Level Five ###
 	################################################################
-
-
-
+	CSD_yuki_kashiwagi = {
+		name = CSD_yuki_kashiwagi
+		
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Yuki_Kashiwagi.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Yuki_Kashiwagi.dds"
+			}
+		}
+		corps_commander = {
+			desc =
+			traits = {
+				brilliant_strategist
+				cavalry_leader
+				armor_officer
+				panzer_leader
+				trait_engineer
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+		gender = female
+	}
+	
     ################################################################
 	### Second Continental Army/AKB Clique Generals - Level Four ###
 	################################################################
-
-
-
+	CSD_sae_miyazawa = {
+		name = CSD_sae_miyazawa
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Sae_Miyazawa.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Sae_Miyazawa.dds"
+			}
+		}
+		corps_commander = {
+			desc =
+			traits = {
+				inflexible_strategist
+				commando
+				ranger
+				infantry_officer
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 5
+		}
+		gender = female
+	}
+	
+	CSD_sayaka_akimoto = {
+		name = CSD_sayaka_akimoto
+		
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Sayaka_Akimoto.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Sayaka_Akimoto.dds"
+			}
+		}
+		corps_commander = {
+			desc =
+			traits = {
+				brilliant_strategist
+				skilled_staffer
+				war_hero
+				infantry_officer
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 7
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+		}
+		gender = female
+	}
+	
     #################################################################
 	### Second Continental Army/AKB Clique Generals - Level Three ###
 	#################################################################
+	CSD_rino_sashihara = {
+		name = CSD_rino_sashihara
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Rino_Sashihara.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Rino_Sashihara.dds"
+			}
+		}
+		corps_commander = {
+			desc =
+			traits = {
+				commando
+				winter_specialist
+				trait_engineer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		gender = female
+	}
+	
+	CSD_jurina_matsui = {
+		name = CSD_jurina_matsui
+		
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Jurina_Matsui.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Jurina_Matsui.dds"
+			}
+		}
+		corps_commander = {
+			desc =
+			traits = {
+				skilled_staffer
+				cavalry_officer
+				war_hero
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		gender = female
+	}
+
 
 
 
@@ -152,50 +285,7 @@ characters = {
     ###############################################################
 	### Second Continental Army/AKB Clique Generals - Level One ###
 	###############################################################
-	CSD_yuki_kashiwagi = {
-		name = CSD_yuki_kashiwagi
-		desc =
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-		corps_commander = {
-			traits = {  }
-			skill =
-			attack_skill = 
-			defense_skill =
-			planning_skill = 
-			logistics_skill =
-		}
-		gender = female
-	}
-
-	CSD_sae_miyazawa = {
-		name = CSD_sae_miyazawa
-		desc =
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-		corps_commander = {
-			traits = {  }
-			skill =
-			attack_skill = 
-			defense_skill =
-			planning_skill = 
-			logistics_skill =
-		}
-		gender = female
-	}
-
+	
 	CSD_rie_kitahara = {
 		name = CSD_rie_kitahara
 		desc =
@@ -262,71 +352,8 @@ characters = {
 		gender = female
 	}
 
-	CSD_jurina_matsui = {
-		name = CSD_jurina_matsui
-		desc =
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-		corps_commander = {
-			traits = {  }
-			skill =
-			attack_skill = 
-			defense_skill =
-			planning_skill = 
-			logistics_skill =
-		}
-		gender = female
-	}
-
-	CSD_sayaka_akimoto = {
-		name = CSD_sayaka_akimoto
-		desc =
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-		corps_commander = {
-			traits = {  }
-			skill =
-			attack_skill = 
-			defense_skill =
-			planning_skill = 
-			logistics_skill =
-		}
-		gender = female
-	}
-
-	CSD_rino_sashihara = {
-		name = CSD_rino_sashihara
-		desc =
-		portraits = {
-			civilian = {
-				large = 
-			}
-			army = {
-				large = 
-			}
-		}
-		corps_commander = {
-			traits = {  }
-			skill =
-			attack_skill = 
-			defense_skill =
-			planning_skill = 
-			logistics_skill =
-		}
-		gender = female
-	}
+	
+	
 
 	CSD_asuka_kuramochi = {
 		name = CSD_asuka_kuramochi
