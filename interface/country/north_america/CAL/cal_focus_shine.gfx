@@ -833,11 +833,11 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_focus_CAL_the_beaver_and_eagle_march_together_shine"
-        texturefile = "gfx/interface/goals/CAL/CAL_the_beaver_and_eagle_march_together.dds"
+        name = "GFX_focus_CAL_the_beaver_and_the_eagle_march_together_shine"
+        texturefile = "gfx/interface/goals/CAL/CAL_the_beaver_and_the_eagle_march_together.dds"
         effectFile = "gfx/FX/buttonstate.lua"
         animation = {
-            animationmaskfile = "gfx/interface/goals/CAL/CAL_the_beaver_and_eagle_march_together.dds"
+            animationmaskfile = "gfx/interface/goals/CAL/CAL_the_beaver_and_the_eagle_march_together.dds"
             animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
             animationrotation = -90.0
             animationlooping = no
@@ -850,7 +850,7 @@ spriteTypes = {
         }
 
         animation = {
-            animationmaskfile = "gfx/interface/goals/CAL/CAL_the_beaver_and_eagle_march_together.dds"
+            animationmaskfile = "gfx/interface/goals/CAL/CAL_the_beaver_and_the_eagle_march_together.dds"
             animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
             animationrotation = 90.0
             animationlooping = no

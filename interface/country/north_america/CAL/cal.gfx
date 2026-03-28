@@ -76,7 +76,7 @@ spriteTypes = {
 
     spriteType = {
         name = GFX_focus_CAL_dealing_with_labor_shortages
-        textureFile = "gfx/interface/goals/CAL/CAL_arms_dealing_with_labor_shortages.dds"
+        textureFile = "gfx/interface/goals/CAL/CAL_dealing_with_labor_shortages.dds"
     }
 
     spriteType = {
