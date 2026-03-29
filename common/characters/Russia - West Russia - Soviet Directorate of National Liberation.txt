@@ -149,7 +149,7 @@ characters = {
     ##################################################################
     ### Soviet Directorate of National Liberation - Field Marshals ###
 	##################################################################
-	SDL_nestor_nunin = {
+	SDL_nestor_nunin = { ### Zhukov General ###
 		name = SDL_nestor_nunin
 		portraits = {
 			civilian = {
@@ -186,7 +186,7 @@ characters = {
     #############################
 	### Generals - Level Four ###
 	#############################
-	SDL_vasily_danilovich_sokolovsky = {
+	SDL_vasily_danilovich_sokolovsky = { ### Zhukov General ###
 		name = SDL_vasily_danilovich_sokolovsky
 		portraits = {
 			civilian = {
@@ -212,7 +212,7 @@ characters = {
 		}
 	}
 
-	SDL_dimitry_timofeyevich_yazov = {
+	SDL_dimitry_timofeyevich_yazov = { ### Zhukov General ###
 		name = SDL_dimitry_timofeyevich_yazov
 		portraits = {
 			civilian = {
