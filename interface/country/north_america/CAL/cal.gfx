@@ -5,8 +5,73 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_focus_CAL_reaffirm_the_treaty_of_guadalupe_hidalgo"
+        textureFile = "gfx/interface/goals/CAL/CAL_reaffirm_the_treaty_of_guadalupe_hidalgo.dds"
+    }
+
+    spriteType = {
+        name = "GFX_focus_CAL_a_dangerous_game"
+        textureFile = "gfx/interface/goals/CAL/CAL_a_dangerous_game.dds"
+    }
+
+    spriteType = {
+        name = "GFX_focus_CAL_tighten_border_control"
+        textureFile = "gfx/interface/goals/CAL/CAL_tighten_border_control.dds"
+    }
+
+    spriteType = {
+        name = "GFX_focus_CAL_expand_the_volunteer_militias"
+        textureFile = "gfx/interface/goals/CAL/CAL_expand_the_volunteer_militias.dds"
+    }
+
+    spriteType = {
         name = GFX_focus_CAL_control_the_sixth_army
         textureFile = "gfx/interface/goals/CAL/CAL_control_the_sixth_army.dds"
+    }
+
+    spriteType = {
+        name = "GFX_focus_CAL_mercenary_gunmen_for_hire"
+        textureFile = "gfx/interface/goals/CAL/CAL_mercenary_gunmen_for_hire.dds"
+    }
+
+    spriteType = {
+        name = "GFX_focus_CAL_a_dangerous_game"
+        textureFile = "gfx/interface/goals/CAL/CAL_a_dangerous_game.dds"
+    }
+
+    spriteType = {
+        name = "GFX_focus_CAL_the_mexican_connection"
+        textureFile = "gfx/interface/goals/CAL/CAL_the_mexican_connection.dds"
+    }
+
+    spriteType = {
+        name = "GFX_focus_CAL_a_pioneer_republic"
+        textureFile = "gfx/interface/goals/CAL/CAL_a_pioneer_republic.dds"
+    }
+
+    spriteType = {
+        name = "GFX_focus_CAL_san_diego_fleet_command"
+        textureFile = "gfx/interface/goals/CAL/CAL_san_diego_fleet_command.dds"
+    }
+
+    spriteType = {
+        name = "GFX_focus_CAL_march_air_force_base"
+        textureFile = "gfx/interface/goals/CAL/CAL_march_air_force_base.dds"
+    }
+
+    spriteType = {
+        name = "GFX_focus_CAL_pacific_coast_economy_line"
+        textureFile = "gfx/interface/goals/CAL/CAL_pacific_coast_economy_line.dds"
+    }
+
+    spriteType = {
+        name = "GFX_focus_CAL_summon_the_general_staff"
+        textureFile = "gfx/interface/goals/CAL/CAL_summon_the_general_staff.dds"
+    }
+
+    spriteType = {
+        name = "GFX_focus_CAL_begin_preparations_for_war"
+        textureFile = "gfx/interface/goals/CAL/CAL_begin_preparations_for_war.dds"
     }
 
     spriteType = {
@@ -30,8 +95,18 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = GFX_focus_CAL_improved_rifle_designs
+        textureFile = "gfx/interface/goals/CAL/CAL_improved_rifle_designs.dds"
+    }
+
+    spriteType = {
         name = GFX_focus_CAL_form_the_fortieth_armored_division
         textureFile = "gfx/interface/goals/CAL/CAL_form_the_fortieth_armored_division.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_new_artillery_designs
+        textureFile = "gfx/interface/goals/CAL/CAL_new_artillery_designs.dds"
     }
 
     spriteType = {
@@ -47,6 +122,36 @@ spriteTypes = {
     spriteType = {
         name = GFX_focus_CAL_establishing_a_military_focused_economy
         textureFile = "gfx/interface/goals/CAL/CAL_establishing_a_military_focused_economy.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_american_gendarmerie
+        textureFile = "gfx/interface/goals/CAL/CAL_american_gendarmerie.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_militarize_civil_police
+        textureFile = "gfx/interface/goals/CAL/CAL_militarize_civil_police.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_initial_motorization_efforts
+        textureFile = "gfx/interface/goals/CAL/CAL_initial_motorization_efforts.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_anti_air_research
+        textureFile = "gfx/interface/goals/CAL/CAL_anti_air_research.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_revive_the_minutemen
+        textureFile = "gfx/interface/goals/CAL/CAL_revive_the_minutemen.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_reimplement_conscription
+        textureFile = "gfx/interface/goals/CAL/CAL_reimplement_conscription.dds"
     }
 
     spriteType = {
@@ -80,6 +185,41 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = GFX_focus_CAL_centralized_mp_command
+        textureFile = "gfx/interface/goals/CAL/CAL_centralized_mp_command.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_military_police_signal_corps
+        textureFile = "gfx/interface/goals/CAL/CAL_military_police_signal_corps.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_initial_mechanization_efforts
+        textureFile = "gfx/interface/goals/CAL/CAL_initial_mechanization_efforts.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_military_logistic_corps
+        textureFile = "gfx/interface/goals/CAL/CAL_military_logistic_corps.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_anti_tank_research
+        textureFile = "gfx/interface/goals/CAL/CAL_anti_tank_research.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_well_relegated_minutemen
+        textureFile = "gfx/interface/goals/CAL/CAL_well_relegated_minutemen.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_an_expanded_army_reserve
+        textureFile = "gfx/interface/goals/CAL/CAL_an_expanded_army_reserve.dds"
+    }
+
+    spriteType = {
         name = GFX_focus_CAL_a_permanent_liason_to_california
         textureFile = "gfx/interface/goals/CAL/CAL_a_permanent_liason_to_california.dds"
     }
@@ -102,6 +242,21 @@ spriteTypes = {
     spriteType = {
         name = GFX_focus_CAL_factories_under_military_oversight
         textureFile = "gfx/interface/goals/CAL/CAL_factories_under_military_oversight.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_new_american_military_policeman
+        textureFile = "gfx/interface/goals/CAL/CAL_new_american_military_policeman.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_reactivate_destroyed_divisions
+        textureFile = "gfx/interface/goals/CAL/CAL_reactivate_destroyed_divisions.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_revitalized_military_medical_infrastructure
+        textureFile = "gfx/interface/goals/CAL/CAL_revitalized_military_medical_infrastructure.dds"
     }
 
     spriteType = {
@@ -130,6 +285,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = GFX_focus_CAL_an_army_ready_for_war
+        textureFile = "gfx/interface/goals/CAL/CAL_an_army_ready_for_war.dds"
+    }
+
+    spriteType = {
         name = GFX_focus_CAL_the_beaver_and_the_eagle_march_together
         textureFile = "gfx/interface/goals/CAL/CAL_the_beaver_and_the_eagle_march_together.dds"
     }
@@ -137,5 +297,15 @@ spriteTypes = {
     spriteType = {
         name = GFX_focus_CAL_a_proper_war_economy
         textureFile = "gfx/interface/goals/CAL/CAL_a_proper_war_economy.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_final_preparations
+        textureFile = "gfx/interface/goals/CAL/CAL_final_preparations.dds"
+    }
+
+    spriteType = {
+        name = GFX_focus_CAL_set_the_war_plans_in_motion
+        textureFile = "gfx/interface/goals/CAL/CAL_set_the_war_plans_in_motion.dds"
     }
 }

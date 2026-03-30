@@ -331,7 +331,7 @@ shared_focus = {
 	y = 0
     completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_long_dead_march_west"
-		custom_effect_tooltip = CAL_the_long_retreat_west_tooltip
+		custom_effect_tooltip = CAL_the_long_retreat_west_tt
         hidden_effect = {
 			CAL = {
 				country_event = { id = CAL_start.1 }
@@ -343,8 +343,8 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAL_re_affirm_the_treaty_of_guadalupe_hidalgo
-    icon = GFX_focus_the_long_retreat_west
+    id = CAL_reaffirm_the_treaty_of_guadalupe_hidalgo
+    icon = GFX_focus_CAL_reaffirm_the_treaty_of_guadalupe_hidalgo
 	cost = 1
 	available_if_capitulated = no
 	ai_will_do = {
@@ -360,13 +360,14 @@ shared_focus = {
     y = 1
     relative_position_id = CAL_the_long_dead_march_west
     completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_re_affirm_the_treaty_of_guadalupe_hidalgo"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reaffirm_the_treaty_of_guadalupe_hidalgo"
+        
 	}
 }
 
 shared_focus = {
     id = CAL_a_dangerous_game
-    icon = GFX_focus_the_long_retreat_west
+    icon = GFX_focus_CAL_a_dangerous_game
 	cost = 1
 	available_if_capitulated = no
 	ai_will_do = {
@@ -376,13 +377,13 @@ shared_focus = {
         focus = CAL_the_long_dead_march_west
     }
     mutually_exclusive = {
-        focus = CAL_re_affirm_the_treaty_of_guadalupe_hidalgo
+        focus = CAL_reaffirm_the_treaty_of_guadalupe_hidalgo
     }
     x = 3
     y = 1
     relative_position_id = CAL_the_long_dead_march_west
     completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_re_affirm_the_treaty_of_guadalupe_hidalgo"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_dangerous_game"
 	}
 }
 
@@ -412,18 +413,18 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_tighten_border_control
-    icon = GFX
+    icon = GFX_focus_CAL_tighten_border_control
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_re_affirm_the_treaty_of_guadalupe_hidalgo
+        focus = CAL_reaffirm_the_treaty_of_guadalupe_hidalgo
     }
     x = -1
     y = 1
-    relative_position_id = CAL_re_affirm_the_treaty_of_guadalupe_hidalgo
+    relative_position_id = CAL_reaffirm_the_treaty_of_guadalupe_hidalgo
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_tighten_border_control"
     }
@@ -431,18 +432,18 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_expand_the_volunteer_militias
-    icon = GFX
+    icon = GFX_focus_CAL_expand_the_volunteer_militias
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
 		factor = 1
 	}
     prerequisite = {
-        focus = CAL_re_affirm_the_treaty_of_guadalupe_hidalgo
+        focus = CAL_reaffirm_the_treaty_of_guadalupe_hidalgo
     }
     x = 1
     y = 1
-    relative_position_id = CAL_re_affirm_the_treaty_of_guadalupe_hidalgo
+    relative_position_id = CAL_reaffirm_the_treaty_of_guadalupe_hidalgo
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_volunteer_militias"
         add_manpower = 10000
@@ -454,7 +455,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_mercenary_gunmen_for_hire
-    icon = GFX
+    icon = GFX_focus_CAL_mercenary_gunmen_for_hire
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -477,7 +478,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_the_mexican_connection
-    icon = GFX
+    icon = GFX_focus_CAL_the_mexican_connection
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -496,7 +497,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_a_pioneer_republic
-    icon = GFX
+    icon = GFX_focus_CAL_a_pioneer_republic
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -515,7 +516,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_san_diego_fleet_command
-    icon = GFX
+    icon = GFX_focus_CAL_san_diego_fleet_command
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -573,7 +574,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_summon_the_general_staff
-    icon = GFX
+    icon = GFX_focus_CAL_summon_the_general_staff
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -599,7 +600,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_begin_preparations_for_war
-    icon = GFX
+    icon = GFX_focus_CAL_begin_preparations_for_war
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -737,7 +738,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_improved_rifle_designs
-    icon = GFX
+    icon = GFX_focus_CAL_improved_rifle_designs
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -799,7 +800,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_new_artillery_designs
-    icon = GFX
+    icon = GFX_focus_CAL_new_artillery_designs
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -1013,7 +1014,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_american_gendarmerie
-    icon = GFX
+    icon = GFX_focus_CAL_american_gendarmerie
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -1032,7 +1033,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_militarize_civil_police
-    icon = GFX
+    icon = GFX_focus_CAL_militarize_civil_police
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -1051,7 +1052,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_initial_motorization_efforts
-    icon = GFX
+    icon = GFX_focus_CAL_initial_motorization_efforts
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -1099,7 +1100,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_anti_air_research
-    icon = GFX
+    icon = GFX_focus_CAL_anti_air_research
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -1367,7 +1368,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_centralized_mp_command
-     icon = GFX
+     icon = GFX_focus_CAL_centralized_mp_command
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -1386,7 +1387,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_military_police_signal_corps
-    icon = GFX
+    icon = GFX_focus_CAL_military_police_signal_corps
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -1405,7 +1406,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_initial_mechanization_efforts
-    icon = GFX
+    icon = GFX_focus_CAL_initial_mechanization_efforts
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -1424,7 +1425,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_military_logistic_corps
-    icon = GFX
+    icon = GFX_focus_CAL_military_logistic_corps
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -1448,7 +1449,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_anti_tank_research
-    icon = GFX
+    icon = GFX_focus_CAL_anti_tank_research
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -1467,7 +1468,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_well_relegated_minutemen
-    icon = GFX
+    icon = GFX_focus_CAL_well_relegated_minutemen
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -1486,7 +1487,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_an_expanded_army_reserve
-    icon = GFX
+    icon = GFX_focus_CAL_an_expanded_army_reserve
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -1704,7 +1705,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_the_new_american_military_policeman
-     icon = GFX
+     icon = GFX_focus_CAL_new_american_military_policeman
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -1726,7 +1727,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_reactivate_destroyed_divisions
-     icon = GFX
+     icon = GFX_focus_CAL_reactivate_destroyed_divisions
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -1937,7 +1938,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_an_army_ready_for_war
-    icon = GFX
+    icon = GFX_focus_CAL_an_army_ready_for_war
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -2010,7 +2011,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_final_preparations
-    icon = GFX
+    icon = GFX_focus_CAL_final_preparations
     cost = 2
     available_if_capitulated = no
 	ai_will_do = {
@@ -2041,7 +2042,7 @@ shared_focus = {
 
 shared_focus = {
     id = CAL_set_the_war_plans_in_motion
-    icon = GFX
+    icon = GFX_focus_CAL_set_the_war_plans_in_motion
     cost = 2
     available_if_capitulated = no
     ai_will_do = {

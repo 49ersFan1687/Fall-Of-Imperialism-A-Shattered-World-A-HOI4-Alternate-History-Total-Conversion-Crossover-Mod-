@@ -273,9 +273,6 @@ characters = {
 		gender = female
 	}
 
-
-
-
     ###############################################################
 	### Second Continental Army/AKB Clique Generals - Level Two ###
 	###############################################################
@@ -351,9 +348,6 @@ characters = {
 		}
 		gender = female
 	}
-
-	
-	
 
 	CSD_asuka_kuramochi = {
 		name = CSD_asuka_kuramochi

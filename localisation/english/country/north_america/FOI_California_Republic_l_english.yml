@@ -13,8 +13,14 @@ CAL_start.2.t: ""
 CAL_start.2.d: ""
 CAL_start.2.a: ""
 
+######################################
+### Tooltips - California Republic ###
+######################################
+CAL_the_long_retreat_west_tt: "§YOur country may have been shattered by the evils of National Socialism, but we will return!§!"
 
+###############################################
 ### Political Parties - California Republic ###
+###############################################
 CAL_communism_party: "CPUSA"
 CAL_communism_party_long: "§YCommunist Party of the United States of America§!"
 CAL_socialism_party: "IWW [L]"
@@ -113,7 +119,7 @@ CAL_felix_budwell_stump: "Felix Budwell Stump"
 ###########################################
 ### Character Localization - Scientists ###
 ###########################################
-
+CAL_niels_henrik_david_bohr: "Niels Henrik David Bohr"
 
 ###########################################
 ### Character Localization - Operatives ###
