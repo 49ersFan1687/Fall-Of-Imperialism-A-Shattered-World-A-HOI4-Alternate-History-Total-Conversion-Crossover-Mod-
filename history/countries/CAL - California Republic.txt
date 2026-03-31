@@ -139,3 +139,4 @@ recruit_character = CAL_felix_budwell_stump
 ##################
 ### Scientists ###
 ##################
+recruit_character = CAL_niels_henrik_david_bohr

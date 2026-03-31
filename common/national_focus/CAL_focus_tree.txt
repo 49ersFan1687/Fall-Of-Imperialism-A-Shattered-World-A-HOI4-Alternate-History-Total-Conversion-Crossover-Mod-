@@ -752,6 +752,7 @@ shared_focus = {
     relative_position_id = CAL_expand_the_california_national_guard
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_improved_rifle_designs"
+        
     }
 }
 
@@ -15887,12 +15888,70 @@ shared_focus = {
     available = {
         has_country_flag = CAL_bonesteels_america
     }
-    x = 22
+    x = 25
     y = 0
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus CAL_the_american_casear_takes_his_seat"
     }
 }
+
+shared_focus = {
+    id = CAL_caesars_vision_for_america
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_american_casear_takes_his_seat
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_american_casear_takes_his_seat
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_caesars_vision_for_america"
+    }
+}
+
+shared_focus = {
+    id = CAL_bonesteels_
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_american_casear_takes_his_seat
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_american_casear_takes_his_seat
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_caesars_vision_for_america"
+    }
+}
+
+shared_focus = {
+    id = CAL_caesars_vision_for_america
+    icon = GFX
+    cost = 3
+    available_if_capitulated = no
+    ai_will_do = {
+        factor = 1
+    }
+    prerequisite = {
+        focus = CAL_the_american_casear_takes_his_seat
+    }
+    x = 0
+    y = 1
+    relative_position_id = CAL_the_american_casear_takes_his_seat
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus CAL_caesars_vision_for_america"
+    }
+}
+
 ###################################################################################################################
 ### Focus Tree - Post-Unification: Military Democracy - Dwight David Eisenhower -  Initial Political Focus Tree ###
 ###################################################################################################################

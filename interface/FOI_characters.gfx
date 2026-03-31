@@ -1,12 +1,28 @@
 spriteTypes = {
 	# SDNL #
 	spriteType = {
+		name = "GFX_SDNL_Budyonny"
+		textureFile = "gfx/leaders/SDL/Portrait_SDL_semyon_mikhailovich_budyonny.dds"
+	}
+	spriteType = {
 		name = "GFX_SDNL_Tukhachevsky"
 		textureFile = "gfx/leaders/SDL/Portrait_SDL_mikhail_nikolayevich_tukhachevsky.dds"
 	}
 	spriteType = {
 		name = "GFX_SDNL_Zhukov"
 		textureFile = "gfx/leaders/SDL/Portrait_SDL_georgy_konstantinovich_zhukov.dds"
+	}
+	spriteType = {
+		name = "GFX_SDNL_Frunze"
+		textureFile = "gfx/leaders/SDL/Portrait_SDL_mikhail_vasilievich_frunze.dds"
+	}
+	spriteType = {
+		name = "GFX_SDNL_Yazov"
+		textureFile = "gfx/leaders/SDL/Portrait_SDL_Dimitry_Timofeyevich_Yazov.dds"
+	}
+	spriteType = {
+		name = "GFX_SDNL_Sokolovsky"
+		textureFile = "gfx/leaders/SDL/Portrait_SDL_Vasily_Danilovich_Sokolovsky.dds"
 	}
 
 	# German Faction #
