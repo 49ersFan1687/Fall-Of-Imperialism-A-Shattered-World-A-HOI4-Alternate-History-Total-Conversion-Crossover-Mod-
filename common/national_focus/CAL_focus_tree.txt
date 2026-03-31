@@ -361,7 +361,14 @@ shared_focus = {
     relative_position_id = CAL_the_long_dead_march_west
     completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_reaffirm_the_treaty_of_guadalupe_hidalgo"
-        
+        custom_effect_tooltip = CAL_protecting_our_borders_tt
+        hidden_effect = {
+            CAL = {
+                country_event = { id = CAL_start.2 }
+            }
+        }
+        add_political_power = 15
+        add_stability = 0.05
 	}
 }
 
@@ -384,6 +391,14 @@ shared_focus = {
     relative_position_id = CAL_the_long_dead_march_west
     completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_dangerous_game"
+        custom_effect_tooltip = CAL_mexican_negotations_tt
+        hidden_effect = {
+            CAL = {
+                country_event = { id = CAL_start.3 }
+            }
+        }
+        add_political_power = 15
+        add_stability = 0.05
 	}
 }
 

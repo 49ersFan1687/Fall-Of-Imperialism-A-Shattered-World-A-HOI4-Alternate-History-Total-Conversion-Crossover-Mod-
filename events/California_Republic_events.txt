@@ -48,6 +48,20 @@ country_event = {
     }
 }
 
+country_event = {
+    id = CAL_start.3
+    title = CAL_start.3.t
+    desc = CAL_start.3.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = CAL_start.3.a
+    }
+}
+
 ########################################
 #### California Pre-Regional Events ####
 ########################################
