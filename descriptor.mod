@@ -1,10 +1,9 @@
-version="0.00.02"
+version="0.01"
 tags={
 	"Alternative History"
 }
-name="Fall of Imperialism: A Shattered World"
-supported_version="1.17.*"
-picture = fallofimperialismthumbnail.png
+name="FoI"
+supported_version="1.17.5.2"
 replace_path="common/characters"
 replace_path="common/decisions"
 replace_path="common/decisions/categories"
@@ -56,4 +55,3 @@ replace_path="common/technologies"
 replace_path="common/dynamic_modifiers"
 replace_path="history/units"
 replace_path="history/states"
-#replace_path="map/strategicregions"
