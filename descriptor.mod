@@ -1,13 +1,9 @@
 version="0.00.02"
 tags={
 	"Alternative History"
-	"National Focuses"
-	"Technologies"
-	"Military"
-	"Ideologies"
 }
 name="Fall of Imperialism: A Shattered World"
-supported_version="1.17.0"
+supported_version="1.17.*"
 picture = fallofimperialismthumbnail.png
 replace_path="common/characters"
 replace_path="common/decisions"
